@@ -34,7 +34,7 @@ export const camaridiumCarinatum = {
         horario: "Somente início da manhã",
         observacoes: "Prefere luminosidade média filtrada. Folhas muito escuras e crescimento frouxo sugerem sombra excessiva; amarelecimento forte, aquecimento e manchas secas apontam excesso de exposição."
     },
-    floracao: "Pode florescer em praticamente qualquer época do ano, dependendo da maturação dos pseudobulbos. Cada inflorescência basal é curta e uniflora, com flor em torno de 3 cm; tonalidades podem variar entre creme, amarelo, bronze e alaranjado conforme o indivíduo.",
+    floracao: "Pode florescer em diferentes épocas do ano conforme a maturação dos pseudobulbos. Há registro brasileiro de floração em maio, mas ainda faltam observações mensais suficientes para confirmar todos os meses do calendário. As hastes curtas surgem na base dos pseudobulbos e trazem uma flor cada, com cerca de 3 cm, em tons de creme a amarelo; algumas formas apresentam nuances alaranjadas ou marcas castanhas. O labelo é trilobado e se destaca no centro da flor. Não há descrição específica suficientemente consistente do perfume nem da duração de cada flor em dias, por isso essas características permanecem sem estimativa.",
     adubacao: "🌿 Orgânica: Bokashi em pequena quantidade, preferencialmente em porta-adubo na borda do recipiente durante crescimento.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose a cada 10 a 15 dias durante formação dos pseudobulbos.\n🧪 Liberação lenta: poucos grânulos e sempre afastados de brotos e raízes novas. Faça lavagem mensal do substrato com água pura.",
     rega: "Durante crescimento ativo, regue bem e permita que a camada superficial e parte da intermediária arejem antes da próxima irrigação. Não mantenha o recipiente permanentemente saturado. Depois da maturação, aumente moderadamente o intervalo sem impor seca prolongada. Prefira regas pela manhã para que bainhas e brotações sequem antes da noite.",
     suporte: "🥇 Cesto ou cachepô largo e raso, acompanhando a expansão horizontal do rizoma.\n🥈 Vaso tipo bacia, de barro ou plástico, com muitos furos.\n🥉 Placa robusta de cortiça ou madeira, apenas onde a umidade permita regas frequentes.",
@@ -261,7 +261,7 @@ export const camaridiumCarinatum = {
         litoralQuente: { texto: "Muito boa quando cultivada com ventilação constante, recipiente raso e substrato arejado. O calor é tolerável, desde que as bainhas não permaneçam molhadas à noite." },
         montanhaFrio: { texto: "Em períodos frios e nublados, aumente os intervalos de rega conforme a menor evaporação, sem desidratar os pseudobulbos." }
     },
-    mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    mesesFloracao: [5],
     "selosCultivo": {
         "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
