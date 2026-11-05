@@ -36,7 +36,7 @@ export const rodrigueziaLanceolata = {
         "horario": "Início da manhã ou final da tarde",
         "observacoes": "Prefere meia-sombra clara. Folhas firmes e verde-médio indicam bom equilíbrio. Sombra excessiva reduz a emissão de hastes; sol forte aquece as folhas e desidrata rapidamente as raízes finas."
     },
-    "floracao": "Mais frequente do fim do inverno ao verão, aproximadamente de agosto a fevereiro, podendo ocorrer fora desse intervalo. As hastes arqueadas ou pendentes ficam mais bem apresentadas quando a planta é mantida suspensa e com espaço livre ao redor.",
+    "floracao": "No Brasil, a Rodriguezia lanceolata pode florescer em diferentes épocas do ano. Um acompanhamento de 107 plantas na Amazônia Maranhense registrou flores do final de janeiro ao início de abril, com maior concentração em fevereiro. Outros registros brasileiros documentam flores em julho, outubro, novembro e dezembro, mostrando que não existe um único período rígido. O calendário destaca esses meses documentados, sem marcar agosto e setembro apenas por estarem entre duas épocas. As hastes arqueadas ou pendentes podem medir até cerca de 35 cm e apresentam numerosas flores pequenas, de aproximadamente 1 a 3 cm conforme o exemplar, geralmente rosa, lilás ou vermelho-púrpura, voltadas para o mesmo lado da haste. O perfume não é uma característica confirmada: orquidários brasileiros descrevem a espécie como não perfumada. No estudo realizado no Maranhão, cada flor permaneceu aberta em média 9 dias, com variação de cerca de 2 dias, enquanto a inflorescência durou em média 14 dias, com variação de cerca de 3 dias. Esses números são medições de uma população brasileira, não uma garantia para todos os ambientes de cultivo.",
     "adubacao": "🌿 Orgânica: bokashi em sachê pequeno, afastado das raízes e do centro da touceira.\n💧 Mineral/Foliar: NPK equilibrado bem diluído a cada 7–15 dias durante brotação e enraizamento.\n🌱 Crescimento: mantenha nutrição leve enquanto houver raízes novas ativas.\n🧪 Liberação lenta: Osmocote em dose reduzida apenas em vasos/cachepôs muito drenantes.\n🚿 Lavagem: enxágue periodicamente o suporte para evitar acúmulo de sais.",
     "rega": "Regue com frequência nos meses quentes e durante emissão de brotos e raízes novas. Em plantas montadas, regas diárias podem ser necessárias no verão, desde que as raízes sequem rapidamente. Em vasos, permita leve secagem entre irrigações. No frio ou em períodos chuvosos, reduza a frequência.",
     "suporte": "🥇 Cachepô pequeno de madeira — excelente equilíbrio entre retenção e ventilação.\n🥈 Tronco, placa de madeira ou cortiça — reproduz muito bem o hábito epífito.\n🥉 Vaso pequeno e muito vazado — opção prática em ambientes mais secos.\nEvite recipientes grandes ou fundos.",
@@ -216,15 +216,7 @@ export const rodrigueziaLanceolata = {
         "litoralQuente": "Em Litoral de clima quente, adaptação excelente. Cultive suspensa, com ventilação constante, rega matinal e secagem rápida.",
         "montanhaFrio": "Tolera noites amenas; proteja de geadas, frio intenso e substrato permanentemente úmido no inverno."
     },
-    "mesesFloracao": [
-        8,
-        9,
-        10,
-        11,
-        12,
-        1,
-        2
-    ],
+    "mesesFloracao": [1, 2, 3, 4, 7, 10, 11, 12],
     "selosCultivo": {
         "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "quente" }
