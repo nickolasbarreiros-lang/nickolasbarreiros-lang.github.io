@@ -105,3 +105,10 @@ Não calcular nota sem medições comparáveis.
 - `substratoVisual.itens` contém **cinco componentes**, proporções **35 + 25 + 20 + 10 + 10 = 100%**; a mistura principal mantém percentuais exclusivamente nesse bloco.
 - `substrato` contém **duas misturas alternativas qualitativas**, sem percentuais, conforme o padrão editorial.
 - **Limites:** verificação estrutural por leitura do código; não demonstra renderização em navegador, adequação botânica das fotos ou homologação experimental MACS.
+
+## Reconferência matemática e coerência dos índices — 2026-11-04
+- **IDC 3.2:** pesos 15+15+10+10+10+10+10+20 = 100. Soma ponderada das notas de dificuldade: 2×15 + 2×15 + 2×10 + 1×10 + 2×10 + 1×10 + 1×10 + 2×20 = **170**; índice normalizado = 170/5 = **34/100**. Faixa 26–35: **Fácil, 4 estrelas**. A classificação textual `dificuldade: "Fácil"` está coerente.
+- **IAR 2.0, litoral quente:** pesos 30+30+5+5+5+5+20 = 100. Soma ponderada = 3×30 + 3×30 + 4×5 + 4×5 + 4×5 + 4×5 + 3×20 = **320**; índice = 320/5 = **64/100**, 4 estrelas conforme campo publicado.
+- **IAR 2.0, montanha fria:** soma ponderada = 5×30 + 5×30 + 4×5 + 4×5 + 4×5 + 4×5 + 5×20 = **480**; índice = 480/5 = **96/100**, 5 estrelas conforme campo publicado.
+- **Nota metodológica:** os cálculos estão corretos para as notas atribuídas, mas as notas são avaliações editoriais baseadas em fontes e **não** validação experimental de adaptação ou da receita MACS.
+- **Floração:** `mesesFloracao: [8,9,10,11]` coincide com a janela de acompanhamento descrita no texto; a própria ficha agora ressalva que não é calendário comprovado para todas as regiões.
