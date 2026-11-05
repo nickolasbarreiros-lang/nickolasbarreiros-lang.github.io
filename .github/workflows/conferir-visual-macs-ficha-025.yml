@@ -39,6 +39,8 @@ jobs:
             if(await cultivation.count()!==1)throw Error('Componente visual de cultivo ausente ou duplicado');
             const cultivationMethods=page.locator('.formas-cultivo-v4 .forma-principal-v4, .formas-cultivo-v4 .alternativa-forma-v41');
             if(await cultivationMethods.count()!==4)throw Error('Esperados 1 principal + 3 alternativas; encontrados '+await cultivationMethods.count());
+            const unsupportedStars=await page.locator('.formas-cultivo-v4 [data-estrelas], .formas-cultivo-v4 .estrelas').allTextContents();
+            if(unsupportedStars.some(t=>/[★☆]/.test(t)))throw Error('Ranking visual de suportes sem homologação MACS: '+unsupportedStars.join(' | '));
             const cultivationText=await cultivation.innerText();
             if(!cultivationText.includes('Vaso plástico')||!cultivationText.includes('Cachepô de Madeira')||!cultivationText.includes('Vaso plástico vasado')||!cultivationText.includes('Placa / tronco'))throw Error('Métodos de cultivo divergentes');
             const section=page.locator('.substrato-visual-v4');
@@ -59,7 +61,7 @@ jobs:
             const mainParts=await page.locator('.ingrediente-substrato-v4 .proporcao-substrato-v4').allTextContents();
             if(mainParts.map(s=>s.trim()).join('|')!=='55%|25%|10%|10%')throw Error('Proporções principais divergentes: '+mainParts.join(' | '));
             const photos=images.filter(img=>decodeURIComponent(img.src||'').includes('Oncidium Twinkle/'));
-            if(new Set(photos.map(img=>img.src)).size!==4)throw Error('Esperadas quatro fotos da ficha; encontradas '+photos.length);
+            if(photos.length!==4||new Set(photos.map(img=>img.src)).size!==4)throw Error('Esperadas quatro fotos distintas da ficha; encontradas '+photos.length);
             const badge=await page.locator('.forma-principal-v4').first().evaluate(el=>{const b=el.getBoundingClientRect();const p=getComputedStyle(el,'::after');return {width:b.width,right:p.right,transform:p.transform}});
             if(badge.transform!=='none'||parseFloat(badge.right)<0)throw Error('Selo de recomendação ainda deslocado: '+JSON.stringify(badge));
             if(errors.length)throw Error('Erros JavaScript: '+errors.join(' | '));
