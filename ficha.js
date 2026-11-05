@@ -1018,6 +1018,7 @@ function rotuloDificuldadeCultivo(valor) {
     const original = String(valor || "").trim();
     const normalizado = original.toLowerCase();
 
+    if (normalizado.includes("muito fácil") || normalizado.includes("muito facil")) return "muito fácil";
     if (normalizado.includes("fácil") || normalizado.includes("facil")) return "fácil";
     if (normalizado.includes("moder")) return "moderado";
     if (normalizado.includes("difícil") || normalizado.includes("dificil") || normalizado.includes("avanç")) return "avançado";
