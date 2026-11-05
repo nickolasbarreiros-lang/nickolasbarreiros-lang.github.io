@@ -50,7 +50,7 @@ export const brassiaLawrenceana = {
             { nome: "Cachepô de Madeira", asset: "brassia-lawrenceana-cesto", estrelas: null, status: "Preferência técnica provisória", texto: "Mantém raízes arejadas e permite acomodar a expansão dos pseudobulbos; exige regas ajustadas à secagem do substrato." },
             { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa provisória", texto: "Boa estabilidade e troca de ar; observar a secagem mais rápida em períodos quentes." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa provisória", texto: "Retém umidade por mais tempo; usar mistura aberta e controlar as irrigações." },
-            { nome: "Vaso plástico", asset: "vaso-plastico-vasado", estrelas: null, status: "Com restrições", texto: "Usar vaso pequeno e substrato muito aerado; controlar cuidadosamente a umidade para evitar encharcamento." }
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Com restrições", texto: "Usar vaso pequeno e substrato muito aerado; controlar cuidadosamente a umidade para evitar encharcamento." }
         ]
     },
     substratoVisual: {
