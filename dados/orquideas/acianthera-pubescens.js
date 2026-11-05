@@ -34,7 +34,7 @@ export const aciantheraPubescens = {
     floracao: "Pode florescer praticamente em qualquer época do ano, de acordo com referências orquidológicas. A ampla distribuição e a diversidade de procedências tornam inadequado restringir a espécie a poucos meses; a emissão floral depende mais do clone, maturação dos ramicaules e microclima.",
     adubacao: "🌿 Orgânica: bokashi em dose pequena, sempre isolado em sachê e apenas durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração, aproximadamente 1/4 da dose do fabricante, a cada 10 a 15 dias com raízes ativas.\n🧪 Liberação lenta: usar somente pequenas quantidades em cultivo envasado. Como as raízes são finas, faça lavagens periódicas com água de baixa salinidade e reduza a adubação se pontas radiculares escurecerem ou houver depósitos brancos no substrato.",
     rega: "Regue regularmente, mantendo as raízes hidratadas sem saturação contínua. Plantas montadas podem exigir rega diária ou quase diária no verão litorâneo; vasos devem perder parte da umidade superficial antes da próxima irrigação. Ajuste a frequência à procedência: clones de ambientes montanos geralmente apreciam umidade constante com temperaturas mais amenas e excelente ventilação.",
-    suporte: ["🥇 Vaso pequeno e muito drenado.", "🥈 Placa de madeira, cortiça ou tronco com pequena reserva de musgo.", "🥉 Cachepô pequeno e ventilado, adequado a touceiras adultas."],
+    suporte: ["🥇 Placa de madeira, cortiça ou tronco com pequena reserva de musgo.", "🥈 Cachepô pequeno e ventilado, adequado a touceiras adultas.", "🥉 Vaso pequeno e muito drenado, como alternativa para raízes finas."],
     substrato: ["Casca de pinus fina + casca de arroz carbonizada + carvão vegetal pequeno","Casca de pinus fina + perlita grossa + esfagno de fibra longa solto"],
     formasCultivo: {
         perfilVisual: "micro-pleurothalidina",
@@ -53,7 +53,7 @@ export const aciantheraPubescens = {
         contexto: "Para cultivo em vaso",
         resumo: "Mistura leve, muito aerada e de retenção moderada, adequada a raízes finas que pedem umidade regular sem compactação.",
         justificativa: "Acianthera pubescens é uma epífita de crescimento rasteiro, sem pseudobulbos verdadeiros, cujas raízes precisam de umidade regular e boa oxigenação. Em vaso pequeno, a casca de pinus oferece apoio, a casca de arroz carbonizada e o carvão preservam espaços de ar e o esfagno solto mantém uma pequena reserva de umidade. Evite compactação e ajuste as regas para que a mistura seque parcialmente sem desidratar de forma abrupta.",
-        receitaTexto: "Mistura para vaso pequeno e drenante: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto.",
+        receitaTexto: "Mistura técnica NÃO HOMOLOGADA para vaso pequeno e drenante: 35% casca de pinus fina/média + 30% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto.",
         perfil: ["Raízes finas", "Alta aeração", "Umidade frequente", "Secagem moderada", "Baixa compactação", "Rizoma livre"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -75,7 +75,7 @@ export const aciantheraPubescens = {
         "nome": "Acianthera pubescens",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma espécie de aparência extremamente variável, o que torna cada planta particularmente interessante. A Acianthera pubescens forma touceiras de folhas espessas e produz pequenas flores carnosas, geralmente claras ou rosadas, marcadas por manchas, listras ou tons púrpura. O nome pubescens faz referência à fina pilosidade presente nas flores, uma característica que fica ainda mai",
+        "morfologiaDimensoes": "Acianthera pubescens chama atenção pela diversidade de formas e pelo contraste delicado de suas flores. Forma touceiras de caules finos, cada um sustentando uma folha espessa, sem pseudobulbos verdadeiros. Sobre as folhas surgem pequenas inflorescências com flores creme-translúcidas, riscadas ou salpicadas de vinho; as sépalas possuem fina pilosidade externa, característica que inspirou o nome da espécie. O perfume pode variar entre populações e nem sempre é agradável. Encontrada em extensas áreas da América tropical, vive sobre árvores de florestas úmidas, desde regiões mais baixas até ambientes montanos. Sua aparência muda bastante conforme a procedência, tornando cada exemplar especialmente interessante para observação.",
         "habitatAltitudeClima": "Epífita de florestas densas e úmidas, com registros aproximadamente entre 500 e 1.900 m. | Quente a fresco conforme procedência; preferencialmente úmido e ventilado.",
         "distribuicaoGeografica": "Ampla distribuição neotropical: México, América Central, Caribe e grande parte da América do Sul, incluindo Brasil, Paraguai, Uruguai e nordeste da Argentina conforme bases taxonômicas modernas.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
