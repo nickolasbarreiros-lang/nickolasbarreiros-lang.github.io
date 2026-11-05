@@ -36,7 +36,7 @@ export const pleurothallisModestissima = {
         "horario": "",
         "observacoes": "Prefira sombra clara e ventilada. Como ocorre em ambiente sazonalmente seco, pode tolerar luminosidade um pouco maior que micro-orquídeas de mata nebular, desde que o suporte não aqueça."
     },
-    "floracao": "A fenologia pode variar e é pouco documentada nas fontes horticulturais confiáveis disponíveis. Em cultivo, observe principalmente a maturação dos novos crescimentos e evite fixar uma janela rígida. O calendário do site pode manter primavera/verão como referência prática até haver registro próprio mais consistente da planta da coleção.",
+    "floracao": "No Brasil, Acianthera modestissima floresce principalmente no verão. Um levantamento botânico registrou flores em março, na natureza, e em dezembro, em cultivo; por isso, dezembro a março é a janela de referência do calendário, sem pressupor floração contínua durante todos os meses. As inflorescências são muito curtas e discretas, surgindo junto às folhas e reunindo geralmente quatro a cinco flores pequenas, de cerca de 0,5 cm. As flores são vináceas, com sépalas laterais parcialmente unidas e labelo diminuto, exigindo observação próxima para apreciar seus detalhes. O Orquidário Serra do Mar informa duração aproximada de duas semanas para a floração. Não foi localizada descrição confiável de perfume característico da espécie; portanto, não se atribui aroma específico.",
     "adubacao": "🌿 Orgânica: bokashi apenas em microdose e afastado das raízes.\n💧 Mineral/Foliar: fertilizante equilibrado em cerca de 1/4 da dose a cada 15 dias durante crescimento ativo.\n🌱 Fase ativa: priorize regularidade em baixa concentração.\n🚿 Lavagem: água pura periodicamente para evitar acúmulo de sais em raízes finas.\n🧪 Liberação lenta: geralmente dispensável em recipientes muito pequenos.",
     "rega": "Regue bem e deixe o suporte perder parte da umidade antes da próxima rega. Não deixe a planta desidratar por longos períodos, mas evite esfagno permanentemente saturado. No calor, aumente a frequência sem sacrificar aeração; na fase menos ativa, aumente discretamente o intervalo.",
      "suporte": "Vaso plástico baixo e largo, com drenagem abundante, é a opção prática preferencial. O crescimento rasteiro precisa de espaço lateral e pouca profundidade de substrato.",
@@ -222,7 +222,7 @@ export const pleurothallisModestissima = {
         "litoralQuente": "Adaptação moderada a boa se cultivada em sombra clara, forte ventilação e suporte pequeno que não retenha calor. Evite assumir que ela precisa de frio apenas por ser uma micro-orquídea.",
         "montanhaFrio": "Boa adaptação, desde que o frio não venha acompanhado de substrato permanentemente molhado e pouca circulação de ar."
     },
-    "mesesFloracao": [10, 11, 12, 1, 2, 3],
+    "mesesFloracao": [12, 1, 2, 3],
     "selosCultivo": {
         "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
