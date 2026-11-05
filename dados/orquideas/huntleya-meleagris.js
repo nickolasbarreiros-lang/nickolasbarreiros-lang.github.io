@@ -19,18 +19,18 @@ export const huntleyaMeleagris = {
     regiao: "Trinidad · norte e centro da América do Sul (incl. Brasil)",
     habitat: "Florestas tropicais úmidas · epífita · altitude variável, inclusive 200–600 m em registros brasileiros.",
     clima: "Intermediário · úmido e muito ventilado.",
-    climaFloracao: "Registros brasileiros entre 200 e 600 m e referências de outras populações entre 600 e 1.300 m mostram amplitude ecológica; a espécie tolera condições de frescas a relativamente quentes, mas não significa que suporte calor noturno abafado. No litoral, o desafio é reproduzir o frescor e a umidade do interior da floresta sem manter as raízes sem oxigênio. Crescimento contínuo, água de baixa salinidade e noites um pouco mais amenas favorecem a formação de flores. Não possui repouso seco.",
+    climaFloracao: "Registros brasileiros entre 200 e 600 m e referências de outras populações entre 600 e 1.300 m mostram amplitude ecológica; a espécie tolera condições de frescas a relativamente quentes, mas não significa que suporte calor noturno abafado. No litoral, o desafio é reproduzir o frescor e a umidade do interior da floresta sem manter as raízes sem oxigênio. Crescimento contínuo e água de baixa salinidade favorecem o vigor; não há ensaio específico demonstrando que noites mais amenas sejam necessárias à indução floral. Não possui repouso seco.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
         horario: "Não permitido",
         observacoes: "Prefere luz semelhante à de Phalaenopsis bem iluminada, mas com muito mais circulação de ar. Folhas amareladas ou aquecidas indicam excesso; folhas muito escuras e crescimento fraco podem indicar sombra profunda demais."
     },
-    floracao: "Pode florescer da primavera ao outono, conforme a maturação dos novos leques. Cada haste normalmente sustenta uma flor grande, cerosa, variável e muito perfumada.",
+    floracao: "A matriz não apresenta levantamento fenológico brasileiro que comprove uma janela fixa de floração; o período pode variar entre populações e condições de cultivo. Cada haste normalmente sustenta uma flor grande, cerosa, variável e muito perfumada.",
     adubacao: "🌿 Orgânica: bokashi somente em quantidade mínima e em porta-adubo, sem contato com raízes ou coroa.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 7–10 dias durante o crescimento ativo.\n🧪 Liberação lenta: usar com muita cautela; adubação líquida diluída oferece maior controle.\n💦 Lavagem: mensalmente, lave o substrato com água de baixa salinidade para reduzir resíduos minerais.",
     rega: "Mantenha o substrato uniformemente úmido, mas nunca saturado. Como não possui pseudobulbos, a espécie sofre com secas prolongadas; ao mesmo tempo, as raízes também deterioram em meio quente e sem oxigênio. Regue pela manhã e garanta que água acumulada entre as folhas seque antes da noite.",
     suporte: "🥇 Vaso plástico raso, justo e bastante perfurado.\n🥈 Vaso de barro perfurado, onde a umidade ambiental seja alta.\n🥉 Cesto pequeno revestido internamente com esfagno solto, em local muito ventilado.",
-    substrato: ["Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de fibra de coco grossa preparada","Casca de pinus média + perlita grossa + argila expandida miúda + pequena fração de esfagno de fibra longa solto"],
+    substrato: ["Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de fibra de coco grossa lavada","Casca de pinus média + perlita grossa + argila expandida miúda + pequena fração de esfagno de fibra longa solto"],
     formasCultivo: {
         perfilVisual: "epifita-sem-pseudobulbos-folhas-leque",
         destaque: "Vaso plástico vasado",
@@ -46,8 +46,8 @@ export const huntleyaMeleagris = {
         titulo: "Substrato ideal",
         contexto: "Mistura para vaso raso e bastante perfurado",
         resumo: "Mistura aberta que retém umidade moderada e fornece oxigênio continuamente às raízes delicadas.",
-        justificativa: "Huntleya meleagris não forma pseudobulbos e precisa de umidade relativamente constante, sem secagem completa das raízes. Em vaso raso e bastante perfurado, a casca de pinus oferece estrutura, os chips de coco preparados ajudam a conservar umidade e a perlita e o carvão favorecem a aeração. Observe a secagem no centro do vaso e ajuste as regas à temperatura e à ventilação, evitando encharcamento.",
-        receitaTexto: "35% casca de pinus média + 35% chips de coco médios preparados + 20% perlita grossa + 10% carvão vegetal.",
+        justificativa: "A receita 35/35/20/10 é proposta horticultural não ensaiada especificamente em Huntleya meleagris; o Orquidário Paulista fornece orientação qualitativa, não homologação de percentuais. Huntleya meleagris não forma pseudobulbos e precisa de umidade relativamente constante, sem secagem completa das raízes. Em vaso raso e bastante perfurado, a casca de pinus oferece estrutura, os chips de coco lavados ajudam a conservar umidade e a perlita e o carvão favorecem a aeração. Observe a secagem no centro do vaso e ajuste as regas à temperatura e à ventilação, evitando encharcamento.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para a espécie: 35% casca de pinus média + 35% chips de coco médios lavados + 20% perlita grossa + 10% carvão vegetal.",
         perfil: ["Sem pseudobulbos", "Folhas em leque", "Alta umidade", "Raízes sensíveis", "Sombra clara"],
         comportamento: [
             { nome: "Retenção", valor: 4, icone: "💧" },
@@ -57,7 +57,7 @@ export const huntleyaMeleagris = {
         ],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Mantém espaços de ar ao redor das raízes." },
-            { asset: "chips-coco", nome: "Chips de coco médios preparados", proporcao: "35%", nota: "umidade", finalidade: "Ajuda a manter água disponível entre regas sem formar massa compacta." },
+            { asset: "chips-coco", nome: "Chips de coco médios lavados", proporcao: "35%", nota: "umidade", finalidade: "Ajuda a manter água disponível entre regas sem formar massa compacta." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Favorece oxigenação e drenagem." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "10%", nota: "estrutura", finalidade: "Complementa a porosidade da mistura." }
         ],
@@ -206,7 +206,7 @@ export const huntleyaMeleagris = {
         litoralQuente: { texto: "Cultivo exigente. Reserve o local mais fresco, sombreado e ventilado do orquidário, use água de boa qualidade e evite recipientes que superaqueçam. No verão, noites abafadas são o principal gargalo." },
         montanhaFrio: { texto: "Em ambiente protegido. Mantenha umidade constante e proteja de geadas ou frio excessivo." }
     },
-    mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
+    mesesFloracao: [],
     "selosCultivo": {
         "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "intermediario" }
