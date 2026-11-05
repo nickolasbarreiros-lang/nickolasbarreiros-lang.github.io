@@ -33,7 +33,7 @@ export const bulbophyllumElassonotum = {
         horario: "Não permitido",
         observacoes: "Prefere meia-sombra clara. Sombra excessiva favorece crescimento alongado e pode reduzir a floração; sol direto forte é arriscado em clima quente. Use a coloração e a firmeza das folhas como indicadores, ajustando gradualmente a luminosidade."
     },
-    floracao: "Registros de cultivo divergem entre outono, inverno e primavera-verão; não há base suficiente para fixar um único calendário no Brasil. A floração deve ser observada em cada planta e região.",
+    floracao: "No Brasil, março a maio é uma janela indicativa de floração de outono, conforme informação de cultivo do Orquidário Aparecida (https://orquidarioaparecida.com.br/produtos/bulbophyllum-elassonotum/). Há divergência entre produtores: o Orquidário Thomes indica primavera-verão (https://www.orquidariothomes.com.br/bulbophyllum-elassonotum-/prod-10064048/) e Bela Vista Orchids indica verão (https://www.bvorchids.com.br/produto/80/bulbophyllum-elassonotum). IOSPE registra inverno em sua área de origem, sem equivalência automática com meses brasileiros (https://www.orchidspecies.com/bulbelasonatum.htm). O calendário abaixo é uma referência horticultural de outono, não um período exclusivo ou comprovado para todas as procedências; acompanhe a resposta da planta no microclima local.",
     adubacao: "🌿 Orgânica: Bokashi opcional, em pequena quantidade e longe do rizoma.\n💧 Foliar/mineral: NPK equilibrado em aproximadamente 1/4 da dose, a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional em dose baixa para plantas em vaso/cesto.\nReduza a frequência quando não houver brotação ou enraizamento ativo, mas não faça uma interrupção drástica apenas porque a espécie floresce no inverno.",
     rega: "Mantenha umidade regular enquanto houver crescimento, molhando bem e drenando rapidamente. Entre regas, permita perda parcial de umidade, sem secagem total prolongada. No período mais fresco, ajuste a frequência à evaporação real. Populações de habitat sazonal toleram alguma redução hídrica, mas isso não equivale a repouso seco obrigatório.",
     suporte: "🥇 Cesto raso e largo, muito perfurado.\n🥈 Placa de cortiça ou madeira com fina camada de esfagno.\n🥉 Vaso baixo e amplo, com espaço para expansão horizontal.\nDeixe a inflorescência com área livre para arquear e pender.",
@@ -284,7 +284,7 @@ export const bulbophyllumElassonotum = {
         litoralQuente: { texto: "Boa sobretudo para procedências de baixa altitude. Compense noites quentes com ventilação constante e meio muito arejado." },
         montanhaFrio: { texto: "Boa a muito boa para procedências de altitude intermediária; evite frio intenso e substrato molhado por longos períodos em baixa evaporação." }
     },
-    mesesFloracao: [],
+    mesesFloracao: [3, 4, 5],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "intermediario" }
