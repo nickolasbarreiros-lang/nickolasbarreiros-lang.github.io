@@ -26,7 +26,7 @@ export const bulbophyllumRothschildianum = {
         horario: "Somente início da manhã",
         observacoes: "Prefere meia-sombra clara. Evite tanto sol forte, que aquece folhas e rizoma, quanto sombra profunda, que reduz maturação dos pseudobulbos e floração."
     },
-    floracao: "Duas janelas são bem documentadas: primavera e outono. Para o calendário brasileiro, março a maio e setembro a novembro são referências úteis, com deslocamentos conforme clone e microclima.",
+    floracao: "Orquidários brasileiros registram florações no outono e na primavera, e alguns exemplares florescem também durante o inverno. Assim, março a novembro é uma faixa de observação possível, não uma promessa de flores durante todos esses meses. As hastes formam um leque de quatro a dez flores vistosas, em tons de vermelho, vinho e púrpura, com sépalas muito alongadas que podem levar o conjunto floral a cerca de 17 cm. O perfume varia entre plantas e percepções: há relatos de notas frutadas, semelhantes a pêssego, e também de cheiro forte que lembra peixe. As flores costumam durar de uma a duas semanas, aproximadamente 7 a 14 dias.",
     adubacao: "🌿 Orgânica: Bokashi opcional em dose pequena e protegido em sachê.\n💧 Foliar/mineral: NPK equilibrado em cerca de 1/4 da dose a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: Osmocote em dose baixa em cestos ou vasos. Reduza após maturação e lave o substrato periodicamente com água limpa para evitar acúmulo de sais.",
     rega: "Durante brotação e enraizamento, ofereça água abundante e regular, sempre com drenagem rápida. Não deixe o meio secar completamente por vários dias. Em períodos mais frios ou de crescimento lento, reduza moderadamente a frequência, mas mantenha alguma umidade.",
     suporte: "🥇 Cesto raso e largo de madeira.\n🥈 Vaso tipo cuia muito perfurado.\n🥉 Cortiça ou madeira com pequena reserva de esfagno junto às raízes.\nDirecione a frente de crescimento para espaço livre.",
@@ -267,7 +267,7 @@ export const bulbophyllumRothschildianum = {
         litoralQuente: { texto: "É possível cultivar bem, mas noites muito quentes exigem ventilação constante, sombra clara e drenagem rápida." },
         montanhaFrio: { texto: "Especialmente com noites amenas; proteja apenas de geada e de encharcamento sob frio prolongado." }
     },
-    mesesFloracao: [3, 4, 5, 9, 10, 11],
+    mesesFloracao: [3, 4, 5, 6, 7, 8, 9, 10, 11],
     "selosCultivo": {
         "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
