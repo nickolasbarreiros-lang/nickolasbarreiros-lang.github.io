@@ -20,7 +20,7 @@
 ## Receita principal R0 — vaso plástico vasado pequeno
 | Material | Percentual | Asset |
 |---|---:|---|
-| Chips de coco pequenos preparados | 40% | `chips-coco` |
+| Chips de coco pequenos lavados | 40% | `chips-coco` |
 | Casca de pinus fina | 30% | `casca-pinus` |
 | Perlita de granulometria compatível com o vaso | 30% | `perlita` |
 | **Total** | **100%** | **Hipótese horticultural** |
@@ -42,3 +42,14 @@ Duas composições distintas entre si e da principal, sem percentuais inventados
 
 ## Parecer final
 **Revisão documental concluída.** Taxonomia, sinonímia, texto editorial, horário e coerência de granulometria corrigidos; receita totaliza 100%, duas alternativas distintas. **Homologação quantitativa de 40/30/30: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-05
+**Perfil:** miniatura epífita pseudobulbosa de raízes finas e delicadas, que precisam de umidade moderada e contínua durante o crescimento, mas não toleram compactação, abafamento ou saturação prolongada. O pequeno volume do vaso deve equilibrar reserva hídrica e secagem perceptível; regar conforme a evaporação e reduzir moderadamente no frio ou na menor atividade, sem repouso seco rígido. A granulometria da perlita deve ser compatível com o recipiente e as raízes, sem pressupor que material muito grosso seja sempre adequado.
+
+**Cultivo principal:** vaso plástico vasado, pequeno e baixo. **Receita em volume:** 40% chips de coco pequenos lavados (retenção) + 30% casca de pinus fina (suporte) + 30% perlita de granulometria adequada (aeração), total 100%. Proposta horticultural não testada especificamente no conceito histórico P. guttata nem no táxon aceito P. stapelioides subsp. xanthina. Fontes POWO, Flora do Brasil e Meneguzzo (2020) documentam a sinonímia e variação floral, não validam percentuais de substrato.
+
+**Duas alternativas qualitativas sem percentuais:** (1) esfagno de fibra longa solto + perlita de granulometria adequada a miniaturas; (2) casca de pinus fina + perlita de granulometria adequada a miniaturas + pequena fração de esfagno de fibra longa solto. Distintas entre si e da receita principal; coco lavado não dispensa eventual controle de salinidade.
+
+**Conferências editoriais:** descrição com 93 palavras (faixa 90–120). Chips de coco pequenos lavados padronizados na receita, item visual e justificativa; receita e justificativa passaram a declarar expressamente ausência de homologação específica. Campo de cultivo/premiação deixou de sugerir premiação não comprovada. Calendário fixo [10,11,12,1,2] removido por ausência de levantamento fenológico brasileiro suficiente; texto de floração preserva referência sazonal IOSPE sem atribuir meses universais. Selo de rega alterado de “sazonal” para “frequente/reduzir-inverno”, coerente com umidade regular e sem repouso seco rígido; selo de clima de floração retirou exigência de calor não comprovada e indica faixa amena, sem invalidar amplitude térmica relatada. Receita e itens visuais somam 40+30+30=100%; duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 54/100 e duas estrelas coerentes com IDC 3.2; IAR litoral 48/3 estrelas e montanha 97/5 estrelas preservados; estrelas dos suportes mantidas como avaliações horticulturais. Iluminação “Não permitido” para sol direto permanece coerente com horário. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; zero receitas quantitativas específicas de produtores brasileiros verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**. Nome histórico preservado por compatibilidade; não confundir sinonímia taxonômica com identidade de todos os clones cultivados.
