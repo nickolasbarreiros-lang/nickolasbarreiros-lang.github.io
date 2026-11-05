@@ -18,6 +18,12 @@ Para **cada ficha**, conferir o campo `mesesFloracao` e a coerência com o texto
 5. Confirmar que os meses exibidos no site correspondem ao array e que o texto não promete floração obrigatória ou exclusiva.
 6. Registrar no relatório da ficha a decisão, fontes, correção (se houver), testes e deploy. **Não avançar à ficha seguinte enquanto a pendência de floração da atual não tiver sido resolvida ou formalmente justificada e aceita.**
 
+## Auditoria obrigatória da descrição das flores
+Além da época de floração, o texto público do menu `floracao` deve descrever, em linguagem natural e concisa: aparência das flores (cores, formato e características distintivas), perfume (se existe e qual aroma, somente quando documentado) e duração aproximada das flores ou da inflorescência (quando documentada). Distinguir longevidade de uma flor individual da duração total de hastes com abertura sucessiva. Não inventar cheiro, duração, medidas ou meses: se o dado não for verificável, não afirmá-lo. Evitar URLs, nomes de fontes e linguagem de relatório na ficha pública; registrar referências, incertezas e confrontos na documentação interna. Verificar coerência com avaliações de perfume, morfologia, demais menus e calendário.
+
+### Aplicação retroativa
+Revisitar as fichas 001 a 009, incluindo a ficha 007 já publicada, para complementar o menu floração sem mudar a estrutura visual. Concluir cada ficha com documentação e verificações antes de avançar; a ficha 010 só será iniciada após esta revisão retroativa. Para espécies com dados insuficientes, registrar a lacuna de forma transparente, sem fabricar características.
+
 ## Auditoria obrigatória do menu Erros comuns
 Para **cada** item do array `errosComuns`:
 1. **Vínculo com a espécie**: verificar se o erro decorre de uma característica real de seu habitat, raízes, porte, crescimento, sazonalidade ou exigências para florir.
@@ -33,4 +39,4 @@ Para **cada** item do array `errosComuns`:
 Documentar: itens originais avaliados; quais foram mantidos, reescritos ou excluídos e por quê; fundamento botânico/horticultural; eventuais conflitos corrigidos em outros menus; evidências consultadas; resultado de testes e publicação. Não classificar como concluída uma ficha com verificação pendente.
 
 ## Ordem de trabalho
-Auditar IDC, IAR, MACS, calendário de floração, Erros comuns e apresentação visual como **um único ciclo por ficha**. A ficha 001, *Anathallis sclerophylla*, já teve correção matemática IDC publicada no commit `d04739a`; a auditoria específica de Erros comuns ainda deve ser executada antes de considerá-la concluída neste protocolo ampliado.
+Auditar IDC, IAR, MACS, calendário e descrição das flores, Erros comuns e apresentação visual como **um único ciclo por ficha**. A ficha 001, *Anathallis sclerophylla*, já teve correção matemática IDC publicada no commit `d04739a`; a auditoria específica de Erros comuns ainda deve ser executada antes de considerá-la concluída neste protocolo ampliado.
