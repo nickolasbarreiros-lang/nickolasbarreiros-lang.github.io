@@ -40,7 +40,7 @@ export const arpophyllumGiganteum = {
         destaque: "Vaso plástico",
         resumo: "Orquídea epífita cespitosa de grande porte. Em cultivo, desenvolve-se muito bem em recipiente estável, com substrato estrutural e arejado que preserve umidade moderada sem sufocar as raízes.",
         metodos: [
-            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Preferência técnica provisória", texto: "É a opção mais equilibrada para uma touceira adulta: mantém estabilidade, desacelera a perda de umidade e permite usar uma mistura muito aerada sem ressecar rapidamente." },
+            { nome: "Vaso plástico", asset: "arpophyllum-giganteum-vaso-plastico", estrelas: null, status: "Preferência técnica provisória", texto: "É a opção mais equilibrada para uma touceira adulta: mantém estabilidade, desacelera a perda de umidade e permite usar uma mistura muito aerada sem ressecar rapidamente." },
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa provisória", texto: "Excelente para touceiras grandes e para manter forte oxigenação das raízes, exigindo apenas maior atenção à frequência das regas." },
             { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa provisória", texto: "Oferece boa estabilidade e troca de ar pelas paredes porosas, mas seca mais rapidamente que o vaso plástico." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa provisória", texto: "Funciona bem em ambientes muito úmidos, porém aumenta a velocidade de secagem e pode exigir regas mais frequentes no litoral quente." }
