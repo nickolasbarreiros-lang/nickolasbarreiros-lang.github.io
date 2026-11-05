@@ -53,29 +53,29 @@ export const stelisCfAprica = {
     {
         "nome": "Vaso plástico vasado",
         "asset": "stelis-aprica-vaso-plastico",
-        "estrelas": 5,
-        "status": "Ideal",
+        "estrelas": null,
+        "status": "Preferência provisória",
         "texto": "Melhor escolha para manter umidade radicular mais uniforme. Use vaso pequeno e muito perfurado, com mistura leve e bastante aerada; nunca compacte o substrato ao redor da base."
     },
     {
         "nome": "Placa / tronco",
         "asset": "placa-madeira",
-        "estrelas": 4,
-        "status": "Muito recomendado",
+        "estrelas": null,
+        "status": "Alternativa provisória",
         "texto": "Compatível com o hábito epífito e excelente em aeração, porém seca mais depressa e exige regas mais frequentes, sobretudo no litoral quente."
     },
     {
         "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
-        "estrelas": 4,
-        "status": "Muito recomendado",
+        "estrelas": null,
+        "status": "Alternativa provisória",
         "texto": "Boa alternativa quando a umidade ambiental é alta; permite excelente circulação de ar e espaço para as raízes."
     },
     {
         "nome": "Árvore viva",
         "asset": "arvore-viva",
-        "estrelas": 3,
-        "status": "Adequado",
+        "estrelas": null,
+        "status": "Alternativa provisória",
         "texto": "Pode funcionar em jardim úmido e sombreado, mas oferece menos controle de hidratação que o vaso plástico."
     }
 ] },
@@ -153,7 +153,7 @@ export const stelisCfAprica = {
         "Orquidário 4 Estações"
     ]
 },
-    indiceDificuldadeCultivo: { versao:'IDC 3.2 — selo por facilidade', escala:'dificuldade', indice:29, classificacao:"Moderada", cultivoEstrelas:4, criterios:{
+    indiceDificuldadeCultivo: { versao:'IDC 3.2 — selo por facilidade', escala:'dificuldade', indice:11, classificacao:"Fácil", cultivoEstrelas:5, criterios:{
     "temperatura": {
         "notaDificuldade": 1,
         "peso": 15
@@ -189,7 +189,7 @@ export const stelisCfAprica = {
 }, faixas:{cincoEstrelas:'0–25',quatroEstrelas:'26–35',tresEstrelas:'36–50',duasEstrelas:'51–89',umaEstrela:'90–100'} },
     indiceAdaptacaoRegional: { versao:'IAR 2.0 — revisão científica', escala:'compatibilidade regional', metodo:'notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha', litoralQuente:{
     "indice": 80,
-    "estrelas": 4,
+    "estrelas": null,
     "fatores": {
         "habitatNatural": {
             "nota": 4,
@@ -222,7 +222,7 @@ export const stelisCfAprica = {
     }
 }, montanhaFrio:{
     "indice": 80,
-    "estrelas": 4,
+    "estrelas": null,
     "fatores": {
         "habitatNatural": {
             "nota": 4,
