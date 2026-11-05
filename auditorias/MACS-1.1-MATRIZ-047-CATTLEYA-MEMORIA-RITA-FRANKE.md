@@ -52,3 +52,16 @@ Estas são opções editoriais plausíveis, **não** receitas quantitativas expe
 - **Decisão:** manter receita R0, duas alternativas e classificação atual; não modificar estrelas/IDC/IAR por extrapolação não sustentada.
 
 **Regra de passagem:** a matriz seguinte pode ser iniciada somente após publicação deste parecer; o encerramento documental não será apresentado como homologação experimental.
+
+## Revisão de perfil radicular e hídrico — 2026-11-04
+**Perfil de referência:** híbrido epífito da aliança Cattleya, com rizoma simpodial e raízes que requerem alta aeração e ciclos de umedecimento e secagem parcial. A sensibilidade ao replante é inferida da linhagem *C. schilleriana* e da literatura de Cattleyas; não se mediram espessura radicular nem intervalos de secagem do indivíduo. Replantar preferencialmente no início da emissão de raízes novas.
+
+**Suporte principal:** vaso de barro pequeno, bem perfurado, rizoma acima da superfície, planta firmemente fixada. A secagem efetiva varia com tamanho do vaso, clima e rega.
+
+**Receita principal para recipiente, 100% em volume:** 83,3% casca de pinus média, base estrutural porosa e suporte radicular; 16,7% carvão vegetal horticultural, complemento de estrutura e espaços de ar. É adaptação da proporção 5:1 de **casca de abeto** com carvão descrita para Cattleyas em geral pelo Missouri Botanical Garden; a troca por pinus e o uso neste grex não foram ensaiados experimentalmente.
+
+**Duas alternativas qualitativas, sem percentuais:** (1) casca de pinus média + perlita grossa + carvão vegetal + chips de coco lavados; (2) casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa. A primeira foi padronizada na ficha quanto ao preparo dos chips; ambas são inferências de cultivo, não fórmulas quantitativas publicadas para o grex.
+
+**Conferências documentais:** 83,3+16,7=100,0%; receita visual e itens concordam; descrição pública com 110 palavras (meta 90–120); duas alternativas distintas da principal; quatro caminhos de fotos registrados; índice IDC 38/100 com três estrelas dentro da faixa IDC 3.2. Identidade do grex fundamentada no RHS. Testes visuais de carregamento e renderização ficam para a auditoria consolidada do ZIP final, por orientação do responsável.
+
+**Parecer:** recomendação horticultural documental concluída, com limites explícitos; **não homologada experimentalmente para Cattleya Memoria Rita Franke**. Não transformar a existência de fonte de grupo em comprovação de proporção ótima do híbrido.
