@@ -71,8 +71,8 @@ export const bulbophyllumSikkimense = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Mistura aberta para vaso ou cesto, com umidade regular e boa ventilação.",
-        "justificativa": "Bulbophyllum sikkimense cresce com rizoma rasteiro e se beneficia de um vaso ou cesto que permita boa circulação de ar ao redor das raízes. A casca de pinus e os chips de coco mantêm a mistura estruturada, enquanto a perlita amplia os espaços de ar e o esfagno solto ajuda a conservar umidade entre as regas. Evite enterrar a base dos pseudobulbos e mantenha o substrato levemente úmido, sem encharcar. Ajuste a frequência de rega à ventilação e à velocidade de secagem do recipiente.",
-        "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita grossa + 15% esfagno de fibra longa solto.",
+        "justificativa": "A receita 35/25/25/15 é hipótese horticultural sem ensaio específico. Bulbophyllum roxburghii (sin. B. sikkimense) cresce com rizoma rasteiro e se beneficia de um vaso ou cesto que permita boa circulação de ar ao redor das raízes. A casca de pinus e os chips de coco mantêm a mistura estruturada, enquanto a perlita amplia os espaços de ar e o esfagno solto ajuda a conservar umidade entre as regas. Evite enterrar a base dos pseudobulbos e mantenha o substrato levemente úmido, sem encharcar. Ajuste a frequência de rega à ventilação e à velocidade de secagem do recipiente.",
+        "receitaTexto": "Proposta horticultural NÃO HOMOLOGADA para a espécie: 35% casca de pinus média + 25% chips de coco médios lavados + 25% perlita grossa + 15% esfagno de fibra longa solto.",
         "perfil": ["Pseudobulbos curtos", "Rizoma rasteiro", "Água regular", "Base exposta", "Boa aeração", "Secagem parcial"],
         "comportamento": [
             {
@@ -106,7 +106,7 @@ export const bulbophyllumSikkimense = {
             },
             {
                             "asset": "chips-coco",
-                            "nome": "Chips de coco médios preparados",
+                            "nome": "Chips de coco médios lavados",
                             "proporcao": "25%",
                             "nota": "umidade",
                             "finalidade": "Reserva hídrica moderada."
@@ -129,16 +129,16 @@ export const bulbophyllumSikkimense = {
         "alerta": "Proposta preliminar MACS 1.1; ajuste conforme resposta das raízes, fase de crescimento e condições de cultivo.",
         "notaEvidencia": "MACS 1.1 — revisão documental: nome aceito adotado na ficha Bulbophyllum roxburghii (sin. B. sikkimense), miniatura epífita de rizoma rasteiro, exigindo umidade regular e boa drenagem. Vaso plástico vasado 5 estrelas, cachepô e placa/tronco 4, barro 3: hipótese horticultural sem comparação quantitativa. Receita visual 35% pinus médio + 25% chips de coco + 25% perlita grossa + 15% esfagno = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% pinus, 25% chips de coco, 25% perlita, 15% esfagno). Duas alternativas qualitativas independentes são apresentadas, sem equivalência quantitativa com a receita principal. POWO confirma nome aceito B. roxburghii e distribuição Nepal oriental a Bangladesh. IOSPE mantém a descrição histórica de B. sikkimense (300–500 m, umbela de 10–12 flores de cerca de 2 cm), reconhecendo diferenças visuais em relação a B. roxburghii. Orquidário Maripá (https://www.orquidariomaripa.com.br/produtos/orquidea-bulbophyllum-sikkimense-planta-adulta/) recomenda cascas, carvão, pedaços de madeira e musgo, com 50–60% de sombreamento, sem proporções. Uma fonte brasileira comercial qualitativa específica, zero receitas quantitativas de produtores verificadas; não há homologação da mistura 35/25/25/15; meta de até 25 produtores brasileiros não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    substrato: ["Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de esfagno solto","Chips de coco médios preparados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto"],
+    substrato: ["Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de esfagno solto","Chips de coco médios lavados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto"],
     errosComuns: "• Apresentar B. sikkimense como nome atualmente aceito.\n• Ignorar que Kew o inclui em B. roxburghii.\n• Tratar a planta como alpina por causa do nome Sikkim.\n• Impor repouso seco severo.\n• Manter sombra profunda.\n• Compactar o substrato.\n• Usar recipiente estreito.\n• Aplicar adubo concentrado.",
     dica: "🏆 Use o nome histórico como pista de procedência, não como instrução para cultivar no frio. Os dados de 300–500 m mostram uma planta de contrafortes quentes. No litoral, mantenha água regular, ar em movimento, recipiente raso e luz filtrada clara; a pequena diferença entre dia e noite já é mais coerente que qualquer tentativa de resfriamento artificial.",
     revisaoCientificaIAR: {
         "nome": "Bulbophyllum roxburghii",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma pequena joia dos contrafortes do Himalaia! A planta tradicionalmente conhecida como *Bulbophyllum sikkimense* forma pseudobulbos pequenos e produz, na primavera, hastes curtas terminadas em um delicado buquê de aproximadamente **10 a 12 flores**, cada uma com cerca de **2 cm**. Apesar da associação do nome com Sikkim e suas montanhas, registros históricos situam essas plant",
+        "statusTaxonomico": "Bulbophyllum roxburghii é nome aceito em POWO/Kew; B. sikkimense é sinônimo heterotípico.",
+        "sinonimosPrincipais": "Bulbophyllum sikkimense (sinônimo heterotípico).",
+        "morfologiaDimensoes": "Conhecida em coleções como Bulbophyllum sikkimense, esta orquídea é atualmente incluída em Bulbophyllum roxburghii. Possui pequenos pseudobulbos sobre um rizoma rastejante e folhas que acompanham o porte compacto da planta. No conceito histórico de sikkimense, hastes curtas e eretas terminam em umbelas de aproximadamente dez a doze flores, com cerca de dois centímetros cada. O conjunto floral lembra um pequeno buquê suspenso acima da folhagem. Nativa dos contrafortes do Himalaia oriental, a planta ocorre em ambientes florestais quentes a intermediários. Seu antigo nome continua frequente nas etiquetas e ajuda a reconhecer essa apresentação particular das flores.",
         "habitatAltitudeClima": "Contrafortes florestais · 300–500 m. | Quente a intermediário.",
-        "distribuicaoGeografica": "Sikkim · E Himalaia.",
+        "distribuicaoGeografica": "Nepal oriental a Bangladesh (conceito aceito em POWO/Kew); registros históricos em Sikkim.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
         "confianca": "media",
         "fontes": [
@@ -272,9 +272,9 @@ export const bulbophyllumSikkimense = {
         litoralQuente: { texto: "A faixa histórica de 300–500 m é compatível com cultivo quente e úmido bem ventilado." },
         montanhaFrio: { texto: "Desde que protegida de frio intenso e de encharcamento persistente em baixas temperaturas." }
     },
-    mesesFloracao: [9, 10, 11, 12, 1, 2],
+    mesesFloracao: [],
     "selosCultivo": {
-        "rega": { "nivel": "muito-frequente", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
     },
         avaliacoes: { cultivo: 3, floracao: 4, perfume: 2, luminosidade: 3, agua: 4, raridade: 3 }
