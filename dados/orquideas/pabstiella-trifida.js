@@ -37,7 +37,7 @@ export const pabstiellaTrifida = {
     "adubacao": "🌿 Orgânica: quantidade mínima de bokashi em sachê, muito afastada das raízes.\n💧 Mineral: NPK equilibrado e solúvel em 1/5 a 1/4 da dose a cada 15 dias no crescimento ativo.\n🚿 Flushing: água pura regularmente, sobretudo se a água local for salina.\n🧪 Liberação lenta: desaconselhada em placas; em vaso, use pouquíssimos grânulos longe do vegetativo.",
     "rega": "Em placas, regue pela manhã diariamente durante o calor, permitindo secagem parcial com forte ventilação. O suporte não deve secar por vários dias nem permanecer ensopado. Use água de chuva, filtrada ou de baixa salinidade quando possível. Pontas secas podem indicar ar seco, sais ou raízes mortas; base do ramicaule escurecendo indica abafamento; murchamento com suporte úmido sugere perda radicular.",
     "suporte": "🥇 Placa de cortiça ou madeira rugosa com fina lâmina de esfagno: melhor equilíbrio entre água e oxigênio.\n🥈 Cachepô muito pequeno e vazado: alternativa para ambiente mais seco.\n🥉 Vaso de barro minúsculo: apenas com mistura extremamente aerada.\nPosicione na bancada mais baixa, próxima ao solo e cercada por outras plantas, sem encostar em áreas quentes.",
-    substrato: ["Esfagno de fibra longa solto + Casca de pinus fina + Casca de arroz carbonizada","Casca de pinus fina + Casca de arroz carbonizada + Esfagno de fibra longa solto"],
+    substrato: ["Esfagno de fibra longa solto + Casca de pinus fina + Casca de arroz carbonizada","Casca de pinus fina + Carvão vegetal pequeno + Esfagno de fibra longa solto"],
     formasCultivo: {
         perfilVisual: "pabstiella-miniatura-pleurothallidinae-fresca",
         destaque: "Placa / tronco",
