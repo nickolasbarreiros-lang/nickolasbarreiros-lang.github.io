@@ -43,3 +43,14 @@ Ambas adicionam terceiro ingrediente, diferem entre si e não têm percentuais p
 
 ## Parecer conclusivo
 **Revisão documental encerrada.** A principal correção foi retirar a atribuição literal incorreta ao Missouri Botanical Garden e classificar corretamente a receita de pinus grosso como **adaptação de referência genérica**. Cultivo principal ventilado sustentado por fontes de grupo e literatura específica; 100% de consistência aritmética; duas alternativas distintas. **Homologação experimental quantitativa específica: NÃO DEMONSTRADA.** Não há pendência editorial identificada nesta matriz; experimento futuro seria nova pesquisa.
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** Cattleya bifoliada de pequeno porte, epífita de ambiente quente e luminoso, com raízes aderentes a suportes, exigindo aeração alta e secagem perceptível entre molhamentos. Durante crescimento ativo, não confundir secagem rápida com seca permanente; em menor atividade, alongar intervalos sem desidratação severa. Espessura das raízes e ritmo de secagem do exemplar não foram medidos. Literatura de cultivo específica aponta sensibilidade a danos radiculares e manejo em vaso.
+
+**Cultivo principal:** cachepô de madeira muito aberto ou placa/tronco, com rizoma descoberto. Em placa não há receita volumétrica; no cachepô, usar mistura aberta apenas quando necessário e observar a secagem. **Receita exibida para vaso perfurado:** 83,3% casca de pinus grossa (estrutura/macroporos) + 16,7% carvão vegetal horticultural (porosidade), em volume. Proporção 5:1 adaptada de referência institucional genérica com **casca de abeto média**, não receita específica da espécie; substituir material e granulometria é extrapolação técnica explicitada.
+
+**Alternativas qualitativas, sem percentuais:** (1) casca de pinus grossa + brita fina + carvão vegetal; (2) casca de pinus grossa + carvão vegetal + perlita grossa. Distintas entre si e da receita principal, sem alegação de superioridade experimental.
+
+**Conferências editoriais:** descrição reescrita de 118 para 104 palavras (faixa 90–120), sem citar unidade federativa na narrativa pública; substituída no resumo visual a referência obsoleta 'MACS 1.0' e seus escores históricos por indicação qualitativa; a nota de evidência passou a tratar quatro fornecedores como fontes **anteriormente citadas sem reconfirmação integral**, em conformidade com esta matriz. Receita e itens visuais somam 83,3+16,7=100%; quatro caminhos de fotos registrados; IDC 32/100 e quatro estrelas coerentes com IDC 3.2; IAR e classificações de suporte preservados. Testes visuais de carregamento e renderização reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro da evidência disponível; **zero receitas percentuais específicas verificadas para a forma tipo**, sem homologação experimental e sem atingir a meta de 25 produtores independentes.
