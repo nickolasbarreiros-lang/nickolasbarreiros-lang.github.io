@@ -20,3 +20,12 @@ Teste Chromium desktop/mobile aprovado, capturas confirmadas e encerramento téc
 
 ## Encerramento — 2026-11-04
 Execução Chromium/Playwright [41845014296](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41845014296): **completed/success**, incluindo inspeção no navegador e upload de capturas. Artefato **13331850049**, `macs-141-inspecao-visual` (439170 bytes). Principal soma 100%; duas alternativas qualitativas sem percentuais; perlita preservada, argila somente como componente da segunda alternativa; estrelas dos suportes omitidas; quatro fotos e oito assets presentes. IDC 3.2 e IAR 2.0 preservados. **Classe D — NÃO HOMOLOGADA quantitativamente**, sem ensaios comparativos específicos nem amostra documentada de 25 produtores independentes. Sem pendências técnicas detectadas pelo teste; matriz 142 liberada.
+
+
+## Auditoria integrada de continuidade — 2026-11-05
+- **Taxonomia:** *Encyclia alboxanthina* aceita em POWO; a ficha distingue corretamente *E. pachyantha* como espécie distinta e a reidentificação de exemplar premiado. Fontes POWO, IPNI, artigos florísticos, IOSPE e AOS; campo morfológico completo, sem truncamento detectado.
+- Principal: 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão vegetal médio = **100%**. Duas alternativas qualitativas sem percentuais; estrelas dos suportes `null`. Argila somente na segunda alternativa, sem substituir a perlita da principal e da primeira alternativa.
+- **IDC 3.2 documental:** 38/100, moderada, três estrelas; notas T/R/H/V/L/Ra/S/F = 2/2/2/2/2/2/1/2. Faixa correta; transformação das notas em pontuação total não recalculada independentemente.
+- **IAR 2.0 litoral:** 97/100, cinco estrelas; notas 5/5/2/5/5/5/5: 30+30+2+5+5+5+20=97.
+- **IAR 2.0 montanha:** 62/100, quatro estrelas; notas 3/3/2/4/4/4/3: 18+18+2+4+4+4+12=62.
+- **MACS 1.1:** classe D, sem ensaios comparativos específicos nem documentação de 25 produtores independentes. IAR consistente aritmeticamente, sem homologação empírica. Workflow alterado para testar edições no JS; nova execução Chromium solicitada.
