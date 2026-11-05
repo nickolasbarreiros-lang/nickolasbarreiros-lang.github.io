@@ -46,7 +46,7 @@ export const spathoglottisPlicata = {
         destaque: "Vaso plástico",
         resumo: "Orquídea terrestre de touceira expansiva. Recipiente largo e profundo, com muitos furos, permite o crescimento das raízes e novas frentes sem encharcamento.",
         metodos: [
-            { nome: "Vaso plástico", asset: "vaso-plastico-vasado", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso amplo e profundo, com muitos furos e mistura terrestre leve; manter pseudobulbos próximos da superfície." },
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso amplo e profundo, com muitos furos e mistura terrestre leve; manter pseudobulbos próximos da superfície." },
             { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Vaso largo e bem drenado, com acompanhamento da secagem mais rápida." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Alternativa", texto: "Recipiente amplo e muito perfurado, com rega ajustada à evaporação." }
         ]
