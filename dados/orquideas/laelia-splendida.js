@@ -33,7 +33,7 @@ export const laeliaSplendida = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "É uma espécie de alta luminosidade. Sombra excessiva produz crescimento verde e vigoroso, mas pode impedir a floração. Em clima quente, evite sol forte do meio do dia sobre folhas não aclimatadas."
     },
-    floracao: "A época de floração de Laelia splendida, também conhecida como Schomburgkia splendida, varia conforme a procedência e o cultivo. Ainda não há registros brasileiros suficientemente específicos para definir meses seguros no calendário. As hastes terminais longas, que podem alcançar cerca de um metro, carregam geralmente 8 a 15 flores vistosas e cerosas, com aproximadamente 6 a 10 cm. Sépalas e pétalas são estreitas, bastante onduladas e de cor púrpura a castanho-arroxeada escura; o labelo é rosado a púrpura, com região central mais clara. Um cultivador europeu relata floração que dura cerca de quatro semanas, mas esse período se refere à sua experiência de cultivo e não constitui uma duração comprovada para plantas brasileiras. Não foi encontrada descrição confiável de perfume nem de notas aromáticas específicas para a espécie.",
+    floracao: "Na Colômbia e no Equador, região de origem de Laelia splendida (Schomburgkia splendida), a espécie vive em ambientes tropicais e montanos de aproximadamente 600 a 1.500 m. Referências internacionais de cultivo registram floração em diferentes épocas do ano, com maior frequência entre fevereiro e abril e entre outubro e novembro. Esses meses são uma orientação inicial para o calendário brasileiro, não uma garantia de que plantas cultivadas aqui floresçam exatamente nas mesmas datas. As hastes terminais longas podem alcançar cerca de um metro e reunir de 8 a 15 flores cerosas, de aproximadamente 6 a 10 cm, com sépalas e pétalas púrpura-escuras, muito onduladas, e labelo rosado com centro mais claro. Um relato de cultivo indica que o conjunto de flores pode permanecer vistoso por aproximadamente quatro semanas; a duração individual de cada flor ainda não foi estabelecida com segurança. Não há descrição confiável de perfume ou notas aromáticas específicas para a espécie.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade, preferencialmente em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: pode ser utilizada em poucos grânulos em vasos ou cestos.\n🚿 Lavagem: faça regas periódicas apenas com água para evitar acúmulo de sais.",
     rega: "Regue abundantemente enquanto novos brotos e raízes estiverem ativos, deixando o suporte secar parcialmente antes da próxima irrigação. Com pseudobulbos maduros, aumente moderadamente o intervalo entre regas. Evite raízes permanentemente molhadas.",
     suporte: [
@@ -229,7 +229,7 @@ export const laeliaSplendida = {
         litoralQuente: { texto: "Muito boa adaptação. Calor não costuma ser o principal problema; ofereça muita luz, circulação de ar e secagem relativamente rápida das raízes." },
         montanhaFrio: { texto: "Boa adaptação. Tolera noites mais frescas, mas deve ser protegida de frio intenso e de substrato frio e constantemente saturado." }
     },
-    mesesFloracao: [],
+    mesesFloracao: [2, 3, 4, 10, 11],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
