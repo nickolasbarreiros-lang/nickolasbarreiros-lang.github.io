@@ -31,7 +31,7 @@ export const sophronitisCernua = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "Luz filtrada forte e ventilação são recomendadas; sol direto somente no início da manhã ou final da tarde, após aclimatação. Populações silvestres expostas ao sol não justificam sol pleno indiscriminado em cultivo quente. Avermelhamento intenso e áreas secas indicam possível estresse."
     },
-    floracao: "A floração ocorre principalmente entre o fim do inverno e a primavera, podendo variar conforme a procedência e o microclima. As inflorescências curtas carregam geralmente 4 a 10 flores pendentes, laranja a vermelho-vivo, com cerca de 2 a 3 cm. Plantas bem iluminadas e com crescimento compacto costumam florir com maior regularidade.",
+    floracao: "No Brasil, a Cattleya cernua (antiga Sophronitis cernua) floresce principalmente no outono e início do inverno. Há referências botânicas de abril a junho e registro de planta florida em julho na Bahia; por isso, o calendário destaca abril, maio, junho e julho, em vez de presumir uma floração regular de agosto a dezembro. As inflorescências curtas surgem próximas às folhas e apresentam geralmente três ou mais flores pequenas, de aproximadamente 1,5 a 2,5 cm, com sépalas e pétalas vermelho-alaranjadas e labelo de tonalidade semelhante, por vezes mais claro. A quantidade de flores pode variar entre populações e exemplares cultivados. Um estudo botânico brasileiro descreve as flores como não perfumadas. Orquidários brasileiros indicam duração ornamental aproximada de 10 a 15 dias, sujeita à temperatura e às condições de cultivo; esse intervalo não representa uma medição universal da longevidade individual de cada flor.",
     adubacao: "🌿 Orgânica: Bokashi em dose mínima, preferencialmente em porta-adubo.\n💧 Foliar: NPK 20-20-20 em 1/8 a 1/4 da dose, a cada 7 a 15 dias durante o crescimento.\n🧪 Liberação lenta: pouquíssimos grânulos de Osmocote em porta-adubo fixado acima da touceira.",
     rega: "Regue abundantemente pela manhã e assegure que raízes e suporte sequem ao longo do dia. Em plantas montadas, as regas podem ser diárias no verão. Após a maturação dos brotos, reduza ligeiramente a frequência sem deixar os pequenos pseudobulbos desidratarem.",
     suporte: "🥇 Placa de madeira dura.\n🥈 Cortiça natural.\n🥉 Galho fino de casca rugosa ou pequeno cachepô muito vazado.",
@@ -218,13 +218,7 @@ export const sophronitisCernua = {
         litoralQuente: { texto: "Adapta-se muito bem. Ofereça sol suave da manhã, regas frequentes com secagem rápida e ventilação contínua." },
         montanhaFrio: { texto: "Desenvolve-se bem, mas deve ser protegida de geadas. No inverno, reduza as regas e borrife apenas pela manhã em dias ensolarados." }
     },
-    "mesesFloracao": [
-        8,
-        9,
-        10,
-        11,
-        12
-    ],
+    "mesesFloracao": [4, 5, 6, 7],
     "selosCultivo": {
         "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
