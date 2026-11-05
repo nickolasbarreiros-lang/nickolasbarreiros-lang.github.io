@@ -29,7 +29,7 @@
 A mistura mantém partículas médias e grossas para ventilação, sem validação específica de **35/30/20/15**.
 
 ## Duas alternativas qualitativas
-1. Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios preparados.
+1. Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios lavados.
 2. Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa.
 
 Distintas entre si e da receita principal; sem percentuais não publicados.
@@ -45,3 +45,14 @@ Distintas entre si e da receita principal; sem percentuais não publicados.
 
 ## Parecer final
 **Revisão documental concluída.** Taxonomia, ampla distribuição brasileira, morfologia, descrição e assets corrigidos; receita totaliza 100% e mantém duas alternativas distintas. **Homologação quantitativa dos percentuais e estrelas: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-05
+**Perfil:** espécie simpodial epífita, também documentada como rupícola, com pseudobulbos robustos, rizoma expansivo e raízes que exigem fixação, aeração e boa drenagem. Em brotação e emissão de raízes novas, regar bem e permitir secagem perceptível antes de repetir; após maturação, reduzir moderadamente a frequência conforme temperatura e evaporação, sem desidratação severa. Dimensionar suporte para porte adulto e hastes longas; impedir tombamento e superaquecimento de raízes. A escolha estrutural do cachepô é inferência horticultural, não ensaio comparativo.
+
+**Cultivo principal:** cachepô de madeira robusto, suspenso ou firmemente fixado. **Receita em volume:** 35% casca de macadâmia média (estrutura) + 30% casca de pinus média (apoio radicular) + 20% perlita grossa (aeração) + 15% carvão vegetal (porosidade), total 100%. Proposta horticultural não testada especificamente em L. gloriosa. Fontes POWO, Flora do Brasil e IOSPE confirmam morfologia e hábito, mas não percentuais de substrato.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios lavados; (2) casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa. Distintas entre si e da principal; coco lavado não dispensa eventual controle de salinidade.
+
+**Conferências editoriais:** descrição com 95 palavras (faixa 90–120). Chips de coco médios lavados padronizados na primeira alternativa; receita visual e justificativa agora explicitam falta de homologação específica. Campo de cultivo/premiação deixa de sugerir premiação ou comparação não documentada. Calendário fixo [9,10,11,12,1,2] removido por ausência de documentação fenológica regional suficiente; texto de floração qualificado sem alterar a morfologia floral. Selo de rega alterado de “frequente/reduzir-repouso” para “frequente/reduzir-inverno”, coerente com ajuste sazonal sem repouso seco rígido. Receita e itens visuais somam 35+30+20+15=100%; duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 34/100 e quatro estrelas coerentes com IDC 3.2; IAR litoral 80/4 estrelas e montanha 80/4 estrelas preservados; estrelas dos suportes mantidas como avaliações horticulturais. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; zero receitas quantitativas específicas de produtores brasileiros verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
