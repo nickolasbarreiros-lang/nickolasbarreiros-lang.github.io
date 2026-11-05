@@ -46,3 +46,10 @@ Atualizar receita de recipiente R1 e duas alternativas R2/R3 no menu, sem repeti
 **Alternativas qualitativas (sem percentuais):** A) casca de pinus média/grossa + carvão vegetal + perlita grossa, para recipiente com maior necessidade de aeração; B) casca de pinus média/grossa + chips de coco lavados + carvão vegetal, ajustando granulometria e volume para umidade moderada. A segunda alternativa usa os mesmos ingredientes da principal, portanto não deve ser apresentada como receita independente de composição; a ficha já registra essas duas opções qualitativas e deve ser revisada editorialmente antes de afirmar distinção entre receitas.
 
 **Classificação:** formulação técnica fundamentada no perfil radicular e hídrico — sem validação experimental específica dos percentuais. Taxonomia e cultivo principal em placa/tronco preservados. Esta atualização documental não equivale a homologação final da ficha: ainda é necessário conferir alternativas distintas, descrição editorial, assets e testes técnicos antes de avançar à ficha 028.
+
+## Ajustes editoriais efetivos — 2026-11-04
+- Descrição pública ampliada para **113 palavras**, respeitando a faixa de 90–120 palavras.
+- Mantida a receita principal para cesto/vaso: 60% pinus + 20% carvão + 20% chips de coco lavados = **100%**.
+- Duas alternativas públicas agora distintas da principal e entre si, sem percentuais: (A) pinus + carvão + perlita grossa; (B) pinus + carvão + casca de arroz carbonizada. A alternativa B é uma proposta técnica inferencial; não existe comprovação experimental específica registrada para a espécie.
+- A recomendação principal em placa/tronco e o layout V4.9 foram preservados.
+- **Estado:** revisão editorial e coerência das receitas concluídas; validação de integridade dos assets, fotos e execução no navegador ainda não documentadas nesta passagem. Não declarar homologação integral até esses controles.
