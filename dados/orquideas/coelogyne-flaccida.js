@@ -40,7 +40,7 @@ export const coelogyneFlaccida = {
     "adubacao": "🌿 Orgânica: bokashi em pequena dose na borda do cesto no início da brotação.\n💧 Mineral/Foliar: NPK equilibrado bem diluído a cada 10–15 dias durante crescimento ativo.\n🌱 Formação dos pseudobulbos: mantenha nutrição leve até a maturação.\n🍂 Pós-maturação: reduza frequência e nitrogênio.\n🧪 Liberação lenta: dose baixa de Osmocote somente em vasos ou cestos muito drenantes.\n🚿 Lavagem: faça flushing regular para evitar acúmulo de sais.",
     "rega": "Durante a formação dos novos pseudobulbos, regue com frequência e deixe apenas a superfície secar levemente. Após a maturação, reduza moderadamente. No inverno, mantenha leve umidade sem deixar a mistura fria e saturada. Não permita desidratação severa dos pseudobulbos. Regue pela manhã e mantenha ventilação constante.",
     "suporte": "🥇 Cesto de madeira ou plástico vazado — favorece aeração e saída das hastes.\n🥈 Vaso largo e raso — oferece superfície e estabilidade sem excesso de substrato profundo.\n🥉 Placa grande — indicada somente em ambientes úmidos e frescos.\nMantenha o conjunto suspenso e com espaço vertical livre.",
-    "substrato": ["Casca de pinus média + chips de coco médios preparados + perlita grossa","Casca de pinus média + perlita grossa + esfagno de fibra longa solto"],
+    "substrato": ["Casca de pinus média + chips de coco médios lavados + perlita grossa","Casca de pinus média + perlita grossa + esfagno de fibra longa solto"],
     "formasCultivo": {
         "perfilVisual": "coelogyne",
         "destaque": "Cachepô de Madeira",
@@ -56,8 +56,8 @@ export const coelogyneFlaccida = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cachepô ou recipiente suspenso e ventilado",
         "resumo": "Casca de pinus média e perlita grossa em proporção 3:1, adaptação de receita genérica de casca de abeto (fir bark) e perlita da AOS.",
-        "justificativa": "Coelogyne flaccida se beneficia de recipiente ventilado e mistura que não permaneça saturada por longos períodos. A casca de pinus média oferece apoio às raízes e a perlita grossa ajuda a manter espaços de ar e drenagem. Durante o crescimento ativo, mantenha regas adequadas; no inverno, reduza a frequência conforme a secagem observada, sem deixar as raízes continuamente encharcadas.",
-        "receitaTexto": "75% casca de pinus média + 25% perlita grossa (3:1 em volume).",
+        "justificativa": "Coelogyne flaccida se beneficia de recipiente ventilado e mistura que não permaneça saturada por longos períodos. A proporção 3:1 adapta uma orientação genérica da AOS, substituindo casca de abeto por pinus sem ensaio específico da espécie. A casca de pinus média oferece apoio às raízes e a perlita grossa ajuda a manter espaços de ar e drenagem. Durante o crescimento ativo, mantenha regas adequadas; no inverno, reduza a frequência conforme a secagem observada, sem deixar as raízes continuamente encharcadas.",
+        "receitaTexto": "Adaptação NÃO HOMOLOGADA para a espécie: 75% casca de pinus média + 25% perlita grossa (3:1 em volume); a receita genérica da AOS utiliza casca de abeto, não pinus.",
         "perfil": ["Raízes epífitas", "Umidade equilibrada", "Aeração alta", "Clima fresco", "Hastes florais pendentes"],
         "comportamento": [
             { "nome": "Retenção", "valor": 4, "icone": "💧" },
@@ -76,9 +76,9 @@ export const coelogyneFlaccida = {
     "dica": "Posicione a planta em local elevado, fresco e bem ventilado antes que as hastes surjam. Deixe espaço livre abaixo e ao redor do cesto para que os cachos pendam sem deformação. A circulação de ar também reduz fungos e evita que o perfume intenso se concentre.",
     revisaoCientificaIAR: {
         "nome": "Coelogyne flaccida",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma Coelogyne feita para ser cultivada no alto! Coelogyne flaccida produz longos cachos pendentes de flores creme a amarelo-pálido, com o labelo desenhado por marcas castanhas e perfume bastante intenso. A planta forma touceiras de pseudobulbos agrupados e fica especialmente bonita em cestos suspensos, onde as hastes podem cair livremente. Na natureza ocorre do Himalaia ao sul ",
+        "statusTaxonomico": "Coelogyne flaccida é espécie aceita em POWO/Kew.",
+        "sinonimosPrincipais": "Pleione flaccida (sinônimo homotípico).",
+        "morfologiaDimensoes": "Coelogyne flaccida forma touceiras de pseudobulbos oblongos, geralmente com duas folhas alongadas e plissadas. Na floração, hastes arqueadas ou pendentes carregam cerca de cinco a doze flores cerosas, brancas a creme, com manchas amareladas ou castanhas no labelo. O perfume é marcante e pode ser considerado desagradável por algumas pessoas. Originária de florestas montanas do Himalaia ao sul da China e à Indochina, vive sobre árvores e ocasionalmente rochas, em locais úmidos com noites mais amenas. O contraste entre folhas elegantes e cachos delicados faz desta espécie uma presença especialmente vistosa em coleções.",
         "habitatAltitudeClima": "Florestas montanas úmidas · epífita/litófita. | Intermediário a fresco · noites amenas.",
         "distribuicaoGeografica": "Nepal, Índia, sul da China e Indochina.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
