@@ -20,3 +20,12 @@ Teste Chromium desktop/mobile aprovado, capturas confirmadas e encerramento téc
 
 ## Encerramento — 2026-11-04
 Execução Chromium/Playwright [41846942283](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41846942283): **completed/success**, incluindo inspeção no navegador e upload de capturas. Artefato **13331941969**, `macs-144-inspecao-visual` (470575 bytes). Cultivo principal raízes soltas sem substrato; mistura opcional soma 100%; duas alternativas qualitativas sem percentuais; estrelas dos suportes omitidas; quatro fotos e oito assets presentes. IDC 3.2 e IAR 2.0 preservados. **Classe D — NÃO HOMOLOGADA quantitativamente**, sem ensaios comparativos específicos nem amostra documentada de 25 produtores independentes. Sem pendências técnicas detectadas pelo teste; matriz 145 liberada.
+
+
+## Auditoria integrada de continuidade — 2026-11-05
+- **Taxonomia:** *Aerides odorata* aceita em POWO. Fontes POWO, NParks, AOS e estudo regional de orquídeas; campo morfológico completo, sem truncamento detectado. Altitudes regionais não foram tratadas como limites globais.
+- **Forma principal:** Raízes Soltas **sem substrato**. Mistura opcional de apoio: 45% pinus grosso + 35% carvão vegetal grosso + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto = **100%**. Duas alternativas qualitativas sem percentuais; estrelas dos suportes `null`. A receita opcional não deve ser confundida com a forma principal de cultivo.
+- **IDC 3.2 documental:** 48/100, moderada, três estrelas; notas T/R/H/V/L/Ra/S/F = 3/3/2/2/2/2/1/3. Faixa correta; transformação das notas em pontuação total não recalculada independentemente.
+- **IAR 2.0 litoral:** 97/100, cinco estrelas; notas 5/5/4/5/4/4/5: 30+30+4+5+4+4+20=97.
+- **IAR 2.0 montanha:** 63/100, quatro estrelas; notas 3/3/3/4/4/4/3: 18+18+3+4+4+4+12=63.
+- **MACS 1.1:** classe D, sem ensaios comparativos específicos nem documentação de 25 produtores independentes. IAR consistente aritmeticamente, sem homologação empírica. Workflow alterado para testar edições no JS; nova execução Chromium solicitada.
