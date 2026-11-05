@@ -76,14 +76,14 @@ export const phalaenopsisPulcherrima = {
         notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D); receita e hierarquia dos suportes não validadas quantitativamente. MACS 1.1 — revisão documental: Phalaenopsis pulcherrima (sin. Doritis pulcherrima), terrestre ou litófita de rochas e solos arenosos, requer vaso baixo, colo ventilado e drenagem rápida com umidade ajustada ao clima. Vaso de Barro bem perfurado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% perlita grossa + 30% brita fina/média lavada e sem pó + 25% macadâmia média + 10% pinus grosso = 100% (65% fração mineral e 35% orgânica). Exatamente duas outras misturas qualitativas distintas: perlita/argila expandida pequena/carvão/pouco pinus e brita/perlita/carvão/pouco pinus. Elas não fundamentam os percentuais visuais. Os identificadores de assets perlita, brita-fina, casca-macadamia e casca-pinus constam no registro de biblioteca; inspeção de renderização pendente de execução automatizada. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
-        "Cultivar em sombra profunda como uma Phalaenopsis comum",
-        "Manter o substrato permanentemente encharcado",
-        "Usar vaso grande e pouco ventilado",
-        "Cortar a haste ainda verde enquanto continua produzindo botões",
-        "Deixar água parada continuamente na coroa",
-        "Aplicar fertilizante concentrado",
-        "Usar substrato velho e compactado",
-        "Expor abruptamente ao sol forte sem aclimatação"
+        "Não cultive em sombra tão intensa quanto a de híbridos comuns.",
+        "Evite substrato constantemente encharcado.",
+        "Use vaso baixo e bem ventilado, proporcional às raízes.",
+        "Não corte hastes verdes que ainda produzem botões.",
+        "Evite água acumulada na coroa por longos períodos.",
+        "Não aplique fertilizante concentrado.",
+        "Substitua substrato velho antes que fique compacto.",
+        "Aumente a luminosidade gradualmente, sem sol forte repentino."
     ],
     dica: "🏆 Não corte uma haste verde apenas porque as primeiras flores caíram. Phalaenopsis pulcherrima pode continuar alongando a inflorescência e abrindo novas flores sucessivamente. Dê mais luz do que daria a uma Phalaenopsis híbrida comum, mas faça a aclimatação gradualmente.",
     revisaoCientificaIAR: {
@@ -107,7 +107,7 @@ export const phalaenopsisPulcherrima = {
     indiceDificuldadeCultivo: {
         "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
-        "indice": 25,
+        "indice": 9,
         "classificacao": "Muito fácil",
         "cultivoEstrelas": 5,
         "criterios": {
@@ -136,7 +136,7 @@ export const phalaenopsisPulcherrima = {
                 "peso": 10
             },
             "sazonalidade": {
-                "notaDificuldade": 0,
+                "notaDificuldade": 1,
                 "peso": 10
             },
             "floracao": {
