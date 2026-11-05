@@ -358,3 +358,10 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - AOS/SITF corrigiu em 2012 a identificação de um exemplar premiado como *E. pachyantha* para *E. alboxanthina*, sem sinonimizar as espécies.
 - Conferência textual: descrição 111 palavras; quatro suportes `estrelas: null`; duas alternativas qualitativas; receita 35/30/20/15 = 100%, mantida.
 - **Homologação documental da ficha 8 concluída — MACS 1.1 provisória Classe D.** Percentuais e comparação de suportes não homologados quantitativamente. Auditoria visual local separada.
+
+### Ficha 9 — Phalaenopsis pulcherrima (2026-11-04)
+- POWO aceita *Phalaenopsis pulcherrima* (Lindl.) J.J.Sm. (1933), basiônimo *Doritis pulcherrima* Lindl. (1833), e reconhece quatro variedades infraespecíficas aceitas.
+- POWO registra hábito litófito; monografia do gênero e manual de campo do Camboja documentam também crescimento terrestre em solos arenosos e rochas expostas. Não converter exposição natural em recomendação de sol pleno irrestrito.
+- AOS e Smithsonian documentam morfologia e inflorescências eretas de abertura sucessiva. Altitudes regionais 0–300 m (manual do Camboja) e 50–600 m (Smithsonian) não são limites globais.
+- Conferência estrutural textual: descrição 117 palavras, quatro suportes `estrelas: null`, duas alternativas qualitativas e receita 35% perlita + 30% brita lavada + 25% macadâmia + 10% pinus = 100% sem alterações.
+- **Homologação documental da ficha 9 concluída — MACS 1.1 provisória Classe D.** Sem ensaio comparativo de suportes ou validação quantitativa dos percentuais. Conferência visual local separada.
