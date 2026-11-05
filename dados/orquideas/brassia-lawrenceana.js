@@ -77,14 +77,14 @@ export const brassiaLawrenceana = {
         notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D), sem validação quantitativa de percentuais ou comparação experimental dos suportes. MACS 1.1 — revisão documental: Brassia lawrenceana (nome editorial; POWO adota Brassia cochleata), epífita de raízes vigorosas, requer umidade regular, drenagem e ventilação. Cachepô de Madeira vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% pinus médio + 25% chips de coco médios preparados + 20% macadâmia média + 10% carvão vegetal médio + 10% perlita grossa compatível com o cesto = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/argila expandida pequena/pouco esfagno solto e macadâmia/pinus/perlita/pouca fibra de coco grossa preparada. Monitorar envelhecimento do pinus e coco, salinidade e secagem no cesto. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
-        "Cultivar em sombra profunda",
-        "Manter o substrato permanentemente encharcado",
-        "Usar vaso grande demais",
-        "Deixar novos brotos e raízes secarem por longos períodos",
-        "Reduzir demais a ventilação",
-        "Aplicar fertilizante concentrado",
-        "Replantar durante o repouso, sem novas raízes ativas",
-        "Expor ao sol forte do meio do dia"
+        "Evite sombra profunda, que prejudica a floração.",
+        "Não mantenha o substrato constantemente encharcado.",
+        "Evite vaso grande demais para a touceira.",
+        "Não deixe brotos e raízes novas secarem por muito tempo.",
+        "Mantenha boa ventilação entre os pseudobulbos.",
+        "Não aplique fertilizante concentrado nas raízes.",
+        "Replante preferencialmente no início das novas raízes.",
+        "Proteja as folhas do sol forte do meio-dia."
     ],
     dica: "🏆 Replante apenas quando um novo broto estiver começando a emitir raízes. Brassia reage muito melhor quando essas raízes novas entram diretamente no substrato fresco. Em clima quente, cesto ou vaso de barro com mistura grossa costuma oferecer excelente equilíbrio entre umidade e oxigenação.",
     revisaoCientificaIAR: {
@@ -107,9 +107,9 @@ export const brassiaLawrenceana = {
     indiceDificuldadeCultivo: {
         "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
-        "indice": 40,
-        "classificacao": "Moderada",
-        "cultivoEstrelas": 3,
+        "indice": 30,
+        "classificacao": "Fácil",
+        "cultivoEstrelas": 4,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 2,
@@ -235,7 +235,7 @@ export const brassiaLawrenceana = {
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: {
-        cultivo: 3,
+        cultivo: 4,
         floracao: 4,
         perfume: 3,
         luminosidade: 3,
