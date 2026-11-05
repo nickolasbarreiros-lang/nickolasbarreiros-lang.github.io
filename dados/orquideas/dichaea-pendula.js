@@ -28,18 +28,18 @@ export const dichaeaPendula = {
     regiao: "Caribe · América Central · América do Sul",
     habitat: "Florestas úmidas tropicais · epífita ou rupícola · altitude variável.",
     clima: "Quente a intermediário; populações montanas toleram condições mais frescas.",
-    climaFloracao: "A espécie ocorre tanto em florestas úmidas de terras baixas quanto em populações montanas; não se deve exigir noites frias para todas as procedências. Alta umidade atmosférica e pouca oscilação hídrica favorecem raízes finas. IOSPE registra floração na primavera e no verão. No litoral quente, a indução floral pode ser favorecida pelo período mais ameno do ano, desde que a planta continue ativa e hidratada. Não possui repouso seco verdadeiro.",
+    climaFloracao: "A espécie ocorre tanto em florestas úmidas de terras baixas quanto em populações montanas; não se deve exigir noites frias para todas as procedências. Alta umidade atmosférica e pouca oscilação hídrica favorecem raízes finas. IOSPE registra floração na primavera e no verão. Não há evidência específica suficiente para atribuir indução floral a uma estação local fixa; mantenha a planta ativa e hidratada. Não possui repouso seco verdadeiro.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
         horario: "Não permitido",
         observacoes: "Prefere sombra clara de sub-bosque. Luz insuficiente deixa as hastes fracas; sol direto, principalmente associado a calor, desidrata rapidamente folhas e raízes finas."
     },
-    floracao: "Na natureza, é registrada principalmente na primavera e no verão. Em cultivo no Sudeste brasileiro, pode variar conforme temperatura e procedência. As flores surgem individualmente em pequenas hastes axilares ao longo dos ramos e podem aparecer sucessivamente em uma planta bem estabelecida.",
+    floracao: "IOSPE cita floração na primavera e no verão em seu contexto, mas não há levantamento regional de exsicatas suficiente para fixar meses universais de floração no Brasil. As flores surgem individualmente em pequenas hastes axilares ao longo dos ramos e podem aparecer sucessivamente em uma planta bem estabelecida.",
     adubacao: "🌿 Orgânica: use bokashi apenas em quantidade mínima e longe das raízes ativas.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante crescimento ativo.\n🌱 Crescimento: mantenha nutrição leve e contínua, pois a espécie não apresenta repouso seco marcado.\n🧪 Liberação lenta: geralmente desnecessária; em vasos, use pouquíssimos grânulos.\n🚿 Lavagem: enxágue o suporte periodicamente para evitar acúmulo de sais nas raízes finas.",
     rega: "Mantenha as raízes regularmente úmidas, sem permitir secas prolongadas. Em placas, regas diárias podem ser necessárias no verão. A frequência deve cair quando a evaporação diminuir, mas nunca ao ponto de desidratar completamente a planta. Regue preferencialmente pela manhã e garanta ventilação suficiente para que a água não permaneça acumulada entre bainhas e folhas durante a noite.",
     suporte: "🥇 Placa vertical de cortiça ou madeira com fina camada de esfagno — favorece o hábito pendente e a aeração.\n🥈 Cesto suspenso pequeno — permite que as hastes cresçam livres.\n🥉 Vaso estreito e muito ventilado — útil quando a umidade ambiental é menor.\nMantenha espaço livre abaixo da planta para o desenvolvimento natural dos ramos.",
-    substrato: ["Casca de pinus média + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno de fibra longa solto","Chips de coco pequenos preparados + casca de pinus fina/média + pequena fração de esfagno de fibra longa solto"],
+    substrato: ["Casca de pinus média + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno de fibra longa solto","Chips de coco pequenos lavados + casca de pinus fina/média + pequena fração de esfagno de fibra longa solto"],
     formasCultivo: {
         perfilVisual: "dichaea-epifita-pendente-umida",
         destaque: "Placa / tronco",
@@ -55,8 +55,8 @@ export const dichaeaPendula = {
         titulo: "Substrato ideal",
         contexto: "Mistura para cachepô ou vaso; montagem principal usa apenas esfagno fino junto às raízes",
         resumo: "Partículas pequenas a médias que preservam umidade uniforme e aeração, sem formar massa compacta.",
-        justificativa: "Dichaea pendula apresenta raízes finas e não possui pseudobulbos para armazenar água, por isso precisa de umidade regular sem compactação. A montagem vertical em placa ou tronco utiliza apenas uma camada fina de esfagno solto junto às raízes. Em cachepô ou vaso ventilado, os chips de coco preparados e a casca de pinus oferecem apoio e retenção moderada, enquanto a perlita mantém espaços de ar. Observe a secagem e ajuste as regas para evitar tanto o encharcamento quanto a desidratação.",
-        receitaTexto: "40% chips de coco pequenos preparados + 35% casca de pinus fina/média + 25% perlita grossa.",
+        justificativa: "A receita 40/35/25 para vaso ou cachepô é hipótese horticultural sem ensaio específico da espécie; a montagem principal em placa/tronco não exige percentuais volumétricos. Dichaea pendula apresenta raízes finas e não possui pseudobulbos para armazenar água, por isso precisa de umidade regular sem compactação. A montagem vertical em placa ou tronco utiliza apenas uma camada fina de esfagno solto junto às raízes. Em cachepô ou vaso ventilado, os chips de coco preparados e a casca de pinus oferecem apoio e retenção moderada, enquanto a perlita mantém espaços de ar. Observe a secagem e ajuste as regas para evitar tanto o encharcamento quanto a desidratação.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para vaso/cachepô: 40% chips de coco pequenos lavados + 35% casca de pinus fina/média + 25% perlita grossa. Na montagem principal em placa/tronco, não se aplicam percentuais volumétricos.",
         perfil: ["Epífita pendente", "Sem pseudobulbos", "Umidade frequente", "Sombra luminosa", "Boa circulação de ar"],
         comportamento: [
             { nome: "Retenção", valor: 4, icone: "💧" },
@@ -65,7 +65,7 @@ export const dichaeaPendula = {
             { nome: "Compactação", valor: 2, icone: "🧱" }
         ],
         itens: [
-            { asset: "chips-coco", nome: "Chips de coco pequenos preparados", proporcao: "40%", nota: "umidade", finalidade: "Ajuda a manter umidade frequente sem encharcar." },
+            { asset: "chips-coco", nome: "Chips de coco pequenos lavados", proporcao: "40%", nota: "umidade", finalidade: "Ajuda a manter umidade frequente sem encharcar." },
             { asset: "casca-pinus", nome: "Casca de pinus fina/média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece apoio às raízes e espaços de ar." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Reduz compactação e favorece drenagem." }
         ],
@@ -211,10 +211,10 @@ export const dichaeaPendula = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Cultivo possível, porém mais exigente. Use o ponto mais fresco e ventilado do orquidário, com sombra clara e alta umidade. O calor noturno prolongado é o maior desafio." },
-        montanhaFrio: { texto: "Tende a adaptar-se muito bem a condições intermediárias e frescas, desde que não haja geada, vento seco ou secagem prolongada." }
+        litoralQuente: { texto: "Boa compatibilidade potencial com litoral quente e úmido, conforme o IAR 95/100; mantenha sombra clara, umidade regular e ventilação, evitando calor noturno abafado e secagem das raízes." },
+        montanhaFrio: { texto: "Boa adaptação potencial em condições intermediárias e frescas, conforme o IAR 80/100, desde que não haja geada, vento seco ou secagem prolongada." }
     },
-    mesesFloracao: [9, 10, 11, 12, 1, 2, 3],
+    mesesFloracao: [],
     "selosCultivo": {
         "rega": { "nivel": "muito-frequente" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
