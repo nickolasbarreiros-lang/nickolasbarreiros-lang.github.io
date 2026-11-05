@@ -35,7 +35,7 @@ export const maxillariaChrysantha = {
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade dentro de porta-adubo e afastado do rizoma.\n💧 Foliar/radicular: NPK equilibrado em 1/4 a 1/3 da dose a cada 10 a 15 dias durante raízes e brotos ativos.\n🧪 Liberação lenta: usar dose mínima e afastada das raízes novas. Faça flushing mensal apenas com água pura para reduzir sais.",
     rega: "Durante o crescimento, mantenha umidade regular, permitindo boa aeração entre regas. O substrato não deve secar completamente por períodos longos nem permanecer saturado. Após a maturação, aumente discretamente o intervalo. Em dias frios, úmidos ou nublados, ajuste a frequência à menor evaporação. Pseudobulbos enrugando progressivamente exigem inspeção das raízes antes de aumentar a água.",
     suporte: "🥇 Vaso de barro pequeno e bem furado, apenas um pouco maior que a touceira.\n🥈 Cachepô de madeira vazado.\n🥉 Placa de madeira ou cortiça somente em ambiente fresco e úmido o suficiente para evitar desidratação rápida.",
-    substrato: ["Casca de pinus média + perlita grossa + esfagno de fibra longa solto + casca de macadâmia triturada","Fibra de coco grossa preparada + chips de coco médios preparados + perlita grossa + casca de pinus média"],
+    substrato: ["Casca de pinus média + perlita grossa + esfagno de fibra longa solto + casca de macadâmia triturada","Fibra de coco grossa lavada + chips de coco médios lavados + perlita grossa + casca de pinus média"],
     formasCultivo: {
         perfilVisual: "maxillaria-montana-raizes-sensiveis-calor",
         destaque: "Vaso de Barro",
@@ -51,8 +51,8 @@ export const maxillariaChrysantha = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso pequeno em ambiente ameno",
         resumo: "Substrato de partículas médias com umidade moderada, drenagem rápida e baixa compactação.",
-        justificativa: "Maxillaria chrysantha se beneficia de vaso pequeno em ambiente ameno, com umidade regular e raízes bem ventiladas. As cascas de pinus e macadâmia oferecem estrutura, a perlita grossa mantém a mistura aberta e a fibra de coco grossa preparada ajuda a conservar umidade. Observe a secagem do recipiente, evitando encharcamento, e favoreça noites mais amenas.",
-        receitaTexto: "35% casca de pinus média + 30% casca de macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa preparada.",
+        justificativa: "Maxillaria chrysantha se beneficia de vaso pequeno em ambiente ameno, com umidade regular e raízes bem ventiladas. A composição 35/30/25/10 é proposta horticultural não testada experimentalmente para a espécie. As cascas de pinus e macadâmia oferecem estrutura, a perlita grossa mantém a mistura aberta e a fibra de coco grossa lavada ajuda a conservar umidade. Observe a secagem do recipiente, evitando encharcamento, e favoreça noites mais amenas.",
+        receitaTexto: "Proposta técnica NÃO HOMOLOGADA para a espécie: 35% casca de pinus média + 30% casca de macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa lavada.",
         perfil: ["Epífita montana", "Noites amenas", "Raízes sensíveis", "Umidade moderada", "Boa ventilação"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
@@ -64,7 +64,7 @@ export const maxillariaChrysantha = {
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Oferece suporte às raízes com umidade moderada." },
             { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "30%", nota: "drenagem", finalidade: "Mantém estrutura aberta e estável." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Amplia drenagem e espaços de ar." },
-            { asset: "fibra-coco", nome: "Fibra de coco grossa preparada", proporcao: "10%", nota: "reserva hídrica", finalidade: "Retém pequena fração de umidade sem compactar." }
+            { asset: "fibra-coco", nome: "Fibra de coco grossa lavada", proporcao: "10%", nota: "reserva hídrica", finalidade: "Retém pequena fração de umidade sem compactar." }
         ],
         alerta: "O substrato não substitui noites amenas: calor noturno persistente pode limitar a floração. Evitar vaso grande, rizoma enterrado, substrato degradado e replante fora da emissão de raízes novas.",
         notaEvidencia: "MACS 1.1 — revisão documental: Maxillaria chrysantha (sin. Brasiliorchis chrysantha), epífita montana descrita na ficha como ocorrendo em torno de 1.400 m e favorecida por noites amenas. Vaso de barro 5 estrelas, cachepô madeira 4, placa e plástico vasado 3: escolha horticultural plausível, sem comparação controlada. Receita visual 35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa = 100%. A receita principal textual coincide com o visual (35% pinus, 30% macadâmia, 25% perlita, 10% fibra de coco); esfagno consta apenas em uma alternativa qualitativa. Fontes botânicas citadas na ficha não homologam materiais nem proporções. Orquidário Oriental (https://www.orquidariooriental.com.br/produto/brasiliorchis-chrysantha%2C53448/) recomenda boa drenagem, casca de pinus e esfagno com cascas para a espécie, sem percentuais; uma orientação comercial brasileira específica identificada, nenhuma receita quantitativa homologada. POWO confirma ocorrência no Sul/Sudeste do Brasil e nordeste da Argentina, não apenas áreas serranas. Percentuais e estrelas NÃO HOMOLOGADOS; menu com exatamente duas alternativas, sem percentuais inventados."
@@ -73,11 +73,11 @@ export const maxillariaChrysantha = {
     dica: "Replante somente quando novas pontas radiculares estiverem surgindo. Preserve o máximo possível das raízes firmes e deixe a base dos pseudobulbos livre, pois é dali que saem as hastes. Para florir bem no litoral, concentre seus esforços em noites mais frescas, ventilação e baixa retenção de calor no vaso, em vez de provocar seca artificial.",
     revisaoCientificaIAR: {
         "nome": "Maxillaria chrysantha",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma Maxillaria brasileira que chama atenção pela cor: suas flores amarelo-ouro podem chegar a cerca de 5 cm e ainda apresentam perfume adocicado. É uma espécie de áreas serranas, encontrada em torno de 1.400 m, onde recebe umidade frequente, ar em movimento e noites naturalmente mais frescas. Por isso, cresce muito bem em regiões de altitude e exige mais atenção no litoral quen",
+        "statusTaxonomico": "Maxillaria chrysantha é nome aceito em POWO/Kew.",
+        "sinonimosPrincipais": "Brasiliorchis chrysantha (sinônimo homotípico).",
+        "morfologiaDimensoes": "Maxillaria chrysantha é uma orquídea epífita de pseudobulbos ovoides, estriados e com duas folhas firmes, unidos por um rizoma que pode deixar espaços entre os brotos. Da base dos pseudobulbos surgem hastes individuais com flores vistosas, amarelo-ouro, de até cerca de 5 cm, frequentemente acompanhadas por perfume adocicado. As flores carnosas contrastam com a folhagem verde e podem aparecer em conjunto numa planta adulta. A espécie vive em ambientes florestais do Sul e Sudeste do Brasil e alcança o nordeste da Argentina. Registros de altitude mostram populações montanas, mas sua distribuição não se limita a uma única elevação.",
         "habitatAltitudeClima": "Epífita montana · cerca de 1.400 m. | Intermediário a fresco · noites amenas.",
-        "distribuicaoGeografica": "Sul do Brasil · áreas serranas.",
+        "distribuicaoGeografica": "Sul e Sudeste do Brasil e nordeste da Argentina (Misiones), conforme POWO/Kew.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
         "confianca": "alta",
         "fontes": [
@@ -209,11 +209,11 @@ export const maxillariaChrysantha = {
     },
         adaptacaoRegional: {
         litoralQuente: { texto: "Cultivo mais exigente. Use o ponto mais fresco e ventilado do orquidário, vaso pequeno e mistura muito arejada. O principal limitante é o calor noturno constante, especialmente no verão." },
-        montanhaFrio: { texto: "Em regiões serranas. As noites amenas favorecem o ciclo e a floração; apenas evite geadas e substrato permanentemente molhado em períodos frios e nublados." }
+        montanhaFrio: { texto: "Em regiões serranas, as noites amenas favorecem o ciclo e a floração; evite geadas e substrato permanentemente molhado em períodos frios e nublados." }
     },
     mesesFloracao: [6, 7, 8],
     "selosCultivo": {
-        "rega": { "nivel": "muito-frequente", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         avaliacoes: {
