@@ -10,7 +10,7 @@ export const laeliaLundiiAlba = {
     dificuldade: "Moderada",
     caracteristicas: [
         "Forma alba rara",
-        "Miniatura epífita ou rupícola",
+        "Miniatura epífita",
         "Flores claras de 3–4 cm",
         "Cultivo montado favorecido"
     ],
@@ -20,7 +20,7 @@ export const laeliaLundiiAlba = {
         "imagens/Cattleya lundii f. alba/Cattleya lundii f. alba3.jpg",
         "imagens/Cattleya lundii f. alba/Cattleya lundii f. alba4.jpg"
     ],
-    descricao: "Uma versão especialmente delicada de uma das menores Cattleyas sul-americanas. A forma alba de Cattleya lundii conserva o porte miniatura, as folhas estreitas e quase cilíndricas e o hábito de formar pequenas touceiras, mas se destaca pelas flores muito claras, brancas a branco-esverdeadas, sem a forte pigmentação púrpura típica da espécie. As flores medem cerca de 3 a 4 cm e ficam ainda mais vistosas quando várias frentes maduras florescem juntas.",
+    descricao: "Cattleya lundii f. alba é a designação horticultural da forma de flores claras de Cattleya lundii, pequena orquídea epífita sul-americana. A planta forma touceiras compactas, com pseudobulbos delicados e folhas estreitas, quase cilíndricas. Suas flores brancas a branco-esverdeadas contrastam com a coloração mais pigmentada de outras seleções da espécie; referências de cultivo mencionam flores com cerca de três a quatro centímetros. A espécie ocorre em ambientes tropicais sujeitos à sazonalidade das chuvas, incluindo formações vegetais brasileiras. O porte reduzido e a arquitetura das raízes epífitas tornam a planta particularmente interessante para cultivo montado em suportes pequenos.",
     origem: "América do Sul",
     regiao: "Forma clara de C. lundii · espécie nativa do Brasil, Bolívia, Paraguai e Argentina",
     habitat: "Como a espécie · epífita de ambientes tropicais sazonalmente secos; ocorrência rupícola ocasional a confirmar.",
@@ -36,9 +36,9 @@ export const laeliaLundiiAlba = {
     adubacao: "🌿 Orgânica: bokashi opcional em quantidade mínima, sempre afastado do rizoma.\n💧 Foliar/Mineral: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante crescimento ativo.\n🌱 Maturação: reduza a frequência quando o pseudobulbo estiver completo e a atividade diminuir.\n🧪 Liberação lenta: poucos grânulos apenas em recipiente muito drenante; em plantas montadas, é dispensável.\n🚿 Intercale regas somente com água para evitar sais.",
     rega: "Na brotação e emissão de raízes, regue bem e permita secagem rápida. Em montagem no verão, pode exigir regas diárias. Quando o crescimento desacelerar, aumente o intervalo entre irrigações, sem permitir desidratação severa dos pequenos pseudobulbos.",
     suporte: "🥇 Cortiça, galho ou madeira dura.\n🥈 Pequeno cachepô ou cesto de madeira.\n🥉 Vaso de barro pequeno, muito perfurado e preenchido com material grosseiro.",
-    substrato: ["45% casca de pinus média + 25% carvão vegetal médio + 20% fibra de coco preparada + 10% argila expandida pequena","40% casca de macadâmia média + 30% casca de pinus média + 20% carvão vegetal médio + 10% argila expandida pequena"],
+    substrato: ["Casca de pinus média + Carvão vegetal médio + Fibra de coco lavada + Argila expandida pequena","Casca de macadâmia média + Casca de pinus média + Carvão vegetal médio + Argila expandida pequena"],
     formasCultivo: {
-        perfilVisual: "miniatura-epifita-rupicola-forma-alba",
+        perfilVisual: "miniatura-epifita-forma-alba",
         destaque: "Placa / tronco",
         resumo: "Forma alba miniatura de crescimento em touceira. Favorecer montagem firme em cortiça ou madeira durável, raízes arejadas, boa luz filtrada e secagem rápida entre regas.",
         metodos: [
@@ -52,9 +52,9 @@ export const laeliaLundiiAlba = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para cesto ou vaso pequeno",
         resumo: "Mistura grosseira, arejada e de secagem perceptível, sem compactar raízes ou base da touceira.",
-        justificativa: "A forma alba de Laelia lundii mantém porte miniatura e se beneficia de montagem em placa ou tronco, com raízes bem ventiladas. Em cesto ou vaso pequeno, as cascas de macadâmia e pinus oferecem sustentação, enquanto a casca de arroz carbonizada e o carvão preservam espaços de ar. Escolha partículas proporcionais às raízes, fixe a planta com firmeza e permita secagem perceptível entre regas.",
-        receitaTexto: "35% casca de macadâmia média + 30% casca de pinus média + 20% casca de arroz carbonizada + 15% carvão vegetal médio.",
-        perfil: ["Forma alba", "Miniatura epífita ou rupícola", "Touceira compacta", "Raízes arejadas", "Luz filtrada abundante"],
+        justificativa: "A mistura 35/30/20/15 é proposta horticultural não homologada quantitativamente para Cattleya lundii f. alba; o cultivo principal em placa/tronco não usa percentuais volumétricos. A forma alba de Cattleya lundii mantém porte miniatura e se beneficia de montagem em placa ou tronco, com raízes bem ventiladas. Em cesto ou vaso pequeno, as cascas de macadâmia e pinus oferecem sustentação, enquanto a casca de arroz carbonizada e o carvão preservam espaços de ar. Escolha partículas proporcionais às raízes, fixe a planta com firmeza e permita secagem perceptível entre regas.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA, apenas para cesto ou vaso pequeno: 35% casca de macadâmia média + 30% casca de pinus média + 20% casca de arroz carbonizada + 15% carvão vegetal médio.",
+        perfil: ["Forma alba", "Miniatura epífita", "Touceira compacta", "Raízes arejadas", "Luz filtrada abundante"],
         comportamento: [
             { nome: "Retenção", valor: 2, icone: "💧" },
             { nome: "Aeração", valor: 5, icone: "💨" },
@@ -68,6 +68,6 @@ export const laeliaLundiiAlba = {
             { asset: "carvao", nome: "Carvão vegetal médio", proporcao: "15%", nota: "porosidade", finalidade: "Complementa a estrutura aberta." }
         ],
         alerta: "Evitar sombra excessiva, sol forte direto, vaso grande, esfagno compactado, raízes constantemente molhadas e divisões frequentes de touceiras pequenas.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Cattleya lundii f. alba (nome histórico Laelia lundii f. alba), miniatura epífita/rupícola de touceira compacta; principal suporte placa/tronco, raízes arejadas e secagem entre regas. Receita visual alternativa para recipiente pequeno: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com recipiente + 15% carvão vegetal médio = 100%; receitaTexto e itens concordam. Duas alternativas editoriais quantitativas distintas, 45/25/20/10 e 40/30/20/10 por volume, sem validação experimental. Assets de macadâmia, pinus, casca de arroz carbonizada e carvão cadastrados na biblioteca de cultivo. Estrelas dos suportes são heurísticas, não ensaios. Não há homologação quantitativa específica nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
+        notaEvidencia: "MACS 1.1 — revisão documental: Cattleya lundii f. alba (nome histórico Laelia lundii f. alba), miniatura epífita de touceira compacta; principal suporte placa/tronco, raízes arejadas e secagem entre regas. Receita visual alternativa para recipiente pequeno: 35% macadâmia média + 30% pinus médio + 20% casca de arroz carbonizada + 15% carvão vegetal médio = 100%; receitaTexto e itens concordam. Duas alternativas editoriais qualitativas distintas, sem percentuais; antigas proporções 45/25/20/10 e 40/30/20/10 constam somente do histórico da matriz, sem validação experimental. Assets de macadâmia, pinus, casca de arroz carbonizada e carvão cadastrados na biblioteca de cultivo. Estrelas dos suportes são heurísticas, não ensaios. Não há homologação quantitativa específica nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
     }
 };
