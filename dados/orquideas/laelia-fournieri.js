@@ -34,7 +34,7 @@ export const laeliaFournieri = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "É uma espécie de alta luminosidade, mas em litoral quente o risco principal é superaquecer folhas, pedras e raízes. Forneça claridade muito alta com ventilação intensa e evite suportes escuros expostos ao sol forte."
     },
-    floracao: "Predomina do verão ao outono. A inflorescência é curta, em torno de 1,5 cm, e pode produzir simultaneamente cerca de 3–7 flores de aproximadamente 2,5–3 cm.",
+    floracao: "No Brasil, Cattleya fournieri, também conhecida como Laelia fournieri, floresce principalmente no verão, com pico em dezembro e janeiro. Orquidários brasileiros também relatam floração que pode avançar pelo outono, conforme as condições de cultivo, mas ainda não há confirmação mensal suficiente para marcar todo esse intervalo no calendário. As inflorescências são curtas e surgem acima das folhas, com uma a sete flores, frequentemente três a sete, abertas ao mesmo tempo. Cada flor mede aproximadamente 2,5 a 3 cm e apresenta sépalas e pétalas brancas, em contraste com o labelo de tons amarelos claros a intensos. Um produtor brasileiro descreve a espécie como sem perfume perceptível. Não foi encontrada documentação específica confiável sobre quantos dias dura cada flor ou o conjunto da floração, por isso não se aplica uma estimativa genérica de outras Cattleyas.",
     adubacao: "🌿 Orgânica: Bokashi é dispensável como rotina; se usado, deve ser mínimo e totalmente afastado da base.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose a cada 10 a 15 dias enquanto houver crescimento ativo.\n🧪 Liberação lenta: não é a primeira escolha. Se utilizada, aplique pouquíssimos grânulos e considere toda a carga de fertilização para evitar salinização.",
     rega: "Durante brotação e enraizamento, regue bem e permita que o meio drene rapidamente e se aproxime da secagem antes da próxima irrigação. Rupícola não significa xerófita absoluta: uma planta pequena em vaso mineral pode secar muito rápido no verão e necessitar de água frequente. No período frio ou de menor atividade, aumente os intervalos, evitando desidratação severa dos pequenos pseudobulbos.",
     suporte: "🥇 Vaso de barro pequeno, raso e muito perfurado.\n🥈 Pedra porosa ou rocha mineral, com fixação muito firme.\n🥉 Cesto baixo e extremamente aberto.\nEscolha sempre o local mais fresco e ventilado, e não simplesmente o ponto mais alto do orquidário.",
@@ -214,7 +214,7 @@ export const laeliaFournieri = {
         litoralQuente: { texto: "Difícil de adaptação. O maior gargalo é o calor noturno. Use o ponto comprovadamente mais fresco e ventilado, recipiente pequeno, alta aeração e proteção contra superfícies que irradiem calor." },
         montanhaFrio: { texto: "Em ambientes luminosos e ventilados, protegendo apenas contra geadas severas e encharcamento prolongado em períodos frios." }
     },
-    mesesFloracao: [12, 1, 2, 3, 4],
+    mesesFloracao: [12, 1],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno" }
