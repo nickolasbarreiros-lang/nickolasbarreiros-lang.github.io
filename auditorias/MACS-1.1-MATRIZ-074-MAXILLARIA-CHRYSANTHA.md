@@ -44,3 +44,14 @@ Diferentes entre si e da R0; sem percentuais atribuídos sem fonte.
 
 ## Parecer final
 **Revisão documental concluída.** Taxonomia e distribuição corrigidas; orientação de um fornecedor brasileiro identificada; mistura visual/textual soma 100%; duas alternativas distintas; materiais de coco padronizados. **Homologação experimental específica dos percentuais: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** epífita pseudobulbosa, com pseudobulbos estriados bifoliados ligados por rizoma visível, raízes que requerem oxigenação e umidade regular no crescimento. Os pseudobulbos oferecem reserva, mas não justificam repouso seco severo; após maturação e durante frio/nublado, aumentar discretamente o intervalo de rega conforme a secagem real. Ambiente mais ameno e noites frescas favorecem o cultivo; altitude pontual de ~1.400 m não constitui limite da distribuição natural.
+
+**Cultivo principal:** vaso de barro pequeno, bem perfurado e proporcional à touceira. **Receita em volume:** 35% casca de pinus média (estrutura) + 30% casca de macadâmia triturada (porosidade) + 25% perlita grossa (aeração) + 10% fibra de coco grossa lavada (retenção moderada), total 100%. Proposta horticultural sem ensaio comparativo específico; Orquidário Oriental recomenda drenagem e pinus/esfagno, mas não esta fórmula. Materiais de coco lavados não dispensam eventual verificação de salinidade do lote.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus média + perlita grossa + esfagno de fibra longa solto + casca de macadâmia triturada; (2) fibra de coco grossa lavada + chips de coco médios lavados + perlita grossa + casca de pinus média. Distintas entre si e da mistura principal, sem homologação quantitativa.
+
+**Conferências editoriais:** descrição com 98 palavras (faixa 90–120). Padronizada fibra de coco grossa lavada em receita, item visual, justificativa e alternativa; chips de coco médios lavados na segunda alternativa. Justificativa e receita visual agora explicitam a ausência de ensaio específico. Corrigidos status taxonômico, sinônimo, distribuição e morfologia interna antes truncada; corrigida frase regional serrana. Selo de rega passou de “muito-frequente/reduzir-repouso” para “moderada/reduzir-inverno”, sem impor repouso seco. Receita e itens visuais somam 35+30+25+10=100%; quatro caminhos de fotos cadastrados; IDC 52/100 e duas estrelas coerentes com IDC 3.2; IAR e estrelas dos suportes preservados. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; um fornecedor brasileiro com orientação qualitativa específica, zero receitas quantitativas específicas de produtores brasileiros verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
