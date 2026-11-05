@@ -48,3 +48,14 @@ São distintas entre si e da R0; não atribuir proporções ou desempenho experi
 
 ## Parecer final
 **Revisão documental concluída.** Genealogia confirmada; três produtores brasileiros com orientações qualitativas identificados; mistura principal coerente em 100%; duas alternativas distintas; asset padronizado. **Homologação quantitativa da receita: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** grex intergenérico de caules altos e vigorosos, com ascendência de Epidendrum pseudepidendrum e Cattleya Claesiana. Raízes epífitas necessitam de ventilação, irrigação adequada no crescimento e secagem parcial entre regas, sem encharcamento persistente. Não existe habitat natural do grex; não se pode inferir exigências hídricas exatas apenas da genealogia. Não foram encontrados ensaios comparativos específicos de suporte, tamanho de vaso ou intervalo de secagem.
+
+**Cultivo principal:** vaso de barro firme e drenante, proporcional à touceira, com espaço vertical e tutoramento se necessário. **Receita em volume:** 35% casca de macadâmia média (estrutura) + 30% casca de pinus média (porosidade) + 20% perlita grossa (aeração) + 15% carvão vegetal (drenagem), total 100%. Hipótese horticultural sem validação experimental para o grex. Os três produtores brasileiros citados na matriz fornecem orientação qualitativa, não a proporção 35/30/20/15.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus média/grossa + perlita grossa + carvão vegetal; (2) chips de coco grossos lavados + casca de pinus média + perlita grossa + carvão vegetal. Distintas entre si e da mistura principal, sem comparação experimental. Chips lavados não dispensam eventual controle de sais do lote.
+
+**Conferências editoriais:** descrição com 92 palavras, dentro da faixa 90–120. Corrigida grafia do nome no texto de justificativa, padronizada nomenclatura dos chips, corrigida frase de adaptação regional, explicitada falta de homologação em justificativa e receita visual, substituído resumo morfológico truncado e campo de sinônimos genérico inadequado a grex. Receita e itens visuais somam 35+30+20+15=100%; quatro caminhos de fotos cadastrados; IDC 44/100 e três estrelas coerentes com IDC 3.2; IAR e avaliações dos suportes preservados. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; três produtores brasileiros com orientações qualitativas específicas, zero receitas quantitativas específicas verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
