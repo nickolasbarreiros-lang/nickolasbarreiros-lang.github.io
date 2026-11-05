@@ -31,7 +31,7 @@ export const bulbophyllumSikkimense = {
     floracao: "Principalmente na primavera no conceito histórico de B. sikkimense; dentro de B. roxburghii, a janela pode se estender ao verão. Referência prática: setembro a fevereiro.",
     adubacao: "🌿 Orgânica: Bokashi em quantidade mínima e preferencialmente em sachê.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: Osmocote em dose baixa, afastado do rizoma; reduza depois da maturação dos pseudobulbos e lave o meio periodicamente com água limpa.",
     rega: "Irrigue regularmente durante brotação e enraizamento, sempre com drenagem rápida. Depois da maturação, reduza apenas moderadamente a frequência se o clima ficar mais fresco. Não imponha seca prolongada.",
-    suporte: "🥇 Cesto/cachepô raso e largo.\n🥈 Vaso tipo cuia muito perfurado.\n🥉 Placa de cortiça ou madeira com pequena reserva de esfagno.\nDeixe espaço para o crescimento horizontal.",
+    suporte: "🥇 Vaso plástico vasado, baixo e largo.\n🥈 Cachepô de madeira raso e largo.\n🥉 Placa de cortiça ou madeira com pequena reserva de esfagno.\nDeixe espaço para o crescimento horizontal.",
     formasCultivo: {
         "perfilVisual": "bulbophyllum",
         "destaque": "Vaso plástico vasado",
