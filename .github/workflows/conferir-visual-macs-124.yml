@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/conferir-visual-macs-124.yml'
+      - 'dados/orquideas/phalaenopsis-mannii.js'
   workflow_dispatch:
 jobs:
   conferir:
@@ -37,7 +38,7 @@ jobs:
             await section.screenshot({path:'macs-124-substrato-desktop.png'});
             await page.setViewportSize({width:390,height:844});
             await section.screenshot({path:'macs-124-substrato-mobile.png'});
-            console.log('APROVADO: renderização desktop/mobile, 2 receitas com percentuais e sem erros JavaScript.');
+            console.log('APROVADO: renderização desktop/mobile, 2 alternativas qualitativas sem percentuais e sem erros JavaScript.');
             await browser.close();
           })().catch(e=>{console.error(e);process.exit(1)});
           JS
