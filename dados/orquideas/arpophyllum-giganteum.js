@@ -4,7 +4,7 @@ export const arpophyllumGiganteum = {
     nome: "Arpophyllum giganteum",
     genero: "Arpophyllum",
     tipo: "Espécie botânica — com táxons infraespecíficos reconhecidos em bases modernas",
-    sinonimo: "Arpophyllum cardinale Linden & Rchb.f.; Arpophyllum jamaicense Schltr.; Arpophyllum medium Rchb.f.; Arpophyllum stenostachyum Schltr.; nomes hoje associados ao complexo/infrasubdivisões de A. giganteum",
+    sinonimo: "Arpophyllum cardinale, A. jamaicense, A. squarrosum e A. stenostachyum (sinônimos da subsp. giganteum); A. medium e A. alpinum são basiônimos de outras subespécies aceitas",
     dificuldade: "Fácil",
     origem: "América Tropical",
     regiao: "México · Guatemala · Belize · El Salvador · Honduras · Nicarágua · Costa Rica · Jamaica · Colômbia · Venezuela",
@@ -33,22 +33,23 @@ export const arpophyllumGiganteum = {
     },
     floracao: "Principalmente do fim do inverno à primavera. No Brasil, agosto a novembro é uma janela prática coerente. A haste terminal surge de pseudobulbo recém-maduro e pode alcançar cerca de 40 cm, carregando grande número de pequenas flores rosa-púrpura em espiral.",
     adubacao: "🌿 Orgânica: bokashi em dose pequena a moderada durante brotação e expansão dos pseudobulbos, preferencialmente em sachê/porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20 ou equivalente, em 1/4 a 1/3 da dose do fabricante a cada 7 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: Osmocote 14-14-14 ou semelhante pode ser usado em dose moderada em vasos/cestos grandes. Reduza o fertilizante líquido se já houver liberação lenta. Após maturação dos pseudobulbos, diminua a frequência sem recorrer a 'adubo de floração' excessivamente fosfatado.",
-    rega: "Durante brotação, enraizamento e formação dos pseudobulbos, forneça água abundante e permita apenas secagem parcial do substrato entre irrigações. Depois da maturação, reduza moderadamente a frequência conforme a temperatura e a evaporação caírem, mas não imponha repouso seco severo. A recomendação clássica de cultivo inclui tanto luz ampla quanto água generosa.",
+    rega: "Durante brotação, enraizamento e formação dos pseudobulbos, forneça água abundante e permita apenas secagem parcial do substrato entre irrigações. Depois da maturação, reduza moderadamente a frequência conforme a temperatura e a evaporação caírem, mas não imponha repouso seco severo. AOS também recomenda repouso mais fresco e seco para estimular floração, após a maturação, sem extrapolar isso para desidratação extrema.",
     suporte: ["🥇 Vaso pesado e proporcional à touceira, com excelente drenagem e espaço para o rizoma.", "🥈 Cachepô de madeira amplo e robusto.", "🥉 Cesto grande e ventilado para exemplares adultos."],
     formasCultivo: {
         perfilVisual: "arpophyllum",
         destaque: "Vaso plástico",
         resumo: "Orquídea epífita cespitosa de grande porte. Em cultivo, desenvolve-se muito bem em recipiente estável, com substrato estrutural e arejado que preserve umidade moderada sem sufocar as raízes.",
         metodos: [
-            { nome: "Vaso plástico", asset: "arpophyllum-giganteum-vaso-plastico", estrelas: 5, status: "Ideal", texto: "É a opção mais equilibrada para uma touceira adulta: mantém estabilidade, desacelera a perda de umidade e permite usar uma mistura muito aerada sem ressecar rapidamente." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Excelente para touceiras grandes e para manter forte oxigenação das raízes, exigindo apenas maior atenção à frequência das regas." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "Oferece boa estabilidade e troca de ar pelas paredes porosas, mas seca mais rapidamente que o vaso plástico." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Funciona bem em ambientes muito úmidos, porém aumenta a velocidade de secagem e pode exigir regas mais frequentes no litoral quente." }
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Preferência técnica provisória", texto: "É a opção mais equilibrada para uma touceira adulta: mantém estabilidade, desacelera a perda de umidade e permite usar uma mistura muito aerada sem ressecar rapidamente." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa provisória", texto: "Excelente para touceiras grandes e para manter forte oxigenação das raízes, exigindo apenas maior atenção à frequência das regas." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa provisória", texto: "Oferece boa estabilidade e troca de ar pelas paredes porosas, mas seca mais rapidamente que o vaso plástico." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa provisória", texto: "Funciona bem em ambientes muito úmidos, porém aumenta a velocidade de secagem e pode exigir regas mais frequentes no litoral quente." }
         ]
     },
     substrato: ["Casca de macadâmia média + carvão vegetal médio + casca de arroz carbonizada + pequena quantidade de esfagno de fibra longa solto","Casca de pinus média + carvão vegetal médio + perlita grossa + pequena quantidade de esfagno de fibra longa solto"],
     substratoVisual: {
-        titulo: "Substrato ideal",
+        notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D). Receita 35% macadâmia + 25% pinus + 20% carvão + 10% casca de arroz carbonizada + 10% esfagno = 100%, sem ensaio comparativo. Quatro suportes sem estrelas quantitativas. AOS recomenda vasos ou cestos e repouso fresco mais seco para floração; não demonstra superioridade do vaso plástico nem percentuais. Não comprovado confronto individualizado com 25 produtores brasileiros.",
+        titulo: "Substrato recomendado (provisório)",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura estrutural de longa duração, com boa reserva hídrica e ampla aeração para uma touceira adulta que não deve ser replantada desnecessariamente.",
         justificativa: "Arpophyllum giganteum forma touceiras volumosas e precisa de recipiente firme, com espaço para as raízes e substrato bem ventilado. As cascas de macadâmia e pinus dão sustentação, o carvão e a casca de arroz carbonizada ajudam a manter a mistura aberta e o esfagno solto conserva uma pequena reserva de umidade. Observe a secagem no centro do vaso, evite encharcamento persistente e não replante sem necessidade.",
@@ -61,7 +62,7 @@ export const arpophyllumGiganteum = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura + durabilidade", finalidade: "Forma a base estrutural da mistura, preservando espaços de ar e reduzindo a perda rápida de granulometria." },
+            { asset: "casca-macadamia", nome: "Casca de macadâmia média", proporcao: "35%", nota: "estrutura + durabilidade", finalidade: "Forma a base estrutural da mistura, preservando espaços de ar e reduzindo a perda rápida de granulometria." },
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "25%", nota: "estrutura + umidade", finalidade: "Complementa a estrutura e oferece equilíbrio entre aeração e retenção, com uso consolidado em orquidários brasileiros." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal médio", proporcao: "20%", nota: "macroporos + estabilidade", finalidade: "Mantém a mistura aberta e estruturalmente estável." },
             { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "10%", nota: "leveza + porosidade", finalidade: "Aumenta a porosidade sem elevar muito a retenção ou o peso do vaso." },
@@ -71,19 +72,22 @@ export const arpophyllumGiganteum = {
     },
     errosComuns: ["Cultivar em sombra excessiva e obter pseudobulbos alongados sem floração.", "Impor seca severa no inverno.", "Usar vaso leve ou instável para touceira grande.", "Manter substrato compacto e permanentemente molhado.", "Dividir touceiras repetidamente antes de acumularem reservas.", "Cultivar no litoral quente sem ventilação noturna suficiente.", "Enterrar demais o rizoma ou impedir sua expansão lateral."],
     revisaoCientificaIAR: {
-        "nome": "Arpophyllum giganteum",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma orquídea impossível de ignorar quando entra em floração! O Arpophyllum giganteum forma touceiras robustas e produz longas inflorescências cilíndricas, densamente cobertas por dezenas de pequenas flores rosa a púrpura dispostas em espiral, criando um efeito que lembra uma grande escova floral.",
-        "habitatAltitudeClima": "Epífita rizomatosa de florestas úmidas de encosta e sopé de montanha, aproximadamente entre 800 e 1.500 m. | Quente a fresco, com preferência por noites amenas e boa amplitude térmica.",
-        "distribuicaoGeografica": "México, Guatemala, Belize, El Salvador, Honduras, Nicarágua, Costa Rica, Jamaica, Colômbia e noroeste da Venezuela.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
-        "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
+        nome: "Arpophyllum giganteum Hartw. ex Lindl.",
+        statusTaxonomico: "Espécie aceita pelo POWO/Kew, publicada em Annals of Natural History 4:384 (1840). POWO reconhece três subespécies: subsp. giganteum, subsp. alpinum e subsp. medium; não tratar todos os nomes históricos como sinônimos da espécie nominal.",
+        sinonimosPrincipais: "POWO/WFO reconhecem, sob a subespécie nominal, os sinônimos heterotípicos Arpophyllum cardinale Linden & Rchb.f., A. jamaicense Schltr., A. squarrosum Lubbers e A. stenostachyum Schltr. Já Arpophyllum alpinum Lindl. é basiônimo da subsp. alpinum, e A. medium Rchb.f. é basiônimo da subsp. medium. Esses dois nomes não são sinônimos indiscriminados da subespécie nominal.",
+        morfologiaDimensoes: "A RHS descreve orquídea epífita de porte médio, com pseudobulbos eretos de até aproximadamente 75 cm e uma folha apical coriácea, estreita e alongada, que pode atingir cerca de 60 cm. Inflorescências terminais eretas, densas e cilíndricas alcançam cerca de 40 cm, com numerosas flores rosa-arroxeadas de aproximadamente 0,8 cm, dispostas em espiral. AOS descreve pseudobulbos cilíndricos lateralmente comprimidos e flores não ressupinadas. Valores são referências de cultivo e não dimensões obrigatórias de todas as subespécies.",
+        habitatAltitudeClima: "POWO registra epífita rizomatosa de bioma tropical úmido do México ao noroeste da Venezuela e Jamaica. IOSPE cita populações em florestas de sopé entre 800 e 1.500 m; POWO, para registros colombianos, apresenta faixa de 1.320–1.930 m. Não fixar 800–1.500 m como limite da espécie. AOS recomenda luz difusa muito clara, temperaturas intermediárias e rega regular durante crescimento, além de repouso fresco e mais seco para indução floral; isso difere da orientação genérica de não impor seca severa e exige acompanhamento da planta.",
+        distribuicaoGeografica: "POWO/Kew: México, Belize, Guatemala, El Salvador, Honduras, Nicarágua, Costa Rica, Jamaica, Colômbia e Venezuela. Distribuição global da espécie agrega três subespécies aceitas, cujas áreas não são necessariamente idênticas.",
+        cultivoPremiacao: "AOS orienta vasos grandes ou cestos com mistura epífita de granulometria média, mínimo distúrbio das raízes, luz difusa muito clara, regas regulares no crescimento e repouso mais fresco e seco para favorecer floração, com melhores resultados em touceiras estabelecidas. RHS descreve cultivo em local protegido, bem drenado e com luz de sol ou meia-sombra em contexto de estufa; não extrapolar exposição solar irrestrita ao litoral quente. IOSPE recomenda cultivo semelhante a Cattleya de clima fresco com luz e água suficientes. Nenhuma fonte comprova superioridade quantitativa do vaso plástico sobre cachepô ou barro nem valida a receita 35% macadâmia + 25% pinus + 20% carvão + 10% casca de arroz carbonizada + 10% esfagno. Nenhum confronto individualizado com 25 produtores brasileiros foi comprovado; premiação AOS específica não foi verificada.",
+        confianca: "Taxonomia, subespécies e distribuição: alta (POWO/WFO). Morfologia: alta para descrições RHS/AOS. Altitude: moderada, faixas regionais diferentes. Manejo sazonal: orientação hortícola AOS que requer adaptação local. MACS 1.1 Classe D, sem validação quantitativa.",
+        fontes: [
+            "POWO/Kew, espécie aceita e três subespécies — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:320418-2",
+            "POWO/Kew, subsp. giganteum e seus sinônimos — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77167664-1",
+            "POWO/Kew, subsp. medium — https://powo.science.kew.org/taxon/1016258-1",
+            "POWO/Kew, subsp. alpinum — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1016257-1",
+            "AOS, Arpophyllum, morfologia e cultivo — https://www.aos.org/explore/arpophyllum",
+            "RHS, Arpophyllum giganteum — https://www.rhs.org.uk/plants/1612/arpophyllum-giganteum/details",
+            "IOSPE, Arpophyllum giganteum — https://www.orchidspecies.com/arpogiganteum.htm"
         ]
     },
     indiceDificuldadeCultivo: {
