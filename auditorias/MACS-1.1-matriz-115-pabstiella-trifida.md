@@ -35,3 +35,6 @@ Execução Chromium/Playwright https://github.com/nickolasbarreiros-lang/nickola
 **Limite técnico:** teste Chromium/Playwright de 2026-11-04 antecede a versão atual. Não houve inspeção visual nem novo teste de carregamento de fotos após esta revisão; reservados para auditoria final com ZIP.
 
 **Parecer:** revisão documental realizada, mas alternativas qualitativas ainda precisam diferir materialmente. Homologação quantitativa **reprovada por insuficiência de evidências (D)**.
+
+## Errata conclusiva das alternativas — 2026-11-05
+A duplicação material detectada no fechamento anterior foi **corrigida na própria ficha antes de avançar**. Alternativa 1: esfagno de fibra longa solto + casca de pinus fina + casca de arroz carbonizada. Alternativa 2: casca de pinus fina + carvão vegetal pequeno + esfagno de fibra longa solto. A segunda substitui casca de arroz carbonizada por carvão vegetal pequeno, diferenciando de fato os componentes. Ambas são qualitativas, sem percentuais e **não homologadas**; carvão não foi introduzido na receita principal de 40/30/30. O parágrafo anterior que sinaliza pendência registra a detecção histórica; **a pendência foi sanada neste commit**. Fechamento editorial documental da matriz 115 concluído, com limite de evidência quantitativa D e inspeção visual final com ZIP ainda não executada.
