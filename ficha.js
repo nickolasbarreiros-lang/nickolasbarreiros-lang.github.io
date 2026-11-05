@@ -648,6 +648,13 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                 <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres, evite compactar o substrato e não enterre o rizoma. Ajuste a rega à secagem real da mistura.</div>
             ` : ""}
 
+            ${config.notaEvidencia ? `
+                <div class="nota-evidencia-substrato-v4" role="note">
+                    <strong>Fundamentação científica e limites da recomendação</strong>
+                    <p>${String(config.notaEvidencia).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;")}</p>
+                </div>
+            ` : ""}
+
             ${misturasRecomendadas.length ? `
                 <div class="substratos-recomendados-v4">
                     <div class="titulo-recomendados-v4">
