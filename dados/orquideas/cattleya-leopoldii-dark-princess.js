@@ -35,7 +35,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
         "horario": "Início da manhã ou final da tarde",
         "observacoes": "A luz intensa mantém o crescimento compacto e favorece pigmentação mais escura. Folhas verde-médio firmes indicam bom cultivo; folhas muito escuras e pseudobulbos finos indicam sombra. Evite sol forte sobre folhas molhadas."
     },
-    "floracao": "Floresce principalmente do fim do verão ao outono, entre fevereiro e maio. A haste emerge da espata apical e pode carregar várias flores cerosas, perfumadas e duráveis. Touceiras adultas produzem apresentações mais equilibradas e possuem reservas suficientes para sustentar inflorescências pesadas. Durante a formação da haste, evite girar o vaso ou alterar bruscamente a posição em relação à luz.",
+    "floracao": "No cultivo brasileiro, Cattleya tigrina, também conhecida como Cattleya leopoldii, floresce principalmente no verão, com registros em dezembro e janeiro; alguns orquidários relatam florações até abril. Esses meses são referências da espécie, não um calendário exclusivo confirmado para o cultivar Dark Princess. As hastes surgem no alto dos pseudobulbos maduros e podem reunir numerosas flores cerosas, geralmente com 7 a 10 cm, em tons castanhos ou vinho com pintas escuras e labelo magenta; a seleção Dark Princess se destaca pela coloração intensa. O perfume pode ser suave e adocicado, mais perceptível durante o dia. As flores costumam durar cerca de duas semanas, podendo alcançar aproximadamente três semanas em determinadas plantas e condições.",
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade a cada 60–90 dias durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em 1/4 a 1/2 da dose a cada 7–15 dias.\n🌱 Alongamento: mantenha nutrição regular enquanto o pseudobulbo cresce e engrossa.\n🌸 Maturação: reduza o nitrogênio após o endurecimento do pseudobulbo; não exagere em fórmulas de floração.\n🧪 Liberação lenta: Osmocote em dose moderada, sem contato com raízes jovens.\n🚿 Flushing: lavagem mensal para evitar sais.",
     "rega": "Durante o crescimento, regue abundantemente e permita secagem quase completa antes da próxima aplicação. Após a maturação, aumente o intervalo, acompanhando o clima. No inverno, evite substrato frio e constantemente molhado. A planta tolera melhor breve secagem que abafamento prolongado, mas hastes em crescimento não devem sofrer desidratação repetida.",
     "suporte": "🥇 Vaso de barro pesado, largo o suficiente para estabilidade e com tutor rígido.\n🥈 Cachepô robusto de madeira, preso de forma segura à bancada.\n🥉 Cesta grande para touceiras adultas.\nUse brita ou perlita grossa na base para contrapeso, sem bloquear os furos. Tutores devem ser instalados quando o broto ainda estiver flexível.",
@@ -237,10 +237,11 @@ export const cattleyaLeopoldiiDarkPrincess = {
         "montanhaFrio": "Tolera noites amenas, mas deve ser protegida de frio intenso. Regue pela manhã para permitir secagem completa."
     },
     "mesesFloracao": [
+        12,
+        1,
         2,
         3,
-        4,
-        5
+        4
     ],
     "selosCultivo": {
         "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
