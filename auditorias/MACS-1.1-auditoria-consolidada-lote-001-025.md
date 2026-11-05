@@ -339,3 +339,9 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - POWO descreve epífita do bioma tropical sazonalmente seco; não inferir repouso seco obrigatório. IOSPE fornece morfologia e floração outono–inverno. AOS fornece recomendações **gerais do gênero Miltonia**, não teste da receita desta espécie.
 - Verificação estrutural textual: descrição 95 palavras (dentro do intervalo editorial 90–120), quatro suportes com `estrelas: null`, duas alternativas de substrato sem percentuais, receita principal 35/30/25/10 = 100%, **perlita preservada**.
 - **Homologação documental concluída, MACS 1.1 provisória Classe D**: não foram localizados ensaios comparativos específicos ou dados de produtores suficientes para homologação quantitativa. Conferência visual de assets/renderização permanece separada.
+
+### Ficha 6 — Brassia lawrenceana (2026-11-04)
+- POWO aceita Brassia cochleata e trata Brassia lawrenceana como sinônimo heterotípico; Flora do Brasil 2020 adota circunscrição histórica diferente.
+- Morfologia e cultivo qualitativo confrontados com RHS; ocorrência amazônica documentada na Flora do Brasil 2020.
+- Descrição: 117 palavras. Quatro suportes sem estrelas. Duas misturas alternativas qualitativas. Receita 35/25/20/10/10 = 100%, sem alteração.
+- Encerramento documental da ficha 6: MACS 1.1 provisória Classe D, sem validação quantitativa. Conferência visual local segue separada.
