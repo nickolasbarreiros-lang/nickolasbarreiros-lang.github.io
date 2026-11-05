@@ -20,3 +20,12 @@ Teste Chromium desktop/mobile aprovado, capturas confirmadas e encerramento téc
 
 ## Encerramento — 2026-11-04
 Execução Chromium/Playwright [41842623650](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41842623650): **completed/success**, incluindo inspeção no navegador e upload de capturas. Artefato **13328584274**, `macs-138-inspecao-visual` (430110 bytes). Principal soma 100%; duas alternativas qualitativas sem percentuais; perlita preservada; estrelas dos suportes omitidas; quatro fotos e sete assets presentes. IDC 3.2 e IAR 2.0 preservados. **Classe D — NÃO HOMOLOGADA quantitativamente**, sem ensaios comparativos específicos nem amostra documentada de 25 produtores independentes. Sem pendências técnicas detectadas pelo teste; matriz 139 liberada.
+
+
+## Auditoria integrada de continuidade — 2026-11-05
+- **Taxonomia:** nome editorial *Promenaea xanthina*, enquanto POWO aceita *Promenaea stapelioides* subsp. *xanthina*. A ficha já explica a diferença e reúne referências POWO, AOS, monografia taxonômica e OSCOV. Campo morfológico completo, sem truncamento detectado.
+- Principal: 45% pinus fino + 40% perlita de granulometria compatível + 15% esfagno de fibra longa solto = **100%**. Duas alternativas qualitativas sem percentuais; estrelas dos suportes `null`.
+- **IDC 3.2 documental:** 56/100, difícil, duas estrelas; notas T/R/H/V/L/Ra/S/F = 3/3/3/3/3/2/2/3. Faixa correta, mas transformação das notas em pontuação total não recalculada independentemente.
+- **IAR 2.0 litoral:** 32/100, duas estrelas; notas 1/1/5/5/2/4/1: 6+6+5+5+2+4+4=32.
+- **IAR 2.0 montanha:** 97/100, cinco estrelas; notas 5/5/5/5/3/4/5: 30+30+5+5+3+4+20=97.
+- **MACS 1.1:** classe D, sem ensaios comparativos específicos nem documentação de 25 produtores independentes. IAR aritmeticamente consistente, sem homologação empírica. Workflow ajustado para inspecionar edições da ficha; nova execução Chromium solicitada.
