@@ -43,3 +43,10 @@ Não calcular nota sem medições comparáveis.
 - Composição integral R0: **D**; percentuais: **D**; estrelas: **D**.
 - **4 produtores/comerciantes brasileiros específicos identificados**, **3 com ingredientes ou materiais identificáveis** (Maripá, Mogi Mirim, Vico), **0 com receita percentual**. Levantamento não exaustivo.
 - **Status:** PROVISÓRIA, 0 homologações quantitativas de desempenho adulto. Preservar JS, substrato visual, fotos, assets, IDC/IAR e V4.9.
+
+## Conferência adicional — 2026-11-04
+- **IDC 3.2:** oito pesos totalizam 100; soma ponderada das notas = 170; índice recalculado = 170/5 = **34**, igual ao cadastrado. Faixa 26–35: quatro estrelas de facilidade.
+- **IAR 2.0:** sete pesos totalizam 100 em cada região; somas ponderadas litoral = 320 e montanha = 480; índices recalculados = **64** e **96**, iguais aos cadastrados.
+- **MACS 1.1:** receita principal 35+25+20+10+10 = **100%**; os quatro métodos de cultivo têm estrelas nulas e status provisório. As duas alternativas são qualitativas, sem porcentagens.
+- **Limite de homologação:** conferência aritmética e coerência documental concluídas; nenhuma medição comparativa da receita nem validação experimental dos recipientes foi localizada. Permanecem **Classe D / provisória**, sem converter plausibilidade em evidência quantitativa.
+- **Pendências externas não resolvíveis apenas por edição:** ensaio comparativo de retenção, aeração, degradação, salinidade e vigor/floração; verificação visual em navegador não efetuada nesta conferência.
