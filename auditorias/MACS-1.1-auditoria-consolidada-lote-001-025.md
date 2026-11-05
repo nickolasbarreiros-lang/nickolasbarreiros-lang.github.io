@@ -396,3 +396,10 @@ Fontes: https://www.orquidariomogimirim.com.br/stelis-sp ; https://orquidariomat
 - IOSPE documenta epífita de floresta úmida em aproximadamente 200–1.500 m, inflorescências basais de 12–30 cm com 3–15 flores perfumadas de cerca de 2,5 cm. AOS fornece cuidados gerais de gênero, não ensaio desta espécie.
 - Conferência estrutural textual: descrição 107 palavras, quatro suportes `estrelas: null`, duas alternativas qualitativas e receita 35% brita + 30% macadâmia + 20% carvão + 15% pinus = 100%. A secagem rápida da receita é hipótese de manejo, não superioridade universal comprovada. IDs de assets normalizados no código, sem conferência visual.
 - **Homologação documental concluída — MACS 1.1 provisória Classe D.** Percentuais e ranking de suportes não validados quantitativamente. Inspeção visual final separada.
+
+### Ficha 15 — Cattleya wittigiana / Sophronitis wittigiana (2026-11-04)
+- POWO aceita *Cattleya wittigiana* (Barb.Rodr.) Van den Berg (2008); *Sophronitis wittigiana* Barb.Rodr. (1878) é basiônimo e sinônimo homotípico. Distribuição nativa: Minas Gerais e Espírito Santo.
+- Flora do Brasil 2020 descreve pseudobulbos ovoides unifoliados, floração geralmente uniflora e ocorrência histórica em floresta úmida a ~800–900 m; IOSPE descreve populações de 700–2.000 m e flores de 4–6,5 cm. Não confundir faixas regionais com exigência térmica universal.
+- Confronto com produtor brasileiro Colibri Orquídeas: alta umidade, boa luz e ventilação, sem encharcamento. Registro CAOB 2024 de segundo lugar em exposição, sem confusão com prêmio AOS. Ausência de confronto documentado com 25 produtores.
+- Conferência estrutural textual: descrição 95 palavras; quatro suportes `estrelas: null`; duas alternativas qualitativas; receita 45% pinus + 25% carvão + 20% brita + 10% esfagno = 100%; ID de brita padronizado. Etiqueta de dificuldade geral alinhada ao IDC 3.2 (30 pontos, Fácil).
+- **Homologação documental concluída — MACS 1.1 provisória Classe D.** Percentuais e hierarquia de suportes não homologados experimentalmente; verificação visual final separada.
