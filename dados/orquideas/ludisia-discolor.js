@@ -41,7 +41,7 @@ export const ludisiaDiscolor = {
         destaque: "Vaso plástico",
         resumo: "Orquídea-joia terrestre de caules rastejantes, adaptada a luz indireta e meio orgânico arejado, levemente úmido. Precisa de recipiente largo e raso, com drenagem e espaço horizontal.",
         metodos: [
-            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso largo e raso com furos de drenagem, permitindo expansão horizontal dos caules." },
+            { nome: "Vaso plástico", asset: "vaso-plastico-vasado", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso largo e raso com furos de drenagem, permitindo expansão horizontal dos caules." },
             { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Alternativa", texto: "Cuia larga e rasa, com umidade monitorada para evitar secagem excessiva." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Uso condicional", texto: "Recipiente baixo e ventilado, desde que a mistura não seque rapidamente demais." },
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 2, status: "Uso condicional", texto: "Somente com recipiente interno drenante e meio orgânico que preserve umidade; não é a opção preferencial." }
