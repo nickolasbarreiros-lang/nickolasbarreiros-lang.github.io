@@ -79,8 +79,8 @@ export const oncidiumTwinkle = {
         "morfologiaDimensoes": "Pequeno no tamanho e enorme no perfume! Oncidium Twinkle é um híbrido compacto que forma touceiras cheias e pode produzir várias hastes ramificadas ao mesmo tempo, criando uma verdadeira nuvem de flores. O aroma é um de seus maiores atrativos, variando entre notas de baunilha, chocolate, frutas e confeitaria conforme o clone.",
         "habitatAltitudeClima": "Sem habitat natural · parentais montanos. | Intermediário · noites amenas.",
         "distribuicaoGeografica": "Grex registrado em 1958.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
+        "cultivoPremiacao": "Cultivo confrontado com orientações horticulturais para o grex e para o grupo Oncidium; o híbrido não possui habitat natural próprio. Não foi documentada premiação AOS específica nesta ficha.",
+        "confianca": "Alta para identidade do grex; moderada para recomendações gerais de cultivo; composição MACS inferencial (C), percentuais não validados experimentalmente e estrelas de suportes sem homologação (D).",
         "fontes": [
             "POWO/Kew",
             "WFO/IPNI",
@@ -141,7 +141,7 @@ export const oncidiumTwinkle = {
     indiceAdaptacaoRegional: {
         "versao": "IAR 2.0 — revisão científica",
         "escala": "compatibilidade regional",
-        "metodo": "notas atribuídas manualmente após confronto das fontes botânicas e horticulturais; não derivadas do texto da ficha",
+        "metodo": "notas editoriais atribuídas manualmente com base no clima dos parentais e em fontes horticulturais; o fator habitatNatural representa os parentais, pois o grex não possui habitat natural; não constitui medição experimental"
         "litoralQuente": {
             "indice": 47,
             "estrelas": 3,
