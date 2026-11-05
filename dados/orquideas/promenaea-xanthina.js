@@ -75,14 +75,14 @@ export const promenaeaXanthina = {
         notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D), sem validação quantitativa dos percentuais ou comparação experimental dos suportes. MACS 1.1 — revisão documental: Promenaea xanthina (nome editorial; POWO trata como Promenaea stapelioides subsp. xanthina), miniatura epífita montana com raízes delicadas; requer umidade regular, ventilação e noites amenas. Vaso plástico vasado pequeno é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 45% pinus fino + 40% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/perlita/pinus fino e esfagno de fibra longa solto/perlita. Não fundamentam os percentuais visuais. A montagem com esfagno é método separado. Noites quentes podem limitar vigor e floração mesmo com substrato correto. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
-        "Expor ao sol direto forte",
-        "Compactar esfagno em torno das raízes",
-        "Manter o substrato permanentemente encharcado",
-        "Deixar a planta secar completamente durante o crescimento",
-        "Cultivar em ambiente quente e abafado",
-        "Usar vaso grande demais",
-        "Fazer repouso seco prolongado",
-        "Aplicar fertilizante concentrado"
+        "Evite sol direto forte nas folhas delicadas.",
+        "Não compacte esfagno ao redor das raízes.",
+        "Não mantenha o substrato encharcado.",
+        "Não deixe secar completamente durante o crescimento.",
+        "Evite calor abafado, sobretudo à noite.",
+        "Não use vaso grande para a pequena touceira.",
+        "Não imponha repouso seco prolongado.",
+        "Evite adubo concentrado nas raízes finas."
     ],
     dica: "🏆 Promenaea xanthina gosta de raízes frescas e úmidas, não de um vaso encharcado. Use recipiente pequeno, mistura leve e bastante ventilação. Em clima quente, proteger a planta do calor acumulado à noite costuma ser mais importante do que aumentar a quantidade de água.",
     revisaoCientificaIAR: {
@@ -106,9 +106,9 @@ export const promenaeaXanthina = {
     indiceDificuldadeCultivo: {
         "versao": "IDC 3.2 — selo por facilidade",
         "escala": "dificuldade",
-        "indice": 56,
-        "classificacao": "Difícil",
-        "cultivoEstrelas": 2,
+        "indice": 45,
+        "classificacao": "Moderada",
+        "cultivoEstrelas": 3,
         "criterios": {
             "temperatura": {
                 "notaDificuldade": 3,
@@ -234,7 +234,7 @@ export const promenaeaXanthina = {
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         avaliacoes: {
-        cultivo: 2,
+        cultivo: 3,
         floracao: 4,
         perfume: 4,
         luminosidade: 2,
