@@ -46,7 +46,7 @@ export const phaiusTankervilleaeAlba = {
         destaque: "Vaso plástico",
         resumo: "Orquídea terrestre de grande porte, folhas plissadas e hastes florais altas. Precisa de vaso amplo e profundo, drenagem livre e umidade regular durante o crescimento.",
         metodos: [
-            { nome: "Vaso plástico", asset: "vaso-plastico-vasado", estrelas: null, status: "Mais recomendado na ficha", texto: "Vaso largo, profundo e muito perfurado, com espaço para pseudobulbos e raízes e umidade estável." },
+            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Mais recomendado na ficha", texto: "Vaso largo, profundo e muito perfurado, com espaço para pseudobulbos e raízes e umidade estável." },
             { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa", texto: "Recipiente grande e estável, com boa aeração e regas ajustadas à secagem." },
             { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Uso condicional", texto: "Somente modelo grande e profundo, com substrato mais retentivo e regas frequentes." },
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Menos indicado", texto: "Apenas estrutura grande e estável com forração adequada; pode secar rápido demais para uma terrestre de grande porte." }
