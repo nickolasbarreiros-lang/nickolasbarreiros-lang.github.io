@@ -31,7 +31,7 @@ export const bifrenariaHarrisoniae = {
         horario: "Somente início da manhã",
         observacoes: "Necessita luminosidade alta. Folhas muito escuras e pseudobulbos alongados sugerem excesso de sombra; uma leve pigmentação avermelhada pode ser normal, enquanto manchas secas e amareladas indicam queimadura."
     },
-    floracao: "A época de floração pode variar conforme a procedência e o ambiente; a matriz documenta flores grandes e perfumadas, mas não comprova um calendário mensal brasileiro universal.",
+    floracao: "A primavera, especialmente de setembro a novembro, é uma época bem documentada de floração no Brasil, embora alguns cultivos também registrem flores no verão. As hastes curtas nascem junto aos pseudobulbos e carregam geralmente de uma a três flores grandes, com cerca de 7 a 8 cm. Sépalas e pétalas brancas ou creme envolvem um labelo aveludado, rosado a púrpura, que se destaca pelo contraste. O perfume é adocicado e pode lembrar frutas, mel ou especiarias, tornando-se mais perceptível à tarde. Em cultivos brasileiros, as flores costumam permanecer vistosas por aproximadamente 15 a 20 dias.",
     adubacao: "🌿 Orgânica: bokashi em pequena dose durante o crescimento ativo, protegido em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração enquanto houver brotação e raízes em atividade.\n🧪 Liberação lenta: Osmocote em dose reduzida no início da fase vegetativa. Após a maturação dos pseudobulbos, reduza significativamente a frequência e a concentração da adubação; retome o ritmo normal quando novas raízes e brotos surgirem.",
     rega: "Regue abundantemente durante a brotação e desenvolvimento dos pseudobulbos, permitindo secagem parcial do substrato entre irrigações. Após a maturação, aumente gradualmente o intervalo entre as regas, sem manter a planta completamente seca por longos períodos nem permitir enrugamento severo.",
     suporte: "Cachepô de madeira suspenso é a escolha principal. Vaso de barro e vaso plástico vasado também funcionam muito bem quando a mistura é extremamente drenante.",
@@ -75,7 +75,7 @@ export const bifrenariaHarrisoniae = {
         litoralQuente: "Prefira cesto de madeira, vaso de barro ou vaso plástico vasado, sempre com forte circulação de ar, 40% a 50% de sombra e regas matinais. Evite calor abafado e mantenha a mistura de secagem rápida sem impor seca prolongada.",
         montanhaFrio: "Proteja de geadas e evite que o substrato permaneça frio e encharcado por vários dias. Não há comprovação específica nesta matriz de que a queda térmica noturna seja obrigatória para florescer."
     },
-    mesesFloracao: [],
+    mesesFloracao: [9, 10, 11],
     avaliacoes: {
         cultivo: 3,
         floracao: 4,
