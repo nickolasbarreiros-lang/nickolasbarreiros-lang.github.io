@@ -19,7 +19,7 @@ export const leptotesUnicolor = {
         "imagens/Leptotes unicolor/Leptotes unicolor3.webp",
         "imagens/Leptotes unicolor/Leptotes unicolor4.jpeg"
     ],
-    descricao: "Uma pequena cascata de flores perfumadas! Leptotes unicolor é uma miniatura epífita de crescimento pendente, com folhas finas, cilíndricas e carnosas que armazenam água. As flores surgem próximas à base das folhas, geralmente uma ou duas por haste, medem cerca de 2 a 2,4 cm e aparecem em tons relativamente uniformes de rosa, lilás ou magenta. Apesar do aspecto delicado, é uma planta resistente quando recebe bastante ar nas raízes e ciclos rápidos de molhamento e secagem.",
+    descricao: "Uma pequena cascata de flores perfumadas! Leptotes unicolor é uma miniatura epífita de crescimento pendente, com folhas finas, quase cilíndricas e carnosas, capazes de armazenar alguma água. As flores surgem em hastes curtas, geralmente uma ou duas por inflorescência, e apresentam tons suaves de rosa a lilás, com cerca de 2 a 2,4 cm nas descrições consultadas. A espécie ocorre no Brasil, Paraguai e nordeste da Argentina, associada a árvores e ambientes de luminosidade filtrada. Seu porte delicado combina com placas pequenas, nas quais as raízes permanecem ventiladas. Em cultivo, aprecia regas frequentes seguidas de secagem, sem manter o suporte permanentemente encharcado.",
     origem: "América do Sul",
     regiao: "Brasil · Argentina",
     habitat: "Ramos de árvores · luz filtrada · epífita.",
@@ -35,7 +35,7 @@ export const leptotesUnicolor = {
     adubacao: "🌿 Orgânica: bokashi em quantidade mínima, sempre em porta-adubo e sem contato com o rizoma.\n💧 Foliar/Mineral: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante brotação e enraizamento, alternando com regas apenas de água.\n🌱 Após a maturação: reduza a frequência, sem necessidade de suspensão absoluta.\n🧪 Liberação lenta: poucos grânulos somente em cesto ou vaso pequeno, afastados das raízes novas.\n🚿 Faça lavagens periódicas com água limpa para evitar sais em raízes finas.",
     rega: "Molhe abundantemente e deixe as raízes secarem antes da próxima irrigação. Em placas de madeira, pode precisar de rega diária no verão; em vasos ou cestos pequenos, regue quando o material estiver quase seco. A espécie tolera melhor uma breve secagem do que permanecer continuamente úmida. No inverno, aumente o intervalo sem permitir enrugamento persistente das folhas.",
     suporte: "🥇 Placa de cortiça, peroba ou galho rugoso.\n🥈 Pequena cesta de madeira ou plástico vazado.\n🥉 Vaso de barro muito pequeno, apenas onde a secagem seja rápida.\nUse amarração leve, sem apertar o rizoma.",
-    substrato: ["Casca de pinus média + carvão vegetal + perlita grossa","Casca de pinus média + chips de coco grossos preparados + carvão vegetal"],
+    substrato: ["Casca de pinus média + carvão vegetal + perlita grossa","Casca de pinus média + chips de coco grossos lavados + carvão vegetal"],
     formasCultivo: {
         perfilVisual: "miniatura-epifita-pendente-folhas-cilindricas",
         destaque: "Placa / tronco",
