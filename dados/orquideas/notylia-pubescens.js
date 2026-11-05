@@ -28,14 +28,14 @@ export const notyliaPubescens = {
     "iluminacao": {
         "sombrite": "60% a 75%",
         "solDireto": "Não permitido",
-        "horario": "",
+        "horario": "Não permitido",
         "observacoes": "Sombra clara, semelhante a Phalaenopsis bem iluminada. Folhas amarelas ou ásperas indicam excesso; folhas muito escuras e moles indicam falta de luz."
     },
-    "floracao": "A floração costuma concentrar-se nos meses mais quentes, com maior frequência da primavera ao verão. As hastes arqueadas ou pendentes podem reunir muitas flores pequenas, de cor creme a amarela, e ficam mais bonitas quando têm espaço livre para crescer. A ficha antiga registrava setembro a janeiro; mantenha essa faixa como referência de cultivo, mas considere que o período pode variar conforme região e condições da planta.",
+    "floracao": "O IOSPE registra floração na primavera, verão e outono, sem comprovar meses brasileiros universais. As hastes arqueadas ou pendentes podem reunir muitas flores pequenas, de cor creme a amarela, e ficam mais bonitas quando têm espaço livre para crescer. O período pode variar conforme a procedência e as condições da planta.",
     "adubacao": "🌿 Orgânica: dose mínima de Bokashi em sachê ou porta-adubo, distante do colo e das raízes.\n💧 Foliar/mineral: NPK equilibrado em cerca de 1/4 da dose, a cada 15 dias durante o crescimento ativo.\n🚿 Lavagem: faça regas periódicas somente com água pura para remover sais da placa ou do cesto.\n🧪 Liberação lenta: geralmente dispensável, pois as raízes capilares queimam com facilidade. Nunca use adubos concentrados.",
     "rega": "Se montada em placa, regue diariamente nos dias quentes, permitindo que as raízes sequem em poucas horas. Em cestos ou cuias rasas, regue quando o material interno estiver próximo da secagem. Não deixe a planta passar por seca prolongada durante a formação das hastes, pois os botões podem abortar. Ao mesmo tempo, evite água acumulada na base da folha. Folha única murcha ou dobrada, associada a raízes escuras e moles, geralmente indica perda radicular por abafamento, e não simples falta de água.",
     "suporte": "🥇 Placa ou tronquinho de madeira dura, cortiça ou sanção-do-campo: melhor opção para raízes aeradas e racemos livres.\n🥈 Cesto pequeno de madeira sem fundo fechado: excelente para cultivo elevado.\n🥉 Cuia plástica pequena, rasa e muito perfurada: alternativa para locais mais secos.\nInstale a planta acima da linha dos olhos, com espaço totalmente livre abaixo e leve inclinação para favorecer o escoamento da água.",
-    substrato: ["Casca de pinus média + perlita de granulometria adequada + argila expandida miúda + pequena fração de esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita de granulometria adequada + pequena fração de fibra de coco grossa preparada"],
+    substrato: ["Casca de pinus média + perlita de granulometria adequada + argila expandida miúda + pequena fração de esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita de granulometria adequada + pequena fração de fibra de coco grossa lavada"],
     formasCultivo: {
         perfilVisual: "notylia-epifita-compacta-racemos-pendentes",
         destaque: "Placa / tronco",
@@ -51,8 +51,8 @@ export const notyliaPubescens = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para recipiente suspenso; montagem principal sem substrato volumoso",
         resumo: "Para a montagem em placa, raízes fixadas diretamente no suporte e umidade mantida por regas regulares. Em cuia ou cesto, usar mistura leve e muito aerada.",
-        justificativa: "Notylia pubescens se beneficia de montagem suspensa em placa ou tronco, com raízes ventiladas e espaço livre para os racemos pendentes. Para cuia rasa ou cesto bem aberto, a casca de pinus oferece apoio, os chips de coco pequenos preparados conservam alguma umidade e a perlita e o carvão favorecem a drenagem. Ajuste a granulometria às raízes finas e não bloqueie a saída das hastes.",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco pequenos preparados + 25% perlita de granulometria adequada às raízes finas + 10% carvão vegetal.",
+        justificativa: "A receita 35/30/25/10 é proposta horticultural não homologada especificamente para Notylia pubescens; a montagem principal em placa/tronco não usa percentuais volumétricos. Notylia pubescens se beneficia de montagem suspensa em placa ou tronco, com raízes ventiladas e espaço livre para os racemos pendentes. Para cuia rasa ou cesto bem aberto, a casca de pinus oferece apoio, os chips de coco pequenos lavados conservam alguma umidade e a perlita e o carvão favorecem a drenagem. Ajuste a granulometria às raízes finas e não bloqueie a saída das hastes.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA, apenas para cuia rasa ou cesto aberto: 35% casca de pinus média + 30% chips de coco pequenos lavados + 25% perlita de granulometria adequada às raízes finas + 10% carvão vegetal. A montagem principal em placa/tronco não utiliza percentuais volumétricos.",
         perfil: ["Epífita compacta", "Raízes finas", "Hastes pendentes", "Suporte suspenso", "Alta aeração"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -208,19 +208,13 @@ export const notyliaPubescens = {
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": "Em clima quente, apresenta excelente adaptação em placas ou pequenos cestos sob cerca de 70% de sombrite, com ventilação contínua e regas matinais. Em ondas de calor, aumente a frequência de irrigação, mas mantenha a montagem aberta e sem excesso de musgo.",
+        "litoralQuente": "Em clima quente, apresenta boa adaptação em placas ou pequenos cestos sob cerca de 70% de sombrite, com ventilação contínua e regas matinais. Em ondas de calor, aumente a frequência de irrigação, mas mantenha a montagem aberta e sem excesso de musgo.",
         "montanhaFrio": "Proteja de geadas e vento frio ressecante. Em semanas frias e nubladas, reduza a frequência das regas, mantendo umidade atmosférica e evitando que a folha permaneça molhada à noite."
     },
-    "mesesFloracao": [
-        9,
-        10,
-        11,
-        12,
-        1
-    ],
+    "mesesFloracao": [],
     "selosCultivo": {
-        "rega": { "nivel": "moderada" },
-        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+        "rega": { "nivel": "frequente" },
+        "climaFloracao": { "faixa": "intermediario" }
     },
         "avaliacoes": {
         "cultivo": 4,
