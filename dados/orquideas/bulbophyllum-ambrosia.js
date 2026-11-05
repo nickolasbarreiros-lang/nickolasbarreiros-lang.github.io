@@ -27,14 +27,14 @@ export const bulbophyllumAmbrosia = {
     regiao: "Nepal · Assam · sul da China · Laos · Vietnã",
     habitat: "Florestas, calcário e rochas musgosas · 300–1.300 m",
     clima: "Quente a fresco · úmido e ventilado",
-    climaFloracao: "A espécie floresce naturalmente no inverno. A indução não depende de frio intenso, mas a maturação dos pseudobulbos, noites menos quentes, boa luminosidade filtrada e aeração favorecem a emissão floral. Em procedências de maior altitude, noites amenas têm maior importância. No litoral quente, não tente reproduzir frio artificial: priorize ventilação noturna, redução do superaquecimento do suporte e estabilidade hídrica.",
+    climaFloracao: "A floração depende do vigor dos pseudobulbos, de raízes funcionais e de luz filtrada adequada. A matriz não demonstra indução obrigatória por frio, queda térmica noturna ou calor. Em clima quente, priorize ventilação, redução do superaquecimento do suporte e estabilidade hídrica; em clima mais fresco, evite saturação prolongada e frio extremo.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
         horario: "Não permitido",
         observacoes: "Meia-sombra clara é mais segura que sombra profunda. A planta deve receber claridade suficiente para manter pseudobulbos compactos e favorecer a floração, mas sem aquecimento excessivo das folhas e do rizoma. No litoral quente, 60% a 70% de sombreamento com circulação de ar é um ponto de partida coerente."
     },
-    floracao: "Predominantemente no inverno no habitat. Em cultivo brasileiro, a época pode deslocar-se conforme procedência e microclima; junho a agosto é uma referência prática, não uma regra absoluta.",
+    floracao: "A floração pode variar entre subespécies, procedências e condições de cultivo; a matriz não confirma meses brasileiros universais nem comprova que o inverno seja obrigatório para todas as populações.",
     adubacao: "🌿 Orgânica: Bokashi é opcional e deve ser usado em quantidade mínima, preferencialmente em sachê e sem contato com o rizoma ou raízes novas.\n💧 Foliar/mineral: use NPK equilibrado em cerca de 1/4 da dose recomendada, a cada 10 a 15 dias durante brotação e enraizamento ativos.\n🧪 Liberação lenta: opcional, em poucos grânulos para plantas em vaso ou cesto; normalmente dispensável em plantas montadas.\nComo possui raízes finas e superficiais, responda mais à regularidade de adubação fraca do que a doses fortes. Faça lavagens periódicas do substrato para reduzir acúmulo de sais.",
     rega: "Durante o crescimento, molhe completamente e deixe o excesso drenar de imediato. Mantenha leve umidade residual, sem deixar o conjunto permanecer seco por vários dias. No inverno ou quando o crescimento desacelerar, aumente apenas moderadamente o intervalo entre regas; não imponha repouso seco. Em montagem, a frequência pode ser maior porque o sistema seca rapidamente.",
     suporte: "🥇 Placa de cortiça ou madeira com fina camada de esfagno sob as raízes.\n🥈 Cesto raso e bem perfurado, acompanhando o avanço do rizoma.\n🥉 Vaso baixo e largo, com meio muito aberto.\nA espécie cresce horizontalmente; reserve espaço livre à frente do rizoma.",
@@ -77,8 +77,8 @@ export const bulbophyllumAmbrosia = {
         "titulo": "Substrato ideal",
         "contexto": "Receita para cultivo em vaso ou recipiente",
         "resumo": "Composição proposta para equilibrar a umidade necessária com oxigenação e drenagem das raízes.",
-        "justificativa": "Bulbophyllum ambrosia pode ser cultivado em placa ou tronco, mantendo o rizoma exposto e as raízes ventiladas. Para recipiente raso e bem aberto, a casca de pinus e os chips de coco preparados oferecem apoio e retenção moderada, enquanto a perlita preserva espaços de ar. O esfagno solto ajuda a conservar umidade, mas não deve abafar raízes ou brotos. Observe a secagem em períodos quentes e ajuste as regas.",
-        "receitaTexto": "35% casca de pinus média + 25% chips de coco médios preparados + 25% perlita de granulometria adequada + 15% esfagno de fibra longa solto.",
+        "justificativa": "A receita 35/25/25/15 é proposta horticultural não homologada experimentalmente para Bulbophyllum ambrosia; o Orquidário Mogi Mirim orienta mistura qualitativa distinta, sem percentuais. A montagem principal em placa/tronco não emprega proporções volumétricas. Bulbophyllum ambrosia pode ser cultivado em placa ou tronco, mantendo o rizoma exposto e as raízes ventiladas. Para recipiente raso e bem aberto, a casca de pinus e os chips de coco lavados oferecem apoio e retenção moderada, enquanto a perlita preserva espaços de ar. O esfagno solto ajuda a conservar umidade, mas não deve abafar raízes ou brotos. Observe a secagem em períodos quentes e ajuste as regas.",
+        "receitaTexto": "Proposta horticultural NÃO HOMOLOGADA, somente para recipiente raso: 35% casca de pinus média + 25% chips de coco médios lavados + 25% perlita de granulometria adequada + 15% esfagno de fibra longa solto. A montagem principal em placa/tronco não usa percentuais volumétricos.",
         "perfil": [
             "Rizoma rasteiro",
             "Raízes finas",
@@ -119,7 +119,7 @@ export const bulbophyllumAmbrosia = {
             },
             {
                 "asset": "chips-coco",
-                "nome": "Chips de coco médios preparados",
+                "nome": "Chips de coco médios lavados",
                 "proporcao": "25%",
                 "nota": "retenção moderada",
                 "finalidade": "Protegem raízes jovens entre regas, sem usar fibras compactadas."
@@ -142,7 +142,7 @@ export const bulbophyllumAmbrosia = {
         "alerta": "Mantenha a base da planta e os novos brotos livres; ajuste as regas pela secagem real do recipiente e substitua o meio quando perder estrutura.",
         "notaEvidencia": "MACS 1.1 — revisão documental: Bulbophyllum ambrosia, miniatura epífita/litófita de rizoma rastejante e raízes finas, demanda umidade regular com aeração e rizoma exposto. Suportes placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; notas não homologadas. Receita visual alternativa para recipiente 35% pinus médio + 25% chips coco tratados + 25% perlita de granulometria adequada + 15% esfagno solto = 100%; receitaTexto e itens concordam. Receita percentual visual e textual coincidem; duas alternativas qualitativas distintas são apresentadas sem alegar equivalência ou homologação. Validar retenção de 15% esfagno, granulometria e secagem em clima quente; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    substrato: ["Esfagno de fibra longa solto + perlita de granulometria adequada","Chips de coco médios preparados + perlita de granulometria adequada + carvão vegetal miúdo + pequena fração de esfagno de fibra longa solto"],
+    substrato: ["Esfagno de fibra longa solto + perlita de granulometria adequada","Chips de coco médios lavados + perlita de granulometria adequada + carvão vegetal miúdo + pequena fração de esfagno de fibra longa solto"],
     errosComuns: "• Enterrar o rizoma.\n• Tratar a espécie como exclusivamente fria.\n• Usar substrato fino e compactado.\n• Deixar a planta secar por vários dias.\n• Manter saturação constante em noites quentes.\n• Cultivar em sombra profunda.\n• Adubar em concentração alta.\n• Manter substrato decomposto por tempo excessivo.\n• Confundir umidade ambiental elevada com falta de ventilação.",
     dica: "🏆 O melhor manejo reproduz a combinação natural de umidade com oxigenação. Monte-a ou use recipiente raso, mantenha o rizoma exposto e proporcione ventilação contínua. A fragrância e a floração aparecem melhor em plantas maduras e bem iluminadas, sem necessidade de submeter a planta a frio forte. No litoral quente, noites ventiladas e suporte que não acumule calor são mais importantes que tentar baixar drasticamente a temperatura.",
     revisaoCientificaIAR: {
@@ -285,10 +285,10 @@ export const bulbophyllumAmbrosia = {
         litoralQuente: { texto: "A espécie possui populações de baixa a média altitude e pode crescer bem no litoral, mas exige ventilação intensa e meio aberto para compensar noites quentes." },
         montanhaFrio: { texto: "Muito boa em condições intermediárias a frescas, desde que protegida de frio extremo e de secagem prolongada." }
     },
-    mesesFloracao: [6, 7, 8],
+    mesesFloracao: [],
     "selosCultivo": {
-        "rega": { "nivel": "sazonal", "regime": "reduzir-inverno" },
-        "climaFloracao": { "faixa": "quente", "floraNoCalor": true, "quedaTermica": true }
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "intermediario" }
     },
         avaliacoes: {
         cultivo: 3,
