@@ -36,7 +36,7 @@ export const stanhopeaHernandezii = {
         "horario": "Somente início da manhã",
         "observacoes": "Prefere meia-sombra clara. Folhas verde-médio indicam boa condição. Sombra profunda reduz a floração; sol forte queima as folhas plissadas."
     },
-    "floracao": "Mais comum da primavera ao verão, aproximadamente de setembro a fevereiro. As flores têm grande impacto visual, perfume muito intenso e duração relativamente curta. A haste precisa atravessar livremente o fundo da cesta sem obstáculos.",
+    "floracao": "Stanhopea hernandezii é uma espécie mexicana, e ainda não há calendário brasileiro suficientemente documentado para marcar meses de floração com segurança. No México, registros botânicos indicam flores de setembro a janeiro, enquanto outras descrições citam primavera e verão; essas datas são do país de origem e não devem ser tratadas como meses comprovados em orquidários brasileiros. Um cultivador no exterior também relata floração em dezembro e janeiro, mostrando variação em cultivo. As hastes saem da base da planta e crescem para baixo, atravessando o fundo de cestos abertos; costumam carregar duas ou três flores grandes, cerosas, com cerca de 9 a 12 cm, de coloração clara a amarelada, com manchas e contrastes avermelhados ou castanhos e labelo de forma elaborada. As flores são intensamente perfumadas, com composição aromática própria da espécie confirmada em pesquisa especializada; não é seguro atribuir notas como baunilha ou chocolate sem descrição olfativa específica. Como em outras Stanhopea, cada flor dura poucos dias, mas não foi localizada medição confiável da duração exata para S. hernandezii. O calendário permanece sem marcações brasileiras até existir documentação específica.",
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade nas bordas da cesta.\n💧 Mineral/Foliar: NPK equilibrado em meia dose a cada 7–10 dias na fase de brotação.\n🌱 Crescimento: mantenha boa nutrição até completar o enchimento dos pseudobulbos.\n🧪 Liberação lenta: Osmocote em dose moderada, longe de brotos e raízes novas.\n🌸 Emissão floral: evite mudanças bruscas de manejo.",
     "rega": "Durante a brotação, mantenha o substrato constantemente levemente úmido, nunca seco por longos períodos. Após a maturação dos pseudobulbos, reduza discretamente a frequência. Regue preferencialmente pela manhã e evite manter a cesta encharcada à noite.",
     "suporte": "🥇 Cesta vazada de madeira — suporte ideal e praticamente obrigatório.\n🥈 Cachepô suspenso com fundo aberto — excelente alternativa.\n🥉 Cesto aramado/plástico revestido com fibra solta — funcional se totalmente vazado.\nO fundo deve permanecer livre de ripas fechadas, telas densas ou obstáculos.",
@@ -215,14 +215,7 @@ export const stanhopeaHernandezii = {
         "litoralQuente": "Em clima quente, cultive no setor sombreado e mais ventilado, elevando a umidade do ar sem saturar a cesta à noite.",
         "montanhaFrio": "Muito favorável em clima intermediário; proteja apenas de geadas e frio extremo."
     },
-    "mesesFloracao": [
-        9,
-        10,
-        11,
-        12,
-        1,
-        2
-    ],
+    "mesesFloracao": [],
     "selosCultivo": {
         "rega": { "nivel": "muito-frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
