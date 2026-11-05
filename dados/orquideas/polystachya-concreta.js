@@ -61,7 +61,7 @@ export const polystachyaConcreta = {
         destaque: "Vaso plástico",
         resumo: "Espécie epífita cespitosa, com raízes compactas e pseudobulbos próximos. Vaso pequeno e bem perfurado mantém o conjunto estável e a mistura arejada.",
         metodos: [
-            { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno, proporcional à touceira, com muitos furos e mistura aberta para evitar saturação." },
+            { nome: "Vaso plástico", asset: "vaso-plastico-vasado", estrelas: 5, status: "Mais recomendado na ficha", texto: "Vaso pequeno, proporcional à touceira, com muitos furos e mistura aberta para evitar saturação." },
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô pequeno e vazado, com drenagem e circulação lateral de ar." },
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 4, status: "Alternativa", texto: "Cortiça ou madeira rugosa com hidratação frequente no calor e esfagno mínimo, se necessário." },
             { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno e perfurado, ajustando regas à secagem mais rápida." }
