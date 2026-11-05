@@ -141,7 +141,7 @@ export const oncidiumTwinkle = {
     indiceAdaptacaoRegional: {
         "versao": "IAR 2.0 — revisão científica",
         "escala": "compatibilidade regional",
-        "metodo": "notas editoriais atribuídas manualmente com base no clima dos parentais e em fontes horticulturais; o fator habitatNatural representa os parentais, pois o grex não possui habitat natural; não constitui medição experimental"
+        "metodo": "notas editoriais atribuídas manualmente com base no clima dos parentais e em fontes horticulturais; o fator habitatNatural representa os parentais, pois o grex não possui habitat natural; não constitui medição experimental",
         "litoralQuente": {
             "indice": 47,
             "estrelas": 3,
