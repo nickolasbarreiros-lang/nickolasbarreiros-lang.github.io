@@ -124,3 +124,10 @@ Não calcular nota sem medições comparáveis.
 - **Pág. 7 — divergência de versão:** o PDF contém texto antigo sobre floração agosto–novembro; o código atual qualifica a janela como referência sazonal, não calendário comprovado nacionalmente.
 - **Pág. 8 — divergência de versão:** o PDF contém “Para crescimento, mas...” (frase truncada); o código atual já contém “O cultivo vegetativo é possível em clima quente, mas...”.
 - **Conclusão:** PDF confirma presença visual dos principais módulos e fotografias, porém **não aprova integralmente** a ficha: faixa diagonal cortada e divergência de imagem devem ser resolvidas, e uma nova exportação após atualização do GitHub Pages deve confirmar que a página usa a revisão atual. A ausência de ensaio comparativo mantém MACS Classe D.
+
+## Encerramento técnico — Chromium ficha 024 #2
+**Estado: ENCERRADA TECNICAMENTE, COM RESSALVA CIENTÍFICA MACS 1.1 CLASSE D.** Captura do GitHub Actions enviada pelo responsável em 05/11/2026 comprova indicador verde de conclusão para **Conferência visual MACS 1.1 — ficha 024 #2**, no commit `2c5926f2674b4727d89569d05bd9812181b1983c`. A mesma captura mostra **Validar Orquidário Digital #2377** e **pages build and deployment #3039** concluídos com sucesso.
+
+O workflow da ficha 024 usa Playwright/Chromium, servidor HTTP local e verifica desktop e celular, quatro fotos, imagem personalizada de cultivo ideal, quatro métodos de cultivo, cinco frações 35/25/20/10/10, duas alternativas sem percentuais, carregamento de imagens, ausência de erros JavaScript, overflow horizontal e posição do selo. A segunda execução também verifica a presença das ressalvas de redação sobre adaptação regional, repouso e floração. A aprovação atesta a execução dos testes definidos, **não** uma homologação científica dos percentuais nem inspeção humana dos artefatos PNG produzidos.
+
+**Decisão de progressão:** concluída a verificação técnica da ficha 024; a ficha 025 pode ser iniciada, mantendo a receita e os índices identificados como avaliações técnicas provisórias quando não houver comprovação quantitativa.
