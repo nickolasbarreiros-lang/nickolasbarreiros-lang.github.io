@@ -30,3 +30,11 @@ Data: 2026-11-04. **AUDITORIA TÉCNICA ENCERRADA — CHROMIUM #2 APROVADO E CINC
 - Observação cosmética: em tela estreita, o terceiro ingrediente do substrato passa para segunda linha; mantém legibilidade e não requer alteração.
 - **Resultado: auditoria técnica concluída.** A identificação continua provisória (*Pinalia cf. acervata*) e os percentuais/estrelas permanecem **classe D — não homologados quantitativamente**; aprovação técnica não constitui validação científica experimental.
 - Liberada a ficha seguinte do catálogo para iniciar auditoria individual, mantendo bloqueio de avanço até encerramento de cada ficha.
+
+## Revisão corretiva MACS e índices — 2026-11-05
+- Commit `ac5e570` removeu pontuações experimentais não fundamentadas dos quatro métodos de cultivo (`estrelas:null`), mantendo descrição qualitativa e identificação *Pinalia cf. acervata*.
+- IDC 3.2: soma ponderada registrada = 32,5, arredondada para **33/100**, quatro estrelas. Faixas ajustadas para 0–25 (5), 26–35 (4), 36–50 (3), 51–89 (2), 90–100 (1).
+- IAR 2.0 litoral: `6×3+6×4+4+3+4+3+4×4` = **72/100**, quatro estrelas.
+- IAR 2.0 montanha: `6×4+6×4+4+4+4+4+4×3` = **76/100**, quatro estrelas.
+- Receita principal de 50% pinus, 30% carvão e 20% esfagno = 100%; duas alternativas qualitativas mantidas sem percentuais.
+- A revisão não constitui homologação quantitativa; MACS **classe D**. Aguardam-se os testes de regressão após a alteração.
