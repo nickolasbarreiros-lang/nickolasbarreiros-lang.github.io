@@ -32,7 +32,7 @@ export const laeliaPraestans = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "Prefere mais luz que miniaturas de sombra profunda, mas não deve receber o mesmo sol de espécies rupícolas. Folhas verde-escuras e crescimento alongado sugerem pouca luz; amarelecimento rápido ou manchas secas indicam excesso de radiação ou calor."
     },
-    floracao: "Principalmente na primavera, com maior probabilidade entre setembro e novembro. Produz normalmente uma ou duas flores grandes, de cerca de 7,5 cm, muito vistosas em relação ao porte compacto da planta.",
+    floracao: "No Brasil, Cattleya praestans, também conhecida como Laelia praestans, apresenta floração documentada de maio a outubro em populações naturais. Em cultivo, também há relatos de flores na primavera e em outras épocas, conforme a procedência e o ambiente. As inflorescências curtas surgem junto aos novos crescimentos e produzem geralmente uma flor grande, ocasionalmente duas, com cerca de 7,5 cm. As sépalas e pétalas são lilases a magenta, frequentemente largas e vistosas, enquanto o labelo mostra púrpura mais intenso e uma garganta clara ou amarelada. Um acompanhamento brasileiro da espécie registrou perfume suave e adocicado, perceptível durante o dia, embora alguns cultivadores quase não o percebam. Nesse mesmo acompanhamento, cada flor permaneceu aberta de 12 a 26 dias. Uma touceira com brotos em diferentes estágios pode apresentar flores por um período maior.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade, preferencialmente em sachê e sem contato direto com rizoma ou raízes novas.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/3 da dose a cada 7–15 dias durante crescimento ativo.\n🌱 Maturação: mantenha nutrição leve até o pseudobulbo completar o crescimento e reduza o nitrogênio depois disso.\n🧪 Liberação lenta: poucos grânulos em vasos ou cachepôs muito drenantes.\n🚿 Faça regas periódicas apenas com água para reduzir acúmulo de sais.",
     rega: "Durante brotação e emissão de raízes, regue abundantemente e permita que a mistura perca boa parte da umidade antes da próxima irrigação. A espécie aprecia umidade atmosférica, mas precisa de oxigênio nas raízes. Após o amadurecimento do pseudobulbo, diminua discretamente a frequência sem impor seca prolongada. Em montagem, pode exigir regas muito frequentes no verão quente.",
     suporte: "🥇 Cachepô pequeno e muito vazado.\n🥈 Vaso pequeno de barro, que ajuda a dissipar calor e acelerar a secagem.\n🥉 Placa de cortiça ou madeira, ótima para aeração, porém exigindo regas mais frequentes.\nO recipiente deve ser proporcional à planta, sem grande volume de substrato sobrando.",
@@ -212,7 +212,7 @@ export const laeliaPraestans = {
         litoralQuente: { texto: "Use sombra luminosa, ventilação constante, umidade atmosférica adequada e raízes muito aeradas. No verão, mantenha-a no ponto mais fresco do orquidário e evite substrato quente e saturado à noite." },
         montanhaFrio: { texto: "Excelente resposta em clima intermediário de altitude. Proteja de geadas e de longos períodos de frio úmido com substrato saturado." }
     },
-    mesesFloracao: [9, 10, 11],
+    mesesFloracao: [5, 6, 7, 8, 9, 10],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
