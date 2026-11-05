@@ -55,7 +55,7 @@ export const aeridesOdorata = {
 
     substratoVisual: {
         titulo: "Substrato recomendado (provisório)",
-        contexto: "Raízes Soltas como opção principal provisória; mistura opcional de apoio em cesto ou vaso muito vazado, sem percentuais homologados",
+        contexto: "Raízes soltas; mistura opcional para cesto ou vaso vazado.",
         resumo: "Mistura muito grossa e extremamente aerada, usada apenas para estabilizar a planta e manter pequena reserva de umidade sem enterrar as raízes aéreas.",
         justificativa: "Aerides odorata é uma vandácea monopodial epífita de raízes aéreas grossas. O cultivo principal mantém as raízes soltas e expostas, sem substrato, para receber água e secar com boa circulação de ar. Em cesto ou vaso muito vazado, uma pequena quantidade de casca de pinus grossa, carvão, casca de arroz carbonizada e esfagno solto pode dar apoio à planta sem envolver ou comprimir as raízes. Observe a secagem e evite deixar água acumulada na base.",
         receitaTexto: "Cultivo principal Raízes Soltas: sem substrato. Mistura opcional de apoio para cesto ou vaso muito vazado: 45% casca de pinus grossa + 35% carvão vegetal grosso + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto.",
@@ -76,14 +76,14 @@ export const aeridesOdorata = {
         notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D); não equivale a homologação quantitativa. POWO/Kew confirma Aerides odorata Lour. como nome aceito e epífita de florestas tropicais úmidas; NParks descreve cultivo em sombra leve, montagem ou substrato drenante e pulverização frequente de raízes em montagem (fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:615287-1 ; https://www.nparks.gov.sg/florafaunaweb/flora/5/9/5995). Essas referências NÃO validam os percentuais 45/35/10/10 nem estabelecem superioridade quantitativa de suportes. MACS 1.1 — revisão documental: Aerides odorata, vandácea monopodial epífita de raízes aéreas grossas. Raízes Soltas, sem substrato, é a forma principal; cesto ou vaso muito vazado pode receber mistura de apoio em pequeno volume, sem comprimir raízes. Receita visual e textual da mistura opcional coincidem: 45% pinus grosso + 35% carvão vegetal grosso + 10% casca de arroz carbonizada + 10% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas de apoio: pinus/chips de coco grossos preparados/carvão e pinus/perlita/pouco esfagno solto. A receita e alternativas não fundamentam percentuais específicos da espécie. Os identificadores casca-pinus, carvao-vegetal, casca-arroz-carbonizada e esfagno constam na biblioteca de cultivo; renderização pendente de validação Chromium. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
-        "Manter a Aerides odorata em sombra muito profunda: esta vandácea de copas iluminadas precisa de luz filtrada relativamente forte para crescer e formar racemos florais; observe a resposta das folhas e proteja do sol escaldante.",
-        "Enterrar ou comprimir as raízes aéreas grossas em substrato fino: elas precisam de espaços amplos para respirar e secar após a irrigação.",
-        "Usar vaso grande e fechado com mistura que retém água por muitos dias: o cultivo principal é com raízes soltas; se usar recipiente, prefira cesto ou vaso muito vazado e pouco material grosso.",
-        "Manter raízes e base permanentemente molhadas em ambiente abafado: regue generosamente, mas permita ventilação e drenagem antes da próxima irrigação.",
-        "Deixar raízes expostas desidratarem por longos períodos no calor durante o crescimento ativo: a secagem rápida desse sistema exige observação frequente, sem estabelecer rega por calendário fixo.",
-        "Aplicar fertilizante concentrado sobre raízes aéreas ressecadas: hidrate primeiro e use solução diluída para reduzir risco de lesão e acúmulo de sais.",
-        "Cortar raízes saudáveis que ultrapassam o cesto: o crescimento para fora do suporte é natural nesta epífita monopodial e não exige poda.",
-        "Deixar água acumulada nas axilas foliares durante noites frias e sem ventilação: prefira regas com tempo para escorrer e secar, sobretudo em regiões de montanha."
+        "Evite sombra profunda: a planta precisa de luz filtrada forte.",
+        "Não enterre nem comprima as raízes aéreas.",
+        "Evite vasos fechados e substratos compactos.",
+        "Não mantenha as raízes molhadas sem ventilação.",
+        "Não deixe raízes expostas secarem demais no calor.",
+        "Não adube raízes secas com solução concentrada.",
+        "Não corte raízes saudáveis que saem do cesto.",
+        "Evite água parada nas folhas durante noites frias."
     ],
     dica: "🏆 Pense nela mais como uma Vanda do que como uma orquídea de vaso convencional. Quanto mais livres e ventiladas estiverem as raízes, mais fácil será oferecer bastante água sem causar encharcamento. Em clima quente, cesto vazado, luz filtrada forte e regas generosas pela manhã formam uma combinação especialmente favorável.",
     revisaoCientificaIAR: {
