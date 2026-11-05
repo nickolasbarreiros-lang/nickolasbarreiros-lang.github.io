@@ -51,7 +51,7 @@ export const maxillariaLeucaimata = {
         titulo: "Substrato ideal",
         contexto: "Mistura mineral muito aberta para vaso pequeno",
         resumo: "Predomínio de partículas minerais drenantes, com fração orgânica grossa reduzida para raízes sensíveis à saturação.",
-        justificativa: "Maxillaria leucaimata apresenta hábito epífito ou rupícola e se beneficia de raízes ventiladas e drenagem rápida. Em vaso pequeno, a perlita grossa e a brita mantêm espaços de ar, enquanto as cascas de macadâmia e pinus oferecem apoio e alguma retenção de umidade. Observe a secagem do recipiente e ajuste a granulometria ao tamanho das raízes, evitando compactação e superaquecimento.",
+        justificativa: "Maxillaria leucaimata apresenta hábito epífito ou rupícola e se beneficia de raízes ventiladas e drenagem rápida. A proporção mineral de 65% é uma proposta técnica não testada para esta espécie. Em vaso pequeno, a perlita grossa e a brita mantêm espaços de ar, enquanto as cascas de macadâmia e pinus oferecem apoio e alguma retenção de umidade. Observe a secagem do recipiente e ajuste a granulometria ao tamanho das raízes, evitando compactação e superaquecimento.",
         receitaTexto: "35% perlita grossa + 30% brita fina/média + 25% casca de macadâmia triturada + 10% casca de pinus média.",
         perfil: ["Epífita ou rupícola", "Raízes finas", "Alta oxigenação", "Drenagem rápida", "Umidade sem saturação"],
         comportamento: [
@@ -73,11 +73,11 @@ export const maxillariaLeucaimata = {
     dica: "Observe o tempo de secagem real do vaso. A espécie gosta de receber bastante água quando regada, mas também precisa recuperar rapidamente o oxigênio em torno das raízes. Se a mistura continua molhada por muitos dias, corrija o vaso, a granulometria ou a ventilação em vez de simplesmente reduzir o volume de água aplicado.",
     revisaoCientificaIAR: {
         "nome": "Maxillaria leucaimata",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma Maxillaria brasileira versátil, encontrada tanto sobre árvores quanto em rochas abertas da Mata Atlântica. Forma touceiras compactas de pseudobulbos comprimidos, cada um normalmente com uma folha, e produz flores solitárias de 3 a 4 cm em hastes basais que podem chegar a cerca de 20 cm. Sua amplitude natural, do quente ao fresco, ajuda a explicar a boa adaptação em diferent",
+        "statusTaxonomico": "Maxillaria leucaimata é o nome aceito em POWO/Kew; M. leucaimata var. angustilabia consta como sinônimo.",
+        "sinonimosPrincipais": "Maxillaria leucaimata var. angustilabia.",
+        "morfologiaDimensoes": "Maxillaria leucaimata é uma orquídea de aspecto elegante, com pseudobulbos fusiformes, ligeiramente achatados, cada um sustentando uma folha firme e oblonga. Da base surgem hastes relativamente longas, geralmente com uma flor creme a amarelada, marcada por nuances ou pintas vinosas nas pétalas, sépalas e labelo. As flores, de cerca de 3 cm, contrastam com a folhagem verde e aparecem em touceiras bem estabelecidas. Nativa da Guiana Francesa e de várias regiões brasileiras, vive em florestas tropicais úmidas, principalmente sobre árvores, mas também há registros sobre rochas. Sua ampla distribuição revela uma espécie associada a diferentes paisagens florestais.",
         "habitatAltitudeClima": "Mata Atlântica · epífita/rupícola · áreas abertas. | Quente a fresco · úmido e ventilado.",
-        "distribuicaoGeografica": "CE, MG e costa Sudeste do Brasil.",
+        "distribuicaoGeografica": "Guiana Francesa e Brasil, com registros em diferentes regiões brasileiras conforme fontes botânicas.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
         "confianca": "alta",
         "fontes": [
@@ -208,8 +208,8 @@ export const maxillariaLeucaimata = {
         }
     },
         adaptacaoRegional: {
-        litoralQuente: { texto: "Ao litoral quente. Use 60% a 70% de sombra, vaso justo, mistura predominantemente mineral e ventilação contínua. Regue cedo e acompanhe a secagem real do vaso." },
-        montanhaFrio: { texto: "Em regiões serranas. As noites frescas favorecem o ciclo; em semanas frias, nubladas ou chuvosas, aumente o intervalo entre regas sem deixar a planta desidratar." }
+        litoralQuente: { texto: "Em regiões litorâneas quentes, Use 60% a 70% de sombra, vaso justo, mistura predominantemente mineral e ventilação contínua. Regue cedo e acompanhe a secagem real do vaso." },
+        montanhaFrio: { texto: "Em regiões serranas, As noites frescas favorecem o ciclo; em semanas frias, nubladas ou chuvosas, aumente o intervalo entre regas sem deixar a planta desidratar." }
     },
     mesesFloracao: [12, 1, 2, 3, 4, 5],
     "selosCultivo": {
