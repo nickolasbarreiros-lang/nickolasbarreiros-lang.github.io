@@ -27,7 +27,7 @@
 
 ## Duas alternativas qualitativas
 1. Casca de pinus média + perlita grossa + argila expandida miúda + pequena fração de esfagno de fibra longa solto.
-2. Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de fibra de coco grossa preparada.
+2. Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de fibra de coco grossa lavada.
 
 Distintas entre si e da receita principal, sem percentuais inventados.
 
@@ -42,3 +42,14 @@ Distintas entre si e da receita principal, sem percentuais inventados.
 
 ## Parecer
 **Revisão documental concluída.** Taxonomia, morfologia, descrição, sinonímia e asset corrigidos; receita soma 100%, duas alternativas distintas. **Homologação quantitativa 35/30/25/10: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-05
+**Perfil:** epífita simpodial com pseudobulbos agrupados e bifoliados, raízes que exigem substrato aberto e inflorescências arqueadas ou pendentes, por vezes ramificadas e longas. Na brotação e formação de raízes, irrigar abundantemente com drenagem completa, permitindo aproximação da secagem antes da próxima rega; após maturação, aumentar moderadamente os intervalos conforme a evaporação, sem repouso seco severo. Vaso estável e tutor precoce ajudam a suportar as hastes sem tombamento. Evitar rizoma enterrado e mistura envelhecida.
+
+**Cultivo principal:** vaso de barro pesado, perfurado e bem ancorado. **Receita em volume:** 35% casca de pinus média (estrutura) + 30% chips de coco médios lavados (retenção moderada) + 25% perlita grossa (aeração) + 10% carvão vegetal (porosidade), total 100%. Proposta horticultural sem ensaio quantitativo específico em Gomesa pubes. Assis et al. estudaram Oncidium baueri, espécie distinta; manual ESALQ/USP apresenta orientações gerais, sem comprovar estes percentuais. Não foram identificados produtores brasileiros com receitas percentuais específicas verificáveis nesta matriz.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus média + perlita grossa + argila expandida miúda + pequena fração de esfagno de fibra longa solto; (2) casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de fibra de coco grossa lavada. Distintas entre si e da principal; coco lavado não dispensa eventual controle de salinidade.
+
+**Conferências editoriais:** descrição com 94 palavras (faixa 90–120). Chips de coco médios lavados e fibra de coco grossa lavada padronizados em receita, itens visuais, justificativa e alternativa. Receita e justificativa agora explicitam falta de homologação específica. Calendário fixo [9,10,11,12] removido por ausência de fenologia brasileira mensal verificada; texto preserva referência IOSPE à primavera/verão sem atribuir meses universais. Selo de rega alterado de “frequente/reduzir-repouso” para “frequente/reduzir-inverno”, evitando repouso seco severo. Campos de região e distribuição técnica deixam de restringir a espécie ao sul de um estado sem delimitação sustentada na matriz, mantendo Sudeste brasileiro conforme POWO. Receita e itens visuais somam 35+30+25+10=100%; duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 36/100 e três estrelas coerentes com IDC 3.2; IAR litoral 79/4 estrelas e montanha 80/4 estrelas preservados; estrelas dos suportes mantidas como avaliações horticulturais. Iluminação “Início da manhã ou final da tarde” permanece coerente com sol direto restrito. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; zero produtores brasileiros com receitas quantitativas específicas verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
