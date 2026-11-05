@@ -30,7 +30,7 @@ export const howearaLavaBurst = {
     adubacao: "🌿 Orgânica: bokashi em dose mínima e sempre afastado do coleto.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 7–15 dias enquanto houver raízes e brotos ativos.\n🧪 Liberação lenta: poucos grânulos apenas em vaso muito drenante.\n💦 Lavagem: uma vez por mês, passe água limpa em abundância pelo substrato para reduzir sais acumulados.",
     rega: "Regue quando a superfície começar a secar, mantendo umidade leve e regular sem deixar o miolo do vaso saturado. Os pseudobulbos pequenos guardam pouca água e não devem enrugar repetidamente. No inverno ou em períodos chuvosos, reduza apenas de acordo com a evaporação real.",
     suporte: "🥇 Vaso plástico pequeno e muito perfurado.\n🥈 Cachepô pequeno e bem ventilado.\n🥉 Vaso de barro pequeno em ambientes onde a secagem não seja rápida demais.",
-    substrato: ["Casca de pinus média + perlita grossa + argila expandida miúda + esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita grossa + fibra de coco grossa preparada"],
+    substrato: ["Casca de pinus média + perlita grossa + argila expandida miúda + esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita grossa + fibra de coco grossa lavada"],
     formasCultivo: {
         perfilVisual: "hibrido-miniatura-raizes-finas",
         destaque: "Vaso plástico vasado",
@@ -46,8 +46,8 @@ export const howearaLavaBurst = {
         titulo: "Substrato ideal",
         contexto: "Mistura para vaso pequeno e muito perfurado",
         resumo: "Substrato médio e aberto, com umidade moderada e drenagem rápida, sem compactação ou seca prolongada.",
-        justificativa: "Howeara Lava Burst é um híbrido de raízes finas que precisa de umidade regular sem perder a circulação de ar. Em vaso ventilado, a casca de pinus oferece apoio, os chips de coco preparados ajudam a conservar umidade e a perlita e o carvão mantêm a mistura aberta. Observe a secagem do centro do vaso e evite tanto a compactação quanto o encharcamento prolongado.",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco preparados + 25% perlita grossa + 10% carvão vegetal.",
+        justificativa: "Leomesezia Lava Burst (sin. hortícola Howeara Lava Burst) é um híbrido de raízes finas que precisa de umidade regular sem perder a circulação de ar. Em vaso ventilado, a casca de pinus oferece apoio, os chips de coco médios lavados ajudam a conservar umidade e a perlita e o carvão mantêm a mistura aberta. Observe a secagem do centro do vaso e evite tanto a compactação quanto o encharcamento prolongado.",
+        receitaTexto: "Proposta técnica NÃO HOMOLOGADA para este híbrido: 35% casca de pinus média + 30% chips de coco médios lavados + 25% perlita grossa + 10% carvão vegetal.",
         perfil: ["Híbrido intergenérico", "Touceira compacta", "Raízes finas", "Umidade regular", "Floração recorrente"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -57,20 +57,20 @@ export const howearaLavaBurst = {
         ],
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "35%", nota: "estrutura", finalidade: "Acomoda raízes finas sem compactar o vaso." },
-            { asset: "chips-coco", nome: "Chips de coco preparados", proporcao: "30%", nota: "umidade moderada", finalidade: "Retém parte da umidade entre regas." },
+            { asset: "chips-coco", nome: "Chips de coco médios lavados", proporcao: "30%", nota: "umidade moderada", finalidade: "Retém parte da umidade entre regas." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "25%", nota: "aeração", finalidade: "Melhora drenagem e mantém espaços de ar." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "10%", nota: "estrutura", finalidade: "Complementa a porosidade do substrato." }
         ],
         alerta: "Não impor seca para forçar floração, usar vaso grande ou manter água parada na base da touceira. Evitar sombra profunda e fertilizantes concentrados.",
-        notaEvidencia: "MACS 1.1 — revisão documental: OrchidRoots/Orchids.org registra nome RHS aceito Leomesezia Lava Burst, cruzamento Leomesezia Mini-Primi x Rodriguezia lanceolata, registrado em 1993 por Puanani. Evidência genealógica não comprova substrato. Receita 35% pinus médio + 30% chips de coco preparados + 25% perlita grossa + 10% carvão = 100%, e estrelas dos suportes, NÃO HOMOLOGADAS. Nenhum produtor brasileiro com recomendação percentual específica do híbrido confirmado nesta passagem; meta até 25 não atingida. O texto de rega orienta umidade leve e regular; eventual selo divergente precisa ser verificado no componente que o produz, sem presumir que esta ficha controle o selo. Fonte: https://www.orchids.org/grexes/leomesezia-lava-burst"
+        notaEvidencia: "MACS 1.1 — revisão documental: OrchidRoots/Orchids.org registra nome RHS aceito Leomesezia Lava Burst, cruzamento Leomesezia Mini-Primi x Rodriguezia lanceolata, registrado em 1993 por Puanani. Evidência genealógica não comprova substrato. Receita 35% pinus médio + 30% chips de coco médios lavados + 25% perlita grossa + 10% carvão = 100%, e estrelas dos suportes, NÃO HOMOLOGADAS. Nenhum produtor brasileiro com recomendação percentual específica do híbrido confirmado nesta passagem; meta até 25 não atingida. O texto de rega orienta umidade leve e regular; eventual selo divergente precisa ser verificado no componente que o produz, sem presumir que esta ficha controle o selo. Fonte: https://www.orchids.org/grexes/leomesezia-lava-burst"
     },
     errosComuns: "Usar vaso grande; deixar o substrato velho e compacto; impor seca para estimular floração; permitir enrugamento frequente; cultivar em calor abafado; usar excesso de bokashi ou adubo de liberação lenta; aplicar fertilizante concentrado; deixar água parada na base da touceira; manter sombra profunda.",
     dica: "Não tente ‘forçar’ a floração com seca. A estratégia mais eficiente é manter a planta em crescimento contínuo: vaso pequeno, raízes saudáveis, luz filtrada forte e adubação fraca. Cada pseudobulbo bem formado aumenta a chance de uma nova haste, e uma touceira adulta pode florescer repetidamente ao longo do ano.",
     revisaoCientificaIAR: {
         "nome": "Leomesezia Lava Burst",
-        "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Pequena no tamanho e enorme no efeito visual! Leomesezia Lava Burst é um híbrido compacto que forma touceiras cheias e produz hastes delicadas cobertas por pequenas flores vermelho-alaranjadas. Foi registrado em 1993 por Puanani a partir de Leomesezia Mini-Primi × Rodriguezia lanceolata, combinação que reuniu plantas tropicais americanas de crescimento ativo e raízes finas. O c",
+        "statusTaxonomico": "Grex híbrido registrado como Leomesezia Lava Burst; Howeara Lava Burst é denominação hortícola anterior. Clone ‘Puanani’ não representa todos os exemplares.",
+        "sinonimosPrincipais": "Howeara Lava Burst (denominação hortícola anterior).",
+        "morfologiaDimensoes": "Pequena no porte e exuberante na floração, Leomesezia Lava Burst forma touceiras compactas de pseudobulbos pequenos e folhas estreitas. Hastes ramificadas sustentam numerosas flores diminutas, vermelho-alaranjadas, frequentemente com detalhes mais claros no centro. Trata-se de um híbrido horticultural registrado em 1993 por Puanani, resultado do cruzamento Leomesezia Mini-Primi × Rodriguezia lanceolata. O nome anterior, Howeara Lava Burst, ainda aparece com frequência nas coleções. O clone ‘Puanani’ é um dos mais conhecidos, mas não representa todos os exemplares do híbrido. Sem habitat natural próprio, reúne características de ancestrais epífitos americanos e pode produzir novas hastes ao amadurecer os brotos.",
         "habitatAltitudeClima": "Sem habitat natural · herança epífita. | Intermediário a quente · úmido e ventilado.",
         "distribuicaoGeografica": "Ancestrais tropicais americanos.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
@@ -210,7 +210,7 @@ export const howearaLavaBurst = {
     },
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
         avaliacoes: { cultivo: 4, floracao: 5, perfume: 1, luminosidade: 3, agua: 4, raridade: 2 }
