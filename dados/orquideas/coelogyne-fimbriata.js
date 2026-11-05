@@ -40,7 +40,7 @@ export const coelogyneFimbriata = {
     "adubacao": "🌿 Orgânica: bokashi leve em sachê durante brotação ativa, longe do rizoma.\n💧 Mineral/Foliar: NPK equilibrado diluído a cada 10–15 dias enquanto houver crescimento.\n🌱 Colônia em expansão: mantenha nutrição suave e contínua para formar novos pseudobulbos.\n🍂 Período frio: reduza a frequência, mas não suspenda rigidamente se houver atividade.\n🧪 Liberação lenta: pequena dose de Osmocote em cestos ou vasos rasos.\n🚿 Lavagem: enxágue periodicamente para evitar sais nas raízes finas.",
     "rega": "Durante crescimento ativo, mantenha o suporte ou substrato levemente úmido, deixando apenas a superfície secar. Em placas, regas mais frequentes podem ser necessárias. No inverno, reduza moderadamente conforme a evaporação, sem impor seca total. O rizoma e as raízes finas não toleram desidratação prolongada nem água estagnada.",
     "suporte": "🥇 Placa larga de cortiça ou madeira dura — acompanha o hábito rastejante e permite expansão lateral.\n🥈 Cestinho raso de madeira — deixa o rizoma ultrapassar as bordas livremente.\n🥉 Vaso largo e baixo — oferece superfície sem excesso de profundidade.\nPriorize largura e durabilidade; o suporte deve permitir crescimento por vários anos.",
-    "substrato": ["Casca de pinus média + chips de coco médios preparados + perlita grossa","Casca de pinus média + perlita grossa + esfagno de fibra longa solto"],
+    "substrato": ["Casca de pinus média + chips de coco médios lavados + perlita grossa","Casca de pinus média + perlita grossa + esfagno de fibra longa solto"],
     "formasCultivo": {
         "perfilVisual": "coelogyne",
         "destaque": "Placa / tronco",
@@ -56,8 +56,8 @@ export const coelogyneFimbriata = {
         "titulo": "Substrato ideal",
         "contexto": "Proposta para cesto ou recipiente raso; placa requer apenas fixação leve",
         "resumo": "Mistura aberta de casca de pinus média e perlita grossa em proporção 3:1, para cesto ou recipiente raso.",
-        "justificativa": "Coelogyne fimbriata apresenta rizoma rastejante e precisa de espaço para se expandir lateralmente, com raízes ventiladas e umidade adequada. Em recipiente largo, a casca de pinus média dá sustentação e a perlita grossa favorece a circulação de ar e a drenagem. Em placa ou tronco, fixe a planta com o rizoma exposto, sem aplicar a mistura volumétrica; uma pequena retenção localizada de umidade pode ser útil conforme a secagem das raízes.",
-        "receitaTexto": "75% casca de pinus média + 25% perlita grossa (3:1 em volume).",
+        "justificativa": "Coelogyne fimbriata apresenta rizoma rastejante e precisa de espaço para se expandir lateralmente, com raízes ventiladas e umidade adequada. A proporção 3:1 com pinus é adaptação de uma receita genérica da AOS com casca de abeto, sem teste específico para esta espécie. Em recipiente largo, a casca de pinus média dá sustentação e a perlita grossa favorece a circulação de ar e a drenagem. Em placa ou tronco, fixe a planta com o rizoma exposto, sem aplicar a mistura volumétrica; uma pequena retenção localizada de umidade pode ser útil conforme a secagem das raízes.",
+        "receitaTexto": "Adaptação técnica NÃO HOMOLOGADA para a espécie: 75% casca de pinus média + 25% perlita grossa (3:1 em volume). A orientação genérica da AOS utiliza casca de abeto, não pinus.",
         "perfil": ["Rizoma rastejante", "Expansão horizontal", "Raízes epífitas", "Umidade frequente", "Aeração alta"],
         "comportamento": [
             { "nome": "Retenção", "valor": 4, "icone": "💧" },
@@ -76,9 +76,9 @@ export const coelogyneFimbriata = {
     "dica": "Pense em superfície, não em profundidade. Conduza o rizoma sobre placa larga, cesto raso ou bacia baixa e deixe as novas frentes avançarem sem obstáculos. Mantenha o rizoma descoberto e umidade frequente com aeração; esse equilíbrio permite que a planta forme colônias extensas e floresça em várias frentes.",
     revisaoCientificaIAR: {
         "nome": "Coelogyne fimbriata",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Pequena nas flores, mas enorme na vontade de se espalhar! Coelogyne fimbriata cresce horizontalmente por um rizoma longo, formando aos poucos verdadeiras colônias sobre troncos e rochas. Seus pequenos pseudobulbos carregam duas folhas, enquanto as flores verde-amareladas chamam atenção pelo labelo marcado de castanho e pelas delicadas bordas franjadas — característica que inspi",
+        "statusTaxonomico": "Coelogyne fimbriata é nome aceito em POWO/Kew.",
+        "sinonimosPrincipais": "Pleione fimbriata (sinônimo homotípico).",
+        "morfologiaDimensoes": "Coelogyne fimbriata é uma pequena orquídea asiática que se espalha por um rizoma longo e rastejante, formando colônias sobre troncos e rochas cobertos de musgo. Os pseudobulbos compactos sustentam duas folhas, enquanto hastes delicadas exibem flores verde-amareladas com marcas castanhas no labelo e bordas finamente franjadas. O contraste entre a flor pequena e a extensão da touceira torna a espécie especialmente curiosa. Nativa de regiões do Himalaia ao sul da China e à Indochina, habita florestas tropicais úmidas, principalmente como epífita. Seu crescimento lateral dá à planta uma silhueta muito diferente das coelogines de pseudobulbos densamente agrupados.",
         "habitatAltitudeClima": "Florestas úmidas · troncos e rochas musgosas. | Intermediário · úmido e ventilado.",
         "distribuicaoGeografica": "Nepal, sul da China e Indochina.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
