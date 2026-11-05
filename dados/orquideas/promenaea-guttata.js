@@ -36,7 +36,7 @@ export const promenaeaGuttata = {
         "horario": "Não permitido",
         "observacoes": "Prefere luminosidade baixa a moderada. Folhas finas aquecem rapidamente, portanto evite sol direto. Sombra extremamente fechada, porém, reduz a qualidade dos novos pseudobulbos e pode diminuir a floração."
     },
-    "floracao": "IOSPE relata floração no fim da primavera e verão sob o conceito histórico, sem estabelecer meses brasileiros universais. Sob o conceito histórico de P. guttata, IOSPE registra inflorescências de cerca de 7,5 cm, geralmente com duas flores. As flores são grandes em relação ao porte da planta e podem apresentar manchas contrastantes sobre fundo claro ou amarelo-esverdeado.",
+    "floracao": "No Brasil, as Promenaea costumam florescer entre a primavera e o verão, embora a época varie conforme a espécie e o cultivo. A literatura botânica registra floração do gênero entre setembro e maio, com pico de dezembro a fevereiro; calendários brasileiros citam novembro para Promenaea stapelioides em sentido amplo. Para esta planta, identificada historicamente como Promenaea guttata e tratada na ficha como P. stapelioides subsp. xanthina, novembro a fevereiro é uma referência provisória de calendário, inferida de registros do grupo, e não uma sequência de meses confirmados especificamente para a subespécie. As hastes são curtas, geralmente com uma ou duas flores relativamente grandes para o porte da planta. Elas exibem fundo amarelo a amarelo-esverdeado, barras ou manchas castanhas e labelo dourado destacado. Não foram encontrados dados específicos suficientemente seguros para definir notas de perfume nem duração individual das flores de P. guttata; informações de P. xanthina, espécie distinta, não foram extrapoladas.",
     "adubacao": "🌿 Orgânica: bokashi apenas em microdose, preferencialmente em sachê.\n💧 Mineral/Foliar: NPK equilibrado em cerca de 1/4 da dose a cada 10–15 dias durante crescimento ativo.\n🌱 Novos pseudobulbos: mantenha nutrição regular, mas suave.\n🧪 Liberação lenta: opcional e somente em quantidade mínima.\n🚿 Lavagem: regas periódicas com água pura reduzem sais nas raízes finas.",
     "rega": "Mantenha leve umidade constante durante o crescimento, regando antes de ocorrer secagem prolongada. O substrato deve estar úmido, não saturado. Em períodos frios ou de crescimento lento, aumente moderadamente o intervalo conforme a evaporação cair; não imponha repouso seco rígido.",
     "suporte": "🥇 Vaso pequeno, baixo e muito perfurado.\n🥈 Cachepô pequeno e vazado.\n🥉 Placa de cortiça/madeira com fina camada de esfagno, somente onde a umidade ambiental for alta.\nO recipiente deve ser proporcional ao pequeno sistema radicular.",
@@ -215,7 +215,7 @@ export const promenaeaGuttata = {
         "litoralQuente": "Adaptação moderada. Use o setor mais fresco e ventilado do orquidário, 70–80% de sombreamento e vaso pequeno. O principal risco é calor noturno associado a raízes saturadas.",
         "montanhaFrio": "Adaptação muito boa; apenas reduza regas conforme a evaporação diminuir para evitar saturação prolongada no frio."
     },
-    "mesesFloracao": [],
+    "mesesFloracao": [11, 12, 1, 2],
     "selosCultivo": {
         "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno" }
