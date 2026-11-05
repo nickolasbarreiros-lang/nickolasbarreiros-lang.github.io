@@ -75,7 +75,7 @@ export const maxillariaBrasiliensis = {
         "nome": "Maxillaria brasiliensis",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
         "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma Maxillaria brasileira discreta e elegante, que recompensa o cultivo atento com flores cerosas de aproximadamente 2,5 cm. Forma touceiras compactas e prefere permanecer estável por vários ciclos, sem divisões frequentes. Apesar do aspecto robusto da planta, suas raízes são finas e pouco tolerantes a substrato velho ou abafado. Por isso, o melhor resultado vem de vaso pequeno",
+        "morfologiaDimensoes": "Uma Maxillaria brasileira discreta e elegante, que recompensa o cultivo atento com flores cerosas de aproximadamente 2,5 cm. Forma touceiras compactas e prefere permanecer estável por vários ciclos, sem divisões frequentes. Apesar do aspecto robusto da planta, suas raízes são finas e pouco tolerantes a substrato velho ou abafado. Por isso, o melhor resultado vem de vaso pequeno, mistura arejada e regas regulares com rápida drenagem.",
         "habitatAltitudeClima": "Epífita · florestas úmidas, inclusive matas ciliares. | Quente a fresco · umidade regular e ventilação.",
         "distribuicaoGeografica": "Brasil · registros em formações tropicais e subtropicais.",
         "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
