@@ -35,7 +35,7 @@ export const dendrobiumAggregatum = {
         "horario": "Início da manhã ou final da tarde",
         "observacoes": "Necessita boa luminosidade durante todo o ano e especialmente no período de repouso. Folhas verde-claro, pseudobulbos compactos e leve pigmentação podem indicar exposição adequada. Sombra excessiva favorece crescimento sem botões; sol forte sem aclimatação causa queimaduras."
     },
-    "floracao": "Floresce principalmente do inverno à primavera. Os racemos axilares, frequentemente pendentes, surgem em pseudobulbos maduros, com ou sem folha, e carregam normalmente 5–15 flores perfumadas de cerca de 2–5 cm. O efeito visual é melhor em placas e cestos, onde os cachos podem pender livremente.",
+    "floracao": "Orquidários brasileiros indicam que Dendrobium lindleyi, também conhecido como Dendrobium aggregatum, floresce principalmente entre setembro e outubro, embora existam relatos de floradas em novembro e variações conforme o clima. As hastes pendentes surgem de pseudobulbos maduros e costumam reunir de cinco a quinze flores amarelo-ouro, com cerca de 3 a 5 cm, pétalas arredondadas e labelo largo, frequentemente de amarelo mais intenso ou alaranjado. O perfume é suave e adocicado, lembrando mel ou cera de abelha, mais perceptível em determinados horários do dia. A duração varia bastante: produtores brasileiros relatam desde cerca de dez dias até duas ou três semanas, especialmente quando as temperaturas são mais amenas; há também registro de aproximadamente 25 dias para a florada.",
     "adubacao": "🌱 Brotação: NPK equilibrado em baixa concentração quando novas raízes aparecerem.\n☀️ Crescimento: mantenha alimentação regular e leve enquanto o pseudobulbo estiver aumentando.\n🍂 Maturação: reduza gradualmente o nitrogênio quando o crescimento endurecer.\n💤 Repouso: suspenda a adubação até o reinício do crescimento.\n🌿 Bokashi/Osmocote: somente no início do ciclo e em quantidade pequena, especialmente em placas e cestos.",
     "rega": "Com brotos e raízes ativos, regue generosamente e deixe o suporte secar parcialmente entre irrigações. Quando os pseudobulbos estiverem maduros e o crescimento parar, reduza gradualmente. No repouso, forneça apenas água suficiente para evitar enrugamento excessivo e prolongado. Chuva frequente fora de época pode reduzir a indução floral e aumentar risco de podridão.",
     "suporte": "🥇 Placa de madeira dura ou cortiça — excelente secagem e exposição dos cachos.\n🥈 Cesto pequeno de madeira — acomoda touceiras sem prender inflorescências.\n🥉 Vaso de barro raso e muito drenante.\nEvite recipientes fundos e muito retentivos, principalmente em regiões úmidas.",
@@ -215,8 +215,6 @@ export const dendrobiumAggregatum = {
         "montanhaFrio": "Adaptação excelente. A combinação de noites frescas, bastante luz e inverno seco aproxima-se mais do ciclo natural. Proteja apenas de geada e de encharcamento prolongado."
     },
     "mesesFloracao": [
-        7,
-        8,
         9,
         10,
         11
