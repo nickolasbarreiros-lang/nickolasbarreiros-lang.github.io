@@ -20,8 +20,17 @@ jobs:
         with:
           node-version: '22'
       - name: Validar sintaxe JavaScript de todas as fichas
+        shell: bash
         run: |
-          find dados/orquideas -type f -name '*.js' -print0 | xargs -0 -n1 node --check
+          set -eu
+          falhas=0
+          while IFS= read -r -d '' arquivo; do
+            if ! node --input-type=module --check < "$arquivo"; then
+              echo "::error file=$arquivo::Erro de sintaxe JavaScript"
+              falhas=$((falhas + 1))
+            fi
+          done < <(find dados/orquideas -type f -name '*.js' -print0)
+          test "$falhas" -eq 0
       - run: npm install --no-save playwright
       - run: npx playwright install --with-deps chromium
       - name: Conferir ficha em navegador real
