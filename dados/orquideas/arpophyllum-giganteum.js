@@ -48,7 +48,7 @@ export const arpophyllumGiganteum = {
     },
     substrato: ["Casca de macadâmia média + carvão vegetal médio + casca de arroz carbonizada + pequena quantidade de esfagno de fibra longa solto","Casca de pinus média + carvão vegetal médio + perlita grossa + pequena quantidade de esfagno de fibra longa solto"],
     substratoVisual: {
-        notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D). Receita 35% macadâmia + 25% pinus + 20% carvão + 10% casca de arroz carbonizada + 10% esfagno = 100%, sem ensaio comparativo. Quatro suportes sem estrelas quantitativas. AOS recomenda vasos ou cestos e repouso fresco mais seco para floração; não demonstra superioridade do vaso plástico nem percentuais. Não comprovado confronto individualizado com 25 produtores brasileiros.",
+        notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D). Receita 35% macadâmia + 25% pinus + 20% carvão + 10% casca de arroz carbonizada + 10% esfagno = 100%, sem ensaio comparativo. Quatro suportes sem estrelas quantitativas. AOS recomenda vasos ou cestos e repouso fresco mais seco para floração; não demonstra superioridade do vaso plástico nem percentuais. Levantamento documental registrado na matriz MACS 024: nove estabelecimentos brasileiros identificados, quatro com materiais de substrato identificáveis e nenhum com validação dos percentuais desta receita; meta de até 25 produtores não atingida.",
         titulo: "Substrato recomendado (provisório)",
         contexto: "Para cultivo em vaso",
         resumo: "Mistura estrutural de longa duração, com boa reserva hídrica e ampla aeração para uma touceira adulta que não deve ser replantada desnecessariamente.",
