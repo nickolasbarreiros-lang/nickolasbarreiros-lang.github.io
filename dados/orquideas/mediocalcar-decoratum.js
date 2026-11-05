@@ -41,15 +41,16 @@ export const mediocalcarDecoratum = {
         destaque: "Placa / tronco",
         resumo: "O crescimento em tapete e as raízes pequenas favorecem montagem úmida e muito ventilada ou recipientes rasos com mistura leve que nunca fique completamente seca.",
         metodos: [
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Acompanha o crescimento em tapete e permite muita troca de ar; use uma fina camada de esfagno para evitar desidratação rápida." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Excelente em ambiente úmido e fresco, permitindo expansão lateral e ventilação constante." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 4, status: "Muito recomendado", texto: "Use modelo raso e pequeno, com mistura leve e controle para não secar totalmente." },
-            { nome: "Vaso de Barro", asset: "vaso-barro-perfurado", estrelas: 3, status: "Adequado", texto: "Pode funcionar em clima úmido, mas a evaporação intensa exige regas mais frequentes para esta micro-orquídea." }
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Preferência técnica provisória", texto: "Acompanha o crescimento em tapete e permite muita troca de ar; use uma fina camada de esfagno para evitar desidratação rápida." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa provisória", texto: "Excelente em ambiente úmido e fresco, permitindo expansão lateral e ventilação constante." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa provisória", texto: "Use modelo raso e pequeno, com mistura leve e controle para não secar totalmente." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa provisória", texto: "Pode funcionar em clima úmido, mas a evaporação intensa exige regas mais frequentes para esta micro-orquídea." }
         ]
     },
     substrato: ["Casca de pinus fina + esfagno solto + perlita grossa","Casca de macadâmia pequena + carvão vegetal + esfagno solto"],
     substratoVisual: {
-        titulo: "Substrato ideal",
+        notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D). Receita 40% pinus + 25% esfagno + 20% carvão + 15% macadâmia = 100%, sem ensaio quantitativo dos percentuais. Quatro suportes sem estrelas comparativas. AOS e monografia Schuiteman fundamentam necessidade de umidade contínua; placa deve ter reserva hídrica suficiente, não podendo secar totalmente. Sem confronto documentado com 25 produtores brasileiros.",
+        titulo: "Substrato recomendado (provisório)",
         contexto: "Para recipiente raso",
         resumo: "Mistura leve, úmida e muito aerada, adequada a uma micro-orquídea montana de crescimento em tapete.",
         justificativa: "Mediocalcar decoratum ocorre em florestas montanas úmidas da Nova Guiné, entre aproximadamente 900 e 2.500 m. O cultivo deve evitar tanto a secagem completa quanto a saturação sem ar.",
@@ -59,7 +60,7 @@ export const mediocalcarDecoratum = {
             { asset: "casca-pinus", nome: "Casca de pinus fina", proporcao: "40%", nota: "estrutura", finalidade: "Forma uma base leve e porosa para raízes pequenas." },
             { asset: "esfagno", nome: "Esfagno solto", proporcao: "25%", nota: "umidade estável", finalidade: "Mantém umidade entre regas sem compactar quando usado solto." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "20%", nota: "aeração", finalidade: "Mantém canais de ar na mistura úmida." },
-            { asset: "macadamia", nome: "Casca de macadâmia", proporcao: "15%", nota: "estrutura + drenagem", finalidade: "Evita que a mistura fina forme um núcleo compacto." }
+            { asset: "casca-macadamia", nome: "Casca de macadâmia", proporcao: "15%", nota: "estrutura + drenagem", finalidade: "Evita que a mistura fina forme um núcleo compacto." }
         ],
         alerta: "Use água de boa qualidade e evite secagem completa. Em clima quente, o desafio principal é manter as raízes frescas e oxigenadas."
     },
@@ -73,19 +74,21 @@ export const mediocalcarDecoratum = {
         "Permitir pouca circulação de ar."
     ],
     revisaoCientificaIAR: {
-        "nome": "Mediocalcar decoratum",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma pequena joia das montanhas da Nova Guiné! Esta micro-orquídea forma tapetes compactos de folhas carnosas e produz flores de apenas cerca de 6 mm, em formato de sininho, com cores que lembram pequenos doces alaranjados e amarelos.",
-        "habitatAltitudeClima": "Floresta montana úmida · 900–2.500 m. | Intermediário a fresco · úmido e ventilado.",
-        "distribuicaoGeografica": "Montanhas da Nova Guiné.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
+        "nome": "Mediocalcar decoratum Schuit.",
+        "statusTaxonomico": "Espécie aceita pelo POWO/Kew, descrita por André Schuiteman em Blumea 34:167 (1989), com distribuição nativa restrita à Nova Guiné. Não confundir com Mediocalcar pygmaeum, identificação incorreta encontrada ocasionalmente em coleções.",
+        "sinonimosPrincipais": "A página taxonômica POWO consultada não apresenta sinônimos para esta espécie. A confusão hortícola com Mediocalcar pygmaeum, mencionada na monografia de Schuiteman, é erro de identificação, não sinonímia comprovada.",
+        "morfologiaDimensoes": "Epífita miniatura de rizoma rastejante e ramificado, formando tapetes; raízes finíssimas de cerca de 0,5 mm com pelos radiculares. Pseudobulbos cilíndricos, em geral 10–15 mm de comprimento, frequentemente com três ou quatro folhas carnosas dispostas em um plano. A monografia descreve flores solitárias urceoladas, predominantemente laranja a vermelho-alaranjadas com pontas amarelo-douradas, geralmente em torno de 6–7 mm. AOS documentou exemplar com 90 flores e quatro botões em 94 inflorescências, mas esse número não é uma média da espécie.",
+        "habitatAltitudeClima": "POWO registra epífita pseudobulbosa do bioma tropical úmido. A revisão de Schuiteman (1997) documenta florestas montanas de 900–2.500 m, sobretudo em troncos e ramos de árvores; o autor observa não ter examinado exemplares acima de 2.000 m, apesar de citações de 2.500 m. Orchids of New Guinea informa que não tolera seca, apesar da aparência suculenta. AOS recomenda cultivo fresco a intermediário, meia-sombra, rega regular o ano inteiro e raízes que nunca sequem totalmente.",
+        "distribuicaoGeografica": "Nova Guiné: porções indonésia e papua-nova-guineense da ilha, conforme POWO e a revisão de Schuiteman. Não extrapolar a distribuição desta espécie para todo o alcance geográfico do gênero Mediocalcar.",
+        "cultivoPremiacao": "AOS recomenda vasos ou cestos com mistura epífita média acrescida de material retentor de umidade, ou placa com camada generosa de material úmido junto às raízes; portanto a preferência editorial por placa/tronco não constitui superioridade comprovada. OrchidWeb relata cultivo bem-sucedido em esfagno, com rega antes de secagem total, como experiência comercial qualitativa. AOS SITF confirmou a identidade de um exemplar premiado (registro 20141422), com 90 flores e quatro botões, montado em placa de xaxim; premiação de exemplar não valida uma receita específica. A mistura 40% pinus + 25% esfagno + 20% carvão + 15% macadâmia é hipótese técnica não ensaiada, sem confronto individualizado comprovado com 25 produtores brasileiros.",
+        "confianca": "Taxonomia e distribuição: alta (POWO e monografia de Schuiteman). Morfologia e altitude: alta para descrições documentadas, com ressalva sobre registros acima de 2.000 m. Necessidade de umidade: alta, com concordância AOS/Orchids of New Guinea. Receita e ranking de suportes: MACS 1.1 Classe D, sem homologação quantitativa.",
         "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
+            "POWO/Kew, Mediocalcar decoratum — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:937232-1",
+            "Orchids of New Guinea, descrição da espécie — https://www.orchidsnewguinea.com/orchid-information/species/speciescode/1336",
+            "Schuiteman (1997), Revision of the genus Mediocalcar, Orchid Monographs 8 — https://repository.naturalis.nl/pub/509471/OM1997008001002.pdf",
+            "American Orchid Society, cultivo do gênero Mediocalcar — https://www.aos.org/explore/mediocalcar",
+            "AOS SITF, identificação verificada de exemplar premiado — https://www.aos.org/awards-judging/sitf-findings/Mediocalcar-decoratum",
+            "OrchidWeb, experiência comercial de cultivo — https://www.orchidweb.com/p/mediocalcar-decoratum"
         ]
     },
     indiceDificuldadeCultivo: {
