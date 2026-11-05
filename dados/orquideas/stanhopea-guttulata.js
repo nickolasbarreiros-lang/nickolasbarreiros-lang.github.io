@@ -29,18 +29,18 @@ export const stanhopeaGuttulata = {
     "regiao": "Sudeste do Brasil",
     "habitat": "Floresta tropical úmida; epífita.",
     "clima": "Úmido, sombreado e ventilado.",
-    "climaFloracao": "A floração depende de pseudobulbos bem formados, umidade regular, noites amenas e espaço físico para a haste geotrópica. Não necessita de repouso seco severo. Após a maturação, reduza apenas discretamente a água. Touceiras grandes e centralizadas no cesto tendem a produzir hastes mais vigorosas e com trajeto mais previsível.",
+    "climaFloracao": "Pseudobulbos bem formados, umidade regular e espaço físico para a haste geotrópica favorecem a floração; a exigência de queda térmica não foi demonstrada para esta espécie. Não necessita de repouso seco severo. Após a maturação, reduza apenas discretamente a água. Touceiras grandes e centralizadas no cesto tendem a produzir hastes mais vigorosas e com trajeto mais previsível.",
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Permitido com restrição",
         "horario": "Somente início da manhã",
         "observacoes": "Prefere sombra clara. Folhas verde-claro a verde-médio indicam bom nível de luz. Sombra profunda alonga folhas e reduz floradas; sol forte queima rapidamente as lâminas plissadas."
     },
-    "floracao": "Mais comum da primavera ao verão, aproximadamente de setembro a fevereiro. A haste cresce para baixo e precisa atravessar livremente substrato e fundo da cesta. Durante a emissão, inspecione a parte inferior sem tocar na haste e verifique se nenhuma ripa, tela, plástico, raiz compactada ou suporte está bloqueando sua passagem.",
+    "floracao": "Um estudo brasileiro registrou floração em fevereiro; a janela de setembro a fevereiro não foi confirmada como calendário universal da espécie. A haste cresce para baixo e precisa atravessar livremente substrato e fundo da cesta. Durante a emissão, inspecione a parte inferior sem tocar na haste e verifique se nenhuma ripa, tela, plástico, raiz compactada ou suporte está bloqueando sua passagem.",
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade apenas na borda da cesta.\n💧 Mineral/Foliar: NPK equilibrado em 1/3 a 1/2 da dose a cada 10–15 dias durante brotação e enchimento dos pseudobulbos.\n🌱 Crescimento: mantenha nutrição regular até a maturação completa.\n🧪 Liberação lenta: Osmocote em dose moderada, longe de brotos e raízes novas.\n🚿 Lavagem: faça rega abundante apenas com água periodicamente para retirar sais.",
     "rega": "Durante brotação e crescimento, mantenha o substrato constantemente levemente úmido, porém poroso. Não permita ressecamento completo por longos períodos, pois isso enruga pseudobulbos e reduz a força das novas frentes. Após a maturação, reduza apenas discretamente. Regue pela manhã e evite que folhas, brotos e flores permaneçam molhados em noites abafadas.",
     "suporte": "🥇 Cesta de madeira suspensa e muito vazada — ideal para a passagem das hastes.\n🥈 Cachepô de ripas com fundo aberto — excelente ventilação.\n🥉 Cesto aramado ou plástico totalmente perfurado — funcional se não houver barreiras inferiores.\nCentralize a touceira e mantenha o fundo completamente livre.",
-    "substrato": ["Casca de pinus média + fibra de coco grossa preparada + perlita grossa + carvão vegetal","Casca de macadâmia média + chips de coco grossos preparados + perlita grossa + pequena fração de esfagno de fibra longa solto"],
+    "substrato": ["Casca de pinus média + fibra de coco grossa lavada + perlita grossa + carvão vegetal","Casca de macadâmia média + chips de coco grossos lavados + perlita grossa + pequena fração de esfagno de fibra longa solto"],
     formasCultivo: {
         perfilVisual: "stanhopea-guttulata-epifita-hastes-descendentes",
         destaque: "Cachepô de Madeira",
@@ -55,8 +55,8 @@ export const stanhopeaGuttulata = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para cesta suspensa com fundo desobstruído",
         resumo: "Partículas grossas e pequena fração de esfagno solto oferecem umidade durante o crescimento, sem impedir a passagem das hastes descendentes.",
-        justificativa: "Stanhopea guttulata produz hastes florais descendentes e se beneficia de cesta suspensa com fundo desobstruído. Os chips de coco grossos preparados ajudam a conservar umidade, a casca de pinus oferece apoio, a perlita favorece a aeração e o esfagno solto reduz a secagem rápida. Evite formar uma barreira de partículas ou musgo na passagem das hastes e acompanhe a umidade do cesto.",
-        receitaTexto: "40% chips de coco grossos preparados + 30% casca de pinus média + 20% perlita grossa + 10% esfagno de fibra longa solto.",
+        justificativa: "A receita 40/30/20/10 é proposta horticultural sem ensaio quantitativo específico da espécie; o Orquidário Matsuoka oferece orientação qualitativa, não valida percentuais. Stanhopea guttulata produz hastes florais descendentes e se beneficia de cesta suspensa com fundo desobstruído. Os chips de coco grossos lavados ajudam a conservar umidade, a casca de pinus oferece apoio, a perlita favorece a aeração e o esfagno solto reduz a secagem rápida. Evite formar uma barreira de partículas ou musgo na passagem das hastes e acompanhe a umidade do cesto.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para a espécie: 40% chips de coco grossos lavados + 30% casca de pinus média + 20% perlita grossa + 10% esfagno de fibra longa solto.",
         perfil: ["Epífita de porte médio a grande", "Hastes descendentes", "Cesto suspenso", "Umidade regular", "Fundo livre"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -65,7 +65,7 @@ export const stanhopeaGuttulata = {
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
         itens: [
-            { asset: "chips-coco", nome: "Chips de coco grossos preparados", proporcao: "40%", nota: "estrutura e umidade", finalidade: "Conserva umidade moderada com espaços amplos." },
+            { asset: "chips-coco", nome: "Chips de coco grossos lavados", proporcao: "40%", nota: "estrutura e umidade", finalidade: "Conserva umidade moderada com espaços amplos." },
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "30%", nota: "estrutura", finalidade: "Sustenta raízes sem formar camada compacta." },
             { asset: "perlita", nome: "Perlita grossa", proporcao: "20%", nota: "aeração", finalidade: "Melhora drenagem e oxigenação." },
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "10%", nota: "umidade", finalidade: "Oferece reserva hídrica discreta sem obstruir o fundo." }
@@ -215,17 +215,10 @@ export const stanhopeaGuttulata = {
         "litoralQuente": "Em clima quente, mantenha em setor sombreado, bem ventilado e com alta umidade ambiental. Regue pela manhã e evite manter a cesta saturada durante noites quentes.",
         "montanhaFrio": "Boa adaptação a noites amenas. Proteja de geadas e reduza ligeiramente a água em semanas frias e muito chuvosas."
     },
-    "mesesFloracao": [
-        9,
-        10,
-        11,
-        12,
-        1,
-        2
-    ],
+    "mesesFloracao": [2],
     "selosCultivo": {
-        "rega": { "nivel": "muito-frequente", "regime": "reduzir-repouso" },
-        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+        "rega": { "nivel": "muito-frequente", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "ameno" }
     },
         "avaliacoes": {
         "cultivo": 4,
