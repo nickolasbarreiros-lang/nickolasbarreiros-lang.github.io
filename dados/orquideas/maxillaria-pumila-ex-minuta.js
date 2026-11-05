@@ -32,11 +32,11 @@ export const maxillariaPumilaExMinuta = {
         "horario": "Não permitido",
         "observacoes": "Prefere luz filtrada clara, sem aquecimento da touceira. Folhas compactas e verde-vivo indicam equilíbrio. Amarelecimento, ressecamento das pontas ou vermelhidão intensa sugerem excesso; crescimento frouxo, alongado e verde-escuro indica pouca luz."
     },
-    "floracao": "Mais comum da primavera ao verão, aproximadamente de setembro a fevereiro no hemisfério sul. As flores medem cerca de 8 mm e surgem em pequenas hastes basais. Como ficam próximas da folhagem, uma touceira bem estabelecida produz o melhor efeito visual.",
+    "floracao": "O IOSPE registra floração na primavera e no verão, sem comprovar meses universais para o Brasil. As flores medem cerca de 8 mm e surgem em pequenas hastes basais. Como ficam próximas da folhagem, uma touceira bem estabelecida produz o melhor efeito visual.",
     "adubacao": "🌿 Orgânica: use bokashi apenas em sachê microperfurado, fixado longe das raízes e do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante o crescimento.\n🧪 Liberação lenta: geralmente dispensável em placas e microvasos; se usada, aplique pouquíssimos grânulos.\n🚿 Flushing: uma vez por mês, lave raízes e suporte com água pura. Água de baixa salinidade é especialmente benéfica para esta miniatura.",
     "rega": "Mantenha umidade frequente, regando quando a superfície ou o suporte começar a secar. Em placas, pode precisar de água diária no verão; em microvasos, espere a aeração da camada superior antes de repetir. As raízes capilares devem receber água regularmente, mas não podem permanecer imersas em musgo compactado. Folhas murchas com raízes escuras e moles geralmente indicam perda radicular por excesso de umidade. Folhas murchas com raízes claras e suporte completamente seco indicam déficit hídrico real.",
     "suporte": "🥇 Placa pequena de cortiça ou madeira dura com filete mínimo de esfagno.\n🥈 Microvaso de barro ou plástico perfurado, sem sobra de espaço.\n🥉 Cesto pequeno de madeira ou arame revestido de material muito arejado. Evite suportes desproporcionais ao tamanho da touceira.",
-    substrato: ["Fibra de coco grossa preparada + chips de coco pequenos preparados + perlita de granulometria adequada + casca de pinus de granulometria compatível","Chips de coco pequenos preparados + casca de pinus de granulometria compatível + perlita de granulometria adequada + carvão vegetal miúdo"],
+    substrato: ["Fibra de coco grossa lavada + chips de coco pequenos lavados + perlita de granulometria adequada + casca de pinus de granulometria compatível","Chips de coco pequenos lavados + casca de pinus de granulometria compatível + perlita de granulometria adequada + carvão vegetal miúdo"],
     formasCultivo: {
         perfilVisual: "miniatura-epifita-raizes-capilares",
         destaque: "Placa / tronco",
@@ -52,8 +52,8 @@ export const maxillariaPumilaExMinuta = {
         titulo: "Substrato ideal",
         contexto: "Montagem principal em placa; mistura alternativa para microvaso",
         resumo: "Mistura leve com partículas pequenas a médias, contato delicado com raízes capilares e boa aeração, sem esfagno compactado.",
-        justificativa: "Maxillaria pumila se beneficia de montagem em placa pequena com uma quantidade mínima de esfagno solto, mantendo as raízes finas ventiladas. Em microvaso muito perfurado, as cascas de pinus e macadâmia triturada oferecem apoio, a perlita preserva espaços de ar e a fibra de coco preparada ajuda a conservar umidade. Ajuste a granulometria às raízes delicadas, evitando tanto partículas grandes demais quanto compactação.",
-        receitaTexto: "35% casca de pinus de granulometria compatível + 30% casca de macadâmia triturada + 25% perlita de granulometria adequada + 10% fibra de coco grossa preparada.",
+        justificativa: "A mistura 35/30/25/10 é proposta horticultural sem ensaio quantitativo específico de Maxillaria pumila, apenas para microvaso perfurado; a montagem principal em placa não usa percentuais volumétricos. Maxillaria pumila se beneficia de montagem em placa pequena com uma quantidade mínima de esfagno solto, mantendo as raízes finas ventiladas. Em microvaso muito perfurado, as cascas de pinus e macadâmia triturada oferecem apoio, a perlita preserva espaços de ar e a fibra de coco lavada ajuda a conservar umidade. Ajuste a granulometria às raízes delicadas, evitando tanto partículas grandes demais quanto compactação.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para a espécie, apenas para microvaso: 35% casca de pinus de granulometria compatível + 30% casca de macadâmia triturada + 25% perlita de granulometria adequada + 10% fibra de coco grossa lavada. A montagem principal em placa/tronco não usa percentuais volumétricos.",
         perfil: ["Miniatura epífita", "Raízes capilares", "Touceira em almofada", "Umidade frequente", "Alta aeração"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -65,7 +65,7 @@ export const maxillariaPumilaExMinuta = {
             { asset: "casca-pinus", nome: "Casca de pinus de granulometria compatível", proporcao: "35%", nota: "estrutura", finalidade: "Oferece apoio radicular sem saturação permanente." },
             { asset: "casca-macadamia", nome: "Casca de macadâmia triturada", proporcao: "30%", nota: "estrutura leve", finalidade: "Ajuda a manter a mistura solta e estável." },
             { asset: "perlita", nome: "Perlita de granulometria adequada", proporcao: "25%", nota: "aeração", finalidade: "Mantém espaços de ar e drenagem." },
-            { asset: "fibra-coco", nome: "Fibra de coco grossa preparada", proporcao: "10%", nota: "umidade pontual", finalidade: "Complementa umidade entre regas sem compactação." }
+            { asset: "fibra-coco", nome: "Fibra de coco grossa lavada", proporcao: "10%", nota: "umidade pontual", finalidade: "Complementa umidade entre regas sem compactação." }
         ],
         alerta: "Evitar vasos grandes, materiais grossos demais para raízes capilares, esfagno compactado, adubo concentrado e divisões pequenas. Fixar ou replantar durante emissão de raízes novas.",
         notaEvidencia: "MACS 1.1 — revisão documental: Maxillaria pumila (ex-minuta), miniatura epífita de raízes capilares; montagem principal em placa pequena com esfagno mínimo e umidade frequente. Suportes placa/tronco 5 estrelas, barro e plástico vasado 4, cachepô madeira 3; classificações não homologadas. Receita visual alternativa para microvaso: 35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa = 100%; receitaTexto e itens concordam. A receita visual de microvaso não quantifica a primeira alternativa qualitativa, pois contém macadâmia em vez de chips; as duas alternativas textuais mantidas são distintas da composição visual. A mistura visual permanece apenas proposta para microvaso; montagem principal é placa. Validar granulometria e contato hídrico com raízes capilares, secagem e acúmulo de sais. POWO aceita Maxillaria pumila Hook. (1837) e trata Maxillaria minuta e Christensonella pumila como sinônimos. IOSPE descreve pseudobulbos ovoides unifoliados, haste de 1,5 cm e flor de 8 mm; o próprio IOSPE ressalva dúvidas históricas na delimitação de M. minuta, resolvidas de outra forma pela revisão de Koehler et al. (2012). Não foi verificada receita percentual de produtor brasileiro específica para a espécie nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS.",
@@ -209,13 +209,13 @@ export const maxillariaPumilaExMinuta = {
         }
     },
     "adaptacaoRegional": {
-        "litoralQuente": "Em clima quente, mantenha acima de 60% de umidade relativa, sombra clara e ventilação constante. Montagens podem exigir rega diária no verão.",
+        "litoralQuente": "Em clima quente, busque umidade ambiental estável, sem impor limiar numérico universal, sombra clara e ventilação constante. Montagens podem exigir rega diária no verão.",
         "montanhaFrio": "Em ambiente de montanha, adapta-se às noites frescas. Reduza a frequência apenas em semanas frias e úmidas e proteja de geada."
     },
-    "mesesFloracao": [9, 10, 11, 12, 1, 2],
+    "mesesFloracao": [],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
-        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+        "climaFloracao": { "faixa": "quente" }
     },
         "avaliacoes": {
         "cultivo": 3,
