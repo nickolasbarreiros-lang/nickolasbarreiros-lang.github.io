@@ -40,7 +40,7 @@ export const dendrobiumTenellum = {
     "adubacao": "🌿 Orgânica: bokashi em dose leve apenas no início da brotação.\n💧 Mineral/Foliar: adubo equilibrado a cada 10–15 dias durante crescimento ativo.\n🌱 Crescimento: mantenha nutrição até a maturação das hastes.\n🍂 Outono: reduza gradualmente.\n💤 Inverno: suspenda ou use apenas doses mínimas se houver atividade.\n🧪 Liberação lenta: poucos grânulos no início do ciclo.",
     "rega": "Na fase vegetativa, mantenha o substrato levemente úmido, com secagem parcial entre as regas. No inverno, reduza significativamente, mas não deixe as hastes secarem por longos períodos. Proteja da chuva contínua durante o descanso.",
     "suporte": "🥇 Cesto suspenso — acomoda perfeitamente as hastes pendentes.\n🥈 Placa de madeira — oferece máxima aeração.\n🥉 Vaso raso em posição alta — alternativa prática.\nEvite recipientes profundos e locais baixos.",
-    substrato: ["Casca de pinus média + perlita grossa + carvão vegetal pequeno","Casca de pinus média + chips de coco preparados + carvão vegetal pequeno"],
+    substrato: ["Casca de pinus média + perlita grossa + carvão vegetal pequeno","Casca de pinus média + chips de coco lavados + carvão vegetal pequeno"],
     "formasCultivo": {
         "perfilVisual": "dendrobium-montano-pendente",
         "destaque": "Cachepô de Madeira",
@@ -67,7 +67,7 @@ export const dendrobiumTenellum = {
         ],
         "itens": [
             { "asset": "casca-pinus", "nome": "Casca de pinus média", "proporcao": "50%", "nota": "estrutura", "finalidade": "Sustenta as raízes e mantém drenagem sem compactar." },
-            { "asset": "chips-coco", "nome": "Chips de coco", "proporcao": "20%", "nota": "umidade moderada", "finalidade": "Ajuda a conservar alguma umidade entre regas." },
+            { "asset": "chips-coco", "nome": "Chips de coco lavados", "proporcao": "20%", "nota": "umidade moderada", "finalidade": "Ajuda a conservar alguma umidade entre regas." },
             { "asset": "perlita", "nome": "Perlita grossa", "proporcao": "15%", "nota": "aeração", "finalidade": "Mantém espaços de ar e evita saturação prolongada." },
             { "asset": "carvao", "nome": "Carvão vegetal", "proporcao": "15%", "nota": "drenagem", "finalidade": "Acrescenta partículas estáveis e drenantes." }
         ],
