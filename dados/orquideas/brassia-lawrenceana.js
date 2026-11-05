@@ -47,14 +47,14 @@ export const brassiaLawrenceana = {
         destaque: "Cachepô de Madeira",
         resumo: "Epífita de raízes vigorosas que prefere umidade regular com circulação de ar e drenagem eficiente.",
         metodos: [
-            { nome: "Cachepô de Madeira", asset: "brassia-lawrenceana-cesto", estrelas: null, status: "Ideal", texto: "Mantém raízes arejadas e permite acomodar a expansão dos pseudobulbos; exige regas ajustadas à secagem do substrato." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Muito recomendado", texto: "Boa estabilidade e troca de ar; observar a secagem mais rápida em períodos quentes." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Adequado", texto: "Retém umidade por mais tempo; usar mistura aberta e controlar as irrigações." },
+            { nome: "Cachepô de Madeira", asset: "brassia-lawrenceana-cesto", estrelas: null, status: "Preferência técnica provisória", texto: "Mantém raízes arejadas e permite acomodar a expansão dos pseudobulbos; exige regas ajustadas à secagem do substrato." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa provisória", texto: "Boa estabilidade e troca de ar; observar a secagem mais rápida em períodos quentes." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa provisória", texto: "Retém umidade por mais tempo; usar mistura aberta e controlar as irrigações." },
             { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Com restrições", texto: "Usar vaso pequeno e substrato muito aerado; controlar cuidadosamente a umidade para evitar encharcamento." }
         ]
     },
     substratoVisual: {
-        titulo: "Substrato ideal",
+        titulo: "Substrato recomendado (provisório)",
         contexto: "Para cultivo em cesto de madeira",
         resumo: "Mistura de granulometria média, arejada e com retenção moderada, adequada ao crescimento ativo das raízes.",
         justificativa: "Brassia lawrenceana se beneficia de um substrato estruturado, com umidade moderada e boa circulação de ar. A casca de pinus oferece suporte, os chips de coco preparados ajudam a conservar umidade e a casca de macadâmia mantém a mistura firme. O carvão e a perlita favorecem a drenagem. Inspecione periodicamente os componentes orgânicos: quando começarem a se decompor e reter água em excesso, é hora de renovar o substrato. Ajuste as regas à secagem observada.",
@@ -74,7 +74,7 @@ export const brassiaLawrenceana = {
             { nome: "Compactação", valor: 2, icone: "🧱" }
         ],
         alerta: "Cesto seca mais rapidamente que vaso plástico. Ajuste a frequência de rega ao microclima e inspecione a decomposição do pinus e do coco; a composição é uma inferência técnica para plantas adultas.",
-        notaEvidencia: "MACS 1.1 — revisão documental: Brassia lawrenceana (nome editorial; POWO adota Brassia cochleata), epífita de raízes vigorosas, requer umidade regular, drenagem e ventilação. Cachepô de Madeira vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% pinus médio + 25% chips de coco médios preparados + 20% macadâmia média + 10% carvão vegetal médio + 10% perlita grossa compatível com o cesto = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/argila expandida pequena/pouco esfagno solto e macadâmia/pinus/perlita/pouca fibra de coco grossa preparada. Monitorar envelhecimento do pinus e coco, salinidade e secagem no cesto. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
+        notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D), sem validação quantitativa de percentuais ou comparação experimental dos suportes. MACS 1.1 — revisão documental: Brassia lawrenceana (nome editorial; POWO adota Brassia cochleata), epífita de raízes vigorosas, requer umidade regular, drenagem e ventilação. Cachepô de Madeira vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% pinus médio + 25% chips de coco médios preparados + 20% macadâmia média + 10% carvão vegetal médio + 10% perlita grossa compatível com o cesto = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/argila expandida pequena/pouco esfagno solto e macadâmia/pinus/perlita/pouca fibra de coco grossa preparada. Monitorar envelhecimento do pinus e coco, salinidade e secagem no cesto. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
         "Cultivar em sombra profunda",
@@ -88,19 +88,20 @@ export const brassiaLawrenceana = {
     ],
     dica: "🏆 Replante apenas quando um novo broto estiver começando a emitir raízes. Brassia reage muito melhor quando essas raízes novas entram diretamente no substrato fresco. Em clima quente, cesto ou vaso de barro com mistura grossa costuma oferecer excelente equilíbrio entre umidade e oxigenação.",
     revisaoCientificaIAR: {
-        "nome": "Brassia lawrenceana",
-        "statusTaxonomico": "Nome mantido no catálogo por decisão editorial; POWO adota Brassia cochleata.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Brassia lawrenceana é uma clássica orquídea-aranha, valorizada pelas hastes arqueadas e pelas flores elegantes de segmentos estreitos, amarelo-esverdeados e salpicados de castanho a vinho. Cada pseudobulbo maduro pode produzir uma inflorescência com numerosas flores, criando um conjunto leve e muito ornamental.",
-        "habitatAltitudeClima": "Epífita de florestas úmidas, aproximadamente entre 265 e 1.200 m. | Quente a intermediário, úmido e ventilado.",
-        "distribuicaoGeografica": "Amazônia e países do norte e oeste sul-americano.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
+        "nome": "Brassia lawrenceana Lindl. — nome editorial",
+        "statusTaxonomico": "POWO/Kew considera Brassia lawrenceana Lindl. (1841) sinônimo heterotípico de Brassia cochleata Knowles & Westc. (1838), nome aceito. O catálogo conserva Brassia lawrenceana como nome horticultural por decisão editorial.",
+        "sinonimosPrincipais": "Brassia lawrenceana Lindl. (1841) e Oncidium lawrenceanum (Lindl.) Rchb.f. (1863) são sinônimos heterotípicos de Brassia cochleata segundo POWO. O tratamento Flora do Brasil 2020, com circunscrição distinta, considerava Brassia lawrenceana aceita e Oncidium lawrenceanum homotípico em relação a ela; não confundir sinonímia relativa ao nome editorial com sinonímia relativa ao nome atualmente aceito.",
+        "morfologiaDimensoes": "Orquídea epífita simpodial, com pseudobulbos ovais e bainhas foliares e folhas elípticas verde-escuras. Segundo a Royal Horticultural Society, a planta identificada horticulturalmente como Brassia lawrenceana pode ter folhas de até cerca de 40 cm, hastes arqueadas de aproximadamente 40 cm e sete a onze flores, com segmentos longos e estreitos amarelos a esverdeados, manchados de vermelho-púrpura. O tamanho aproximado de 5 cm citado pela RHS se refere à descrição floral dessa fonte, não a medição de espécimes do catálogo. A identificação deve ser confrontada com caracteres florais, dada a sinonímia e a possível confusão com outras Brassia.",
+        "habitatAltitudeClima": "POWO registra Brassia cochleata, que inclui Brassia lawrenceana em sua circunscrição, como epífita pseudobulbosa do bioma tropical úmido. Flora do Brasil 2020 registra Brassia lawrenceana em florestas ciliares, de igapó, de várzea e ombrófilas. A faixa altitudinal de 265–1.200 m presente na ficha é secundária e não deve ser tratada como amplitude global validada. Recomendações de umidade regular e boa drenagem são inferências de cultivo, não resultados de ensaio específico da receita MACS.",
+        "distribuicaoGeografica": "POWO registra Brassia cochleata na América do Sul tropical: norte do Brasil, Colômbia, Equador, Guiana Francesa, Guiana, Peru, Suriname e Venezuela. Flora do Brasil 2020 registra Brassia lawrenceana no domínio amazônico brasileiro, com ocorrências confirmadas em Acre, Amazonas, Amapá, Rondônia e Roraima e possíveis em Pará e Mato Grosso.",
+        "cultivoPremiacao": "A RHS recomenda sombra parcial e substrato bem drenado para a planta cultivada como Brassia lawrenceana; tais recomendações são qualitativas. A Flora do Brasil 2020 fornece descrição diagnóstica e vouchers brasileiros, não comparações de cultivo. Não foram encontrados ensaios específicos validando 35% pinus, 25% coco, 20% macadâmia, 10% carvão e 10% perlita nem a superioridade do cachepô frente aos outros três suportes. Premiações individuais não foram verificadas em fonte primária.",
+        "confianca": "Taxonomia e distribuição da circunscrição aceita: alta (POWO); ocorrência brasileira e caracteres diagnósticos sob nome histórico: alta como documentação florística (Flora do Brasil 2020); dimensões e cultivo qualitativo: moderada (RHS); MACS quantitativa: Classe D.",
         "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
+            "POWO/Kew, Brassia lawrenceana como sinônimo — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:322822-2",
+            "POWO/Kew, Brassia cochleata aceita — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:304996-2",
+            "Flora do Brasil 2020, Brassia lawrenceana e materiais testemunho — https://monografiasfloradobrasil.jbrj.gov.br/brassia.pdf",
+            "Royal Horticultural Society, Brassia lawrenceana — https://www.rhs.org.uk/plants/28016/brassia-lawrenceana/details",
+            "IPNI, protólogo Brassia lawrenceana Lindl. (1841) — https://www.ipni.org/n/322822-2"
         ]
     },
     indiceDificuldadeCultivo: {
