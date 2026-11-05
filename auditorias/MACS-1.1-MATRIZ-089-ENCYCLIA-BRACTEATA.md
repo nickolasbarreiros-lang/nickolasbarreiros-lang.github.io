@@ -27,7 +27,7 @@
 **Ressalva de granulometria:** o calibre médio/grosso deve ser compatível com raízes finas de uma miniatura e recipiente pequeno. Montagem em madeira sem mistura volumétrica é alternativa específica respaldada por observação brasileira, mas não por comparação experimental.
 
 ## Duas alternativas qualitativas preservadas
-1. Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios preparados.
+1. Casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios lavados.
 2. Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa.
 
 Distintas entre si e da R0; sem proporções inventadas.
@@ -43,3 +43,14 @@ Distintas entre si e da R0; sem proporções inventadas.
 
 ## Parecer final
 **Revisão documental concluída.** Identidade, morfologia, fonte brasileira específica, descrição, soma da receita e duas alternativas conferidas; asset corrigido. **Homologação quantitativa da mistura 35/30/20/15: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-05
+**Perfil:** miniatura epífita unifoliada de pseudobulbos cônicos, rizoma curto e raízes de pequeno calibre, sensíveis a abafamento e umidade persistente. Em brotação e enraizamento, molhar bem e permitir secagem parcial antes da próxima irrigação; após maturação ou em períodos frios/nublados, ampliar discretamente os intervalos, sem repouso seco prolongado. Em recipiente pequeno, ajustar granulometria ao calibre real das raízes; partículas muito grandes podem reduzir contato, e partículas finas podem compactar. O relato brasileiro de 2017 documenta exemplar premiado montado em toco de madeira e perda anterior associada a madeira encharcada e baixa ventilação; é observação individual, não ensaio comparativo.
+
+**Cultivo principal:** vaso de barro pequeno, proporcional ao rizoma, com drenagem e evaporação; cachepô de madeira é alternativa igualmente bem avaliada na ficha. **Receita em volume:** 35% casca de macadâmia média (estrutura) + 30% casca de pinus média (apoio radicular) + 20% perlita grossa (aeração) + 15% carvão vegetal (porosidade), total 100%. Proposta horticultural sem ensaio específico de E. bracteata. Montagem em placa/tronco **não utiliza percentuais volumétricos**.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus média/grossa + perlita grossa + carvão vegetal + pequena fração de chips de coco médios lavados; (2) casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa. Distintas entre si e da receita principal; coco lavado não dispensa eventual controle de salinidade.
+
+**Conferências editoriais:** descrição com 94 palavras (faixa 90–120). Chips de coco médios lavados padronizados na primeira alternativa; receita visual e justificativa passaram a declarar expressamente ausência de homologação específica e distinguir montagem sem mistura volumétrica. Calendário fixo [9,10,11,12,1,2,3,4] removido por falta de fenologia regional suficiente; texto de floração qualificado, mantendo registros sazonais IOSPE sem convertê-los em meses brasileiros obrigatórios. Selo de rega alterado de “sazonal/reduzir-repouso” para “moderada/reduzir-inverno”, coerente com secagem parcial e sem repouso seco rigoroso. Receita e itens visuais somam 35+30+20+15=100%; duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 40/100 e três estrelas coerentes com IDC 3.2; IAR litoral 79/4 estrelas e montanha 79/4 estrelas preservados; estrelas dos suportes mantidas como avaliações horticulturais. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; um relato brasileiro específico de cultivo montado, zero receitas quantitativas específicas de produtores verificadas, meta de 25 não atingida e **homologação experimental da receita não demonstrada**.
