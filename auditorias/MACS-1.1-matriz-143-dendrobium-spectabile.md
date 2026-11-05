@@ -20,3 +20,12 @@ Teste Chromium desktop/mobile aprovado, capturas confirmadas e encerramento téc
 
 ## Encerramento — 2026-11-04
 Execução Chromium/Playwright [41846639406](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41846639406): **completed/success**, incluindo inspeção no navegador e upload de capturas. Artefato **13332062174**, `macs-143-inspecao-visual` (449778 bytes). Principal soma 100%; duas alternativas qualitativas sem percentuais; perlita preservada, argila e brita somente em alternativas distintas; estrelas dos suportes omitidas; quatro fotos e oito assets presentes. IDC 3.2 e IAR 2.0 preservados. **Classe D — NÃO HOMOLOGADA quantitativamente**, sem ensaios comparativos específicos nem amostra documentada de 25 produtores independentes. Sem pendências técnicas detectadas pelo teste; matriz 144 liberada.
+
+
+## Auditoria integrada de continuidade — 2026-11-05
+- **Taxonomia:** *Dendrobium spectabile* aceito por POWO, basiônimo *Latouria spectabilis*. Fontes POWO, Naturalis/Cribb, IOSPE e AOS; campo morfológico completo, sem truncamento detectado. Faixas altitudinais divergentes mantidas contextualizadas por fonte.
+- Principal: 35% macadâmia grossa + 30% pinus grosso + 20% perlita grossa + 15% carvão vegetal médio/grosso = **100%**. Duas alternativas qualitativas sem percentuais; estrelas dos suportes `null`. Argila e brita aparecem em alternativas, sem substituir a perlita da principal.
+- **IDC 3.2 documental:** 50/100, moderada, três estrelas; notas T/R/H/V/L/Ra/S/F = 2/2/2/2/2/2/3/4. Faixa correta; transformação das notas em pontuação total não recalculada independentemente.
+- **IAR 2.0 litoral:** 96/100, cinco estrelas; notas 5/5/4/4/4/4/5: 30+30+4+4+4+4+20=96.
+- **IAR 2.0 montanha:** 64/100, quatro estrelas; notas 3/3/4/4/4/4/3: 18+18+4+4+4+4+12=64.
+- **MACS 1.1:** classe D, sem ensaios comparativos específicos nem documentação de 25 produtores independentes. IAR consistente aritmeticamente, sem homologação empírica. Workflow alterado para testar edições no JS; nova execução Chromium solicitada.
