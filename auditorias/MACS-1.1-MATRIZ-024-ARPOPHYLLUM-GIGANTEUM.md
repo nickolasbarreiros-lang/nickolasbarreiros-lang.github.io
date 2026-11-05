@@ -42,7 +42,7 @@ Não calcular nota sem medições comparáveis.
 - Ingredientes pinus/carvão/esfagno/perlita: **B qualitativo específico**, sem proporções.
 - Macadâmia 35% e arroz carbonizado 10%: **D específicos** nesta pesquisa.
 - Composição integral R0: **D**; percentuais: **D**; estrelas: **D**.
-- **8 produtores/comerciantes brasileiros específicos identificados**, **4 com ingredientes ou materiais identificáveis** (Maripá, Mogi Mirim, Vico), **0 com receita percentual**. Levantamento não exaustivo.
+- **8 produtores/comerciantes brasileiros específicos identificados**, **4 com ingredientes ou materiais identificáveis** (Maripá, Mogi Mirim, Vico e Merten; contagem consolidada após a ampliação posterior), **0 com receita percentual**. Levantamento não exaustivo.
 - **Status:** PROVISÓRIA, 0 homologações quantitativas de desempenho adulto. Preservar JS, substrato visual, fotos, assets, IDC/IAR e V4.9.
 
 ## Conferência adicional — 2026-11-04
@@ -78,3 +78,8 @@ Não calcular nota sem medições comparáveis.
 - **Controle de duplicatas:** páginas de exemplares adulto e pré-adulto do Orquidário Maripá representam **um único produtor**, não dois. Fonte: https://www.orquidariomaripa.com.br/produtos/orquidea-arpophyllum-giganteum-adulta/
 - **Critério de suficiência documental:** após buscas adicionais, nenhuma nova formulação percentual específica foi encontrada. Continuar acumulando páginas comerciais sem dados de cultivo não aumenta o grau de evidência da receita. A meta de até 25 produtores é um objetivo de busca, não uma exigência para inventar referências ou bloquear indefinidamente a conclusão do parecer.
 - **Contagem separada:** 9 estabelecimentos comerciais identificados (8 já avaliados e Vivenza como presença comercial); 4 com ingredientes identificáveis; 0 com percentuais da receita R0. A evidência disponível **não permite homologação quantitativa**. Encerrar a conclusão documental como **parecer definitivo de insuficiência de evidência, Classe D provisória para receita e estrelas**, não como aprovação experimental.
+
+## Nota de reconciliação — 2026-11-04
+- Contagem mais recente: nove estabelecimentos identificados, quatro com materiais de substrato citados, nenhum com proporções comprovadas da receita R0. As contagens anteriores representam estágios da pesquisa e não devem ser somadas.
+- A ficha de cultivo da AOS refere-se ao gênero Arpophyllum; a recomendação de repouso muito fresco e seco não é resultado de ensaio quantitativo específico de A. giganteum.
+- Parecer documental: insuficiência de evidências para homologação quantitativa (Classe D). Inspeção visual não realizada nesta etapa.
