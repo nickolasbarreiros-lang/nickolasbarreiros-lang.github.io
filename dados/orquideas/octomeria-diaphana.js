@@ -31,7 +31,7 @@ export const octomeriaDiaphana = {
         "horario": "Não permitido",
         "observacoes": "Sombra clara. Folhas muito alongadas e escuras sugerem pouca luz; tonalidade amarelada ou pontas secas indicam exposição excessiva."
     },
-    "floracao": "No Brasil, a Octomeria diaphana tem floração documentada principalmente de novembro a maio, conforme levantamento botânico nacional. Um orquidário brasileiro também relata floração no inverno, indicando que o período pode variar em cultivo; essa observação isolada não permite acrescentar meses específicos ao calendário. As flores surgem em pequenos fascículos de uma a quatro, bem próximos à base das folhas. São brancas e translúcidas, com pétalas e sépalas delicadas e uma pequena mancha vinho na base do labelo. Embora a haste seja curtíssima, as peças florais podem ultrapassar um centímetro. Um produtor brasileiro descreve a espécie como sem aroma perceptível, e não há evidência suficiente para atribuir-lhe perfume característico. A duração de cada flor e do conjunto floral não foi estabelecida com segurança para esta espécie; não se deve transferir para ela a longevidade relatada em outras Octomeria.",
+    "floracao": "No Brasil, Octomeria diaphana pode florescer em diferentes épocas do ano. Um levantamento botânico realizado no Paraná registra floração ao longo dos 12 meses, com exemplares floridos coletados em diferentes estações; isso não significa que uma mesma planta permaneça continuamente florida. Um orquidário brasileiro também relata floração no inverno, compatível com essa amplitude sazonal. As flores surgem em pequenos fascículos de uma a quatro, bem próximos à base das folhas. São brancas e translúcidas, com pétalas e sépalas delicadas e uma pequena mancha vinho na base do labelo. Embora a haste seja curtíssima, as peças florais podem ultrapassar um centímetro. Um produtor brasileiro descreve a espécie como sem aroma perceptível, e não há evidência suficiente para atribuir-lhe perfume característico. A duração de cada flor e do conjunto floral não foi estabelecida com segurança para esta espécie; não se deve transferir para ela a longevidade relatada em outras Octomeria.",
     "adubacao": "🌿 Orgânica: use quantidade mínima de Bokashi em sachê no topo do suporte, longe dos ramicaules.\n💧 Foliar/mineral: NPK equilibrado ultradiluído, entre 1/5 e 1/4 da dose, a cada 15 dias durante o crescimento.\n🚿 Flushing: lave abundantemente o suporte com água pura a cada 2–4 semanas, conforme a frequência de adubação e a qualidade da água.\n🧪 Liberação lenta: não recomendada para raízes capilares tão sensíveis.",
     "rega": "Por não possuir pseudobulbos, necessita de umidade regular. Em placas, regue diariamente no verão ou antes que a fina camada de esfagno seque completamente por vários dias. O suporte deve permanecer úmido apenas o suficiente para hidratar as raízes, mas com circulação de ar constante. Pontas secas podem indicar ar muito seco, excesso de sais ou raízes comprometidas. Brotações escurecendo pela base sugerem abafamento, substrato velho ou água parada nas axilas.",
     "suporte": "🥇 Placa de cortiça ou madeira dura com uma camada fina de esfagno: suporte ideal e permanente.\n🥈 Pequeno cesto de madeira: permite formar almofadas compactas com boa aeração.\n🥉 Cuia plástica rasa e perfurada: útil apenas em ambientes de umidade mais baixa.\nEvite trocas frequentes de suporte depois que a planta se fixar.",
@@ -210,15 +210,7 @@ export const octomeriaDiaphana = {
         "litoralQuente": "Em clima quente, cultive no setor mais fresco e sombreado do orquidário, sob 70–75% de sombrite, com ventilação constante. Regue pela manhã; em dias muito quentes, aumente a umidade ao redor sem engrossar o esfagno nem manter a base abafada.",
         "montanhaFrio": "Excelente adaptação. Proteja de geadas e ventos ressecantes. Em semanas frias e nubladas, reduza a frequência das regas, mas não permita seca total."
     },
-    "mesesFloracao": [
-        11,
-        12,
-        1,
-        2,
-        3,
-        4,
-        5
-    ],
+    "mesesFloracao": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "intermediario" }
