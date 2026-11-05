@@ -47,3 +47,14 @@ Ambas diferem da R0 e entre si. Não atribuir percentuais não publicados nem al
 
 ## Parecer final
 **Revisão documental encerrada.** Taxonomia e dimensão floral verificadas; receita 1:1:1 específica rastreada até relato de cultivador, soma 100%; alternativas distintas; asset de carvão padronizado. **Homologação experimental específica: NÃO DEMONSTRADA.** Meta de 25 produtores com receitas quantitativas não atingida.
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** epífita de caules imbricados, sem pseudobulbos de reserva, com raízes dependentes de umidade frequente, mas ventiladas e capazes de secar entre molhamentos. A disposição das folhas pode reter água nas bainhas; favorecer escoamento e evitar noites frias com caules persistentemente molhados. A espessura radicular e os intervalos de secagem ideais para um exemplar específico não foram medidos.
+
+**Cultivo principal:** placa/tronco inclinado ou suspenso, com raízes expostas e regas ajustadas à secagem; **não se aplica mistura volumétrica sobre a placa**. **Receita para cesto ou vaso raso:** partes iguais em volume de casca de pinus média (estrutura), carvão vegetal (aeração) e esfagno de fibra longa solto (reserva de umidade), apresentados como 33,3% + 33,3% + 33,4% = 100%, com décimo adicional exclusivamente por arredondamento. Proporção específica de relato brasileiro de cultivador, sem ensaio comparativo.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus média + carvão vegetal + fragmentos de madeira; (2) casca de pinus média + carvão vegetal + chips de coco grossos lavados. Padronizada nomenclatura dos chips; não confundir com esfagno da receita principal nem atribuir validação quantitativa às alternativas.
+
+**Conferências editoriais:** descrição com 110 palavras, dentro da faixa 90–120. Corrigida divergência na seção de floração: inflorescências geralmente unifloras e flores de aproximadamente 1 cm nos exemplares publicados em Hoehnea, sem generalizar o tamanho a todos os exemplares. Corrigida frase regional incompleta 'Ao litoral quente quando...'. Nota de evidência ajustada para não apresentar Orquidário Paulista como consulta independentemente reconfirmada. Receita e itens visuais somam 100%; quatro caminhos fotográficos cadastrados; IDC 38/100 e três estrelas coerentes com IDC 3.2; IAR e suportes preservados. Carregamento de fotos e testes visuais reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro da evidência disponível; uma receita quantitativa de cultivador específico, **zero receitas quantitativas de produtores comerciais verificadas**, meta de 25 não atingida e homologação experimental não demonstrada.
