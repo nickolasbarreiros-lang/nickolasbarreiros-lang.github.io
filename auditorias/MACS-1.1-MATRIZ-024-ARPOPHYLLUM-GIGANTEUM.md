@@ -1,6 +1,6 @@
 # MACS 1.1 — Matriz 024: Arpophyllum giganteum
 
-Data: 2026-11-03. Ficha: dados/orquideas/arpophyllum-giganteum.js. Status: documentação específica, sem homologação quantitativa de desempenho adulto.
+Data original: 2026-11-03. Conferência de consistência com a ficha publicada: 2026-11-04. Ficha: dados/orquideas/arpophyllum-giganteum.js. Status: documentação específica, sem homologação quantitativa de desempenho adulto.
 
 ## Fontes e alcance
 1. Orquidário Maripá, produtor brasileiro específico: https://www.orquidariomaripa.com.br/produtos/orquidea-arpophyllum-giganteum-especie-para-colecionar-pre-adulta/ — mistura de cascas, carvão, madeira e esfagno; vaso plástico, barro, caixeta, árvore com regas frequentes até enraizar; sem proporções.
@@ -14,8 +14,8 @@ Data: 2026-11-03. Ficha: dados/orquideas/arpophyllum-giganteum.js. Status: docum
 9. Faria et al., 2018, revisão científica: https://ojs.uel.br/revistas/uel/index.php/semagrarias/article/view/31058 — diversidade de substratos para epífitas; evidência geral C, não formulação específica.
 
 ## Cultivo e hierarquia
-- Ficha: vaso plástico 5 estrelas; cachepô madeira 4; barro 4; plástico vasado 3.
-- Maripá documenta plástico/barro/caixeta; Vico recomenda barro pesado ou cachepô reforçado para porte adulto. **A vantagem de 5 estrelas do plástico não foi demonstrada**; estabilidade mecânica importa.
+- Ficha atual (conferida em 2026-11-04): vaso plástico, cachepô de madeira, vaso de barro e vaso plástico vasado constam com `estrelas: null` e status provisório. A hierarquia editorial mantém vaso plástico como destaque, **sem pontuação quantitativa validada**.
+- Maripá documenta plástico/barro/caixeta; Vico recomenda barro pesado ou cachepô reforçado para porte adulto. **A superioridade do vaso plástico não foi demonstrada**; estabilidade mecânica importa.
 - Montagem em árvore/placa é possível em fontes específicas, mas não aparece entre os quatro métodos principais. Documentar para eventual revisão editorial, **sem alterar ficha**.
 - Em litoral quente: umidade moderada e aeração, com irrigação adaptada à secagem. Não assumir que aumentar retenção resolve eventuais limitações térmicas à floração.
 
