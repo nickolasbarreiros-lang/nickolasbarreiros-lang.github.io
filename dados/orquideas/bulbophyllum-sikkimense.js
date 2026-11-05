@@ -28,7 +28,7 @@ export const bulbophyllumSikkimense = {
         horario: "Não permitido",
         observacoes: "Meia-sombra clara favorece umbela compacta e pseudobulbos firmes. Sombra profunda reduz a qualidade da floração; sol direto forte pode superaquecer folhas e rizoma."
     },
-    floracao: "Principalmente na primavera no conceito histórico de B. sikkimense; dentro de B. roxburghii, a janela pode se estender ao verão. Referência prática: setembro a fevereiro.",
+    floracao: "Orquidários brasileiros indicam floração principalmente no verão e no outono. O calendário de dezembro a maio representa essa janela sazonal aproximada, que pode variar conforme o cultivo. As hastes eretas sustentam pequenas umbelas com cerca de cinco a doze flores, de aproximadamente 2 cm, formando um buquê delicado. As flores têm tons amarelados a esverdeados, com marcas avermelhadas ou castanhas e sépalas laterais alongadas. Produtores brasileiros descrevem a espécie como sem perfume perceptível. A duração informada é de aproximadamente 7 a 10 dias por floração.",
     adubacao: "🌿 Orgânica: Bokashi em quantidade mínima e preferencialmente em sachê.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: Osmocote em dose baixa, afastado do rizoma; reduza depois da maturação dos pseudobulbos e lave o meio periodicamente com água limpa.",
     rega: "Irrigue regularmente durante brotação e enraizamento, sempre com drenagem rápida. Depois da maturação, reduza apenas moderadamente a frequência se o clima ficar mais fresco. Não imponha seca prolongada.",
     suporte: "🥇 Vaso plástico vasado, baixo e largo.\n🥈 Cachepô de madeira raso e largo.\n🥉 Placa de cortiça ou madeira com pequena reserva de esfagno.\nDeixe espaço para o crescimento horizontal.",
@@ -272,7 +272,7 @@ export const bulbophyllumSikkimense = {
         litoralQuente: { texto: "A faixa histórica de 300–500 m é compatível com cultivo quente e úmido bem ventilado." },
         montanhaFrio: { texto: "Desde que protegida de frio intenso e de encharcamento persistente em baixas temperaturas." }
     },
-    mesesFloracao: [],
+    mesesFloracao: [12, 1, 2, 3, 4, 5],
     "selosCultivo": {
         "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
