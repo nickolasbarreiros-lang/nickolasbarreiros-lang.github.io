@@ -36,7 +36,7 @@ export const coelogyneCristata = {
         "horario": "Somente início da manhã",
         "observacoes": "No verão, proteja do calor e do sol forte. No inverno, aumente a luminosidade para amadurecer reservas e favorecer botões. Folhas verde-médio e pseudobulbos cheios indicam bom manejo; folhas muito escuras sugerem pouca luz."
     },
-    "floracao": "Floresce após o repouso frio e seco, normalmente do inverno ao início da primavera. Em climas do Hemisfério Sul, a época pode variar conforme a intensidade do frio disponível. As hastes são flexíveis e pendentes, por isso a planta deve ficar elevada e com espaço abaixo do recipiente.",
+    "floracao": "Coelogyne cristata costuma florescer após um período mais frio e relativamente seco, quando produz hastes arqueadas ou pendentes junto à base dos pseudobulbos maduros. Cada haste geralmente reúne de cinco a oito flores grandes, com cerca de 7 a 13 cm, de pétalas brancas e textura delicada. O destaque é o labelo branco, ornamentado por cristas e manchas amarelo-douradas. Algumas plantas apresentam perfume doce e agradável, descrito como semelhante a banana, doces ou frutas cítricas, enquanto outras têm fragrância discreta. Em ambiente fresco e com flores protegidas da umidade direta, a floração pode permanecer vistosa por quatro a cinco semanas. No Brasil, a época depende muito da ocorrência de noites frias; ainda não há registros nacionais suficientes para fixar meses no calendário com segurança.",
     "adubacao": "🌿 Orgânica: bokashi leve somente durante brotação ativa, retirado ou interrompido antes do repouso.\n💧 Mineral/Foliar: NPK equilibrado bem diluído na primavera e verão.\n🌱 Crescimento: adube enquanto folhas e pseudobulbos estiverem se formando.\n🍂 Outono: reduza gradualmente junto com a água.\n💤 Inverno: suspenda totalmente a adubação.\n🧪 Liberação lenta: dose baixa apenas no início da estação de crescimento; evite formulações que continuem liberando nutrientes no repouso.",
     "rega": "Na primavera e no verão, regue abundantemente enquanto houver brotos e raízes ativas, deixando o substrato arejado. No outono, reduza de forma progressiva. Durante o inverno, mantenha quase seca, com irrigações mínimas apenas se os pseudobulbos começarem a enrugar excessivamente. Não deixe a mistura fria e molhada. Retome a rega de modo gradual com o aparecimento de botões ou novos crescimentos.",
     "suporte": "🥇 Cestinho largo de madeira — permite expansão da touceira e caimento das hastes.\n🥈 Vaso raso e amplo — oferece estabilidade sem excesso de substrato profundo.\n🥉 Placa grande — indicada somente em clima frio e úmido, com regas controladas.\nMantenha o recipiente suspenso e com espaço livre abaixo.",
@@ -214,14 +214,7 @@ export const coelogyneCristata = {
         "litoralQuente": "No litoral quente, o cultivo é difícil. Sem noites frias, pode crescer sem florescer. O melhor resultado exige microclima muito fresco, posição ventilada ou cultivo temporário em região de altitude durante o outono e inverno.",
         "montanhaFrio": "É o ambiente mais indicado: verão úmido e ventilado, seguido por inverno frio, luminoso e mais seco."
     },
-    "mesesFloracao": [
-        11,
-        12,
-        1,
-        2,
-        3,
-        4
-    ],
+    "mesesFloracao": [],
     "selosCultivo": {
         "rega": { "nivel": "sazonal", "regime": "repouso-seco" },
         "climaFloracao": { "faixa": "frio", "frioNecessario": true }
