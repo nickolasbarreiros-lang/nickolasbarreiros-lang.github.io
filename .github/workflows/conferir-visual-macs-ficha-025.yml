@@ -98,7 +98,16 @@ jobs:
             if(!fullText.includes('Cultivo fácil'))throw Error('Selo editorial de dificuldade não encontrado');
             const ficheSource=require('fs').readFileSync('dados/orquideas/oncidium-twinkle.js','utf8');
             if(!ficheSource.includes('NÃO validada experimentalmente'))throw Error('Ressalva MACS 1.1 ausente nos dados da ficha');
-            if((await fullText).includes('MACS 1.1')||(await fullText).includes('NÃO validada experimentalmente'))throw Error('Metodologia interna apareceu indevidamente na ficha pública');
+            const termosInternos = [
+              /MACS\\s*1[.,]1/i,
+              /NÃO validada experimentalmente/i,
+              /preferência técnica provisória/i,
+              /alternativa provisória/i,
+              /sem classificação quantitativa/i,
+              /percentuais inferenciais/i,
+            ];
+            const indevidos=termosInternos.filter(regex=>regex.test(fullText));
+            if(indevidos.length)throw Error('Termos internos expostos ao visitante: '+indevidos.map(String).join(' | '));
             const cultivation=page.locator('.formas-cultivo-v4');
             if(await cultivation.count()!==1)throw Error('Componente visual de cultivo ausente ou duplicado');
             const cultivationMethods=page.locator('.formas-cultivo-v4 .forma-principal-v4, .formas-cultivo-v4 .alternativa-forma-v41');
