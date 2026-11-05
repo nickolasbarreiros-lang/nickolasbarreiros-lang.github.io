@@ -46,7 +46,7 @@ export const cyrtopodiumPodophyllum = {
         "resumo": "Espécie terrestre ou rupícola de grande porte, consolidada nesta ficha como Cyrtopodium flavum. Requer muita luminosidade, suporte firme, drenagem rápida e redução sazonal das regas após a maturação dos pseudobulbos.",
         "metodos": [
             { "nome": "Vaso de Barro", "asset": "vaso-barro", "estrelas": 5, "status": "Mais recomendado na ficha", "texto": "Vaso grande, largo e pesado, com drenagem abundante e estabilidade para hastes altas. Nunca manter água acumulada no fundo." },
-            { "nome": "Vaso plástico", "asset": "vaso-plastico-vasado", "estrelas": 4, "status": "Alternativa com lastro", "texto": "Recipiente grande e muito perfurado, estabilizado para evitar tombamento. Redobrar atenção à retenção hídrica no repouso." },
+            { "nome": "Vaso plástico", "asset": "vaso-plastico", "estrelas": 4, "status": "Alternativa com lastro", "texto": "Recipiente grande e muito perfurado, estabilizado para evitar tombamento. Redobrar atenção à retenção hídrica no repouso." },
             { "nome": "Vaso plástico vasado", "asset": "vaso-plastico-vasado", "estrelas": 4, "status": "Alternativa", "texto": "Modelo largo, reforçado e bem apoiado, com mistura estrutural e drenagem rápida." },
             { "nome": "Cachepô de Madeira", "asset": "cesto-madeira", "estrelas": 3, "status": "Uso condicional", "texto": "Somente modelo grande, rígido e estável, com substrato mineralizado e reposição de água ajustada à secagem." }
         ]
