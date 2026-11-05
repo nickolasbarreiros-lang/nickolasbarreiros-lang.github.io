@@ -977,6 +977,10 @@ function criarCalendarioFloracao(
             ? mesesFloracao.map(Number)
             : [];
 
+    if (mesesAtivos.length === 0) {
+        return `<div class="calendario-floracao-sem-dados" role="status" style="grid-column: 1 / -1; padding: 14px 16px; text-align: center; line-height: 1.5;">🌸 Época de floração ainda não confirmada para o cultivo brasileiro.</div>`;
+    }
+
     return nomesMeses
         .map((mes, indice) => {
             const numeroMes = indice + 1;
