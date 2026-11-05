@@ -25,18 +25,18 @@ export const miltoniaCandida = {
     "regiao": "Sudeste brasileiro",
     "habitat": "Mata Atlântica · epífita · ~500–800 m.",
     "clima": "Intermediário a quente · ventilado.",
-    "climaFloracao": "Floresce após o pseudobulbo completar a maturação. Luz filtrada forte, noites um pouco mais frescas e redução natural do ritmo vegetativo favorecem a haste, sem necessidade de seca severa. O pseudobulbo precisa amadurecer cheio, pois armazena água e carboidratos para sustentar de quatro a dez flores na inflorescência.",
+    "climaFloracao": "Floresce após o pseudobulbo completar a maturação. Luz filtrada forte e maturação vigorosa favorecem o desenvolvimento; não há ensaio específico comprovando necessidade de noites frias para indução. Não é necessário impor seca severa. O pseudobulbo precisa amadurecer cheio, pois armazena água e carboidratos para sustentar as três a sete flores por inflorescência descritas no IOSPE.",
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
         "horario": "Somente início da manhã",
         "observacoes": "Luz filtrada média a intensa. Folhas verde-claro e firmes indicam boa exposição. Folhagem verde-escura, alongada e mole sugere sombra excessiva; bordas claras, manchas secas ou aquecimento foliar indicam sol ou calor demais."
     },
-    "floracao": "Principalmente da primavera ao verão. As hastes eretas a arqueadas podem alcançar cerca de 60 cm e carregar normalmente 3–7 flores grandes, cerosas e perfumadas, de até aproximadamente 7,5 cm. O contraste entre os segmentos castanho-amarelados e o amplo labelo branco ondulado é sua marca ornamental mais característica.",
+    "floracao": "O IOSPE registra floração na primavera e no verão, mas a matriz não confirma meses universais para o Brasil. As hastes eretas a arqueadas podem alcançar cerca de 60 cm e carregar normalmente 3–7 flores grandes, cerosas e perfumadas, de até aproximadamente 7,5 cm. O contraste entre os segmentos castanho-amarelados e o amplo labelo branco ondulado é sua marca ornamental mais característica.",
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, dentro de porta-adubo e afastado do rizoma e dos brotos.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose, a cada 10–15 dias durante o crescimento. Reduza depois que o pseudobulbo encorpar.\n🧪 Liberação lenta: poucos grânulos em vaso extremamente drenante, sem contato com raízes novas.\n🚿 Flushing: realize uma lavagem abundante com água pura aproximadamente uma vez por mês, ajustando conforme a qualidade da água e a intensidade da adubação.",
     "rega": "Na emissão de brotos e folhas, regue assim que a superfície do substrato começar a secar. Não permita secagem completa prolongada. Folhas sanfonadas registram interrupções na expansão e não voltam ao formato normal. Antes de simplesmente aumentar as regas, examine as raízes: claras e firmes apontam para seca ou baixa umidade; castanhas, moles ou ocas revelam perda radicular, caso em que mais água agrava o problema. Após a maturação, aumente levemente o intervalo sem desidratar os pseudobulbos.",
     "suporte": "🥇 Vaso plástico pequeno e perfurado: conserva umidade homogênea com pouco volume de substrato.\n🥈 Vaso de barro: indicado para ambientes úmidos ou rotinas de rega frequente.\n🥉 Cesto de madeira: ótimo para touceiras expansivas e locais com elevada umidade relativa.",
-    substrato: ["Casca de pinus média + perlita de granulometria adequada + argila expandida miúda + pequena fração de esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita de granulometria adequada + pequena fração de fibra de coco grossa preparada"],
+    substrato: ["Casca de pinus média + perlita de granulometria adequada + argila expandida miúda + pequena fração de esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita de granulometria adequada + pequena fração de fibra de coco grossa lavada"],
     formasCultivo: {
         perfilVisual: "miltonia-epifita-raizes-finas-umidade-regular",
         destaque: "Vaso plástico vasado",
@@ -52,8 +52,8 @@ export const miltoniaCandida = {
         titulo: "Substrato ideal",
         contexto: "Mistura aberta para vaso plástico pequeno e perfurado",
         resumo: "Equilíbrio entre umidade regular e boa drenagem, protegendo raízes finas durante a formação de novos pseudobulbos.",
-        justificativa: "Miltonia candida apresenta raízes finas que se beneficiam de umidade regular, boa aeração e substrato sem compactação. Em vaso plástico pequeno e perfurado, a casca de pinus e os chips de coco preparados oferecem apoio e retenção moderada, enquanto a perlita e o carvão mantêm espaços de ar. Acompanhe a secagem do centro do vaso e evite saturação prolongada. Prefira água de baixa salinidade e lave periodicamente a mistura para reduzir o acúmulo de sais.",
-        receitaTexto: "35% casca de pinus média + 30% chips de coco pequenos preparados + 25% perlita de granulometria compatível com as raízes + 10% carvão vegetal.",
+        justificativa: "A receita 35/30/25/10 é proposta horticultural sem ensaio quantitativo específico de Miltonia candida; Schnitzer et al. (2010) estudaram outras espécies. Miltonia candida apresenta raízes finas que se beneficiam de umidade regular, boa aeração e substrato sem compactação. Em vaso plástico pequeno e perfurado, a casca de pinus e os chips de coco lavados oferecem apoio e retenção moderada, enquanto a perlita e o carvão mantêm espaços de ar. Acompanhe a secagem do centro do vaso e evite saturação prolongada. Prefira água de baixa salinidade e lave periodicamente a mistura para reduzir o acúmulo de sais.",
+        receitaTexto: "Proposta horticultural NÃO HOMOLOGADA para a espécie: 35% casca de pinus média + 30% chips de coco pequenos lavados + 25% perlita de granulometria compatível com as raízes + 10% carvão vegetal.",
         perfil: ["Miltonia epífita", "Raízes finas", "Umidade homogênea", "Drenagem eficiente", "Baixa salinidade"],
         comportamento: [
             { nome: "Retenção", valor: 3, icone: "💧" },
@@ -212,10 +212,10 @@ export const miltoniaCandida = {
         "litoralQuente": "Adapta-se bem no litoral quente. Use 60–70% de sombra, ventilação forte e regas matinais. Evite noites abafadas com brotos molhados e substrato saturado.",
         "montanhaFrio": "Excelente desempenho. Reduza a água em semanas frias e nubladas, mas não suspenda a hidratação nem deixe os brotos ativos secarem."
     },
-    "mesesFloracao": [9, 10, 11, 12, 1, 2],
+    "mesesFloracao": [],
     "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
-        "climaFloracao": { "faixa": "quente" }
+        "rega": { "nivel": "frequente", "regime": "reduzir-inverno" },
+        "climaFloracao": { "faixa": "intermediario" }
     },
         "avaliacoes": {
         "cultivo": 3,
