@@ -23,3 +23,15 @@ O encerramento técnico anterior não cobre as alterações posteriores. Receita
 
 ### Fechamento da errata — 2026-11-04
 **Revalidação corretiva aprovada:** execução Chromium [41836168004](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41836168004) com conclusão success; artefato 13327485256. Duas alternativas qualitativas sem percentuais; principal com soma de 100%; conferência de assets e quatro referências fotográficas. A errata editorial está tecnicamente **ENCERRADA**. Mantém-se classe científica D, não homologada quantitativamente.
+
+
+## Auditoria integrada IDC 3.2 / IAR 2.0 — 2026-11-05
+**Ficha:** dados/orquideas/zygopetalum-maculatum.js. Espécie terrestre/rupícola de raízes sensíveis ao calor, com preferência por noites mais frescas e umidade regular sem encharcamento. Suporte principal editorial: vaso de barro perfurado. Receita principal 40% chips de coco médios preparados + 35% casca de pinus fina/média + 25% casca de arroz carbonizada = 100%. Exatamente duas alternativas qualitativas sem percentuais. Quatro fotos mantidas; estrelas dos suportes sem atribuição técnica fundamentada. MACS **D**, sem comparação quantitativa específica ou documentação de 25 produtores independentes.
+
+**IDC 3.2 documental:** documentacao/auditorias/IDC-AUDITORIA-3.0.csv registra **60/100**, **Difícil**, **2 estrelas**, com notas temperatura/rega/umidade/ventilação/luminosidade/raízes-substrato/sazonalidade/floração **3/3/3/3/3/3/3/3**. Faixa 51–89 e selo de 2 estrelas conferem com documentacao/indices/IDC-METODOLOGIA.js. A metodologia não fornece algoritmo explícito de transformação das notas em pontos; **60 é valor documental, não cálculo independente homologado**. Notas individuais requerem evidência científica específica.
+
+**IAR 2.0 recalculado:** documentacao/auditorias/IAR-AUDITORIA-CIENTIFICA-2.0.csv registra litoral **32/100, 2 estrelas**, notas H/T/A/V/L/S/F **1/1/5/4/3/4/1**: 6+6+5+4+3+4+4 = **32**. Montanha **97/100, 5 estrelas**, notas **5/5/5/4/4/4/5**: 30+30+5+4+4+4+20 = **97**. Somatórios e selos conferem. A confiança «alta» do CSV não constitui, por si, prova de fundamentação individual das notas.
+
+**Teste automatizado:** .github/workflows/conferir-visual-macs-123.yml exige duas alternativas sem percentuais e foi configurado para disparar em alterações da ficha. Conferir resultado do GitHub Actions pós-commit antes de registrar nova aprovação funcional.
+
+**Parecer:** coerência editorial e matemática IAR verificadas; IDC localizado, faixa e selo conferidos, mas transformação e fundamentação não homologadas; MACS D. Sem atribuição experimental de estrelas dos suportes.
