@@ -23,14 +23,14 @@
 | Material | Percentual | Asset |
 |---|---:|---|
 | Casca de pinus média | 35% | `casca-pinus` |
-| Chips de coco pequenos preparados | 30% | `chips-coco` |
+| Chips de coco pequenos lavados | 30% | `chips-coco` |
 | Perlita de granulometria compatível com raízes finas | 25% | `perlita` |
 | Carvão vegetal | 10% | `carvao-vegetal` |
 | **Total** | **100%** | **Hipótese horticultural, não ensaiada para a espécie** |
 
 ## Duas alternativas qualitativas preservadas
 1. Casca de pinus média + perlita de granulometria adequada + argila expandida miúda + pequena fração de esfagno de fibra longa solto.
-2. Casca de macadâmia média + casca de pinus média + perlita de granulometria adequada + pequena fração de fibra de coco grossa preparada.
+2. Casca de macadâmia média + casca de pinus média + perlita de granulometria adequada + pequena fração de fibra de coco grossa lavada.
 
 São distintas entre si e da receita principal; não foram inventados percentuais.
 
@@ -46,3 +46,14 @@ São distintas entre si e da receita principal; não foram inventados percentuai
 
 ## Parecer final
 **Revisão documental concluída.** Taxonomia aceita, morfologia, texto editorial, evidência brasileira qualitativa e asset corrigidos. Receita soma 100% e há duas alternativas distintas. **Homologação quantitativa de 35/30/25/10: NÃO DEMONSTRADA.**
+
+## Perfil radicular e hídrico — revisão de 2026-11-05
+**Perfil:** epífita simpodial de pseudobulbos ovais comprimidos, bifoliados, rizoma com expansão lateral e raízes capilares delicadas. Durante a emissão de brotos e raízes novas, manter umidade regular com aeração; a secagem prolongada nessa fase pode deformar as folhas. Após maturação dos pseudobulbos, ampliar discretamente os intervalos conforme a evaporação, sem seca severa. Recipientes rasos e largos evitam uma coluna profunda de substrato úmido e permitem avanço dos novos brotos.
+
+**Cultivo principal:** vaso plástico vasado, raso e largo, com frente de crescimento orientada ao espaço livre. **Receita em volume:** 35% casca de pinus média (estrutura) + 30% chips de coco pequenos lavados (retenção) + 25% perlita de granulometria adequada às raízes (aeração) + 10% carvão vegetal (porosidade), total 100%. Proposta horticultural sem ensaio quantitativo específico em M. moreliana. Orquidário 4 Estações indica musgo novo em vaso plástico; Orquidário Thomes cita materiais diversos para forma concolor, ambos sem proporções. Ensaios de M. clowesii e híbridos de Miltonia/Oncidium não validam esta receita.
+
+**Duas alternativas qualitativas sem percentuais:** (1) casca de pinus média + perlita de granulometria adequada + argila expandida miúda + pequena fração de esfagno de fibra longa solto; (2) casca de macadâmia média + casca de pinus média + perlita de granulometria adequada + pequena fração de fibra de coco grossa lavada. Distintas entre si e da principal; coco lavado não dispensa eventual controle de salinidade.
+
+**Conferências editoriais:** descrição com 95 palavras (faixa 90–120). Chips de coco pequenos lavados e fibra de coco grossa lavada padronizados em receita, itens visuais, justificativa e alternativa. Receita e justificativa agora explicitam ausência de homologação específica e usam nome aceito Miltonia moreliana, preservando identificador e arquivo históricos para compatibilidade. Calendário fixo [1,2,3,4,5] removido por falta de levantamento fenológico brasileiro suficiente; texto de floração registra divergência entre primavera (Orquidário 4 Estações) e verão (outras fontes) sem meses universais. Selo de clima deixa de afirmar queda térmica necessária, não demonstrada especificamente. Receita e itens visuais somam 35+30+25+10=100%; duas alternativas qualitativas; quatro caminhos de fotos cadastrados; IDC 32/100 e quatro estrelas coerentes com IDC 3.2; IAR litoral 95/5 estrelas e montanha 80/4 estrelas preservados; estrelas dos suportes mantidas como avaliações horticulturais. Iluminação “Somente início da manhã” permanece coerente com sol direto restrito. Testes visuais e carregamento de fotos reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; dois produtores brasileiros com orientações qualitativas específicas (um referente à forma concolor), zero receitas quantitativas específicas verificadas, meta de 25 não atingida e **homologação experimental não demonstrada**.
