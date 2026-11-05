@@ -23,7 +23,7 @@ export const dendrobiumAggregatum = {
         "imagens/Dendrobium lindleyi/Dendrobium lindleyi3.jpeg",
         "imagens/Dendrobium lindleyi/Dendrobium lindleyi4.jpg"
     ],
-    "descricao": "Uma pequena orquídea capaz de produzir um espetáculo enorme! Dendrobium lindleyi forma touceiras compactas de pseudobulbos curtos, cada um geralmente com uma única folha, e na época certa solta cachos pendentes com 5–15 flores amarelo-ouro e perfumadas. As flores medem aproximadamente 2–5 cm e contrastam com o tamanho reduzido da planta. Na natureza vive em regiões de monções: cresce com bastante água no período quente e atravessa uma fase de inverno muito mais seca, mudança que tem papel importante na floração.",
+    "descricao": "Uma pequena orquídea capaz de produzir um espetáculo enorme! Dendrobium lindleyi forma touceiras compactas de pseudobulbos curtos, cada um geralmente com uma única folha, e na época certa solta cachos pendentes com 5–15 flores amarelo-ouro e perfumadas. As flores medem aproximadamente 2–5 cm e contrastam com o tamanho reduzido da planta. Na natureza vive em regiões de monções: cresce com bastante água no período quente e atravessa uma fase de inverno muito mais seca, mudança que tem papel importante na floração. Quando bem estabelecida, a touceira ganha presença pela quantidade de cachos que se projetam para baixo, criando uma cascata de flores. O contraste entre a estação de crescimento e o período mais seco é uma característica marcante de seu ambiente natural.",
     "origem": "Himalaia e Sudeste Asiático",
     "regiao": "NE da Índia · sul da China · Indochina",
     "habitat": "Florestas sazonais · epífita · 400–1.300 m.",
@@ -39,7 +39,7 @@ export const dendrobiumAggregatum = {
     "adubacao": "🌱 Brotação: NPK equilibrado em baixa concentração quando novas raízes aparecerem.\n☀️ Crescimento: mantenha alimentação regular e leve enquanto o pseudobulbo estiver aumentando.\n🍂 Maturação: reduza gradualmente o nitrogênio quando o crescimento endurecer.\n💤 Repouso: suspenda a adubação até o reinício do crescimento.\n🌿 Bokashi/Osmocote: somente no início do ciclo e em quantidade pequena, especialmente em placas e cestos.",
     "rega": "Com brotos e raízes ativos, regue generosamente e deixe o suporte secar parcialmente entre irrigações. Quando os pseudobulbos estiverem maduros e o crescimento parar, reduza gradualmente. No repouso, forneça apenas água suficiente para evitar enrugamento excessivo e prolongado. Chuva frequente fora de época pode reduzir a indução floral e aumentar risco de podridão.",
     "suporte": "🥇 Placa de madeira dura ou cortiça — excelente secagem e exposição dos cachos.\n🥈 Cesto pequeno de madeira — acomoda touceiras sem prender inflorescências.\n🥉 Vaso de barro raso e muito drenante.\nEvite recipientes fundos e muito retentivos, principalmente em regiões úmidas.",
-    substrato: ["Casca de pinus média/grossa + carvão vegetal + perlita grossa","Casca de pinus média/grossa + chips de coco preparados + carvão vegetal"],
+    substrato: ["Casca de pinus média/grossa + carvão vegetal + perlita grossa", "Casca de pinus média/grossa + carvão vegetal + casca de arroz carbonizada"],
     "formasCultivo": {
         "perfilVisual": "dendrobium-epifita-sazonal",
         "destaque": "Placa / tronco",
