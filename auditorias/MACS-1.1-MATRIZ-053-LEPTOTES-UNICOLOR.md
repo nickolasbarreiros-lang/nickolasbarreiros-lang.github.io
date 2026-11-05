@@ -45,3 +45,14 @@ A primeira exclui macadâmia; a segunda exclui macadâmia e perlita, incluindo c
 
 ## Parecer final
 **Revisão documental concluída**, com três produtores da espécie exata verificados, cultivo principal montado apoiado por fontes, receita alternativa de vaso coerente e duas misturas qualitativas distintas. **Homologação quantitativa experimental da R0: NÃO DEMONSTRADA.** Não foram identificadas pendências editoriais nesta revisão; um ensaio futuro seria pesquisa nova, não correção editorial adiada.
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** epífita rizomatosa pendente, com folhas subcilíndricas carnosas e raízes que precisam de ventilação e ciclos de molhamento seguidos de secagem. As folhas oferecem alguma reserva hídrica, mas não dispensam regas regulares em montagem; frequência exata depende da secagem real. Espessura radicular e tolerância à seca do exemplar não foram medidas. AOS recomenda montagem para o gênero e três fornecedores brasileiros da espécie documentam placas/toco/leque.
+
+**Cultivo principal:** placa/tronco pequeno, com raízes expostas e rizoma descoberto; não há mistura volumétrica na montagem. **Receita secundária para cesto ou vaso mínimo:** 35% casca de macadâmia média (estrutura aberta), 30% casca de pinus média (apoio e alguma retenção), 20% perlita grossa (macroporos) e 15% carvão vegetal (porosidade), total 100% em volume. É proposta editorial técnica, **não** formulação experimental ou publicada por esses três fornecedores.
+
+**Alternativas qualitativas, sem percentuais:** (1) casca de pinus média + carvão vegetal + perlita grossa; (2) casca de pinus média + chips de coco grossos lavados + carvão vegetal. Padronizada a nomenclatura da segunda alternativa na ficha; a lavagem é requisito de preparo, não certificação analítica de ausência de sais.
+
+**Conferências:** receita e itens visuais coincidem (35+30+20+15=100%); descrição ampliada de 77 para 102 palavras (faixa 90–120), incluindo Paraguai conforme POWO; quatro caminhos fotográficos registrados; IDC 38/100 e três estrelas coerentes com IDC 3.2; IAR e suportes preservados. Testes visuais e carregamento das imagens reservados para auditoria consolidada do ZIP final por decisão do responsável.
+
+**Parecer:** revisão científica/editorial documental concluída dentro das fontes disponíveis; três produtores brasileiros da espécie com orientações qualitativas, **zero receitas percentuais específicas demonstradas**, meta de 25 não alcançada. Não declarar homologação quantitativa.
