@@ -31,6 +31,23 @@ jobs:
             fi
           done < <(find dados/orquideas -type f -name '*.js' -print0)
           test "$falhas" -eq 0
+      - name: Conferir unicidade dos campos e integridade dos dados da ficha 025
+        run: |
+          node --input-type=module <<'JS'
+          import { readFileSync } from 'node:fs';
+          const source = readFileSync('dados/orquideas/oncidium-twinkle.js', 'utf8');
+          const count = (pattern) => [...source.matchAll(pattern)].length;
+          if (count(/^\s*substrato\s*:/gm) !== 1) throw Error('Campo substrato duplicado ou ausente');
+          if (count(/^\s*substratoVisual\s*:/gm) !== 1) throw Error('Campo substratoVisual duplicado ou ausente');
+          const mod = await import('./dados/orquideas/oncidium-twinkle.js');
+          const ficha = mod.oncidiumTwinkle;
+          if (!ficha || ficha.id !== 'oncidium-twinkle') throw Error('Exportação/ID da ficha incorretos');
+          if (!Array.isArray(ficha.substrato) || ficha.substrato.length !== 2) throw Error('Devem existir duas misturas alternativas');
+          if (ficha.substrato.some(item => /\d+\s*%/.test(item))) throw Error('Misturas alternativas com percentuais');
+          if (ficha.substratoVisual?.itens?.reduce((total, item) => total + Number.parseFloat(item.proporcao), 0) !== 100) throw Error('Receita principal não totaliza 100%');
+          if (ficha.fotos?.length !== 4 || new Set(ficha.fotos).size !== 4) throw Error('Galeria não contém quatro fotos distintas');
+          console.log('Dados internos da ficha 025 íntegros.');
+          JS
       - run: npm install --no-save playwright
       - run: npx playwright install --with-deps chromium
       - name: Conferir ficha em navegador real
