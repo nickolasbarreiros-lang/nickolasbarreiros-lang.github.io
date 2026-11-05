@@ -36,7 +36,7 @@ export const dendrobiumTenellum = {
         "horario": "Início da manhã ou final da tarde",
         "observacoes": "Precisa de luz filtrada média a forte e excelente circulação de ar. Sombra excessiva alonga as hastes e reduz a floração; sol direto intenso queima rapidamente os tecidos finos."
     },
-    "floracao": "A referência de habitat/cultivo do IOSPE aponta floração no verão, em inflorescências curtas e geralmente unifloras próximas ao ápice dos caules. As flores são pequenas, cerca de 1 a 1,2 cm, e de curta duração. Em cultivo, a época pode deslocar-se conforme o regime térmico; o mais importante é a maturação dos caules associada a noites frescas.",
+    "floracao": "Ainda não há registros brasileiros suficientemente específicos para estabelecer os meses de floração de Dendrobium tenellum. Em referências de cultivo, a espécie pode florescer em diferentes épocas do ano, enquanto observações de seu habitat mencionam o verão local; esses dados não permitem definir um calendário mensal para o Brasil. As inflorescências são muito curtas, surgem perto da ponta dos caules e geralmente apresentam uma única flor de aproximadamente 1 a 1,2 cm. As flores são delicadas, predominantemente brancas, com variações de coloração entre exemplares. Há relatos de perfume, mas sem descrição segura de notas aromáticas específicas. A duração das flores é considerada curta, embora não tenha sido possível confirmar uma quantidade de dias confiável para a espécie. Novos registros de cultivo brasileiro poderão ajudar a definir melhor essa época.",
     "adubacao": "🌿 Orgânica: bokashi em dose leve apenas no início da brotação.\n💧 Mineral/Foliar: adubo equilibrado a cada 10–15 dias durante crescimento ativo.\n🌱 Crescimento: mantenha nutrição até a maturação das hastes.\n🍂 Outono: reduza gradualmente.\n💤 Inverno: suspenda ou use apenas doses mínimas se houver atividade.\n🧪 Liberação lenta: poucos grânulos no início do ciclo.",
     "rega": "Na fase vegetativa, mantenha o substrato levemente úmido, com secagem parcial entre as regas. No inverno, reduza significativamente, mas não deixe as hastes secarem por longos períodos. Proteja da chuva contínua durante o descanso.",
     "suporte": "🥇 Cesto suspenso — acomoda perfeitamente as hastes pendentes.\n🥈 Placa de madeira — oferece máxima aeração.\n🥉 Vaso raso em posição alta — alternativa prática.\nEvite recipientes profundos e locais baixos.",
@@ -216,15 +216,7 @@ export const dendrobiumTenellum = {
         "litoralQuente": "Em Litoral de clima quente, mantenha em local alto, claro e ventilado, protegido da chuva no inverno. O maior desafio é obter noites frescas sem desidratar as hastes.",
         "montanhaFrio": "Adaptação muito boa; proteja apenas de geadas e evite repouso seco exagerado."
     },
-    "mesesFloracao": [
-        8,
-        9,
-        10,
-        11,
-        12,
-        1,
-        2
-    ],
+    "mesesFloracao": [],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
