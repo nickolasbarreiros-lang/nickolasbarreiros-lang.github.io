@@ -26,7 +26,7 @@ export const encycliaOncidioides = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "Folhas firmes em verde-claro indicam boa luminosidade. Folhas muito escuras e pseudobulbos alongados sugerem sombra excessiva; amarelecimento intenso, manchas secas ou aquecimento excessivo indicam sol demais."
     },
-    floracao: "Principalmente primavera e verão; flores numerosas, duráveis e perfumadas em plantas bem estabelecidas.",
+    floracao: "No Brasil, Encyclia oncidioides tem floração documentada de setembro a dezembro em populações naturais da Bahia e em janeiro e fevereiro no Rio Grande do Norte. Um orquidário brasileiro também registra flores em outubro e novembro. Assim, setembro a fevereiro é uma janela de referência, com variações conforme a região e o cultivo. As hastes surgem de pseudobulbos maduros, são longas e ramificadas, formando conjuntos com numerosas flores; em plantas vigorosas podem ultrapassar um metro. As flores medem aproximadamente 4 cm, com sépalas e pétalas amarelo-esverdeadas a castanhas, muitas vezes pintalgadas de púrpura, e labelo branco a amarelado. São perfumadas, mas não foi possível confirmar notas aromáticas específicas. Também não há uma duração em dias suficientemente documentada para as flores desta espécie; estimativas gerais de outras Encyclia não devem ser tomadas como referência exata.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade, preferencialmente em porta-adubo, renovado durante a fase de crescimento ativo.\n💧 Foliar: NPK equilibrado em 1/4 a 1/2 da dose a cada 7–15 dias durante a emissão de brotos e raízes.\n🧪 Liberação lenta: poucos grânulos apenas em vaso muito drenante, sempre afastados das raízes novas. Após a maturação, reduza o excesso de nitrogênio, mas mantenha nutrição equilibrada e diluída.",
     rega: "Durante a emissão de brotos e raízes, regue abundantemente e permita que o substrato seque completamente antes da próxima irrigação. Após a maturação dos pseudobulbos, aumente gradualmente o intervalo entre as regas, sem impor desidratação severa nem seguir um número fixo de dias. Observe o clima, a ventilação, o tamanho do vaso e a firmeza dos pseudobulbos.",
     suporte: "🥇 Vaso de barro justo, com furos laterais e drenagem rápida.\n🥈 Cachepô de madeira bem vazado.\n🥉 Tronco ou placa de madeira dura para plantas adaptadas ao cultivo montado.",
@@ -206,7 +206,7 @@ export const encycliaOncidioides = {
         litoralQuente: { texto: "Em clima quente, use mistura muito drenante, ventilação constante e regas pela manhã, protegendo do sol forte da tarde e de chuvas contínuas quando o crescimento estiver maduro." },
         montanhaFrio: { texto: "Mantenha luminosidade alta, proteja contra geadas e reduza proporcionalmente as regas em períodos frios, chuvosos ou de baixa evaporação." }
     },
-    mesesFloracao: [9, 10, 11, 12, 1, 2, 3],
+    mesesFloracao: [9, 10, 11, 12, 1, 2],
     "selosCultivo": {
         "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
