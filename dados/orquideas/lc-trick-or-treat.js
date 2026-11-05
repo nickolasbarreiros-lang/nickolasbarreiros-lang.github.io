@@ -18,7 +18,7 @@ export const lcTrickOrTreat = {
         "imagens/Cattlianthe Trick or Treat/Cattlianthe Trick or Treat3.jpg",
         "imagens/Cattlianthe Trick or Treat/Cattlianthe Trick or Treat4.jpg"
     ],
-    descricao: "Um clássico laranja que nunca passa despercebido! Cattlianthe Trick or Treat é um híbrido vigoroso, registrado em 1973, famoso pelas hastes altas carregadas de flores em tons de laranja vivo. Forma touceiras rapidamente, tolera bem condições quentes e costuma recompensar boa luminosidade com florações abundantes. Como todo grex, pode variar bastante entre clones em porte, formato e número de flores; cultivares como 'Orange Magic' e 'Orange Beauty' ajudaram a tornar esse híbrido especialmente popular.",
+    descricao: "Um clássico laranja que nunca passa despercebido! Cattlianthe Trick or Treat é um híbrido vigoroso, registrado em 1973, famoso pelas hastes altas carregadas de flores em tons de laranja vivo. Forma touceiras de pseudobulbos próximos, com folhas firmes, e costuma recompensar boa luminosidade com florações abundantes. As inflorescências eretas a arqueadas podem reunir numerosas flores de cores quentes, criando um efeito marcante acima da folhagem. Como todo grex, pode variar bastante entre clones em porte, formato e número de flores; cultivares como 'Orange Magic' e 'Orange Beauty' ajudaram a torná-lo popular. Em cultivo, aprecia calor com ventilação e raízes bem arejadas.",
     origem: "Híbrido horticultural",
     regiao: "Sem distribuição natural · grex registrado em 1973",
     habitat: "Sem habitat natural · grex híbrido.",
@@ -34,7 +34,7 @@ export const lcTrickOrTreat = {
     adubacao: "🌿 Orgânica: bokashi em dose moderada, preferencialmente em sachê e afastado do rizoma, durante brotação e enraizamento.\n💧 Mineral/Foliar: NPK equilibrado em cerca de 1/3 da dose semanalmente ou a cada 10 dias enquanto houver crescimento ativo.\n🌱 Formação dos pseudobulbos: mantenha nutrição regular até a folha endurecer e o pseudobulbo completar o enchimento.\n🌸 Maturação: reduza o nitrogênio depois que o crescimento estiver completo; não é necessário usar doses extremas de fósforo.\n🧪 Liberação lenta: Osmocote em dose moderada apenas em recipientes muito drenantes e sem contato com raízes novas.\n🚿 Faça uma rega abundante apenas com água periodicamente para remover sais.",
     rega: "Durante a emissão de brotos e raízes novas, regue abundantemente e deixe o substrato secar de forma clara antes da próxima irrigação. Na fase de enchimento dos pseudobulbos, evite secas longas que produzam frentes menores. Após a maturação, aumente moderadamente o intervalo. Em períodos frios ou chuvosos, ajuste pela evaporação real e regue preferencialmente pela manhã.",
     suporte: "🥇 Vaso de barro ou plástico muito perfurado.\n🥈 Cachepô de madeira, excelente para raízes vigorosas e touceiras adultas.\n🥉 Cesto amplo, indicado para plantas grandes e com várias frentes.\nUse recipiente proporcional e com espaço para duas ou três brotações futuras.",
-    substrato: ["Casca de pinus média + perlita grossa + carvão vegetal + chips de coco preparados","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
+    substrato: ["Casca de pinus média + perlita grossa + carvão vegetal + chips de coco lavados","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
     formasCultivo: {
         perfilVisual: "hibrido-cattlianthe-vigoroso-multifloral",
         destaque: "Vaso de Barro",
