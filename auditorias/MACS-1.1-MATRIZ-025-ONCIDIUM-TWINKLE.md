@@ -46,3 +46,10 @@ Para **vaso plástico pequeno, bem perfurado**, granulometria fina a média (nã
 - Suportes e estrelas: **D quanto à ordenação**, preservadas, sem homologação.
 - **Resultado:** FORMULAÇÃO QUANTITATIVA RECOMENDADA POR CONVERGÊNCIA, NÃO HOMOLOGAÇÃO EXPERIMENTAL. Necessário ensaio de crescimento, retenção, EC/pH e floração para A.
 - **Implementação:** substituir R0 visual por R1 na ficha, sincronizar receita textual e itens, manter demais receitas alternativas e todos os assets/layout/fotos/IDC/IAR intactos. Registrar alerta térmico.
+
+## Reconferência aritmética IDC 3.2 e IAR 2.0 — 05/11/2026
+- **IDC 3.2:** pesos 15+15+10+10+10+10+10+20 = 100. Notas 1/1/1/1/1/1/0/1 produzem soma ponderada 90; normalização 90/5 = **18/100**, faixa 0–25, **5 estrelas (Muito fácil)**. O campo resumido `dificuldade: "Fácil"` é mais genérico que a classificação matemática `Muito fácil` e deve ser harmonizado na ficha.
+- **IAR 2.0, litoral quente:** 2×30 + 2×30 + 4×5 + 4×5 + 3×5 + 4×5 + 2×20 = 235; /5 = **47/100**, 3 estrelas.
+- **IAR 2.0, montanha fria:** 5×30 + 5×30 + 4×5 + 4×5 + 4×5 + 4×5 + 5×20 = 480; /5 = **96/100**, 5 estrelas.
+- **Limitação:** cálculos coerentes com notas atribuídas editorialmente; não constituem validação experimental da adaptação nem dos percentuais MACS.
+- **Teste Chromium:** workflow específico `.github/workflows/conferir-visual-macs-ficha-025.yml` publicado; sucesso de execução ainda não confirmado nesta revisão.
