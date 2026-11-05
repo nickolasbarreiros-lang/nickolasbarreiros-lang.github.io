@@ -82,8 +82,15 @@ jobs:
             const browser = await chromium.launch({headless:true});
             const page = await browser.newPage({viewport:{width:1465,height:900},deviceScaleFactor:1});
             const errors=[];
+            const missingResources=[];
             page.on('pageerror',error=>errors.push(error.message));
+            page.on('response',response=>{
+              if(response.status()>=400 && new URL(response.url()).origin==='http://127.0.0.1:8765'){
+                missingResources.push(response.status()+' '+response.url());
+              }
+            });
             await page.goto('http://127.0.0.1:8765/orquidea.html?id=oncidium-twinkle',{waitUntil:'networkidle',timeout:60000});
+            await page.locator('.formas-cultivo-v4').waitFor({timeout:30000});
             const fullText=await page.locator('#ficha').innerText();
             if(!fullText.includes('Cultivo fácil'))throw Error('Selo editorial de dificuldade não encontrado');
             const ficheSource=require('fs').readFileSync('dados/orquideas/oncidium-twinkle.js','utf8');
@@ -118,6 +125,7 @@ jobs:
             if(photos.length!==4||new Set(photos.map(img=>img.src)).size!==4)throw Error('Esperadas quatro fotos distintas da ficha; encontradas '+photos.length);
             const badge=await page.locator('.forma-principal-v4').first().evaluate(el=>{const b=el.getBoundingClientRect();const p=getComputedStyle(el,'::after');return {width:b.width,right:p.right,transform:p.transform}});
             if(badge.transform!=='none'||parseFloat(badge.right)<0)throw Error('Selo de recomendação ainda deslocado: '+JSON.stringify(badge));
+            if(missingResources.length)throw Error('Recursos HTTP indisponíveis: '+missingResources.join(' | '));
             if(errors.length)throw Error('Erros JavaScript: '+errors.join(' | '));
             await section.screenshot({path:'macs-ficha-025-substrato-desktop.png'});
             await page.screenshot({path:'macs-ficha-025-ficha-desktop.png',fullPage:true});
