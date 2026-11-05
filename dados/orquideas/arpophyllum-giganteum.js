@@ -68,7 +68,7 @@ export const arpophyllumGiganteum = {
             { asset: "casca-arroz-carbonizada", nome: "Casca de arroz carbonizada", proporcao: "10%", nota: "leveza + porosidade", finalidade: "Aumenta a porosidade sem elevar muito a retenção ou o peso do vaso." },
             { asset: "esfagno", nome: "Esfagno de fibra longa solto", proporcao: "10%", nota: "reserva hídrica", finalidade: "Fornece pequena reserva de umidade entre regas sem compactar a mistura." }
         ],
-        alerta: "Evite compactar o substrato ao redor da base. Replante principalmente quando houver degradação estrutural da mistura ou perda de drenagem, evitando perturbar a touceira sem necessidade."
+        alerta: "Evite compactar o substrato ao redor da base. Inspecione periodicamente a integridade do substrato e replante quando houver degradação, perda de drenagem ou necessidade de espaço; evite divisões e perturbações desnecessárias, mas não mantenha mistura deteriorada."
     },
     errosComuns: ["Cultivar em sombra excessiva e obter pseudobulbos alongados sem floração.", "Impor seca severa no inverno.", "Usar vaso leve ou instável para touceira grande.", "Manter substrato compacto e permanentemente molhado.", "Dividir touceiras repetidamente antes de acumularem reservas.", "Cultivar no litoral quente sem ventilação noturna suficiente.", "Enterrar demais o rizoma ou impedir sua expansão lateral."],
     revisaoCientificaIAR: {
