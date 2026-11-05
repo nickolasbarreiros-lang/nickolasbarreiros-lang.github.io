@@ -41,3 +41,14 @@ A ficha já menciona **Orquidário Mogi Mirim**, **Bioma Plantas** e **Orquidár
 
 ## Parecer
 **Revisão documental encerrada.** Receita 5:1 tem origem institucional genérica rastreável e substituição de ingrediente explicitada; soma 100%; duas alternativas qualitativas distintas. **Homologação experimental específica para C. tigrina 'Dark Princess': NÃO DEMONSTRADA**. Estudos novos seriam pesquisa futura, não pendência editorial.
+
+## Perfil radicular e hídrico — revisão de 2026-11-04
+**Perfil:** Cattleya bifoliada de porte alto, epífita e pseudobulbosa, com raízes que requerem aeração, drenagem e secagem perceptível entre regas. Na fase de crescimento ativo, molhar abundantemente e permitir secagem; após maturação, ampliar intervalos conforme clima e atividade. O tutoramento e a estabilidade mecânica evitam movimento que pode danificar raízes novas. Não há medidas específicas de diâmetro radicular, velocidade de secagem ou desempenho comparativo do cultivar 'Dark Princess'.
+
+**Cultivo principal:** vaso de barro firme, proporcional à touceira, com ampla drenagem e tutoramento; cachepô de madeira aberto é alternativa. **Receita por volume:** 83,3% casca de pinus grossa (estrutura/macroporos) + 16,7% carvão vegetal horticultural (aeração), total 100%. Adaptação da referência institucional 5:1 com **casca de abeto média** para **pinus grosso**; não é receita específica do cultivar e não se deve aumentar brita arbitrariamente para estabilizar o vaso.
+
+**Alternativas qualitativas sem percentuais:** (1) casca de pinus grossa + carvão vegetal + esfagno de fibra longa em pequena quantidade; (2) casca de pinus grossa + carvão vegetal + brita fina. Ambas distintas da principal e entre si, sem resultados experimentais demonstrados.
+
+**Conferências editoriais:** descrição reescrita de 99 para 104 palavras (faixa 90–120), mantendo espécie, sinônimo e cultivar diferenciados; campo tipo especificado como 'Espécie botânica — cultivar selecionado'; retirado 'MACS 1.0' obsoleto do resumo; corrigida expressão 'Em Litoral de clima quente' no texto regional; nota de evidência ajustada para não declarar reconfirmação independente das fontes comerciais herdadas. Receita e itens visuais somam 83,3+16,7=100%; quatro caminhos de fotos cadastrados; IDC 34/100 e quatro estrelas coerentes com IDC 3.2; IAR e classificações dos suportes preservados. Testes visuais reservados para auditoria final com ZIP, conforme decisão do responsável.
+
+**Parecer:** revisão documental científica/editorial concluída dentro das fontes disponíveis; **zero receitas percentuais específicas verificadas para o cultivar**, meta de 25 produtores não alcançada e homologação experimental quantitativa não demonstrada.
