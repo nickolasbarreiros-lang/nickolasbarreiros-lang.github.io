@@ -8,9 +8,9 @@ export const arpophyllumGiganteum = {
     dificuldade: "Fácil",
     origem: "América Tropical",
     regiao: "México · Guatemala · Belize · El Salvador · Honduras · Nicarágua · Costa Rica · Jamaica · Colômbia · Venezuela",
-    habitat: "Epífita rizomatosa de florestas úmidas de encosta e sopé de montanha, aproximadamente entre 800 e 1.500 m.",
+    habitat: "Epífita rizomatosa de florestas úmidas de encosta e sopé de montanha, em faixas montanas variáveis conforme a região, com registros entre cerca de 800 e 1.930 m.",
     descricao: "Uma orquídea impossível de ignorar quando entra em floração! O Arpophyllum giganteum forma touceiras robustas e produz longas inflorescências cilíndricas, densamente cobertas por dezenas de pequenas flores rosa a púrpura dispostas em espiral, criando um efeito que lembra uma grande escova floral. As hastes podem chegar a cerca de 40 cm, enquanto cada flor mede apenas em torno de 8 mm — é justamente essa combinação entre quantidade e organização que dá à espécie seu forte impacto ornamental. Nativa do México, América Central, Jamaica e norte da América do Sul, cresce naturalmente como epífita em florestas úmidas. O destaque está no conjunto exuberante das inflorescências.",
-    caracteristicas: ["Epífita rizomatosa", "Porte médio a grande", "800–1.500 m", "Inflorescência até ~40 cm", "Flores ~0,8 cm", "Muitas flores espiraladas", "Touceira robusta"],
+    caracteristicas: ["Epífita rizomatosa", "Porte médio a grande", "Altitude variável por região", "Inflorescência até ~40 cm", "Flores ~0,8 cm", "Muitas flores espiraladas", "Touceira robusta"],
     fotos: [
         "imagens/Arpophyllum giganteum/Arpophyllum giganteum1.jpg",
         "imagens/Arpophyllum giganteum/Arpophyllum giganteum2.jpeg",
@@ -24,7 +24,7 @@ export const arpophyllumGiganteum = {
         avaliacoes: { cultivo: 4, floracao: 4, perfume: 1, luminosidade: 4, agua: 4, raridade: 3 },
     mesesFloracao: [8, 9, 10, 11],
     clima: "Quente a fresco, com preferência por noites amenas e boa amplitude térmica.",
-    climaFloracao: "A faixa natural de 800–1.500 m explica a combinação aparentemente contraditória de fontes que a tratam como quente, intermediária ou fresca. A espécie suporta dias quentes, mas tende a florescer melhor quando o calor não permanece elevado durante toda a noite. No litoral, mantenha a planta em local muito ventilado, com alta claridade sem superaquecimento; pseudobulbos recém-maduros e bem abastecidos de água são os que originam as inflorescências terminais.",
+    climaFloracao: "As diferentes faixas altitudinais registradas explicam a combinação aparentemente contraditória de fontes que a tratam como quente, intermediária ou fresca. A espécie suporta dias quentes, mas tende a florescer melhor quando o calor não permanece elevado durante toda a noite. No litoral, mantenha a planta em local muito ventilado, com alta claridade sem superaquecimento; pseudobulbos recém-maduros e bem abastecidos de água são os que originam as inflorescências terminais.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
@@ -213,7 +213,7 @@ export const arpophyllumGiganteum = {
     },
         adaptacaoRegional: {
         litoral: { texto: "Para crescimento, mas a floração pode ser mais sensível ao calor noturno. Use o setor mais claro e ventilado, com 50% a 60% de sombreamento e substrato muito aberto. Regue bem durante crescimento e não crie um repouso seco artificial." },
-        montanha: { texto: "A amplitude térmica e as noites amenas se aproximam melhor da faixa de 800–1.500 m. Durante o inverno, reduza regas somente conforme a evaporação real cair, evitando a combinação de frio com encharcamento." }
+        montanha: { texto: "A amplitude térmica e as noites amenas podem favorecer as condições frescas de parte de sua distribuição montana. Durante o inverno, reduza regas somente conforme a evaporação real cair, evitando a combinação de frio com encharcamento." }
     },
     dica: "🏆 Evite dividir a planta; deixe-a formar touceiras grandes para acumular reservas e explodir em flores nas hastes novas, contando mais com luz abundante, regas fartas na fase de crescimento e noites frescas do que com adubos milagrosos."
 };
