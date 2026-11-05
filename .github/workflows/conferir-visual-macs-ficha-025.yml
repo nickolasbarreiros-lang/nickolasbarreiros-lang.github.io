@@ -48,6 +48,29 @@ jobs:
           if (ficha.fotos?.length !== 4 || new Set(ficha.fotos).size !== 4) throw Error('Galeria não contém quatro fotos distintas');
           console.log('Dados internos da ficha 025 íntegros.');
           JS
+      - name: Conferir arquivos e formatos das quatro fotografias
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          fotos = [
+              'imagens/Oncidium Twinkle/Oncidium Twinkle1.webp',
+              'imagens/Oncidium Twinkle/Oncidium Twinkle2.jpg',
+              'imagens/Oncidium Twinkle/Oncidium Twinkle3.jpg',
+              'imagens/Oncidium Twinkle/Oncidium Twinkle4.webp',
+          ]
+          for nome in fotos:
+              caminho = Path(nome)
+              if not caminho.is_file():
+                  raise SystemExit(f'Foto ausente: {nome}')
+              cabecalho = caminho.read_bytes()[:12]
+              if caminho.suffix == '.webp':
+                  valido = cabecalho[:4] == b'RIFF' and cabecalho[8:12] == b'WEBP'
+              else:
+                  valido = cabecalho[:3] == bytes.fromhex('ffd8ff')
+              if not valido:
+                  raise SystemExit(f'Formato inválido ou arquivo danificado: {nome}')
+              print(f'OK: {nome} ({caminho.stat().st_size} bytes)')
+          PY
       - run: npm install --no-save playwright
       - run: npx playwright install --with-deps chromium
       - name: Conferir ficha em navegador real
