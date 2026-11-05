@@ -22,7 +22,7 @@ export const aciantheraPubescens = {
         "climaFloracao": { "faixa": "intermediario" }
     },
         avaliacoes: { cultivo: 4, floracao: 4, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
-    mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    mesesFloracao: [9, 10, 11, 12, 1, 2, 3],
     clima: "Quente a fresco conforme procedência; preferencialmente úmido e ventilado.",
     climaFloracao: "A faixa de aproximadamente 500–1.900 m explica por que fontes podem classificar a espécie de forma diferente. Em vez de impor uma categoria única, trate a procedência como fator principal: clones de menor altitude tendem a tolerar melhor o litoral quente, enquanto materiais montanos podem perder vigor quando as noites permanecem quentes por longos períodos. Em todos os casos, circulação de ar e raízes oxigenadas reduzem o estresse térmico.",
     iluminacao: {
@@ -31,7 +31,7 @@ export const aciantheraPubescens = {
         horario: "Somente início da manhã",
         observacoes: "Prefere luz filtrada de baixa a média intensidade. A espécie aparece em referências como de sombra, mas isso não significa escuridão. Folhas firmes e espessas em verde médio/oliva são um bom indicador; folhas excessivamente escuras com baixa floração podem pedir mais claridade, enquanto amarelecimento e aquecimento rápido pedem mais proteção."
     },
-    floracao: "Pode florescer praticamente em qualquer época do ano, de acordo com referências orquidológicas. A ampla distribuição e a diversidade de procedências tornam inadequado restringir a espécie a poucos meses; a emissão floral depende mais do clone, maturação dos ramicaules e microclima.",
+    floracao: "No cultivo brasileiro, a primavera e o verão são boas referências para observar a floração, embora exemplares de diferentes procedências possam florescer em outros períodos. As hastes curtas ficam apoiadas sobre as folhas e costumam trazer de quatro a oito flores que se abrem sucessivamente, prolongando o efeito do conjunto. As flores são creme-amareladas e translúcidas, riscadas ou salpicadas de vinho, com uma penugem muito fina na parte externa das sépalas. O aroma é variável: algumas plantas não apresentam cheiro perceptível, enquanto outras exalam odor pouco agradável. Ainda não há uma duração em dias suficientemente consistente para a espécie.",
     adubacao: "🌿 Orgânica: bokashi em dose pequena, sempre isolado em sachê e apenas durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração, aproximadamente 1/4 da dose do fabricante, a cada 10 a 15 dias com raízes ativas.\n🧪 Liberação lenta: usar somente pequenas quantidades em cultivo envasado. Como as raízes são finas, faça lavagens periódicas com água de baixa salinidade e reduza a adubação se pontas radiculares escurecerem ou houver depósitos brancos no substrato.",
     rega: "Regue regularmente, mantendo as raízes hidratadas sem saturação contínua. Plantas montadas podem exigir rega diária ou quase diária no verão litorâneo; vasos devem perder parte da umidade superficial antes da próxima irrigação. Ajuste a frequência à procedência: clones de ambientes montanos geralmente apreciam umidade constante com temperaturas mais amenas e excelente ventilação.",
     suporte: ["🥇 Placa de madeira, cortiça ou tronco com pequena reserva de musgo.", "🥈 Cachepô pequeno e ventilado, adequado a touceiras adultas.", "🥉 Vaso pequeno e muito drenado, como alternativa para raízes finas."],
