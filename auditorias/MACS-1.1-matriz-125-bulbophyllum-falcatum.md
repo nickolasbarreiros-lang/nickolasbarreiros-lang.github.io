@@ -23,3 +23,15 @@ O encerramento técnico anterior não cobre as alterações posteriores. Receita
 
 ### Fechamento da errata — 2026-11-04
 **Revalidação corretiva aprovada:** execução Chromium [41836184134](https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/41836184134) com conclusão success; artefato 13328000025. Duas alternativas qualitativas sem percentuais; principal com soma de 100%; conferência de assets e quatro referências fotográficas. A errata editorial está tecnicamente **ENCERRADA**. Mantém-se classe científica D, não homologada quantitativamente.
+
+
+## Auditoria integrada IDC 3.2 / IAR 2.0 — 2026-11-05
+**Ficha:** dados/orquideas/bulbophyllum-falcatum.js. Espécie epífita africana de rizoma rastejante e raque floral lateral, exigindo espaço de projeção. Suporte editorial principal: cachepô de madeira amplo e suspenso. Receita principal 35% casca de pinus média + 25% chips de coco médios preparados + 25% carvão vegetal médio + 15% esfagno de fibra longa solto = **100%**. Duas alternativas qualitativas sem percentuais; quatro fotos preservadas; estrelas dos suportes sem atribuição individual fundamentada. MACS **D**, sem ensaio comparativo específico e sem amostra documentada de 25 produtores independentes.
+
+**IDC 3.2 documental:** documentacao/auditorias/IDC-AUDITORIA-3.0.csv registra **44/100**, **Moderada**, **3 estrelas**, com notas temperatura/rega/umidade/ventilação/luminosidade/raízes-substrato/sazonalidade/floração **2/2/2/2/2/2/2/3**. Faixa 36–50 e selo de 3 estrelas conferem com documentacao/indices/IDC-METODOLOGIA.js. Como não há algoritmo explícito de transformação das notas em pontos nesse arquivo, **44 é valor documental, não cálculo independente homologado**.
+
+**IAR 2.0 matematicamente conferido:** documentacao/auditorias/IAR-AUDITORIA-CIENTIFICA-2.0.csv registra litoral **95/100, 5 estrelas**, notas H/T/A/V/L/S/F **5/5/4/4/3/4/5**: 30+30+4+4+3+4+20 = **95**. Montanha **63/100, 4 estrelas**, notas **3/3/4/4/3/4/3**: 18+18+4+4+3+4+12 = **63**. Aritmética e selos conferem; fundamentação científica individual das notas não foi revalidada nesta passagem.
+
+**Teste automatizado:** .github/workflows/conferir-visual-macs-125.yml agora dispara também em alterações da ficha e descreve corretamente as duas alternativas qualitativas sem percentuais. Conferir resultado da nova execução antes do encerramento técnico.
+
+**Parecer:** conteúdo editorial, percentuais da receita principal e matemática IAR conferidos; IDC documental com faixa correta, sem homologação independente do cálculo; MACS D por insuficiência quantitativa.
