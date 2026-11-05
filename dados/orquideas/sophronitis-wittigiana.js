@@ -7,7 +7,7 @@ export const sophronitisWittigiana = {
     "genero": "Cattleya",
     "sinonimo": "Sophronitis wittigiana",
     "tipo": "Espécie botânica — sinônimo: Sophronitis wittigiana",
-    "dificuldade": "Moderada",
+    "dificuldade": "Fácil",
     "caracteristicas": [
         "Miniatura brasileira da Mata Atlântica serrana",
         "Sinônimo histórico Sophronitis wittigiana",
@@ -47,15 +47,16 @@ export const sophronitisWittigiana = {
         destaque: "Placa / tronco",
         resumo: "O porte miniatura e as raízes epífitas pedem muita aeração, umidade frequente e secagem relativamente rápida, sobretudo no litoral quente.",
         metodos: [
-            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Ideal", texto: "Melhor opção para manter as raízes frescas e oxigenadas. Use cortiça, madeira dura ou casca rugosa com apenas uma fina reserva de esfagno sob as raízes." },
-            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Muito recomendado", texto: "Boa alternativa para touceiras maiores, mantendo alta ventilação e permitindo secagem uniforme após as regas." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 4, status: "Muito recomendado", texto: "A terracota porosa favorece evaporação e ajuda a manter as raízes mais frescas. Use vaso pequeno, mistura muito aerada e não deixe o substrato permanecer saturado." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: 3, status: "Adequado", texto: "Pode ser usado em locais de secagem rápida, desde que seja pequeno, muito perfurado e receba mistura extremamente aerada." }
+            { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Preferência técnica provisória", texto: "Melhor opção para manter as raízes frescas e oxigenadas. Use cortiça, madeira dura ou casca rugosa com apenas uma fina reserva de esfagno sob as raízes." },
+            { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: null, status: "Alternativa provisória", texto: "Boa alternativa para touceiras maiores, mantendo alta ventilação e permitindo secagem uniforme após as regas." },
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Alternativa provisória", texto: "A terracota porosa favorece evaporação e ajuda a manter as raízes mais frescas. Use vaso pequeno, mistura muito aerada e não deixe o substrato permanecer saturado." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Alternativa provisória", texto: "Pode ser usado em locais de secagem rápida, desde que seja pequeno, muito perfurado e receba mistura extremamente aerada." }
         ]
     },
     substrato: ["Casca de pinus média + carvão vegetal + pequena fração de esfagno solto","Casca de macadâmia média + brita fina + pequena fração de esfagno solto"],
     substratoVisual: {
-        titulo: "Substrato ideal",
+        notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D). A receita 45% pinus + 25% carvão + 20% brita + 10% esfagno totaliza 100%, mas não foi testada quantitativamente. Os quatro suportes não recebem estrelas comparativas. POWO e Flora do Brasil sustentam taxonomia e ecologia; IOSPE e produtor Colibri oferecem recomendações qualitativas, não ensaio de substratos. Verificação visual de assets reservada ao ZIP final.",
+        titulo: "Substrato recomendado (provisório)",
         contexto: "Para cultivo em recipiente",
         resumo: "Mistura muito aerada, com pequena reserva de umidade e baixa massa térmica.",
         justificativa: "A espécie cresce sobre árvores musgosas de florestas serranas úmidas; no vaso, a prioridade é preservar oxigênio nas raízes sem permitir desidratação prolongada.",
@@ -64,7 +65,7 @@ export const sophronitisWittigiana = {
         itens: [
             { asset: "casca-pinus", nome: "Casca de pinus média", proporcao: "45%", nota: "estrutura + aeração", finalidade: "Estrutura a mistura e mantém espaços de ar ao redor das raízes." },
             { asset: "carvao-vegetal", nome: "Carvão vegetal", proporcao: "25%", nota: "aeração", finalidade: "Mantém a mistura aberta e favorece secagem uniforme." },
-            { asset: "brita-pura", nome: "Brita pequena", proporcao: "20%", nota: "drenagem", finalidade: "Melhora drenagem e estabilidade sem reter excesso de água." },
+            { asset: "brita-fina", nome: "Brita pequena", proporcao: "20%", nota: "drenagem", finalidade: "Melhora drenagem e estabilidade sem reter excesso de água." },
             { asset: "esfagno", nome: "Esfagno solto", proporcao: "10%", nota: "reserva de umidade", finalidade: "Compensa a secagem rápida em pequena quantidade, sem envolver o rizoma." }
         ],
         alerta: "Não enterre o rizoma nem compacte a mistura. Em clima quente, priorize suporte fresco e ventilado."
@@ -79,19 +80,21 @@ export const sophronitisWittigiana = {
         "Replantar ou dividir a touceira com frequência."
     ],
     revisaoCientificaIAR: {
-        "nome": "Cattleya wittigiana",
-        "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
-        "sinonimosPrincipais": "Verificados prioritariamente em POWO/GBIF/Tropicos; manter apenas os relevantes ao catálogo.",
-        "morfologiaDimensoes": "Uma joia das montanhas do Sudeste brasileiro! Cattleya wittigiana é uma miniatura que surpreende pelo contraste entre a planta compacta e suas flores grandes, em tons de rosa a magenta. Cresce sobre galhos cobertos de musgo em florestas serranas úmidas, onde recebe muita umidade, ar em movimento e noites mais frescas.",
-        "habitatAltitudeClima": "Mata Atlântica montana · epífita · ~700–2.000 m. | Intermediário a fresco · úmido e ventilado.",
-        "distribuicaoGeografica": "Serras úmidas do Sudeste brasileiro.",
-        "cultivoPremiacao": "Cultivo confrontado com habitat/IOSPE; premiação AOS somente considerada quando dado público verificável foi localizado.",
-        "confianca": "alta",
+        "nome": "Cattleya wittigiana (Barb.Rodr.) Van den Berg",
+        "statusTaxonomico": "Nome aceito pelo POWO/Kew, combinação publicada em Neodiversity 3:12 (2008). O basiônimo Sophronitis wittigiana Barb.Rodr. foi publicado em 1878. O nome histórico Sophronitis é mantido como sinônimo editorial para localização da ficha.",
+        "sinonimosPrincipais": "POWO confirma Sophronitis wittigiana Barb.Rodr. e Hadrolaelia wittigiana (Barb.Rodr.) Chiron & V.P.Castro como sinônimos homotípicos; Cattleya brevipedunculata e Sophronitis rosea aparecem entre os sinônimos heterotípicos. Nomes infraespecíficos históricos não devem ser apresentados como variedades aceitas sem checagem taxonômica.",
+        "morfologiaDimensoes": "Flora do Brasil 2020 descreve planta cespitosa miniatura, pseudobulbos ovoides de até 5 cm com uma folha elíptica ou obovada, inflorescência geralmente uniflora e flores rosadas, alaranjadas ou avermelhadas com labelo levemente trilobado. IOSPE descreve pseudobulbos globosos em duas fileiras no rizoma, inflorescências apicais de aproximadamente 6–8 cm e flores de cerca de 4–6,5 cm, muito grandes em proporção ao corpo da planta. O relato de 'poucas flores' em IOSPE deve ser interpretado junto à descrição predominantemente uniflora da Flora do Brasil.",
+        "habitatAltitudeClima": "POWO registra epífita pseudobulbosa do bioma tropical úmido, nativa de Minas Gerais e Espírito Santo. A Flora do Brasil documenta floresta ombrófila de altitude média, aproximadamente 800–900 m, na localidade histórica de descrição. IOSPE registra uma faixa regional mais ampla de 700–2.000 m, sobre árvores rugosas cobertas de musgo. Não generalizar a faixa ampla como requisito térmico absoluto de todo exemplar; o cultivo precisa conciliar umidade frequente com raízes aeradas e proteção contra superaquecimento.",
+        "distribuicaoGeografica": "Brasil: Minas Gerais e Espírito Santo, segundo POWO/Kew. Flora do Brasil destaca a descrição original em floresta úmida do Espírito Santo.",
+        "cultivoPremiacao": "IOSPE recomenda montagem em cortiça, luz clara, água abundante ao longo do ano e redução no período mais frio; Colibri Orquídeas, produtor brasileiro identificado, descreve necessidade de boa luz, ambiente ventilado, umidade atmosférica alta e ausência de encharcamento. Esse confronto é qualitativo, não valida preferência experimental por placa/tronco nem percentuais da mistura 45% pinus, 25% carvão, 20% brita e 10% esfagno. A CAOB registra Cattleya wittigiana em segundo lugar na categoria I de exposição nacional de 2024; classificação de exposição não é premiação AOS nem prova de método de cultivo. Não foram entrevistados 25 orquidários.",
+        "confianca": "Taxonomia e distribuição: alta (POWO e Flora do Brasil). Morfologia: alta (Flora do Brasil; IOSPE complementar). Altitude: regional e variável entre fontes. Recomendações de cultivo: qualitativas, corroboradas por um produtor brasileiro. MACS 1.1: Classe D, sem validação quantitativa.",
         "fontes": [
-            "POWO/Kew",
-            "WFO/IPNI",
-            "GBIF/Tropicos",
-            "IOSPE/OrchidSpecies"
+            "POWO/Kew, Cattleya wittigiana — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60448130-2",
+            "POWO/Kew, Sophronitis wittigiana (sinônimo) — https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:322410-2",
+            "Flora do Brasil 2020, Cattleya wittigiana — https://monografiasfloradobrasil.jbrj.gov.br/cattleya.pdf",
+            "IOSPE, Sophronitis wittigiana — https://orchidspecies.com/sophrwittigiana.htm",
+            "Colibri Orquídeas, produtor brasileiro — https://colibriorquideas.com.br/produtos/sophronitis-wittigiana/",
+            "CAOB, exposição nacional de Monte Alto 2024 — https://www.caob.com.br/storage/exposicoes/2024-05/266/podium/podium-17a-exposicao-nacional-de-orquideas-de-monte-alto-sp-2024.pdf"
         ]
     },
     indiceDificuldadeCultivo: {
