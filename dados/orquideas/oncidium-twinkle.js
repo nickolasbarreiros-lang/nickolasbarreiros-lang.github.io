@@ -48,6 +48,10 @@ export const oncidiumTwinkle = {
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: null, status: "Uso condicional, sem classificação quantitativa", texto: "Placa com esfagno em camada fina, apenas em ambiente úmido e com regas frequentes." }
         ]
     },
+    substrato: [
+        "Casca de pinus fina/média + esfagno solto + carvão vegetal pequeno",
+        "Casca de pinus fina/média + chips de coco pequenos e lavados + esfagno solto + carvão vegetal pequeno"
+    ],
     substratoVisual: {
         titulo: "Substrato ideal",
         contexto: "Mistura aerada com umidade uniforme para vaso compacto",
