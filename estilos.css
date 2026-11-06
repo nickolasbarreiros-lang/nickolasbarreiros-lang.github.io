@@ -9864,3 +9864,6 @@ main.container{
 
 /* Texto de intensidade ao lado do selo de iluminação. */
 .selo-luz-rotulo{display:inline-block;color:#b42318;font-size:.85em;font-weight:800;letter-spacing:.025em;vertical-align:middle}
+.selo-luz-azul + .selo-luz-rotulo{color:#205db3}
+.selo-luz-amarelo + .selo-luz-rotulo{color:#c05600}
+.selo-luz-vermelho + .selo-luz-rotulo{color:#b42318}
