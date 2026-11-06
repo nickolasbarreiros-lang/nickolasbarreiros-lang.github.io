@@ -29,3 +29,9 @@ Smithsonian Gardens: inflorescência ereta até 100 cm, 10–20 flores sucessiva
 ## Integração ao catálogo
 - Verificado em `dados/orquideas/index.js`: importação de `phalaenopsisPulcherrima` de `./phalaenopsis-pulcherrima.js` e inclusão da mesma variável no array exportado `orquideas`. A ficha está registrada na fonte do catálogo.
 - Esta conferência estática não substitui a abertura da página no navegador, nem garante ausência de falhas em tempo de execução.
+
+## Pesquisa complementar: relato brasileiro de cultivador
+- **Clube do Orquidófilo, publicação de 18/02/2015, 'Doritis pulcherrima'**: identifica foto e cultivo da forma `alba aquinii` por **André Merez** e descreve pico de floração no verão, com abertura sequencial até o início do outono. Fonte: https://clube273.rssing.com/chan-44705061/all_p1.html . A data da publicação não prova que a fotografia foi tirada em fevereiro de 2015; portanto não autoriza marcar fevereiro como mês confirmado. Trata-se de observação brasileira independente e mais específica do que calendários genéricos copiados.
+- **Orchidsweb, 07/03/2015** inclui `Phalaenopsis esmeralda` (sinônimo citado de `P. pulcherrima`) em lista de orquídeas que florescem em março, mas a fotografia utilizada é de Wikimedia Commons e não constitui registro brasileiro datado de cultivo. Fonte: https://orchidsweb.wordpress.com/2015/03/07/orquideas-que-florescem-em-marco-iii/ . Não marcar março com base apenas nessa listagem.
+- **Delfina de Araújo, calendário brasileiro** lista `Doritis pulcherrima` em uma seção mensal, mas a posição do item precisa ser confirmada na estrutura original da página antes de atribuir mês. Fonte: https://www.delfinadearaujo.com/floracao/florabr.htm .
+- Resultado: reforçada a tendência **verão até começo do outono**, sem homologação de meses específicos. Calendário da ficha permanece indeterminado.
