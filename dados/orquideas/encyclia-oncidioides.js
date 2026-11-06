@@ -20,11 +20,12 @@ export const encycliaOncidioides = {
     habitat: "Areia branca e afloramentos · 0–750 m.",
     clima: "Quente a intermediário · sazonal.",
     climaFloracao: "A espécie floresce melhor depois de formar pseudobulbos fortes sob luz alta. Regue e adube com regularidade enquanto houver brotos e raízes ativos; ao amadurecer o crescimento, aumente moderadamente a secagem entre regas. A faixa natural de baixa altitude mostra que frio não é requisito para florescer.",
-    iluminacao: {
-        sombrite: "40% a 50%; em regiões serranas, 30% a 40% após aclimatação",
+        iluminacao: {
+        sombrite: "40% a 50% como referência inicial; ajustar após aclimatação",
         solDireto: "Permitido com restrição",
         horario: "Início da manhã ou final da tarde",
-        observacoes: "Folhas firmes em verde-claro indicam boa luminosidade. Folhas muito escuras e pseudobulbos alongados sugerem sombra excessiva; amarelecimento intenso, manchas secas ou aquecimento excessivo indicam sol demais."
+        observacoes: "Prefere luminosidade alta e filtrada, com boa ventilação para favorecer pseudobulbos vigorosos e floração. Um sombrite de 40% a 50% é uma referência inicial, ajustável conforme a resposta da planta. Depois de aclimatada, admite sol suave no início da manhã ou no final da tarde; evite o sol forte e o superaquecimento. Folhas firmes e verde-claras sugerem bom equilíbrio; folhas muito escuras e pseudobulbos alongados podem indicar pouca luz. Amarelecimento intenso e manchas secas pedem maior proteção. Faça mudanças gradualmente.",
+        seloLuz: "vermelho"
     },
     floracao: "No Brasil, Encyclia oncidioides tem floração documentada de setembro a dezembro em populações naturais da Bahia e em janeiro e fevereiro no Rio Grande do Norte. Um orquidário brasileiro também registra flores em outubro e novembro. Assim, setembro a fevereiro reúne meses efetivamente observados em diferentes regiões, não um período contínuo obrigatório para cada planta. As hastes surgem de pseudobulbos maduros, são longas e ramificadas, formando conjuntos com numerosas flores; em plantas vigorosas podem ultrapassar um metro. As flores chegam a aproximadamente 4 a 5 cm, com sépalas e pétalas amarelo-esverdeadas a castanhas, muitas vezes pintalgadas de púrpura, e labelo branco a amarelado. São perfumadas: uma referência botânica especializada descreve fragrância doce e agradável, sem identificar notas aromáticas mais específicas. As flores também são descritas como duradouras, mas não foi encontrada medição confiável de quantos dias cada uma permanece aberta nesta espécie.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade, preferencialmente em porta-adubo, renovado durante a fase de crescimento ativo.\n💧 Foliar: NPK equilibrado em 1/4 a 1/2 da dose a cada 7–15 dias durante a emissão de brotos e raízes.\n🧪 Liberação lenta: poucos grânulos apenas em vaso muito drenante, sempre afastados das raízes novas. Após a maturação, reduza o excesso de nitrogênio, mas mantenha nutrição equilibrada e diluída.",
