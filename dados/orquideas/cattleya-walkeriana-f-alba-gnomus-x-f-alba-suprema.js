@@ -29,10 +29,11 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
     clima: "Quente a intermediário · estação mais seca.",
     climaFloracao: "A floração é favorecida por pseudobulbos completamente maduros, luminosidade alta, boa ventilação e uma fase posterior com intervalos maiores entre as regas. A espécie frequentemente produz um crescimento floral especializado, curto e sem folha, originado próximo ao rizoma. Não é necessário impor seca absoluta: o repouso deve ser lido pela atividade das raízes, condição dos pseudobulbos, suporte e clima.",
     iluminacao: {
-        sombrite: "30% a 50%",
+        sombrite: "30% a 50%; prefira maior proteção em ambientes muito quentes",
         solDireto: "Permitido com restrição",
-        horario: "Início da manhã ou final da tarde",
-        observacoes: "Necessita luz muito alta para formar pseudobulbos compactos e florescer. Em clima quente, prefira sol suave bem cedo e proteção contra a radiação forte do fim da manhã e da tarde. Folhas devem permanecer firmes, em verde médio a verde-claro, sem amarelecimento excessivo ou queimaduras."
+        horario: "Somente início da manhã",
+        observacoes: "Aprecia luminosidade alta para formar pseudobulbos compactos e favorecer a floração. Um sombrite de 30% a 50% é uma referência inicial; em ambientes muito quentes, comece com maior proteção e boa ventilação. Depois de aclimatada, pode receber sol direto suave somente no início da manhã. Evite a radiação intensa do fim da manhã e da tarde, que pode aquecer demais as folhas. Folhas firmes, de verde médio a verde-claro, indicam bom equilíbrio. Folhas muito escuras e crescimento alongado podem sugerir pouca luz; amarelecimento intenso e manchas secas pedem mais proteção. Faça mudanças graduais.",
+        seloLuz: "vermelho"
     },
     floracao: "No Brasil, Cattleya walkeriana apresenta floração documentada de março a junho, com pico geralmente em maio. Esse calendário é uma referência da espécie, não uma confirmação individual de todos os meses para as mudas do cruzamento entre as formas alba Gnomus e Suprema. As hastes florais curtas surgem junto à base da planta e geralmente apresentam de uma a três flores grandes, com aproximadamente 10 cm. Nesta descendência de parentais alba, espera-se coloração branca, embora forma, tamanho e tonalidade da garganta possam variar entre mudas. O perfume característico da espécie é agradável e adocicado, frequentemente comparado à canela ou à baunilha. Produtores brasileiros relatam flores abertas por cerca de 15 a 30 dias em outras seleções de walkeriana, conforme o ambiente e o exemplar; esse intervalo não constitui medição exclusiva desta progênie.",
     mesesFloracao: [3, 4, 5, 6],
