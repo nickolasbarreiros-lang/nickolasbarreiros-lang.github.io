@@ -27,10 +27,11 @@ export const cattleyaPumpkinFestival = {
     clima: "Quente a intermediário · luminoso.",
     climaFloracao: "A floração é favorecida pela maturação completa dos pseudobulbos, luminosidade intensa, boa ventilação, leve redução das regas após o crescimento e noites ligeiramente mais frescas. Clones vigorosos podem apresentar florações secundárias fora da época principal.",
     iluminacao: {
-        sombrite: "40% a 50%",
+        sombrite: "40% a 50%; prefira 50% em ambientes muito quentes",
         solDireto: "Permitido com restrição",
         horario: "Início da manhã ou final da tarde",
-        observacoes: "Em clima quente, prefira sombrite de 50%. Folhas firmes e verde-claras indicam boa luminosidade; folhas muito escuras costumam acompanhar floração fraca. Aclimate gradualmente para evitar queimaduras."
+        observacoes: "Este híbrido aprecia luminosidade alta e filtrada para formar pseudobulbos vigorosos e florescer bem. Um sombrite de 40% a 50% é uma referência inicial; em locais muito quentes, comece próximo de 50% e mantenha boa ventilação. Depois de aclimatada, pode receber sol direto suave no início da manhã ou no final da tarde, evitando as horas mais quentes. Folhas firmes, de verde médio a verde-claro, indicam bom equilíbrio. Folhas muito escuras e floração fraca podem sugerir pouca luz; amarelecimento rápido ou manchas secas pedem mais proteção. Ajuste a exposição gradualmente.",
+        seloLuz: "vermelho"
     },
     floracao: "Em cultivo brasileiro, produtores indicam floração no outono e inverno para este híbrido. Março a junho permanece como janela sazonal aproximada no calendário, e não como quatro meses individualmente comprovados; o momento exato depende do clone, do clima e da maturação dos pseudobulbos. As hastes costumam apresentar duas ou três flores grandes, com aproximadamente 12 cm, pétalas largas e textura firme. Predominam tons quentes de laranja, salmão, cobre e vermelho-alaranjado, com variações entre seleções; o labelo pode exibir ondulações e detalhes amarelados na garganta. Produtores brasileiros descrevem as flores como perfumadas, mas não há caracterização específica confiável das notas do aroma. A duração informada é de aproximadamente 20 dias por florada, podendo diminuir sob calor intenso ou após a polinização.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade, renovado a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/4 a 1/2 da dose recomendada a cada 7 a 15 dias. Após a maturação dos pseudobulbos, alternar ocasionalmente com fórmulas mais ricas em fósforo e potássio, como 09-45-15 ou 10-30-20.\n🧪 Liberação lenta: Osmocote 14-14-14 em baixa quantidade no canto do vaso, sempre longe das raízes novas.",
