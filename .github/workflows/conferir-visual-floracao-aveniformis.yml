@@ -1,0 +1,63 @@
+name: Conferir visualmente floração — Acianthera aveniformis
+on:
+  push:
+    paths:
+      - '.github/workflows/conferir-visual-floracao-aveniformis.yml'
+      - 'dados/orquideas/acianthera-aveniformis.js'
+      - 'ficha.js'
+      - 'orquidea.html'
+      - 'estilos.css'
+      - 'js/**'
+      - 'css/**'
+  workflow_dispatch:
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save playwright
+      - run: npx playwright install --with-deps chromium
+      - name: Conferir calendário em Chromium
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/orquidario-server.log 2>&1 &
+          node <<'JS'
+          const {chromium}=require('playwright');
+          (async()=>{
+            const browser=await chromium.launch({headless:true});
+            const page=await browser.newPage({viewport:{width:1365,height:900}});
+            const errors=[];
+            page.on('pageerror',e=>errors.push(e.message));
+            await page.goto('http://127.0.0.1:8765/orquidea.html?id=acianthera-aveniformis',{waitUntil:'networkidle',timeout:60000});
+            const cal=page.locator('.calendario-v2');
+            await cal.waitFor({timeout:30000});
+            async function check(device){
+              if(await cal.locator('.mes-floracao-v2').count()!==12)throw Error(device+': não há 12 meses');
+              const active=cal.locator('.mes-floracao-v2.mes-ativo-v2');
+              if(await active.count()!==3)throw Error(device+': esperado 3 meses destacados');
+              const names=(await active.allTextContents()).map(s=>s.toLowerCase());
+              for(const m of ['jul','ago','set'])if(!names.some(n=>n.includes(m)))throw Error(device+': falta '+m);
+              if(await cal.locator('.calendario-floracao-nota').count()!==1)throw Error(device+': aviso indicativo ausente');
+              const text=await cal.locator('.texto-floracao-v2').innerText();
+              if(!text.includes('julho a setembro')||!text.includes('Junho'))throw Error(device+': ressalvas sazonais ausentes');
+              if(errors.length)throw Error(device+': erros JS: '+errors.join(' | '));
+            }
+            await check('desktop');
+            await cal.screenshot({path:'floracao-aveniformis-desktop.png'});
+            await page.setViewportSize({width:390,height:844});
+            await check('celular');
+            if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2))throw Error('Overflow horizontal no celular');
+            await cal.screenshot({path:'floracao-aveniformis-celular.png'});
+            console.log('APROVADO: calendário indicativo julho-setembro e texto em desktop/celular');
+            await browser.close();
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: floracao-aveniformis-capturas
+          path: floracao-aveniformis-*.png
+          if-no-files-found: warn
