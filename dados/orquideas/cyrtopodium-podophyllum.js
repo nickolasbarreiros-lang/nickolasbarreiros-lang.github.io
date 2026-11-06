@@ -35,7 +35,7 @@ export const cyrtopodiumPodophyllum = {
         "horario": "",
         "observacoes": "É uma espécie de alta luminosidade. Plantas encontradas em restinga podem crescer muito próximas ao litoral, mas exemplares cultivados sob sombra não devem ser transferidos abruptamente ao sol pleno. Pseudobulbos grossos e crescimento compacto indicam luz adequada."
     },
-    "floracao": "No Brasil, Cyrtopodium flavum floresce principalmente na primavera e no começo do verão, com registros frequentes entre setembro e dezembro; em algumas regiões, a época pode se estender além desse período. Da base dos pseudobulbos surgem hastes altas e ramificadas, que podem chegar a cerca de 1,5 m e reunir dezenas de flores, às vezes mais de uma centena. As flores medem aproximadamente 2,5 a 4 cm, são amarelas ou amarelo-esverdeadas e apresentam labelo com detalhes alaranjados. O perfume é marcante e característico, frequentemente comparado ao cheiro de sabão. Em relatos de cultivo, o conjunto da floração permanece vistoso por cerca de 30 dias, embora a duração varie conforme a temperatura e a abertura sucessiva das flores.",
+    "floracao": "No Brasil, Cyrtopodium flavum apresenta floração documentada de setembro a abril, com variação regional: há registros de setembro em levantamentos da Bahia, de setembro e outubro em referências botânicas e de novembro a abril em áreas da Mata Atlântica nordestina. Da base dos pseudobulbos surgem hastes altas, ramificadas e vistosas, que podem alcançar cerca de um metro e reunir dezenas de flores, por vezes mais de sessenta. As flores são amarelas a amarelo-esverdeadas, com labelo amarelo e calosidades alaranjadas, medindo aproximadamente 2,5 a 4 cm. O perfume é intenso e característico, comparado ao cheiro de sabão em estudo taxonômico do gênero. O conjunto da inflorescência pode permanecer vistoso por várias semanas, mas não foi encontrada medição brasileira suficientemente segura da duração de cada flor ou de uma média fixa de 30 dias para a haste.",
     "adubacao": "🌿 Orgânica: bokashi ou composto muito bem curtido em pequena quantidade, somente durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado e diluído enquanto houver folhas, raízes e pseudobulbos em expansão.\n🧪 Liberação lenta: Osmocote em dose moderada no início do ciclo; evite renovar perto da dormência.\n🍂 Maturação: reduza o nitrogênio quando os pseudobulbos estiverem cheios e as folhas começarem a envelhecer.\n🛑 Repouso: suspenda a adubação quando a planta estiver desfolhada e sem crescimento ativo.",
     "rega": "Com brotos, raízes e folhas ativas, regue fartamente e permita drenagem imediata. À medida que o crescimento amadurece e as folhas amarelecem, aumente gradualmente o intervalo. Na dormência, mantenha apenas água suficiente para evitar desidratação extrema, ajustando à temperatura e à umidade local. O comportamento da planta vale mais do que um calendário fixo.",
     "suporte": "🥇 Vaso grande, pesado e muito drenante — dá estabilidade às hastes altas.\n🥈 Jardineira ou caixa de cultivo com grande volume mineral.\n🥉 Canteiro elevado arenoso/pedregoso, protegido de excesso de chuva na dormência.\nO recipiente deve ser firme, mas nunca manter água parada no fundo.",
@@ -214,12 +214,7 @@ export const cyrtopodiumPodophyllum = {
         "litoralQuente": "É particularmente promissor no litoral quente porque existem populações costeiras de Cyrtopodium flavum muito próximas ao nível do mar. Use alta luminosidade, ventilação e substrato predominantemente mineral; o maior cuidado é evitar excesso de chuva quando a planta estiver desfolhada.",
         "montanhaFrio": "Também se adapta a regiões mais elevadas. Proteja de geada e de frio úmido prolongado durante a dormência, mantendo excelente drenagem."
     },
-    "mesesFloracao": [
-        9,
-        10,
-        11,
-        12
-    ],
+    "mesesFloracao": [9, 10, 11, 12, 1, 2, 3, 4],
     "selosCultivo": {
         "rega": { "nivel": "sazonal", "regime": "repouso-seco" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
