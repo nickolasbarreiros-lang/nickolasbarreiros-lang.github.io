@@ -33,7 +33,7 @@ export const cattleyaAclandiaeTipo = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "É uma das Cattleyas mais tolerantes a luz alta. Crescimento compacto, folhas firmes e pseudobulbos fortes são os melhores indicadores. As pintas avermelhadas ou púrpuras das folhas podem ser pigmentação normal da espécie."
     },
-    floracao: "Em cultivo brasileiro, pode florescer mais de uma vez ao ano, sobretudo durante períodos quentes e após a maturação dos novos pseudobulbos. A janela de setembro a maio é uma referência ampla, não uma garantia de floração em todos esses meses. Cada haste costuma apresentar uma a três flores grandes para o porte da planta, com aproximadamente 6 a 10 cm, pétalas e sépalas verde-oliva ou amareladas, pintalgadas de castanho, e labelo rosa a magenta. O perfume é agradável, geralmente suave e levemente picante. Um orquidário brasileiro relata duração bastante variável, de cerca de uma semana até um mês, conforme temperatura e umidade; por isso, não há um número fixo de dias para todos os exemplares.",
+    floracao: "No Brasil, setembro e outubro são meses especificamente indicados em calendário de floração para Cattleya aclandiae, nativa da Bahia. A primavera é a estação mais característica, embora plantas bem estabelecidas possam florescer novamente em outra época após a maturação de novos pseudobulbos. As hastes curtas costumam apresentar uma a três flores grandes para o porte da planta, com aproximadamente 6 a 10 cm. Sépalas e pétalas verde-oliva ou amareladas exibem pintas castanhas, contrastando com o labelo rosa a magenta. O perfume é geralmente suave e levemente picante, conforme descrição de coleção botânica. As flores são consideradas duradouras, mas a longevidade varia conforme o exemplar e o ambiente; há relatos de cerca de uma semana até um mês em cultivo, sem que esse intervalo seja uma medida fixa para a espécie.",
     adubacao: "🌿 Orgânica: Bokashi é opcional e deve ser mínimo, preferencialmente em porta-adubo e longe das raízes.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose a cada 7 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: dispensável em montagem; em pequeno cesto use pouquíssimos grânulos. Fórmulas extremamente fosfatadas não são necessárias para induzir floração.",
     rega: "Durante crescimento ativo, regue generosamente e permita secagem muito rápida, com forte circulação de ar. Plantas montadas podem exigir regas frequentes no verão quente. No período de menor atividade, aumente os intervalos e reproduza uma estação relativamente mais seca, mas não deixe pseudobulbos desidratarem severamente. A regra é água abundante quando ativa e secagem rápida sempre.",
     suporte: "🥇 Cachepô/cesto de madeira pequeno, raso e muito aberto, com raízes ventiladas e regas monitoradas.\n🥈 Placa de cortiça natural ou galho de casca rugosa, especialmente com regas frequentes.\n🥉 Árvore viva de casca rugosa, em posição luminosa e ventilada.",
@@ -234,7 +234,7 @@ export const cattleyaAclandiaeTipo = {
         litoralQuente: { texto: "O calor e a sazonalidade são compatíveis com o habitat baiano; luz alta, ventilação e raízes livres são determinantes." },
         montanhaFrio: { texto: "Possível, mas proteja de frio prolongado e de umidade noturna quando a secagem ficar lenta." }
     },
-    mesesFloracao: [9, 10, 11, 12, 1, 2, 3, 4, 5],
+    mesesFloracao: [9, 10],
     "selosCultivo": {
         "rega": { "nivel": "frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
