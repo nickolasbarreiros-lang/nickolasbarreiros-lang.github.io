@@ -854,10 +854,20 @@ function criarCardIluminacao(iluminacao) {
         iconeSol = "🌤️";
     }
 
+    const classesSeloLuz = {
+        vermelho: { classe: "selo-luz-vermelho", icone: "☀" },
+        amarelo: { classe: "selo-luz-amarelo", icone: "◐" },
+        azul: { classe: "selo-luz-azul", icone: "☁" }
+    };
+    const seloSelecionado = classesSeloLuz[String(iluminacao.seloLuz || "").toLowerCase()];
+    const seloLuz = seloSelecionado
+        ? `<span class="selo-luz-iconico ${seloSelecionado.classe}" aria-label="Categoria de luminosidade" title="Categoria de luminosidade">${seloSelecionado.icone}</span>`
+        : "";
+
     const indicadores = [
         criarIndicadorRotulado(
             "Sombrite",
-            criarChip("🟨", iluminacao.sombrite)
+            `${seloLuz}${criarChip("🟨", iluminacao.sombrite)}`
         ),
         criarIndicadorRotulado(
             "Sol direto",
