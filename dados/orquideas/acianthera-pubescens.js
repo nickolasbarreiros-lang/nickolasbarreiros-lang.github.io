@@ -27,9 +27,9 @@ export const aciantheraPubescens = {
     climaFloracao: "A faixa de aproximadamente 500–1.900 m explica por que fontes podem classificar a espécie de forma diferente. Em vez de impor uma categoria única, trate a procedência como fator principal: clones de menor altitude tendem a tolerar melhor o litoral quente, enquanto materiais montanos podem perder vigor quando as noites permanecem quentes por longos períodos. Em todos os casos, circulação de ar e raízes oxigenadas reduzem o estresse térmico.",
     iluminacao: {
         sombrite: "60% a 70% como faixa inicial",
-        solDireto: "Permitido com restrição",
-        horario: "Somente início da manhã",
-        observacoes: "Prefere claridade suave e filtrada, sem ficar em sombra escura. Comece com sombrite de 60% a 70% e, em locais muito quentes, mantenha a proteção maior. Pode receber sol direto bem suave no início da manhã, desde que esteja aclimatada e as folhas não aqueçam. Folhas firmes e verde-oliva costumam indicar bom equilíbrio; se ficarem muito escuras e a planta florescer pouco, aumente a claridade gradualmente. Amarelecimento repentino, aquecimento ou manchas secas indicam que é hora de protegê-la mais.",
+        solDireto: "Não permitido",
+        horario: "",
+        observacoes: "Prefere claridade indireta e filtrada, sem sol incidindo diretamente nas folhas. Comece com sombrite de 60% a 70% e aumente a proteção nos dias muito quentes, mantendo boa ventilação. Folhas firmes e crescimento regular indicam equilíbrio; folhas muito escuras e floração escassa podem sugerir falta de luz. Amarelecimento repentino, aquecimento das folhas ou manchas secas indicam excesso de exposição. Ajuste a luminosidade gradualmente.",
         seloLuz: "amarelo"
     },
     floracao: "No Brasil, a primavera e o verão são épocas favoráveis à floração desta espécie. Há registro botânico de exemplar florido em janeiro, mês assinalado no calendário; os demais meses da estação ainda não têm confirmação individual suficiente para serem marcados com a mesma segurança. As hastes curtas se apoiam sobre as folhas e apresentam pequenas flores creme-amareladas e translúcidas, riscadas ou salpicadas de vinho. A parte externa das sépalas possui uma penugem muito fina, característica que ajuda a reconhecer a espécie. Um orquidário brasileiro descreve suas flores como sem aroma perceptível; relatos de cheiro variável não permitem definir um perfume característico. A duração individual das flores em dias permanece sem estimativa suficientemente documentada.",
