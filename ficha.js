@@ -1,4 +1,4 @@
-import { orquideas } from "./dados/orquideas/index.js?v=alternativas-20261103b";
+import { orquideas } from "./dados/orquideas/index.js?v=luz-20261106";
 import { obterAssetCultivoV4 } from "./js/biblioteca-cultivo-v4.js";
 
 /* =========================================================
