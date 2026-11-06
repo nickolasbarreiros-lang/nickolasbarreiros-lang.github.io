@@ -17,11 +17,12 @@ export const dinemaPolybulbon = {
   "habitat": "Cresce sobre troncos e galhos em ambientes florestais, espalhando seus pequenos pseudobulbos pela casca. O rizoma permanece à superfície e as raízes aproveitam a umidade sem ficar soterradas.",
   "clima": "Quente a intermediário, úmido e ventilado; ajustar exposição à procedência.",
   "climaFloracao": "Touceiras bem estabelecidas, com vários pseudobulbos maduros, costumam ter melhores condições de emitir flores. A espécie aceita cultivo quente a intermediário, com luz filtrada, umidade regular e boa ventilação. No litoral quente, o maior desafio é equilibrar a secagem rápida da montagem com a hidratação das raízes. Não há comprovação de que seja necessário um choque térmico ou repouso seco prolongado para induzir a floração.",
-  "iluminacao": {
-    "sombrite": "60% a 70%",
-    "solDireto": "Permitido com restrição",
-    "horario": "Somente início da manhã",
-    "observacoes": "A porcentagem de sombreamento é ponto de partida, não medida universal de intensidade luminosa. Aclimatar progressivamente e observar cor, firmeza, crescimento e temperatura das folhas. Excesso causa aquecimento, amarelecimento e necrose; sombra excessiva pode reduzir reservas e floração. Priorizar ventilação e luz filtrada estável."
+    "iluminacao": {
+      "sombrite": "60% a 70%",
+      "solDireto": "Permitido com restrição",
+      "horario": "Somente início da manhã",
+      "observacoes": "Prefere luminosidade moderada e filtrada, com claridade estável e boa ventilação. Um sombrite de 60% a 70% é uma referência inicial, não uma medida universal da luz recebida. Depois de aclimatada, admite sol direto muito suave somente no início da manhã; evite calor excessivo sobre folhas e raízes. Crescimento firme e floração regular indicam bom equilíbrio. Folhas muito escuras e floração escassa podem sugerir pouca luz; amarelecimento, manchas secas e desidratação pedem mais proteção. Ajuste a exposição gradualmente.",
+      "seloLuz": "amarelo"
   },
   "floracao": "No Brasil, orquidários indicam que Dinema polybulbon floresce principalmente no outono e no inverno. Abril a agosto permanece no calendário como referência sazonal aproximada, sem confirmação independente de cada mês; há também relato brasileiro de uma segunda florada no final da primavera. As flores surgem isoladas na ponta dos pequenos pseudobulbos maduros e, em touceiras bem desenvolvidas, muitas podem abrir ao mesmo tempo. Medem cerca de 2,5 a 3 cm e apresentam sépalas e pétalas castanho-amareladas, com labelo branco a creme e centro amarelado. O perfume varia conforme a planta e a percepção: alguns orquidários brasileiros não notam aroma, enquanto outro relata fragrância suave. Um cultivador estrangeiro descreveu cheiro floral delicado, semelhante a um buquê de flores recém-colhidas, que enfraquece com o envelhecimento. Há relato brasileiro de floração com duração aproximada de 15 dias, sem garantia de igual longevidade em todos os exemplares.",
   "adubacao": "🌿 Orgânica: se usar bokashi, mantenha uma porção mínima em sachê, afastada do rizoma rastejante; em placas pequenas, pode ser dispensado.\n💧 Mineral/foliar: fertilizante equilibrado bem diluído, aproximadamente a cada 10–15 dias enquanto a touceira emite brotos e raízes. Evite concentrar a solução sobre folhas e raízes sensíveis; siga o rótulo.\n🧪 Liberação lenta: geralmente desnecessária em placa; em vaso raso, somente dose pequena e longe dos brotos.\n🚿 Lavagem: intercale aplicações com regas de água limpa para evitar acúmulo de sais.",
