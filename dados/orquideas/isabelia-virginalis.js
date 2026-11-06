@@ -22,8 +22,9 @@ export const isabeliaVirginalis = {
     iluminacao: {
         sombrite: "40% a 60%",
         solDireto: "Não permitido",
-        horario: "Não permitido",
-        observacoes: "Prefere luz indireta intensa, sem sol direto sobre a folhagem delicada. Folhas muito escuras e touceira frouxa indicam falta de luz; amarelecimento intenso ou pontas secas indicam excesso de sol ou desidratação."
+        horario: "",
+        observacoes: "Prefere luminosidade moderada a intensa, sempre filtrada, sem sol direto sobre a folhagem delicada. Um sombrite de 40% a 60% é uma referência inicial, ajustável conforme o calor e a ventilação. Touceiras compactas e folhas firmes sugerem bom equilíbrio; folhas muito escuras, crescimento frouxo e floração escassa podem indicar pouca luz. Amarelecimento intenso e pontas secas podem sinalizar excesso de luz, calor ou desidratação. Ajuste a claridade gradualmente, sem expor a planta ao sol direto.",
+        seloLuz: "amarelo"
     },
     floracao: "No Brasil, Isabelia virginalis tem floração documentada em fevereiro, maio e junho por exemplares estudados no Paraná. O outono e o início do inverno são épocas especialmente frequentes, mas produtores também relatam flores no verão e, ocasionalmente, na primavera; essas observações sazonais não justificam acrescentar meses específicos sem confirmação. As hastes muito curtas produzem geralmente uma flor, podendo ocorrer duas, de textura cerosa e aproximadamente 0,5 a 1 cm. As sépalas são branco-creme a rosa-pálidas, as pétalas são claras e o labelo branco pode mostrar discreta tonalidade lilás. Orquidários brasileiros descrevem as flores como sem perfume perceptível. A floração dura aproximadamente duas semanas: produtores relatam 14 a 15 dias, com variação conforme as condições de cultivo. Esse valor é uma observação de cultivo e não uma medição científica padronizada da longevidade individual.",
     adubacao: "🌿 Orgânica: bokashi em quantidade mínima dentro de porta-adubo, sem contato com a touceira.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: somente poucos grânulos em cesto ou vaso raso e muito drenante.\n💦 Lavagem: passe água limpa pelo suporte periodicamente para evitar acúmulo de sais nas raízes finas.",
