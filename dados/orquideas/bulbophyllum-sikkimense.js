@@ -25,8 +25,9 @@ export const bulbophyllumSikkimense = {
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
-        horario: "Não permitido",
-        observacoes: "Meia-sombra clara favorece umbela compacta e pseudobulbos firmes. Sombra profunda reduz a qualidade da floração; sol direto forte pode superaquecer folhas e rizoma."
+        horario: "",
+        observacoes: "Prefere meia-sombra clara, com luminosidade filtrada e boa circulação de ar. Um sombrite de 60% a 70% é uma referência inicial para proteger as folhas e o rizoma do aquecimento. Não exponha a planta ao sol direto. Pseudobulbos firmes e crescimento compacto indicam boas condições; folhas muito escuras, brotações fracas e pouca floração podem sugerir sombra excessiva. Amarelecimento rápido ou manchas secas pedem mais proteção. Se precisar de mais luz, aumente a claridade indireta aos poucos, sem colocar a planta ao sol.",
+        seloLuz: "amarelo"
     },
     floracao: "Orquidários brasileiros indicam floração principalmente no verão e também no outono. O calendário de dezembro a maio representa essa janela sazonal aproximada, não seis meses de floração contínua de uma mesma planta. As hastes eretas sustentam pequenas umbelas com várias flores agrupadas em círculo, lembrando uma sombrinha; referências botânicas descrevem cerca de dez a doze flores por haste, com aproximadamente 2 cm cada. Predominam tons amarelados a ocre, com marcas castanho-avermelhadas, detalhes pilosos e sépalas laterais alongadas. Produtores brasileiros descrevem a espécie como sem perfume perceptível. Um orquidário brasileiro informa longevidade floral aproximada de sete a dez dias, valor que pode variar conforme as condições de cultivo.",
     adubacao: "🌿 Orgânica: Bokashi em quantidade mínima e preferencialmente em sachê.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: Osmocote em dose baixa, afastado do rizoma; reduza depois da maturação dos pseudobulbos e lave o meio periodicamente com água limpa.",
