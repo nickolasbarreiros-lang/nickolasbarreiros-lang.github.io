@@ -19,7 +19,13 @@ export const encycliaMineirinha = {
     habitat: "Sem habitat natural · parentais de florestas e ambientes sazonais.",
     clima: "Quente a intermediário · ventilado.",
     climaFloracao: "A floração depende sobretudo de pseudobulbos bem amadurecidos sob boa luminosidade. Durante a brotação, mantenha água e nutrição regulares; depois da maturação, aumente moderadamente o intervalo entre regas. Como o híbrido combina parentais de ecologias diferentes, não imponha repouso seco rígido.",
-    iluminacao: { sombrite: "40% a 50%", solDireto: "Permitido com restrição", horario: "Início da manhã ou final da tarde", observacoes: "Folhas firmes, eretas e verde-claras indicam luz adequada; folhas escuras e moles sinalizam sombra excessiva." },
+        iluminacao: {
+        sombrite: "40% a 50%",
+        solDireto: "Permitido com restrição",
+        horario: "Início da manhã ou final da tarde",
+        observacoes: "Prefere luminosidade alta e filtrada, com boa ventilação para favorecer pseudobulbos firmes e hastes florais. Um sombrite de 40% a 50% é uma referência inicial. Depois de aclimatada, admite sol suave no início da manhã ou no final da tarde, evitando o sol forte e o calor excessivo. Folhas firmes, eretas e verde-claras sugerem boa exposição; folhas muito escuras, moles e crescimento fraco podem indicar sombra excessiva. Amarelecimento brusco e manchas secas pedem mais proteção. Ajuste a exposição gradualmente.",
+        seloLuz: "vermelho"
+    },
     floracao: "Encyclia ‘Mineirinha’ é um híbrido primário de Encyclia patens com Encyclia oliveirana, comercializado por orquidários brasileiros. Ainda não foram encontrados registros de floração desse cruzamento com meses identificados no Brasil, por isso o calendário permanece sem marcações; não seria correto transferir automaticamente a época de floração de suas espécies parentais. As hastes surgem de pseudobulbos maduros e podem carregar várias flores relativamente pequenas. As sépalas e pétalas tendem a apresentar tons verde-amarelados ou acastanhados, com labelo mais claro, mas a forma, as cores e a quantidade de flores podem variar entre plantas do cruzamento. Não foi possível confirmar uma descrição sensorial consistente do perfume especificamente para ‘Mineirinha’, nem determinar se todos os exemplares são perfumados. A duração individual das flores e do conjunto da floração também não foi documentada com segurança para esse híbrido.",
     adubacao: "🌿 Orgânica: bokashi leve em sachê, renovado a cada 60 a 90 dias.\n💧 Foliar: NPK equilibrado, como 20-20-20, em 1/3 a 1/2 da dose semanalmente ou a cada 15 dias durante a brotação.\n🧪 Liberação lenta: poucos grânulos de Osmocote no canto do vaso, longe das raízes novas.",
     rega: "Regue abundantemente durante a brotação e deixe o substrato secar completamente entre as regas. Após o amadurecimento dos pseudobulbos, reduza a frequência. Nunca use prato sob o vaso nem permita água acumulada no fundo.",
