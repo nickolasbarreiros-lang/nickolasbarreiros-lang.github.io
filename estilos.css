@@ -9861,3 +9861,6 @@ main.container{
 .selo-luz-vermelho{background:#fce1df;color:#b42318}
 .selo-luz-amarelo{background:#fff0bd;color:#996500}
 .selo-luz-azul{background:#e2edff;color:#205db3}
+
+/* Texto de intensidade ao lado do selo de iluminação. */
+.selo-luz-rotulo{display:inline-block;color:#b42318;font-size:.85em;font-weight:800;letter-spacing:.025em;vertical-align:middle}
