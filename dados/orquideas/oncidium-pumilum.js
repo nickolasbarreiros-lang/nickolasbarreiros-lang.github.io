@@ -36,7 +36,7 @@ export const oncidiumPumilum = {
         "horario": "Início da manhã ou final da tarde",
         "observacoes": "Necessita claridade intensa. Folhas firmes e verde-médio são desejáveis; tons muito escuros indicam sombra. Leve pigmentação arroxeada pode surgir sob alta luz sem representar necessariamente dano."
     },
-    "floracao": "No Brasil, Trichocentrum pumilum (antigo Oncidium pumilum) floresce em épocas diferentes conforme a região. Pesquisas e levantamentos botânicos registram setembro a novembro, dezembro a fevereiro e também abril. Agosto, anteriormente marcado, não foi confirmado especificamente nas fontes desta revisão. Esses registros de populações diferentes não indicam floração contínua de uma mesma planta. As inflorescências ramificadas reúnem dezenas de flores diminutas, amarelas com pequenas manchas castanhas, de aproximadamente 4 a 6 mm. Cultivadores brasileiros descrevem perfume adocicado, por vezes lembrando mel. A duração individual é curta: estudo reprodutivo registrou cerca de 7 a 8 dias para flores não polinizadas, enquanto levantamentos horticulturais brasileiros apontam cerca de 10 a 15 dias para a apresentação floral, conforme as condições de cultivo.",
+    "floracao": "No Brasil, Trichocentrum pumilum, conhecido anteriormente como Oncidium pumilum, apresenta floração registrada de setembro a novembro em levantamento da Bahia e de novembro a abril em estudo do Distrito Federal. Pesquisas em São Paulo também documentam dezembro a fevereiro. Por isso, o calendário reúne setembro a abril, considerando populações de diferentes regiões; não significa que uma mesma planta floresça continuamente durante todos esses meses. As inflorescências ramificadas carregam numerosas flores diminutas, geralmente de 4 a 6 mm, amarelas com pequenas manchas castanhas, formando cachos delicados e vistosos apesar do porte compacto da planta. As flores exalam perfume adocicado, descrito por cultivadores brasileiros como semelhante ao mel; a intensidade pode variar conforme as condições e o horário. Estudos horticulturais brasileiros relatam aproximadamente 10 a 15 dias de apresentação floral, com variações entre exemplares e ambientes. Essa duração deve ser entendida como referência de cultivo, não como prazo garantido para cada flor ou para toda a inflorescência.",
     "adubacao": "🌿 Orgânica: bokashi em dose pequena e afastado do centro da touceira.\n💧 Mineral/Foliar: NPK equilibrado em meia dose a cada 10–15 dias durante crescimento.\n🌱 Brotação: mantenha adubação enquanto houver raízes ativas.\n🧪 Liberação lenta: Osmocote em dose mínima somente em vasos/cachepôs.\n🚿 Lavagem: enxágue o suporte periodicamente para evitar sais.",
     "rega": "Regue com boa frequência durante brotação e enraizamento, sempre permitindo secagem rápida. Em placas, borrifos ou regas diárias podem ser necessários no verão se o suporte secar em poucas horas. Após maturação, reduza moderadamente a frequência sem desidratar as folhas.",
     "suporte": "🥇 Placa de madeira, cortiça ou tronquinho — opção ideal para secagem rápida.\n🥈 Cachepô pequeno e muito vazado — acomoda bem touceiras densas.\n🥉 Vaso pequeno de barro muito furado — opção viável em locais mais secos.\nEvite recipientes grandes.",
@@ -216,15 +216,7 @@ export const oncidiumPumilum = {
         "litoralQuente": "No litoral quente, adapta-se muito bem montada em madeira ou cachepô vazado, com vento constante, luz alta filtrada e secagem rápida após as regas. Não precisa de frio forte para florescer; uma discreta redução de água após a maturação é suficiente.",
         "montanhaFrio": "Muito favorável; proteja apenas de geadas e encharcamento prolongado no inverno."
     },
-    "mesesFloracao": [
-        1,
-        2,
-        4,
-        9,
-        10,
-        11,
-        12
-    ],
+    "mesesFloracao": [1, 2, 3, 4, 9, 10, 11, 12],
     "selosCultivo": {
         "rega": { "nivel": "muito-frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "quente" }
