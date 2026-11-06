@@ -29,8 +29,9 @@ export const aciantheraBragae = {
     iluminacao: {
         sombrite: "70% como referência no litoral quente",
         solDireto: "Não permitido",
-        horario: "Não permitido",
-        observacoes: "O habitat é sombreado e úmido. Prefira claridade difusa uniforme em vez de sombra escura. Folhas suculentas e firmes devem permanecer sem aquecimento excessivo. Se os entrenós alongarem e o crescimento enfraquecer, aumente gradualmente a claridade; se houver amarelecimento rápido ou manchas secas, reduza a exposição."
+        horario: "",
+        observacoes: "O habitat é sombreado e úmido. Prefira claridade difusa uniforme em vez de sombra escura. Folhas suculentas e firmes devem permanecer sem aquecimento excessivo. Se os entrenós alongarem e o crescimento enfraquecer, aumente gradualmente a claridade; se houver amarelecimento rápido ou manchas secas, reduza a exposição.",
+        seloLuz: "azul"
     },
     floracao: "No Brasil, a floração é observada sobretudo na primavera e no verão: levantamentos botânicos registram plantas floridas de outubro a janeiro. Há ainda registro fotográfico brasileiro de floração em agosto, no inverno. Setembro não foi marcado no calendário por falta de confirmação mensal específica, embora esteja dentro da estação indicada por orquidários. As flores surgem junto às folhas, em pequenos tubos carnosos de tons vinho a roxo-escuros, por vezes quase negros, com pétalas e labelo discretos no interior. O tamanho varia entre exemplares. O Orquidário 2 Amigos informa cerca de 15 dias para o período de floração; esse valor não comprova que cada flor individual dure 15 dias. Um orquidário brasileiro informa ausência de aroma perceptível.",
     adubacao: "🌿 Orgânica: bokashi em dose mínima, sempre isolado em sachê ou porta-adubo e afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em baixa concentração, cerca de 1/4 da dose do fabricante, a cada 10 a 15 dias durante emissão de folhas e raízes.\n🧪 Liberação lenta: se utilizada, aplicar pouquíssimo adubo de liberação lenta apenas em recipiente, nunca acumulado junto às raízes finas. Lave periodicamente o suporte/substrato para evitar acúmulo de sais.",
