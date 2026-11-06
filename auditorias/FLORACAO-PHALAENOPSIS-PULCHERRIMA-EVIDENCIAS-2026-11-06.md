@@ -18,6 +18,6 @@ Smithsonian Gardens: inflorescência ereta até 100 cm, 10–20 flores sucessiva
 
 ## Conferências pendentes
 - Encontrar observações brasileiras de plantas identificadas, com mês e ano de floração verificáveis, preferencialmente de diferentes produtores/ciclos.
-- Confirmar diretamente o estudo científico utilizado para a duração individual de cerca de dez dias, com a espécie e condições corretas.
+- **Concluído:** estudo primário de 2019 confirmou média de **4,6 ± 2,5 dias** por flor não manipulada (n=10) e **2,8 ± 1,0 dias** após remoção das polínias (n=10). A informação anterior de aproximadamente dez dias foi corrigida na ficha. Fonte: https://pmc.ncbi.nlm.nih.gov/articles/PMC6937714/ . A rapidez do fechamento do estigma após polinização não deve ser confundida com o tempo de murcha das pétalas.
 - Inspecionar a ficha renderizada em navegador; revisão de código isolada não é teste visual.
 - Somente declarar homologação integral após encerrar essas conferências.
