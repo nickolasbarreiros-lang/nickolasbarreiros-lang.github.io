@@ -29,11 +29,12 @@ export const dichaeaPendula = {
     habitat: "Florestas úmidas tropicais · epífita ou rupícola · altitude variável.",
     clima: "Quente a intermediário; populações montanas toleram condições mais frescas.",
     climaFloracao: "A espécie ocorre tanto em florestas úmidas de terras baixas quanto em populações montanas; não se deve exigir noites frias para todas as procedências. Alta umidade atmosférica e pouca oscilação hídrica favorecem raízes finas. IOSPE registra floração na primavera e no verão. Não há evidência específica suficiente para atribuir indução floral a uma estação local fixa; mantenha a planta ativa e hidratada. Não possui repouso seco verdadeiro.",
-    iluminacao: {
+        iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
-        horario: "Não permitido",
-        observacoes: "Prefere sombra clara de sub-bosque. Luz insuficiente deixa as hastes fracas; sol direto, principalmente associado a calor, desidrata rapidamente folhas e raízes finas."
+        horario: "",
+        observacoes: "Prefere baixa luminosidade a sombra clara de sub-bosque, com luz difusa e sem sol direto. Um sombrite de 60% a 70% é uma referência inicial; em locais quentes, proteja também as raízes finas do superaquecimento. Hastes firmes e crescimento regular indicam bom equilíbrio. Hastes fracas e pouca floração podem sugerir claridade insuficiente; amarelecimento, manchas secas e desidratação rápida indicam excesso de luz ou calor. Ajuste a posição gradualmente e mantenha boa circulação de ar.",
+        seloLuz: "azul"
     },
     floracao: "No Brasil, um estudo realizado em populações naturais da Mata Atlântica registrou floração de novembro a janeiro, com maior intensidade em novembro e dezembro. Abril também consta em registro brasileiro anterior, mas não representa o período principal observado nessa pesquisa. As flores surgem isoladas em hastes curtas nas axilas das folhas, ao longo dos ramos pendentes. São pequenas, com aproximadamente 2 cm de diâmetro em exemplares cultivados, e apresentam sépalas e pétalas claras, esbranquiçadas ou amareladas, por vezes com manchas arroxeadas e labelo de formato peculiar. O perfume é comprovado por estudo brasileiro: suas substâncias aromáticas atraem abelhas polinizadoras, embora não haja descrição sensorial segura que permita compará-lo a um aroma cotidiano específico. Na população estudada, cada flor permaneceu aberta por aproximadamente dois dias, enquanto a planta pôde produzir novas flores ao longo de várias semanas.",
     adubacao: "🌿 Orgânica: use bokashi apenas em quantidade mínima e longe das raízes ativas.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante crescimento ativo.\n🌱 Crescimento: mantenha nutrição leve e contínua, pois a espécie não apresenta repouso seco marcado.\n🧪 Liberação lenta: geralmente desnecessária; em vasos, use pouquíssimos grânulos.\n🚿 Lavagem: enxágue o suporte periodicamente para evitar acúmulo de sais nas raízes finas.",
