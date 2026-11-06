@@ -1,0 +1,65 @@
+name: Conferir visualmente floração — Acianthera glumacea
+on:
+  push:
+    paths:
+      - '.github/workflows/conferir-visual-floracao-glumacea.yml'
+      - 'dados/orquideas/acianthera-glumacea.js'
+      - 'ficha.js'
+      - 'orquidea.html'
+      - 'estilos.css'
+      - 'js/**'
+      - 'css/**'
+  workflow_dispatch:
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save playwright
+      - run: npx playwright install --with-deps chromium
+      - name: Conferir calendário e descrição floral no desktop e celular
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/orquidario-server.log 2>&1 &
+          node <<'JS'
+          const {chromium}=require('playwright');
+          (async()=>{
+            const browser=await chromium.launch({headless:true});
+            const page=await browser.newPage({viewport:{width:1365,height:900}});
+            const errors=[];
+            page.on('pageerror',e=>errors.push(e.message));
+            await page.goto('http://127.0.0.1:8765/orquidea.html?id=acianthera-glumacea',{waitUntil:'networkidle',timeout:60000});
+            const cal=page.locator('.calendario-v2');
+            await cal.waitFor({timeout:30000});
+            async function check(device){
+              if(await cal.locator('.mes-floracao-v2').count()!==12)throw Error(device+': não há 12 meses');
+              const active=cal.locator('.mes-floracao-v2.mes-ativo-v2');
+              if(await active.count()!==7)throw Error(device+': esperado 7 meses destacados');
+              const names=(await active.allTextContents()).map(s=>s.toLowerCase());
+              for(const m of ['jan','jul','ago','set','out','nov','dez'])if(!names.some(n=>n.includes(m)))throw Error(device+': falta '+m);
+              for(const m of ['fev','mar','abr','mai','jun'])if(names.some(n=>n.includes(m)))throw Error(device+': mês indevido '+m);
+              const note=cal.locator('.calendario-floracao-nota');
+              if(await note.count()!==1||!(await note.innerText()).includes('Meses indicativos'))throw Error(device+': aviso indicativo ausente');
+              const t=(await cal.locator('.texto-floracao-v2').innerText()).toLowerCase();
+              for(const term of ['primavera','4 a 9','6 a 12','perfume','duração individual','ramicaules'])if(!t.includes(term))throw Error(device+': falta informação '+term);
+              if(errors.length)throw Error(device+': erros JS '+errors.join(' | '));
+            }
+            await check('desktop');
+            await cal.screenshot({path:'floracao-glumacea-desktop.png'});
+            await page.setViewportSize({width:390,height:844});
+            await check('celular');
+            if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2))throw Error('Overflow horizontal celular');
+            await cal.screenshot({path:'floracao-glumacea-celular.png'});
+            console.log('APROVADO: meses, ressalvas, flores e responsividade');
+            await browser.close();
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: floracao-glumacea-capturas
+          path: floracao-glumacea-*.png
+          if-no-files-found: warn
