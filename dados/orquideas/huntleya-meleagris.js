@@ -23,8 +23,9 @@ export const huntleyaMeleagris = {
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
-        horario: "Não permitido",
-        observacoes: "Prefere luz semelhante à de Phalaenopsis bem iluminada, mas com muito mais circulação de ar. Folhas amareladas ou aquecidas indicam excesso; folhas muito escuras e crescimento fraco podem indicar sombra profunda demais."
+        horario: "",
+        observacoes: "Prefere baixa luminosidade, com sombra clara e luz indireta constante, sem sol direto. Um sombrite de 60% a 70% é uma referência inicial, ajustável conforme a claridade e a temperatura do ambiente. Mantenha circulação de ar sem ressecar as folhas. Folhagem firme e crescimento regular indicam bom equilíbrio; folhas muito escuras e crescimento fraco podem sugerir sombra profunda demais. Amarelecimento, manchas secas e folhas aquecidas pedem mais proteção. Faça mudanças de luminosidade gradualmente.",
+        seloLuz: "azul"
     },
     floracao: "No Brasil, Huntleya meleagris tem floração documentada em janeiro, por observação de planta florida na Reserva Ecológica de Guapiaçu, e em fevereiro, conforme calendário brasileiro de orquídeas. O verão é uma época frequente, mas cultivadores também apontam que a espécie não possui estação rigidamente definida e pode florescer em outros momentos do ano; janeiro e fevereiro representam meses comprovados, não os únicos possíveis. Cada haste surge junto à base das folhas e sustenta uma única flor grande, estrelada e cerosa, com aproximadamente 7 a 10 cm. Sépalas, pétalas e labelo combinam amarelo, branco ou creme com tons castanho-avermelhados e desenhos contrastantes. As flores são perfumadas, porém ainda não há descrição segura de notas aromáticas específicas. Um relato brasileiro informa duração aproximada de 30 dias para a floração; referências especializadas também descrevem flores duradouras, embora a longevidade possa variar com o ambiente.",
     adubacao: "🌿 Orgânica: bokashi somente em quantidade mínima e em porta-adubo, sem contato com raízes ou coroa.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 7–10 dias durante o crescimento ativo.\n🧪 Liberação lenta: usar com muita cautela; adubação líquida diluída oferece maior controle.\n💦 Lavagem: mensalmente, lave o substrato com água de baixa salinidade para reduzir resíduos minerais.",
