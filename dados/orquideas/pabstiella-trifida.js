@@ -30,8 +30,9 @@ export const pabstiellaTrifida = {
     "iluminacao": {
         "sombrite": "70% a 80%",
         "solDireto": "Não permitido",
-        "horario": "Não permitido",
-        "observacoes": "Sombra clara e fresca. Folhas amareladas ou avermelhadas indicam excesso de luz e calor; ramicaules alongados, moles e ausência de flores indicam sombra profunda. A planta deve ficar longe de telhas, paredes aquecidas e bolsões de ar quente."
+        "horario": "",
+        "observacoes": "Prefere baixa luminosidade, com sombra clara e fresca, sem sol direto. Um sombrite de 70% a 80% é uma referência inicial, em local bem ventilado e afastado de telhas ou paredes aquecidas. Folhas firmes e crescimento regular sugerem equilíbrio; caules muito alongados, moles e ausência de flores podem indicar sombra profunda demais. Amarelecimento, avermelhamento intenso e manchas secas pedem mais proteção. Ajuste a claridade gradualmente.",
+        "seloLuz": "azul"
     },
     "floracao": "No Brasil, Pabstiella trifida tem floração documentada em março, em levantamento botânico realizado no Amapá, e em maio, em pesquisa de campo no Espírito Santo. São registros de localidades diferentes, portanto não significam floração contínua entre os dois meses nem permitem definir uma estação exclusiva para todos os cultivos. As inflorescências são curtas, surgem próximas à base das folhas e abrem suas flores sucessivamente, geralmente exibindo uma ou duas ao mesmo tempo. No Espírito Santo foram descritas flores amarelas com listras acastanhadas, com sépalas de cerca de 6 mm, pétalas menores e labelo estreito; no Amapá, outro levantamento registrou flores alaranjadas. Essa diferença de coloração entre as descrições não deve ser apagada nem atribuída a todos os exemplares indistintamente. A espécie possui flores discretas e pequenas, com sépalas laterais parcialmente unidas. Não foi encontrada descrição específica e consistente de perfume nem medição confiável da duração de cada flor ou do conjunto floral em dias, por isso esses atributos permanecem sem valor presumido.",
     "mesesFloracao": [3, 5],
