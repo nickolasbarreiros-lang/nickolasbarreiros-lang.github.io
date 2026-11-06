@@ -27,11 +27,12 @@ export const dichaeaCogniauxiana = {
     habitat: "Florestas úmidas e sombreadas · epífita ou rupícola.",
     clima: "Úmido · sombreado · intermediário a fresco.",
     climaFloracao: "Intermediário a fresco, com elevada umidade atmosférica e boa circulação de ar. No litoral quente, proteja principalmente do superaquecimento noturno e do ar parado. Noites mais amenas podem favorecer o vigor, mas não há ensaio específico que demonstre exigência de queda térmica para induzir a floração.",
-    iluminacao: {
+        iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não permitido",
-        horario: "Não permitido",
-        observacoes: "É adaptada a ambientes de baixa intensidade luminosa. Cerca de 70% de sombreamento funciona como bom ponto inicial no litoral quente. Evite incidência direta de sol forte sobre a folhagem delicada; sombra excessivamente escura, porém, pode reduzir vigor e floração."
+        horario: "",
+        observacoes: "Prefere baixa luminosidade, com sombra clara e luz indireta constante, sem incidência direta de sol. Um sombrite de 70% a 80% é uma referência inicial em ambientes quentes, ajustável conforme a claridade disponível. Proteja as folhas delicadas do calor e mantenha ventilação suave. Folhagem firme e crescimento regular indicam bom equilíbrio; crescimento fraco e pouca floração podem sugerir sombra profunda demais. Amarelecimento e manchas secas pedem mais proteção. Faça mudanças de luminosidade gradualmente.",
+        seloLuz: "azul"
     },
     floracao: "Em populações naturais brasileiras de Dichaea cogniauxiana, há registros de floração em janeiro e fevereiro, inclusive fotografia de uma planta florida em fevereiro em Santa Catarina. Um levantamento botânico na Bahia também documentou exemplares floridos em agosto e novembro. Esses quatro meses representam observações de diferentes populações, não floração contínua de uma mesma planta. As flores surgem isoladas nas axilas das folhas, distribuídas pelos caules finos e pendentes. São muito pequenas, com aproximadamente 7 a 12 mm, translúcidas, frequentemente brancas ou creme com pintas castanho-vinhosas; o labelo apresenta formato característico e manchas escuras. Não há descrição confiável de perfume perceptível nem de notas aromáticas específicas para esta espécie. A duração de cada flor também não foi estabelecida com segurança, por isso não se atribui um número de dias a partir de outras espécies de Dichaea.",
     adubacao: "🌿 Orgânica: bokashi somente em pequena quantidade e preferencialmente isolado em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional e em quantidade mínima, principalmente quando cultivada em vaso.\n🚿 Lavagem: faça regas periódicas apenas com água pura para reduzir o acúmulo de sais nas raízes delicadas.",
