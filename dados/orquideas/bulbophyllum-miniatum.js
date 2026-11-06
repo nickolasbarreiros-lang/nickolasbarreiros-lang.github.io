@@ -25,8 +25,9 @@ export const bulbophyllumMiniatum = {
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
-        horario: "Não permitido",
-        observacoes: "Meia-sombra clara é preferível à sombra profunda. Folhas firmes e verde-médio indicam bom equilíbrio. No litoral quente, ventilação constante é indispensável para que a combinação de calor, umidade e sombra não favoreça podridões."
+        horario: "",
+        observacoes: "Prefere meia-sombra clara, com luminosidade filtrada, umidade adequada e ventilação constante. Um sombrite de 60% a 70% é uma referência inicial; evite sol direto, que pode aquecer rapidamente as folhas e o rizoma. Folhas firmes, de verde médio, e brotações vigorosas indicam bom equilíbrio. Folhas muito escuras, crescimento fraco ou poucas hastes podem sugerir claridade insuficiente; amarelecimento repentino e manchas secas pedem mais proteção. Ajuste apenas a luz indireta, aos poucos, sem deixar a planta em sombra profunda.",
+        seloLuz: "amarelo"
     },
     floracao: "Em cultivo brasileiro, há referências de floração no inverno, especialmente entre junho e agosto, e orquidários também relatam flores na primavera. Como essas referências primaveris não indicam meses específicos, o calendário mantém apenas junho, julho e agosto, sem descartar florações posteriores em outras plantas. As hastes alongadas carregam numerosas flores pequenas que se abrem sucessivamente, em tons esverdeados a arroxeados. O labelo escuro, articulado e cercado por pelos claros, pode se mover com o vento ou com a visita de insetos. Orquidários brasileiros descrevem as flores como não perfumadas; portanto, não se atribui à espécie um aroma característico sem observação específica em contrário. Também não existe uma estimativa confiável da duração de cada flor; a abertura sucessiva pode fazer a haste permanecer ornamental por mais tempo.",
     adubacao: "🌿 Orgânica: Bokashi em porção pequena, de preferência em sachê e afastado do rizoma.\n💧 Foliar/mineral: NPK equilibrado em 1/4 da dose recomendada a cada 10 a 15 dias durante brotação e enraizamento.\n🧪 Liberação lenta: Osmocote somente em dose muito baixa em vasos/cestos; evite contato direto com raízes finas. Reduza quando os pseudobulbos amadurecerem e faça periodicamente regas abundantes apenas com água para lavar sais.",
