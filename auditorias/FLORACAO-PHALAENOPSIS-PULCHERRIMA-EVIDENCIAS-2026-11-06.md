@@ -25,3 +25,7 @@ Smithsonian Gardens: inflorescência ereta até 100 cm, 10–20 flores sucessiva
 ## Conferência adicional de assets e estrutura
 - Verificação de 2026-11-06: listagem da pasta `imagens/Phalaenopsis pulcherrima` na API de conteúdos do GitHub confirma a existência dos quatro arquivos referenciados em `fotos` na ficha: `Phalaenopsis pulcherrima1.jpg`, `Phalaenopsis pulcherrima2.webp`, `Phalaenopsis pulcherrima3.jpg` e `Phalaenopsis pulcherrima4.png`.
 - Conferido no arquivo da espécie: ocorrência única de `mesesFloracao: []` e `statusCalendarioFloracao: "indeterminado"`, com texto floral atualizado. Os arquivos existem no repositório, mas carregamento visual e identidade botânica das fotos não foram testados.
+
+## Integração ao catálogo
+- Verificado em `dados/orquideas/index.js`: importação de `phalaenopsisPulcherrima` de `./phalaenopsis-pulcherrima.js` e inclusão da mesma variável no array exportado `orquideas`. A ficha está registrada na fonte do catálogo.
+- Esta conferência estática não substitui a abertura da página no navegador, nem garante ausência de falhas em tempo de execução.
