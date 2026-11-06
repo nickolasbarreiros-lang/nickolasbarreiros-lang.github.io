@@ -867,7 +867,7 @@ function criarCardIluminacao(iluminacao) {
     const indicadores = [
         criarIndicadorRotulado(
             "Sombrite",
-            `${seloLuz}${criarChip("🟨", iluminacao.sombrite)}`
+            criarChip("🟨", iluminacao.sombrite)
         ),
         criarIndicadorRotulado(
             "Sol direto",
@@ -890,7 +890,7 @@ function criarCardIluminacao(iluminacao) {
     }
 
     return criarInfoCard({
-        titulo: "Iluminação",
+        titulo: `Iluminação ${seloLuz}`,
         icone: "☀️",
         indicadores,
         descricao: iluminacao.observacoes || "",
