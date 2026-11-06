@@ -19,7 +19,8 @@ export const laeliaCinnabarina = {
     fotos: [
         "imagens/Cattleya cinnabarina/Cattleya cinnabarina1.webp",
         "imagens/Cattleya cinnabarina/Cattleya cinnabarina2.jpg",
-        "imagens/Cattleya cinnabarina/Cattleya cinnabarina3.jpg"
+        "imagens/Cattleya cinnabarina/Cattleya cinnabarina3.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Laelia_cinnabarina_01.jpg"
     ],
     descricao: "Cattleya cinnabarina, conhecida por muito tempo como Laelia cinnabarina, destaca-se pelas flores estreladas de laranja intenso. Seus pseudobulbos alongados terminam em uma única folha firme e sustentam inflorescências altas, frequentemente com seis ou mais flores. As hastes podem ultrapassar bastante a folhagem, dando à planta uma silhueta elegante e marcante. É nativa das serras do Sudeste brasileiro, onde ocorre principalmente sobre afloramentos rochosos, em campos e formações abertas, embora também existam registros de hábito epífito. A espécie apresenta variações naturais de porte e coloração, razão pela qual algumas populações foram descritas historicamente sob nomes diferentes.",
     origem: "Brasil",
