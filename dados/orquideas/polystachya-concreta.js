@@ -38,8 +38,9 @@ export const polystachyaConcreta = {
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
-        horario: "Não permitido",
-        observacoes: "Estudos da Mata Atlântica brasileira caracterizam a espécie como amante de sombra. Para cultivo, meia-sombra clara com aproximadamente 60% a 70% de sombreamento é um ponto inicial coerente, especialmente no litoral quente. A planta deve receber boa claridade difusa, mas não necessita de radiação solar direta; folhas excessivamente claras ou aquecidas indicam excesso."
+        horario: "",
+        observacoes: "Prefere baixa luminosidade, com sombra clara e luz indireta constante, sem sol direto. Um sombrite de 60% a 70% é uma referência inicial, com boa ventilação para evitar o aquecimento. Folhas firmes e crescimento regular sugerem equilíbrio; folhas muito escuras e crescimento fraco podem indicar pouca luz. Folhas excessivamente claras, aquecidas ou com manchas secas pedem maior proteção. Ajuste a claridade gradualmente.",
+        seloLuz: "azul"
     },
 
     floracao: "No Brasil, Polystachya concreta apresenta floração bastante variável conforme a região. Um estudo no litoral paulista registrou flores em janeiro e fevereiro, enquanto levantamento botânico no Paraná documentou floração de março a novembro. Por isso, o calendário reúne registros brasileiros de janeiro a novembro. Dezembro também tem confirmação direta: um levantamento da Mata Atlântica do Nordeste registra exemplar coletado nesse mês expressamente com flores e frutos. A presença dos 12 meses no calendário reúne observações de regiões diferentes e não significa floração contínua de uma mesma planta. As hastes terminais podem ser simples ou ramificadas e, em exemplares vigorosos, carregar até cerca de 150 flores minúsculas, verde-claras a verde-amareladas, com labelo mais claro e voltado para cima. As flores exalam perfume cítrico, especialmente nas horas mais quentes do dia. Um estudo brasileiro de biologia floral mediu apenas dois a três dias de duração por flor; a abertura sucessiva de numerosos botões pode prolongar a aparência florida da haste, sem que exista duração total única comprovada.",
