@@ -28,8 +28,9 @@ export const octomeriaMicrantha = {
     "iluminacao": {
         "sombrite": "60% a 75%",
         "solDireto": "Não permitido",
-        "horario": "Não permitido",
-        "observacoes": "Sombra clara. Folhas muito alongadas e escuras sugerem pouca luz; tonalidade amarelada ou pontas secas indicam exposição excessiva."
+        "horario": "",
+        "observacoes": "Prefere baixa luminosidade, com luz filtrada em sombra clara, sem sol direto. Um sombrite de 60% a 75% é uma referência inicial, mantendo ventilação e evitando o superaquecimento das folhas. Folhas firmes e crescimento compacto sugerem equilíbrio; folhas muito escuras e alongadas podem indicar pouca luz. Amarelecimento e pontas ressecadas pedem mais proteção. Ajuste a claridade gradualmente.",
+        "seloLuz": "azul"
     },
     "floracao": "No Brasil, Octomeria micrantha floresce principalmente do inverno ao início da primavera, de junho a setembro, conforme levantamento botânico realizado no Paraná. O mesmo estudo documenta exemplares coletados com flores em abril e maio, ampliando o calendário para abril a setembro sem sugerir floração contínua de uma mesma planta. As flores são diminutas e amarelas, reunidas em pequenos fascículos junto à base das folhas, com uma a seis flores abertas simultaneamente. As sépalas medem aproximadamente 2,5 a 3,5 mm, as pétalas cerca de 2,2 a 2,5 mm e o labelo amarelo, estreito e trilobado, aproximadamente 1,6 a 2,2 mm, apresenta discretas elevações centrais. O conjunto é delicado e pode passar despercebido entre as folhas, apesar de seu aspecto interessante quando observado de perto. Não foi encontrada descrição específica e consistente de fragrância para esta espécie; por isso, não é seguro classificá-la como perfumada ou totalmente inodora. Também não há medição confiável da duração de cada flor ou do conjunto floral, de modo que não se atribui número de dias sem comprovação.",
     "mesesFloracao": [4, 5, 6, 7, 8, 9],
