@@ -33,7 +33,7 @@ export const dendrobiumMoscatum = {
         "horario": "Início da manhã ou final da tarde",
         "observacoes": "Exige luz filtrada forte. Hastes espessas, internódios proporcionais e folhas firmes indicam equilíbrio. Sombra produz hastes alongadas e fracas; excesso de sol causa queimaduras."
     },
-    "floracao": "Em orquidários brasileiros, Dendrobium moschatum é associado principalmente à floração de primavera, com registros que também alcançam dezembro; o período pode variar conforme o clima e a maturação das hastes. Próximo à ponta dos caules maduros surgem cachos pendentes, geralmente com cinco a quinze flores grandes, amarelas a alaranjadas, por vezes com tons rosados nas bordas. O labelo arredondado forma uma espécie de pequena bolsa, característica marcante da espécie. As flores podem atingir cerca de 5 a 9 cm, dependendo do exemplar. Seu perfume é característico e almiscarado, com descrições que lembram ruibarbo e notas herbáceas adocicadas. Cada flor costuma durar aproximadamente uma semana; o conjunto da floração pode permanecer vistoso por cerca de 15 dias, conforme registros de cultivo brasileiro.",
+    "floracao": "Em orquidários brasileiros, Dendrobium moschatum é associado principalmente à floração na primavera. Um calendário brasileiro também indica novembro, dezembro e janeiro; por isso, janeiro foi acrescentado à referência já cadastrada de setembro a dezembro. Os meses representam observações de cultivos distintos, não floração contínua de uma mesma planta, e podem variar conforme o clima e a maturação das hastes. Próximo à ponta dos caules maduros surgem cachos pendentes, geralmente com cinco a quinze flores grandes, amarelas a alaranjadas, por vezes com tons rosados nas bordas. O labelo arredondado forma uma espécie de pequena bolsa, característica marcante da espécie. As flores podem atingir cerca de 5 a 9 cm, dependendo do exemplar. Seu perfume é característico e almiscarado, com descrições que lembram ruibarbo e notas herbáceas adocicadas. Cada flor costuma durar aproximadamente uma semana; o conjunto da floração pode permanecer vistoso por cerca de 15 dias, conforme registros de cultivo brasileiro.",
     "adubacao": "🌱 Primavera: fertilizante com nitrogênio moderado durante o alongamento inicial.\n☀️ Verão: NPK equilibrado em baixa concentração enquanto a haste engrossa.\n🍂 Final do verão: reduzir nitrogênio e manter nutrição mais leve.\n💤 Inverno: pouca ou nenhuma adubação, conforme a atividade.\n🌿 Bokashi/Osmocote: somente no início do crescimento, em dose proporcional ao recipiente.",
     "rega": "Na primavera e no verão, regue abundantemente e permita secagem parcial. Quando a haste cessar o crescimento, endurecer e mudar discretamente de aspecto, reduza moderadamente. No inverno, mantenha hidratação espaçada, sem seca extrema e sem substrato continuamente molhado.",
     "suporte": "🥇 Cesto grande e suspenso, respeitando seu hábito epífito natural.\n🥈 Vaso grande, pesado e bem drenado, excelente para exemplares adultos e para cultivo com maior retenção de matéria orgânica.\n🥉 Tronco, placa robusta ou cachepô vazado, especialmente para plantas jovens.\nEmbora seja epífita na natureza, mostra boa plasticidade em cultivo e pode desenvolver-se muito bem em recipientes amplos, desde que as raízes permaneçam oxigenadas e sem encharcamento.",
@@ -217,7 +217,8 @@ export const dendrobiumMoscatum = {
         9,
         10,
         11,
-        12
+        12,
+        1
     ],
     "selosCultivo": {
         "rega": { "nivel": "sazonal", "regime": "reduzir-inverno" },
