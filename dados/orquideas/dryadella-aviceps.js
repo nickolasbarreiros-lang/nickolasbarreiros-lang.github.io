@@ -29,11 +29,12 @@ export const dryadellaAviceps = {
     habitat: "Epífita · florestas sazonais · ~310–1.500 m.",
     clima: "Quente a fresco · úmido e ventilado.",
     climaFloracao: "A amplitude altitudinal mostra que a espécie não deve ser classificada como exclusivamente fria. Plantas de procedência mais baixa toleram calor melhor, enquanto populações montanas respondem a noites amenas. Uma touceira madura, raízes saudáveis e estabilidade hídrica são mais importantes que um choque térmico intenso. No litoral quente, a prioridade é evitar abafamento e aquecimento prolongado das raízes.",
-    iluminacao: {
+        iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
         horario: "",
-        observacoes: "Prefere sombra clara. Folhas excessivamente amarelas ou avermelhadas sugerem luz/calor em excesso; folhas muito escuras e alongadas indicam pouca luminosidade."
+        observacoes: "Prefere baixa luminosidade, com sombra clara e luz indireta constante, sem sol direto. Um sombrite de 60% a 70% é uma referência inicial, ajustável conforme a intensidade da claridade e o calor do ambiente. Mantenha boa ventilação sem ressecar a planta. Folhas firmes e crescimento regular sugerem equilíbrio; folhas muito escuras, alongamento e pouco vigor podem indicar sombra excessiva. Amarelecimento, avermelhamento intenso e manchas secas pedem mais proteção. Faça ajustes graduais.",
+        seloLuz: "azul"
     },
     floracao: "No Brasil, Dryadella aviceps pode florescer em qualquer mês do ano, conforme revisão científica de populações brasileiras publicada em 2024. Isso não significa que uma mesma planta permaneça florida continuamente: as pequenas flores aparecem em episódios ao longo do ano, e um orquidário brasileiro destaca especialmente o verão. As inflorescências são curtíssimas, próximas à base das folhas, e podem produzir poucas flores sucessivas, geralmente com uma aberta por vez. As sépalas e pétalas são amarelo-escuras, salpicadas de pontos púrpuras ou vinho, com a flor relativamente aberta e o pequeno labelo visível. A IOSPE informa cerca de 5 mm por flor, enquanto um produtor brasileiro descreve aproximadamente 1 a 1,5 cm; a diferença pode envolver critérios distintos de medição. Não há confirmação segura de perfume perceptível nem de notas aromáticas específicas. Também não foi encontrada medição confiável da duração de cada flor em dias.",
     adubacao: "🌿 Orgânica: evite material concentrado em contato direto com as raízes.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias.\n🌱 Crescimento: pequenas doses frequentes são mais seguras que adubações fortes.\n🧪 Liberação lenta: dispensável em recipientes muito pequenos.\n🚿 Lavagem: enxágue regularmente para impedir salinização do esfagno e das raízes.",
