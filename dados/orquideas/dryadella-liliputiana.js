@@ -30,11 +30,12 @@ export const dryadellaLiliputiana = {
     habitat: "Epífita montana · ~700–1.700 m.",
     clima: "Intermediário a fresco · úmido e ventilado.",
     climaFloracao: "IOSPE registra floração no inverno e crescimento quente a fresco ao longo de sua faixa altitudinal. Em cultivo, a combinação mais favorável é touceira madura, umidade do ar alta, raízes oxigenadas e noites mais amenas. Não necessita de repouso seco. No litoral, o verão deve ser manejado reduzindo temperatura radicular e aumentando circulação de ar, não mantendo o substrato permanentemente saturado.",
-    iluminacao: {
+        iluminacao: {
         sombrite: "Cerca de 70%",
         solDireto: "Não permitido",
         horario: "",
-        observacoes: "Prefere sombra clara. Luz suficiente mantém folhas compactas, mas o excesso de radiação aquece rapidamente a pequena touceira e aumenta a desidratação."
+        observacoes: "Prefere baixa luminosidade, com sombra clara e luz indireta constante, sem sol direto. Cerca de 70% de sombreamento é uma referência inicial, ajustável conforme a claridade disponível. Como a touceira é pequena, o excesso de radiação aquece rapidamente folhas e raízes e favorece a desidratação. Folhas compactas e firmes indicam bom equilíbrio; crescimento fraco pode sugerir sombra profunda demais. Amarelecimento, manchas secas e perda rápida de firmeza pedem mais proteção. Ajuste a exposição gradualmente.",
+        seloLuz: "azul"
     },
     floracao: "No Brasil, Dryadella lilliputiana floresce principalmente entre outubro e dezembro, período confirmado por revisão científica de populações brasileiras publicada em 2024. As inflorescências são muito curtas e surgem junto à base das folhas, cada uma com uma flor solitária; em touceiras maduras, várias podem abrir ao mesmo tempo. As flores medem aproximadamente 1 cm e são predominantemente brancas ou creme, com pequenas pintas arroxeadas. As sépalas apresentam base mais larga e pontas estreitas, enquanto o pequeno labelo pode ter coloração amarelada. Um orquidário brasileiro descreve a espécie como não perfumada; não foram encontradas notas aromáticas específicas comprovadas. A duração individual das flores em dias não pôde ser confirmada com segurança, portanto não é atribuída uma longevidade fixa à espécie.",
     adubacao: "🌿 Orgânica: evite bokashi diretamente no pequeno recipiente, pois é difícil dosar sem aumentar decomposição e sais.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 da dose a cada 10–15 dias durante crescimento ativo.\n🧪 Liberação lenta: não recomendada para recipientes tão pequenos.\n🚿 Lavagem: faça regas abundantes apenas com água periodicamente para remover sais.\n💧 Água: baixa condutividade é especialmente benéfica às raízes finas.",
