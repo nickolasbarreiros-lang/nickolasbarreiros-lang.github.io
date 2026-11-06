@@ -230,6 +230,7 @@ export const phalaenopsisPulcherrima = {
         montanhaFrio: { texto: "Boa adaptação. Pode ser cultivada, mas deve ser protegida de noites muito frias e de raízes molhadas em temperaturas baixas." }
     },
     mesesFloracao: [2, 5],
+    mesesFloracaoIndicativos: true,
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
