@@ -36,7 +36,7 @@ export const dendrobiumPolysema = {
         "horario": "",
         "observacoes": "Use luz indireta intensa combinada com circulação constante de ar. O objetivo é manter folhas claras, firmes e frias ao toque, evitando superaquecimento mesmo em dias quentes."
     },
-    "floracao": "Orquidários brasileiros indicam que Dendrobium polysema floresce principalmente entre o fim do inverno e a primavera, período representado no calendário de agosto a novembro; também existem registros de plantas floridas fora dessa época, inclusive em junho. As hastes surgem perto do ápice dos pseudobulbos maduros, são eretas ou arqueadas e podem reunir oito ou mais flores. Cada flor mede aproximadamente 4 a 5 cm e tem textura firme, com sépalas amareladas ou esverdeadas densamente pintalgadas de vinho ou castanho, pétalas claras também manchadas e labelo amarelo com desenhos escuros. Produtores brasileiros descrevem as flores como sem perfume perceptível, sem notas aromáticas identificadas. Um orquidário brasileiro informa duração de aproximadamente 40 a 60 dias para a floração; esse intervalo deve ser entendido como referência de cultivo, não como garantia para todas as plantas.",
+    "floracao": "Orquidários brasileiros indicam que Dendrobium polysema floresce principalmente entre o fim do inverno e a primavera, período representado no calendário de agosto a novembro; também há registro brasileiro datado de uma planta florida em 12 de junho de 2026, confirmando que a espécie pode florescer fora da janela principal. As hastes surgem perto do ápice dos pseudobulbos maduros, são eretas ou arqueadas e podem reunir oito ou mais flores. Cada flor mede aproximadamente 4 a 5 cm e tem textura firme, com sépalas amareladas ou esverdeadas densamente pintalgadas de vinho ou castanho, pétalas claras também manchadas e labelo amarelo com desenhos escuros. Produtores brasileiros descrevem as flores como sem perfume perceptível, sem notas aromáticas identificadas. Um orquidário brasileiro informa duração de aproximadamente 40 a 60 dias para a floração; esse intervalo deve ser entendido como referência de cultivo, não como garantia para todas as plantas.",
     "adubacao": "🌿 Orgânica: bokashi em dose mínima, sem contato direto com raízes.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 da dose a cada 7–10 dias no crescimento.\n🌱 Enraizamento: priorize doses fracas e frequentes.\n🍂 Período frio: reduza, mas não suspenda se houver atividade.\n🧪 Liberação lenta: poucos grânulos apenas em cestos muito drenantes.\n🚿 Lavagem: faça flushing frequente para evitar salinização.",
     "rega": "Mantenha umidade regular durante todo o ano, sem deixar o substrato encharcado. Em clima quente, regue pela manhã e aumente a umidade ambiental sem manter água parada. No frio, reduza discretamente conforme a evaporação, sem impor seca total.",
     "suporte": "🥇 Cesto pequeno e ventilado — favorece raízes arejadas.\n🥈 Vaso de barro vazado — ajuda no resfriamento por evaporação.\n🥉 Placa com musgo — somente em ambientes muito úmidos.\nPrefira recipientes pequenos, claros e bem ventilados.",
@@ -220,6 +220,7 @@ export const dendrobiumPolysema = {
         "montanhaFrio": "Adaptação excelente, desde que haja umidade regular, ventilação e proteção contra geadas."
     },
     "mesesFloracao": [
+        6,
         8,
         9,
         10,
