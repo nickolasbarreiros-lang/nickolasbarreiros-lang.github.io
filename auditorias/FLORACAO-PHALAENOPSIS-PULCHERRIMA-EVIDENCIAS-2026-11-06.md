@@ -53,3 +53,8 @@ Smithsonian Gardens: inflorescência ereta até 100 cm, 10–20 flores sucessiva
 - Importação no catálogo e existência dos quatro arquivos de fotografia verificadas no GitHub; calendário inspecionado estaticamente no código.
 - **Não homologado visualmente:** falta teste da página renderizada em navegador. Não afirmar homologação integral com base somente em inspeção de código.
 - As decisões históricas acima permanecem identificadas como substituídas, não como estado atual da ficha.
+
+## CI e publicação — verificação em 06/11/2026
+- GitHub Actions **Validar Orquidário Digital** para o commit `566afd9eed204b9db913d48202c3efbc51b0367d`: execução concluída com **success**. https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/42235438538
+- GitHub Pages **pages build and deployment** para o mesmo commit: **in_progress** na consulta. https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/42235437740
+- A página pública não foi acessível na tentativa de consulta; não há evidência de teste visual da ficha. CI bem-sucedida não implica confirmação de aparência no navegador.
