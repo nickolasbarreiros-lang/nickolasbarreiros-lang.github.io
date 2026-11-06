@@ -24,11 +24,12 @@ export const epicattleyaReneMarques = {
     habitat: "Sem habitat natural · grex horticultural.",
     clima: "Quente a intermediário · muito luminoso.",
     climaFloracao: "Não existe uma estação natural única para o grex. A melhor indução ocorre quando novos caules completam o crescimento sob luz alta, com raízes ativas e nutrição equilibrada. No litoral quente, ventilação e secagem entre regas são mais importantes do que buscar noites frias.",
-    iluminacao: {
+        iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
         horario: "Início da manhã ou final da tarde",
-        observacoes: "Exige iluminação alta, semelhante à de Cattleya, com aclimatação gradual. Folhas verde-claras e caules firmes indicam boa luz."
+        observacoes: "Exige luminosidade alta, próxima à de muitas Cattleyas, para formar caules firmes e favorecer a floração. Um sombrite de 40% a 50% é uma referência inicial, com boa circulação de ar. Depois de aclimatada, admite sol suave no início da manhã ou no final da tarde, evitando o sol forte prolongado. Folhas verde-claras e caules robustos sugerem equilíbrio; folhas muito escuras e floração escassa podem indicar pouca luz. Amarelecimento brusco e manchas secas pedem maior proteção. Aumente a exposição gradualmente.",
+        seloLuz: "vermelho"
     },
     floracao: "No Brasil, Epicattleya René Marqués apresenta floração variável conforme o clone e as condições de cultivo. Orquidários brasileiros relatam flores na primavera, no verão e também no outono ou inverno, sem consenso que permita definir meses específicos para um calendário único; isso não significa floração contínua durante todo o ano. As hastes surgem no alto dos caules maduros e carregam cachos de flores cerosas, em alguns clones com até dez flores por haste. Cada flor mede aproximadamente 4 cm, com sépalas e pétalas verdes e labelo contrastante em tons de amarelo, rosa, alaranjado ou vermelho, conforme o clone. Produtores brasileiros descrevem exemplares sem perfume perceptível, sem notas aromáticas próprias do híbrido confirmadas. A duração da floração também varia: orquidários informam cerca de 14 a 15 dias em alguns cultivos e média de 25 dias em outros. Essas estimativas comerciais se referem à floração observada e não comprovam que cada flor individual permaneça aberta por todo esse período.",
     adubacao: "🌿 Orgânica: bokashi leve no canto do vaso a cada 2–3 meses durante o crescimento.\n💧 Foliar: NPK equilibrado a cerca de 1/3 da dose semanalmente ou a cada 10–15 dias.\n🧪 Pré-floração: reduza o excesso de nitrogênio e mantenha adubação equilibrada e diluída. Uma fórmula moderadamente mais rica em potássio pode ser alternada ocasionalmente, sem usar doses elevadas de fósforo ou sais.",
