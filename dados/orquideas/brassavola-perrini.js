@@ -67,7 +67,7 @@ export const brassavolaPerrini = {
             { nome: "Secagem", valor: 5, icone: "☀️" },
             { nome: "Compactação", valor: 1, icone: "🧱" }
         ],
-        alerta: "MACS 1.1: POWO/Kew e AOS tratam Brassavola perrinii como sinônimo de Brassavola tuberculata. IOSPE documenta cultivo em placa/cortiça e secagem sazonal; Orquivitro recomenda pinus ou placa, sem percentuais. Montagem principal em Placa / tronco, sem receita volumétrica. Mistura R1 para vaso/cesto: 35% Casca de macadâmia + 25% Carvão vegetal + 20% Casca de pinus + 20% Brita; alternativas R2/R3 distintas. Composição e percentuais da mistura são inferências D NÃO HOMOLOGADAS; não há ensaio quantitativo específico, e macadâmia não foi validada para a espécie. Nomes e assets canônicos conferidos. Matriz: auditorias/MACS-1.1-MATRIZ-042-BRASSAVOLA-TUBERCULATA.md."
+        alerta: "Prefira o cultivo em placa ou tronco, mantendo as raízes bem ventiladas. Em vasos, utilize substrato de secagem rápida e evite o acúmulo de umidade."
     },
     errosComuns: "Cultivar em sombra excessiva; Usar substratos finos, compactos ou com acúmulo de pó; Manter as raízes molhadas continuamente; Plantar em vasos grandes e fundos; Exagerar no uso de esfagno ou materiais de alta retenção hídrica; Dividir touceiras pequenas prematuramente; Aplicar adubo com alto teor de nitrogênio de forma contínua durante todo o ano.",
     dica: "Use as folhas como termômetro: o ponto certo de luz é aquele que deixa a folhagem cilíndrica ereta, rígida e em um tom verde-claro (quase amarelado). Se ela cresce muito mas não floresce, o segredo para forçar a floração é dar mais claridade — sem medo do sol direto matinal — e cortar o adubo rico em nitrogênio.",
