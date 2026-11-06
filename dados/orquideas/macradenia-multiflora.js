@@ -38,8 +38,9 @@ export const macradeniaMultiflora = {
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Não permitido",
-        horario: "Não permitido",
-        observacoes: "Prefere meia-sombra clara e luz filtrada relativamente intensa. Orquidários brasileiros recomendam cerca de 50% de sombreamento, enquanto outro produtor orienta meia-sombra sem sol direto. No litoral quente, 50% a 60% de sombreamento é um ponto inicial seguro: forneça claridade suficiente para manter crescimento compacto, mas evite radiação direta que aqueça folhas e raízes."
+        horario: "",
+        observacoes: "Prefere luminosidade moderada e filtrada, em meia-sombra clara, sem sol direto sobre folhas e raízes. Um sombrite de 50% a 60% é uma referência inicial, com boa ventilação para evitar o superaquecimento. Folhas firmes e crescimento compacto sugerem equilíbrio; folhagem muito escura e floração escassa podem indicar pouca luz. Amarelecimento brusco, manchas secas e folhas aquecidas pedem mais proteção. Ajuste a luminosidade gradualmente, sem expor a planta ao sol direto.",
+        seloLuz: "amarelo"
     },
 
     floracao: "No Brasil, Macradenia multiflora tem floração registrada em março, abril, maio, junho, novembro e dezembro em levantamento botânico na região do rio Xingu, no Pará. O estudo inclui exemplares floridos coletados em junho, novembro e dezembro; isso não significa que uma mesma planta floresça durante todos os meses assinalados. Produtores brasileiros também relatam floração predominante no verão, às vezes repetida no ano, conforme o cultivo. As hastes laterais e pendentes, com cerca de 8 a 20 cm, carregam muitas flores pequenas, geralmente de 12 a 26, com aproximadamente 2 cm. Sépalas e pétalas são púrpuras ou castanho-vinho, com margens verde-amareladas; o labelo branco apresenta manchas arroxeadas. Sobre o perfume, há divergência: a IOSPE descreve flores perfumadas, enquanto um produtor brasileiro não percebe fragrância. Não há notas aromáticas específicas confirmadas. Também não foi encontrada medição confiável da duração individual das flores ou do conjunto da inflorescência; por isso, não se atribui um número de dias.",
