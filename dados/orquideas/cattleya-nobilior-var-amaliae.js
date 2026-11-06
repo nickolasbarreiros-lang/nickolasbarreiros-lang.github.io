@@ -30,10 +30,11 @@ export const cattleyaNobiliorVarAmaliae = {
     clima: "Quente · muito luminoso · inverno seco.",
     climaFloracao: "A floração é favorecida por pseudobulbos completamente maduros, luminosidade muito alta e forte redução hídrica no período seco. A planta frequentemente emite crescimento floral especializado e sem folhas a partir da região basal ou rizomatosa. O princípio correto é reproduzir a sazonalidade: crescimento com água e nutrição suficientes, seguido de repouso realmente mais seco, mas sem permitir desidratação severa e prolongada.",
     iluminacao: {
-        sombrite: "30% a 50% — cerca de 40% como ponto inicial",
-        solDireto: "Permitido",
+        sombrite: "30% a 50%; cerca de 40% como referência inicial",
+        solDireto: "Permitido com restrição",
         horario: "Início da manhã ou final da tarde",
-        observacoes: "Necessita luminosidade muito alta. O objetivo é manter folhas firmes, compactas e verde-claras, sem buscar amarelecimento como sinal obrigatório. Folhas verde-escuras sugerem falta de luz; amarelecimento intenso ou manchas secas indicam excesso de sol ou calor."
+        observacoes: "Precisa de luminosidade alta para desenvolver pseudobulbos compactos e favorecer a floração. Um sombrite de 30% a 50%, começando próximo de 40%, é uma referência inicial, com boa ventilação e atenção ao calor. Depois de aclimatada, pode receber sol direto suave no início da manhã ou no final da tarde; evite as horas mais quentes. Folhas firmes, compactas e verde-claras indicam bom equilíbrio, sem necessidade de buscar amarelecimento. Folhas muito escuras e crescimento fraco podem sugerir pouca luz, enquanto amarelecimento intenso e manchas secas pedem mais proteção. Ajuste a exposição gradualmente.",
+        seloLuz: "vermelho"
     },
     floracao: "A variedade amaliae floresce principalmente em setembro e outubro no Brasil, um pouco depois da forma típica de Cattleya nobilior. O material original utilizado na descrição botânica também floresceu em outubro, reforçando esse calendário. As hastes curtas geralmente produzem duas ou três flores grandes, com aproximadamente 10 a 13 cm, em tons delicados de rosa-claro. O labelo exibe centro amarelo-limão e veias lilás bem marcadas. As flores são perfumadas, com fragrância agradável e adocicada, cuja intensidade varia entre plantas. São também bastante duradouras: referências brasileiras relatam flores que podem permanecer abertas por até cerca de 30 dias em boas condições. Esse valor representa uma possibilidade observada, não uma duração garantida; calor intenso, polinização e condições de cultivo podem reduzir a longevidade.",
     mesesFloracao: [9, 10],
