@@ -970,7 +970,8 @@ function criarAvaliacao(
 }
 
 function criarCalendarioFloracao(
-    mesesFloracao
+    mesesFloracao,
+    mesesIndicativos = false
 ) {
     const mesesAtivos =
         Array.isArray(mesesFloracao)
@@ -1007,7 +1008,7 @@ function criarCalendarioFloracao(
                 </div>
             `;
         })
-        .join("");
+        .join("") + (mesesIndicativos ? `<p class="calendario-floracao-nota" style="grid-column: 1 / -1; margin: 8px 0 0; font-size: 0.85em; line-height: 1.45;">🌸 Meses indicativos de calendário brasileiro; a floração pode variar conforme o cultivo.</p>` : "");
 }
 
 function rotuloDificuldadeCultivo(valor) {
@@ -1553,7 +1554,8 @@ if (!orquidea) {
                 <div class="meses-v2">
 
                     ${criarCalendarioFloracao(
-                        orquidea.mesesFloracao
+                        orquidea.mesesFloracao,
+                        orquidea.mesesFloracaoIndicativos === true
                     )}
 
                 </div>
