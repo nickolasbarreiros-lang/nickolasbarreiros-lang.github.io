@@ -20,11 +20,12 @@ export const eriaHyacinthoides = {
     habitat: "Florestas úmidas · epífita/rupícola · 500–1.700 m.",
     clima: "Quente a fresco · úmido e ventilado.",
     climaFloracao: "A faixa altitudinal ampla explica sua tolerância de quente a fresco. No litoral, mantenha sombra clara, umidade atmosférica e movimento de ar, evitando aquecimento abafado. Não necessita repouso seco; apenas reduza a frequência de rega quando a evaporação cair.",
-    iluminacao: {
+        iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
         horario: "",
-        observacoes: "Necessita de luz filtrada média. O sol direto não é recomendado, pois o aquecimento excessivo das folhas causa queimaduras rápidas e amarelamento foliar prematuro."
+        observacoes: "Prefere luminosidade moderada e filtrada, sem incidência direta de sol sobre as folhas. Um sombrite de 60% a 70% é uma referência inicial, com boa ventilação e proteção contra calor acumulado. Folhas firmes e crescimento regular indicam bom equilíbrio; folhas muito escuras, crescimento fraco e floração escassa podem sugerir pouca luz. Amarelecimento rápido e manchas secas indicam excesso de exposição ou calor. Ajuste a claridade gradualmente, sem colocar a planta sob sol direto.",
+        seloLuz: "amarelo"
     },
     floracao: "No Brasil, a compilação de floração de Delfina de Araújo registra Bryobium hyacinthoides, também conhecida como Eria hyacinthoides, em janeiro, fevereiro, março, outubro, novembro e dezembro. Esses meses reúnem observações de cultivo e não significam floração contínua da mesma planta; orquidários brasileiros também destacam a primavera e o verão. As hastes são eretas ou arqueadas, chegam a cerca de 25 cm e carregam aproximadamente 20 a 40 flores pequenas, brancas a creme, com aspecto levemente felpudo e até cerca de 2 cm. São perfumadas, mas o aroma é percebido de maneiras distintas: alguns produtores brasileiros relatam fragrância suave, enquanto uma observação no Jardim Botânico do Rio de Janeiro compara o cheiro ao de água sanitária. Uma cultivadora da Associação Portuguesa de Orquidofilia relata floração de aproximadamente 15 dias; esse valor é uma observação de cultivo no exterior, não uma duração universal comprovada no Brasil.",
     adubacao: "💧 Foliar: NPK equilibrado, como 20-20-20, diluído a 1/4 da dose recomendada pelo fabricante, a cada 7 a 10 dias durante o crescimento ativo.\n🌿 Orgânica: Bokashi em dose muito reduzida e afastado das raízes.\n🧪 Liberação lenta: poucos grânulos de Osmocote em recipiente bem ventilado.\n⚠️ Atenção: as raízes finas são sensíveis ao acúmulo de sais; realize periodicamente regas abundantes apenas com água para lixiviar o substrato.",
