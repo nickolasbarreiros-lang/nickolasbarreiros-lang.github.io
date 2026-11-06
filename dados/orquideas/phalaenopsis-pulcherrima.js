@@ -33,7 +33,7 @@ export const phalaenopsisPulcherrima = {
         horario: "Somente início da manhã",
         observacoes: "Tolera e normalmente aprecia mais luz que muitas Phalaenopsis epífitas. Evite, porém, sol direto forte sobre folhas aquecidas. Folhagem excessivamente escura pode indicar luminosidade insuficiente."
     },
-    floracao: "No Brasil, há registro de Phalaenopsis pulcherrima (Doritis pulcherrima) florida em março. O calendário de dezembro a maio representa uma janela aproximada de cultivo, não uma sequência de meses individualmente comprovados: orquidários brasileiros relatam que exemplares bem aclimatados podem florescer mais de uma vez ao ano, inclusive fora dessa faixa. A espécie produz hastes eretas que podem chegar a cerca de um metro, com numerosas flores pequenas, geralmente de 1,25 a 3 cm, abertas sucessivamente. As cores variam do branco e rosa-claro ao rosa intenso, vermelho e púrpura, com labelo de forma característica. Um produtor brasileiro relata floração ornamental de até aproximadamente três meses na variedade champorensis; esse período se refere ao conjunto da haste, não à duração individual de cada flor nem necessariamente a todas as variedades. Essa mesma variedade é comercializada como sem perfume; não há base suficiente para atribuir aroma específico à espécie inteira.",
+    floracao: "No Brasil, há registro de Phalaenopsis pulcherrima (Doritis pulcherrima) florida em março. Março é o mês com registro brasileiro específico nesta ficha. Há relatos de exemplares bem aclimatados que florescem mais de uma vez ao ano, mas ainda não há comprovação individual suficiente para destacar outros meses no calendário. A espécie produz hastes eretas que podem chegar a cerca de um metro, com numerosas flores pequenas, geralmente de 1,25 a 3 cm, abertas sucessivamente. As cores variam do branco e rosa-claro ao rosa intenso, vermelho e púrpura, com labelo de forma característica. Um produtor brasileiro relata floração ornamental de até aproximadamente três meses na variedade champorensis; esse período se refere ao conjunto da haste, não à duração individual de cada flor nem necessariamente a todas as variedades. Essa mesma variedade é comercializada como sem perfume; não há base suficiente para atribuir aroma específico à espécie inteira.",
     adubacao: "🌿 Orgânica: bokashi em dose pequena e afastado diretamente das raízes.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional, com poucos grânulos em vaso.\n🚿 Lavagem: faça regas periódicas com água pura para evitar acúmulo de sais.",
     rega: "Mantenha regas regulares durante todo o ano, molhando bem e permitindo drenagem completa. O substrato pode perder parte da umidade entre regas, mas não deve permanecer encharcado. A espécie tolera pequenas secagens melhor que raízes sufocadas em material compacto.",
     suporte: [
@@ -229,7 +229,7 @@ export const phalaenopsisPulcherrima = {
         litoralQuente: { texto: "Excelente adaptação. Calor combina bem com a espécie. Use luz filtrada relativamente alta, boa ventilação e regas regulares sem manter o vaso saturado." },
         montanhaFrio: { texto: "Boa adaptação. Pode ser cultivada, mas deve ser protegida de noites muito frias e de raízes molhadas em temperaturas baixas." }
     },
-    mesesFloracao: [12, 1, 2, 3, 4, 5],
+    mesesFloracao: [3],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
