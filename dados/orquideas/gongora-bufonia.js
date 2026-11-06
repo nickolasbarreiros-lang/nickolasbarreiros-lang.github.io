@@ -23,8 +23,9 @@ export const gongoraBufonia = {
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
-        horario: "Não permitido",
-        observacoes: "Prefere sombra clara. Folhas muito escuras e crescimento frouxo sugerem pouca luz; amarelecimento, áreas secas ou aquecimento forte das folhas indicam excesso. Em clima quente, ventilação é tão importante quanto o sombreamento."
+        horario: "",
+        observacoes: "Prefere luminosidade moderada e filtrada, em sombra clara, sem incidência direta de sol. Um sombrite de 60% a 70% é uma referência inicial, com ventilação constante para reduzir o aquecimento das folhas. Folhas firmes e crescimento regular indicam bom equilíbrio; folhas muito escuras, crescimento frouxo e floração escassa podem sugerir sombra excessiva. Amarelecimento rápido, manchas secas e folhas muito quentes pedem maior proteção. Ajuste a claridade gradualmente, sem expor a planta ao sol direto.",
+        seloLuz: "amarelo"
     },
     mesesFloracao: [1, 2, 10, 11, 12],
     floracao: "No Brasil, Gongora bufonia floresce principalmente na primavera e no verão, com registros científicos em outubro e novembro e relatos de cultivo que estendem a janela até fevereiro. Os meses de outubro a fevereiro representam observações de diferentes plantas e locais, não floração contínua de uma mesma haste. Suas inflorescências pendentes podem chegar a cerca de 80 cm e carregar até três dezenas de flores exóticas, de aproximadamente 5 cm, em tons bege, rosados ou avermelhados com pintas mais escuras. São perfumadas: um estudo brasileiro confirmou que a fragrância aumenta de intensidade no fim da manhã, por volta das 11 horas, atraindo abelhas polinizadoras, mas não estabeleceu uma comparação sensorial segura com aromas cotidianos. No mesmo estudo, as flores permaneceram em plena atividade por cerca de dois dias e começaram a murchar entre o terceiro e o quarto dia. Um cultivador brasileiro relata aproximadamente 15 dias para o conjunto da floração, valor que não deve ser confundido com a duração de cada flor.",
