@@ -58,3 +58,10 @@ Smithsonian Gardens: inflorescência ereta até 100 cm, 10–20 flores sucessiva
 - GitHub Actions **Validar Orquidário Digital** para o commit `566afd9eed204b9db913d48202c3efbc51b0367d`: execução concluída com **success**. https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/42235438538
 - GitHub Pages **pages build and deployment** para o mesmo commit: **in_progress** na consulta. https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/42235437740
 - A página pública não foi acessível na tentativa de consulta; não há evidência de teste visual da ficha. CI bem-sucedida não implica confirmação de aparência no navegador.
+
+## Homologação visual automatizada — 06/11/2026
+- Teste Playwright/Chromium em navegador real **aprovado** no GitHub Actions: https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/42237813288 (commit `78abf0b5cd3d4fcc21a165ef0c4c8e5d187ccfb2`).
+- O teste abriu a ficha local em desktop (1365 × 900) e celular (390 × 844); confirmou 12 meses, somente fevereiro e maio destacados, aviso de meses indicativos, ausência de exceções JavaScript e ausência de overflow horizontal no celular. Gerou capturas da seção Floração como artefatos da execução.
+- Validação geral do Orquidário Digital também aprovada: https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/42237813284 .
+- **Status atualizado:** calendário e sua apresentação funcional homologados em navegador automatizado. As ressalvas anteriores de inspeção visual não realizada eram verdadeiras na época, mas foram superadas por esta execução. Não confundir com inspeção estética humana das capturas nem com teste da URL pública.
+- A publicação GitHub Pages do mesmo commit estava `in_progress` na consulta: https://github.com/nickolasbarreiros-lang/nickolasbarreiros-lang.github.io/actions/runs/42237813053 .
