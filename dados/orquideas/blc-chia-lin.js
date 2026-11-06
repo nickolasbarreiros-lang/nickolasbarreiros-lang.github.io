@@ -26,10 +26,11 @@ export const blcChiaLin = {
     clima: "Quente–intermediário · luminoso · ventilado",
     climaFloracao: "A próxima floração é construída durante a formação do novo pseudobulbo. Enquanto brotos e raízes estiverem ativos, forneça água, nutrição leve e boa luminosidade. Depois que a folha estiver firme e o pseudobulbo maduro, reduza naturalmente a adubação e mantenha luz alta filtrada. Não é necessário forçar a floração com seca artificial ou grandes doses de fósforo; genética, maturação, luz e saúde radicular têm papel mais importante.",
     iluminacao: {
-        sombrite: "50% a 60% — 50% como referência inicial",
+        sombrite: "50% a 60%; comece próximo de 50% se o local não for excessivamente quente",
         solDireto: "Permitido com restrição",
         horario: "Início da manhã ou final da tarde",
-        observacoes: "Necessita mais luz do que Phalaenopsis e muitos Oncidium. Folhas muito escuras e pseudobulbos alongados podem indicar pouca luz, enquanto sol forte do meio do dia aumenta o risco de superaquecimento e queimaduras."
+        observacoes: "Este híbrido aprecia bastante claridade para desenvolver pseudobulbos fortes e florescer bem. Um sombrite de 50% a 60% é um ponto de partida; em dias muito quentes, aumente a proteção se as folhas aquecerem. Depois de acostumada ao local, a planta pode receber sol direto suave no início da manhã ou no final da tarde. Evite o sol intenso do meio do dia. Folhas muito escuras e brotações alongadas podem indicar pouca luz, enquanto amarelecimento rápido ou manchas secas pedem mais proteção. Faça as mudanças aos poucos.",
+        seloLuz: "vermelho"
     },
     floracao: "Em cultivos brasileiros, a floração é frequentemente observada no outono, entre março e maio, embora o período varie conforme o clone e algumas seleções também floresçam na primavera. As hastes costumam carregar de uma a três flores grandes, com pétalas largas e onduladas, em tons intensos de vermelho, vinho ou magenta e labelo vistoso. Alguns clones apresentam perfume adocicado com notas de especiarias; em outros, a fragrância pode ser mais discreta. Orquidários brasileiros relatam flores que permanecem vistosas por cerca de duas a três semanas, aproximadamente 14 a 21 dias, dependendo das condições de cultivo.",
     mesesFloracao: [3, 4, 5],
