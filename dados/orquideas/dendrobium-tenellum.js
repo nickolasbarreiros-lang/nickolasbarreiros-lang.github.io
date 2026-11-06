@@ -30,11 +30,12 @@ export const dendrobiumTenellum = {
     "habitat": "Florestas montanas úmidas a sazonais.",
     "clima": "Fresco a frio · noites amenas.",
     "climaFloracao": "A indução floral é favorecida por hastes maduras, luz filtrada forte, noites mais frescas e redução de água e adubação no inverno. A planta não precisa de seca absoluta. Durante o descanso, mantenha umidade ambiental e intervenha apenas se as hastes começarem a enrugar excessivamente.",
-    "iluminacao": {
+        "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
         "horario": "Início da manhã ou final da tarde",
-        "observacoes": "Precisa de luz filtrada média a forte e excelente circulação de ar. Sombra excessiva alonga as hastes e reduz a floração; sol direto intenso queima rapidamente os tecidos finos."
+        "observacoes": "Prefere luminosidade alta e filtrada, com excelente circulação de ar para proteger folhas e hastes delicadas. Um sombrite de 50% a 60% é uma referência inicial. Depois de aclimatada, admite sol muito suave no início da manhã ou no final da tarde, mas não sol forte. Hastes alongadas e floração escassa podem indicar pouca luz; amarelecimento brusco e manchas secas sugerem excesso de exposição. Ajuste gradualmente e evite superaquecimento.",
+        "seloLuz": "vermelho"
     },
     "floracao": "Ainda não há registros brasileiros suficientemente específicos para indicar meses de floração de Dendrobium tenellum. Produtores especializados relatam flores em diferentes épocas do ano, enquanto a descrição botânica de seu habitat em Java menciona o verão local; esses dados não permitem definir meses brasileiros com segurança. As inflorescências são muito curtas e surgem perto da ponta dos caules, geralmente com uma única flor pequena, de aproximadamente 1 a 1,2 cm. As flores são delicadas, frequentemente brancas em plantas cultivadas, embora a espécie apresente variação de cor. Um produtor especializado confirma que são perfumadas, mas não descreve notas aromáticas específicas. A duração individual é considerada curta nas referências botânicas consultadas, sem uma quantidade de dias confiável. A ausência de meses no calendário indica falta de registros nacionais suficientes, não ausência de floração no Brasil.",
     "adubacao": "🌿 Orgânica: bokashi em dose leve apenas no início da brotação.\n💧 Mineral/Foliar: adubo equilibrado a cada 10–15 dias durante crescimento ativo.\n🌱 Crescimento: mantenha nutrição até a maturação das hastes.\n🍂 Outono: reduza gradualmente.\n💤 Inverno: suspenda ou use apenas doses mínimas se houver atividade.\n🧪 Liberação lenta: poucos grânulos no início do ciclo.",
