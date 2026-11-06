@@ -23,6 +23,7 @@ export const aciantheraAuriculata = {
     },
     avaliacoes: { cultivo: 4, floracao: 4, perfume: 1, luminosidade: 2, agua: 4, raridade: 4 },
     mesesFloracao: [9, 11, 12, 1, 2],
+    mesesFloracaoIndicativos: true,
     clima: "Intermediário, úmido a moderadamente úmido e muito ventilado.",
     climaFloracao: "Os registros brasileiros recomendam cautela antes de classificá-la simplesmente como espécie quente. Há material coletado por volta de 1.400 m na Serra do Ouro Branco e registro ecológico próximo de 1.169 m no Paraná. Ao mesmo tempo, sua distribuição é ampla e inclui diferentes formações florestais. Para florescer em regiões litorâneas quentes, a estratégia não é criar frio artificial, mas reduzir o estresse térmico: sombra luminosa, forte circulação de ar, raízes que esfriem rapidamente depois da rega e, sempre que possível, noites menos abafadas. A Serra do Japi registra floração de novembro a fevereiro; outro exemplar montano floresceu em cultivo em setembro, mostrando que procedência e microclima podem deslocar a janela.",
     iluminacao: {
