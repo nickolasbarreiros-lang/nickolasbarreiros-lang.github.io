@@ -855,13 +855,13 @@ function criarCardIluminacao(iluminacao) {
     }
 
     const classesSeloLuz = {
-        vermelho: { classe: "selo-luz-vermelho", icone: "☀" },
-        amarelo: { classe: "selo-luz-amarelo", icone: "◐" },
-        azul: { classe: "selo-luz-azul", icone: "☁" }
+        vermelho: { classe: "selo-luz-vermelho", icone: "☀", rotulo: "ALTA" },
+        amarelo: { classe: "selo-luz-amarelo", icone: "◐", rotulo: "MODERADA" },
+        azul: { classe: "selo-luz-azul", icone: "☁", rotulo: "BAIXA" }
     };
     const seloSelecionado = classesSeloLuz[String(iluminacao.seloLuz || "").toLowerCase()];
     const seloLuz = seloSelecionado
-        ? `<span class="selo-luz-iconico ${seloSelecionado.classe}" aria-label="Categoria de luminosidade" title="Categoria de luminosidade">${seloSelecionado.icone}</span>`
+        ? `<span class="selo-luz-iconico ${seloSelecionado.classe}" aria-label="Luminosidade ${seloSelecionado.rotulo.toLowerCase()}" title="Luminosidade ${seloSelecionado.rotulo.toLowerCase()}">${seloSelecionado.icone}</span><span class="selo-luz-rotulo">${seloSelecionado.rotulo}</span>`
         : "";
 
     const indicadores = [
