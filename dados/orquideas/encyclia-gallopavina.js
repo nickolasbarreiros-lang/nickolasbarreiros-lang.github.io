@@ -29,11 +29,12 @@ export const encycliaGallopavina = {
     habitat: "Mata Atlântica úmida · epífita.",
     clima: "Quente a intermediário · ventilado.",
     climaFloracao: "POWO associa a espécie ao bioma tropical úmido do Sudeste brasileiro, enquanto referências de cultivo a tratam como planta de luminosidade relativamente alta e crescimento quente. A floração tende a acompanhar a maturação completa dos pseudobulbos e pode ocorrer da primavera ao verão. Uma leve redução das regas após o amadurecimento pode ajudar, mas não deve ser transformada em repouso seco rígido.",
-    iluminacao: {
+        iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
         horario: "Início da manhã ou final da tarde",
-        observacoes: "Prefere claridade alta e filtrada. Folhas muito escuras e vegetação alongada indicam falta de luz; amarelecimento intenso ou queimaduras mostram excesso de sol/calor."
+        observacoes: "Aprecia luminosidade alta e filtrada para desenvolver pseudobulbos fortes e favorecer a floração. Um sombrite de 40% a 50% é uma referência inicial, com boa circulação de ar. Depois de aclimatada, admite sol suave no início da manhã ou no final da tarde, mas deve ficar protegida do sol forte e do superaquecimento. Folhas muito escuras, crescimento alongado e floração escassa podem indicar pouca luz; amarelecimento intenso e manchas secas pedem mais proteção. Faça mudanças de exposição gradualmente.",
+        seloLuz: "vermelho"
     },
     floracao: "No Brasil, Encyclia gallopavina floresce principalmente na primavera e no verão, conforme referência botânica especializada. Ainda não foram localizados registros nacionais suficientemente específicos para atribuir meses individuais ao calendário; isso não significa ausência de floração. As hastes surgem de pseudobulbos maduros, são eretas ou levemente arqueadas, podem ramificar e alcançar aproximadamente 90 cm. Em plantas vigorosas, uma inflorescência pode reunir até cerca de 50 flores. Cada flor mede em torno de 3 cm, com sépalas e pétalas verde-oliva a amareladas, por vezes tingidas de castanho, e labelo contrastante, com centro rosado e margens claras. A espécie é perfumada: a literatura especializada compara sua fragrância ao aroma de chá, embora a intensidade possa variar entre exemplares e horários. Não há medição confiável da duração individual das flores nem do conjunto da floração especificamente para esta espécie; por isso, não se atribui um número de dias com base em outras Encyclia.",
     adubacao: "🌿 Orgânica: bokashi leve na borda do vaso a cada 60–90 dias durante crescimento ativo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/3 da dose semanal ou quinzenalmente durante brotação e enraizamento.\n🌱 Maturação: reduza excesso de nitrogênio quando o pseudobulbo estiver completo.\n🧪 Liberação lenta: pode ser usada em pequena quantidade em vasos muito drenantes.\n🚿 Lavagem: faça regas periódicas somente com água para remover sais.",
