@@ -1,0 +1,66 @@
+name: Conferir visualmente floração — Acianthera bragae
+on:
+  push:
+    paths:
+      - '.github/workflows/conferir-visual-floracao-bragae.yml'
+      - 'dados/orquideas/acianthera-bragae.js'
+      - 'ficha.js'
+      - 'orquidea.html'
+      - 'estilos.css'
+      - 'js/**'
+      - 'css/**'
+  workflow_dispatch:
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save playwright
+      - run: npx playwright install --with-deps chromium
+      - name: Validar calendário desktop e celular
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/orquidario-server.log 2>&1 &
+          node <<'JS'
+          const { chromium } = require('playwright');
+          (async()=>{
+            const browser=await chromium.launch({headless:true});
+            const page=await browser.newPage({viewport:{width:1365,height:900},deviceScaleFactor:1});
+            const errors=[];
+            page.on('pageerror',e=>errors.push(e.message));
+            await page.goto('http://127.0.0.1:8765/orquidea.html?id=acianthera-bragae',{waitUntil:'networkidle',timeout:60000});
+            const calendar=page.locator('.calendario-v2');
+            await calendar.waitFor({timeout:30000});
+            async function check(label){
+              const months=calendar.locator('.mes-floracao-v2');
+              if(await months.count()!==12)throw Error(label+': esperado 12 meses');
+              const active=calendar.locator('.mes-floracao-v2.mes-ativo-v2');
+              if(await active.count()!==5)throw Error(label+': esperado 5 meses destacados');
+              const names=(await active.allTextContents()).map(s=>s.toLowerCase());
+              for(const name of ['jan','ago','out','nov','dez'])if(!names.some(s=>s.includes(name)))throw Error(label+': mês ausente '+name+' em '+names.join(' | '));
+              if(names.some(s=>s.includes('set')))throw Error(label+': setembro não documentado marcado');
+              const note=calendar.locator('.calendario-floracao-nota');
+              if(await note.count()!==1||!(await note.innerText()).includes('Meses indicativos'))throw Error(label+': falta aviso indicativo');
+              const t=(await calendar.locator('.texto-floracao-v2').innerText()).toLowerCase();
+              for(const term of ['setembro','15 dias','flor individual','aroma'])if(!t.includes(term))throw Error(label+': falta '+term);
+              if(errors.length)throw Error(label+': erros JavaScript '+errors.join(' | '));
+            }
+            await check('desktop');
+            await calendar.screenshot({path:'floracao-bragae-desktop.png'});
+            await page.setViewportSize({width:390,height:844});
+            await check('celular');
+            if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2))throw Error('Overflow horizontal celular');
+            await calendar.screenshot({path:'floracao-bragae-celular.png'});
+            console.log('APROVADO: meses, aviso e texto em desktop e celular');
+            await browser.close();
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: floracao-bragae-capturas
+          path: floracao-bragae-*.png
+          if-no-files-found: warn
