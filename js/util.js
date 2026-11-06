@@ -119,7 +119,9 @@ export function obterStatusFloracao(
 
     if (meses.length === 0) {
         return {
-            texto: "Período não informado",
+            texto: orquidea?.statusCalendarioFloracao === "indeterminado"
+                ? "Período de floração ainda não determinado"
+                : "Período não informado",
             icone: "📅",
             classe: "status-sem-periodo",
             prioridade: 5,
