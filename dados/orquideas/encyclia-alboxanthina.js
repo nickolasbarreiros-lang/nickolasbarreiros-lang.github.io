@@ -26,11 +26,12 @@ export const encycliaAlboxanthina = {
     habitat: "Epífita e também registrada sobre rochas em ambientes tropicais sazonalmente secos.",
     clima: "Quente a intermediário, claro e ventilado.",
     climaFloracao: "A floração é favorecida por pseudobulbos bem amadurecidos, bastante luminosidade e boa diferença entre períodos de hidratação e secagem. Não necessita repouso seco rigoroso, mas o excesso constante de água prejudica raízes e maturação dos pseudobulbos.",
-    iluminacao: {
+        iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
         horario: "Início da manhã ou final da tarde",
-        observacoes: "É uma Encyclia de alta luminosidade. Em clima quente, 40% a 50% de sombreamento é um bom ponto de partida. Sombra profunda reduz a floração; sol forte nas horas mais quentes pode superaquecer folhas e pseudobulbos."
+        observacoes: "Exige luminosidade alta e filtrada para formar pseudobulbos vigorosos e florescer bem. Um sombrite de 40% a 50% é uma referência inicial em ambientes quentes, com boa ventilação. Depois de aclimatada, admite sol suave no início da manhã ou no final da tarde, evitando o sol forte que aquece folhas e pseudobulbos. Folhas firmes e crescimento compacto sugerem equilíbrio; folhas muito escuras e floração escassa podem indicar pouca luz. Amarelecimento brusco e manchas secas pedem mais proteção. Aumente a exposição aos poucos.",
+        seloLuz: "vermelho"
     },
     floracao: "No Brasil, levantamentos botânicos registram a floração de Encyclia alboxanthina de outubro a janeiro em Morro do Chapéu e até fevereiro em Mucugê; por isso, o calendário contempla outubro a fevereiro, sem pressupor que cada planta floresça durante todos esses meses. As hastes surgem de pseudobulbos maduros, são altas e podem ramificar, formando cachos com numerosas flores. Cada flor mede aproximadamente 4 cm em referência botânica e apresenta sépalas e pétalas verde-claras a amareladas, em contraste com o labelo branco, largo e arredondado, por vezes marcado de amarelo. A espécie é reconhecida pelo perfume forte. Um cultivador brasileiro relata fragrância perceptível pela manhã, semelhante a gomos de laranja ou tangerina, e observa que as flores podem adquirir tons mais alaranjados ao envelhecer; essas características sensoriais podem variar entre exemplares. Ainda não foi possível confirmar a duração de cada flor em dias, portanto não se atribui longevidade baseada em outras Encyclia.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade, preferencialmente em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias enquanto houver crescimento ativo.\n🧪 Liberação lenta: opcional, com poucos grânulos.\n🚿 Lavagem: intercale periodicamente com água pura para reduzir sais.",
