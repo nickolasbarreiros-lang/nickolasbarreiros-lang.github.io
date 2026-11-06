@@ -36,7 +36,7 @@ export const bifrenariaVerboonenii = {
         horario: "Início da manhã ou final da tarde",
         observacoes: "Prefere alta claridade filtrada. No litoral, 40% a 50% de sombra reduz superaquecimento sem escurecer demais a planta. Folhas muito escuras indicam luz insuficiente."
     },
-    floracao: "Há registros botânicos de floração no outono, embora ainda faltem observações mensais brasileiras suficientes para estabelecer um calendário preciso para esta espécie. As hastes eretas surgem na base dos pseudobulbos maduros e geralmente carregam duas ou três flores grandes, carnosas e perfumadas, com cerca de 6 cm. As flores apresentam tons amarelos a esverdeados, com labelo destacado, e dão à planta um aspecto muito vistoso. O perfume é confirmado, mas seu aroma específico não está bem descrito. Também não há medição confiável da duração de cada flor em dias; por isso, não é adequado atribuir a ela a longevidade de outras Bifrenarias.",
+    floracao: "A referência botânica específica disponível indica floração no outono. Por isso, o calendário apresenta março, abril e maio como janela sazonal aproximada para o Brasil, e não como meses individualmente comprovados por observações de orquidários brasileiros. Ainda faltam registros locais suficientes para definir com precisão o pico de floração desta espécie. As hastes eretas surgem na base dos pseudobulbos maduros e geralmente carregam duas ou três flores grandes e carnosas, com aproximadamente 6 cm. As flores têm tonalidades amarelas a esverdeadas e labelo destacado. São perfumadas, mas não há descrição confiável de um aroma específico. A duração de cada flor em dias também não está suficientemente documentada; não se deve atribuir a esta espécie a longevidade observada em outras Bifrenarias.",
     adubacao: "🌿 Orgânica: Bokashi opcional em pequena dose durante crescimento ativo.\n💧 Foliar/mineral: NPK equilibrado em aproximadamente 1/4 da dose a cada 10 a 15 dias enquanto houver crescimento e raízes ativas.\n🧪 Liberação lenta: Osmocote em baixa dose pode ser usado em vaso drenante. Após a maturação do pseudobulbo, reduza gradualmente a frequência; não é necessário suspender 100% de forma abrupta.",
     rega: "Durante crescimento ativo, regue bem e permita que o substrato drene e se aproxime da secagem antes da próxima irrigação. No outono e inverno, reduza significativamente a frequência conforme a atividade cair, mas não provoque desidratação severa dos pseudobulbos.",
     suporte: "🥇 Vaso de barro pequeno a médio, muito bem drenado.\n🥈 Cachepô de madeira bastante vazado.\n🥉 Vaso plástico muito perfurado com mistura extremamente aberta.\nMontagem nua não é a primeira opção no litoral por aumentar demais a oscilação hídrica.",
@@ -226,7 +226,7 @@ export const bifrenariaVerboonenii = {
         litoralQuente: { texto: "Difícil Noites quentes persistentes são o principal gargalo. Evite telhados, paredes quentes e recipientes que acumulem calor." },
         montanhaFrio: { texto: "Noites frescas e inverno mais seco reproduzem muito melhor as condições naturais." }
     },
-    mesesFloracao: [9, 10, 11, 12],
+    mesesFloracao: [3, 4, 5],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
