@@ -29,7 +29,7 @@ export const aciantheraAuriculata = {
     iluminacao: {
         sombrite: "70% como referência inicial",
         solDireto: "Não permitido",
-        horario: "Não permitido",
+        horario: "",
         observacoes: "Prefere bastante claridade indireta, com luz filtrada e sem sol incidindo diretamente nas folhas. Comece com cerca de 70% de sombreamento, em um local bem ventilado, e observe a resposta da planta. Folhas firmes e crescimento compacto são bons sinais; verde muito escuro acompanhado de desenvolvimento fraco ou pouca floração pode indicar falta de luz. Já manchas secas e amarelecimento repentino pedem atenção ao excesso de claridade e calor. Em dias quentes, mantenha a planta protegida do sol, mas não em sombra escura.",
         seloLuz: "azul"
     },
