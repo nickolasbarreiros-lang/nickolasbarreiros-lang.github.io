@@ -9855,3 +9855,9 @@ main.container{
         min-height: 0;
     }
 }
+
+/* Selos iconográficos de luz: a categoria é definida por espécie, nunca só pelo sombrite. */
+.selo-luz-iconico{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;margin-right:7px;vertical-align:middle;font-size:19px;font-weight:700;line-height:1;box-shadow:inset 0 0 0 1px rgba(0,0,0,.08)}
+.selo-luz-vermelho{background:#fce1df;color:#b42318}
+.selo-luz-amarelo{background:#fff0bd;color:#996500}
+.selo-luz-azul{background:#e2edff;color:#205db3}
