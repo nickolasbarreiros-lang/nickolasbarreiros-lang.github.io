@@ -27,10 +27,11 @@ export const cattleyaABrazilianDream = {
     clima: "Quente a intermediário · luminoso e ventilado.",
     climaFloracao: "A floração deve ser interpretada a partir do ciclo do clone, e não de um calendário rígido. O botão é consequência de pseudobulbos bem formados, luz adequada, reservas suficientes e raízes saudáveis. A influência de C. nobilior justifica maior secagem após a maturação, mas C. loddigesii torna inadequado copiar automaticamente um repouso extremamente seco. O intervalo deve aumentar somente quando a atividade radicular realmente diminuir.",
     iluminacao: {
-        sombrite: "40% a 60% — ~50% no litoral quente",
+        sombrite: "40% a 60%; cerca de 50% em ambientes muito quentes",
         solDireto: "Permitido com restrição",
         horario: "Início da manhã ou final da tarde",
-        observacoes: "Necessita luz alta filtrada. Crescimento compacto, folhas firmes e pseudobulbos bem formados são indicadores melhores que buscar bronzeamento das folhas. A tolerância exata varia entre seedlings."
+        observacoes: "Este híbrido aprecia luminosidade alta e filtrada para formar pseudobulbos fortes e favorecer a floração. Um sombrite de 40% a 60% é uma referência inicial; em ambientes muito quentes, comece próximo de 50% e observe a resposta da planta. Depois de aclimatada, pode receber sol direto suave no início da manhã ou no final da tarde, evitando as horas mais quentes. Folhas firmes e crescimento compacto são bons sinais; folhas muito escuras e pseudobulbos fracos podem sugerir pouca luz, enquanto manchas secas indicam excesso. A tolerância varia entre plantas do mesmo cruzamento, por isso ajuste a exposição aos poucos.",
+        seloLuz: "vermelho"
     },
     floracao: "A época de floração pode variar entre plantas deste híbrido, sem um calendário mensal brasileiro confirmado especificamente para o grex. Seus parentais costumam florescer entre o inverno e a primavera, mas essa tendência não determina o comportamento de cada muda. Em cruzamentos brasileiros de Cattleya nobilior com Cattleya loddigesii, produtores relatam flores grandes, com cerca de 10 a 12 cm, geralmente até três por haste, em tonalidades rosadas ou lilases com labelo destacado. Há relatos de perfume leve e duração aproximada de duas semanas, cerca de 14 dias, nesses cruzamentos semelhantes. Esses valores são referências, não medidas verificadas para todas as plantas de A Brazilian Dream.",
     "mesesFloracao": [],
