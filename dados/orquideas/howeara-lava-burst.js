@@ -27,7 +27,7 @@ export const howearaLavaBurst = {
         observacoes: "Prefere luminosidade moderada a intensa, bem filtrada, para formar pseudobulbos firmes e hastes florais vigorosas. Um sombrite de 50% a 60% é uma referência inicial, com boa ventilação e proteção contra calor excessivo. Depois de aclimatada, admite sol direto muito suave somente no início da manhã. Folhas firmes e crescimento compacto sugerem equilíbrio; folhas muito escuras e pseudobulbos pequenos podem indicar pouca luz. Amarelecimento rápido e manchas secas pedem mais proteção. Ajuste gradualmente.",
         seloLuz: "amarelo"
     },
-    floracao: "Pode florescer mais de uma vez ao ano, após a maturação dos novos pseudobulbos. As hastes finas e ramificadas carregam numerosas flores estreladas, com cerca de 2 a 3 cm, em tons vermelho-vivos a vermelho-alaranjados e detalhes claros ou amarelos no centro. O cultivar Puanani geralmente não apresenta perfume perceptível. A inflorescência pode permanecer vistosa por até cerca de dois meses em condições favoráveis.",
+    floracao: "Pode florescer mais de uma vez ao ano, após a maturação dos novos pseudobulbos. Há registros de outubro em cultivo internacional, sem época fixa comprovada para o Brasil. As hastes finas e ramificadas carregam numerosas flores estreladas, com cerca de 2 a 3 cm, em tons vermelho-vivos a vermelho-alaranjados e detalhes claros ou amarelos no centro. O cultivar Puanani geralmente não apresenta perfume perceptível. A inflorescência pode permanecer vistosa por até cerca de dois meses em condições favoráveis.",
     adubacao: "🌿 Orgânica: bokashi em dose mínima e sempre afastado do coleto.\n💧 Foliar: NPK equilibrado em 1/4 da dose a cada 7–15 dias enquanto houver raízes e brotos ativos.\n🧪 Liberação lenta: poucos grânulos apenas em vaso muito drenante.\n💦 Lavagem: uma vez por mês, passe água limpa em abundância pelo substrato para reduzir sais acumulados.",
     rega: "Regue quando a superfície começar a secar, mantendo umidade leve e regular sem deixar o miolo do vaso saturado. Os pseudobulbos pequenos guardam pouca água e não devem enrugar repetidamente. No inverno ou em períodos chuvosos, reduza apenas de acordo com a evaporação real.",
     suporte: "🥇 Vaso plástico pequeno e muito perfurado.\n🥈 Cachepô pequeno e bem ventilado.\n🥉 Vaso de barro pequeno em ambientes onde a secagem não seja rápida demais.",
@@ -209,7 +209,7 @@ export const howearaLavaBurst = {
         litoralQuente: { texto: "Proteja do sol forte da tarde, mantenha circulação de ar contínua e evite recipientes grandes que permaneçam quentes e molhados por muito tempo." },
         montanhaFrio: { texto: "Reduza as regas apenas nos períodos frios de baixa evaporação e proteja de temperaturas muito baixas." }
     },
-    mesesFloracao: [],
+    mesesFloracao: [10],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
