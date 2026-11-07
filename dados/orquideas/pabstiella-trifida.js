@@ -1,6 +1,7 @@
 // Ficha comparada, consolidada e maximamente enriquecida — padrão editorial V4.
 
 export const pabstiellaTrifida = {
+    dica: "🏆 Esta Pabstiella forma pequenas touceiras de folhas estreitas e raízes delicadas, que precisam de umidade regular sem abafamento. Prefira suporte rugoso com uma camada fina de esfagno solto, em local sombreado e ventilado. Regue conforme a secagem, evitando que a montagem permaneça completamente seca por longos períodos. Não cubra as bases dos caules com material compacto, pois as flores pequenas podem surgir próximas à folhagem. Preserve grupos enraizados e evite divisões frequentes, que retardam a recuperação.",
     "id": "pabstiella-trifida",
     "nome": "Pabstiella trifida",
     "genero": "Pabstiella",
