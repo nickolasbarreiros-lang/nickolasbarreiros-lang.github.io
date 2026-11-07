@@ -36,7 +36,7 @@ export const encycliaGallopavina = {
         observacoes: "Aprecia luminosidade alta e filtrada para desenvolver pseudobulbos fortes e favorecer a floração. Um sombrite de 40% a 50% é uma referência inicial, com boa circulação de ar. Depois de aclimatada, admite sol suave no início da manhã ou no final da tarde, mas deve ficar protegida do sol forte e do superaquecimento. Folhas muito escuras, crescimento alongado e floração escassa podem indicar pouca luz; amarelecimento intenso e manchas secas pedem mais proteção. Faça mudanças de exposição gradualmente.",
         seloLuz: "vermelho"
     },
-    floracao: "Floresce principalmente na primavera e no verão. As hastes eretas ou levemente arqueadas surgem de pseudobulbos maduros, podem se ramificar e alcançar cerca de 90 cm. Plantas vigorosas podem produzir até 50 flores por inflorescência, com aproximadamente 3 cm cada. Sépalas e pétalas verde-oliva a amareladas contrastam com o labelo de centro rosado e margens claras. O perfume é agradável e pode lembrar chá. A duração das flores varia conforme o cultivo.",
+    floracao: "Floresce principalmente da primavera ao verão, com setembro a fevereiro como período provável no Brasil. As hastes eretas ou levemente arqueadas surgem de pseudobulbos maduros, podem se ramificar e alcançar cerca de 90 cm. Plantas vigorosas podem produzir até 50 flores por inflorescência, com aproximadamente 3 cm cada. Sépalas e pétalas verde-oliva a amareladas contrastam com o labelo de centro rosado e margens claras. O perfume é agradável e pode lembrar chá. A duração das flores varia conforme o cultivo.",
     adubacao: "🌿 Orgânica: bokashi leve na borda do vaso a cada 60–90 dias durante crescimento ativo.\n💧 Mineral/Foliar: NPK equilibrado em 1/4 a 1/3 da dose semanal ou quinzenalmente durante brotação e enraizamento.\n🌱 Maturação: reduza excesso de nitrogênio quando o pseudobulbo estiver completo.\n🧪 Liberação lenta: pode ser usada em pequena quantidade em vasos muito drenantes.\n🚿 Lavagem: faça regas periódicas somente com água para remover sais.",
     rega: "Regue abundantemente durante a formação de novos brotos e raízes, sempre permitindo drenagem completa. Após o pseudobulbo amadurecer, aumente um pouco o intervalo entre regas, sem desidratar severamente a planta. No litoral quente, ajuste a frequência pela velocidade real de secagem, não pelo calendário.",
     suporte: "🥇 Cachepô de madeira bem vazado — excelente aeração para raízes grossas.\n🥈 Vaso pequeno de barro — ajuda na evaporação e estabilidade.\n🥉 Placa de cortiça ou madeira — boa opção em ambientes úmidos e com regas frequentes.",
@@ -216,7 +216,7 @@ export const encycliaGallopavina = {
         litoralQuente: { texto: "Desde que receba ventilação contínua, alta luminosidade filtrada e secagem rápida do substrato. Evite calor parado e noites com raízes saturadas." },
         montanhaFrio: { texto: "Em períodos frios e nublados, reduza a frequência das regas para acompanhar a menor evaporação." }
     },
-    mesesFloracao: [],
+    mesesFloracao: [1, 2, 9, 10, 11, 12],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
