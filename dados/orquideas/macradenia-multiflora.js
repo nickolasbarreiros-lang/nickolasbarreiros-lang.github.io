@@ -99,7 +99,7 @@ export const macradeniaMultiflora = {
         "Posicionar a planta onde a haste pendente fique presa ou apoiada sobre o substrato."
     ],
 
-    dica: "🏆 Dê espaço para a haste cair livremente. Um cesto pequeno ou montagem bem ventilada combina muito bem com a espécie: facilita a drenagem, deixa a inflorescência pendente aparecer inteira e permite manter regas frequentes sem sufocar as raízes.",
+    dica: "🏆 Nesta espécie, as hastes florais surgem pendentes e precisam de espaço livre abaixo da planta. Escolha cesto suspenso ou montagem ventilada, evitando prateleiras que possam dobrar ou esconder as inflorescências. Durante o crescimento, mantenha umidade regular e luz filtrada, com drenagem rápida após as regas. Não compacte material retentor em torno das raízes: aeração é tão importante quanto hidratação. Quando os botões estiverem se formando, evite mudar a posição da planta e preserve a estabilidade do suporte.",
 
     revisaoCientificaIAR: {
         nome: "Macradenia multiflora (Kraenzl.) Cogn.",
