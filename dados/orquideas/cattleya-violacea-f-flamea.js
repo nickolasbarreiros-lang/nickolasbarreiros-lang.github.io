@@ -42,7 +42,7 @@ export const cattleyaViolaceaFFlamea = {
     "substrato": ["Casca de pinus média + Fibra de coco lavada + Carvão vegetal médio + Casca de arroz carbonizada","Casca de macadâmia média + Casca de pinus média + Fibra de coco lavada + Carvão vegetal médio"],
 
     "errosComuns": "Expor a frio prolongado; impor repouso seco; deixar raízes secas por vários dias; manter substrato saturado; usar pouca ventilação; cultivar em sombra profunda; deixar água no rizoma; regar à noite; usar substrato fino; aplicar excesso de adubo; replantar sem raízes novas; confundir alta umidade do ar com encharcamento.",
-    "dica": "O segredo não é simplesmente regar mais, mas manter calor, umidade e ar em equilíbrio. Use cesto ou vaso muito perfurado, regue com frequência pela manhã e permita que a superfície das raízes respire. Mantenha noites quentes e nunca aplique um repouso seco típico de Cattleyas do Sudeste. A planta deve permanecer hidratada e metabolicamente ativa sem ficar encharcada.",
+    "dica": "🏆 Esta Cattleya de florestas tropicais quentes não deve receber o mesmo repouso seco aplicado a espécies de ambientes mais sazonais. Mantenha calor, boa umidade atmosférica e circulação de ar, com regas frequentes durante o crescimento e secagem adequada das raízes entre elas. Prefira cesto ventilado ou vaso com drenagem eficiente. Evite noites frias e substrato constantemente encharcado. A coloração flamea é característica genética do exemplar: o manejo correto favorece vigor e floração, mas não cria o padrão floral.",
     formasCultivo: {
         perfilVisual: "cattleya",
         destaque: "Cachepô de Madeira",
