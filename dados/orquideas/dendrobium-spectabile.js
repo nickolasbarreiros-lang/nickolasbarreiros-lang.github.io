@@ -27,10 +27,10 @@ export const dendrobiumSpectabile = {
     clima: "Quente a intermediário, úmido e muito ventilado.",
     climaFloracao: "Plantas maduras florescem melhor depois de uma estação de crescimento vigoroso e bem iluminado. AOS indica que um período ligeiramente mais fresco e com regas moderadamente reduzidas pode favorecer a floração de plantas adultas; não é repouso de seca extrema. Em clima quente, o desenvolvimento vegetativo tende a ser favorecido.",
     iluminacao: {
-        sombrite: "40% a 60%",
-        solDireto: "Permitido com restrição",
-        horario: "Início da manhã ou final da tarde",
-        observacoes: "Precisa de luminosidade alta para amadurecer hastes robustas e favorecer a floração. Um sombrite de 40% a 60% é uma referência inicial, com ventilação abundante e proteção contra o sol mais agressivo. Depois de aclimatada, admite sol suave no início da manhã ou no final da tarde; evite superaquecimento das folhas. Hastes firmes e crescimento vigoroso sugerem boa exposição; hastes fracas e floração escassa podem indicar pouca luz. Amarelecimento rápido e manchas secas pedem maior proteção. Faça a aclimatação gradualmente.",
+        sombrite: "60% a 70%",
+        solDireto: "Não permitido",
+        horario: "",
+        observacoes: "Precisa de luminosidade alta, porém indireta e bem filtrada, para desenvolver hastes robustas e favorecer a floração. Um sombrite de 60% a 70% é uma referência inicial de cultivo, com ventilação abundante e umidade adequada. Evite sol direto sobre as folhas, especialmente em ambientes quentes. Hastes firmes e crescimento vigoroso sugerem boa exposição; hastes fracas e floração escassa podem indicar pouca luz. Amarelecimento rápido e manchas secas pedem maior proteção. Ajuste a claridade gradualmente.",
         seloLuz: "vermelho"
     },
     floracao: "Em cultivo brasileiro, Dendrobium spectabile apresenta floração variável: produtores indicam tanto o inverno quanto o final do inverno e a primavera. Junho a outubro permanece no calendário como janela sazonal aproximada, sem confirmação independente de cada mês; exemplares podem florescer fora dela. As inflorescências surgem perto da ponta das hastes maduras e formam cachos de flores grandes e incomuns, com sépalas e pétalas muito retorcidas, onduladas e de aparência escultórica. As cores combinam creme ou verde-amarelado com manchas castanhas e arroxeadas, e o labelo é igualmente recortado e vistoso. Há relatos de perfume suave, mas ainda não foram confirmadas notas aromáticas específicas consistentes. O Orquidário Itaipava informa floração média de cerca de 20 dias, enquanto Orquídeas & Cia relata flores que podem durar até um mês; a longevidade varia com a planta e as condições de cultivo.",
