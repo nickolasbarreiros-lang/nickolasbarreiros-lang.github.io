@@ -34,7 +34,7 @@ export const epidendrumCentropetalum = {
         observacoes: "Prefere luminosidade moderada a intensa, sempre bem filtrada nos períodos mais quentes. Um sombrite de 50% a 60% é uma referência inicial, com ventilação constante para proteger folhas e raízes aéreas. Depois de aclimatada, admite sol muito suave no início da manhã ou no final da tarde, evitando calor excessivo. Caules firmes e crescimento regular indicam bom equilíbrio; caules fracos e poucas flores podem sugerir sombra excessiva. Amarelecimento rápido, manchas secas e desidratação pedem maior proteção. Ajuste a exposição aos poucos.",
         seloLuz: "amarelo"
     },
-    floracao: "Pode florescer em diferentes épocas do ano, ainda sem meses definidos para o cultivo brasileiro. As inflorescências surgem no topo dos caules maduros ou de brotações laterais, com aproximadamente quatro a treze flores que costumam abrir quase ao mesmo tempo. Cada flor mede cerca de 2 a 3 cm, em tons de rosa intenso a lilás, com mancha branca na base do labelo e detalhe amarelo no centro. Geralmente não apresenta perfume perceptível. O conjunto da floração pode permanecer vistoso por até dois meses.",
+    floracao: "Entre novembro e março é o período registrado na região de origem; no cultivo brasileiro, a época pode variar conforme o clima. As inflorescências surgem no topo dos caules maduros ou de brotações laterais, com aproximadamente quatro a treze flores que costumam abrir quase ao mesmo tempo. Cada flor mede cerca de 2 a 3 cm, em tons de rosa intenso a lilás, com mancha branca na base do labelo e detalhe amarelo no centro. Geralmente não apresenta perfume perceptível. O conjunto da floração pode permanecer vistoso por até dois meses.",
     adubacao: "🌿 Orgânica: bokashi apenas em pequena quantidade e preferencialmente em porta-adubo, longe das raízes expostas.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional em vaso ou cesto, usando poucos grânulos.\n🚿 Lavagem: faça regas periódicas apenas com água pura para evitar acúmulo de sais.",
     rega: "Mantenha hidratação regular durante todo o ano, sobretudo enquanto os caules e raízes estão em crescimento. O suporte deve drenar rapidamente e nunca permanecer encharcado. Depois que os caules amadurecem, pode-se ampliar discretamente o intervalo entre regas, sem permitir desidratação prolongada.",
     suporte: [
@@ -228,7 +228,7 @@ export const epidendrumCentropetalum = {
         litoralQuente: { texto: "Pode crescer bem com 50% a 60% de sombreamento, umidade alta e ventilação constante, mas noites muito quentes e abafadas podem reduzir vigor e floração." },
         montanhaFrio: { texto: "Noites frescas e boa umidade se aproximam bastante das condições montanas onde a espécie ocorre naturalmente." }
     },
-    mesesFloracao: [],
+    mesesFloracao: [1, 2, 3, 11, 12],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-repouso", "evitarEncharcamento": true },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
