@@ -17,7 +17,7 @@ export const epidendrumHokuleaSuperRed = {
         rega: { nivel: "moderada" },
         climaFloracao: { faixa: "quente" }
     },
-    mesesFloracao: [],
+    mesesFloracao: [4, 5],
     clima: "Quente a intermediário · luminoso · muito ventilado",
     climaFloracao: "A Atlanta Orchid Society recomenda cultivar Hokulea quente e com luz forte, em meio poroso que seque entre as regas. A predominância genética de E. cinnabarinum reforça a boa compatibilidade com calor. Para o litoral quente, a quebra térmica não é requisito central: a prioridade é maturar canas fortes sob luminosidade alta, sem superaquecer folhas e raízes.",
         iluminacao: {
@@ -27,7 +27,7 @@ export const epidendrumHokuleaSuperRed = {
         observacoes: "Necessita luminosidade muito alta para formar canas vigorosas e favorecer a floração. Em ambientes quentes, comece com sombrite de 40% a 50% e ajuste gradualmente dentro da faixa de 30% a 50%, mantendo boa ventilação. Depois de aclimatada, admite sol suave no início da manhã ou no final da tarde; evite calor excessivo. Folhas firmes, de verde médio a verde-claro, indicam bom equilíbrio. Folhas muito escuras e canas fracas sugerem pouca luz; amarelecimento brusco e manchas secas pedem maior proteção.",
         seloLuz: "vermelho"
     },
-    floracao: "Pode florescer após a maturação dos caules, ainda sem época definida para este cultivar. As inflorescências surgem nas extremidades das hastes e formam conjuntos densos de flores vermelho-intensas, estreladas e com labelo recortado. Os botões podem abrir sucessivamente, prolongando a apresentação da mesma haste enquanto ela permanecer verde e ativa. O perfume não é bem caracterizado, e a duração total da floração varia conforme o exemplar.",
+    floracao: "Há registros de floração em abril e maio em coleções internacionais; no Brasil, o período pode variar conforme o cultivo e a maturação dos caules. As inflorescências surgem nas extremidades das hastes e formam conjuntos densos de flores vermelho-intensas, estreladas e com labelo recortado. Os botões podem abrir sucessivamente, prolongando a apresentação da mesma haste enquanto ela permanecer verde e ativa. O perfume não é bem caracterizado, e a duração total da floração varia conforme o exemplar.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade, preferencialmente em porta-adubo, durante crescimento vigoroso.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20 ou equivalente, em 1/4 a 1/3 da dose do fabricante a cada 7–15 dias enquanto novas canas e raízes estiverem ativas.\n🧪 Liberação lenta: pode ser usada em dose moderada em vasos grandes. Como a Atlanta Orchid Society recomenda fertilização leve durante o ano, não há necessidade de forçar fósforo antes da floração; luz, maturidade das canas e raízes saudáveis são mais determinantes.",
     rega: "Regue abundantemente durante crescimento ativo e permita secagem perceptível do substrato antes da próxima irrigação. A referência específica do Hokulea recomenda meio poroso que seque entre regas. No verão quente da Serra, isso normalmente significa regas mais frequentes, mas nunca manter o interior do vaso permanentemente molhado. No período de menor crescimento, reduza pela velocidade real de secagem, sem impor dormência seca.",
     suporte: ["🥇 Vaso plástico firme e proporcional à touceira, com tutoramento quando necessário.", "🥈 Vaso de barro para ambientes muito úmidos ou com secagem lenta.", "🥉 Cesto de madeira para cultivo muito ventilado, compensando com regas mais frequentes."],
