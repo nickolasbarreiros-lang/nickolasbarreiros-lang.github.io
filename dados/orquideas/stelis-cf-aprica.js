@@ -22,7 +22,7 @@ export const stelisCfAprica = {
       "https://www.orquideasmantovani.com.br/store-1200x1200-eaec8bbd83da6db9.jpg",
       "https://fm-digital-assets.fieldmuseum.org/1499/219/ORCH_Stelis_aprica_bra_caze47.jpg",
       "https://cdn.awsli.com.br/600x450/2446/2446161/produto/164685411/8c78b8fffb.jpg",
-      "https://live.staticflickr.com/3181/2806908417_9d818b8405_b.jpg"
+      "https://www.orquideasmantovani.com.br/store-1200x1200-66192db0ca56e6e3.jpg"
     ],
     selosCultivo: { rega: { nivel: "frequente" }, climaFloracao: { faixa: "quente" } },
     avaliacoes: {
