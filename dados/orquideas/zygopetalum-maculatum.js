@@ -50,7 +50,8 @@ export const zygopetalumMaculatum = {
         metodos: [
             { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: null, status: "Mais recomendado na ficha", texto: "Vaso de barro bem perfurado, proporcional à touceira, em bancada baixa e ventilada para favorecer resfriamento evaporativo." },
             { nome: "Vaso plástico", asset: "vaso-plastico", estrelas: null, status: "Alternativa", texto: "Vaso claro, largo e relativamente baixo, protegido de aquecimento pelo sol e com boa drenagem." },
-            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Uso condicional", texto: "Recipiente claro e muito perfurado, com monitoramento da secagem para evitar desidratação prolongada." }
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado", estrelas: null, status: "Uso condicional", texto: "Recipiente claro e muito perfurado, com monitoramento da secagem para evitar desidratação prolongada." },
+            { nome: "Cachepô de madeira", asset: "cesto-madeira", estrelas: null, status: "Uso condicional", texto: "Cachepô pequeno com forração leve e mistura que retenha umidade sem encharcar; exige regas cuidadosas para evitar ressecamento das raízes." }
         ]
     },
     substratoVisual: {
