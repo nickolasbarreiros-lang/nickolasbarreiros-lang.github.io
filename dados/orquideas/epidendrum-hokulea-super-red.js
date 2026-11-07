@@ -99,5 +99,5 @@ export const epidendrumHokuleaSuperRed = {
         litoral:{texto:"Excelente candidato para Serra/ES. Calor não é o principal obstáculo; forneça 30–50% de sombreamento, ventilação forte e mistura que seque rapidamente. O risco mais comum é cultivar escuro demais."},
         montanha:{texto:"Também pode crescer muito bem, mas proteja de frio forte prolongado. Aproveite luz abundante e reduza a frequência de rega apenas quando a evaporação realmente cair."}
     },
-    dica: "🏆 Trate o ‘Super Red’ como um Epidendrum de sol filtrado, não como uma orquídea de sombra: canas maduras, muita luz e raízes que respiram são o caminho mais seguro para formar grandes cabeças vermelhas."
+    dica: "🏆 Neste híbrido de forte herança de Epidendrum cinnabarinum, a luminosidade é decisiva para formar caules robustos e grandes conjuntos de flores vermelhas. Ofereça luz intensa, introduzindo gradualmente o sol suave da manhã, com ventilação constante. Durante a brotação, mantenha regas regulares e adubação equilibrada, sem deixar raízes abafadas. Não corte hastes ainda verdes apenas porque algumas flores murcharam: novas flores podem abrir sucessivamente. Observe o vigor dos caules antes de aumentar fertilizantes ou exposição solar."
 };
