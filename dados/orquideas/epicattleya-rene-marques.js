@@ -31,7 +31,7 @@ export const epicattleyaReneMarques = {
         observacoes: "Exige luminosidade alta, próxima à de muitas Cattleyas, para formar caules firmes e favorecer a floração. Um sombrite de 40% a 50% é uma referência inicial, com boa circulação de ar. Depois de aclimatada, admite sol suave no início da manhã ou no final da tarde, evitando o sol forte prolongado. Folhas verde-claras e caules robustos sugerem equilíbrio; folhas muito escuras e floração escassa podem indicar pouca luz. Amarelecimento brusco e manchas secas pedem maior proteção. Aumente a exposição gradualmente.",
         seloLuz: "vermelho"
     },
-    floracao: "Pode florescer em diferentes estações, conforme o clone e o cultivo. As hastes surgem no alto dos caules maduros e carregam cachos de flores cerosas, às vezes com até dez flores por haste. Cada flor mede cerca de 4 cm, com sépalas e pétalas verdes e labelo contrastante em tons de amarelo, rosa, laranja ou vermelho. O perfume costuma ser pouco perceptível. A floração pode durar aproximadamente 14 a 25 dias.",
+    floracao: "Há registro de floração em julho no Brasil, mas o período pode variar conforme o clone e o cultivo. As hastes surgem no alto dos caules maduros e carregam cachos de flores cerosas, às vezes com até dez flores por haste. Cada flor mede cerca de 4 cm, com sépalas e pétalas verdes e labelo contrastante em tons de amarelo, rosa, laranja ou vermelho. O perfume costuma ser pouco perceptível. A floração pode durar aproximadamente 14 a 25 dias.",
     adubacao: "🌿 Orgânica: bokashi leve no canto do vaso a cada 2–3 meses durante o crescimento.\n💧 Foliar: NPK equilibrado a cerca de 1/3 da dose semanalmente ou a cada 10–15 dias.\n🧪 Pré-floração: reduza o excesso de nitrogênio e mantenha adubação equilibrada e diluída. Uma fórmula moderadamente mais rica em potássio pode ser alternada ocasionalmente, sem usar doses elevadas de fósforo ou sais.",
     rega: "Regue generosamente durante a emissão de brotos e raízes, permitindo que o substrato se aproxime da secagem antes da próxima irrigação. Reduza a frequência no inverno ou quando não houver crescimento ativo. Evite água acumulada no miolo das folhas e nas inflorescências em formação.",
     suporte: "🥇 Vaso de barro firme e bem drenado.\n🥈 Vaso plástico com furação lateral abundante.\n🥉 Cachepô de madeira robusto.\n🌿 Placa de madeira apenas para divisões jovens e vigorosas.",
@@ -213,7 +213,7 @@ export const epicattleyaReneMarques = {
         litoralQuente: { texto: "Em regiões litorâneas quentes, Garanta ventilação forte, luz alta filtrada e substrato de secagem rápida. O porte pode ultrapassar 1,20 m, por isso reserve espaço e use tutor quando necessário." },
         montanhaFrio: { texto: "Proteja de geadas e ventos muito frios, reduza a rega em dias de baixa temperatura e evite deixar raízes molhadas durante a noite." }
     },
-    mesesFloracao: [],
+    mesesFloracao: [7],
     "selosCultivo": {
         "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "quente" }
