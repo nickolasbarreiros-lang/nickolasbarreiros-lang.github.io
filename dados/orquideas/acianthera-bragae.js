@@ -212,5 +212,5 @@ export const aciantheraBragae = {
         litoral: { texto: "Quando recebe sombra clara, ventilação máxima e suporte raso/aberto. A indicação de crescimento quente ajuda, mas a origem a 700–1.000 m recomenda atenção especial às noites muito abafadas do verão." },
         montanha: { texto: "Condições geralmente favoráveis, sobretudo pela amplitude térmica. Em períodos frios e úmidos, reduza as regas conforme o suporte permanecer molhado por mais tempo, sem impor seca prolongada." }
     },
-    dica: "🏆 Prefira placa de madeira ou vasos largos e rasos para dar espaço ao crescimento rasteiro da planta, mantenha o rizoma exposto e garanta alta circulação de ar com raízes sempre úmidas."
+    dica: "🏆 Aproveite o crescimento rastejante desta espécie: em vez de acomodá-la profundamente em um vaso, ofereça uma superfície larga, rasa e arejada onde o rizoma possa avançar. Placas de madeira ou recipientes baixos facilitam esse desenvolvimento, desde que as raízes finas recebam umidade regular. Não cubra o rizoma com substrato compacto, pois isso favorece abafamento e prejudica novos brotos. Observe as pontas das raízes para ajustar as regas: o objetivo é hidratação frequente, sem manter água parada na base da touceira."
 };
