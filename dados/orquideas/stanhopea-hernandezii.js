@@ -37,7 +37,7 @@ export const stanhopeaHernandezii = {
         "observacoes": "Prefere luminosidade moderada e filtrada, em meia-sombra clara e com boa ventilação. Um sombrite de 60% a 70% é uma referência inicial. Depois de aclimatada, admite sol muito suave somente no início da manhã, evitando o sol forte sobre as folhas plissadas. Folhas firmes e verde-médias sugerem equilíbrio; sombra profunda pode reduzir a floração. Amarelecimento rápido e manchas secas pedem maior proteção. Ajuste a exposição gradualmente.",
         "seloLuz": "amarelo"
     },
-    "floracao": "A época de floração ainda varia conforme o cultivo; na região de origem, há registros entre setembro e janeiro. As hastes surgem na base da planta e crescem para baixo, atravessando o fundo de cestos abertos. Costumam carregar duas ou três flores grandes e cerosas, com aproximadamente 9 a 12 cm, em tons claros ou amarelados, com manchas avermelhadas ou castanhas e labelo elaborado. O perfume é intenso. Cada flor dura poucos dias, característica marcante das Stanhopea.",
+    "floracao": "Há registros de floração entre setembro e janeiro na região de origem, período usado como referência inicial; no cultivo brasileiro, a época pode variar. As hastes surgem na base da planta e crescem para baixo, atravessando o fundo de cestos abertos. Costumam carregar duas ou três flores grandes e cerosas, com aproximadamente 9 a 12 cm, em tons claros ou amarelados, com manchas avermelhadas ou castanhas e labelo elaborado. O perfume é intenso. Cada flor dura poucos dias, característica marcante das Stanhopea.",
     "adubacao": "🌿 Orgânica: bokashi em pequena quantidade nas bordas da cesta.\n💧 Mineral/Foliar: NPK equilibrado em meia dose a cada 7–10 dias na fase de brotação.\n🌱 Crescimento: mantenha boa nutrição até completar o enchimento dos pseudobulbos.\n🧪 Liberação lenta: Osmocote em dose moderada, longe de brotos e raízes novas.\n🌸 Emissão floral: evite mudanças bruscas de manejo.",
     "rega": "Durante a brotação, mantenha o substrato constantemente levemente úmido, nunca seco por longos períodos. Após a maturação dos pseudobulbos, reduza discretamente a frequência. Regue preferencialmente pela manhã e evite manter a cesta encharcada à noite.",
     "suporte": "🥇 Cesta vazada de madeira — suporte ideal e praticamente obrigatório.\n🥈 Cachepô suspenso com fundo aberto — excelente alternativa.\n🥉 Cesto aramado/plástico revestido com fibra solta — funcional se totalmente vazado.\nO fundo deve permanecer livre de ripas fechadas, telas densas ou obstáculos.",
@@ -216,7 +216,7 @@ export const stanhopeaHernandezii = {
         "litoralQuente": "Em clima quente, cultive no setor sombreado e mais ventilado, elevando a umidade do ar sem saturar a cesta à noite.",
         "montanhaFrio": "Muito favorável em clima intermediário; proteja apenas de geadas e frio extremo."
     },
-    "mesesFloracao": [],
+    "mesesFloracao": [1, 9, 10, 11, 12],
     "selosCultivo": {
         "rega": { "nivel": "muito-frequente", "regime": "reduzir-repouso" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
