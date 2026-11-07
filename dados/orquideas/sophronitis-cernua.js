@@ -36,7 +36,7 @@ export const sophronitisCernua = {
     adubacao: "🌿 Orgânica: Bokashi em dose mínima, preferencialmente em porta-adubo.\n💧 Foliar: NPK 20-20-20 em 1/8 a 1/4 da dose, a cada 7 a 15 dias durante o crescimento.\n🧪 Liberação lenta: pouquíssimos grânulos de Osmocote em porta-adubo fixado acima da touceira.",
     rega: "Regue abundantemente pela manhã e assegure que raízes e suporte sequem ao longo do dia. Em plantas montadas, as regas podem ser diárias no verão. Após a maturação dos brotos, reduza ligeiramente a frequência sem deixar os pequenos pseudobulbos desidratarem.",
     suporte: "🥇 Placa de madeira dura.\n🥈 Cortiça natural.\n🥉 Galho fino de casca rugosa ou pequeno cachepô muito vazado.",
-    dica: "Cultive montada em madeira ou cortiça e pendurada em ponto alto, claro e muito ventilado. Sua tolerância ao calor é boa, mas as raízes precisam secar rapidamente para permanecer saudáveis.",
+    dica: "🏆 Esta Cattleya miniatura tolera condições mais quentes que muitas antigas Sophronitis, desde que as raízes recebam bastante ar. Prefira montagem em madeira ou cortiça, com luz intensa filtrada e adaptação gradual ao sol suave. Regue generosamente durante o crescimento, permitindo secagem rápida do suporte. Evite esfagno compacto ao redor dos pseudobulbos e não divida touceiras pequenas. Para favorecer as flores alaranjadas, priorize brotos maduros e boa luminosidade, sem recorrer a períodos artificiais de seca intensa.",
     formasCultivo: {
         perfilVisual: "cattleya",
         destaque: "Placa / tronco",
