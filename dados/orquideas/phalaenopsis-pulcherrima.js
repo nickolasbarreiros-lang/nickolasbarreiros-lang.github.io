@@ -34,7 +34,7 @@ export const phalaenopsisPulcherrima = {
         observacoes: "Prefere luminosidade moderada a intensa e filtrada, maior que a de muitas Phalaenopsis epífitas. Um sombrite de 50% a 60% é uma referência inicial, com boa ventilação. Depois de aclimatada, admite sol muito suave somente no início da manhã, evitando folhas aquecidas. Folhagem muito escura e crescimento fraco podem indicar pouca luz; amarelecimento brusco e manchas secas pedem maior proteção. Aumente a exposição gradualmente.",
         seloLuz: "amarelo"
     },
-    floracao: "Floresce principalmente no verão, com registros de cultivo em fevereiro e maio. As hastes eretas podem se aproximar de um metro e carregar numerosas flores de 1,25 a 3 cm, que se abrem sucessivamente. As cores variam do branco e rosa ao vermelho e púrpura, com labelo característico. O perfume costuma ser discreto ou ausente. Cada flor pode durar poucos dias, mas a abertura gradual dos botões mantém a haste vistosa por várias semanas, às vezes por meses.",
+    floracao: "Há registros de floração em fevereiro, março e maio no Brasil, podendo florescer em outras épocas conforme o cultivo. As hastes eretas podem se aproximar de um metro e carregar numerosas flores de 1,25 a 3 cm, que se abrem sucessivamente. As cores variam do branco e rosa ao vermelho e púrpura, com labelo característico. O perfume costuma ser discreto ou ausente. Cada flor pode durar poucos dias, mas a abertura gradual dos botões mantém a haste vistosa por várias semanas, às vezes por meses.",
     adubacao: "🌿 Orgânica: bokashi em dose pequena e afastado diretamente das raízes.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em aproximadamente 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: opcional, com poucos grânulos em vaso.\n🚿 Lavagem: faça regas periódicas com água pura para evitar acúmulo de sais.",
     rega: "Mantenha regas regulares durante todo o ano, molhando bem e permitindo drenagem completa. O substrato pode perder parte da umidade entre regas, mas não deve permanecer encharcado. A espécie tolera pequenas secagens melhor que raízes sufocadas em material compacto.",
     suporte: [
@@ -230,7 +230,7 @@ export const phalaenopsisPulcherrima = {
         litoralQuente: { texto: "Excelente adaptação. Calor combina bem com a espécie. Use luz filtrada relativamente alta, boa ventilação e regas regulares sem manter o vaso saturado." },
         montanhaFrio: { texto: "Boa adaptação. Pode ser cultivada, mas deve ser protegida de noites muito frias e de raízes molhadas em temperaturas baixas." }
     },
-    mesesFloracao: [2, 5],
+    mesesFloracao: [2, 3, 5],
     mesesFloracaoIndicativos: true,
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
