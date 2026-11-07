@@ -85,7 +85,7 @@ export const promenaeaXanthina = {
         "Não imponha repouso seco prolongado.",
         "Evite adubo concentrado nas raízes finas."
     ],
-    dica: "🏆 Promenaea xanthina gosta de raízes frescas e úmidas, não de um vaso encharcado. Use recipiente pequeno, mistura leve e bastante ventilação. Em clima quente, proteger a planta do calor acumulado à noite costuma ser mais importante do que aumentar a quantidade de água.",
+    dica: "🏆 Nesta Promenaea de florestas montanas, o desafio em clima quente é conservar raízes frescas sem encharcar o vaso. Prefira recipiente pequeno, substrato fino e solto, sombra clara e circulação suave de ar. Regue durante o crescimento conforme a secagem, evitando tanto a saturação prolongada quanto a desidratação repetida. Proteja a planta do calor acumulado à noite e do sol direto. Preserve a touceira, pois pseudobulbos maduros ajudam a sustentar as flores relativamente grandes para seu porte.",
     revisaoCientificaIAR: {
         "nome": "Promenaea xanthina (Lindl.) Lindl. — nome editorial",
         "statusTaxonomico": "POWO/Kew aceita Promenaea stapelioides subsp. xanthina (Lindl.) Meneguzzo (2020); Promenaea xanthina (Lindl.) Lindl. (1843) é sinônimo homotípico. O catálogo mantém o nome tradicional por decisão editorial.",
