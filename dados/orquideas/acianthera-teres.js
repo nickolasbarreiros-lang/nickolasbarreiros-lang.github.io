@@ -38,7 +38,7 @@ export const aciantheraTeres = {
     "Regar sempre pelo calendário, sem observar a secagem das raízes.",
     "Aplicar adubo concentrado em uma montagem pequena e de secagem rápida."
   ],
-  "dica": "O segredo é oferecer claridade suficiente sem transformar o suporte em uma chapa quente. Observe a temperatura da madeira ou da brita nas horas mais quentes: se aquecem demais, aumente a proteção e a circulação de ar. Regue quando as raízes estiverem secando, sem impor uma estiagem prolongada só porque as folhas são carnudas. Brotos firmes e raízes ativas são sinais mais úteis que um calendário fixo.",
+  "dica": "🏆 Nesta espécie de folhas espessas, o segredo não é provocar seca prolongada, mas impedir que o suporte superaqueça. Em cultivo sobre madeira ou pedra, toque a superfície nas horas quentes: se estiver muito quente, aumente a proteção contra o sol forte. Ofereça boa claridade, ventilação e regas quando as raízes estiverem se aproximando da secagem. As folhas carnosas ajudam a suportar oscilações, mas não justificam abandonar a hidratação. Brotações firmes e raízes ativas indicam melhor equilíbrio que um calendário rígido.",
   "revisaoCientificaIAR": {
     "nome": "Acianthera teres",
     "statusTaxonomico": "Nome aceito por Plants of the World Online (Kew); a identidade de exemplares comerciais ainda depende de confirmação.",
