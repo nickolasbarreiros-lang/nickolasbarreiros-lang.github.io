@@ -42,7 +42,7 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
     "substrato": ["Casca de pinus média + Fibra de coco lavada + Carvão vegetal médio + Casca de arroz carbonizada","Casca de macadâmia média + Casca de pinus média + Fibra de coco lavada + Carvão vegetal médio"],
 
     "errosComuns": "Temperaturas prolongadas abaixo de 15 °C; seca severa; água salina; fertilizante concentrado; excesso de Osmocote; falta de flushing; raízes abafadas; pouca luz; substrato degradado; água no rizoma; replantar fora do novo enraizamento; assumir que todas as mudas self serão idênticas à planta-mãe.",
-    "dica": "A prioridade é preservar pontas radiculares ativas durante todo o ano. Use água de baixa salinidade, adubação fraca e lavagem periódica. Mantenha temperatura noturna preferencialmente acima de 15 °C e não aplique repouso seco. Por ser uma progênie self, avalie cada planta pelo desempenho próprio: diferenças de cor e vigor entre irmãos são naturais.",
+    "dica": "🏆 Nesta progênie de Cattleya violacea, preserve raízes ativas e evite o repouso seco típico de espécies de regiões sazonais. Mantenha calor, umidade atmosférica e ventilação, com regas frequentes durante o crescimento e secagem adequada entre elas. Use água de baixa salinidade e adubação diluída, lavando periodicamente o substrato para evitar acúmulo de sais. Como as plantas resultam de autofecundação, podem apresentar diferenças de vigor e floração. Ajuste o manejo à resposta do exemplar, não apenas ao nome do cruzamento.",
     formasCultivo: {
         "perfilVisual": "cattleya",
         "destaque": "Cachepô de Madeira",
