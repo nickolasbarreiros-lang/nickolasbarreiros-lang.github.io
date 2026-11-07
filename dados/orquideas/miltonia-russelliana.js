@@ -86,7 +86,7 @@ export const miltoniaRusselliana = {
         "Não divida a touceira em poucos pseudobulbos.",
         "Proteja as folhas do sol forte nas horas quentes."
     ],
-    dica: "🏆 Não tenha pressa em dividir a Miltonia russelliana. Touceiras com vários pseudobulbos armazenam mais energia e costumam produzir hastes mais fortes. Em clima quente, mantenha-a em local claro e muito ventilado, com o vaso apenas ligeiramente apertado.",
+    dica: "🏆 Nesta Miltonia de hastes arqueadas, uma touceira madura costuma responder melhor do que divisões pequenas. Preserve pseudobulbos saudáveis e deixe espaço para os novos brotos, sem usar vaso exageradamente grande. Ofereça luz filtrada abundante, regas regulares durante o crescimento e ventilação constante para manter raízes ativas. Em clima quente, evite o aquecimento excessivo do recipiente e observe a secagem antes de regar novamente. A estabilidade da planta favorece pseudobulbos fortes e hastes florais bem desenvolvidas.",
     revisaoCientificaIAR: {
         "nome": "Miltonia russelliana (Lindl.) Lindl.",
         "statusTaxonomico": "Nome aceito em POWO/Kew, publicado em Sertum Orchidaceum, prancha 48 (1841).",
