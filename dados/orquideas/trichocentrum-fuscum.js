@@ -49,7 +49,8 @@ export const trichocentrumFuscum = {
         metodos: [
             { nome: "Placa / tronco", asset: "placa-tronco", estrelas: 5, status: "Mais recomendado na ficha", texto: "Montar em cortiça ou madeira firme, com raízes expostas e sem material retentivo no centro." },
             { nome: "Cachepô de Madeira", asset: "cesto-madeira", estrelas: 4, status: "Alternativa", texto: "Cachepô pequeno e muito aberto, com partículas grossas e secagem rápida." },
-            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno e bastante perfurado, com mistura mineral e vegetal muito drenante." }
+            { nome: "Vaso de Barro", asset: "vaso-barro", estrelas: 3, status: "Uso condicional", texto: "Vaso pequeno e bastante perfurado, com mistura mineral e vegetal muito drenante." },
+            { nome: "Vaso plástico vasado", asset: "vaso-plastico-vasado-v2", estrelas: 3, status: "Uso condicional", texto: "Recipiente pequeno e muito vazado, com poucas partículas grossas e secagem rápida; evite umidade acumulada." }
         ]
     },
     substratoVisual: {
