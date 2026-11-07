@@ -76,7 +76,7 @@ export const oncidiumPumilum = {
         notaEvidencia: "MACS 1.1: composição C por convergência das propriedades gerais dos materiais; percentuais D inferenciais e NÃO HOMOLOGADOS. Relatos anteriores sobre receitas específicas ainda aguardam verificação de fontes primárias; não constituem homologação. Placa/tronco continua principal e dispensa enchimento; estrelas de suporte D preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-031-TRICHOCENTRUM-PUMILUM.md."
     },
     "errosComuns": "Sombra densa; vaso grande; encharcamento; dividir touceiras pequenas; enterrar rizoma; adubo concentrado; pouca ventilação; excesso de esfagno; replantio frequente.",
-    "dica": "Preserve a touceira. Quanto mais frentes maduras permanecerem juntas, maior tende a ser o número de hastes e o efeito de 'nuvem amarela'. Combine isso com luz filtrada forte e secagem rápida após as regas matinais.",
+    "dica": "🏆 Nesta miniatura, a floração em nuvem depende de várias frentes maduras trabalhando juntas. Preserve a touceira e evite dividi-la em porções muito pequenas. Use suporte ou vaso compacto e ventilado, permitindo que as raízes sequem adequadamente após as regas. Ofereça luz filtrada abundante e adapte gradualmente a planta ao sol suave. Durante o crescimento, regue regularmente; quando a atividade diminuir, acompanhe a secagem sem impor repouso seco extremo. Uma colônia estável pode sustentar numerosas flores simultâneas.",
     revisaoCientificaIAR: {
         "nome": "Trichocentrum pumilum",
         "statusTaxonomico": "Nome aceito usado na ficha: Trichocentrum pumilum.",
