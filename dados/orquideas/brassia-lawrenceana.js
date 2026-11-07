@@ -87,7 +87,7 @@ export const brassiaLawrenceana = {
         "Replante preferencialmente no início das novas raízes.",
         "Proteja as folhas do sol forte do meio-dia."
     ],
-    dica: "🏆 Replante apenas quando um novo broto estiver começando a emitir raízes. Brassia reage muito melhor quando essas raízes novas entram diretamente no substrato fresco. Em clima quente, cesto ou vaso de barro com mistura grossa costuma oferecer excelente equilíbrio entre umidade e oxigenação.",
+    dica: "🏆 O melhor momento para replantar esta Brassia é quando um broto novo começa a emitir raízes. Assim, as pontas jovens entram diretamente no substrato fresco e a planta se estabelece com menor interrupção do crescimento. Use mistura arejada que retenha alguma umidade, sem formar um centro encharcado. Durante a expansão das folhas e pseudobulbos, mantenha regas regulares e luz filtrada abundante. Evite dividir a touceira desnecessariamente: crescimentos fortes e bem enraizados favorecem hastes florais mais vigorosas.",
     revisaoCientificaIAR: {
         "nome": "Brassia lawrenceana Lindl. — nome editorial",
         "statusTaxonomico": "POWO/Kew considera Brassia lawrenceana Lindl. (1841) sinônimo heterotípico de Brassia cochleata Knowles & Westc. (1838), nome aceito. O catálogo conserva Brassia lawrenceana como nome horticultural por decisão editorial.",
