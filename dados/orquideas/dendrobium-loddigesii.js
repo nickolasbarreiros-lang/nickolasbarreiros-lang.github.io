@@ -38,7 +38,7 @@ export const dendrobiumLoddigesii = {
     "adubacao": "🌱 Primavera: NPK equilibrado com brotação e raízes ativas.\n☀️ Verão: manter adubação diluída até as hastes amadurecerem.\n🍂 Final do verão/outono: reduzir nitrogênio e depois suspender.\n💤 Inverno: nenhuma adubação.\n🌿 Bokashi/Osmocote: somente no início do ciclo e em dose mínima.",
     "rega": "Durante o crescimento, regue com frequência e permita secagem rápida. Quando as hastes endurecerem e perderem folhas, reduza fortemente. No repouso, molhe apenas se houver enrugamento acentuado. Hastes ligeiramente sulcadas são normais.",
     "suporte": "🥇 Placa de madeira ou tronquinho.\n🥈 Cesto pequeno suspenso.\n🥉 Vaso raso pendurado e muito drenante.\nO suporte deve permitir que hastes e flores pendam livremente.",
-    "dica": "Não faça limpeza estética das hastes sem folhas. Remova somente aquelas totalmente secas, amarelas e ocas. As hastes antigas armazenam reservas e podem florescer repetidamente. No litoral de clima quente, compense o inverno pouco frio com muita luz, ventilação, proteção contra chuva e suspensão completa do nitrogênio.",
+    "dica": "🏆 Não elimine as hastes sem folhas deste Dendrobium apenas por aparência. Caules antigos ainda firmes armazenam reservas e podem participar de novas florações; remova somente os completamente secos ou mortos. Durante o crescimento, mantenha boa umidade, ventilação e luz filtrada. Quando a atividade diminuir, reduza água e adubação para respeitar o ciclo sazonal, sem desidratar excessivamente os caules. Em locais quentes, proteja a planta de chuvas persistentes no repouso e busque noites mais frescas.",
     formasCultivo: {
         perfilVisual: "dendrobium",
         destaque: "Placa / tronco",
