@@ -38,7 +38,7 @@ export const prosthecheaFragrans = {
     "Presumir que toda planta vendida como esta espécie tenha identificação confirmada.",
     "Provocar seca intensa para estimular flores sem evidência dessa necessidade."
   ],
-  "dica": "Observe o ciclo dos pseudobulbos para acertar a rega: enquanto brotos e raízes estão crescendo, a planta precisa de água regular, mas nunca de um vaso encharcado. Quando o novo pseudobulbo amadurecer, permita uma secagem parcial entre regas, sem impor repouso seco obrigatório. Uma posição clara, protegida do sol forte, ajuda a formar reservas para florescer; se houver folhas amareladas ou raízes escuras, revise calor e drenagem antes de adubar mais.",
+  "dica": "🏆 Nesta Prosthechea perfumada, observe a formação dos pseudobulbos para ajustar a água: brotos e raízes ativos pedem regas regulares, mas sempre com drenagem rápida. Quando os pseudobulbos amadurecerem, permita secagem parcial sem impor repouso seco obrigatório. Ofereça luz filtrada abundante e ventilação constante, protegendo o vaso do calor excessivo. Não remova pseudobulbos antigos firmes, pois armazenam reservas importantes. Se as raízes escurecerem, revise primeiro a aeração e o estado do substrato antes de aumentar a adubação.",
   "revisaoCientificaIAR": {
     "nome": "Prosthechea fragrans",
     "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
