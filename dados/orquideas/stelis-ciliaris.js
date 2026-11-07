@@ -38,7 +38,7 @@ export const stelisCiliaris = {
     "Confundir alta umidade do ar com necessidade de substrato sempre molhado.",
     "Reduzir drasticamente as regas para tentar forçar a floração."
   ],
-  "dica": "O ponto crítico é manter as raízes finas hidratadas sem deixá-las sufocadas. Use um suporte que permita regas frequentes e rápida renovação do ar; se as pontas das raízes pararem de crescer ou os brotos murcharem, confira a secagem antes de aumentar o adubo. Evite tanto o vento quente que resseca a montagem quanto a umidade estagnada. Uma touceira estável, com brotos completos, tem melhores condições de emitir suas hastes delicadas.",
+  "dica": "🏆 Nesta Stelis de raízes finas, mantenha hidratação frequente sem deixar o suporte permanentemente saturado. Prefira placa rugosa ou recipiente pequeno e ventilado, com camada mínima de material retentor. Regue pela manhã e proteja a planta de vento quente que desidrata rapidamente as folhas. Se brotos perderem firmeza, verifique primeiro as raízes e a secagem antes de aumentar a adubação. Preserve a touceira e evite manipular hastes em formação: suas flores delicadas merecem estabilidade durante o desenvolvimento.",
   "revisaoCientificaIAR": {
     "nome": "Stelis ciliaris",
     "statusTaxonomico": "Conferência individual pendente antes de tratar a identificação da compra como confirmada.",
