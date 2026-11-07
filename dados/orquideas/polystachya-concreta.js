@@ -100,7 +100,7 @@ export const polystachyaConcreta = {
         "Cortar a haste ou manipular o novo pseudobulbo cedo demais, pois a inflorescência é terminal e acompanha a maturação do crescimento."
     ],
 
-    dica: "🏆 Observe o novo pseudobulbo na primavera: em condições favoráveis, a inflorescência terminal aparece logo em seguida. Como as flores individuais têm antese relativamente curta, acompanhar a formação da haste é a melhor forma de não perder a floração.",
+    dica: "🏆 Nesta Polystachya, as inflorescências surgem no alto dos novos crescimentos, por isso acompanhe a maturação dos brotos para não perder a abertura das flores. Ofereça luz filtrada abundante, raízes ventiladas e regas regulares durante o desenvolvimento dos pseudobulbos. Evite girar ou movimentar excessivamente a planta quando a haste estiver se formando. Como as flores individuais podem durar pouco, observe a inflorescência ao longo de vários dias. Preserve a touceira e ajuste as regas à atividade, sem provocar seca prolongada.",
 
     revisaoCientificaIAR: {
         nome: "Polystachya concreta (Jacq.) Garay & H.R.Sweet",
