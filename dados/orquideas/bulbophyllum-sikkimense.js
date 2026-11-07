@@ -132,7 +132,7 @@ export const bulbophyllumSikkimense = {
     },
     substrato: ["Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de esfagno solto","Chips de coco médios lavados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto"],
     errosComuns: "• Apresentar B. sikkimense como nome atualmente aceito.\n• Ignorar que Kew o inclui em B. roxburghii.\n• Tratar a planta como alpina por causa do nome Sikkim.\n• Impor repouso seco severo.\n• Manter sombra profunda.\n• Compactar o substrato.\n• Usar recipiente estreito.\n• Aplicar adubo concentrado.",
-    dica: "🏆 Use o nome histórico como pista de procedência, não como instrução para cultivar no frio. Os dados de 300–500 m mostram uma planta de contrafortes quentes. No litoral, mantenha água regular, ar em movimento, recipiente raso e luz filtrada clara; a pequena diferença entre dia e noite já é mais coerente que qualquer tentativa de resfriamento artificial.",
+    dica: "🏆 Embora o nome lembre regiões montanhosas, esta planta também ocorre em ambientes relativamente quentes. Por isso, não tente estimular a floração com frio artificial. O principal cuidado é manter o rizoma rastejante sobre um suporte raso e arejado, com umidade regular e luz filtrada. Deixe espaço para os novos pseudobulbos e evite enterrar suas bases. Em clima quente, ventilação constante e regas ajustadas à secagem real ajudam mais do que mudanças bruscas de temperatura ou períodos de seca prolongada.",
     revisaoCientificaIAR: {
         "nome": "Bulbophyllum roxburghii",
         "statusTaxonomico": "Bulbophyllum roxburghii é nome aceito em POWO/Kew; B. sikkimense é sinônimo heterotípico.",
