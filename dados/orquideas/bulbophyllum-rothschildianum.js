@@ -126,7 +126,7 @@ export const bulbophyllumRothschildianum = {
     },
     substrato: ["Esfagno de fibra longa solto + perlita grossa","Chips de coco preparados + perlita grossa + carvão vegetal miúdo + esfagno de fibra longa solto"],
     errosComuns: "• Exibir vários sinônimos no campo resumido.\n• Tratar a espécie como obrigatoriamente fria.\n• Deixar o substrato secar por vários dias.\n• Compactar esfagno.\n• Usar vaso estreito para rizoma rastejante.\n• Manter calor e umidade em ambiente abafado.\n• Expor ao sol forte direto.\n• Fertilizar em concentração elevada.",
-    dica: "🏆 A umbela larga e as sépalas de até cerca de 17 cm precisam de espaço livre para se desenvolver sem encostar no recipiente. Use cesto largo, deixe a nova frente voltada para fora e mantenha ventilação constante. No litoral quente, a prioridade não é produzir frio, e sim evitar noites excessivamente abafadas e raízes saturadas.",
+    dica: "🏆 O segredo desta espécie está em oferecer espaço para suas flores alongadas. Escolha um cesto largo ou suporte que permita às inflorescências se abrir sem encostar em paredes, folhas ou bordas do vaso. Mantenha o rizoma superficial, com umidade regular e boa ventilação, evitando substrato compacto. A luminosidade deve ser filtrada e suficiente para sustentar pseudobulbos vigorosos. Em períodos quentes, priorize circulação de ar e proteção contra o aquecimento das raízes, em vez de provocar resfriamentos bruscos ou estiagens forçadas.",
     revisaoCientificaIAR: {
         nome: "Bulbophyllum rothschildianum (O'Brien) J.J.Sm.",
         statusTaxonomico: "Espécie aceita pelo POWO/Kew; combinação publicada por J.J.Sm. em 1912, com basiônimo Cirrhopetalum rothschildianum O'Brien (1895).",
