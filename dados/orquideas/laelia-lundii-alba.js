@@ -2,6 +2,7 @@
 // Nome de coleção preservado; Kew atualmente inclui as formas alba em Cattleya lundii.
 
 export const laeliaLundiiAlba = {
+    dica: "🏆 A forma alba de Cattleya lundii precisa dos mesmos cuidados básicos da espécie, independentemente da cor clara das flores. Mantenha a touceira compacta em suporte durável ou vaso pequeno, com rizoma superficial e raízes ventiladas. Ofereça luminosidade intensa filtrada e regas regulares durante a brotação, permitindo secagem rápida. Evite separar pequenos grupos de pseudobulbos apenas para multiplicar a planta: divisões frágeis podem demorar a florescer. Preserve raízes ativas e reduza a água gradualmente quando o crescimento desacelerar.",
     id: "laelia-lundii-alba",
     nome: "Cattleya lundii f. alba",
     genero: "Cattleya",
