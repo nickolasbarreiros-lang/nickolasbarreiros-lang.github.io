@@ -114,7 +114,7 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     },
     substrato: ["Casca de pinus grossa + carvão vegetal + brita fina","Casca de pinus grossa + casca de macadâmia grossa + perlita grossa"],
     errosComuns: "Cultivar em sombra excessiva; Usar vasos muito grandes ou substratos finos e compactados; Manter as raízes constantemente encharcadas; Deixar água acumulada no miolo dos brotos e bainhas durante a noite; Exagerar na adubação nitrogenada após o amadurecimento dos pseudobulbos; Dividir a touceira com menos de três a quatro pseudobulbos por corte.",
-    dica: "Posicione a planta no setor mais iluminado e arejado do cultivo. Evite vasos excessivamente grandes e substratos retentivos: as raízes deste híbrido exigem aeração constante e ciclos rápidos de molha-e-seca para formar pseudobulbos encorpados e garantir floradas regulares e duradouras.",
+    dica: "🏆 Neste híbrido da aliança Cattleya, priorize a formação de pseudobulbos robustos: eles sustentam a floração seguinte. Ofereça luz intensa filtrada, com adaptação gradual ao sol fraco da manhã, e ventilação constante. Regue bem durante a emissão de raízes e brotos, deixando o substrato perder parte da umidade antes da próxima rega. Evite vasos grandes, que demoram a secar. Observe o crescimento novo: pseudobulbos menores que os anteriores podem indicar luz insuficiente, raízes comprometidas ou manejo irregular.",
     revisaoCientificaIAR: {
         "nome": "Brassocattleya Turandot × (Rhyncholaeliocattleya Orange Show × Rlc. Chunyeah)",
         "statusTaxonomico": "Híbrido horticultural; taxonomia botânica de espécie não se aplica diretamente.",
