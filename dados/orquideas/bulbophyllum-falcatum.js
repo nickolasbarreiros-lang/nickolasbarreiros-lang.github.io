@@ -145,7 +145,7 @@ export const bulbophyllumFalcatum = {
     },
     substrato: ["casca de pinus média + chips de coco médios preparados + esfagno de fibra longa solto + carvão vegetal médio","casca de macadâmia média + casca de pinus média + chips de coco médios preparados + esfagno de fibra longa solto"],
     errosComuns: "• Enterrar o rizoma.\n• Usar vaso estreito e profundo.\n• Bloquear a raque floral contra a borda do vaso.\n• Compactar esfagno.\n• Deixar substrato envelhecer e azedar.\n• Manter calor com ar parado.\n• Permitir ressecamento prolongado.\n• Forçar repouso seco.\n• Aplicar fertilizante concentrado sobre raízes superficiais.",
-    dica: "🏆 Antes da floração, verifique se há espaço lateral livre. A raque achatada é a principal característica da espécie e pode ser deformada ou abortar se ficar presa entre vaso, parede ou outras plantas. Em clima quente, cesto raso, rizoma exposto, sombra clara, umidade regular e ventilação contínua formam a combinação mais segura.",
+    dica: "🏆 Nesta espécie, a inflorescência achatada precisa de espaço lateral para crescer sem esbarrar em vasos ou plantas vizinhas. Antes de surgir a haste, observe a direção dos novos brotos e deixe a frente de crescimento livre. Prefira recipiente raso ou montagem, com rizoma exposto, umidade regular e ventilação contínua. A raque em forma de lâmina é o destaque ornamental: evite movimentar a planta quando estiver se formando. Em clima quente, proteja o suporte do superaquecimento e mantenha sombra clara.",
     revisaoCientificaIAR: {
         "nome": "Bulbophyllum falcatum",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
