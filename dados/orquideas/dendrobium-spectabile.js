@@ -85,7 +85,7 @@ export const dendrobiumSpectabile = {
         "Replantar fora do início da emissão de novas raízes",
         "Subestimar o tamanho e o peso da planta adulta"
     ],
-    dica: "🏆 Tenha paciência com o tamanho de floração. Dendrobium spectabile pode crescer vigorosamente antes de decidir florescer. Concentre-se em produzir hastes progressivamente maiores com muita luz filtrada, água e adubação durante o crescimento; quando a planta atingir maturidade, as flores extraordinárias compensam a espera.",
+    dica: "🏆 Nesta espécie de flores muito elaboradas, a paciência com a maturidade da planta é essencial. Exemplares jovens podem produzir hastes vigorosas durante anos antes de alcançar porte suficiente para florir. Priorize brotos progressivamente maiores, oferecendo luminosidade intensa filtrada, calor adequado, água e nutrição regulares durante o crescimento. Use recipiente estável, com boa drenagem e espaço para a touceira. Evite divisões frequentes, que reduzem as reservas. Uma planta adulta e bem enraizada tem melhores condições de sustentar suas inflorescências.",
     revisaoCientificaIAR: {
         "nome": "Dendrobium spectabile (Blume) Miq.",
         "statusTaxonomico": "Espécie aceita no POWO/Kew; combinação publicada em Flora van Nederlandsch Indië 3:645 (1859). Pertence à seção Latouria, mas seção não altera o nome aceito.",
