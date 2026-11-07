@@ -248,6 +248,6 @@ export const anathallisSclerophylla = {
         litoral: { texto: "A ampla distribuição mostra tolerância térmica considerável, mas em clima quente é importante manter sombra clara, umidade atmosférica alta e ventilação constante. Noites muito quentes associadas a ar parado são o principal ponto de atenção." },
         montanha: { texto: "Noites frescas, alta umidade e boa circulação de ar se aproximam bastante das condições montanas e de floresta nebulosa registradas para a espécie." }
     },
-    dica: "🏆 O segredo é reproduzir uma floresta úmida sem transformar o vaso em um pântano: mantenha as raízes hidratadas, mas com ar circulando constantemente. Como hipótese prática de cultivo, teste montagem com pequena quantidade de esfagno ou vaso pequeno bem aerado; acompanhe secagem, vigor radicular e floração antes de escolher o suporte definitivo para seu ambiente.",
+    dica: "🏆 O principal desafio desta espécie é conservar a hidratação das raízes sem criar um ambiente parado e encharcado. Prefira um suporte pequeno ou recipiente arejado, com material que retenha apenas a umidade necessária entre regas. Observe a resposta da planta antes de aumentar o esfagno: folhas firmes e raízes ativas indicam equilíbrio, enquanto bases escurecidas exigem rever a ventilação. Em períodos quentes, proteja-a do aquecimento excessivo e mantenha a umidade do ar. Não imponha repouso seco apenas para estimular flores.",
 
     };
