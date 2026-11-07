@@ -70,7 +70,7 @@ export const brassavolaPerrini = {
         alerta: "Prefira o cultivo em placa ou tronco, mantendo as raízes bem ventiladas. Em vasos, utilize substrato de secagem rápida e evite o acúmulo de umidade."
     },
     errosComuns: "Cultivar em sombra excessiva; Usar substratos finos, compactos ou com acúmulo de pó; Manter as raízes molhadas continuamente; Plantar em vasos grandes e fundos; Exagerar no uso de esfagno ou materiais de alta retenção hídrica; Dividir touceiras pequenas prematuramente; Aplicar adubo com alto teor de nitrogênio de forma contínua durante todo o ano.",
-    dica: "Use as folhas como termômetro: o ponto certo de luz é aquele que deixa a folhagem cilíndrica ereta, rígida e em um tom verde-claro (quase amarelado). Se ela cresce muito mas não floresce, o segredo para forçar a floração é dar mais claridade — sem medo do sol direto matinal — e cortar o adubo rico em nitrogênio.",
+    dica: "🏆 O fator que mais costuma limitar a floração desta Brassavola é a falta de luz. Ofereça claridade intensa e introduza gradualmente o sol suave da manhã, sempre observando a reação das folhas cilíndricas. Folhagem excessivamente escura e crescimento vigoroso sem flores podem indicar sombra demais; manchas secas sugerem exposição excessiva. Como as raízes precisam respirar, prefira montagem ou recipiente muito ventilado. Evite adubação rica em nitrogênio em excesso: luz adequada e brotos maduros importam mais que aumentar fertilizantes.",
     revisaoCientificaIAR: {
         "nome": "Brassavola tuberculata",
         "statusTaxonomico": "Nome aceito usado na ficha: Brassavola tuberculata.",
