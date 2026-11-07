@@ -38,7 +38,7 @@ export const dinemaPolybulbon = {
     "Expor as raízes superficiais ao sol direto forte.",
     "Usar adubo concentrado em uma placa de pouco volume."
   ],
-  "dica": "Deixe espaço para os rizomas avançarem lateralmente: apertar a touceira em um vaso pequeno faz os brotos alcançarem a borda e dificulta a fixação das novas raízes. Em placa, observe a secagem diariamente no calor; em vaso raso, prefira uma mistura aberta. Para estimular florações, mantenha vários pseudobulbos maduros e evite dividir a planta a cada novo crescimento. Uma touceira estabelecida costuma responder melhor que fragmentos recém-separados.",
+  "dica": "🏆 O diferencial desta miniatura é permitir que seus numerosos pseudobulbos avancem sobre uma superfície livre. Prefira placa larga ou recipiente raso, posicionando os crescimentos antigos próximos à borda. Não enterre o rizoma: raízes novas precisam aderir ao suporte e receber umidade sem abafamento. Em clima quente, monitore a secagem da montagem, mas evite esfagno compactado. Preserve touceiras maduras e não divida a planta a cada brotação; vários pseudobulbos saudáveis ajudam a sustentar florações mais abundantes.",
   "revisaoCientificaIAR": {
     "distribuicaoFonteConferidaV410": "https://commons.wikimedia.org/wiki/Dinema_polybulbon",
     "notaRevisao09": "Distribuição geográfica regional corroborada pela galeria taxonômica Wikimedia Commons; validar limites atuais e registros de ocorrência no POWO.",
