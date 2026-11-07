@@ -144,7 +144,7 @@ export const bulbophyllumElassonotum = {
     },
     substrato: ["Chips de coco médios lavados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto","Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de esfagno solto"],
     errosComuns: "• Enterrar o rizoma.\n• Tratar toda procedência como espécie fria.\n• Compactar esfagno.\n• Usar vaso profundo com baixa aeração.\n• Deixar raízes secarem por vários dias.\n• Manter calor, umidade e ar parado ao mesmo tempo.\n• Cultivar em sombra profunda.\n• Forçar repouso seco por causa de habitats sazonais.\n• Adubação concentrada em raízes finas.",
-    dica: "🏆 A amplitude altitudinal é a chave para interpretar esta espécie. Ela não exige uma temperatura única; exige equilíbrio entre procedência, umidade e ventilação. No litoral quente, use suporte raso, 60% a 70% de sombra e movimento de ar constante. Mantenha o rizoma sobre a superfície e deixe espaço para a raque pendente, especialmente quando a planta desenvolver inflorescências, pois a época de floração varia entre registros.",
+    dica: "🏆 Nesta espécie de inflorescências arqueadas ou pendentes, escolha o suporte pensando também no espaço necessário para as hastes florais. Um recipiente raso ou montagem permite ao rizoma rastejar sem enterrar os pseudobulbos. Mantenha umidade regular e boa ventilação, evitando tanto substrato compacto quanto secagem prolongada. Em locais quentes, proteja o suporte do sol que aquece demais as raízes. Não imponha um repouso seco rígido: acompanhe o ritmo dos brotos e ajuste as regas à atividade da planta.",
     revisaoCientificaIAR: {
         "nome": "Bulbophyllum elassonotum",
         "statusTaxonomico": "Bulbophyllum elassonotum é nome aceito em POWO/Kew.",
