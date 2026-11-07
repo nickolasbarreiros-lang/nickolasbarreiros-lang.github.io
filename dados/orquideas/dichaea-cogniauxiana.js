@@ -86,7 +86,7 @@ export const dichaeaCogniauxiana = {
         "Aplicar fertilizante concentrado",
         "Deixar a montagem secar completamente por vários dias"
     ],
-    dica: "🏆 Dichaea cogniauxiana prefere umidade com ar em movimento. Mantenha as raízes hidratadas, mas extremamente arejadas. No litoral quente, uma montagem com pequena quantidade de esfagno e ventilação constante tende a reproduzir melhor essa combinação do que um vaso compacto e permanentemente molhado.",
+    dica: "🏆 Nesta Dichaea de caules finos e pendentes, o diferencial é manter raízes hidratadas sem abafá-las. Prefira montagem ou recipiente muito arejado, com pequena quantidade de material retentor, e deixe os caules crescerem livremente para baixo. Em ambiente quente, observe a secagem do suporte e ajuste as regas antes que as raízes desidratem por muito tempo. Ofereça sombra clara e ventilação suave, sem correntes ressecantes. Evite substrato compacto e adubação concentrada, que podem prejudicar raízes delicadas.",
     revisaoCientificaIAR: {
         "nome": "Dichaea cogniauxiana",
         "statusTaxonomico": "Dichaea cogniauxiana Schltr. (1922), espécie aceita em POWO; nativa do Brasil.",
