@@ -31,7 +31,7 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
         observacoes: "Este híbrido aprecia bastante claridade para crescer bem e formar flores. Comece com sombrite de 50% ou proteção equivalente, sempre com boa ventilação. Depois de acostumado ao local, pode receber sol direto suave no início da manhã ou no final da tarde; evite o sol forte nas horas mais quentes. Folhas firmes de verde médio a verde-claro costumam indicar boa luminosidade. Folhas muito escuras e brotações finas podem indicar falta de luz; amarelecimento intenso ou manchas secas pedem mais proteção. Como os exemplares desse cruzamento podem variar, ajuste a exposição aos poucos.",
         seloLuz: "vermelho"
     },
-    floracao: "Pode florescer após o amadurecimento dos novos pseudobulbos, mas ainda não há meses específicos comprovados para este cruzamento no Brasil. As flores costumam ser grandes e vistosas, com formato típico das Cattleyas híbridas. Como se trata de um cruzamento de plantas obtidas por sementes, cores, tamanho, quantidade por haste, perfume e duração podem variar bastante entre exemplares.",
+    floracao: "Floresce em novembro e dezembro, conforme informação de produtor brasileiro, após o amadurecimento dos novos pseudobulbos. As flores costumam ser grandes e vistosas, com formato típico das Cattleyas híbridas. Como se trata de um cruzamento de plantas obtidas por sementes, cores, tamanho, quantidade por haste, perfume e duração podem variar bastante entre exemplares.",
     adubacao: "💧 Foliar: durante o crescimento ativo, aplique NPK equilibrado, como 20-20-20, quinzenalmente. Após a maturação do pseudobulbo, reduza o nitrogênio e priorize fórmulas com maior teor de fósforo e potássio, como 09-45-15 ou 10-30-20, para favorecer a formação da bainha e dos botões florais.\n🌿 Orgânica: Bokashi em saquinho, sempre afastado dos brotos.\n🧪 Liberação lenta: pouca quantidade de Osmocote em vasos ou cachepôs.",
     rega: "Regue abundantemente nas primeiras horas da manhã, permitindo que o substrato seque quase completamente antes da próxima irrigação. Intensifique a frequência durante o surgimento de novos brotos e raízes; reduza após a maturação dos pseudobulbos, nos dias frios ou durante períodos chuvosos. Atenção: evite acúmulo de água no miolo dos brotos e nas bainhas ao final da tarde ou à noite para prevenir podridões e abortamento de botões.",
     suporte: "Vaso de barro, vaso plástico com furos laterais ou cachepô de madeira, sempre em tamanho justo para o sistema radicular.",
@@ -256,7 +256,7 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
         litoralQuente: { texto: "Adapta-se muito bem. Use luz forte filtrada, sol suave da manhã, ventilação constante e substrato de secagem rápida." },
         montanhaFrio: { texto: "Proteja de frio intenso e reduza as regas durante períodos frios, sem permitir desidratação prolongada dos pseudobulbos." }
     },
-    mesesFloracao: [],
+    mesesFloracao: [11, 12],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
