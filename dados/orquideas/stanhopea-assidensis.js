@@ -27,7 +27,7 @@ export const stanhopeaAssidensis = {
         observacoes: "Prefere luminosidade moderada e filtrada, em sombra clara, sem sol direto sobre as folhas plissadas. Um sombrite de 60% a 70% é uma referência inicial, com boa ventilação. Folhas firmes e verde-médias sugerem equilíbrio; folhagem muito escura e crescimento fraco podem indicar pouca luz. Amarelecimento rápido, manchas secas e folhas aquecidas pedem maior proteção. Ajuste a claridade gradualmente, mantendo luz indireta.",
         seloLuz: "amarelo"
     },
-    floracao: "A época de floração varia conforme o cultivo, sem meses bem definidos no Brasil. As hastes nascem na base da planta e crescem para baixo, atravessando o fundo de cestos abertos. Cada haste costuma produzir de seis a oito flores grandes e cerosas, creme a amarelo-claras, com manchas rosadas, avermelhadas ou castanhas e labelo elaborado. O perfume é doce e intenso, lembrando baunilha. Cada flor dura apenas dois a quatro dias, mas plantas adultas podem emitir hastes sucessivas.",
+    floracao: "O verão, de dezembro a fevereiro, é a época provável de floração no Brasil, estimada a partir de referências de cultivo; o período pode variar. As hastes nascem na base da planta e crescem para baixo, atravessando o fundo de cestos abertos. Cada haste costuma produzir de seis a oito flores grandes e cerosas, creme a amarelo-claras, com manchas rosadas, avermelhadas ou castanhas e labelo elaborado. O perfume é doce e intenso, lembrando baunilha. Cada flor dura apenas dois a quatro dias, mas plantas adultas podem emitir hastes sucessivas.",
     adubacao: "🌿 Orgânica: aplique pequena quantidade de bokashi na borda da cesta a cada 60 a 90 dias durante o crescimento ativo.\n💧 Foliar: utilize adubo equilibrado em meia dose a cada 10 a 15 dias, evitando aplicações nas flores.\n🧪 Liberação lenta: Osmocote pode ser usado em dose moderada, sem contato direto com brotos e raízes novas. Reduza bastante a adubação no inverno ou quando a planta estiver sem crescimento ativo.",
     rega: "Regue de forma regular e abundante durante a formação de brotos, raízes e pseudobulbos. O substrato deve permanecer levemente úmido, mas nunca encharcado ou compactado. Evite deixá-lo completamente seco por vários dias. No inverno, reduza a frequência, mantendo umidade suficiente para impedir o enrugamento excessivo dos pseudobulbos.",
     suporte: "🥇 Cesta suspensa de madeira com ripas largas.\n🥈 Cesto de plástico amplamente perfurado.\n🥉 Cesto aramado revestido apenas com uma camada fina de fibra de coco ou esfagno.\nNunca utilize vaso fechado ou prato sob o recipiente, pois a haste floral precisa sair pela parte inferior ou pelas laterais.",
@@ -207,7 +207,7 @@ export const stanhopeaAssidensis = {
         litoralQuente: { texto: "Cultive em sombra clara, cesta suspensa e local com circulação permanente de ar. Regue preferencialmente pela manhã, evitando encharcamento prolongado e água acumulada em brotos ou flores no fim do dia." },
         montanhaFrio: { texto: "Em regiões mais frescas, proteja de frio intenso e reduza as regas nos períodos de menor atividade, sem deixar os pseudobulbos desidratarem em excesso." }
     },
-    "mesesFloracao": [],
+    "mesesFloracao": [1, 2, 12],
     "selosCultivo": {
         "rega": { "nivel": "muito-frequente", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
