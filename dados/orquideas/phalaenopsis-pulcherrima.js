@@ -86,7 +86,7 @@ export const phalaenopsisPulcherrima = {
         "Substitua substrato velho antes que fique compacto.",
         "Aumente a luminosidade gradualmente, sem sol forte repentino."
     ],
-    dica: "🏆 Não corte uma haste verde apenas porque as primeiras flores caíram. Phalaenopsis pulcherrima pode continuar alongando a inflorescência e abrindo novas flores sucessivamente. Dê mais luz do que daria a uma Phalaenopsis híbrida comum, mas faça a aclimatação gradualmente.",
+    dica: "🏆 Diferentemente de muitas Phalaenopsis híbridas, esta espécie pode crescer em rochas e solos arenosos, beneficiando-se de luminosidade relativamente elevada e drenagem rápida. Adapte gradualmente ao sol suave, protegendo folhas das horas mais quentes. Use recipiente arejado e substrato que não permaneça saturado. Não corte uma haste verde logo após as primeiras flores caírem: ela pode continuar crescendo e abrir novas flores sucessivamente. Durante a brotação, mantenha regas regulares e observe a saúde das raízes antes de alterar o manejo.",
     revisaoCientificaIAR: {
         "nome": "Phalaenopsis pulcherrima (Lindl.) J.J.Sm.",
         "statusTaxonomico": "Nome aceito no POWO/Kew, combinação publicada em 1933; Doritis pulcherrima Lindl. (1833) é o basiônimo e sinônimo homotípico. POWO reconhece quatro variedades aceitas na espécie.",
