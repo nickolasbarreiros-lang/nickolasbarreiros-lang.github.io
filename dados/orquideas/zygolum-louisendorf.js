@@ -41,7 +41,7 @@ export const zygolumLouisendorf = {
     "adubacao": "🌿 Orgânica: bokashi em pequena dose nas bordas do vaso.\n💧 Mineral/Foliar: NPK equilibrado em meia dose a cada 10–15 dias no crescimento.\n🧪 Liberação lenta: Osmocote em dose baixa, com cautela em clima quente.\n🚿 Lavagem: faça flushing regular para impedir sais nas raízes.",
     "rega": "Regue quando a superfície começar a secar, sem esperar a secagem total do fundo do vaso. Mantenha umidade leve e constante, reduzindo apenas moderadamente no frio. Evite água acumulada no miolo das brotações novas.",
     "suporte": "🥇 Vaso plástico proporcional, com bons furos de drenagem — conserva melhor a umidade do substrato.\n🥈 Vaso de barro convencional — a porosidade da terracota favorece evaporação e resfriamento das raízes, exigindo atenção maior à frequência de rega.",
-    "dica": "Em clima quente, use vaso claro e substrato muito poroso. Regue antes que o meio seque por completo e mantenha ventilação contínua. O objetivo é raiz fresca e úmida, nunca abafada ou superaquecida.",
+    "dica": "🏆 Neste híbrido de flores contrastantes e perfumadas, o desafio em clima quente é manter raízes frescas sem deixar o vaso encharcado. Prefira recipiente claro e ventilado, com substrato poroso e luz filtrada abundante. Regue durante o crescimento antes de ocorrer desidratação intensa, permitindo boa drenagem. Proteja a planta do calor acumulado à noite e evite sol direto forte. Replante quando surgirem raízes novas e preserve pseudobulbos maduros: suas reservas ajudam a sustentar hastes florais vigorosas.",
     formasCultivo: {
         perfilVisual: "zygopetalinae",
         destaque: "Vaso plástico",
