@@ -85,7 +85,7 @@ export const epidendrumCentropetalum = {
         "Evite vasos grandes e pouco ventilados.",
         "Proteja os caules do sol forte do meio-dia."
     ],
-    dica: "🏆 Aproveite o hábito de formar keikis: em vez de removê-los cedo, deixe que criem raízes e ajudem a formar uma touceira cheia. Em clima quente, mantenha a planta em posição muito ventilada e com luz filtrada forte; noites menos abafadas costumam fazer mais diferença do que aumentar a adubação.",
+    dica: "🏆 Nesta espécie de caules finos, os keikis podem ajudar a formar uma touceira mais cheia, mas não devem ser destacados antes de desenvolver raízes próprias. Mantenha luz filtrada abundante, umidade regular e circulação de ar constante. Como ocorre em florestas montanas, noites menos quentes favorecem seu equilíbrio, especialmente no verão. Evite compensar calor excessivo com substrato encharcado. Se for separar uma muda, aguarde raízes suficientes para fixação e faça a operação durante o crescimento ativo.",
     revisaoCientificaIAR: {
         "nome": "Epidendrum centropetalum Rchb.f.",
         "statusTaxonomico": "Nome aceito no POWO/Kew, publicado em 1852; Oerstedella centradenia é sinônimo heterotípico, não o basiônimo.",
