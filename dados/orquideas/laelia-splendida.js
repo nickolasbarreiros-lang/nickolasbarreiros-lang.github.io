@@ -34,7 +34,7 @@ export const laeliaSplendida = {
         observacoes: "Exige luminosidade alta para formar pseudobulbos fortes e favorecer a floração. Um sombrite de 30% a 50% é uma referência inicial, ajustável conforme a intensidade do calor e a ventilação. Depois de aclimatada, admite sol suave no início da manhã ou no final da tarde; evite sol forte sobre folhas não adaptadas. Folhas firmes e crescimento compacto indicam bom equilíbrio; crescimento verde-escuro e ausência de flores podem sugerir sombra excessiva. Amarelecimento rápido e manchas secas pedem mais proteção. Aumente a exposição gradualmente.",
         seloLuz: "vermelho"
     },
-    floracao: "Pode florescer em diferentes épocas do ano, com registros de maior frequência entre fevereiro e abril e entre outubro e novembro em coleções estrangeiras. As hastes terminais podem alcançar cerca de um metro e produzir de oito a quinze flores grandes, cerosas e brilhantes, com aproximadamente 6 a 10 cm. Sépalas e pétalas púrpura-escuras apresentam margens muito onduladas, contrastando com o labelo rosado de centro claro. O perfume é pouco conhecido. O conjunto da floração pode durar cerca de quatro semanas.",
+    floracao: "Floresce principalmente de fevereiro a abril e de outubro a novembro em registros de coleções botânicas, podendo variar no cultivo brasileiro. As hastes terminais podem alcançar cerca de um metro e produzir de oito a quinze flores grandes, cerosas e brilhantes, com aproximadamente 6 a 10 cm. Sépalas e pétalas púrpura-escuras apresentam margens muito onduladas, contrastando com o labelo rosado de centro claro. O perfume é pouco conhecido. O conjunto da floração pode durar cerca de quatro semanas.",
     adubacao: "🌿 Orgânica: bokashi em pequena quantidade, preferencialmente em porta-adubo.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em cerca de 1/4 da dose comercial a cada 10 a 15 dias durante crescimento ativo.\n🧪 Liberação lenta: pode ser utilizada em poucos grânulos em vasos ou cestos.\n🚿 Lavagem: faça regas periódicas apenas com água para evitar acúmulo de sais.",
     rega: "Regue abundantemente enquanto novos brotos e raízes estiverem ativos, deixando o suporte secar parcialmente antes da próxima irrigação. Com pseudobulbos maduros, aumente moderadamente o intervalo entre regas. Evite raízes permanentemente molhadas.",
     suporte: [
@@ -230,7 +230,7 @@ export const laeliaSplendida = {
         litoralQuente: { texto: "Muito boa adaptação. Calor não costuma ser o principal problema; ofereça muita luz, circulação de ar e secagem relativamente rápida das raízes." },
         montanhaFrio: { texto: "Boa adaptação. Tolera noites mais frescas, mas deve ser protegida de frio intenso e de substrato frio e constantemente saturado." }
     },
-    mesesFloracao: [],
+    mesesFloracao: [2, 3, 4, 10, 11],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
