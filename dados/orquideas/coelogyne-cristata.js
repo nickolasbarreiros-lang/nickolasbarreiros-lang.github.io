@@ -215,7 +215,11 @@ export const coelogyneCristata = {
         "litoralQuente": "No litoral quente, o cultivo é difícil. Sem noites frias, pode crescer sem florescer. O melhor resultado exige microclima muito fresco, posição ventilada ou cultivo temporário em região de altitude durante o outono e inverno.",
         "montanhaFrio": "É o ambiente mais indicado: verão úmido e ventilado, seguido por inverno frio, luminoso e mais seco."
     },
-    "mesesFloracao": [9],
+    "mesesFloracao": [
+    7,
+    8,
+    9
+  ],
     "selosCultivo": {
         "rega": { "nivel": "sazonal", "regime": "repouso-seco" },
         "climaFloracao": { "faixa": "frio", "frioNecessario": true }
