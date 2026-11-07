@@ -86,7 +86,7 @@ export const aeridesOdorata = {
         "Não corte raízes saudáveis que saem do cesto.",
         "Evite água parada nas folhas durante noites frias."
     ],
-    dica: "🏆 Pense nela mais como uma Vanda do que como uma orquídea de vaso convencional. Quanto mais livres e ventiladas estiverem as raízes, mais fácil será oferecer bastante água sem causar encharcamento. Em clima quente, cesto vazado, luz filtrada forte e regas generosas pela manhã formam uma combinação especialmente favorável.",
+    dica: "🏆 Cultive esta espécie pensando primeiro nas raízes aéreas: elas precisam receber água abundante e voltar a respirar rapidamente. Cestos bem vazados ou suportes abertos facilitam esse equilíbrio, especialmente em clima quente. Regue generosamente pela manhã durante o crescimento, ajustando a frequência conforme a secagem, e mantenha luz intensa filtrada, sem sol escaldante. Evite esconder todas as raízes em substrato compacto. Quando a planta está bem enraizada e recebe umidade, ventilação e claridade suficientes, sustenta melhor seus cachos florais perfumados.",
     revisaoCientificaIAR: {
         "nome": "Aerides odorata Lour.",
         "statusTaxonomico": "Nome aceito em POWO/Kew; publicação original em Flora Cochinchinensis (1790).",
