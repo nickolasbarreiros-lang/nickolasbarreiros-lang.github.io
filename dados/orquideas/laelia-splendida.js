@@ -86,7 +86,7 @@ export const laeliaSplendida = {
         "Reserve espaço para a próxima frente de crescimento.",
         "Aclimate gradualmente antes de aumentar o sol direto."
     ],
-    dica: "🏆 Se a planta cresce bem mas não floresce, investigue primeiro a luz. Laelia splendida precisa acumular bastante energia para sustentar suas hastes longas. Em clima quente, um local muito claro, ventilado e com raízes quase expostas costuma funcionar melhor que um vaso úmido e sombreado.",
+    dica: "🏆 Nesta Laelia de hastes florais longas, a falta de luminosidade pode limitar a floração mesmo quando os pseudobulbos crescem. Ofereça luz intensa, com adaptação gradual ao sol suave, e mantenha raízes muito ventiladas. Use suporte firme ou recipiente estável, deixando espaço acima da planta para a inflorescência se desenvolver. Durante o crescimento, regue bem e permita secagem adequada. Evite excesso de sombra e adubação nitrogenada: o objetivo é amadurecer pseudobulbos robustos, capazes de sustentar hastes florais vigorosas.",
     revisaoCientificaIAR: {
         "nome": "Laelia splendida (Schltr.) L.O.Williams",
         "statusTaxonomico": "Nome aceito no POWO/Kew e WFO; combinação publicada por L.O.Williams em Darwiniana 5:77 (1941).",
