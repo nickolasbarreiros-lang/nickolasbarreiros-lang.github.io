@@ -137,7 +137,7 @@ export const eriaHyacinthoides = {
     },
     substrato: ["Casca de pinus média + carvão vegetal pequeno + esfagno de fibra longa solto + perlita grossa","Casca de pinus média + esfagno de fibra longa solto + carvão vegetal pequeno + casca de macadâmia média"],
     errosComuns: "Manter a planta identificada apenas sob o gênero desatualizado Eria nos registros da coleção; Permitir secura prolongada do substrato; Cultivar em ambientes com pouca ventilação; Exagerar na dosagem dos adubos e causar queima das raízes por sais; Dividir touceiras pequenas antes de a planta estar bem estabelecida.",
-    dica: "Deixe a planta formar uma touceira antes de dividir. O efeito ornamental vem justamente das hastes densas e numerosas; em clima quente, combine umidade do ar com ventilação forte para que as raízes finas permaneçam hidratadas sem ficar abafadas.",
+    dica: "🏆 O diferencial desta espécie, atualmente tratada como Bryobium hyacinthoides, é preservar uma touceira madura para sustentar várias hastes florais. Evite divisões frequentes e escolha recipiente proporcional, com substrato arejado que retenha umidade moderada. Durante o crescimento, regue regularmente e mantenha ventilação para proteger as raízes finas. Como ocorre em florestas úmidas de altitude variável, proteja a planta do superaquecimento e do sol forte. Uma touceira estável e bem enraizada costuma responder melhor que fragmentos recém-separados.",
     revisaoCientificaIAR: {
         "nome": "Bryobium hyacinthoides",
         "statusTaxonomico": "Nome aceito usado na ficha: Bryobium hyacinthoides.",
