@@ -85,7 +85,7 @@ export const encycliaAlboxanthina = {
         "Escolha recipiente proporcional à touceira.",
         "Não imponha repouso seco prolongado após a maturação."
     ],
-    dica: "🏆 Observe os pseudobulbos: eles devem amadurecer firmes, não permanecer verdes e excessivamente tenros. Muita luz filtrada, raízes arejadas e uma leve secagem entre regas ajudam a planta a armazenar energia e preparar a haste floral.",
+    dica: "🏆 Nesta Encyclia de ambientes sazonalmente secos, a formação de pseudobulbos firmes é mais importante que manter o substrato sempre úmido. Durante o crescimento, ofereça bastante claridade filtrada, ventilação e regas abundantes, permitindo que as raízes respirem entre elas. Quando os pseudobulbos amadurecerem, ajuste a frequência à secagem real, sem impor desidratação extrema. Prefira recipiente proporcional e substrato grosso. Observe o vigor das novas brotações: pseudobulbos bem formados oferecem melhores condições para sustentar a haste multifloral.",
     revisaoCientificaIAR: {
         "nome": "Encyclia alboxanthina Fowlie",
         "statusTaxonomico": "Nome aceito no POWO/Kew, descrito em Orchid Digest 54:27 (1990). Não tratar Encyclia pachyantha como sinônimo taxonômico automático: POWO também reconhece E. pachyantha como espécie aceita distinta.",
