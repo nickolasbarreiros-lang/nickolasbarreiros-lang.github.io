@@ -30,7 +30,7 @@ export const sophronitisWittigiana = {
     "regiao": "Serras úmidas do Sudeste brasileiro",
     "habitat": "Mata Atlântica montana · epífita · ~700–2.000 m.",
     "clima": "Intermediário a fresco · úmido e ventilado.",
-    "climaFloracao": "A indução floral está ligada à maturação dos pseudobulbos, boa luminosidade filtrada e noites mais amenas. A faixa altitudinal ampla indica alguma plasticidade, mas o calor noturno prolongado continua sendo o maior desafio no litoral. Não necessita de repouso seco severo: apenas redução proporcional das regas quando a evaporação cai.",
+    "climaFloracao": "Prefere clima intermediário a fresco, boa claridade filtrada e noites amenas. A montanha oferece condições mais favoráveis à floração; no litoral quente, o calor noturno persistente pode dificultar a formação dos botões. Mantenha raízes hidratadas e bem ventiladas durante o crescimento. Pseudobulbos maduros e temperaturas moderadas favorecem as flores. Não precisa de repouso seco rigoroso.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
