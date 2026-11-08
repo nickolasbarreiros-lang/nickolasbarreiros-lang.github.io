@@ -25,7 +25,7 @@ export const aciantheraBragae = {
     mesesFloracao: [8, 10, 11, 12, 1],
     mesesFloracaoIndicativos: true,
     clima: "Quente a intermediário, úmido, sombreado e ventilado.",
-    climaFloracao: "Prefere florestas úmidas e sombreadas, com registros entre 700 e 1.000 m. Montanha: favorável em ambiente úmido e protegido. Litoral quente: condicional, sobretudo quando as noites são abafadas; ofereça sombra luminosa e ventilação. Não há exigência demonstrada de queda térmica acentuada ou repouso seco. Mantenha as raízes regularmente úmidas, sem encharcamento.",
+    climaFloracao: "Aprecia clima úmido, sombra luminosa e boa ventilação. Na montanha, encontra condições favoráveis para florescer. No litoral quente, também pode florir se as noites não forem muito abafadas. Mantenha as raízes levemente úmidas e permita que os novos crescimentos amadureçam sem sofrer calor excessivo. Não precisa de frio intenso nem de repouso seco.",
     iluminacao: {
         sombrite: "70% como referência no litoral quente",
         solDireto: "Não permitido",
