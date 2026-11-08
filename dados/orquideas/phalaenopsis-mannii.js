@@ -40,7 +40,7 @@ export const phalaenopsisMannii = {
     "regiao": "Nepal · Assam · Myanmar · Vietnã · Yunnan",
     "habitat": "Florestas úmidas junto a rios · 500–1.500 m.",
     "clima": "Quente a ameno · úmido · inverno mais seco.",
-    "climaFloracao": "No habitat há um período de inverno relativamente mais seco, seguido pela floração de primavera. Em cultivo no litoral, isso deve ser interpretado como uma redução moderada da frequência das regas quando o crescimento desacelerar — nunca como seca prolongada. Boa ventilação, noites um pouco menos quentes e raízes ativas favorecem a emissão floral. Como a espécie ocorre de 500 a 1.500 m, diferentes procedências podem responder de maneira distinta ao calor.",
+    "climaFloracao": "Prefere clima quente a intermediário, boa umidade e ventilação. Pode florescer no litoral e na montanha, mas plantas de regiões mais altas podem preferir noites amenas. No período de crescimento, mantenha raízes ativas e regas regulares. Quando a atividade diminuir, espaçe moderadamente as regas para acompanhar a estação mais seca, sem desidratar a planta. Noites um pouco mais frescas podem favorecer as hastes.",
     "iluminacao": {
         "sombrite": "65% a 80%",
         "solDireto": "Não permitido",
