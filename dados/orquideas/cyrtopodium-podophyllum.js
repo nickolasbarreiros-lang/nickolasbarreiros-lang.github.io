@@ -28,7 +28,7 @@ export const cyrtopodiumPodophyllum = {
     "regiao": "Brasil (NE, Sudeste e Sul) · leste da Bolívia",
     "habitat": "Restingas, areia e rochas · nível do mar a ~1.100 m.",
     "clima": "Quente a intermediário · sazonal e muito luminoso.",
-    "climaFloracao": "A espécie ocorre desde a costa muito quente até altitudes próximas de 1.100 m, portanto não deve ser classificada por uma única temperatura. No litoral, o calor não é o principal problema; são mais importantes sol suficiente, drenagem extrema e respeito ao ritmo sazonal. Durante o crescimento, água e nutrientes sustentam pseudobulbos robustos. Quando as folhas amarelecem e caem, a atividade diminui e a rega deve acompanhar essa mudança, sem transformar a dormência em uma seca absoluta automática.",
+    "climaFloracao": "Aprecia clima quente a intermediário, muita luz e raízes bem arejadas. Pode florescer no litoral e na montanha, desde que receba claridade suficiente. Durante o crescimento, regue bem para formar pseudobulbos fortes. Quando as folhas começarem a amarelar e cair, reduza gradualmente as regas para acompanhar o descanso sazonal. Não precisa de frio intenso; respeitar o ritmo da planta é mais importante.",
     "iluminacao": {
         "sombrite": "30% a 50% durante a adaptação; reduzir conforme a resposta da planta",
         "solDireto": "Sol pleno",
