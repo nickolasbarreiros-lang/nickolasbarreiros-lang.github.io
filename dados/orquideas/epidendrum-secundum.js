@@ -30,7 +30,16 @@ export const epidendrumSecundum = {
  {asset:"areia-grossa",nome:"Areia grossa lavada",proporcao:"20%",nota:"drenagem",finalidade:"Acrescenta fração mineral; use areia grossa lavada e evite partículas finas que obstruam os espaços de ar."},
  {asset:"carvao-vegetal",nome:"Carvão vegetal granulado",proporcao:"10%",nota:"aeração",finalidade:"Contribui para a estrutura e a drenagem da mistura."}
  ],alerta:"Não utilize terra argilosa ou compactada. Observe a secagem real e evite água acumulada no fundo do vaso.",notaEvidencia:"Revisão documental: seleção de suportes coerente com AOS e San Diego County Orchid Society; classificação 5/4/3/3 é editorial, sem ensaio comparativo específico. Fonte específica: Bruce Berg, San Diego County Orchid Society, boletim 206 (maio de 2016), p. 9, recomenda para E. secundum casca de diferentes granulometrias com perlita, musgo, carvão, areia ou cascalho e aceita vasos de barro ou plástico. AOS, Reedstem Epidendrum Culture, recomenda mistura aberta e drenante, mas não receita específica para esta espécie. Receita 40/30/20/10 é proposta editorial coerente com drenagem, sem percentuais experimentalmente homologados. Quatro URLs originais da galeria abertas e confirmadas no Wikimedia Commons em 2026-11-08; identificação taxonômica independente e renderização no site ainda exigem teste funcional."},
- errosComuns:["Usar terra compacta que retém água por muitos dias.","Deixar o vaso permanentemente encharcado.","Cultivar com luminosidade insuficiente para florescer.","Expor repentinamente ao sol forte do meio do dia.","Cortar hastes verdes que ainda podem produzir ramificações florais ou keikis."],
+ errosComuns:[
+    "Usar terra compacta que retém água por dias.",
+    "Deixar o vaso permanentemente encharcado.",
+    "Cultivar com luz insuficiente para florescer.",
+    "Expor repentinamente ao sol forte.",
+    "Cortar hastes verdes que ainda podem reflorir.",
+    "Separar keikis antes de formarem raízes próprias.",
+    "Exagerar no nitrogênio e reduzir a floração.",
+    "Deixar água parada entre folhas e brotos."
+],
  revisaoCientificaIAR:{
   nome:"Epidendrum secundum Jacq.",
   statusTaxonomico:"Nome aceito em POWO/Kew; a delimitação de exemplares brasileiros requer cautela devido ao complexo de espécies próximas.",
