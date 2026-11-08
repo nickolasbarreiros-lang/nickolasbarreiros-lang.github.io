@@ -26,7 +26,7 @@ export const oncidiumPubes = {
     "regiao": "Sudeste do Brasil",
     "habitat": "Mata Atlântica úmida · epífita.",
     "clima": "Quente a ameno · ventilado.",
-    "climaFloracao": "A floração depende de pseudobulbos maduros, boa reserva de energia e luminosidade filtrada relativamente alta. Como Kew registra a espécie em floresta tropical úmida do Sudeste brasileiro, não há justificativa para um repouso seco severo. Após a maturação, apenas aumente um pouco o intervalo entre regas. Em litoral quente, ventilação e raízes oxigenadas são mais importantes que tentar induzir frio artificial.",
+    "climaFloracao": "Gosta de clima quente a intermediário, boa claridade filtrada e ventilação. Pode florescer no litoral e na montanha, com proteção contra temperaturas extremas. A floração depende de pseudobulbos maduros e raízes saudáveis. Regue durante o crescimento e aumente moderadamente os intervalos depois da maturação. Não precisa de repouso seco severo nem de frio intenso para produzir hastes.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
