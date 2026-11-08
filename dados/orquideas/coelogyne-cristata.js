@@ -73,7 +73,16 @@ export const coelogyneCristata = {
         "alerta": "Em clima quente de litoral, a floração pode não ocorrer por falta de noites frias, mesmo com rega e substrato corretos. Não tente substituir o frio por seca extrema.",
         "notaEvidencia": "MACS 1.1: AOS Coelogyne Culture Sheet publica casca de pinus/perlita 3:1 (75/25) para o GÊNERO, não para C. cristata; fonte: https://www.aos.org/orchid-care/care-sheets/coelogyne-culture-sheet. Produtores brasileiros Mogi Mirim, Maripá, Nhá Mercedes e Graças Garden citam casca/pinus, carvão, esfagno e/ou coco, sem proporções específicas. POWO registra hábito principalmente litófito; AOS também registra hábito epífito/litófito. RHS recomenda regas abundantes no crescimento e redução no inverno. Evidência quantitativa publicada em nível de gênero, sem homologação experimental da espécie ou validação das estrelas. Noites frias e sazonalidade são essenciais para avaliar chance de floração; substrato não substitui frio."
     },
-    "errosComuns": "Noites quentes no inverno; tentar induzir floração apenas com seca; manter regas constantes no repouso; adubar no inverno; calor abafado no verão; pouca luz no período frio; deixar o substrato frio e encharcado; falta de espaço para a touceira; colocar em vaso profundo; retomar água em excesso antes da atividade radicular.",
+    "errosComuns": [
+    "Manter noites quentes durante o inverno.",
+    "Tentar induzir floração apenas com seca.",
+    "Regar intensamente durante o repouso.",
+    "Adubar como no crescimento durante o inverno.",
+    "Cultivar em calor abafado no verão.",
+    "Manter pouca luz durante o período fresco.",
+    "Deixar substrato frio e encharcado.",
+    "Retomar regas intensas antes das raízes novas."
+],
     "dica": "🏆 Para esta espécie de montanha, a floração depende de uma combinação sazonal difícil de reproduzir em locais quentes: noites frescas, boa claridade e redução das regas durante o repouso. Quando os pseudobulbos estiverem maduros e o crescimento desacelerar, diminua a água e suspenda adubações fortes, sem deixar a planta murchar excessivamente. Não tente compensar a falta de frio impondo seca extrema. Em clima quente, priorize o local mais fresco e ventilado, especialmente à noite, para reduzir o estresse térmico.",
     revisaoCientificaIAR: {
         "nome": "Coelogyne cristata",
