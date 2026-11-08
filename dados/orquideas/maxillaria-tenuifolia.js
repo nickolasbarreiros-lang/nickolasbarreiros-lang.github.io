@@ -25,7 +25,7 @@ export const maxillariaTenuifolia = {
     "regiao": "México · Guatemala · Belize · El Salvador · Honduras · Nicarágua · Costa Rica",
     "habitat": "Epífita · florestas abertas ou densas · até 1.500 m.",
     "clima": "Quente a fresco · úmido e ventilado.",
-    "climaFloracao": "IOSPE registra florescimento na primavera e no verão, com flores de aproximadamente 3,9–5 cm. Após a floração, a fonte menciona um período mais seco; em cultivo no litoral quente, isso deve ser interpretado como redução moderada da rega, e não como repouso seco absoluto. Mantenha pseudobulbos firmes, boa luz e raízes arejadas, ajustando a água à velocidade real de secagem.",
+    "climaFloracao": "Adapta-se a clima quente a intermediário, com boa claridade filtrada e ventilação. Pode florescer no litoral e na montanha, desde que protegida do frio intenso. Pseudobulbos maduros e raízes saudáveis favorecem a formação das flores perfumadas. Mantenha regas regulares durante o crescimento e reduza moderadamente a frequência na fase menos ativa, sem deixar os pseudobulbos murcharem.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
