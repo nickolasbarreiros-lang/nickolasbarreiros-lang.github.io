@@ -69,7 +69,16 @@ export const octomeriaDiaphana = {
         alerta: "Preservar a touceira inteira e evitar mudanças de suporte após fixação. Não compactar esfagno, permitir seca completa por vários dias ou aplicar adubação concentrada.",
         notaEvidencia: "MACS 1.1 — revisão documental: Octomeria diaphana Lindl. (1839), nome aceito em POWO. Estudo brasileiro de Octomeria no Paraná descreve fascículos com 1–4 flores brancas diáfanas e bainhas imbricadas; CNCFlora registra ocorrência em Sudeste e Sul, altitude de planícies costeiras a montanhas e floração entre novembro e maio. Orquidário Aparecida possui anúncio específico, mas sem receita de substrato; orientações gerais do SENAR e ESALQ não homologam percentuais. Nenhuma receita quantitativa específica identificada nesta passagem. miniatura epífita cespitosa sem pseudobulbos evidentes, raízes finas e necessidade de umidade regular; montagem principal em placa/tronco com lâmina fina de esfagno. Suportes placa/tronco 5 estrelas, cachepô madeira 4, plástico vasado 3, barro 2; não homologados. Receita visual alternativa para recipiente 40% chips coco pequenos + 30% pinus fino + 30% perlita de granulometria adequada = 100%; receitaTexto e itens concordam. A receita principal visual e textual coincidem; as duas alternativas qualitativas são distintas e não são tratadas como origem dos percentuais. Validar adequação de perlita grossa às raízes finas, retenção de chips e secagem em cuia/cesto; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    "errosComuns": "❌ Dividir a touceira em 1 ou 2 ramicaules.\n❌ Permitir seca completa por vários dias.\n❌ Cultivar em vaso fundo ou substrato compacto.\n❌ Aplicar adubo forte ou deixar sais acumularem.\n❌ Deixar água parada nas axilas durante noites frias.\n❌ Retirar folhas antigas ainda verdes, que continuam ajudando na reserva hídrica.\n❌ Manipular a planta durante a emissão de novos ramicaules.\n❌ Manter em ambiente sem circulação de ar.",
+    "errosComuns": [
+    "Dividir a touceira em poucos ramicaules.",
+    "Deixar raízes secarem por vários dias.",
+    "Usar vaso fundo e substrato compacto.",
+    "Aplicar adubo concentrado.",
+    "Deixar água nas axilas em noites frias.",
+    "Retirar folhas antigas ainda verdes.",
+    "Manipular brotos novos com frequência.",
+    "Cultivar sem circulação de ar."
+],
     "dica": "🏆 Nesta Octomeria, a touceira madura é parte importante do espetáculo: vários caules podem produzir pequenos grupos de flores delicadas. Evite divisões frequentes e preserve folhas antigas ainda verdes. Prefira suporte rugoso com camada fina de material retentor, mantendo as raízes úmidas, mas ventiladas. Em dias quentes, acompanhe a secagem da montagem e proteja a planta do sol forte. Replante apenas quando necessário e, de preferência, durante a emissão de raízes novas, reduzindo o risco de estagnação.",
     revisaoCientificaIAR: {
         "nome": "Octomeria diaphana",
