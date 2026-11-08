@@ -70,7 +70,16 @@ export const ornithocephalusMyrticola = {
         alerta: "Evitar secagem por vários dias, água acumulada no centro do leque, madeira lisa, sol direto e folhas molhadas à noite. Umidade elevada exige ventilação constante.",
         notaEvidencia: "MACS 1.1 — revisão documental: Ornithocephalus myrticola, miniatura epífita sem pseudobulbos, raízes de velame delgado; montagem principal em placa rugosa com esfagno mínimo e hidratação frequente, sem saturação do leque. Suportes placa/tronco 5 estrelas; cachepô madeira, plástico vasado e árvore viva 3; notas não homologadas. Receita visual ALTERNATIVA para suporte muito vazado: 40% chips coco pequenos + 30% pinus fino + 30% perlita de granulometria adequada = 100%; receitaTexto e itens concordam. A receita percentual principal textual e visual coincidem; as duas alternativas qualitativas são distintas. A perlita deve ter granulometria compatível com raízes delicadas, sem presumir tamanho grosso. Avaliar risco de partículas grandes, desidratação ou abafamento; meta até 25 produtores brasileiros específicos não atingida. POWO aceita Ornithocephalus myrticola Lindl. (1840), epífita nativa das regiões Norte, Centro-Oeste, Sudeste e Sul do Brasil; Ornithocephalus chloroleucus, O. pygmaeus, O. reitzii e O. vosburghii são sinônimos heterotípicos. IOSPE descreve folhas em leque, hastes axilares pilosas de 4–8 cm, até 15 flores de cerca de 1 cm com aroma cítrico, mas cita Bolívia, não incluída na distribuição aceita por POWO. Orquidário Emanuel confirma cultivo em placa de madeira e Orquidário Oriental registra 70% de sombreamento, ambos sem receita percentual. Dois produtores brasileiros específicos qualitativos e zero receitas quantitativas específicas confirmadas nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    "errosComuns": "Secar por vários dias; encharcar o centro do leque; cultivar em vaso profundo; usar madeira lisa; aplicar adubo concentrado; expor ao sol direto; deixar a planta molhada à noite; aumentar umidade sem ventilação; manter junto a parede quente.",
+    "errosComuns": [
+    "Deixar raízes finas secarem por vários dias.",
+    "Encharcar o centro do leque foliar.",
+    "Usar vaso profundo e pouco ventilado.",
+    "Montar em madeira lisa sem fixação.",
+    "Aplicar adubo concentrado.",
+    "Expor folhas ao sol direto forte.",
+    "Deixar a planta molhada durante a noite.",
+    "Elevar umidade sem circulação de ar."
+],
     "dica": "🏆 Esta miniatura sem pseudobulbos exige umidade frequente, mas não tolera água parada no centro das folhas sobrepostas. Prefira montagem inclinada, com camada mínima de esfagno solto e ventilação constante. Regue pela manhã, permitindo que a folhagem seque antes da noite. Em dias quentes, aumente a frequência de hidratação conforme a secagem, sem engrossar excessivamente o material retentor. Observe o centro dos leques: escurecimento persistente pode indicar excesso de umidade e pouca circulação de ar.",
     revisaoCientificaIAR: {
         "nome": "Ornithocephalus myrticola",
