@@ -24,7 +24,7 @@ export const blcChiaLin = {
     regiao: "Sem distribuição natural · grex registrado em 1989",
     habitat: "Sem habitat natural · Aliança Cattleya",
     clima: "Quente–intermediário · luminoso · ventilado",
-    climaFloracao: "Híbrido da aliança Cattleya, sem altitude natural definida, de clima quente a intermediário. Litoral: favorável com luz filtrada intensa e ventilação. Montanha: favorável se protegido de frio prolongado. Floresce a partir de pseudobulbos bem maduros; noites um pouco mais frescas podem ajudar, sem necessidade de choque térmico imposto. Mantenha regas durante o crescimento e reduza-as conforme a secagem depois da maturação, sem repouso seco forçado.",
+    climaFloracao: "Floresce bem em clima quente a intermediário, tanto no litoral quanto na montanha, se protegida do frio intenso. Precisa de muita claridade filtrada e pseudobulbos completamente maduros. Regue e adube durante o crescimento ativo; depois, reduza a adubação e acompanhe a secagem do substrato. Não é necessário provocar seca artificial ou grandes quedas de temperatura para estimular os botões.",
     iluminacao: {
         sombrite: "50% a 60%; comece próximo de 50% se o local não for excessivamente quente",
         solDireto: "Permitido com restrição",
