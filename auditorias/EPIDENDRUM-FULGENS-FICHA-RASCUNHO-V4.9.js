@@ -1,5 +1,7 @@
 // RASCUNHO V4.9 — NÃO IMPORTAR NO ÍNDICE ANTES DA AUDITORIA FINAL
 // Índices e percentuais são propostas editoriais; imagens precisam de teste visual no site.
+// RASCUNHO V4.9 — NÃO IMPORTAR NO ÍNDICE ANTES DA AUDITORIA FINAL
+// Quatro fotografias com créditos individuais; ainda falta teste de carregamento visual.
 export const epidendrumFulgens = {
   "id": "epidendrum-fulgens",
   "nome": "Epidendrum fulgens",
@@ -21,7 +23,8 @@ export const epidendrumFulgens = {
   "fotos": [
     "https://commons.wikimedia.org/wiki/Special:FilePath/Epidendrum_fulgens_Brazil.jpg",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Epidendrum_fulgens.jpg",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Epidendrum_fulgens_1.jpg"
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Epidendrum_fulgens_1.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/4/4b/Epidendrum_fulgens_-_Rafael_-_460568742.jpeg"
   ],
   "selosCultivo": {
     "rega": {
@@ -345,6 +348,13 @@ export const epidendrumFulgens = {
       "origem": "https://commons.wikimedia.org/wiki/File:Epidendrum_fulgens_1.jpg",
       "licenca": "https://creativecommons.org/licenses/by/2.0/",
       "nomeLicenca": "CC BY 2.0",
+      "alteracoes": false
+    },
+    {
+      "autor": "Rafael (iNaturalist)",
+      "origem": "https://commons.wikimedia.org/wiki/File:Epidendrum_fulgens_-_Rafael_-_460568742.jpeg",
+      "licenca": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "nomeLicenca": "CC BY-SA 4.0",
       "alteracoes": false
     }
   ]
