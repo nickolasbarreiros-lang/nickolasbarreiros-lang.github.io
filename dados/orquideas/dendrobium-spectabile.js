@@ -25,7 +25,7 @@ export const dendrobiumSpectabile = {
     regiao: "Nova Guiné · Ilhas Salomão · Vanuatu · Nova Caledônia",
     habitat: "Epífita de florestas tropicais úmidas; ocasionalmente rupícola, de baixas a altas elevações.",
     clima: "Quente a intermediário, úmido e muito ventilado.",
-    climaFloracao: "Plantas maduras florescem melhor depois de uma estação de crescimento vigoroso e bem iluminado. AOS indica que um período ligeiramente mais fresco e com regas moderadamente reduzidas pode favorecer a floração de plantas adultas; não é repouso de seca extrema. Em clima quente, o desenvolvimento vegetativo tende a ser favorecido.",
+    climaFloracao: "Gosta de clima quente a intermediário, boa luminosidade e muita ventilação. O litoral favorece seu crescimento e pode oferecer boas condições de floração; na montanha, proteja do frio prolongado. Plantas adultas florescem melhor após formar hastes fortes e maduras. Uma fase um pouco mais fresca, com regas moderadamente reduzidas, pode ajudar a estimular os botões. Não precisa de seca extrema.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
