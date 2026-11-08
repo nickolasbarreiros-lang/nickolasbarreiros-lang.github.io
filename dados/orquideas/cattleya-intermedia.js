@@ -27,7 +27,7 @@ export const cattleyaIntermedia = {
     regiao: "Sudeste e Sul do Brasil · Paraguai",
     habitat: "Restingas, matas abertas e ambientes sazonais",
     clima: "Quente a intermediário · muito adaptável",
-    climaFloracao: "A floração depende sobretudo da maturação completa de pseudobulbos robustos sob boa luminosidade. Cattleya intermedia não necessita de repouso seco rigoroso: após o amadurecimento do crescimento, ajuste as regas à temperatura, ventilação e velocidade de secagem. Touceiras adultas com várias frentes acumulam mais reservas e podem produzir diversas inflorescências simultaneamente.",
+    climaFloracao: "Adapta-se bem ao litoral e à montanha, preferindo clima quente a intermediário e muita claridade. A floração depende de pseudobulbos bem maduros e raízes vigorosas. Regue durante o crescimento e ajuste a frequência quando a planta desacelerar, sem impor repouso seco. Touceiras adultas e bem formadas costumam produzir mais hastes. Proteja apenas de frio intenso e de ambientes abafados.",
     iluminacao: {
         sombrite: "40% a 60%; cerca de 50% como referência inicial",
         solDireto: "Permitido com restrição",
