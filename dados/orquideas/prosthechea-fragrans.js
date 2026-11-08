@@ -30,14 +30,15 @@ export const prosthecheaFragrans = {
   "suporte": "O vaso de barro ventilado é útil para acomodar pseudobulbos maduros e raízes ativas sem retenção excessiva no centro. Em placa, fixe a planta na direção de crescimento e aumente a frequência de rega enquanto surgirem raízes novas. Cesto de madeira é alternativa quando o ambiente tem boa umidade, mas não substitui o controle de secagem. Em árvore viva, escolha posição protegida do calor intenso e acompanhe a fixação inicial. Evite mudanças de suporte durante a formação das novas raízes.",
   "substrato": ["Casca de pinus média + carvão vegetal médio + perlita grossa","Casca de macadâmia média + casca de arroz carbonizada + carvão vegetal médio"],
   "errosComuns": [
-    "Manter o centro do vaso constantemente molhado.",
+    "Manter o centro do vaso sempre molhado.",
     "Enterrar a base dos pseudobulbos.",
-    "Trocar de vaso quando não há raízes novas para se estabelecer.",
-    "Expor a planta ao sol forte sem adaptação.",
-    "Usar adubo concentrado em substrato já carregado de sais.",
-    "Presumir que toda planta vendida como esta espécie tenha identificação confirmada.",
-    "Provocar seca intensa para estimular flores sem evidência dessa necessidade."
-  ],
+    "Replantar fora da emissão de raízes novas.",
+    "Expor ao sol forte sem adaptação.",
+    "Aplicar adubo concentrado em substrato salinizado.",
+    "Impor seca intensa para estimular flores.",
+    "Usar vaso grande com secagem lenta.",
+    "Deixar água acumulada nos brotos."
+],
   "dica": "🏆 Nesta Prosthechea perfumada, observe a formação dos pseudobulbos para ajustar a água: brotos e raízes ativos pedem regas regulares, mas sempre com drenagem rápida. Quando os pseudobulbos amadurecerem, permita secagem parcial sem impor repouso seco obrigatório. Ofereça luz filtrada abundante e ventilação constante, protegendo o vaso do calor excessivo. Não remova pseudobulbos antigos firmes, pois armazenam reservas importantes. Se as raízes escurecerem, revise primeiro a aeração e o estado do substrato antes de aumentar a adubação.",
   "revisaoCientificaIAR": {
     "nome": "Prosthechea fragrans",
