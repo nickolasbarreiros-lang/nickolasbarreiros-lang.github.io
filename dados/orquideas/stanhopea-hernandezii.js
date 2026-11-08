@@ -29,7 +29,7 @@ export const stanhopeaHernandezii = {
     "regiao": "México central e sudoeste",
     "habitat": "Florestas sazonais; epífita ou rupícola.",
     "clima": "Intermediário, sazonal e ventilado.",
-    "climaFloracao": "A floração depende de pseudobulbos bem formados, alta disponibilidade hídrica no crescimento, noites amenas e espaço físico livre para a haste geotrópica. Após a maturação, reduza apenas discretamente a água. Assim que a haste aparecer sob a cesta, mantenha o recipiente imóvel e evite qualquer replante.",
+    "climaFloracao": "Prefere clima intermediário a ameno, com noites frescas e boa ventilação. A montanha costuma favorecer a floração; no litoral quente, procure reduzir o calor noturno. Regue bem durante o crescimento e diminua moderadamente a frequência depois da maturação dos pseudobulbos, sem seca prolongada. Cultive em cesto aberto, pois a haste cresce para baixo. Evite movimentar a planta quando a haste aparecer.",
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Permitido com restrição",
