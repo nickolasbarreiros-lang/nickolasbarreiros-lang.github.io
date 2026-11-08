@@ -25,7 +25,7 @@ export const maxillariaSchunkeana = {
     "regiao": "Mata Atlântica capixaba",
     "habitat": "Epífita · floresta costeira · 600–700 m.",
     "clima": "Quente · úmido, sombreado e ventilado.",
-    "climaFloracao": "IOSPE registra a espécie florescendo no verão brasileiro, a partir de pseudobulbos maduros. Isso corrige a ideia de que ela depende de frio para florescer: sua origem em 600–700 m no Espírito Santo aponta para cultivo quente a moderado, desde que haja circulação de ar e raízes saudáveis. No litoral, mantenha boa luminosidade filtrada, regas regulares com rápida drenagem e evite noites abafadas com substrato saturado.",
+    "climaFloracao": "Prefere clima quente a intermediário, com umidade regular e boa ventilação. Pode florescer no litoral e na montanha, desde que protegida do frio intenso. A floração acompanha a maturação dos pseudobulbos e não depende de noites frias. Mantenha luz filtrada, raízes saudáveis e regas adequadas à secagem do suporte. Evite calor abafado junto com substrato constantemente molhado.",
     "iluminacao": {
         "sombrite": "70% a 80%",
         "solDireto": "Não permitido",
