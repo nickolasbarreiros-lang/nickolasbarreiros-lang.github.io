@@ -24,7 +24,7 @@ export const mediocalcarDecoratum = {
     "regiao": "Nova Guiné · regiões montanas",
     "habitat": "Floresta montana úmida · 900–2.500 m.",
     "clima": "Intermediário a fresco · úmido e ventilado.",
-    "climaFloracao": "Não necessita repouso seco. A floração é favorecida por crescimento contínuo, touceira madura, raízes saudáveis e noites amenas. Ondas de temperaturas mais frescas podem estimular botões, mas a planta deve permanecer hidratada. Calor noturno prolongado, especialmente com ar parado, interrompe o metabolismo e torna brotos e raízes vulneráveis a podridões.",
+    "climaFloracao": "Prefere clima intermediário a fresco, umidade elevada e noites amenas. A montanha oferece condições mais favoráveis à floração; no litoral quente, o calor noturno prolongado pode impedir a formação dos botões. Mantenha luz filtrada, boa ventilação e raízes hidratadas durante todo o ano. Não faça repouso seco. Touceiras maduras e temperaturas mais frescas favorecem a produção das pequenas flores.",
     "iluminacao": {
         "sombrite": "70% a 80%",
         "solDireto": "Não permitido",
