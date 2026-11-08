@@ -29,7 +29,7 @@ export const promenaeaGuttata = {
     "regiao": "Leste e Sul do Brasil",
     "habitat": "Florestas tropicais úmidas · epífita.",
     "clima": "Quente a ameno · úmido · sombreado.",
-    "climaFloracao": "IOSPE descreve plantas de crescimento quente a fresco e floração no fim da primavera e verão. Essa amplitude mostra que não há uma única temperatura obrigatória; no litoral quente, o desafio é impedir que a combinação de noites muito quentes, ar parado e substrato saturado sufoque as raízes. Boa umidade atmosférica com circulação de ar é mais importante do que manter o vaso constantemente molhado.",
+    "climaFloracao": "Prefere clima intermediário a ameno, com sombra luminosa, umidade elevada e boa ventilação. A montanha costuma favorecer a floração; no litoral quente, proteja principalmente das noites abafadas. Mantenha as raízes hidratadas, mas não deixe o substrato constantemente encharcado. Pseudobulbos maduros e temperaturas moderadas ajudam a produzir flores. Não precisa de repouso seco prolongado nem de frio intenso.",
     "iluminacao": {
         "sombrite": "70% a 80%",
         "solDireto": "Não permitido",
