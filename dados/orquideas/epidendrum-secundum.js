@@ -19,8 +19,8 @@ export const epidendrumSecundum = {
  suporte:["Vaso de barro","Vaso plástico vasado","Cultivo em canteiro elevado e drenado"],
  formasCultivo:{perfilVisual:"terrestre-rupicola",destaque:"Vaso de barro",resumo:"Planta ereta, de raízes que precisam de firmeza, drenagem e oxigenação. O vaso de barro é uma opção prática para estabilizar as hastes e reduzir o risco de umidade estagnada.",metodos:[
  {nome:"Vaso de barro",asset:"vaso-barro",estrelas:5,status:"Ideal",texto:"Oferece estabilidade para caules altos e favorece a secagem gradual do substrato; utilize mistura solta e furos livres."},
- {nome:"Vaso plástico vasado",asset:"vaso-plastico-vasado-v2",estrelas:4,status:"Muito recomendado",texto:"Permite boa ventilação radicular, mas exige atenção à secagem e à estabilidade das hastes."},
- {nome:"Vaso plástico",asset:"vaso-plastico-vasado-v2",estrelas:3,status:"Alternativa",texto:"Pode funcionar com mistura muito drenante e controle cuidadoso da umidade."},
+ {nome:"Vaso plástico vasado",asset:"vaso-plastico-vasado",estrelas:4,status:"Muito recomendado",texto:"Permite boa ventilação radicular, mas exige atenção à secagem e à estabilidade das hastes."},
+ {nome:"Vaso plástico",asset:"vaso-plastico",estrelas:3,status:"Alternativa",texto:"Pode funcionar com mistura muito drenante e controle cuidadoso da umidade."},
  {nome:"Cachepô de madeira",asset:"cesto-madeira",estrelas:3,status:"Alternativa",texto:"Favorece a aeração, mas pode secar depressa e exigir fixação das hastes."}
  ]},
  substrato:["Casca de pínus média + perlita grossa + chips de coco lavados","Brita fina lavada + casca de pínus média + fibra de coco grossa lavada"],
