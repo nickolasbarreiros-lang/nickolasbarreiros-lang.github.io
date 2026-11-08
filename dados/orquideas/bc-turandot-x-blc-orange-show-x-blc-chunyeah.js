@@ -23,7 +23,7 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
     regiao: "Sem distribuição natural · híbrido complexo da aliança Cattleya",
     habitat: "Sem habitat natural · aliança Cattleya epífita.",
     clima: "Quente a intermediário · bem ventilado.",
-    climaFloracao: "Híbrido sem altitude natural definida, adequado a clima quente a intermediário. Litoral: favorável com luz filtrada intensa, ventilação e raízes ativas. Montanha: favorável se protegido de frio prolongado. A floração depende da maturação dos novos pseudobulbos; noites moderadamente mais frescas podem ajudar, mas não há quebra térmica específica comprovada para este cruzamento. Evite repouso seco forçado e excesso de nitrogênio na maturação.",
+    climaFloracao: "Este híbrido gosta de clima quente a intermediário e pode florescer no litoral ou na montanha, desde que não passe frio intenso. Ofereça bastante claridade filtrada, ventilação e regas regulares durante o crescimento. As flores aparecem com maior facilidade depois que os novos pseudobulbos amadurecem. Noites um pouco mais frescas podem ajudar, mas não é necessário forçar uma seca ou queda brusca de temperatura.",
     iluminacao: {
         sombrite: "50% como referência inicial",
         solDireto: "Permitido com restrição",
