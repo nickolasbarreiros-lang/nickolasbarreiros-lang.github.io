@@ -317,5 +317,5 @@ export const cattleyaAmethystoglossaVarAurea = {
       "texto": "Proteja de frio intenso e chuva fria prolongada; ajuste as regas à secagem da mistura."
     }
   },
-  "dica": "🏆 Replante quando as raízes novas começarem a surgir na base do crescimento; assim, a planta se fixa mais depressa e sofre menos com a troca de recipiente."
+  "dica": "Replante quando as raízes novas começarem a surgir na base do crescimento; assim, a planta se fixa mais depressa e sofre menos com a troca de recipiente."
 };
