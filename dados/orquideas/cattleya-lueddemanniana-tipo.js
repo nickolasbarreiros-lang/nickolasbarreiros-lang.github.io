@@ -24,7 +24,7 @@ export const cattleyaLueddemannianaTipo = {
     regiao: "Cordilheira da Costa · norte da Venezuela",
     habitat: "Florestas tropicais úmidas · epífita.",
     clima: "Quente a intermediário · ventilado.",
-    climaFloracao: "A planta amadurece o pseudobulbo antes de desenvolver a inflorescência. A espata pode amarelar ou secar externamente e ainda permanecer funcional, protegendo botões que surgirão semanas depois. Após a maturação, aumente gradualmente o intervalo entre as regas, sem impor seca absoluta. Boa luz, raízes sadias e crescimento completo são mais importantes que qualquer tentativa de forçar a floração.",
+    climaFloracao: "Gosta de clima quente a intermediário, com bastante luz filtrada e boa ventilação. O litoral é favorável; na montanha, proteja do frio prolongado. A floração aparece depois que os pseudobulbos amadurecem. Mesmo quando a espata fica amarelada ou seca, ainda pode guardar botões. Após o crescimento, espaçe um pouco as regas, sem impor seca extrema. Raízes saudáveis e boa claridade fazem diferença.",
     iluminacao: {
         sombrite: "40% a 60%; cerca de 50% como referência inicial",
         solDireto: "Permitido com restrição",
