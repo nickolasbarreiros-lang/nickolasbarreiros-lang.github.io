@@ -74,7 +74,16 @@ export const spathoglottisPlicata = {
         alerta: "Evitar terra compacta, vasos sem furos, pratos com água e enterro profundo dos pseudobulbos. Não deixar a mistura secar completamente durante o crescimento ativo.",
         notaEvidencia: "MACS 1.1: receita documental específica publicada pelo Universo das Orquídeas (40% Terra vegetal, 30% Casca de pinus, 20% Perlita, 10% Composto orgânico), variante de 4:3:2:1 sem carvão opcional. Composição B específica e percentuais B documentais, mas NÃO HOMOLOGADOS EXPERIMENTALMENTE. Duas alternativas inferidas D no menu. Assets específicos terra-vegetal e composto-organico cadastrados na biblioteca V4. Matriz: auditorias/MACS-1.1-MATRIZ-034-SPATHOGLOTTIS-PLICATA.md."
     },
-    "errosComuns": "Terra compacta; enterrar pseudobulbos; prato com água; sombra profunda; matéria orgânica fresca; vaso sem drenagem; deixar secar totalmente no crescimento; excesso de chuva no colo; cortar folhas verdes; dividir em poucas unidades; pouca luz.",
+    "errosComuns": [
+    "Usar terra compacta e pouco drenante.",
+    "Enterrar profundamente os pseudobulbos.",
+    "Deixar prato com água sob o vaso.",
+    "Cultivar em sombra profunda.",
+    "Aplicar matéria orgânica fresca nas raízes.",
+    "Deixar secar completamente no crescimento.",
+    "Manter água acumulada no colo dos brotos.",
+    "Dividir touceiras em poucas unidades."
+],
     "dica": "🏆 Esta orquídea terrestre produz hastes sucessivas quando recebe luz abundante e espaço para crescer. Use vaso largo e estável, com mistura orgânica leve, fértil e bem drenada, mantendo as bases dos pseudobulbos próximas à superfície. Acostume gradualmente ao sol suave da manhã e mantenha regas regulares durante a brotação, sem deixar água estagnada. Retire apenas hastes completamente secas, pois as verdes podem continuar abrindo flores. Preserve a touceira madura para favorecer floração prolongada.",
     revisaoCientificaIAR: {
         "nome": "Spathoglottis plicata",
