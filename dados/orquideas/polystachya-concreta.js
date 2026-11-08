@@ -92,13 +92,15 @@ export const polystachyaConcreta = {
     },
 
     errosComuns: [
-        "Colocar a planta sob sol direto por confundir ampla distribuição geográfica com exigência de alta luminosidade.",
-        "Cultivar em sombra profunda e sem claridade suficiente para amadurecer bem os novos pseudobulbos.",
-        "Manter substrato fino, velho ou permanentemente saturado.",
-        "Deixar uma planta montada secar excessivamente durante crescimento ativo.",
-        "Aplicar repouso seco forte sem evidência de necessidade fisiológica.",
-        "Cortar a haste ou manipular o novo pseudobulbo cedo demais, pois a inflorescência é terminal e acompanha a maturação do crescimento."
-    ],
+    "Expor folhas ao sol direto forte.",
+    "Cultivar em sombra profunda.",
+    "Manter substrato fino e saturado.",
+    "Deixar a montagem secar durante a brotação.",
+    "Impor repouso seco severo.",
+    "Cortar a haste terminal antes da floração.",
+    "Replantar fora da emissão de raízes novas.",
+    "Deixar água parada nas bainhas dos brotos."
+],
 
     dica: "🏆 Nesta Polystachya, as inflorescências surgem no alto dos novos crescimentos, por isso acompanhe a maturação dos brotos para não perder a abertura das flores. Ofereça luz filtrada abundante, raízes ventiladas e regas regulares durante o desenvolvimento dos pseudobulbos. Evite girar ou movimentar excessivamente a planta quando a haste estiver se formando. Como as flores individuais podem durar pouco, observe a inflorescência ao longo de vários dias. Preserve a touceira e ajuste as regas à atividade, sem provocar seca prolongada.",
 
