@@ -16,7 +16,7 @@ export const dinemaPolybulbon = {
   "regiao": "México, América Central e Caribe.",
   "habitat": "Cresce sobre troncos e galhos em ambientes florestais, espalhando seus pequenos pseudobulbos pela casca. O rizoma permanece à superfície e as raízes aproveitam a umidade sem ficar soterradas.",
   "clima": "Quente a intermediário, úmido e ventilado; ajustar exposição à procedência.",
-  "climaFloracao": "Touceiras bem estabelecidas, com vários pseudobulbos maduros, costumam ter melhores condições de emitir flores. A espécie aceita cultivo quente a intermediário, com luz filtrada, umidade regular e boa ventilação. No litoral quente, o maior desafio é equilibrar a secagem rápida da montagem com a hidratação das raízes. Não há comprovação de que seja necessário um choque térmico ou repouso seco prolongado para induzir a floração.",
+  "climaFloracao": "Gosta de clima quente a intermediário, com luz filtrada e boa ventilação. Pode florescer no litoral e na montanha, desde que não passe frio intenso. Touceiras bem estabelecidas, com vários pseudobulbos maduros, costumam florescer melhor. Se cultivada montada, mantenha as raízes hidratadas sem impedir a secagem entre regas. Não precisa de choque térmico nem de repouso seco prolongado.",
     "iluminacao": {
       "sombrite": "60% a 70%",
       "solDireto": "Permitido com restrição",
