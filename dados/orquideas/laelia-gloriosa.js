@@ -25,7 +25,7 @@ export const laeliaGloriosa = {
     regiao: "América do Sul tropical; Brasil em várias regiões",
     habitat: "Florestas e formações sazonais · epífita ou rupícola; altitude variável.",
     clima: "Quente · úmido · alta luz · ventilado.",
-    climaFloracao: "Pseudobulbos maduros, luminosidade elevada e raízes saudáveis favorecem hastes fortes. Após o crescimento, aumente moderadamente o intervalo entre regas, sem provocar desidratação severa. Por ser uma espécie tropical de baixa a média altitude, não necessita de frio intenso para florescer.",
+    climaFloracao: "Gosta de clima quente, muita claridade e boa circulação de ar, sendo adequada ao litoral. Na montanha, também pode florescer se protegida do frio intenso. A floração depende de pseudobulbos maduros e raízes vigorosas. Regue bem durante o crescimento e aumente moderadamente os intervalos depois da maturação. Não precisa de noites frias nem de repouso seco rigoroso para produzir hastes fortes.",
     iluminacao: {
         sombrite: "30% a 50%",
         solDireto: "Permitido com restrição",
