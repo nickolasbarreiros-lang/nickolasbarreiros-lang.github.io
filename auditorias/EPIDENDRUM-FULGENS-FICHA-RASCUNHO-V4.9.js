@@ -24,7 +24,7 @@ export const epidendrumFulgens = {
     "https://commons.wikimedia.org/wiki/Special:FilePath/Epidendrum_fulgens_Brazil.jpg",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Epidendrum_fulgens.jpg",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Epidendrum_fulgens_1.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/4/4b/Epidendrum_fulgens_-_Rafael_-_460568742.jpeg"
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Epidendrum_fulgens_-_Rafael_-_460568742.jpeg"
   ],
   "selosCultivo": {
     "rega": {
