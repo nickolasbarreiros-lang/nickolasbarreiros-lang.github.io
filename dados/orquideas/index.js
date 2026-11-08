@@ -10,7 +10,7 @@ import { aciantheraAuriculata } from "./acianthera-auriculata.js";
 import { epidendrumHokuleaSuperRed } from "./epidendrum-hokulea-super-red.js";
 import { gomesaCornigera } from "./gomesa-cornigera.js";
 import { masdevalliaInfracta } from "./masdevallia-infracta.js";
-import { oncidiumSummerWind } from "./oncidium-summer-wind.js";
+import { oncidiumSphacelatum } from "./oncidium-sphacelatum.js";
 import { pholidotaChinensis } from "./pholidota-chinensis.js";
 import { pinaliaElata } from "./pinalia-elata.js";
 import { stelisCfAprica } from "./stelis-cf-aprica.js";
@@ -300,7 +300,7 @@ bulbophyllumSyciobulbon,
     epidendrumHokuleaSuperRed,
     gomesaCornigera,
     masdevalliaInfracta,
-    oncidiumSummerWind,
+    oncidiumSphacelatum,
     pholidotaChinensis,
     pinaliaElata,
     stelisCfAprica,
