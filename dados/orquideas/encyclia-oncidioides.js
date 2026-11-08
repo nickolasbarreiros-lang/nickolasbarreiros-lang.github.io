@@ -65,7 +65,16 @@ export const encycliaOncidioides = {
         alerta: "Evitar vaso grande ou profundo, rizoma enterrado, sombra excessiva e substrato constantemente molhado. Não impor repouso seco rigoroso nem cortar hastes ainda verdes.",
         notaEvidencia: "MACS 1.1 — revisão documental: Encyclia oncidioides, epífita/rupícola de luz alta, pseudobulbos robustos, raízes aeradas e secagem perceptível entre regas, sem repouso seco severo. Vaso de Barro justo e perfurado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com vaso + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus. Elas não fundamentam os percentuais visuais; justificativa anterior de equivalência foi corrigida. Monitorar secagem em barro versus cachepô, estabilidade de hastes e retenção na fase ativa. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente"
     },
-    errosComuns: "Usar vaso grande ou profundo; cultivar em sombra excessiva; manter raízes constantemente molhadas; usar substrato fino, velho ou compactado; enterrar o rizoma; cortar hastes ainda verdes; aplicar excesso de nitrogênio após a maturação; seguir um número fixo de dias sem água; tratar o inverno como dormência seca rigorosa.",
+    errosComuns: [
+    "Usar vaso grande ou profundo.",
+    "Cultivar em sombra excessiva.",
+    "Manter raízes constantemente molhadas.",
+    "Usar substrato fino ou decomposto.",
+    "Enterrar o rizoma.",
+    "Cortar hastes ainda verdes.",
+    "Exagerar no nitrogênio após a maturação.",
+    "Impor dormência seca rigorosa no inverno."
+],
     dica: "🏆 Nesta Encyclia de ambientes abertos, luminosidade elevada e raízes oxigenadas são essenciais para formar pseudobulbos capazes de sustentar hastes longas. Ofereça luz intensa filtrada, introduzindo gradualmente o sol suave, e use substrato grosso ou montagem bem ventilada. Regue generosamente durante o crescimento, permitindo secagem adequada entre regas. Evite vaso grande e material compactado, que retêm água por tempo excessivo. Não tente estimular flores com frio artificial: concentre-se na maturação dos brotos e na estabilidade do enraizamento.",
     revisaoCientificaIAR: {
         "nome": "Encyclia oncidioides",
