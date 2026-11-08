@@ -21,7 +21,8 @@ export const oncidiumSphacelatum = {
   "fotos": [
     "https://upload.wikimedia.org/wikipedia/commons/1/16/Oncidium_sphacelatum_2.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/f/f7/Oncidium_sphacelatum_%2842110%29.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/c/c0/Oncidium_sphacelatum_%2842115%29.jpg"
+    "https://upload.wikimedia.org/wikipedia/commons/c/c0/Oncidium_sphacelatum_%2842115%29.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Oncidium_sphacelatum_IMG_1744.jpg"
   ],
   "selosCultivo": {
     "rega": {
@@ -45,7 +46,7 @@ export const oncidiumSphacelatum = {
   ],
   "mesesFloracaoIndicativos": true,
   "clima": "Quente a intermediário, com boa ventilação e umidade ambiente.",
-  "climaFloracao": "Há registros brasileiros de floração em outubro e novembro; a espécie também pode florescer em outros períodos, conforme o cultivo.",
+  "climaFloracao": "Ocorre naturalmente em florestas tropicais, desde baixas altitudes até cerca de 1.000 m, e floresce melhor com luz filtrada intensa, boa ventilação, umidade elevada e pseudobulbos maduros. Prefere calor moderado, com noites um pouco mais frescas. Essa diferença térmica pode favorecer a floração, mas não há comprovação de que precise de quebra térmica obrigatória. Reduza as regas quando o crescimento parar; não é necessário impor seca severa. Pouca luz e raízes encharcadas dificultam a emissão de hastes.",
   "iluminacao": {
     "sombrite": "Cerca de 50% como referência inicial, ajustando ao calor",
     "solDireto": "Permitido com restrição",
@@ -336,6 +337,13 @@ export const oncidiumSphacelatum = {
       "origem": "https://commons.wikimedia.org/wiki/File:Oncidium_sphacelatum_(42115).jpg",
       "licenca": "https://creativecommons.org/licenses/by-sa/4.0/",
       "nomeLicenca": "CC BY-SA 4.0",
+      "alteracoes": false
+    },
+    {
+      "autor": "Michael Wolf",
+      "origem": "https://commons.wikimedia.org/wiki/File:Oncidium_sphacelatum_IMG_1744.jpg",
+      "licenca": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "nomeLicenca": "CC BY-SA 3.0",
       "alteracoes": false
     }
   ]
