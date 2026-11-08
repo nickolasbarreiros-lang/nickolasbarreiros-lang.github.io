@@ -26,7 +26,7 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
     "regiao": "Sem distribuição natural · híbrido de cultivo brasileiro",
     "habitat": "Sem habitat natural · híbrido de Cattleya.",
     "clima": "Quente a intermediário · ventilado.",
-    "climaFloracao": "A floração depende de crescimento vegetativo completo, pseudobulbo firme, boa luminosidade e raízes funcionais. O híbrido tolera melhor o calor e pequenas oscilações de rega do que C. schilleriana pura, mas ainda sofre quando permanece em substrato velho ou úmido por tempo prolongado. Após o pseudobulbo amadurecer, uma redução moderada de água e nitrogênio ajuda a direcionar as reservas para a floração. Não necessita repouso seco rígido; a prioridade é impedir crescimento contínuo e mole causado por excesso de adubação e sombra.",
+    "climaFloracao": "Este híbrido gosta de clima quente a intermediário e pode florescer tanto no litoral quanto na montanha, com proteção contra frio intenso. Ofereça bastante luz filtrada, ventilação e regas regulares durante o crescimento. Depois que o pseudobulbo amadurecer, reduza um pouco a água e a adubação nitrogenada. Não precisa de repouso seco rigoroso; o maior cuidado é evitar sombra excessiva e raízes encharcadas.",
     "iluminacao": {
         "sombrite": "40% a 50%",
         "solDireto": "Permitido com restrição",
