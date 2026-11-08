@@ -23,7 +23,7 @@ export const epicattleyaReneMarques = {
     regiao: "Sem distribuição natural · E. pseudepidendrum × C. Claesiana",
     habitat: "Sem habitat natural · grex horticultural.",
     clima: "Quente a intermediário · muito luminoso.",
-    climaFloracao: "Não existe uma estação natural única para o grex. A melhor indução ocorre quando novos caules completam o crescimento sob luz alta, com raízes ativas e nutrição equilibrada. No litoral quente, ventilação e secagem entre regas são mais importantes do que buscar noites frias.",
+    climaFloracao: "Este híbrido gosta de clima quente a intermediário, bastante claridade e boa ventilação. Pode florescer no litoral e na montanha, desde que não passe frio intenso. A floração depende de caules maduros, raízes saudáveis e crescimento vigoroso. Regue durante a fase ativa e deixe as raízes secarem adequadamente entre regas. Não precisa de noites frias nem de repouso seco rigoroso para formar flores.",
         iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
