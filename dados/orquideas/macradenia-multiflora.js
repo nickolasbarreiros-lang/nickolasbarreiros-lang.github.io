@@ -90,14 +90,15 @@ export const macradeniaMultiflora = {
         notaEvidencia: "MACS 1.1 — revisão documental: Orquídeas & Cia tem página específica com meia-sombra sem sol direto, rega frequente e opções de pinus, esfagno ou tronco (https://www.orquideacia.com.br/macradenia-multiflora). As referências anteriores a outros produtores não foram reconfirmadas nesta passagem e não são contadas como receitas verificadas. POWO aceita Macradenia multiflora e o sinônimo Trichopilia multiflora, com distribuição Brasil e Paraguai. Não há validação publicada nesta passagem para a receita visual 45% pinus médio + 30% perlita grossa + 25% carvão = 100%. Receita principal 45% pinus + 30% perlita + 25% carvão coincide com o visual; pinus, esfagno e perlita são apenas uma alternativa qualitativa sem percentuais. Cachepô suspenso 5 estrelas, placa e vasos 4: plausibilidade pela haste pendente, sem ensaio comparativo. Percentuais e estrelas NÃO HOMOLOGADOS; meta de até 25 produtores não atingida. Receita principal, duas alternativas e demais campos preservados nesta revisão documental."
     },
     errosComuns: [
-        "Expor ao sol direto forte porque a planta aceita boa luminosidade filtrada.",
-        "Manter o substrato permanentemente encharcado por interpretar 'rega frequente' como saturação constante.",
-        "Deixar uma planta montada secar por períodos prolongados em dias quentes.",
-        "Cultivar em sombra profunda, produzindo crescimento fraco e menor capacidade de floração.",
-        "Usar vaso grande ou substrato muito fino e pouco aerado.",
-        "Aplicar repouso seco forte, contrariando a necessidade de água mais uniforme ao longo do ano.",
-        "Posicionar a planta onde a haste pendente fique presa ou apoiada sobre o substrato."
-    ],
+    "Expor folhas ao sol direto forte.",
+    "Manter substrato permanentemente encharcado.",
+    "Deixar a montagem secar por muitos dias.",
+    "Cultivar em sombra profunda.",
+    "Usar vaso grande com substrato fino.",
+    "Impor repouso seco severo.",
+    "Prender a haste floral pendente.",
+    "Compactar material retentor sobre as raízes."
+],
 
     dica: "🏆 Nesta espécie, as hastes florais surgem pendentes e precisam de espaço livre abaixo da planta. Escolha cesto suspenso ou montagem ventilada, evitando prateleiras que possam dobrar ou esconder as inflorescências. Durante o crescimento, mantenha umidade regular e luz filtrada, com drenagem rápida após as regas. Não compacte material retentor em torno das raízes: aeração é tão importante quanto hidratação. Quando os botões estiverem se formando, evite mudar a posição da planta e preserve a estabilidade do suporte.",
 
