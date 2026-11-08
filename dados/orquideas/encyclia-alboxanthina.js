@@ -25,7 +25,7 @@ export const encycliaAlboxanthina = {
     regiao: "Bahia e Sergipe",
     habitat: "Epífita e também registrada sobre rochas em ambientes tropicais sazonalmente secos.",
     clima: "Quente a intermediário, claro e ventilado.",
-    climaFloracao: "A floração é favorecida por pseudobulbos bem amadurecidos, bastante luminosidade e boa diferença entre períodos de hidratação e secagem. Não necessita repouso seco rigoroso, mas o excesso constante de água prejudica raízes e maturação dos pseudobulbos.",
+    climaFloracao: "Prefere clima quente a intermediário, bastante claridade e excelente ventilação. Pode florescer no litoral e na montanha, desde que protegida de frio intenso. A floração depende de pseudobulbos maduros e raízes saudáveis. Regue bem durante o crescimento e permita uma secagem mais nítida depois da maturação. Não precisa de repouso seco rigoroso, mas raízes constantemente molhadas podem prejudicar a formação das flores.",
         iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
