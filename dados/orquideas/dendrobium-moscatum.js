@@ -26,7 +26,7 @@ export const dendrobiumMoscatum = {
     "regiao": "Sul da Ásia · Indochina",
     "habitat": "Predominantemente epífita · troncos em florestas abertas.",
     "clima": "Quente a intermediário · monçônico.",
-    "climaFloracao": "Não entra em dormência tão profunda quanto D. lindleyi ou D. loddigesii. O manejo correto é permitir que a haste amadureça completamente antes de reduzir água e nitrogênio. Hastes ainda verdes continuam acumulando reservas; reduzir cedo demais produz estruturas fracas, enquanto manter água e nitrogênio por tempo excessivo favorece crescimento vegetativo em vez de flores.",
+    "climaFloracao": "Gosta de clima quente a intermediário, bastante claridade e boa ventilação. Pode florescer no litoral e na montanha, desde que fique protegido do frio intenso. Regue bem enquanto as hastes crescem e espere que amadureçam antes de espaçar as regas. Uma fase sazonal um pouco mais seca favorece a floração, mas não exige repouso extremo. Evite excesso de adubação nitrogenada depois da maturação.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
