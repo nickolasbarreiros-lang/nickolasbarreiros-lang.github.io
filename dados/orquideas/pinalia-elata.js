@@ -17,7 +17,7 @@ export const pinaliaElata = {
  selosCultivo:{rega:{nivel:"moderada"},climaFloracao:{faixa:"intermediario"}},
  avaliacoes:{cultivo:4,floracao:4,perfume:5,luminosidade:3,agua:3,raridade:3},
  mesesFloracao:[10,11,12,1,2],
- climaFloracao:"Adapta-se muito bem ao clima tropical brasileiro, apresentando crescimento vigoroso e floração abundante quando cultivada com boa luminosidade filtrada, umidade equilibrada e ventilação constante. Na região quente (clima de litoral), desenvolve-se bem em locais protegidos do sol intenso, desde que as raízes sequem adequadamente entre as regas. Na região fria (clima de montanha), deve ser protegida de noites excessivamente frias e da umidade prolongada. A floração ocorre principalmente entre a primavera e o verão, podendo variar conforme as condições de cultivo.",
+ climaFloracao:"Gosta de clima quente a intermediário, luz filtrada abundante e boa ventilação. Pode florescer no litoral e na montanha, desde que protegida do frio intenso. Regue durante o crescimento, deixando as raízes respirarem entre regas. Uma leve redução da água quando a atividade diminuir acompanha seu ritmo sazonal, sem necessidade de seca prolongada. Touceiras maduras e bem iluminadas favorecem florações abundantes.",
  iluminacao: {
      sombrite: "50% a 60%",
      solDireto: "Permitido com restrição",
