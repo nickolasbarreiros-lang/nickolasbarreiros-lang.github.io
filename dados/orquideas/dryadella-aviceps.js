@@ -28,7 +28,7 @@ export const dryadellaAviceps = {
     regiao: "Leste e Sul do Brasil · Paraguai",
     habitat: "Epífita · florestas sazonais · ~310–1.500 m.",
     clima: "Quente a fresco · úmido e ventilado.",
-    climaFloracao: "A amplitude altitudinal mostra que a espécie não deve ser classificada como exclusivamente fria. Plantas de procedência mais baixa toleram calor melhor, enquanto populações montanas respondem a noites amenas. Uma touceira madura, raízes saudáveis e estabilidade hídrica são mais importantes que um choque térmico intenso. No litoral quente, a prioridade é evitar abafamento e aquecimento prolongado das raízes.",
+    climaFloracao: "Prefere ambiente úmido, sombreado e bem ventilado, com temperaturas intermediárias a amenas. A montanha costuma facilitar a floração; no litoral, escolha um local fresco e protegido do abafamento. Mantenha umidade regular nas raízes e permita que a touceira amadureça. Não precisa de frio intenso nem de seca prolongada. Plantas de origem mais quente podem se adaptar melhor ao litoral.",
         iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
