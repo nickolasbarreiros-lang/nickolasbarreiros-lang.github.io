@@ -24,7 +24,7 @@ export const ornithophoraRadicans = {
     regiao: "Sul e Sudeste do Brasil",
     habitat: "Mata Atlântica costeira · ~400 m.",
     clima: "Quente a intermediário · muito ventilado.",
-    climaFloracao: "A espécie não exige repouso seco severo. A floração é favorecida por crescimento contínuo, luminosidade filtrada moderada, noites ligeiramente mais amenas e touceiras bem estabelecidas. No litoral quente, o maior inimigo não é o calor isoladamente, mas o calor parado associado ao excesso de umidade. Raízes bem oxigenadas produzem crescimento constante e mais hastes florais.",
+    climaFloracao: "Prefere clima quente a intermediário, luz filtrada e boa circulação de ar. O litoral pode oferecer condições favoráveis; na montanha, proteja do frio prolongado. Touceiras maduras e raízes bem arejadas favorecem a formação das hastes. Mantenha regas regulares durante o crescimento, permitindo boa drenagem. Noites ligeiramente mais amenas podem ajudar, mas não precisa de frio intenso nem de repouso seco severo.",
     iluminacao: {
         sombrite: "50% a 70%",
         solDireto: "Permitido com restrição",
