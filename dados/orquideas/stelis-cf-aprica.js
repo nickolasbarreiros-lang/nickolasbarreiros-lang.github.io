@@ -35,7 +35,7 @@ export const stelisCfAprica = {
 },
     mesesFloracao: [6],
     clima: "Quente a intermediário, úmido, sombreado e bem ventilado.",
-    climaFloracao: "A espécie possui distribuição geográfica ampla, portanto não deve ser tratada como uma Stelis obrigatoriamente fria. Para florescer bem, o mais importante é manter crescimento contínuo, raízes ativas, umidade atmosférica e boa ventilação. No litoral quente, noites abafadas somadas a substrato saturado são mais perigosas que a temperatura isoladamente. Uma pequena queda noturna ajuda, mas não é necessário buscar frio artificial; o objetivo é evitar superaquecimento do vaso e manter o sistema radicular oxigenado. Hastes novas tendem a responder melhor quando a planta atravessa semanas estáveis, sem alternância entre seca forte e encharcamento.",
+    climaFloracao: "Gosta de clima quente a intermediário, sombra luminosa, umidade elevada e ventilação constante. Pode florescer no litoral e na montanha, com proteção contra temperaturas extremas. Mantenha as raízes hidratadas e bem arejadas, sem alternar seca forte com encharcamento. Noites um pouco mais amenas podem ajudar, mas frio intenso não é necessário. Plantas estáveis e bem estabelecidas tendem a produzir mais hastes.",
     iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não permitido",
