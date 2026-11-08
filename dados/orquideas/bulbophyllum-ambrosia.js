@@ -27,7 +27,7 @@ export const bulbophyllumAmbrosia = {
     regiao: "Nepal · Assam · sul da China · Laos · Vietnã",
     habitat: "Florestas, calcário e rochas musgosas · 300–1.300 m",
     clima: "Quente a fresco · úmido e ventilado",
-    climaFloracao: "Espécie subtropical de florestas e rochas úmidas, aproximadamente entre 300 e 1.300 m. Montanha: favorável em ambiente úmido e protegido de frio extremo. Litoral quente: condicional, com ventilação e noites menos abafadas. A floração pode acompanhar a estação mais fresca e uma redução sazonal da água; diminua as regas no inverno conforme a secagem, sem desidratar pseudobulbos ou raízes finas. Não há quebra térmica fixa comprovada.",
+    climaFloracao: "Prefere clima intermediário a ameno, com umidade elevada e boa ventilação. A montanha costuma favorecer sua floração; no litoral quente, evite noites abafadas e suportes superaquecidos. Durante o inverno ou a fase menos ativa, reduza um pouco as regas conforme a secagem, sem deixar os pequenos pseudobulbos murcharem. Luz filtrada e raízes saudáveis ajudam na formação das flores.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
