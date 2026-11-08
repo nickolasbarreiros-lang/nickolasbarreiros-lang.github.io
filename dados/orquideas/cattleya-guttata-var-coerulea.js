@@ -28,7 +28,7 @@ export const cattleyaGuttataVarCoerulea = {
     regiao: "Nordeste, Centro-Oeste, Sudeste e Sul do Brasil",
     habitat: "Restingas e matas costeiras abertas · baixa altitude",
     clima: "Quente · úmido · muito ventilado",
-    climaFloracao: "A floração depende de pseudobulbos plenamente maduros, luminosidade muito alta e raízes saudáveis. Após a maturação, aumente moderadamente o intervalo entre as regas, mas sem impor repouso seco rígido. Plantas adultas e bem entouceiradas podem sustentar hastes com muitas flores, e a estabilidade mecânica do conjunto é essencial para que raízes novas não sejam rompidas pelo balanço dos pseudobulbos altos.",
+    climaFloracao: "Muito adaptada ao clima quente do litoral, onde aprecia bastante luz e circulação de ar. Também pode florescer na montanha se não enfrentar frio prolongado. Pseudobulbos altos e maduros são essenciais para sustentar suas hastes florais. Depois do crescimento, aumente um pouco o intervalo entre as regas, mantendo as raízes saudáveis. Não precisa de seca severa nem de noites frias para florir.",
     iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
