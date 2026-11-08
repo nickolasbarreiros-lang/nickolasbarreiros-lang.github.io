@@ -75,7 +75,16 @@ export const dendrobiumTenellum = {
         "alerta": "No inverno, reduzir água e adubação sem permitir que as hastes enruguem excessivamente. O suporte não substitui a necessidade de noites amenas; calor constante pode dificultar o cultivo.",
         "notaEvidencia": "MACS 1.1: formulação técnica homologada por fundamentação no perfil radicular e hídrico, sem comprovação experimental dos percentuais. Receita de 50% pinus médio, 20% chips de coco lavados, 15% perlita grossa e 15% carvão vegetal pequeno; soma 100%. Duas alternativas públicas qualitativas, sem percentuais. Estrelas dos suportes mantidas, sem validação experimental específica. Registro interno: auditorias/MACS-1.1-MATRIZ-026-DENDROBIUM-TENELLUM.md."
     },
-    "errosComuns": "Sol direto intenso; seca extrema; encharcamento; substrato compactado; repouso excessivamente severo; chuva contínua no inverno; replantios desnecessários; vaso profundo; pouca ventilação; excesso de adubo no repouso.",
+    "errosComuns": [
+    "Expor a planta ao sol direto intenso.",
+    "Impor seca extrema durante o crescimento.",
+    "Manter raízes constantemente encharcadas.",
+    "Usar substrato fino e compactado.",
+    "Forçar repouso seco excessivamente severo.",
+    "Manter chuva contínua durante o inverno.",
+    "Replantar sem necessidade.",
+    "Aplicar adubo forte durante o repouso."
+],
     "dica": "🏆 O segredo desta espécie de crescimento sazonal é reduzir as regas quando os caules amadurecem, sem transformar o repouso em desidratação extrema. Durante a brotação, ofereça água regular, luz filtrada abundante e boa ventilação. Quando o crescimento diminuir, suspenda adubações fortes e espace as irrigações, observando a firmeza dos caules. Se houver enrugamento excessivo, forneça um pouco de água. Evite chuva constante durante a fase menos ativa. A retomada deve acompanhar o surgimento de raízes e brotos novos.",
     revisaoCientificaIAR: {
         "nome": "Dendrobium tenellum",
