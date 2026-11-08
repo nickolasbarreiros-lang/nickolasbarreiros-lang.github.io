@@ -24,7 +24,7 @@ export const maxillariaLeucaimata = {
     regiao: "Guiana Francesa e regiões Norte, Nordeste, Sudeste e Sul do Brasil",
     habitat: "Mata Atlântica · epífita/rupícola · áreas abertas.",
     clima: "Quente a fresco · úmido e ventilado.",
-    climaFloracao: "IOSPE registra crescimento quente a fresco, ocorrência em espaços abertos da Mata Atlântica e floração no verão e outono. Como também aparece sobre rochas, a planta está acostumada a raízes muito oxigenadas e alternância rápida entre molhamento e aeração. Não exige repouso seco rigoroso: depois da maturação, apenas reduza discretamente a frequência de rega. Touceiras maduras e não divididas tendem a emitir várias hastes basais.",
+    climaFloracao: "Gosta de clima quente a intermediário, boa claridade filtrada e raízes muito arejadas. Pode florescer no litoral e na montanha, com proteção contra temperaturas extremas. Regue durante o crescimento e permita que as raízes respirem entre regas. Depois da maturação, reduza apenas um pouco a frequência. Não precisa de repouso seco prolongado. Touceiras adultas costumam produzir mais hastes florais.",
     iluminacao: {
         sombrite: "50% a 70%; preferir 60% a 70% em ambientes quentes",
         solDireto: "Permitido com restrição",
