@@ -77,15 +77,15 @@ export const miltoniaRusselliana = {
         notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D); não equivale à validação quantitativa dos percentuais ou à comparação experimental de suportes. MACS 1.1 — revisão documental: Miltonia russelliana, epífita simpodial de touceira compacta e hastes arqueadas; umidade regular, ventilação e preservação de pseudobulbos saudáveis são importantes. Cachepô de Madeira vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% pinus médio + 30% chips de coco médios preparados + 25% perlita grossa compatível com cachepô + 10% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: macadâmia/pinus/perlita/pequena fração de fibra de coco grossa preparada e pinus/perlita/argila expandida pequena/pouco esfagno de fibra longa solto. Elas não fundamentam os percentuais visuais. Monitorar retenção de chips de coco, secagem e ventilação em clima quente. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
-        "Evite sombra profunda durante a formação das hastes.",
-        "Não use vaso muito maior que a touceira.",
-        "Não deixe o substrato encharcado por vários dias.",
-        "Evite secagem prolongada durante o crescimento.",
-        "Não sacrifique a ventilação para aumentar a umidade.",
-        "Evite adubo concentrado nas raízes.",
-        "Não divida a touceira em poucos pseudobulbos.",
-        "Proteja as folhas do sol forte nas horas quentes."
-    ],
+    "Cultivar em sombra profunda.",
+    "Usar vaso muito maior que a touceira.",
+    "Manter substrato encharcado por vários dias.",
+    "Deixar secar demais durante o crescimento.",
+    "Sacrificar ventilação para elevar a umidade.",
+    "Aplicar adubo concentrado.",
+    "Dividir touceiras com poucas reservas.",
+    "Expor folhas ao sol forte nas horas quentes."
+],
     dica: "🏆 Nesta Miltonia de hastes arqueadas, uma touceira madura costuma responder melhor do que divisões pequenas. Preserve pseudobulbos saudáveis e deixe espaço para os novos brotos, sem usar vaso exageradamente grande. Ofereça luz filtrada abundante, regas regulares durante o crescimento e ventilação constante para manter raízes ativas. Em clima quente, evite o aquecimento excessivo do recipiente e observe a secagem antes de regar novamente. A estabilidade da planta favorece pseudobulbos fortes e hastes florais bem desenvolvidas.",
     revisaoCientificaIAR: {
         "nome": "Miltonia russelliana (Lindl.) Lindl.",
