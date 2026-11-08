@@ -19,7 +19,7 @@ export const bulbophyllumRothschildianum = {
     regiao: "Assam · Himalaia Oriental · sul de Yunnan · norte de Myanmar",
     habitat: "Florestas subtropicais úmidas.",
     clima: "Quente a fresco · úmido.",
-    climaFloracao: "IOSPE registra crescimento de quente a fresco e floradas na primavera e no outono. Essa amplitude não significa que a espécie precise alternar extremos térmicos; na prática, pseudobulbos maduros, noites um pouco mais amenas, luz filtrada clara, água regular e ventilação parecem mais importantes. No litoral quente, deve-se compensar noites quentes com circulação de ar, drenagem muito eficiente e ausência de superaquecimento radicular.",
+    climaFloracao: "Gosta de clima intermediário, umidade regular e noites um pouco mais frescas. A montanha costuma favorecer a floração; no litoral quente, procure um local ventilado, com luz filtrada e raízes protegidas do superaquecimento. Pseudobulbos maduros e boa hidratação ajudam na formação das hastes. Não é necessário provocar frio intenso nem deixar a planta passar por uma longa seca.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Permitido com restrição",
