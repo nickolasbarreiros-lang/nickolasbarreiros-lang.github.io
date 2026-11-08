@@ -7,7 +7,7 @@ export const cattleyaAmethystoglossaVarAurea = {
   "sinonimo": "Cattleya amethystoglossa (espécie aceita; 'aurea' é designação horticultural)",
   "dificuldade": "Moderada",
   "origem": "Brasil",
-  "regiao": "Brasil, de Pernambuco ao Espírito Santo (distribuição nativa segundo POWO/Kew).",
+  "regiao": "Brasil, em áreas tropicais de ocorrência natural.",
   "habitat": "Epífita de ambientes tropicais sazonalmente secos; prefere boa luminosidade, ventilação e secagem das raízes entre regas.",
   "descricao": "Cattleya amethystoglossa é uma orquídea brasileira de porte vigoroso, conhecida pelos pseudobulbos altos e pelas duas folhas firmes que normalmente aparecem no ápice de cada crescimento. Suas inflorescências podem reunir várias flores vistosas, com sépalas e pétalas pintalgadas e um labelo marcante. Na forma cultivada como aurea, predominam tons amarelados ou creme, que variam conforme a linhagem. Na natureza, a espécie cresce principalmente sobre árvores, em ambientes quentes e luminosos, onde as raízes recebem ar e secam entre períodos de umidade. Em cultivo, precisa de espaço para crescer, boa ventilação e luz suficiente para amadurecer os pseudobulbos e florescer.",
   "caracteristicas": [
