@@ -20,3 +20,11 @@
 ## Estado da substituição
 - Pesquisa taxonômica e morfológica iniciada. **A ficha pública Summer Wind ainda não foi substituída**, para evitar publicar conteúdo parcialmente adaptado ou imagens da espécie errada.
 - Próximo: verificar fontes brasileiras de floração, fotos identificadas e direitos de uso; construir e validar todos os campos e índices antes de trocar registro no index.
+
+## Confronto com produtor brasileiro — 08/11/2026
+- Merten Orquídeas (https://www.mertenorquideas.com.br/orquideas/oncidium/oncidium-sphacelatum-com-haste-floral) recomenda luminosidade abundante filtrada, aproximadamente 50% de sombreamento, ventilação e rega após secagem do substrato. Cita casca de madeira, carvão, chips de coco, pedras e esfagno como materiais possíveis; **não fornece proporções**.
+- O produtor descreve a floração como **indeterminada, possível em diferentes meses**. Portanto, não há fundamento para reutilizar os meses [8,9,10,11] do híbrido Summer Wind nem para converter mecanicamente o calendário do Smithsonian (fevereiro–julho, hemisfério norte) em calendário brasileiro. Marcação mensal precisa de observações brasileiras mais específicas.
+- Smithsonian Gardens (https://gardens.si.edu/collections/explore/object/ofeo-sg_2008-1051A) informa perfume fraco, flores de cerca de 2,5 cm e hastes até 1,8 m; metadados do registro são CC0, mas isso **não prova que uma imagem individual de terceiros esteja livre**. Conferir licença da fotografia selecionada separadamente.
+- POWO/Kew (https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:323062-2) confirma distribuição natural México–América Central e sudeste da Venezuela; sem Brasil.
+
+**Decisão editorial:** a floração da nova ficha será descrita como variável/possível ao longo do ano, sem afirmar pico brasileiro ainda não comprovado. Não reutilizar fotografias, texto ou índices do híbrido anterior. Manter a substituição pública suspensa até concluir a ficha inteira.
