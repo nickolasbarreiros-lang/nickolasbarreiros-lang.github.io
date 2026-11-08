@@ -74,7 +74,16 @@ export const promenaeaGuttata = {
         alerta: "Evitar sol direto, vaso grande, esfagno compactado, secagem por vários dias, adubação forte e calor acumulado no vaso. Alta umidade não significa substrato saturado.",
         notaEvidencia: "MACS 1.1 — revisão documental: Promenaea guttata (ficha indica tratamento POWO sob Promenaea stapelioides subsp. xanthina), miniatura epífita de raízes delicadas, úmidas porém aeradas. Suportes plástico vasado 5 estrelas, cachepô madeira 4, placa/tronco e barro 3; notas não validadas especificamente. Receita visual 40% chips coco pequenos + 30% pinus fino + 30% perlita de granulometria compatível com vaso pequeno = 100%; receitaTexto e itens concordam. Receita principal textual e visual coincidem; as duas alternativas qualitativas são distintas e não equivalem à principal. A perlita deve ter granulometria compatível com as raízes e o vaso, sem pressupor tamanho grosso. Conferir adequação de perlita grossa e 40% chips coco ao vaso pequeno e às raízes sensíveis; meta até 25 produtores brasileiros específicos não atingida. POWO e Flora do Brasil 2020 reconhecem Promenaea stapelioides subsp. xanthina, com P. guttata como sinônimo heterotípico; Meneguzzo (2020, Heringeriana) documenta variação floral e explica a sinonimização. O nome histórico P. guttata permanece no catálogo para busca e compatibilidade. Nenhuma receita quantitativa brasileira específica de P. guttata foi confirmada nesta passagem; meta até 25 produtores não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    "errosComuns": "Sol direto; vaso grande; esfagno compactado; secagem completa por vários dias; ambiente quente sem circulação de ar; fertilizante concentrado; confundir alta umidade atmosférica com encharcamento; repouso seco rígido; deixar o vaso aquecer.",
+    "errosComuns": [
+    "Expor folhas ao sol direto.",
+    "Usar vaso grande com secagem lenta.",
+    "Compactar esfagno sobre as raízes.",
+    "Deixar raízes secarem por vários dias.",
+    "Cultivar em calor abafado.",
+    "Aplicar fertilizante concentrado.",
+    "Confundir umidade elevada com encharcamento.",
+    "Impor repouso seco rígido."
+],
     "dica": "🏆 Esta Promenaea de pseudobulbos pequenos precisa de raízes hidratadas, mas não de substrato encharcado. Prefira vaso compacto e ventilado, com material de granulometria fina, porém solto, que retenha umidade sem impedir a circulação de ar. Ofereça sombra clara e proteja a planta do calor excessivo, especialmente junto ao recipiente. Durante a brotação, regue regularmente e observe a secagem real. Evite divisões pequenas e replantes frequentes: uma touceira estável tende a manter melhor o vigor e a floração.",
     revisaoCientificaIAR: {
         "nome": "Promenaea guttata",
