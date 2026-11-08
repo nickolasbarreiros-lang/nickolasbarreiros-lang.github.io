@@ -25,7 +25,7 @@ export const miltoniaRegnellii = {
     "regiao": "Sul e Sudeste",
     "habitat": "Mata Atlântica · epífita.",
     "clima": "Intermediário a quente · ventilado.",
-    "climaFloracao": "A floração depende principalmente da maturação completa do pseudobulbo novo. Durante a brotação, a planta precisa de raízes ativas, umidade regular, luz filtrada abundante e nutrição moderada. Depois que o pseudobulbo estiver firme e encorpado, uma discreta redução da frequência das regas, associada a noites um pouco mais frescas, favorece a indução floral. Não imponha repouso seco severo, pois as raízes finas e os pseudobulbos podem desidratar.",
+    "climaFloracao": "Prefere clima intermediário a quente, com boa ventilação e luz filtrada abundante. Pode florescer no litoral e na montanha, desde que protegida de temperaturas extremas. Regue regularmente enquanto o novo pseudobulbo cresce. Depois que amadurecer, noites um pouco mais amenas e uma leve redução das regas podem favorecer as flores. Não faça repouso seco severo, pois as raízes finas podem desidratar.",
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
