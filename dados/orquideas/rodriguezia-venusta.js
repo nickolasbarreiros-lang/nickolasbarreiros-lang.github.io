@@ -75,7 +75,16 @@ export const rodrigueziaVenusta = {
         alerta: "Evitar sombra profunda, vasos grandes, esfagno compactado e molhamento prolongado à noite. Não bloquear as hastes pendentes; regar preferencialmente pela manhã.",
         notaEvidencia: "MACS 1.1: composição B qualitativa específica (Orquivitro, Orquídeas no Apê, Nhá Mercedes); percentuais D inferenciais, NÃO HOMOLOGADOS para a espécie. Não há receita percentual específica publicada nem validação experimental. Placa/tronco continua principal sem enchimento; estrelas de suportes D preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-029-RODRIGUEZIA-BRACTEATA-VENUSTA.md."
     },
-    "errosComuns": "Sombra profunda; vaso grande; excesso de esfagno; substrato velho ou compactado; impedir o caimento das hastes; deixar a touceira molhada à noite; aplicar matéria orgânica diretamente sobre raízes; adubar forte; replantar fora da emissão de novas raízes; dividir touceiras pequenas; falta de ventilação.",
+    "errosComuns": [
+    "Cultivar em sombra profunda.",
+    "Usar vaso grande com secagem lenta.",
+    "Compactar esfagno sobre as raízes.",
+    "Manter substrato velho e degradado.",
+    "Impedir o caimento das hastes florais.",
+    "Deixar a touceira molhada à noite.",
+    "Encostar matéria orgânica diretamente nas raízes.",
+    "Dividir touceiras pequenas."
+],
     "dica": "🏆 Nesta Rodriguezia de inflorescências pendentes, a posição do suporte é decisiva: deixe espaço livre abaixo da planta para que os cachos se desenvolvam sem obstáculos. Prefira placa inclinada ou cesto suspenso, com raízes finas bem ventiladas e pouca matéria retentora. Regue pela manhã, permitindo que a água escorra rapidamente. Evite mover a planta durante a formação dos botões. Uma touceira estável e bem enraizada pode florescer melhor do que divisões pequenas, mesmo com adubação moderada.",
     revisaoCientificaIAR: {
         "nome": "Rodriguezia bracteata",
