@@ -70,7 +70,16 @@ export const bifrenariaAureofulva = {
         ],
         alerta: "Não mantenha as raízes permanentemente molhadas. Regue abundantemente no crescimento ativo, mas permita secagem clara entre regas. Em clima quente, ajuste a frequência pela velocidade de secagem do vaso, sem compensar com materiais excessivamente retentivos."
     },
-    errosComuns: "Tratar a espécie como planta de repouso totalmente seco; cultivar em sombra profunda; expor a sol forte; usar vasos muito grandes; manter substrato compacto ou degradado; reduzir a água antes do pseudobulbo amadurecer; replantar sem raízes novas iniciando; aplicar fertilizante concentrado em raízes sensíveis.",
+    errosComuns: [
+    "Impor repouso totalmente seco após o crescimento.",
+    "Cultivar em sombra profunda e reduzir a floração.",
+    "Expor as folhas ao sol direto forte.",
+    "Usar vaso grande com secagem lenta.",
+    "Manter substrato compacto ou degradado.",
+    "Reduzir a água antes de amadurecer o pseudobulbo.",
+    "Replantar sem início de raízes novas.",
+    "Aplicar adubo concentrado nas raízes sensíveis."
+],
     dica: "🏆 Para estimular florações consistentes, concentre os cuidados na maturação dos pseudobulbos, não em manter a planta permanentemente molhada. Durante a brotação, ofereça água regular, boa ventilação e luminosidade forte, porém filtrada. Quando os novos pseudobulbos terminarem de crescer, reduza gradualmente a frequência das regas conforme a secagem, sem impor desidratação severa. Prefira recipiente proporcional e substrato aberto, que permita oxigenação das raízes. Observe o vigor dos brotos: uma touceira bem estabelecida é mais importante que adubação concentrada.",
     revisaoCientificaIAR: {
         "nome": "Bifrenaria aureofulva (Hook.) Lindl.",
