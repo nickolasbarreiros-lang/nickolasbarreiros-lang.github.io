@@ -21,7 +21,10 @@ export const epidendrumSecundum = {
  {nome:"Vaso de barro",asset:"vaso-barro",estrelas:5,status:"Ideal",texto:"Oferece estabilidade para caules altos e favorece a secagem gradual do substrato; utilize mistura solta e furos livres."},
  {nome:"Vaso plástico vasado",asset:"vaso-plastico-vasado-v2",estrelas:4,status:"Muito recomendado",texto:"Permite boa ventilação radicular, mas exige atenção à secagem e à estabilidade das hastes."},
  {nome:"Vaso plástico",asset:"vaso-plastico-vasado-v2",estrelas:3,status:"Alternativa",texto:"Pode funcionar com mistura muito drenante e controle cuidadoso da umidade."},
- {nome:"Cachepô de madeira",asset:"cesto-madeira",estrelas:3,status:"Alternativa",texto:"Favorece a aeração, mas pode secar depressa e exigir fixação das hastes."}
+ {nome:"Cachepô de madeira",asset:"cesto-madeira",estrelas:3,status:"Alternativa",texto:"Favorece a aeração, mas pode secar depressa e exigir fixação das hastes."},
+ {nome:"Placa / tronco",asset:"placa-tronco",estrelas:2,status:"Pouco recomendado",texto:"O hábito predominantemente terrestre e o porte alto dificultam fixação e manutenção da umidade."},
+ {nome:"Árvore viva",asset:"arvore-viva",estrelas:2,status:"Pouco recomendado",texto:"Embora existam registros epífitos ocasionais, não é a forma mais prática para uma touceira ereta."},
+ {nome:"Raízes soltas",asset:"raizes-soltas",estrelas:1,status:"Não recomendado",texto:"Não oferece sustentação adequada nem reserva hídrica estável para caules altos."}
  ]},
  substrato:["Casca de pínus média + perlita grossa + chips de coco lavados","Brita fina lavada + casca de pínus média + fibra de coco grossa lavada"],
  substratoVisual:{titulo:"Substrato ideal",contexto:"Mistura drenante para cultivo em recipiente",resumo:"Mistura com fração orgânica fina e componentes estruturais para evitar compactação.",justificativa:"O hábito terrestre ou rupícola permite usar terra vegetal, desde que peneirada e misturada a materiais que preservem os espaços de ar. A mistura deve permanecer solta, com drenagem rápida e secagem parcial entre regas.",receitaTexto:"40% terra vegetal peneirada + 30% casca de pínus média + 20% areia grossa lavada + 10% carvão vegetal granulado.",perfil:["Raízes terrestres ou rupícolas","Retenção moderada","Boa aeração","Secagem gradual","Sem encharcamento"],comportamento:[{nome:"Retenção",valor:3,icone:"💧"},{nome:"Aeração",valor:4,icone:"💨"},{nome:"Secagem",valor:3,icone:"⚡"},{nome:"Compactação",valor:2,icone:"🧱"}],itens:[
@@ -30,7 +33,7 @@ export const epidendrumSecundum = {
  {asset:"areia-grossa",nome:"Areia grossa lavada",proporcao:"20%",nota:"drenagem",finalidade:"Adiciona fração mineral e evita uma mistura exclusivamente orgânica."},
  {asset:"carvao-vegetal",nome:"Carvão vegetal granulado",proporcao:"10%",nota:"aeração",finalidade:"Contribui para a estrutura e a drenagem da mistura."}
  ],alerta:"Não utilize terra argilosa ou compactada. Observe a secagem real e evite água acumulada no fundo do vaso."},
- errosComuns:["Usar terra compacta que retém água por muitos dias.","Deixar o vaso permanentemente encharcado.","Cultivar com luminosidade insuficiente para florescer.","Expor repentinamente ao sol forte do meio do dia.","Cortar hastes verdes sem observar possíveis brotações."],
+ errosComuns:["Usar terra compacta que retém água por muitos dias.","Deixar o vaso permanentemente encharcado.","Cultivar com luminosidade insuficiente para florescer.","Expor repentinamente ao sol forte do meio do dia.","Cortar hastes verdes que ainda podem produzir ramificações florais ou keikis."],
  indiceDificuldadeCultivo:{versao:"IDC 3.2 — selo por facilidade",escala:"dificuldade",indice:22,classificacao:"Fácil",cultivoEstrelas:5,criterios:{
  temperatura:{notaDificuldade:1,peso:15},rega:{notaDificuldade:1,peso:15},umidade:{notaDificuldade:1,peso:10},ventilacao:{notaDificuldade:1,peso:10},luminosidade:{notaDificuldade:2,peso:10},raizesSubstrato:{notaDificuldade:1,peso:10},sazonalidade:{notaDificuldade:1,peso:10},floracao:{notaDificuldade:1,peso:20}}},
  indiceAdaptacaoRegional:{versao:"IAR 2.0 — revisão científica",escala:"compatibilidade regional",litoralQuente:{indice:82,estrelas:5,fatores:{
@@ -38,5 +41,5 @@ export const epidendrumSecundum = {
  montanhaFrio:{indice:98,estrelas:5,fatores:{
  habitatNatural:{nota:5,peso:30},temperatura:{nota:5,peso:30},aguaUmidade:{nota:4,peso:5},ventilacao:{nota:5,peso:5},luminosidade:{nota:5,peso:5},sazonalidade:{nota:4,peso:5},floracao:{nota:5,peso:20}}}},
  adaptacaoRegional:{tituloMontanha:"Regiões de montanha e noites frescas",litoral:{texto:"Adapta-se à luminosidade elevada, mas no calor intenso precisa de raízes bem ventiladas e drenagem rápida."},montanha:{texto:"Pode crescer bem com boa luminosidade. Em períodos frios e úmidos, reduza as regas conforme a secagem do substrato."}},
- dica:"🏆 Antes de cortar uma haste verde, observe se ela ainda está ativa: algumas podem formar keikis. Mantenha a planta em local muito claro e evite compactar a mistura ao redor das raízes."
+ dica:"🏆 Não corte automaticamente a haste floral ainda verde: ela pode emitir novas ramificações com flores ou formar keikis. Remova apenas partes secas ou comprometidas."
 };
