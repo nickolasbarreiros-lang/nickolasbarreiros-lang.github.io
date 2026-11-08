@@ -65,7 +65,16 @@ export const howearaLavaBurst = {
         alerta: "Não impor seca para forçar floração, usar vaso grande ou manter água parada na base da touceira. Evitar sombra profunda e fertilizantes concentrados.",
         notaEvidencia: "MACS 1.1 — revisão documental: OrchidRoots/Orchids.org registra nome RHS aceito Leomesezia Lava Burst, cruzamento Leomesezia Mini-Primi x Rodriguezia lanceolata, registrado em 1993 por Puanani. Evidência genealógica não comprova substrato. Receita 35% pinus médio + 30% chips de coco médios lavados + 25% perlita grossa + 10% carvão = 100%, e estrelas dos suportes, NÃO HOMOLOGADAS. Nenhum produtor brasileiro com recomendação percentual específica do híbrido confirmado nesta passagem; meta até 25 não atingida. O texto de rega orienta umidade leve e regular; eventual selo divergente precisa ser verificado no componente que o produz, sem presumir que esta ficha controle o selo. Fonte: https://www.orchids.org/grexes/leomesezia-lava-burst"
     },
-    errosComuns: "Usar vaso grande; deixar o substrato velho e compacto; impor seca para estimular floração; permitir enrugamento frequente; cultivar em calor abafado; usar excesso de bokashi ou adubo de liberação lenta; aplicar fertilizante concentrado; deixar água parada na base da touceira; manter sombra profunda.",
+    errosComuns: [
+    "Usar vaso grande para uma planta compacta.",
+    "Manter substrato velho e compacto.",
+    "Impor seca para estimular a floração.",
+    "Deixar pseudobulbos enrugarem repetidamente.",
+    "Cultivar em calor abafado.",
+    "Exagerar no bokashi ou adubo de liberação lenta.",
+    "Aplicar fertilizante concentrado.",
+    "Deixar água parada na base da touceira."
+],
     dica: "🏆 Neste híbrido compacto, atualmente encontrado como Leomesezia Lava Burst, a melhor estratégia é manter crescimento contínuo, sem tentar induzir flores por seca prolongada. Use vaso pequeno, substrato arejado e luz filtrada abundante. Regue quando o material começar a perder umidade, evitando tanto encharcamento quanto desidratação repetida das raízes finas. Adube de forma diluída durante a brotação e preserve pseudobulbos maduros. Uma touceira bem estabelecida pode emitir novas hastes em diferentes épocas, conforme as condições de cultivo.",
     revisaoCientificaIAR: {
         "nome": "Leomesezia Lava Burst",
