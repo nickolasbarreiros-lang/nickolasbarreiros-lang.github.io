@@ -26,7 +26,7 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
     "regiao": "Espécie-base nativa da América do Sul tropical",
     "habitat": "Referência: florestas tropicais úmidas · baixa altitude.",
     "clima": "Quente e úmido · sem seca prolongada.",
-    "climaFloracao": "A floração é favorecida por pseudobulbos maduros, noites quentes, luminosidade constante e sistema radicular saudável. A planta não deve ser induzida por frio ou seca intensa. Temperaturas baixas, água muito salina, fertilização concentrada e substrato degradado interrompem o crescimento e reduzem o tamanho e a qualidade das flores. Como se trata de progênie self, o período exato de floração pode variar entre indivíduos.",
+    "climaFloracao": "Gosta de calor constante, umidade equilibrada e bastante luz filtrada. O litoral quente favorece sua floração; na montanha, precisa de proteção contra noites frias. Pseudobulbos maduros e raízes saudáveis são essenciais para formar flores de boa qualidade. Evite seca prolongada e tentativas de estimular botões com frio. A época da florada pode variar entre as plantas deste cruzamento.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
