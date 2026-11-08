@@ -73,5 +73,16 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
         alerta: "Em placa, não adicionar substrato volumétrico. Evitar esfagno no miolo, vasos grandes, rizoma enterrado e umidade constante durante o repouso.",
         notaEvidencia: "MACS 1.1 — revisão documental: Cattleya walkeriana f. alba Gnomus × f. alba Suprema é progênie entre clones albos da mesma espécie, não híbrido interespecífico. Montagem em placa/tronco é suporte principal, sem mistura volumosa; estrelas dos suportes permanecem sem atribuição por ausência de classificação técnica individual fundamentada. Receita visual alternativa para recipiente muito ventilado: 45% macadâmia grossa + 30% brita pequena limpa e sem pó + 25% carvão vegetal médio = 100%; receitaTexto e itens concordam. Exatamente duas outras misturas editoriais qualitativas sem percentuais: pinus/carvão/brita e macadâmia/carvão/argila expandida. Percentuais históricos de alternativas não integram a ficha exibida. Observar estabilidade, aeração e redução sazonal das regas sem seca absoluta. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
     },
+    errosComuns: [
+    "Cultivar em sombra excessiva e reduzir a floração.",
+    "Manter raízes constantemente úmidas.",
+    "Usar vaso grande com secagem lenta.",
+    "Impor seca severa durante o crescimento.",
+    "Replantar fora da emissão de raízes novas.",
+    "Exagerar no nitrogênio após amadurecer brotos.",
+    "Enterrar o rizoma.",
+    "Tratar todas as mudas do cruzamento como idênticas."
+],
+
     dica: "🏆 Neste cruzamento entre duas Cattleyas walkerianas albas, a prioridade é formar pseudobulbos maduros sem manter as raízes permanentemente úmidas. Ofereça luz intensa, com adaptação ao sol suave, ventilação constante e regas regulares quando surgirem raízes novas. Na fase de crescimento reduzido, diminua a frequência conforme a secagem do suporte. Não tente induzir flores com desidratação severa. Como cada muda pode expressar vigor diferente, acompanhe o desenvolvimento individual antes de alterar a adubação ou o regime de água.",
 };
