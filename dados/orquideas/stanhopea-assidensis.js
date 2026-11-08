@@ -19,7 +19,7 @@ export const stanhopeaAssidensis = {
     regiao: "Sem distribuição natural · híbrido registrado em 1922 · parentais do México à América Central e norte da América do Sul",
     habitat: "Híbrido artificial, sem habitat natural próprio; parentais de florestas tropicais.",
     clima: "Intermediário · úmido e muito ventilado.",
-    climaFloracao: "O cruzamento reúne um parental mexicano de aproximadamente 600–1.700 m e outro distribuído em florestas úmidas de cerca de 800–2.700 m. Por isso, não deve ser tratado como híbrido puramente quente. No litoral, a melhor estratégia é reduzir o aquecimento das raízes, manter alta ventilação e garantir diferença térmica noturna sempre que possível, sem impor repouso seco.",
+    climaFloracao: "Prefere clima intermediário a ameno, com noites frescas, umidade regular e excelente ventilação. A montanha costuma favorecer a floração; no litoral quente, procure um local protegido do calor noturno. Mantenha pseudobulbos maduros e raízes saudáveis, sem impor seca prolongada. Cultive em cesto aberto, pois as hastes florais crescem para baixo e precisam de passagem livre para surgir.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
