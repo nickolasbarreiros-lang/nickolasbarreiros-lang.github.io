@@ -30,14 +30,15 @@ export const isabeliaPulchella = {
   "suporte": "Priorize suporte que permita ao rizoma rastejante avançar sem enterrar os pseudobulbos. Na placa, fixe somente os segmentos antigos e deixe espaço para a frente de crescimento; acompanhe a desidratação nas semanas quentes. Em cesto pequeno, uma camada leve de material fibroso pode suavizar a secagem. Em vaso baixo, não afunde o rizoma na mistura; a árvore viva só é apropriada em posição ventilada, com umidade atmosférica suficiente. Evite remanejar a planta quando novas raízes estiverem aderindo.",
   "substrato": ["Casca de arroz carbonizada + casca de pinus pequena + pequena fração de esfagno de fibra longa solto","Casca de pinus pequena + carvão vegetal pequeno + pequena fração de esfagno de fibra longa solto"],
   "errosComuns": [
-    "Enterrar o rizoma ou os pequenos pseudobulbos no substrato.",
-    "Deixar uma placa recém-montada secar completamente por longos períodos.",
-    "Cobrir toda a touceira com esfagno úmido e compacto.",
-    "Expor a miniatura ao sol forte, que desidrata rapidamente os brotos.",
-    "Mudar a planta de suporte quando as raízes estão começando a aderir.",
-    "Adubar em excesso um conjunto de raízes muito pequenas.",
-    "Esperar floração regular em noites permanentemente quentes sem observar a resposta da planta."
-  ],
+    "Enterrar o rizoma e os pequenos pseudobulbos.",
+    "Deixar a montagem secar por muitos dias.",
+    "Cobrir a touceira com esfagno compacto.",
+    "Expor a miniatura ao sol direto forte.",
+    "Trocar o suporte enquanto raízes aderem.",
+    "Aplicar adubo concentrado nas raízes finas.",
+    "Manter noites permanentemente quentes e abafadas.",
+    "Dividir touceiras antes de estarem estabelecidas."
+],
   "dica": "🏆 Nesta miniatura de pseudobulbos rastejantes, a diferença entre secagem saudável e desidratação prolongada pode ser pequena. Prefira placa rugosa ou recipiente raso, mantendo o rizoma sobre a superfície e espaço para avançar. Em dias quentes, observe as raízes finas e ajuste as regas se o suporte secar rapidamente. Evite esfagno compacto, que abafa a base da planta. Preserve a touceira e acompanhe a maturação dos novos pseudobulbos: divisões frequentes podem reduzir o vigor e atrasar a floração.",
   "revisaoCientificaIAR": {
     "distribuicaoFonteConferidaV410": "https://commons.wikimedia.org/wiki/Isabelia_pulchella",
