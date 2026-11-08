@@ -25,7 +25,7 @@ export const maxillariaPumilaExMinuta = {
     "regiao": "Guiana e regiões Norte, Sudeste e Sul do Brasil",
     "habitat": "Epífita · florestas tropicais úmidas.",
     "clima": "Quente · úmido e muito ventilado.",
-    "climaFloracao": "IOSPE descreve a espécie como miniatura de crescimento quente, florescendo na primavera e no verão em hastes curtas de cerca de 1,5 cm. Não há necessidade de repouso seco. Para florescer bem, a planta precisa permanecer em touceira, com raízes funcionais e boa luz filtrada. No litoral quente, a temperatura é favorável; o maior risco é o abafamento de raízes muito finas em esfagno compactado ou substrato velho.",
+    "climaFloracao": "Gosta de clima quente e úmido, sendo adequada ao litoral. Na montanha, proteja do frio prolongado. Precisa de luz filtrada, ventilação constante e raízes finas bem hidratadas, sem encharcamento. Touceiras estabelecidas e crescimentos maduros favorecem a floração. Não precisa de frio nem de repouso seco para produzir suas pequenas flores. Evite substrato compactado, que pode sufocar as raízes.",
     "iluminacao": {
         "sombrite": "65% a 75%",
         "solDireto": "Não permitido",
