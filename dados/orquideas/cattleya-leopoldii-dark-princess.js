@@ -95,7 +95,16 @@ export const cattleyaLeopoldiiDarkPrincess = {
     "alerta": "AOS recomenda drenagem central ampla e estabilidade para a espécie. Não confundir mistura genérica de Cattleyas com ensaio do cultivar; fixar pseudobulbos altos e evitar centro do vaso saturado.",
     "notaEvidencia": "MACS 1.1: POWO/Kew aceita Cattleya tigrina e trata C. leopoldii como sinônimo. AOS recomenda especificamente vaso de barro, drenagem central ampliada e casca/coco grosso para C. tigrina: https://www.aos.org/explore-orchids/cattleya-alliance/cattleya-tigrina . Fontes comerciais Mogi Mirim, Bioma Plantas e Matsuoka são citadas anteriormente para a espécie ou formas afins, sem reconfirmação individual nesta passagem; nenhuma receita percentual específica para o cultivar foi comprovada. A referência institucional atribuída ao Missouri Botanical Garden usa genericamente para Cattleyas cinco partes de casca de abeto média para uma de carvão horticultural; a substituição por pinus grosso nesta ficha é adaptação técnica: https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids . Receita 83,3/16,7 é adaptação de referência genérica de grupo, NÃO HOMOLOGAÇÃO experimental para C. tigrina ou Dark Princess. Duas alternativas qualitativas sem percentuais; escores 82/79/78 heurísticos e meta 25 produtores não atingida."
 },
-    "errosComuns": "Pouca luz; vaso leve; ausência de tutoramento; amarrar o broto com excesso de pressão; tentar endireitar pseudobulbo maduro; substrato fino; excesso de água no inverno; excesso de nitrogênio; girar o vaso durante a haste; dividir em poucas frentes; impedir espaço vertical; deixar o rizoma frouxo.",
+    "errosComuns": [
+    "Cultivar em sombra excessiva.",
+    "Usar vaso leve para pseudobulbos altos.",
+    "Deixar os brotos sem tutoramento.",
+    "Amarrar brotos com pressão excessiva.",
+    "Tentar endireitar pseudobulbos já maduros.",
+    "Manter substrato fino e encharcado.",
+    "Exagerar no nitrogênio após a maturação.",
+    "Girar o vaso durante a formação da haste."
+],
     "dica": "🏆 O porte alto desta Cattleya exige atenção à estabilidade física desde a brotação. Coloque o vaso em posição firme e use tutores flexíveis enquanto os pseudobulbos ainda estão crescendo, deixando folga para engrossarem. Não tente endireitar hastes maduras à força, pois elas podem quebrar. Ofereça luminosidade intensa com adaptação gradual e ventilação constante para favorecer crescimentos fortes. O objetivo é impedir que o peso da planta e das flores movimente o rizoma e danifique raízes novas.",
     revisaoCientificaIAR: {
         "nome": "Cattleya tigrina 'Dark Princess'",
