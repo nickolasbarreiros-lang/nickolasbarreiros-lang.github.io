@@ -29,7 +29,7 @@ export const coelogyneAsperata = {
     "regiao": "Bornéu · Nova Guiné · Ilhas Salomão",
     "habitat": "Florestas tropicais úmidas · epífita.",
     "clima": "Quente e úmido · sem repouso seco.",
-    "climaFloracao": "A floração depende de touceira bem estabelecida, pseudobulbos maduros, calor estável, luminosidade filtrada e umidade contínua nas raízes. Não imponha o repouso seco usado em espécies de altitude. Após a maturação, reduza apenas discretamente as regas. Touceiras grandes florescem melhor porque acumulam mais reservas e produzem vários brotos simultaneamente. Temperaturas abaixo de 14 °C podem paralisar crescimento, enraizamento e formação de hastes.",
+    "climaFloracao": "Prefere clima quente e úmido, sendo mais adequada ao litoral. Na montanha, pode florescer se ficar protegida do frio prolongado. Precisa de luz filtrada, raízes regularmente úmidas e pseudobulbos maduros. Touceiras grandes costumam produzir mais hastes. Não faça repouso seco nem provoque noites frias para estimular flores: mantenha o calor e ajuste as regas apenas quando a evaporação diminuir.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Não permitido",
