@@ -70,7 +70,16 @@ export const notyliaPubescens = {
         alerta: "Não bloquear as hastes pendentes, usar esfagno espesso ou deixar água na base da folha. Evitar sol direto e movimentação durante a formação dos cachos.",
         notaEvidencia: "MACS 1.1 — revisão documental: Notylia pubescens, epífita compacta com raízes finas e racemos pendentes; montagem principal suspensa em placa/tronco sem substrato volumoso, regas frequentes e ventilação. Suportes placa/tronco 5 estrelas, cachepô madeira 4, plástico vasado 3, barro 2; notas não homologadas. Receita visual alternativa para recipiente 35% pinus médio + 30% chips coco + 25% perlita de granulometria adequada + 10% carvão = 100%; receitaTexto e itens concordam. A receita percentual textual e visual coincidem; as duas alternativas qualitativas são distintas e não equivalem à principal. Validar retenção/ventilação para raízes finas e passagem livre das hastes pendentes; meta até 25 produtores brasileiros específicos não atingida. POWO aceita Notylia pubescens Lindl. (1842), nativa do Nordeste, Centro-Oeste, Sudeste e Sul do Brasil; N. hemitricha, N. longispicata e N. stenantha são sinônimos heterotípicos. IOSPE documenta pseudobulbos unifoliados, inflorescências racemosas densas de 15–30 cm e flores perfumadas de 1,25–1,5 mm. A revisão taxonômica brasileira de Oliveira et al. (2026) reconhece 14 espécies nacionais de Notylia; não é ensaio de substratos. AOS recomenda montagem em placas pequenas para o gênero, sem proporções. Nenhuma receita quantitativa brasileira específica para Notylia pubescens foi confirmada nesta passagem; meta até 25 produtores não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    "errosComuns": "❌ Usar vaso fundo ou fundo fechado, bloqueando as hastes pendentes.\n❌ Encostar a planta em parede, prateleira ou outros vasos.\n❌ Expor ao sol direto.\n❌ Aplicar fertilizante concentrado.\n❌ Deixar água acumulada na base da folha.\n❌ Permitir seca prolongada durante a botonação.\n❌ Girar, mudar ou manipular a planta enquanto os cachos se formam.\n❌ Cortar hastes ainda verdes.\n❌ Usar esfagno espesso e compactado.",
+    "errosComuns": [
+    "Usar vaso fundo que bloqueia hastes pendentes.",
+    "Encostar inflorescências em paredes ou prateleiras.",
+    "Expor folhas ao sol direto.",
+    "Aplicar fertilizante concentrado.",
+    "Deixar água acumulada na base das folhas.",
+    "Permitir seca prolongada durante a formação dos botões.",
+    "Mover a planta repetidamente na formação das hastes.",
+    "Compactar esfagno ao redor das raízes."
+],
     "dica": "🏆 As inflorescências desta Notylia são pendentes e precisam de espaço livre abaixo da planta. Prefira montagem inclinada ou cesto suspenso, com raízes bem ventiladas e regas ajustadas à secagem. Evite acumular esfagno compacto junto à base dos pseudobulbos. Quando as hastes começarem a se desenvolver, mantenha o suporte estável para não danificar os cachos delicados. Em dias quentes, aumente a frequência das regas conforme necessário, sem transformar o suporte em uma superfície permanentemente encharcada.",
     revisaoCientificaIAR: {
         "nome": "Notylia pubescens",
