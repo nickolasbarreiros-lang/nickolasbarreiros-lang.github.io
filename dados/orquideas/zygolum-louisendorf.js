@@ -71,14 +71,15 @@ export const zygolumLouisendorf = {
         alerta: "Não deixe a mistura secar totalmente por muitos dias, mas também não mantenha água parada no centro do vaso."
     },
     errosComuns: [
-        "Deixar as raízes secarem completamente por longos períodos.",
-        "Manter o substrato encharcado.",
-        "Usar vaso escuro aquecido pelo sol.",
-        "Cultivar em calor abafado.",
-        "Replantar fora do início de novas raízes.",
-        "Usar mistura fina e compacta.",
-        "Aplicar sais em excesso."
-    ],
+    "Deixar raízes secarem por muitos dias.",
+    "Manter substrato constantemente encharcado.",
+    "Deixar vaso escuro superaquecer ao sol.",
+    "Cultivar em calor abafado.",
+    "Replantar fora da emissão de raízes novas.",
+    "Usar mistura fina e compactada.",
+    "Acumular sais de fertilizante.",
+    "Deixar brotos secarem durante a expansão foliar."
+],
     revisaoCientificaIAR: {
         "nome": "Zygolum Louisendorf grex",
         "statusTaxonomico": "Grex híbrido intergenérico registrado na RHS em 29/01/2004, originado por B.Holm e registrado por Glicenstein/Hoosier. Parentais registrados: Zygosepalum labiosum (semente) × Zygopetalum Artur Elle (pólen). Não é espécie botânica e não possui nome aceito no POWO como táxon silvestre.",
