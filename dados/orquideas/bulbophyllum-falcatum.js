@@ -144,7 +144,16 @@ export const bulbophyllumFalcatum = {
         "notaEvidencia": "MACS 1.1 — revisão documental: Bulbophyllum falcatum é epífita africana de rizoma rastejante, raízes finas e inflorescência achatada que precisa de passagem lateral livre. Cachepô de Madeira amplo e suspenso é suporte principal; estrelas dos suportes permanecem sem atribuição por ausência de avaliação individual fundamentada. Receita visual e textual coincidem: 35% pinus médio + 25% chips de coco médios preparados + 25% carvão vegetal médio + 15% esfagno de fibra longa solto = 100%. Duas alternativas qualitativas sem percentuais; somente a receita principal é quantificada. Não há prova de superioridade. Monitorar retenção, ventilação, rizoma exposto e passagem livre da raque floral. Não há ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS ERRATA MACS 1.1 (2026-11-04): duas alternativas sem percentuais; somente a receita principal totaliza 100%. Material não deve ser trocado por falta de asset. Revalidação Chromium corretiva aprovada na execução 41836184134; alterações posteriores exigem nova validação."
     },
     substrato: ["casca de pinus média + chips de coco médios preparados + esfagno de fibra longa solto + carvão vegetal médio","casca de macadâmia média + casca de pinus média + chips de coco médios preparados + esfagno de fibra longa solto"],
-    errosComuns: "• Enterrar o rizoma.\n• Usar vaso estreito e profundo.\n• Bloquear a raque floral contra a borda do vaso.\n• Compactar esfagno.\n• Deixar substrato envelhecer e azedar.\n• Manter calor com ar parado.\n• Permitir ressecamento prolongado.\n• Forçar repouso seco.\n• Aplicar fertilizante concentrado sobre raízes superficiais.",
+    errosComuns: [
+    "Enterrar o rizoma rastejante.",
+    "Usar vaso estreito que limita o crescimento lateral.",
+    "Bloquear a raque floral contra a borda do vaso.",
+    "Compactar esfagno sobre as raízes.",
+    "Deixar o substrato envelhecer e azedar.",
+    "Manter calor e umidade com ar parado.",
+    "Permitir ressecamento prolongado das raízes.",
+    "Forçar repouso seco para induzir flores."
+],
     dica: "🏆 Nesta espécie, a inflorescência achatada precisa de espaço lateral para crescer sem esbarrar em vasos ou plantas vizinhas. Antes de surgir a haste, observe a direção dos novos brotos e deixe a frente de crescimento livre. Prefira recipiente raso ou montagem, com rizoma exposto, umidade regular e ventilação contínua. A raque em forma de lâmina é o destaque ornamental: evite movimentar a planta quando estiver se formando. Em clima quente, proteja o suporte do superaquecimento e mantenha sombra clara.",
     revisaoCientificaIAR: {
         "nome": "Bulbophyllum falcatum",
