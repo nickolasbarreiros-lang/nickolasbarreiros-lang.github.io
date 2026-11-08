@@ -28,3 +28,21 @@
 - POWO/Kew (https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:323062-2) confirma distribuição natural México–América Central e sudeste da Venezuela; sem Brasil.
 
 **Decisão editorial:** a floração da nova ficha será descrita como variável/possível ao longo do ano, sem afirmar pico brasileiro ainda não comprovado. Não reutilizar fotografias, texto ou índices do híbrido anterior. Manter a substituição pública suspensa até concluir a ficha inteira.
+
+## Seleção fotográfica e licença — 08/11/2026
+
+Encontradas três fotografias explicitamente identificadas como **Oncidium sphacelatum**, com licença individual **CC BY-SA 4.0** (reutilização permitida com atribuição, link da licença e indicação de modificações):
+
+1. **Rhododendrites**, *Oncidium sphacelatum (42110).jpg*, foto própria de 24/12/2016: https://commons.wikimedia.org/wiki/File:Oncidium_sphacelatum_(42110).jpg
+2. **Rhododendrites**, *Oncidium sphacelatum (42115).jpg*, foto própria de 24/12/2016: https://commons.wikimedia.org/wiki/File:Oncidium_sphacelatum_(42115).jpg
+3. **David J. Stang**, *Oncidium sphacelatum 1zz.jpg*, 05/02/2007, coleção Smithsonian: https://commons.wikimedia.org/wiki/File:Oncidium_sphacelatum_1zz.jpg
+
+**Atenção:** fotografias CC BY-SA exigem crédito acessível na página pública. Antes de adicionar à galeria, verificar se o componente V4.9 suporta exibir os créditos/licença de cada foto; se não suportar, não inserir sem mecanismo de atribuição adequado. Evitar a foto *0zz* porque aparece também em categoria de identificação não confirmada.
+
+## Divergência sobre perfume
+
+Merten Orquídeas assinala explicitamente a espécie como **“Perfumada”** na ficha comercial; Smithsonian descreve perfume fraco. A descrição final deve mencionar **perfume geralmente discreto, de intensidade variável**, sem afirmar ausência de aroma.
+
+## Evidência e prudência para substrato
+
+Merten lista casca de madeira, carvão, chips de coco, pedrinhas e esfagno sem receita percentual. AOS (https://www.aos.org/orchid-care/care-sheets/oncidium-culture-sheet) recomenda raízes arejadas, umidade equilibrada no crescimento e replante na emissão de novas raízes. Qualquer fórmula percentual para esta espécie será **proposta horticultural justificada**, não receita testada nem homologada por 25 produtores; os pesos e estrelas precisam ser fundamentados antes da publicação.
