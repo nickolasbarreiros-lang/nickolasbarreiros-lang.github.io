@@ -125,7 +125,16 @@ export const bulbophyllumRothschildianum = {
         "alerta": "Receita provisória MACS 1.1, sem ensaio comparativo. Ajustar rega e ventilação conforme resposta das raízes, evitando secagem completa prolongada ou saturação persistente."
     },
     substrato: ["Esfagno de fibra longa solto + perlita grossa","Chips de coco preparados + perlita grossa + carvão vegetal miúdo + esfagno de fibra longa solto"],
-    errosComuns: "• Exibir vários sinônimos no campo resumido.\n• Tratar a espécie como obrigatoriamente fria.\n• Deixar o substrato secar por vários dias.\n• Compactar esfagno.\n• Usar vaso estreito para rizoma rastejante.\n• Manter calor e umidade em ambiente abafado.\n• Expor ao sol forte direto.\n• Fertilizar em concentração elevada.",
+    errosComuns: [
+    "Deixar o substrato secar por vários dias.",
+    "Compactar esfagno ao redor das raízes.",
+    "Usar vaso estreito para o rizoma rastejante.",
+    "Cultivar em calor abafado e sem ventilação.",
+    "Expor folhas ao sol direto forte.",
+    "Aplicar fertilizante muito concentrado.",
+    "Enterrar a base dos pseudobulbos.",
+    "Impedir a abertura das flores pendentes."
+],
     dica: "🏆 O segredo desta espécie está em oferecer espaço para suas flores alongadas. Escolha um cesto largo ou suporte que permita às inflorescências se abrir sem encostar em paredes, folhas ou bordas do vaso. Mantenha o rizoma superficial, com umidade regular e boa ventilação, evitando substrato compacto. A luminosidade deve ser filtrada e suficiente para sustentar pseudobulbos vigorosos. Em períodos quentes, priorize circulação de ar e proteção contra o aquecimento das raízes, em vez de provocar resfriamentos bruscos ou estiagens forçadas.",
     revisaoCientificaIAR: {
         nome: "Bulbophyllum rothschildianum (O'Brien) J.J.Sm.",
