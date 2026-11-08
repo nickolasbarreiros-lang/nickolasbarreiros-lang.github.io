@@ -25,7 +25,7 @@ export const cattleyaPumpkinFestival = {
     regiao: "Sem distribuição natural · híbrido horticultural",
     habitat: "Sem habitat natural · aliança Cattleya.",
     clima: "Quente a intermediário · luminoso.",
-    climaFloracao: "A floração é favorecida pela maturação completa dos pseudobulbos, luminosidade intensa, boa ventilação, leve redução das regas após o crescimento e noites ligeiramente mais frescas. Clones vigorosos podem apresentar florações secundárias fora da época principal.",
+    climaFloracao: "Gosta de clima quente a intermediário, muita claridade filtrada e ventilação. Pode florescer no litoral e na montanha, desde que fique protegida do frio intenso. A formação de pseudobulbos maduros é o principal passo para produzir botões. Depois do crescimento, diminua um pouco as regas conforme a secagem. Noites ligeiramente mais frescas podem favorecer o ciclo, mas não é necessário provocar choque térmico.",
     iluminacao: {
         sombrite: "40% a 50%; prefira 50% em ambientes muito quentes",
         solDireto: "Permitido com restrição",
