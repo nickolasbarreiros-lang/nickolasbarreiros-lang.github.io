@@ -58,3 +58,19 @@ Merten lista casca de madeira, carvão, chips de coco, pedrinhas e esfagno sem r
 ### Decisão de implementação
 
 Manter a galeria nova vazia até viabilizar atribuição adequada, e não reaproveitar fotografias do híbrido. Produzir dados botânicos completos antes da troca pública; não alterar a estrutura V4.9 sem autorização.
+
+## Proposta técnica de substrato e suportes — 08/11/2026
+
+**Base documental específica:** NC State Extension (https://plants.ces.ncsu.edu/plants/oncidium-sphacelatum/) recomenda cascas médias a grossas, boa aeração/drenagem, umidade acima de 60% e ventilação. AOS (https://www.aos.org/orchid-care/care-sheets/oncidium-culture-sheet) recomenda regas no crescimento ativo conforme secagem interna e replante quando surgirem raízes novas. **Nenhuma fonte valida percentuais específicos para esta espécie.**
+
+**Receita principal proposta para vaso:** 45% casca de pínus média + 25% chips de coco lavados + 20% carvão vegetal granulado + 10% perlita grossa = **100%**. Justificativa: casca oferece estrutura e aeração; coco modera a secagem em fase de crescimento; carvão e perlita mantêm porosidade. Ajustar tamanho das partículas e regas conforme ambiente. **Proposta editorial de cultivo, não fórmula homologada em ensaio ou levantamento de 25 produtores.**
+
+**Exatamente duas misturas alternativas, sem porcentagens e sem repetir a principal:**
+1. Casca de pínus média + carvão vegetal granulado + esfagno picado
+2. Casca de macadâmia média + chips de coco lavados + perlita grossa
+
+**Quatro suportes propostos para análise:** vaso de barro (5 estrelas, firmeza para touceiras e secagem rápida), vaso plástico vasado (5 estrelas, boa retenção relativa e aeração), cachepô de madeira (4 estrelas, raízes arejadas com regas mais frequentes), placa/tronco (3 estrelas, biologicamente possível mas alta exigência hídrica para plantas grandes). Estrelas são **hipóteses editoriais**, não homologação.
+
+**Critérios para índices, ainda sem números publicados:** avaliar separadamente temperatura, rega, umidade, ventilação, luminosidade, raízes/substrato, sazonalidade e exigência de floração com pesos 15/15/10/10/10/10/10/20; IAR litoral e montanha devem refletir amplitude térmica, ventilação e disponibilidade de água. Não copiar IDC 36 nem IAR 78/90 de Summer Wind.
+
+**Risco identificado:** AOS traz orientações para o gênero com variação grande entre espécies, inclusive instruções aparentemente conflitantes para umidade/rega em estufa e em casa. Priorizar as orientações específicas de NC State e avaliar o cultivo regional; evitar transformar uma recomendação genérica em regra universal.
