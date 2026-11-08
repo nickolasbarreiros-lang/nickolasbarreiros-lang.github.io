@@ -46,3 +46,24 @@ Não selecionar vaso plástico comum como opção prioritária, nem raízes solt
 - Espécie, sem confirmação da forma aurea: registros fotográficos em agosto de 2025 e 2012; isso reforça inverno, mas não permite fixar um mês único para todos os cultivares.
 
 **Status:** seleção de quatro suportes fundamentada documentalmente; fotos ainda não autorizadas/embutíveis. Não criar ficha pública antes de resolver galeria e concluir índices e receita.
+
+## Etapa 3 — substrato e licença de imagens (2026-11-08)
+
+### Receita principal proposta para vaso de barro
+- **40% casca de pínus média**, estrutura e aeração.
+- **25% chips de coco lavados**, retenção moderada sem compactação; lavar e dessalinizar antes do uso.
+- **20% carvão vegetal granulado**, estrutura e drenagem.
+- **15% pedra brita fina lavada**, lastro, drenagem e estabilidade.
+- Total = 100%. **Percentuais são proposta editorial**, não fórmula comprovada experimentalmente para a forma aurea. Ajustar frequência de rega ao clima e tamanho do recipiente; manter rizoma exposto.
+- Alternativa A: casca de pínus média + carvão vegetal granulado + pedra brita fina lavada.
+- Alternativa B: chips de coco lavados + casca de pínus média + perlita grossa.
+- Alternativas qualitativas, **sem percentuais**, distintas da receita principal.
+- Fundamentação geral: https://thonilitsz.arq.br/como-cultivar-orquideas-cattleya/ (pínus, coco, brita, esfagno e aeração); confirmar com produtores da forma aurea antes de homologar.
+
+### Auditoria de galeria e direitos autorais
+- Wikimedia Commons, categoria https://commons.wikimedia.org/wiki/Category:Cattleya_amethystoglossa : 28 arquivos da espécie, **nenhum comprovadamente identificado como aurea** na lista consultada. Não usar essas imagens como se fossem da forma aurea.
+- https://commons.wikimedia.org/wiki/File:Cattleya_amethystoglossa.jpg — Dalton Holland Baptista, CC BY-SA 3.0, espécie geral; **não é prova de aurea**.
+- https://commons.wikimedia.org/wiki/File:Cattleya_amethystoglossa_-_Flickr_003.jpg — Elena Gaillard, CC BY 2.0, espécie geral; **não é prova de aurea**.
+- Registro aurea identificado no Flickr (Sylvio Rodrigues Pereira, 26/08/2022) ainda depende de checagem de licença/autorização para incorporar: https://www.flickr.com/photos/sylvio-orquideas/52314199521/ . Não inferir licença pela acessibilidade pública.
+
+**Status:** composição e duas misturas alternativas definidas preliminarmente; nenhuma fotografia da forma aurea com licença reutilizável confirmada. Manter fora do índice público.
