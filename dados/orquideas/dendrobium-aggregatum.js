@@ -28,7 +28,7 @@ export const dendrobiumAggregatum = {
     "regiao": "NE da Índia · sul da China · Indochina",
     "habitat": "Florestas sazonais · epífita · 400–1.300 m.",
     "clima": "Quente a fresco · inverno mais seco e luminoso.",
-    "climaFloracao": "A espécie ocorre em diferentes altitudes e precisa de pseudobulbos maduros, boa luminosidade e repouso mais seco para favorecer a floração. Entretanto, a redução de água não substitui integralmente noites mais frescas: referências especializadas associam a indução floral à combinação de frio noturno sazonal, luz e seca relativa. Em ambientes onde as noites permanecem quentes durante todo o repouso, a planta pode crescer bem e ainda florescer pouco ou não florescer. Reduza regas e adubação após a maturação, sem provocar desidratação severa nem tentar compensar o calor com seca extrema.",
+    "climaFloracao": "Floresce melhor com pseudobulbos maduros, bastante claridade e um inverno mais fresco e seco. A montanha costuma favorecer esse ciclo; no litoral quente, pode crescer bem e ainda ter dificuldade para florir se as noites permanecerem abafadas. Após o crescimento, reduza as regas e a adubação, mantendo apenas água suficiente para evitar murcha excessiva. Não tente substituir noites amenas por seca extrema.",
     "iluminacao": {
         "sombrite": "40% a 50%",
         "solDireto": "Permitido com restrição",
