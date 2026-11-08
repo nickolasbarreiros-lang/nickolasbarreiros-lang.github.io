@@ -120,7 +120,16 @@ export const camaridiumCarinatum = {
     "alerta": "A mistura de pinus, coco, perlita e carvão é proposta técnica, sem ensaio específico de validação das proporções. Observar secagem e manter drenagem.",
     "notaEvidencia": "MACS 1.1: POWO/Kew aceita Maxillaria imbricata Barb.Rodr. e trata Camaridium carinatum como sinônimo; espécie epífita do bioma tropical úmido. AOS orienta PARA O GÊNERO Maxillaria cultivo em placa, cesto ou vaso com mistura epífita, advertindo que a diversidade do gênero impede generalizações; fonte não testa esta espécie. Guia Belgrave Orchids descreve suporte aberto para maxilárias rastejantes, mas também é inferência de grupo. Cachepô largo e ventilado é hipótese plausível para acomodar o rizoma alongado; não há comparação experimental específica dos suportes. Receita 35% pinus + 25% chips de coco + 25% perlita grossa + 15% carvão NÃO HOMOLOGADA. Não foi identificada nesta passagem orientação quantitativa de orquidário brasileiro específica de M. imbricata; meta de até 25 produtores não atingida. Receita principal preservada como hipótese técnica, sem validação experimental; menu limitado a duas alternativas qualitativas sem percentuais inventados. As quatro proporções do texto e dos itens visuais coincidem e somam 100%; a existência dos arquivos dos assets não foi inspecionada nesta alteração."
 },
-    errosComuns: "• Usar vaso estreito ou profundo.\n• Direcionar a frente de crescimento contra a borda.\n• Enterrar rizoma ou base dos pseudobulbos.\n• Deixar água parada nas bainhas dos brotos.\n• Substrato continuamente saturado.\n• Impor seca severa.\n• Cultivar em sombra excessiva.\n• Aplicar adubo concentrado ou liberação lenta encostada nas brotações.",
+    errosComuns: [
+    "Usar vaso estreito para o rizoma alongado.",
+    "Direcionar brotos novos contra a borda.",
+    "Enterrar o rizoma ou os pseudobulbos.",
+    "Deixar água parada nas bainhas dos brotos.",
+    "Manter o substrato continuamente saturado.",
+    "Impor seca severa durante o crescimento.",
+    "Cultivar em sombra excessiva.",
+    "Encostar adubo de liberação lenta nos brotos."
+],
     dica: "🏆 O diferencial desta espécie é respeitar seu rizoma alongado, que pode crescer lateralmente e pender. Ao plantar, coloque os pseudobulbos antigos próximos à borda e deixe a frente ativa voltada para o espaço livre. Prefira recipiente largo e raso ou suporte que permita expansão sem apertar brotos. Não enterre as bases dos pseudobulbos: isso favorece a ventilação e deixa livres as regiões de onde surgem as flores. Mantenha umidade regular, com drenagem rápida, evitando mudanças de posição durante o enraizamento.",
     revisaoCientificaIAR: {
         "nome": "Maxillaria imbricata",
