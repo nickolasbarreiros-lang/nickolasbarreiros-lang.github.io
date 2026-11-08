@@ -24,7 +24,7 @@ export const ludisiaDiscolor = {
     regiao: "China · Indochina · Malesia · Filipinas",
     habitat: "Chão de florestas úmidas · serapilheira e húmus.",
     clima: "Quente a intermediário · úmido e sombreado.",
-    climaFloracao: "A espécie cresce sob condições relativamente estáveis, sem repouso seco. A literatura botânica descreve caules rastejantes e folhas escuras com nervuras contrastantes. Em cultivo, hastes florais costumam aparecer após o amadurecimento dos caules, frequentemente com dias mais curtos e temperaturas ligeiramente mais amenas, mas frio intenso não é necessário. Excesso de nitrogênio, sombra profunda demais e substrato sem oxigenação favorecem crescimento mole e reduzem a floração.",
+    climaFloracao: "Prefere clima quente a intermediário, sombra luminosa e umidade constante, sendo bem adaptada ao litoral. Na montanha, proteja do frio intenso. As hastes florais costumam surgir depois que os caules amadurecem, muitas vezes com noites um pouco mais amenas. Mantenha o substrato levemente úmido e arejado, sem encharcar. Não precisa de seca nem de choque térmico para florescer.",
     iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não permitido",
