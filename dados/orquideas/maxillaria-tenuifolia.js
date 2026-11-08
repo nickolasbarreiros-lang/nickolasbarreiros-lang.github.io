@@ -70,7 +70,16 @@ export const maxillariaTenuifolia = {
         alerta: "Não enterrar nem cortar rizomas aéreos sem raízes próprias. Evitar sombra profunda, vaso grande e encharcamento no frio. Aumentar luminosidade gradualmente quando houver crescimento vigoroso sem floração.",
         notaEvidencia: "MACS 1.1: AOS e RHS documentam cultivo específico em mistura drenante à base de casca; Orquidário Mogi Mirim cita pinus/carvão/esfagno, Maripá cita cascas/carvão/madeira, e Orquídeas no Apê cita pinus/carvão/fibra de coco, sem percentuais. Receita visual R1 50% Casca de pinus + 30% Fibra de coco + 20% Carvão vegetal: composição B qualitativa específica, percentuais D inferenciais NÃO HOMOLOGADOS. Alternativas R2/R3 distintas, também D. Fonte estrangeira South Coast Orchid Society publicou mistura 2:1 de casca/turfa, composição diferente da receita adotada, não prova de R1. Nomes canônicos, assets adequados; evitar asset chips-coco que reutiliza imagem de fibra. Matriz: auditorias/MACS-1.1-MATRIZ-040-MAXILLARIA-TENUIFOLIA.md."
     },
-    "errosComuns": "❌ Sombra intensa: produz muitos brotos, mas reduz drasticamente a floração.\n❌ Cortar rizomas aéreos sem raízes próprias: enfraquece ou mata os crescimentos superiores.\n❌ Vaso grande e profundo: cria uma zona central que seca lentamente e perde raízes.\n❌ Enterrar o rizoma: favorece podridão da base dos pseudobulbos.\n❌ Encharcamento no inverno: aumenta fungos e manchas foliares.\n❌ Replantar fora do início de novas raízes: prolonga o choque e dificulta a fixação da planta.",
+    "errosComuns": [
+    "Cultivar em sombra intensa e reduzir flores.",
+    "Cortar rizomas aéreos sem raízes próprias.",
+    "Usar vaso grande e profundo.",
+    "Enterrar o rizoma.",
+    "Encharcar raízes durante o inverno.",
+    "Replantar fora da emissão de raízes novas.",
+    "Dividir touceiras com poucas reservas.",
+    "Exagerar no nitrogênio após a maturação."
+],
     "dica": "🏆 Nesta Maxillaria perfumada, o rizoma pode crescer para cima, formando uma espécie de escada de pseudobulbos. Em vez de forçar os brotos para dentro do vaso, ofereça suporte rugoso vertical e fixe suavemente as novas frentes. Mantenha raízes ventiladas e regas regulares durante o crescimento. Se a touceira cresce vigorosamente, mas não floresce, aumente gradualmente a luminosidade filtrada. Preserve a base dos pseudobulbos, onde surgem as flores, e replante apenas quando novas raízes começarem a aparecer.",
     revisaoCientificaIAR: {
         "nome": "Maxillaria tenuifolia",
