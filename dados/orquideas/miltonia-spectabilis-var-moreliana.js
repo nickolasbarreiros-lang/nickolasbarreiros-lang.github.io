@@ -25,7 +25,7 @@ export const miltoniaSpectabilisVarMoreliana = {
     "regiao": "Bahia a São Paulo",
     "habitat": "Mata Atlântica · epífita.",
     "clima": "Intermediário a quente · ventilado.",
-    "climaFloracao": "A flor normalmente surge após a maturação completa do pseudobulbo. Boa luz filtrada e crescimento vigoroso são desejáveis; a exigência de amplitude térmica específica para indução não foi demonstrada para esta espécie. Não imponha seca severa. Quanto mais cheio e vigoroso amadurecer o pseudobulbo, maior tende a ser a flor, mais intensa a pigmentação e melhor a capacidade de sustentar a brotação seguinte.",
+    "climaFloracao": "Prefere clima intermediário a quente, boa luminosidade filtrada e ventilação. Pode florescer no litoral e na montanha, com proteção contra temperaturas extremas. A flor surge depois que o pseudobulbo amadurece, por isso mantenha regas e nutrição adequadas durante o crescimento. Não precisa de frio intenso nem de repouso seco. Evite raízes encharcadas e falta de luz, que prejudicam a formação das flores.",
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
