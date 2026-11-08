@@ -73,7 +73,16 @@ export const laeliaCinnabarina = {
         alerta: "Evitar sombra excessiva, vaso profundo, mistura compacta, salinização e repouso seco exagerado. Proteger vaso e pedra contra superaquecimento sob sol forte.",
         notaEvidencia: "MACS 1.1 — revisão documental: Cattleya cinnabarina (sin. Laelia cinnabarina), rupícola de alta luminosidade, raízes aeradas e risco de aquecimento do recipiente. Suportes: vaso de barro 5 estrelas, cachepô madeira 4, plástico vasado 3, placa/tronco 2; são avaliações horticulturais sem confronto quantitativo específico. Receita visual 35% brita fina/média + 30% perlita grossa + 25% macadâmia triturada + 10% pinus grosso = 100%; receitaTexto e itens concordam. A receita principal textual e visual concordam: 65% de fração mineral (brita + perlita) e 35% orgânica (macadâmia + pinus). As duas alternativas qualitativas são independentes. A adequação dessa proporção mineral/orgânica demanda validação técnica específica. Flora do Brasil 2020 documenta floração principalmente de outubro a dezembro e hábito rupícola ou terrícola; POWO classifica a espécie como epífita, divergência de categorias ecológicas documentada sem apagar o hábito rupícola observado em campo. Estudo de Seidel Júnior & Venturieri (2011, DOI 10.4025/actasciagron.v33i1.3939) examinou C. forbesii e Laelia purpurata, NÃO C. cinnabarina. Nenhuma receita quantitativa específica de produtor brasileiro verificada nesta passagem; meta de 25 não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    errosComuns: "• Sombra excessiva e pseudobulbos estiolados.\n• Vaso ou pedra superaquecendo sob sol forte.\n• Substrato fino, compacto ou permanentemente molhado.\n• Confundir hábito rupícola com ausência de necessidade hídrica.\n• Repouso seco exagerado.\n• Vaso profundo e fechado, com centro quente e úmido.\n• Adubação concentrada e salinização.\n• Pouca ventilação no verão litorâneo.",
+    errosComuns: [
+    "Cultivar em sombra excessiva.",
+    "Deixar vaso ou pedra superaquecer ao sol.",
+    "Usar substrato fino e constantemente molhado.",
+    "Confundir hábito rupícola com ausência de regas.",
+    "Impor repouso seco exagerado.",
+    "Usar vaso profundo e pouco ventilado.",
+    "Acumular sais de adubo nas raízes.",
+    "Cultivar em calor abafado durante o verão."
+],
     dica: "🏆 Nesta Cattleya rupícola de flores alaranjadas, luminosidade elevada favorece brotos robustos, mas o calor excessivo nas raízes pode comprometer o cultivo. Prefira vaso baixo, bem ventilado e com substrato mineral ou muito drenante. Adapte a planta gradualmente ao sol suave, protegendo o recipiente das horas mais quentes. Durante a emissão de raízes e pseudobulbos, regue generosamente e deixe a água escoar rapidamente. Após a maturação, reduza a frequência conforme a atividade da planta, sem impor desidratação extrema.",
     revisaoCientificaIAR: {
         "nome": "Cattleya cinnabarina",
