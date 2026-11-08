@@ -37,3 +37,14 @@
 - **Fotografias:** páginas originais no Commons confirmadas para Epidendrum_fulgens_Brazil.jpg (Nave do Conhecimento, CC0 1.0), Epidendrum_fulgens.jpg (fotografia de M. A. P. Accardo Filho, CC BY-SA 3.0) e Epidendrum_fulgens_1.jpg (Marcia Stefani, CC BY 2.0). URLs de galeria usam Special:FilePath; carregamento no site ainda não testado.
 - **Receita de substrato 35/30/25/10:** soma 100%, coerente com solos arenosos, mas proporções editoriais, sem ensaio comparativo ou homologação com 25 produtores.
 - **IDC/IAR:** valores do rascunho são hipóteses editoriais e requerem conferência de cada peso e fator antes da publicação.
+
+## Revisão de cultivo e índices — atualização 08/11/2026
+
+- Artigo de ecótipos de *E. fulgens* registra populações em dunas e afloramentos rochosos, de 7–17 m em áreas de restinga até 293 m em amostras de afloramento; há registro fotográfico da Flora Digital/UFSC em 460 m. O estudo de cultivo em jardim comum usou plantas em vasos plásticos, 30% de sombreamento, irrigação a cada três dias e substrato em partes iguais de casca de pínus e carvão, partículas de 10–15 mm. Fonte: https://academic.oup.com/botlinnean/article/208/3/313/7905797 ; https://floradigital.ufsc.br/open_sp.php?img=14107
+- A receita principal do rascunho foi corrigida para **50% casca de pínus média + 50% carvão vegetal granulado**, alinhada ao protocolo experimental publicado. Isso é referência de um estudo, não homologação por 25 produtores nem garantia universal para qualquer clima/vaso. Duas misturas alternativas permanecem qualitativas e sem percentuais.
+- A espécie tem plasticidade ecológica: POWO descreve hábito epífito em bioma sazonalmente seco; estudos brasileiros e florísticos registram hábito terrícola/rupícola em restingas e afloramentos. A ficha deve preservar essa variação, sem generalizar o hábito como exclusivamente terrestre.
+- Calendário: registros botânicos com flores/frutos praticamente todo o ano. Perfume e duração individual das flores não estão caracterizados com segurança; texto não inventa esses dados.
+- IDC 3.2: notas 2,2,1,1,2,2,1,2 com pesos 15,15,10,10,10,10,10,20 totalizam 170; índice normalizado (170−100)/4 = **17,5**, arredondado para **18/100**, fácil. É avaliação editorial, não medida experimental.
+- IAR 2.0 permanece preliminar: litoral 80/100 e montanha 63/100; notas são julgamentos comparativos de compatibilidade regional, não ensaios de cultivo em ambas as regiões.
+- Galeria: quatro fotos e quatro créditos individuais. Licenças confirmadas nas páginas do Commons: Nave do Conhecimento CC0 1.0; M. A. P. Accardo Filho CC BY-SA 3.0; Marcia Stefani CC BY 2.0; Rafael CC BY-SA 4.0. Ainda falta teste de renderização no navegador do site.
+- Estado: rascunho atualizado; não substituir o *Epidendrum Hokulea ‘Super Red’* até terminar revisão visual, integridade dos campos e conferência final da ficha.
