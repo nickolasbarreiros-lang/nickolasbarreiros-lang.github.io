@@ -29,7 +29,7 @@ export const dryadellaLiliputiana = {
     regiao: "Sul/Sudeste do Brasil · Bolívia",
     habitat: "Epífita montana · ~700–1.700 m.",
     clima: "Intermediário a fresco · úmido e ventilado.",
-    climaFloracao: "IOSPE registra floração no inverno e crescimento quente a fresco ao longo de sua faixa altitudinal. Em cultivo, a combinação mais favorável é touceira madura, umidade do ar alta, raízes oxigenadas e noites mais amenas. Não necessita de repouso seco. No litoral, o verão deve ser manejado reduzindo temperatura radicular e aumentando circulação de ar, não mantendo o substrato permanentemente saturado.",
+    climaFloracao: "Gosta de clima intermediário a fresco, umidade elevada e noites mais amenas. A montanha oferece boas condições de floração; no litoral quente, evite raízes superaquecidas e ar parado. Mantenha luz filtrada e umidade regular, deixando a água escoar bem. Não precisa de repouso seco para florescer. O desenvolvimento de uma touceira saudável é mais importante que provocar mudanças bruscas de temperatura.",
         iluminacao: {
         sombrite: "Cerca de 70%",
         solDireto: "Não permitido",
