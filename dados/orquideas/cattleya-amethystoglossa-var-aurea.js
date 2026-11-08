@@ -1,4 +1,4 @@
-// RASCUNHO V4.9 — NÃO INTEGRAR AO ÍNDICE até validar imagens específicas da forma aurea.
+// FICHA V4.9 — publicação provisória autorizada sem fotografias; galeria pendente de imagens verificadas.
 export const cattleyaAmethystoglossaVarAurea = {
   "id": "cattleya-amethystoglossa-var-aurea",
   "nome": "Cattleya amethystoglossa forma aurea",
