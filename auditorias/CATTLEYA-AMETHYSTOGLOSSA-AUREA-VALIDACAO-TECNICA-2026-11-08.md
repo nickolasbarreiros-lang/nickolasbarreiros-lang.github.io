@@ -68,3 +68,10 @@ Não marcar a ficha como homologada e não avançar para outra espécie enquanto
 - Calendário indicativo corrigido para **junho, agosto, setembro, outubro, novembro, dezembro**. Junho é ocorrência ocasional; julho foi retirado por ausência de confirmação nas fontes examinadas.
 - Os dados sazonais são sobretudo da espécie, portanto não afirmam exclusividade da forma aurea.
 - Atualização pública no commit `a2326984686f1222f9804d27f3c5a122951d2cfd`.
+
+## Auditoria visual direta dos oito assets — 08/11/2026
+
+- As oito imagens foram recuperadas do repositório e abertas para inspeção visual, não apenas verificadas por existência: `vaso-barro.webp`, `vaso-plastico-vasado-v2.webp`, `cesto-madeira-v3.webp`, `placa-madeira-v3.webp`, `casca-pinus.webp`, `fibra-coco.webp` (chips), `carvao-vegetal.webp` e `brita-v2.webp`.
+- Os quatro suportes correspondem visualmente às respectivas modalidades; pinus, chips de coco e carvão vegetal correspondem aos materiais nomeados.
+- **Observação:** `brita-v2.webp` retrata pedras angulares sem escala e de aparência relativamente grossa; não é possível comprovar a granulometria fina prescrita. A imagem é genericamente compatível com brita, mas a precisão de `brita fina` permanece não homologada visualmente.
+- Não modificar a biblioteca compartilhada sem novo asset de granulometria comprovada e autorização para mudança de escopo global.
