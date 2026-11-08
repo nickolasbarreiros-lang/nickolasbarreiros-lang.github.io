@@ -73,7 +73,16 @@ export const coelogyneFimbriata = {
         "alerta": "Não enterre o rizoma, não use recipiente profundo e evite tanto seca prolongada quanto encharcamento. Em placa, dispense mistura volumétrica.",
         "notaEvidencia": "MACS 1.1: Coelogyne fimbriata tem hábito epífito/litófito e rizoma rastejante; suporte largo ou placa é inferência morfológica, sem comparação experimental específica. AOS, em orientação PARA O GÊNERO Coelogyne, recomenda casca de ABETO e perlita em proporção 3:1; usar PINUS na ficha é adaptação não ensaiada: https://www.aos.org/orchid-care/care-sheets/coelogyne-culture-sheet . A receita 75% pinus + 25% perlita tem referência quantitativa genérica, mas NÃO é homologada para C. fimbriata. Não aplicar mistura volumétrica em placa. Duas alternativas qualitativas sem percentuais inventados; estrelas dos suportes sem validação comparativa. Orquidário Mantovani comercializa a espécie e sugere cultivo sombreado e opções de suporte, mas não receita percentual específica. Nenhum produtor brasileiro com fórmula quantitativa específica confirmado; meta até 25 não atingida."
     },
-    "errosComuns": "Usar vaso profundo; enterrar o rizoma; limitar o avanço horizontal; deixar secar por muitos dias; manter encharcada; cultivar em calor abafado; sombra profunda; dividir em pedaços pequenos; replantar sem novas raízes; usar excesso de esfagno ou substrato compactado.",
+    "errosComuns": [
+    "Usar vaso profundo para rizoma rastejante.",
+    "Enterrar o rizoma.",
+    "Impedir o avanço horizontal dos brotos.",
+    "Deixar raízes secarem por muitos dias.",
+    "Manter o substrato encharcado.",
+    "Cultivar em calor abafado.",
+    "Manter sombra profunda.",
+    "Dividir a touceira em pedaços pequenos."
+],
     "dica": "🏆 O segredo desta espécie é oferecer superfície horizontal para o rizoma rastejante avançar. Prefira placa larga, cesto raso ou recipiente baixo, deixando a frente de crescimento voltada para uma área livre. Não enterre o rizoma: as raízes devem receber umidade regular, mas também bastante oxigênio. Em ambientes quentes, acompanhe a secagem do suporte e aumente a ventilação antes de adicionar mais material retentor. Evite divisões frequentes; uma colônia estabelecida pode sustentar várias frentes de crescimento e floração.",
     revisaoCientificaIAR: {
         "nome": "Coelogyne fimbriata",
