@@ -69,7 +69,16 @@ export const maxillariaPicta = {
         alerta: "Evitar vaso grande, rizoma enterrado, substrato degradado, sombra profunda e replante fora da emissão de raízes novas. Não arrancar bainhas firmes nem deixar água acumulada junto aos botões basais.",
         notaEvidencia: "MACS 1.1 — evidência experimental específica: Faria, Rego, Bernardi e Molinari (2001), Brazilian Archives of Biology and Technology, DOI 10.1590/S1516-89132001000400003, compararam 13 tratamentos em Maxillaria picta, com dez repetições e oito meses de observação, em vasos cerâmicos e casa de vegetação com 50% de sombreamento. Misturas em proporção 1:1; vermiculita + carvão e vermiculita + casca de arroz carbonizada foram alternativas destacadas ao xaxim. A receita visual 50/50 reproduz um tratamento efetivamente ensaiado, mas NÃO é homologação universal para outros climas e regimes de rega. A receita anterior com pinus/macadamia/perlita/fibra de coco não tinha validação específica e foi substituída. Produtores brasileiros com receita percentual própria específica identificados nesta passagem: 0; a fonte acadêmica é experimento brasileiro, não orquidário comercial. POWO aceita Maxillaria picta e Brasiliorchis picta como sinônimo."
     },
-    "errosComuns": "❌ Replantar ou dividir fora do início de novas raízes.\n❌ Usar vaso muito grande e manter o centro úmido por vários dias.\n❌ Enterrar o rizoma, brotos ou hastes basais.\n❌ Cultivar em sombra profunda e esperar que apenas o frio provoque floração.\n❌ Arrancar bainhas firmemente aderidas durante a limpeza da base.\n❌ Regar com frequência no frio sem ventilação.\n❌ Aplicar adubo concentrado em raízes finas ou secas.",
+    "errosComuns": [
+    "Replantar fora da emissão de raízes novas.",
+    "Usar vaso grande que seca lentamente.",
+    "Enterrar o rizoma e as flores basais.",
+    "Cultivar em sombra profunda.",
+    "Arrancar bainhas firmemente aderidas.",
+    "Regar em excesso durante o frio.",
+    "Aplicar adubo concentrado nas raízes.",
+    "Dividir touceiras com poucas reservas."
+],
     "dica": "🏆 Nesta Maxillaria, as flores surgem em hastes curtas na base dos pseudobulbos, por isso mantenha essa região livre de substrato acumulado. Replante quando começarem a aparecer raízes novas, preservando as antigas que estiverem firmes. Ofereça luz filtrada abundante, ventilação e regas regulares durante o crescimento, permitindo drenagem rápida. Em períodos mais amenos, evite calor excessivo no vaso e observe a maturação dos pseudobulbos. Não retire bainhas firmes à força: isso pode ferir botões ainda escondidos.",
     revisaoCientificaIAR: {
         "nome": "Maxillaria picta",
