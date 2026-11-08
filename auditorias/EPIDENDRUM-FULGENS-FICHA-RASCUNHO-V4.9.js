@@ -47,6 +47,7 @@ export const epidendrumFulgens = {
     5,
     6,
     7,
+    8,
     9,
     10,
     11,
@@ -54,7 +55,7 @@ export const epidendrumFulgens = {
   ],
   "mesesFloracaoIndicativos": true,
   "clima": "Quente a intermediário, com ventilação abundante e boa drenagem.",
-  "climaFloracao": "Pode florescer em grande parte do ano; levantamentos brasileiros registram flores em quase todos os meses, com variações conforme o ambiente.",
+  "climaFloracao": "Há registros de floração em todos os meses em levantamentos de restinga; a intensidade varia conforme a população e as condições locais.",
   "iluminacao": {
     "sombrite": "0–30% em plantas aclimatadas; proteção inicial em calor intenso",
     "solDireto": "Sol pleno",
@@ -62,7 +63,7 @@ export const epidendrumFulgens = {
     "observacoes": "Em restingas a espécie cresce em locais muito ensolarados. Plantas bem enraizadas e aclimatadas podem receber sol direto, com ventilação e regas compatíveis com a secagem. Faça a transição gradualmente, sobretudo após o cultivo à sombra. Folhas queimadas ou aquecimento excessivo exigem proteção temporária; crescimento fraco e poucas flores podem indicar luz insuficiente.",
     "seloLuz": "vermelho"
   },
-  "floracao": "Inflorescências terminais com flores de aproximadamente 1 a 2 cm, amarelas, alaranjadas ou avermelhadas, com labelo trilobado. Levantamentos brasileiros registram floração em grande parte do ano; a intensidade varia conforme o ambiente. Não há confirmação específica suficiente sobre perfume, duração individual das flores ou continuidade da mesma haste.",
+  "floracao": "Inflorescências terminais com flores de aproximadamente 1 a 2 cm, amarelas, alaranjadas ou avermelhadas, com labelo trilobado. Levantamentos brasileiros registram floração ao longo do ano, com intensidade variável conforme o ambiente. O perfume não está bem caracterizado; a duração de cada flor e a eventual continuidade da mesma haste ainda carecem de confirmação específica.",
   "adubacao": "Adube de forma moderada durante o crescimento ativo, em doses reduzidas de fertilizante equilibrado. Diminua quando o crescimento desacelerar e evite excesso de sais.",
   "rega": "Regue bem durante a emissão de novos caules e raízes e permita que a mistura perca umidade antes da próxima rega. Em períodos mais frios ou de crescimento lento, aumente os intervalos; evite água parada e substrato compactado.",
   "suporte": [
