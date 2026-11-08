@@ -24,7 +24,7 @@ export const jacquiniellaGlobosa = {
     regiao: "América Central · Caribe · América do Sul (incl. Brasil)",
     habitat: "Florestas úmidas · epífita/litófita · ~200–2.400 m.",
     clima: "Quente a fresco · úmido · bem ventilado.",
-    climaFloracao: "Não exige repouso seco nem choque térmico específico. A floração tende a acompanhar caules maduros sob boa luminosidade filtrada, umidade regular e ventilação constante; procedências de altitude podem responder melhor a noites mais amenas.",
+    climaFloracao: "Gosta de clima úmido, luz filtrada e circulação constante de ar. Pode florescer no litoral ou na montanha, dependendo da procedência; plantas de altitude costumam preferir noites mais amenas. Mantenha as raízes hidratadas e deixe os caules amadurecerem. Não precisa de repouso seco nem de frio intenso para florescer. No litoral, proteja a planta do calor abafado e da desidratação.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Não permitido",
