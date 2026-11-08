@@ -26,7 +26,7 @@ export const brassiaLawrenceana = {
     regiao: "Amazônia · norte e oeste da América do Sul",
     habitat: "Epífita de florestas úmidas, aproximadamente entre 265 e 1.200 m.",
     clima: "Quente a intermediário, úmido e ventilado.",
-    climaFloracao: "A espécie responde bem a temperaturas quentes a intermediárias, com boa luz filtrada e raízes ativas. Em clima quente, adapta-se bem desde que o substrato drene rapidamente e haja circulação de ar. Uma pequena redução de água após a maturação dos pseudobulbos pode acompanhar a menor atividade, sem impor seca severa.",
+    climaFloracao: "Espécie de florestas úmidas, registrada aproximadamente entre 265 e 1.200 m. Litoral quente: favorável com luz filtrada, ventilação e raízes bem hidratadas. Montanha: favorável se protegida de frio prolongado. A floração acompanha a maturação dos pseudobulbos; noites moderadamente mais frescas podem ser benéficas, mas não são exigência comprovada. Reduza regas apenas quando o crescimento diminuir, sem repouso seco severo.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
