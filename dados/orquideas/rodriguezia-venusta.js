@@ -29,7 +29,7 @@ export const rodrigueziaVenusta = {
     "regiao": "Norte e leste da América do Sul, incluindo o Brasil",
     "habitat": "Epífita de florestas tropicais; de baixadas a ~1.000 m.",
     "clima": "Quente a intermediário; úmido e ventilado.",
-    "climaFloracao": "A emissão floral ocorre com maior regularidade quando os pseudobulbos amadurecem sob meia-sombra clara, raízes ativas e circulação de ar constante. Não necessita de repouso seco marcado. Durante crescimento e enraizamento, mantenha água regular; após a maturação, apenas aumente discretamente o intervalo entre regas. Touceiras preservadas e pouco divididas acumulam mais reservas e tendem a produzir mais hastes simultaneamente.",
+    "climaFloracao": "Prefere clima quente a intermediário, luz filtrada abundante e boa ventilação. Pode florescer no litoral e na montanha, com proteção contra frio prolongado. Regue regularmente enquanto os pseudobulbos crescem e aumente um pouco os intervalos depois da maturação. Não precisa de repouso seco rigoroso. Touceiras adultas e pouco divididas costumam produzir mais hastes florais.",
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
