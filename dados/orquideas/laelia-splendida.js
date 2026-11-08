@@ -77,15 +77,15 @@ export const laeliaSplendida = {
         notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D); não equivale à homologação quantitativa de percentuais ou à superioridade comprovada de suportes. MACS 1.1 — revisão documental: Laelia splendida (sin. Schomburgkia splendida), epífita/rupícola robusta de hastes longas; alta luminosidade com aclimatação, suporte estável e raízes arejadas. Cachepô de Madeira bem vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com cesto + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus grosso. Elas não fundamentam os percentuais visuais. Monitorar secagem, estabilidade e espaço para hastes. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
-        "Não mantenha a planta em sombra excessiva.",
-        "Evite vasos profundos e pouco ventilados.",
-        "Não deixe as raízes permanentemente molhadas.",
-        "Evite divisões com poucos pseudobulbos.",
-        "Replante quando surgirem raízes novas.",
-        "Não aplique fertilizante concentrado.",
-        "Reserve espaço para a próxima frente de crescimento.",
-        "Aclimate gradualmente antes de aumentar o sol direto."
-    ],
+    "Cultivar em sombra excessiva.",
+    "Usar vaso profundo e pouco ventilado.",
+    "Manter raízes permanentemente molhadas.",
+    "Dividir touceiras com poucas reservas.",
+    "Replantar fora da emissão de raízes novas.",
+    "Aplicar fertilizante concentrado.",
+    "Impedir espaço para a próxima brotação.",
+    "Expor ao sol direto forte sem aclimatação."
+],
     dica: "🏆 Nesta Laelia de hastes florais longas, a falta de luminosidade pode limitar a floração mesmo quando os pseudobulbos crescem. Ofereça luz intensa, com adaptação gradual ao sol suave, e mantenha raízes muito ventiladas. Use suporte firme ou recipiente estável, deixando espaço acima da planta para a inflorescência se desenvolver. Durante o crescimento, regue bem e permita secagem adequada. Evite excesso de sombra e adubação nitrogenada: o objetivo é amadurecer pseudobulbos robustos, capazes de sustentar hastes florais vigorosas.",
     revisaoCientificaIAR: {
         "nome": "Laelia splendida (Schltr.) L.O.Williams",
