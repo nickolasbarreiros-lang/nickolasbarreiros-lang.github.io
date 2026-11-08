@@ -70,7 +70,16 @@ export const ludisiaDiscolor = {
         alerta: "Evitar sol direto, vaso sem drenagem, terrário hermético, substrato pesado e caules profundamente enterrados. Manter nós e caules sobre a superfície e cobrir apenas as raízes.",
         notaEvidencia: "MACS 1.1 — revisão documental corrigida: Ludisia discolor é orquídea terrestre de caules rastejantes; priorizar vaso largo e raso com meio humoso, úmido sem encharcar e boa aeração. Receita principal proposta: 35% terra vegetal humosa leve e peneirada + 25% fibra de coco fina lavada + 20% pinus fino + 20% perlita fina/média = 100%; receitaTexto e itens visuais coincidem. Asset terra-vegetal cadastrado na biblioteca e arquivo SVG existente. As duas outras misturas são alternativas qualitativas sem percentuais homologados. Terra vegetal comercial apresenta variabilidade de composição, por isso exigir material maturado, leve, sem argila excessiva e sem sais. A American Orchid Society recomenda meio terrestre uniformemente úmido semelhante ao de violetas-africanas; a extensão da North Carolina State University recomenda substrato terrestre bem drenado e vaso largo e raso, sem validar esta fórmula. Nenhuma receita percentual específica de produtor brasileiro foi confirmada nesta passagem; meta até 25 não atingida. Estrelas e percentuais NÃO HOMOLOGADOS",
     },
-    errosComuns: "Expor ao sol direto; manter em sombra total sem claridade; enterrar profundamente os caules; usar substrato pesado ou encharcado; cultivar em vaso sem drenagem; manter terrário fechado e saturado; molhar abundantemente os nós no fim do dia; usar adubo concentrado; compactar esfagno sobre os caules; permitir acúmulo de sais.",
+    errosComuns: [
+    "Expor folhas ao sol direto.",
+    "Manter sombra total sem claridade.",
+    "Enterrar profundamente os caules rastejantes.",
+    "Usar substrato pesado e encharcado.",
+    "Cultivar em vaso sem drenagem.",
+    "Manter terrário fechado e saturado.",
+    "Deixar água acumulada nos nós dos caules.",
+    "Compactar esfagno sobre os brotos."
+],
     dica: "🏆 Esta orquídea terrestre cresce melhor quando seus caules carnosos podem avançar horizontalmente sobre uma camada leve de matéria orgânica. Use recipiente largo e relativamente raso, com substrato humoso, solto e drenante; cubra as raízes, mas não enterre profundamente os nós dos caules. Mantenha umidade moderada e luz indireta, evitando sol direto e encharcamento. Para multiplicar a planta, aproveite segmentos saudáveis com nós, mantendo-os em ambiente úmido até enraizarem. Folhas bonitas dependem sobretudo de raízes saudáveis.",
     revisaoCientificaIAR: {
         "nome": "Ludisia discolor",
