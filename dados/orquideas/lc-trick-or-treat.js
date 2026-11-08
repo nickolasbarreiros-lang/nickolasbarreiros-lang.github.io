@@ -23,7 +23,7 @@ export const lcTrickOrTreat = {
     regiao: "Sem distribuição natural · grex registrado em 1973",
     habitat: "Sem habitat natural · grex híbrido.",
     clima: "Intermediário a quente · luminoso.",
-    climaFloracao: "A genealogia registrada é C. Icarus × Ctt. Chit Chat, reunindo forte contribuição de Cattleya cinnabarina, C. crispata, Guarianthe aurantiaca e C. harpophylla. Na prática, isso se traduz em bom vigor, preferência por luz alta filtrada e resposta favorável ao calor quando há ventilação. Cada novo pseudobulbo plenamente maduro pode gerar uma haste; por isso, luz insuficiente e excesso de nitrogênio são causas mais comuns de falha de floração que a falta de frio.",
+    climaFloracao: "Este híbrido gosta de clima quente a intermediário, muita claridade filtrada e boa ventilação. Pode florescer no litoral e na montanha, com proteção contra frio intenso. Cada novo pseudobulbo bem amadurecido pode produzir uma haste floral. Regue e adube durante o crescimento, reduzindo o nitrogênio depois da maturação. Pouca luz costuma dificultar mais a floração do que a falta de noites frias.",
     iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
