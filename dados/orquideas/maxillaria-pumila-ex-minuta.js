@@ -71,7 +71,16 @@ export const maxillariaPumilaExMinuta = {
         alerta: "Evitar vasos grandes, materiais grossos demais para raízes capilares, esfagno compactado, adubo concentrado e divisões pequenas. Fixar ou replantar durante emissão de raízes novas.",
         notaEvidencia: "MACS 1.1 — revisão documental: Maxillaria pumila (ex-minuta), miniatura epífita de raízes capilares; montagem principal em placa pequena com esfagno mínimo e umidade frequente. Suportes placa/tronco 5 estrelas, barro e plástico vasado 4, cachepô madeira 3; classificações não homologadas. Receita visual alternativa para microvaso: 35% pinus médio + 30% macadâmia triturada + 25% perlita grossa + 10% fibra de coco grossa = 100%; receitaTexto e itens concordam. A receita visual de microvaso não quantifica a primeira alternativa qualitativa, pois contém macadâmia em vez de chips; as duas alternativas textuais mantidas são distintas da composição visual. A mistura visual permanece apenas proposta para microvaso; montagem principal é placa. Validar granulometria e contato hídrico com raízes capilares, secagem e acúmulo de sais. POWO aceita Maxillaria pumila Hook. (1837) e trata Maxillaria minuta e Christensonella pumila como sinônimos. IOSPE descreve pseudobulbos ovoides unifoliados, haste de 1,5 cm e flor de 8 mm; o próprio IOSPE ressalva dúvidas históricas na delimitação de M. minuta, resolvidas de outra forma pela revisão de Koehler et al. (2012). Não foi verificada receita percentual de produtor brasileiro específica para a espécie nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS.",
     },
-    "errosComuns": "❌ Usar casca grossa demais, que não mantém contato uniforme com raízes capilares.\n❌ Usar vaso grande ou profundo.\n❌ Dividir a touceira em pequenos fragmentos.\n❌ Aplicar fertilizante concentrado ou Osmocote junto às raízes.\n❌ Enterrar o rizoma ou cobrir os pseudobulbos minúsculos.\n❌ Compactar esfagno ao redor da planta.\n❌ Manter alta umidade sem movimento de ar.\n❌ Replantar fora da emissão de raízes novas.",
+    "errosComuns": [
+    "Usar casca grossa sem contato com raízes finas.",
+    "Plantar em vaso grande e profundo.",
+    "Dividir touceiras em fragmentos pequenos.",
+    "Encostar adubo de liberação lenta nas raízes.",
+    "Enterrar o rizoma e os pseudobulbos.",
+    "Compactar esfagno ao redor da miniatura.",
+    "Manter umidade elevada sem ventilação.",
+    "Replantar fora da emissão de raízes novas."
+],
     "dica": "🏆 Esta miniatura forma almofadas densas de pseudobulbos, que merecem ser preservadas em vez de divididas frequentemente. Prefira suporte pequeno e rugoso ou recipiente raso, com material fino, porém solto, para proteger as raízes delicadas. Regue conforme a secagem e mantenha ventilação contínua, evitando encharcamento. Use adubação muito diluída e lave periodicamente o suporte para remover sais. Replante apenas quando surgirem raízes novas; uma colônia estável mantém melhor o microclima e favorece florações mais expressivas.",
     revisaoCientificaIAR: {
         "nome": "Maxillaria pumila",
