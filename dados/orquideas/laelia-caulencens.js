@@ -73,7 +73,16 @@ export const laeliaCaulencens = {
         alerta: "Não usar vaso grande ou profundo, substrato compacto nem sombra excessiva. Evitar sol forte aquecendo pedra ou recipiente e repouso seco exagerado.",
         notaEvidencia: "MACS 1.1 — revisão documental: arquivo e ID históricos laelia-caulencens mantidos por compatibilidade; nome exibido Cattleya caulescens (sin. Laelia caulescens). Rupícola compacta de campos rupestres, com alta luz, raízes aeradas e secagem rápida sem superaquecimento. Vaso de Barro baixo e perfurado é suporte principal; estrelas dos suportes não atribuídas por falta de avaliação individual fundamentada. Receita visual e textual coincidem: 35% brita pequena limpa e sem pó + 30% perlita grossa compatível com vaso + 25% macadâmia média + 10% pinus grosso = 100%, sendo 65% minerais e 35% orgânicos. Duas alternativas qualitativas sem percentuais; somente a receita principal é quantificada. Sem prova de superioridade. Monitorar drenagem, peso, calor radicular e secagem. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS. ERRATA MACS 1.1 (2026-11-04): duas misturas alternativas sem percentuais; somente a principal totaliza 100%. Materiais escolhidos por adequação horticultural, não por disponibilidade de assets. Revisão corretiva aprovada na execução Chromium 41836197033; alterações posteriores exigem nova validação."
     },
-    errosComuns: "• Substrato compacto.\n• Vaso grande e profundo.\n• Sombra excessiva e estiolamento.\n• Sol forte aquecendo pedra ou vaso.\n• Confundir rupícola com xerófita extrema.\n• Repouso seco exagerado.\n• Pouca ventilação no litoral.\n• Excesso de fertilizante e acúmulo de sais.",
+    errosComuns: [
+    "Usar substrato fino e compacto.",
+    "Plantar em vaso grande e profundo.",
+    "Cultivar em sombra excessiva.",
+    "Deixar pedra ou vaso superaquecer ao sol.",
+    "Confundir hábito rupícola com seca extrema.",
+    "Impor repouso seco exagerado.",
+    "Cultivar em calor abafado e sem ventilação.",
+    "Acumular sais de adubo nas raízes."
+],
     dica: "🏆 Esta Cattleya rupícola cresce em ambientes muito iluminados, mas suas raízes precisam respirar após cada chuva. Use recipiente baixo e drenante, com material mineral ou mistura bastante aberta, sem enterrar a base dos pseudobulbos. Ofereça luz intensa com adaptação gradual, evitando que o vaso superaqueça sob sol forte. Durante o crescimento, regue bem; quando a atividade diminuir, espace as regas conforme a secagem. O objetivo é reproduzir ciclos de molhamento e aeração, não manter a planta permanentemente seca.",
     revisaoCientificaIAR: {
         "nome": "Cattleya caulescens",
