@@ -74,7 +74,16 @@ export const dryadellaLiliputiana = {
         alerta: "Evitar noites quentes e abafadas, esfagno compactado ou encharcado, secagem por vários dias e divisão da touceira. Água em excesso não compensa temperatura elevada.",
         notaEvidencia: "MACS 1.1: POWO/Kew aceita Dryadella lilliputiana; revisão taxonômica brasileira (Rodriguésia, 2024) documenta hábito epífito, sem testar substratos. Orquidário Matsuoka recomenda montagem em toco, sem proporções. O blog Orquídeas Encanto e Paixão publica para esta espécie vaso raso com partes iguais de pinus, carvão e esfagno: https://orquideasjph.wordpress.com/2018/12/09/dryadella-liliputiana/ . Proporção volumétrica 1:1:1 (33,3/33,3/33,4 após arredondamento) é orientação específica de blog de cultivo, NÃO homologação experimental. Uma fonte comercial brasileira da espécie (Orquidário Matsuoka) e uma fonte brasileira de orientação de cultivo (blog Orquídeas Encanto e Paixão) identificadas; somente o blog apresenta receita em partes iguais. Não equivale a duas receitas de produtores nem atinge a meta de 25. Alternativas qualitativas sem percentuais publicados; estrelas provisórias."
     },
-    errosComuns: "Calor noturno acumulado; esfagno permanentemente encharcado; deixar secar por vários dias; água muito salina; adubação forte; pouca circulação de ar; dividir a touceira; vaso grande; exposição ao sol; tentar compensar calor com excesso de água no substrato.",
+    errosComuns: [
+    "Manter a planta em noites quentes e abafadas.",
+    "Deixar esfagno permanentemente encharcado.",
+    "Deixar raízes secarem por vários dias.",
+    "Usar água muito salina.",
+    "Aplicar adubação concentrada.",
+    "Cultivar sem circulação de ar.",
+    "Dividir touceiras diminutas.",
+    "Expor o suporte ao sol direto."
+],
     dica: "🏆 O porte diminuto desta espécie exige atenção especial à temperatura do suporte e à secagem das raízes. Prefira uma montagem pequena, com película fina de esfagno solto, em local sombreado, fresco e ventilado. Em dias quentes, verifique a umidade com frequência, mas não transforme o suporte em uma massa permanentemente encharcada. Evite sol direto e adubação concentrada, que podem danificar raízes delicadas. Manter condições estáveis e impedir o superaquecimento costuma ser mais importante que qualquer estímulo artificial à floração.",
     revisaoCientificaIAR: {
         "nome": "Dryadella lilliputiana",
