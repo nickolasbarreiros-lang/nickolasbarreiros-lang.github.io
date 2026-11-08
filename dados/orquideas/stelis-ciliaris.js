@@ -30,14 +30,15 @@ export const stelisCiliaris = {
   "suporte": "A prioridade é preservar raízes finas em ambiente úmido, porém continuamente ventilado. Uma placa com pequena reserva localizada de umidade exige observação frequente para evitar secagem completa; o vaso pequeno e drenante oferece maior estabilidade hídrica, mas não pode ficar encharcado. O cesto favorece circulação lateral quando o ambiente tem umidade elevada. A montagem em árvore viva depende de microclima sombreado e proteção contra vento ressecante. Escolha pelo equilíbrio entre umidade das raízes e ausência de abafamento.",
   "substrato": ["Casca de pinus pequena + esfagno de fibra longa solto + carvão vegetal pequeno","Casca de arroz carbonizada + esfagno de fibra longa solto + carvão vegetal pequeno"],
   "errosComuns": [
-    "Deixar as raízes finas secarem por tempo prolongado.",
-    "Manter esfagno permanentemente encharcado e sem ventilação.",
-    "Colocar a planta em sol direto forte.",
-    "Usar um vaso grande demais para o tamanho das raízes.",
-    "Aplicar fertilizante concentrado sobre raízes sensíveis.",
-    "Confundir alta umidade do ar com necessidade de substrato sempre molhado.",
-    "Reduzir drasticamente as regas para tentar forçar a floração."
-  ],
+    "Deixar raízes finas secarem por muitos dias.",
+    "Manter esfagno saturado e sem ventilação.",
+    "Expor folhas ao sol direto forte.",
+    "Usar vaso grande com secagem lenta.",
+    "Aplicar fertilizante concentrado.",
+    "Confundir umidade do ar com encharcamento.",
+    "Reduzir drasticamente regas para induzir flores.",
+    "Deixar água parada na base dos caules."
+],
   "dica": "🏆 Nesta Stelis de raízes finas, mantenha hidratação frequente sem deixar o suporte permanentemente saturado. Prefira placa rugosa ou recipiente pequeno e ventilado, com camada mínima de material retentor. Regue pela manhã e proteja a planta de vento quente que desidrata rapidamente as folhas. Se brotos perderem firmeza, verifique primeiro as raízes e a secagem antes de aumentar a adubação. Preserve a touceira e evite manipular hastes em formação: suas flores delicadas merecem estabilidade durante o desenvolvimento.",
   "revisaoCientificaIAR": {
     "nome": "Stelis ciliaris",
