@@ -21,7 +21,7 @@ export const bulbophyllumMiniatum = {
     regiao: "África O/C · Uganda · Quênia SW · Angola",
     habitat: "Florestas tropicais úmidas · altitude variável; registros florísticos em torno de 1.400 m.",
     clima: "Quente · úmido · ventilado.",
-    climaFloracao: "A Flora of Tropical East Africa registra a variedade, sob o sinônimo Bulbophyllum distans, em floresta úmida a aproximadamente 1.400 m. Não há evidência suficiente para impor uma estação fixa de floração no Brasil ou repouso seco rigoroso. Observar o ciclo individual de crescimento e emissão de hastes.",
+    climaFloracao: "Prefere ambiente úmido, luz filtrada e boa circulação de ar. Pode florescer em clima quente ou intermediário; no litoral, evite abafamento, e na montanha, proteja do frio intenso. Mantenha as raízes ativas e permita que os novos pseudobulbos amadureçam. Não precisa de repouso seco rigoroso nem de uma queda brusca de temperatura para produzir flores.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
