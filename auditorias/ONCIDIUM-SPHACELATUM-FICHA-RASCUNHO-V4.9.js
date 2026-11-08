@@ -56,7 +56,7 @@ export const oncidiumSphacelatum = {
   },
   "floracao": "Hastes arqueadas e ramificadas, que podem atingir aproximadamente 1,8 m, sustentam numerosas flores amarelas com manchas castanhas, de cerca de 2,5 cm. O perfume costuma ser discreto. Há registros brasileiros em outubro e novembro; outras épocas são possíveis. As flores se distribuem pelos ramos da haste, com abertura progressiva; em relatos históricos, a apresentação floral pode durar cerca de três a quatro semanas, variando conforme o cultivo.",
   "adubacao": "Adube moderadamente durante o desenvolvimento dos novos brotos e pseudobulbos, com fertilizante apropriado para orquídeas em dose reduzida. Diminua quando o crescimento desacelerar e evite acúmulo de sais.",
-  "rega": "Regue abundantemente durante o desenvolvimento de brotos e raízes, deixando a mistura drenar e perder boa parte da umidade antes de repetir. Quando o crescimento desacelerar, aumente os intervalos sem impor repouso seco prolongado; em períodos quentes, confira o centro do vaso, não apenas a superfície. Não deixe água acumulada no recipiente.",
+  "rega": "Regue abundantemente durante o desenvolvimento de brotos e raízes, deixando a mistura drenar e perder boa parte da umidade antes de repetir. Quando o crescimento desacelerar, aumente os intervalos: a espécie tolera períodos mais secos nessa fase. Durante o crescimento ativo, confira a umidade no centro do vaso antes de regar novamente. Não deixe água acumulada no recipiente.",
   "suporte": [
     "Vaso de barro",
     "Vaso plástico vasado",
@@ -310,10 +310,10 @@ export const oncidiumSphacelatum = {
   "adaptacaoRegional": {
     "tituloMontanha": "Regiões de montanha e noites frescas",
     "litoral": {
-      "texto": "Tolera calor quando há ventilação constante e umidade disponível sem encharcamento; proteja as folhas do sol mais forte."
+      "texto": "Adapta-se ao calor com ventilação constante e umidade ambiente elevada. Regue conforme a secagem das raízes e proteja as folhas do sol mais forte."
     },
     "montanha": {
-      "texto": "Mantenha luz abundante e proteja de frio intenso e umidade prolongada no substrato durante períodos frios."
+      "texto": "Aproveite a luminosidade abundante e as noites mais frescas, protegendo de frio intenso. No período de crescimento lento, reduza as regas e evite substrato encharcado."
     }
   },
   "dica": "Ao perceber novos brotos, observe também o surgimento das pontas das raízes: esse é o momento mais favorável para trocar o recipiente ou dividir a touceira. Escolha um suporte firme, com espaço para os próximos pseudobulbos, pois as hastes podem ficar muito longas e pesadas. Evite divisões pequenas e não deixe a planta balançar após o replante. Durante o crescimento, regue bem, mas confira a secagem interna antes de repetir a rega.",
