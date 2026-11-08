@@ -25,7 +25,7 @@ export const catasetumMattosianum = {
     regiao: "Bahia ao Espírito Santo",
     habitat: "Epífita de bioma tropical úmido.",
     clima: "Quente · verão úmido e repouso sazonal.",
-    climaFloracao: "A floração está associada ao período de crescimento e ocorre principalmente no verão. O que determina a qualidade da floração é a formação de um pseudobulbo forte, sustentada por água abundante, nutrição moderada, luz alta e raízes saudáveis durante a fase ativa. A dormência não deve ser antecipada artificialmente. A influência da luz sobre o sexo das flores existe no gênero, mas não é absoluta: genética, reservas e microclima também participam.",
+    climaFloracao: "Prefere clima quente, boa luminosidade e um verão úmido, condições favoráveis no litoral. Na montanha, precisa de proteção contra frio durante o crescimento. A floração depende de pseudobulbos fortes, formados com regas e adubação adequadas. Quando as folhas amarelecerem e caírem, reduza gradualmente a água para acompanhar a dormência. Não antecipe esse repouso enquanto a planta ainda estiver crescendo.",
     iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
