@@ -24,7 +24,7 @@ export const bifrenariaHarrisoniae = {
     regiao: "Regiões Sudeste e Sul, associada à Mata Atlântica, serras costeiras e ambientes rochosos.",
     habitat: "Epífita ou rupícola de florestas úmidas, encostas rochosas e paredões claros e ventilados. Ocorre em ampla variação altitudinal, com registros típicos em cotas médias e também populações rupícolas mais elevadas.",
     clima: "Quente a intermediário durante o crescimento, com boa ventilação; a exigência de noites mais frescas para indução floral não foi demonstrada especificamente nesta matriz.",
-    climaFloracao: "A floração depende de pseudobulbos completamente maduros, alta luminosidade filtrada, raízes bem ventiladas e leve redução da frequência de rega após o crescimento. Não necessita de repouso seco rigoroso; a planta deve permanecer hidratada sem substrato constantemente molhado.",
+    climaFloracao: "Ocorre em ambientes epífitos e rupícolas, inclusive entre aproximadamente 200 e 700 m; a altitude, isoladamente, não impede a floração no litoral. Litoral quente: favorável com muita claridade e ventilação. Montanha: favorável se protegida de frio intenso. Pseudobulbos maduros e um período de inverno mais seco podem favorecer a indução floral; reduza as regas após o crescimento e retome-as com os novos brotos, sem desidratar os pseudobulbos.",
     iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
