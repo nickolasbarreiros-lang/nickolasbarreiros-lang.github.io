@@ -74,7 +74,16 @@ export const trichocentrumFuscum = {
         alerta: "Evitar esfagno no centro das raízes, vaso grande, sombra excessiva, água acumulada na base das folhas e regar antes da secagem.",
         notaEvidencia: "MACS 1.1 — revisão documental: Trichocentrum fuscum, epífita compacta de folhas carnosas, baixa retenção e secagem rápida. Cultivo principal em placa/tronco sem substrato; suportes placa/tronco 5 estrelas, cachepô madeira 4, barro 3, não homologados. Receita visual alternativa para vaso: 34% pinus grosso + 33% brita fina + 33% carvão grosso = 100%; receitaTexto e itens concordam. A receita visual é alternativa específica para vaso; as duas misturas qualitativas são distintas e não equivalem à fórmula percentual. Avaliar peso e granulometria da brita fina e retenção do pinus em vaso pequeno, com secagem rápida. Orquídeas Encanto e Paixão (2020) recomenda para esta espécie partes iguais de pinus, carvão e brita, com montagem em tronco como preferência; 34/33/33% é arredondamento matemático dessa receita, não ensaio. Manual ESALQ/USP oferece orientação geral para o gênero Trichocentrum montado. POWO aceita Trichocentrum fuscum Lindl. (1837), com T. pinelii como sinônimo heterotípico e ocorrência nas cinco macrorregiões brasileiras. Estudo florístico do Xingu descreve uma folha achatada, pseudobulbos discretos e 1–3 flores por haste, divergindo de interpretação excessivamente suculenta. Uma orientação brasileira específica quantitativa identificada; meta de 25 produtores não atingida. Percentuais derivados de recomendação horticultural, não experimentalmente HOMOLOGADOS."
     },
-    "errosComuns": "Sombra excessiva; vaso grande; regar novamente antes da secagem; substrato compacto; água acumulada na base das folhas; pouca ventilação; adubo forte; manter molhado no inverno; excesso de esfagno; replantar fora da emissão de raízes.",
+    "errosComuns": [
+    "Cultivar em sombra excessiva.",
+    "Usar vaso grande com secagem lenta.",
+    "Regar antes de o substrato perder umidade.",
+    "Usar substrato fino e compactado.",
+    "Deixar água na base das folhas.",
+    "Cultivar em ambiente sem ventilação.",
+    "Aplicar fertilizante concentrado.",
+    "Replantar fora da emissão de raízes novas."
+],
     "dica": "🏆 As folhas firmes desta Trichocentrum armazenam água, por isso o cultivo deve alternar hidratação completa e secagem adequada das raízes. Prefira montagem em madeira ou recipiente muito vazado, com luz filtrada abundante e ventilação constante. Regue bem durante o crescimento, mas não mantenha a base dos brotos molhada por longos períodos. Em dias quentes, ajuste a frequência conforme a secagem real, sem impor seca excessiva. Preserve raízes aderidas ao suporte e evite replantes fora da brotação.",
     revisaoCientificaIAR: {
         "nome": "Trichocentrum fuscum",
