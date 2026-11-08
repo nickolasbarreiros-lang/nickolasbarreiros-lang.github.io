@@ -73,7 +73,16 @@ export const dryadellaAviceps = {
         alerta: "Evitar divisão desnecessária, vaso grande, secagem total das raízes, sol direto e esfagno envelhecido ou compactado. Não usar encharcamento como método de resfriamento.",
         notaEvidencia: "MACS 1.1: POWO/Kew aceita Dryadella aviceps como epífita; revisão taxonômica brasileira de 2024 confirma ampla sinonímia e ocorrência em florestas secas/abertas e restingas arbóreas, sem oferecer ensaio de substrato. Orquidário Oriental recomenda especificamente amarrar em árvores ou placas, com umidade elevada e pouca luz, mas não informa receita de vaso. AOS recomenda atenção à desidratação de orquídeas montadas em calor; orientação geral, não ensaio desta espécie. A mistura de vaso 40% chips de coco lavados + 35% pinus fino + 25% perlita calibrada é hipótese horticultural NÃO homologada, sem validação quantitativa específica nem consenso de 25 produtores brasileiros. As duas alternativas não possuem proporções publicadas. A soma de 100% na receita visual é apenas consistência aritmética, não homologação científica. Estrelas provisórias."
     },
-    errosComuns: "Dividir touceiras pequenas; usar vaso grande; secar totalmente as raízes; manter esfagno velho e compacto; excesso de sais; sol direto; baixa ventilação; tratar a espécie como obrigatoriamente fria; encharcar durante noites quentes; adubação concentrada.",
+    errosComuns: [
+    "Dividir touceiras ainda pequenas.",
+    "Usar vaso grande com secagem lenta.",
+    "Deixar raízes finas secarem completamente.",
+    "Manter esfagno velho e compactado.",
+    "Acumular sais de fertilizante.",
+    "Expor a miniatura ao sol direto.",
+    "Cultivar sem ventilação.",
+    "Cobrir com substrato a base das flores."
+],
     dica: "🏆 Nesta pequena Dryadella, as flores surgem próximas à base da touceira, por isso evite cobrir o colo das folhas com esfagno ou substrato. Mantenha as raízes finas hidratadas em recipiente pequeno e arejado, com sombra clara e circulação suave de ar. Em clima quente, procure um local protegido do aquecimento excessivo, sem tentar resfriar a planta encharcando o vaso. Observe raízes novas e folhas firmes para ajustar as regas. A estabilidade do microambiente é mais importante que adubação intensa.",
     revisaoCientificaIAR: {
         "nome": "Dryadella aviceps",
