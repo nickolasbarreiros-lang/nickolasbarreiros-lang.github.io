@@ -107,3 +107,11 @@ A coleção Smithsonian Gardens lista registros identificados como **Oncidium sp
 **Atenção:** metadados de objeto CC0 não são por si só URL de arquivo de imagem. É necessário recuperar e verificar a mídia associada, garantindo que a licença cubra aquela imagem, antes de inserir em `fotos`. Não inventar URLs nem reaproveitar fotos do híbrido Summer Wind. As fotos de Rhododendrites e David J. Stang no Wikimedia Commons são CC BY-SA 4.0 e exigem crédito/licença: https://commons.wikimedia.org/wiki/File:Oncidium_sphacelatum_(42110).jpg .
 
 **Decisão de implementação:** priorizar imagens Smithsonian efetivamente disponibilizadas em CC0, identificadas e acessíveis; se não houver URL de mídia comprovada, manter a galeria vazia e o rascunho não publicado. Não modificar o renderizador V4.9 para introduzir créditos sem autorização.
+
+## Verificação específica Smithsonian — 08/11/2026
+
+**Registros de espécie conferidos:** Smithsonian Gardens `ofeo-sg_2008-1051A` (https://gardens.si.edu/collections/explore/object/ofeo-sg_2008-1051A), coleção Smithsonian Gardens `ofeo-sg_2009-3502A`, `ofeo-sg_2009-3530A` (https://collections.si.edu/search/results.htm?fq=common_name%3A%22The+Burnt+Spot+Oncidium%22&q=%22South+America%22), e Smithsonian NMNH `nmnheducation_11040918` (https://www.si.edu/object/popcorn-orchid:nmnheducation_11040918). Todos identificados textualmente como *Oncidium sphacelatum* e com indicação CC0 no registro. O registro NMNH exibe a declaração **mídia em domínio público**.
+
+**Limite técnico:** buscas e páginas recuperadas não expuseram um URL direto estável e verificável do arquivo de imagem associado ao registro. Uma tentativa de abrir o objeto Smithsonian Gardens esgotou o tempo de resposta. Portanto **nenhuma URL de imagem foi validada**, e não se deve incluir em `fotos` um link inventado, página HTML ou foto de outro táxon.
+
+**Próxima operação técnica necessária:** inspecionar a seção `Image` / `View manifest` / IIIF do registro de objeto (não do resultado de busca), extrair o endereço da mídia, verificar o carregamento e conferir que a declaração de domínio público cobre a imagem. Alternativa: usar imagem CC BY-SA de Wikimedia somente após aprovação de apresentação de crédito no site, preservando o layout.
