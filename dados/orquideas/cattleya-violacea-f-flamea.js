@@ -26,7 +26,7 @@ export const cattleyaViolaceaFFlamea = {
     "regiao": "Amazônia e norte da América do Sul",
     "habitat": "Florestas tropicais úmidas próximas a rios e lagos · do nível do mar a cerca de 450 m.",
     "clima": "Quente e úmido · noites quentes.",
-    "climaFloracao": "A floração depende de crescimento contínuo, raízes ativas, noites quentes, umidade atmosférica estável e pseudobulbos plenamente maduros. Não é necessário induzir por frio ou seca severa. Ao contrário, noites frias e desidratação prolongada paralisam raízes e brotos. Uma leve redução de água pode ocorrer apenas quando a evaporação diminui, sem permitir que o sistema radicular seque por vários dias. Em regiões quentes, a ventilação evita que a combinação de calor e umidade resulte em podridão.",
+    "climaFloracao": "Prefere clima quente e úmido, com noites também quentes, sendo muito adequada ao litoral. Na montanha, pode ter dificuldade para florescer se as temperaturas caírem demais. Mantenha boa claridade, ventilação e umidade regular enquanto brotos e raízes crescem. A floração depende de pseudobulbos maduros e vigorosos. Não provoque frio nem seca prolongada: essas condições podem interromper o crescimento.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
