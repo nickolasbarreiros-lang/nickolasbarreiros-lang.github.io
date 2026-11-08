@@ -71,7 +71,16 @@ export const neobenthamiaGracilis = {
         alerta: "Usar tutor e vaso estável. Evitar solo argiloso, encharcamento contínuo, sombra excessiva, matéria orgânica fresca junto às raízes e corte de caules verdes.",
         notaEvidencia: "MACS 1.1 — revisão documental: a ficha usa o nome aceito Polystachya neobenthamia (sin. Neobenthamia gracilis), espécie terrestre/rupícola de caules altos, requerendo estabilidade e drenagem. Vaso de barro 5 estrelas, plástico 4, cachepô e plástico vasado 3: hipótese horticultural sem comparação controlada. Receita visual 35% macadâmia média + 25% casca de arroz carbonizada + 20% perlita grossa + 20% fibra de coco grossa = 100%. Receita principal textual e visual concordam (35% macadâmia, 25% casca de arroz carbonizada, 20% perlita, 20% fibra de coco). As duas alternativas são qualitativas e não contêm macadâmia; não há equivalência quantitativa entre elas. POWO aceita Polystachya neobenthamia, com Neobenthamia gracilis como sinônimo homotípico; Flora of Tropical East Africa descreve faces rochosas expostas e saliências musgosas entre 450–1.800 m. IOSPE recomenda mistura à base de cascas em vaso, mas não a composição cadastrada. Sem evidência específica de produtores brasileiros para estes percentuais, nem comparação de suportes; meta de até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    "errosComuns": "❌ Cultivar em sombra excessiva, formando caules fracos e pouco floríferos.\n❌ Usar solo argiloso ou recipiente sem drenagem.\n❌ Manter o substrato permanentemente encharcado.\n❌ Impor seca forte depois da maturação.\n❌ Cortar caules verdes, que ainda armazenam reservas e podem emitir brotações.\n❌ Deixar a planta tombar por falta de tutor ou vaso pesado.\n❌ Dividir touceiras pequenas demais.\n❌ Aplicar matéria orgânica fresca junto às raízes.",
+    "errosComuns": [
+    "Cultivar em sombra excessiva.",
+    "Usar solo argiloso ou recipiente sem drenagem.",
+    "Manter substrato permanentemente encharcado.",
+    "Impor seca severa após a maturação.",
+    "Cortar caules verdes com reservas.",
+    "Deixar hastes altas sem sustentação.",
+    "Dividir touceiras em partes pequenas.",
+    "Aplicar matéria orgânica fresca sobre as raízes."
+],
     "dica": "🏆 Esta orquídea de caules altos floresce melhor quando forma uma touceira madura e bem iluminada. Reserve espaço vertical e use recipiente firme para evitar tombamentos. Ofereça luz intensa com adaptação gradual ao sol suave, regas regulares durante o crescimento e ventilação constante. Evite dividir caules saudáveis apenas para controlar o tamanho, pois eles contribuem com reservas. Em ambientes muito quentes, proteja as raízes do superaquecimento e observe a resposta da planta antes de intensificar a exposição solar.",
     revisaoCientificaIAR: {
         "nome": "Polystachya neobenthamia",
