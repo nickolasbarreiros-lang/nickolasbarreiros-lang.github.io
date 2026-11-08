@@ -1,3 +1,4 @@
+import { epidendrumSecundum } from "./epidendrum-secundum.js";
 import { dinemaPolybulbon } from "./dinema-polybulbon.js";
 import { prosthecheaFragrans } from "./prosthechea-fragrans.js";
 import { stelisCiliaris } from "./stelis-ciliaris.js";
@@ -302,4 +303,5 @@ bulbophyllumSyciobulbon,
     pholidotaChinensis,
     pinaliaElata,
     stelisCfAprica,
+    epidendrumSecundum,
 ];
