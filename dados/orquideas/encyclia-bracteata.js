@@ -74,7 +74,16 @@ export const encycliaBracteata = {
         alerta: "Não usar vaso grande, enterrar o rizoma nem manter raízes constantemente molhadas. Evitar sombra excessiva e repouso completamente seco por meses.",
         notaEvidencia: "MACS 1.1 — revisão documental: Encyclia bracteata, miniatura epífita de baixa altitude, raízes ventiladas e secagem parcial entre regas. Suportes vaso barro e cachepô madeira 5 estrelas, placa/tronco e plástico vasado 4; avaliações horticulturais sem comparação específica. Receita visual 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% macadâmia, 30% pinus, 20% perlita, 15% carvão); as duas alternativas qualitativas são independentes. Granulometria média para recipiente de miniatura deve ser verificada em relação ao porte das raízes. POWO aceita Encyclia bracteata, epífita nativa do Nordeste e Sudeste do Brasil, com Epidendrum bracteatum, E. pabstii e E. pusillum como sinônimos; os nomes Epidendrum bracteatum e E. pusillum são homônimos ilegítimos, não basônimos válidos. IOSPE documenta pseudobulbos unifoliados, flores de 2,5 cm, 2–3 por haste, podendo haver mais de uma haste por pseudobulbo. Diário do Orquidófilo (2017) descreve cultivo bem-sucedido sobre toco de madeira, sem mistura volumétrica, e perda anterior por encharcamento; relato individual, não comparação experimental. Um relato brasileiro qualitativo específico e zero receitas quantitativas de produtores confirmados nesta passagem; meta até 25 não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    errosComuns: "Sombra excessiva; vaso grande; substrato fino; raízes constantemente molhadas; enterrar o rizoma; replantar fora da emissão de raízes novas; excesso de fertilizante; interpretar baixa altitude como tolerância a abafamento; impor repouso totalmente seco por meses.",
+    errosComuns: [
+    "Cultivar em sombra excessiva.",
+    "Usar vaso grande com secagem lenta.",
+    "Manter substrato fino e compactado.",
+    "Deixar raízes constantemente molhadas.",
+    "Enterrar o rizoma.",
+    "Replantar fora da emissão de raízes novas.",
+    "Exagerar na adubação.",
+    "Impor repouso totalmente seco por meses."
+],
     dica: "🏆 Por ser uma Encyclia compacta, esta espécie responde melhor a recipiente pequeno e muito ventilado do que a vaso grande com substrato úmido por vários dias. Ofereça luminosidade intensa filtrada, com adaptação ao sol suave, e regue generosamente durante o crescimento, permitindo secagem entre as irrigações. Mantenha o rizoma superficial e preserve os pseudobulbos maduros: as inflorescências surgem no ápice desses crescimentos, e um mesmo pseudobulbo pode produzir mais de uma haste. Evite divisões pequenas, que reduzem as reservas.",
     revisaoCientificaIAR: {
         "nome": "Encyclia bracteata",
