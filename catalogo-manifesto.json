@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "catalogo": "Orquidário Digital",
-  "quantidade_esperada": 149,
+  "quantidade_esperada": 151,
   "arquivos_esperados": [
     "acianthera-auriculata.js",
     "acianthera-aveniformis.js",
@@ -32,6 +32,7 @@
     "catasetum-mattosianum.js",
     "cattleya-a-brazilian-dream.js",
     "cattleya-aclandiae-tipo.js",
+    "cattleya-amethystoglossa-var-aurea.js",
     "cattleya-chocolate-drop.js",
     "cattleya-guttata-var-coerulea.js",
     "cattleya-intermedia.js",
@@ -74,7 +75,8 @@
     "encyclia-oncidioides.js",
     "epicattleya-rene-marques.js",
     "epidendrum-centropetalum.js",
-    "epidendrum-hokulea-super-red.js",
+    "epidendrum-fulgens.js",
+    "epidendrum-secundum.js",
     "eria-hyacinthoides.js",
     "gomesa-cornigera.js",
     "gomesa-recurva.js",
@@ -120,7 +122,7 @@
     "octomeria-micrantha.js",
     "oncidium-pubes.js",
     "oncidium-pumilum.js",
-    "oncidium-summer-wind.js",
+    "oncidium-sphacelatum.js",
     "oncidium-twinkle.js",
     "ornithocephalus-myrticola.js",
     "ornithophora-radicans.js",
@@ -153,5 +155,9 @@
     "zygolum-louisendorf.js",
     "zygopetalum-maculatum.js"
   ],
-  "observacao": "Atualizado pelo verificador; faça commit junto com nova ficha e index.js."
+  "observacao": "O índice define as fichas publicadas. Os arquivos fora do catálogo são preservados no repositório, mas não importados.",
+  "arquivos_fora_catalogo": [
+    "epidendrum-hokulea-super-red.js",
+    "oncidium-summer-wind.js"
+  ]
 }
