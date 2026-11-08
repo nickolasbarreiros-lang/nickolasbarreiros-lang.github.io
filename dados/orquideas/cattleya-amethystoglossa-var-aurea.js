@@ -54,7 +54,7 @@ export const cattleyaAmethystoglossaVarAurea = {
     "sombrite": "30–50% como ponto de partida, ajustando ao calor e à aclimatação",
     "solDireto": "Permitido com restrição",
     "horario": "Início da manhã ou final da tarde",
-    "observacoes": "Prefere luz alta, com proteção do sol forte nas horas mais quentes. Introduza gradualmente qualquer exposição direta e observe as folhas.",
+    "observacoes": "Esta cattleya bifoliada precisa de luminosidade intensa para formar pseudobulbos vigorosos e florir bem. Ofereça luz abundante e ventilação constante, com sol direto preferencialmente no início da manhã ou no final da tarde; proteja do sol forte nas horas mais quentes, especialmente em clima quente. Aclimate gradualmente plantas vindas de ambientes sombreados. Folhas muito verde-escuras e crescimento fraco podem indicar falta de luz; amarelecimento acentuado, manchas claras ou áreas ressecadas podem indicar excesso de radiação e aquecimento. Observe também a temperatura das folhas e ajuste o sombreamento conforme a resposta da planta, sem reduzir demais a claridade.",
     "seloLuz": "vermelho"
   },
   "floracao": "Floresce sobretudo de agosto a dezembro, com pico em setembro e outubro; há registros ocasionais em junho. Produz cachos de flores amarelas ou creme, geralmente pintalgadas, com labelo contrastante. As flores costumam durar cerca de duas a três semanas. Pode apresentar perfume, de intensidade variável.",
