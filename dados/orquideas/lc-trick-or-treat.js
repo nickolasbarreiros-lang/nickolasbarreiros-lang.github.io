@@ -67,7 +67,16 @@ export const lcTrickOrTreat = {
         alerta: "Evitar sombra excessiva, vaso grande, rizoma enterrado, substrato compacto e regas sem secagem. Tutorar a haste enquanto cresce e não reorientá-la depois de endurecida.",
         notaEvidencia: "MACS 1.1: Missouri Botanical Garden documenta mistura genérica de 5 partes de casca de abeto média para 1 de carvão horticultural (83,3/16,7) no replante de Cattleyas e outras simpodiais: https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids . AOS recomenda casca média/grossa e meio arejado para Cattleyas adultas: https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet . Estudo brasileiro com Cattlianthe Chocolate Drop utilizou 4 partes pinus para 3 carvão em outro híbrido e investigou adubação, não compara esta receita. Nenhuma proporção experimental específica para Trick or Treat foi identificada. A receita com pinus é uma adaptação de material da referência quantitativa de grupo, NÃO homologada experimentalmente para o grex; alternativas qualitativas sem percentuais inventados. Estrelas não validadas experimentalmente."
     },
-    errosComuns: "Pouca luz; excesso de nitrogênio na maturação; vaso grande; substrato compactado; rizoma enterrado; regas sem secagem; falta de tutoramento; tentar corrigir a posição da haste depois de endurecida; cortar haste ainda verde; replantar sem raízes novas; dividir a touceira com frequência; somar várias fontes de adubo em dose completa.",
+    errosComuns: [
+    "Cultivar com pouca luminosidade.",
+    "Exagerar no nitrogênio após a maturação.",
+    "Usar vaso grande com secagem lenta.",
+    "Manter substrato compacto.",
+    "Enterrar o rizoma.",
+    "Regar sem permitir secagem adequada.",
+    "Deixar hastes altas sem tutoramento.",
+    "Tentar endireitar hastes já endurecidas."
+],
     dica: "🏆 Neste híbrido de hastes altas, instale tutores enquanto os brotos ainda estão flexíveis, antes que os botões ganhem peso. Evite tentar endireitar hastes maduras, pois podem quebrar. Para estimular florações abundantes, ofereça luz intensa filtrada, ventilação e regas regulares durante o crescimento, permitindo boa secagem das raízes. Preserve pseudobulbos antigos saudáveis e evite dividir touceiras pequenas: várias frentes maduras acumulam reservas para sustentar inflorescências mais cheias. Um vaso firme também impede movimentos que prejudicam raízes novas.",
     revisaoCientificaIAR: {
         "nome": "Cattlianthe Trick or Treat",
