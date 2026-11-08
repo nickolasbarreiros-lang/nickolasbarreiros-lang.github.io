@@ -71,7 +71,16 @@ export const maxillariaSubulata = {
         alerta: "Evitar vaso grande, substrato compacto, rizoma enterrado, seca prolongada, divisões pequenas e replante fora da emissão de raízes novas.",
         notaEvidencia: "MACS 1.1: POWO aceita Maxillaria subulata e registra hábito epífito/rupícola; IOSPE e estudos de campo documentam morfologia e habitat. Não foi localizada receita específica publicada ou ensaio para substrato em vaso; Orquidário Aparecida comercializa a espécie, mas não publica receita específica. R1 35% Casca de pinus + 30% Casca de macadâmia + 25% Perlita + 10% Fibra de coco, e alternativas R2/R3, são inferências D NÃO HOMOLOGADAS. Nomes canônicos e quatro assets conferidos; estrelas D preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-039-MAXILLARIA-SUBULATA.md."
     },
-    "errosComuns": "❌ Usar vaso grande, fundo ou pouco perfurado.\n❌ Manter substrato compactado ou encharcado.\n❌ Enterrar rizoma e base dos pseudobulbos.\n❌ Dividir a touceira em porções pequenas.\n❌ Cultivar em sombra profunda e produzir folhas fracas.\n❌ Impor seca intensa por longo período.\n❌ Adubar em concentração alta ou sem lavagem mensal.\n❌ Replantar fora da emissão de raízes novas.",
+    "errosComuns": [
+    "Usar vaso grande ou pouco perfurado.",
+    "Manter substrato compactado e encharcado.",
+    "Enterrar o rizoma e os pseudobulbos.",
+    "Dividir a touceira em partes pequenas.",
+    "Cultivar em sombra profunda.",
+    "Impor seca intensa e prolongada.",
+    "Aplicar adubo concentrado.",
+    "Replantar fora da emissão de raízes novas."
+],
     "dica": "🏆 As folhas estreitas desta Maxillaria não significam que ela deva permanecer seca. Durante o crescimento, mantenha regas regulares, mas escolha recipiente pequeno e bem ventilado para permitir rápida renovação do ar nas raízes. Preserve o rizoma superficial e evite cobrir a base dos pseudobulbos. Replante somente quando surgirem pontas radiculares novas, minimizando danos à touceira. Em dias quentes, ajuste a frequência de água à secagem real, sem deixar o substrato compacto ou permanentemente saturado.",
     revisaoCientificaIAR: {
         "nome": "Maxillaria subulata",
