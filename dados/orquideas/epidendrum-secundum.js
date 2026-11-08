@@ -40,7 +40,7 @@ export const epidendrumSecundum = {
   distribuicaoGeografica:"POWO/Kew delimita a distribuição nativa às Pequenas Antilhas e ao norte da América do Sul; a literatura florística brasileira emprega conceito taxonômico mais amplo.",
   cultivoPremiacao:"Floração ao longo do ano, com pico entre setembro e janeiro; cada flor permanece aberta cerca de sete dias nas populações estudadas por Pansarin e Amaral (2008).",
   confianca:"moderada",
-  fontes:["POWO/Kew","World Flora Online","CNCFlora/JBRJ","Pansarin & Amaral (2008), Plant Biology 10:211–219","Pinheiro & Barros (2007), delimitação de E. secundum e E. denticulatum"]
+  fontes:["POWO/Kew","World Flora Online","CNCFlora/JBRJ","Pansarin & Amaral (2008), Plant Biology 10:211–219","Pinheiro & Barros (2007), delimitação de E. secundum e E. denticulatum","Hoehnea (2020), Epidendrum no Parque Nacional da Chapada dos Veadeiros: E. secundum com flores/frutos sobretudo de novembro a julho, além de registros em outros meses; sazonalidade local não equivale a regra nacional","American Orchid Society, Reedstem Epidendrum Culture: luz elevada, mistura aberta, rega ajustada ao clima; orientação para grupo, não ensaio específico da espécie"]
  },
  indiceDificuldadeCultivo:{versao:"IDC 3.2 — selo por facilidade",escala:"dificuldade",indice:22,classificacao:"Fácil",cultivoEstrelas:5,criterios:{
  temperatura:{notaDificuldade:1,peso:15},rega:{notaDificuldade:1,peso:15},umidade:{notaDificuldade:1,peso:10},ventilacao:{notaDificuldade:1,peso:10},luminosidade:{notaDificuldade:2,peso:10},raizesSubstrato:{notaDificuldade:1,peso:10},sazonalidade:{notaDificuldade:1,peso:10},floracao:{notaDificuldade:1,peso:20}}},
