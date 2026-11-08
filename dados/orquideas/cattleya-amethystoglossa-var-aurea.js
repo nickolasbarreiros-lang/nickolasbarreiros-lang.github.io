@@ -39,14 +39,7 @@ export const cattleyaAmethystoglossaVarAurea = {
     "agua": 3,
     "raridade": 4
   },
-  "mesesFloracao": [
-    6,
-    8,
-    9,
-    10,
-    11,
-    12
-  ],
+  "mesesFloracao": [6,8,9,10,11],
   "mesesFloracaoIndicativos": true,
   "clima": "Quente a intermediário, com ventilação constante e raízes arejadas.",
   "climaFloracao": "Espécie brasileira de ambientes tropicais luminosos, geralmente de baixas a médias altitudes, que floresce melhor com pseudobulbos maduros, luz intensa filtrada e raízes bem ventiladas. A floração costuma ocorrer de agosto a dezembro, com destaque para setembro e outubro, mas varia conforme a linhagem. Noites um pouco mais frescas e a redução natural das regas após a maturação podem favorecer o ciclo; não há base para exigir quebra térmica artificial ou seca severa. Pouca luz e excesso de umidade prejudicam a formação das flores.",
@@ -57,7 +50,7 @@ export const cattleyaAmethystoglossaVarAurea = {
     "observacoes": "Esta cattleya bifoliada precisa de luminosidade intensa para formar pseudobulbos vigorosos e florir bem. Ofereça luz abundante e ventilação constante, com sol direto preferencialmente no início da manhã ou no final da tarde; proteja do sol forte nas horas mais quentes, especialmente em clima quente. Aclimate gradualmente plantas vindas de ambientes sombreados. Folhas muito verde-escuras e crescimento fraco podem indicar falta de luz; amarelecimento acentuado, manchas claras ou áreas ressecadas podem indicar excesso de radiação e aquecimento. Observe também a temperatura das folhas e ajuste o sombreamento conforme a resposta da planta, sem reduzir demais a claridade.",
     "seloLuz": "vermelho"
   },
-  "floracao": "Floresce sobretudo de agosto a dezembro, com pico em setembro e outubro; há registros ocasionais em junho. Produz cachos de flores amarelas ou creme, geralmente pintalgadas, com labelo contrastante. As flores costumam durar cerca de duas a três semanas. Pode apresentar perfume, de intensidade variável.",
+  "floracao": "Floresce principalmente de agosto a novembro, com maior frequência entre setembro e outubro; há registros de junho em exemplares cultivados e populações específicas. A forma aurea apresenta flores amarelas ou creme, por vezes pintalgadas, reunidas em inflorescência terminal multiflora. As flores da espécie são perfumadas e costumam durar em torno de 15 dias, embora a duração varie com a linhagem e o ambiente.",
   "adubacao": "🌿 Orgânica: bokashi em pequena quantidade, em porta-adubo ou na borda do vaso, afastado das raízes novas e dos pseudobulbos.\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose do fabricante a cada 10–15 dias enquanto raízes e brotos estiverem crescendo.\n🧪 Liberação lenta: opcional, em dose baixa e longe dos brotos; diminua quando os pseudobulbos amadurecerem e a atividade das raízes cair.\n🚿 Lavagem de sais: irrigue periodicamente com água de boa qualidade até haver escoamento, evitando acúmulo de fertilizante no substrato.",
   "rega": "💧 Brotação e raízes novas: regue abundantemente e espere a mistura perder boa parte da umidade antes de repetir. Observe a secagem no centro do vaso, não apenas na superfície.\n🌤️ Calor: com raízes ativas, aumente a frequência conforme a secagem, mantendo boa ventilação.\n🌙 Maturação e frio: reduza gradualmente as regas quando os pseudobulbos amadurecerem e o crescimento desacelerar, sem impor seca extrema ou deixar os pseudobulbos murcharem.",
   "suporte": [
