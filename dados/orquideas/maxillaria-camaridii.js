@@ -75,7 +75,16 @@ export const maxillariaCamaridii = {
         alerta: "Evitar substrato fino, encharcamento prolongado, sombra profunda, sol forte repentino e repouso seco forçado. Manter o rizoma exposto e espaço lateral para novas brotações.",
         notaEvidencia: "MACS 1.1 — revisão documental: nome horticultural Maxillaria camaridii, tratado na revisão da ficha como sinônimo de Maxillaria lutescens. POWO/Kew (2026) confirma Maxillaria lutescens como nome aceito e M. camaridii como sinônimo heterotípico; distribuição inclui América Central, Trinidad e América do Sul tropical. Orientações hortícolas gerais de sombra, umidade e ventilação não validam esta mistura quantitativa. Receita visual: 35% pinus grosso + 25% carvão + 25% perlita + 15% chips de coco grossos lavados = 100%. A receita principal textual e a composição visual apresentam os mesmos quatro materiais e percentuais; macadâmia e fibra de coco pertencem apenas à primeira alternativa qualitativa. A escolha de cachepô/placa para rizoma alongado é inferência horticultural. Percentuais e estrelas NÃO HOMOLOGADOS; meta de até 25 produtores com recomendação específica não atingida. Receita principal e índices mantidos, sem homologação experimental específica; duas alternativas qualitativas preservadas."
     },
-    "errosComuns": "❌ Usar substrato fino e manter as raízes molhadas por longos períodos.\n❌ Confundir alta umidade ambiental com necessidade de encharcamento constante.\n❌ Cultivar em sombra profunda, reduzindo vigor e floração.\n❌ Expor abruptamente ao sol forte do litoral.\n❌ Forçar repouso seco para induzir floração.\n❌ Confinar o rizoma alongado em vaso pequeno e profundo.\n❌ Dividir a planta sem preservar vários pseudobulbos e crescimento ativo.",
+    "errosComuns": [
+    "Usar substrato fino que retém água demais.",
+    "Confundir umidade elevada com encharcamento.",
+    "Cultivar em sombra profunda.",
+    "Expor abruptamente ao sol forte.",
+    "Forçar repouso seco para induzir flores.",
+    "Confinar rizoma alongado em vaso profundo.",
+    "Dividir a planta com poucas reservas.",
+    "Ignorar que as flores podem durar pouco."
+],
     "dica": "🏆 Nesta Maxillaria de rizoma alongado, deixe espaço para os pseudobulbos avançarem sem enterrar o rizoma. Cesto largo ou montagem ventilada facilita o crescimento e permite regas frequentes com rápida oxigenação das raízes. Em clima quente, ofereça sombra clara e circulação de ar, evitando sol forte sobre o suporte. Ajuste a frequência das regas à secagem real, sem manter material compacto constantemente molhado. Reserve também espaço para as hastes que surgem próximas aos pseudobulbos, evitando danos durante a floração.",
     revisaoCientificaIAR: {
         "nome": "Maxillaria camaridii Rchb.f.",
