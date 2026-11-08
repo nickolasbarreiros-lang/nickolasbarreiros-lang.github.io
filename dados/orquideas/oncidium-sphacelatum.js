@@ -170,12 +170,15 @@ export const oncidiumSphacelatum = {
     "alerta": "Evite encharcamento prolongado, especialmente no centro de recipientes grandes."
   },
   "errosComuns": [
-    "Expor a planta ao sol forte sem aclimatação",
-    "Deixar o centro do vaso constantemente encharcado",
-    "Cultivar em local abafado, sem circulação de ar",
-    "Usar recipiente instável para touceiras grandes",
-    "Replantar fora da fase de emissão de raízes novas"
-  ],
+    "Expor ao sol forte sem aclimatação.",
+    "Manter o centro do vaso encharcado.",
+    "Cultivar em ambiente abafado.",
+    "Usar vaso instável para touceira grande.",
+    "Replantar fora da emissão de raízes novas.",
+    "Cultivar em sombra profunda e reduzir flores.",
+    "Deixar brotos novos sem água no crescimento.",
+    "Dividir touceiras com poucas reservas."
+],
   "revisaoCientificaIAR": {
     "nome": "Oncidium sphacelatum",
     "statusTaxonomico": "Espécie aceita segundo POWO/Kew.",
