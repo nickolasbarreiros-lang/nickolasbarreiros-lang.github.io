@@ -74,3 +74,19 @@ Manter a galeria nova vazia até viabilizar atribuição adequada, e não reapro
 **Critérios para índices, ainda sem números publicados:** avaliar separadamente temperatura, rega, umidade, ventilação, luminosidade, raízes/substrato, sazonalidade e exigência de floração com pesos 15/15/10/10/10/10/10/20; IAR litoral e montanha devem refletir amplitude térmica, ventilação e disponibilidade de água. Não copiar IDC 36 nem IAR 78/90 de Summer Wind.
 
 **Risco identificado:** AOS traz orientações para o gênero com variação grande entre espécies, inclusive instruções aparentemente conflitantes para umidade/rega em estufa e em casa. Priorizar as orientações específicas de NC State e avaliar o cultivo regional; evitar transformar uma recomendação genérica em regra universal.
+
+## Cálculo preliminar reprodutível dos índices — 08/11/2026
+
+**Importante:** notas são estimativas editoriais, não medidas experimentais; precisam de validação antes de publicar estrelas. A NC State descreve *O. sphacelatum* como espécie de manutenção média, com luz indireta intensa, umidade elevada (>60%), ventilação, rega generosa durante crescimento e repouso mais seco. A AOS alerta para variação entre espécies de *Oncidium*. Fontes: https://plants.ces.ncsu.edu/plants/oncidium-sphacelatum/ ; https://www.aos.org/orchid-care/care-sheets/oncidium-culture-sheet
+
+### IDC 3.2 — dificuldade (0 a 100)
+
+Pesos: temperatura 15%, rega 15%, umidade 10%, ventilação 10%, luminosidade 10%, raízes/substrato 10%, sazonalidade 10%, floração 20% (soma 100%). Notas de exigência 1–5, onde 1 = baixa dificuldade e 5 = muito alta. Notas propostas: temperatura 2; rega 3; umidade 3; ventilação 2; luminosidade 2; raízes/substrato 2; sazonalidade 2; floração 2.
+
+Soma ponderada: 15×2 + 15×3 + 10×3 + 10×2 + 10×2 + 10×2 + 10×2 + 20×2 = **225**. Normalização da escala 1–5: (225 − 100) / 4 = **31/100**; enquadramento IDC 3.2 **26–35 = ★★★★☆** (cultivo relativamente acessível, exigindo atenção à umidade e à rega). **Este índice é preliminar.**
+
+### IAR 2.0 — adaptação regional (0 a 100)
+
+Pesos: habitat natural 30%, temperatura 30%, água/umidade 5%, ventilação 5%, luminosidade 5%, sazonalidade 5%, floração 20% (soma 100%). Notas de compatibilidade 1–5. Litoral quente: todos os sete fatores = 4, soma ponderada = 400; índice = **80/100**, **★★★★☆**. Montanha com noites frescas: habitat 4, temperatura 3, demais fatores 4; soma = 370; índice = **74/100**, **★★★★☆**. A classificação é hipótese de adaptação, não resultado de ensaio regional.
+
+**Ressalva científica:** a tolerância da espécie ao frio varia por procedência/altitude e aclimatação; as notas de temperatura devem ser revisitadas à luz de produtores brasileiros e observações de cultivo. Não herdar os índices 36, 78 e 90 do híbrido Summer Wind.
