@@ -73,7 +73,16 @@ export const coelogyneFlaccida = {
         "alerta": "Não deixar secar completamente nem manter encharcado no inverno. Evitar calor abafado, vaso profundo e obstáculos ao desenvolvimento das hastes pendentes.",
         "notaEvidencia": "MACS 1.1: POWO aceita Coelogyne flaccida Lindl., epífita ou rupícola; BSI registra ocorrência em altitude. Orquidário Mogi Mirim recomenda para a espécie substrato poroso, rega frequente no crescimento e redução no inverno, sem percentuais. AOS apresenta para o GÊNERO Coelogyne mistura de casca de ABETO/perlita 3:1; a ficha adapta abeto para PINUS, sem equivalência experimental demonstrada: https://www.aos.org/orchid-care/care-sheets/coelogyne-culture-sheet . Receita 75/25 tem referência institucional quantitativa de gênero, NÃO HOMOLOGAÇÃO específica ou experimental para C. flaccida. Duas alternativas qualitativas sem percentuais; estrelas de recipientes heurísticas. Um produtor brasileiro específico identificado na passagem documental, abaixo da meta de 25."
     },
-    "errosComuns": "Cultivar em calor abafado; colocar em ambiente fechado durante a floração; manter encharcada no inverno; usar vaso profundo; deixar hastes presas; apoiar o cesto baixo demais; dividir em poucas frentes; sombra excessiva; substrato compactado; deixar secar completamente; pouca ventilação.",
+    "errosComuns": [
+    "Cultivar em calor abafado.",
+    "Manter a planta em ambiente fechado na floração.",
+    "Encharcar o substrato durante o inverno.",
+    "Usar vaso profundo para touceira expansiva.",
+    "Prender as hastes florais pendentes.",
+    "Dividir a touceira em poucas frentes.",
+    "Cultivar em sombra excessiva.",
+    "Deixar raízes secarem completamente por dias."
+],
     "dica": "🏆 Antes da floração, reserve espaço abaixo do recipiente: as hastes desta Coelogyne podem arquear e pender, formando cachos que precisam se desenvolver livremente. Prefira cesto suspenso ou posição elevada, com boa ventilação e luz filtrada. Por ser associada a ambientes montanos, proteja a planta do calor noturno excessivo e mantenha umidade regular durante o crescimento. Evite movimentar a touceira quando os botões estiverem se formando. Uma posição estável favorece hastes bem apresentadas e reduz danos mecânicos às flores.",
     revisaoCientificaIAR: {
         "nome": "Coelogyne flaccida",
