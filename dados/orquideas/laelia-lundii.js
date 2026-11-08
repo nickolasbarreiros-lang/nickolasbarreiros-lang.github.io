@@ -25,7 +25,7 @@ export const laeliaLundii = {
     regiao: "Brasil, Bolívia, Paraguai e N da Argentina",
     habitat: "Cerrado e florestas sazonais · epífita; altitude variável.",
     clima: "Quente a intermediário · bem ventilado.",
-    climaFloracao: "A floração melhora quando os novos pseudobulbos amadurecem sob luz alta filtrada, boa circulação de ar e raízes ativas. O habitat sazonal justifica uma redução natural da água quando o crescimento desacelera, mas não um repouso seco rígido. Em litoral quente, a prioridade é evitar raízes abafadas e noites excessivamente quentes e úmidas; touceiras adultas e pouco divididas acumulam mais reservas e tendem a florir com maior regularidade.",
+    climaFloracao: "Prefere clima quente a intermediário, bastante luz filtrada e ventilação. Pode florescer no litoral e na montanha, desde que não enfrente temperaturas extremas. Deixe os novos pseudobulbos amadurecerem com regas regulares e raízes saudáveis. Quando o crescimento desacelerar, espaçe um pouco as regas, sem impor seca rigorosa. Touceiras adultas e pouco divididas costumam ter mais reservas para florescer.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
