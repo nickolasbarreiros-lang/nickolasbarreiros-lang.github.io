@@ -1128,7 +1128,6 @@ function criarGaleria(fotos) {
             </button>
 
             ${miniaturas ? `<div class="miniaturas-v2">${miniaturas}</div>` : ""}
-            ${Array.isArray(orquidea.creditosFotos) && orquidea.creditosFotos.length ? `<div class="credito-foto-v4" style="font-size:12px;line-height:1.5;margin-top:8px;">${orquidea.creditosFotos.map((credito, indice) => `<div>Foto ${indice + 1}: ${String(credito.autor || "").replace(/</g,"&lt;").replace(/>/g,"&gt;")} · <a href="${credito.origem}" target="_blank" rel="noopener noreferrer">Origem Wikimedia Commons</a> · <a href="${credito.licenca}" target="_blank" rel="noopener noreferrer">${String(credito.nomeLicenca || "Licença")}</a> · ${credito.alteracoes ? "com alterações" : "sem alterações"}</div>`).join("")}</div>` : ""}
             ${orquidea.id === "pholidota-chinensis" ? `<div class="credito-foto-v4" style="font-size:12px;line-height:1.5;margin-top:8px;">Quarta foto: Elena Gaillard · <a href="https://commons.wikimedia.org/wiki/File:Pholidota_chinensis_-_Flickr_003_(1).jpg" target="_blank" rel="noopener noreferrer">Origem Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener noreferrer">CC BY 2.0</a> · sem alterações</div>` : ""}
         </div>
     `;
@@ -1646,6 +1645,8 @@ if (!orquidea) {
                 class="contador-v2"
             ></span>
 
+            ${Array.isArray(orquidea.creditosFotos) && orquidea.creditosFotos.length ? `<div id="credito-foto-ampliada-individual-v2" style="display:none;position:absolute;bottom:12px;left:50%;transform:translateX(-50%);max-width:92%;padding:6px 10px;border-radius:6px;background:rgba(0,0,0,.8);color:#fff;font-size:12px;text-align:center;z-index:10;"></div>` : ""}
+
             ${orquidea.id === "pholidota-chinensis" ? `<div id="credito-foto-ampliada-v2" style="display:none;position:absolute;bottom:12px;left:50%;transform:translateX(-50%);max-width:92%;padding:6px 10px;border-radius:6px;background:rgba(0,0,0,.8);color:#fff;font-size:12px;text-align:center;z-index:10;">Foto: Elena Gaillard · <a href="https://commons.wikimedia.org/wiki/File:Pholidota_chinensis_-_Flickr_003_(1).jpg" target="_blank" rel="noopener noreferrer" style="color:#fff;text-decoration:underline;">Origem</a> · <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener noreferrer" style="color:#fff;text-decoration:underline;">CC BY 2.0</a> · sem alterações</div>` : ""}
 
         </div>
@@ -1743,6 +1744,22 @@ if (!orquidea) {
 
             const creditoFoto = document.getElementById("credito-foto-ampliada-v2");
             if (creditoFoto) creditoFoto.style.display = indiceAtual === 3 ? "block" : "none";
+            const creditoIndividual = document.getElementById("credito-foto-ampliada-individual-v2");
+            if (creditoIndividual) {
+                const credito = orquidea.creditosFotos?.[indiceAtual];
+                creditoIndividual.style.display = credito ? "block" : "none";
+                if (credito) {
+                    const autor = String(credito.autor || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+                    const origem = String(credito.origem || "");
+                    const licenca = String(credito.licenca || "");
+                    const nomeLicenca = String(credito.nomeLicenca || "Licença").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+                    const urlValida = (url) => /^https:\/\/[^\s"'<>]+$/.test(url);
+                    creditoIndividual.innerHTML = `Foto: ${autor} · ${urlValida(origem) ? `<a href="${origem}" target="_blank" rel="noopener noreferrer" style="color:#fff;text-decoration:underline;">Origem</a>` : "Origem não informada"} · ${urlValida(licenca) ? `<a href="${licenca}" target="_blank" rel="noopener noreferrer" style="color:#fff;text-decoration:underline;">${nomeLicenca}</a>` : nomeLicenca} · ${credito.alteracoes ? "com alterações" : "sem alterações"}`;
+                } else {
+                    creditoIndividual.textContent = "";
+                }
+            }
+
         }
 
         function abrirVisualizador(indice) {
