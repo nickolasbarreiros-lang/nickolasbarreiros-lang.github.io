@@ -25,7 +25,7 @@ export const aciantheraGlumacea = {
     mesesFloracao: [7, 8, 9, 10, 11, 12, 1],
     mesesFloracaoIndicativos: true,
     clima: "Intermediário a fresco, úmido e muito ventilado.",
-    climaFloracao: "A ocorrência em torno de 1.300 m explica a preferência por condições frescas. No litoral quente, a dificuldade não é apenas a temperatura máxima diurna, mas principalmente noites persistentemente quentes combinadas a umidade parada. Mantenha-a no setor mais fresco e ventilado, evitando superfícies que irradiem calor à noite. Uma amplitude térmica moderada e o amadurecimento completo dos ramicaules favorecem florações mais consistentes.",
+    climaFloracao: "Ocorre em diferentes formações florestais brasileiras, inclusive em áreas de menor altitude; portanto, não deve ser considerada exclusivamente de montanha. Montanha: favorável. Litoral quente: possível, com boa ventilação e luz adequada, evitando calor excessivo e abafamento. Não há comprovação de quebra térmica obrigatória ou repouso seco. Mantenha regas regulares e permita boa aeração das raízes.",
     iluminacao: {
         sombrite: "60% a 70%; em locais muito quentes, comece próximo de 70%",
         solDireto: "Permitido com restrição",
