@@ -29,7 +29,7 @@ export const coelogyneFlaccida = {
     "regiao": "Nepal · Índia · sul da China · Indochina",
     "habitat": "Florestas montanas úmidas · epífita/litófita.",
     "clima": "Intermediário a fresco · noites amenas.",
-    "climaFloracao": "A floração é favorecida por pseudobulbos maduros, noites mais frescas, luz filtrada e redução moderada da água após o crescimento. Não exige repouso tão seco quanto Coelogyne cristata, mas também não deve permanecer encharcada no inverno. A planta precisa ficar elevada e ventilada, tanto para acomodar as hastes pendentes quanto para dissipar o perfume intenso e evitar fungos.",
+    "climaFloracao": "Prefere clima intermediário a fresco, com noites amenas e boa ventilação. A montanha favorece a floração; no litoral quente, procure o local mais fresco do orquidário. Os pseudobulbos precisam amadurecer com luz filtrada e umidade equilibrada. Depois do crescimento, reduza moderadamente as regas, principalmente no inverno, sem deixar a planta secar por completo. Mantenha espaço livre para suas hastes pendentes.",
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Não permitido",
