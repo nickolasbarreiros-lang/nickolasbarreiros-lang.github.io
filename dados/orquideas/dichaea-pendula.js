@@ -28,7 +28,7 @@ export const dichaeaPendula = {
     regiao: "Caribe · América Central · América do Sul",
     habitat: "Florestas úmidas tropicais · epífita ou rupícola · altitude variável.",
     clima: "Quente a intermediário; populações montanas toleram condições mais frescas.",
-    climaFloracao: "A espécie ocorre tanto em florestas úmidas de terras baixas quanto em populações montanas; não se deve exigir noites frias para todas as procedências. Alta umidade atmosférica e pouca oscilação hídrica favorecem raízes finas. IOSPE registra floração na primavera e no verão. Não há evidência específica suficiente para atribuir indução floral a uma estação local fixa; mantenha a planta ativa e hidratada. Não possui repouso seco verdadeiro.",
+    climaFloracao: "Gosta de florestas úmidas e pode florescer em clima quente a intermediário, dependendo da procedência. No litoral, mantenha sombra luminosa e ventilação; na montanha, proteja do frio excessivo. Suas raízes finas precisam de umidade regular, sem períodos longos de seca. A floração depende de crescimento saudável, não de noites obrigatoriamente frias ou de repouso seco.",
         iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não permitido",
