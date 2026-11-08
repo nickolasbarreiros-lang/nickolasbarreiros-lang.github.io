@@ -316,5 +316,5 @@ export const cattleyaAmethystoglossaVarAurea = {
       "texto": "Proteja de frio intenso e chuva fria prolongada; ajuste as regas à secagem da mistura."
     }
   },
-  "dica": "Replante quando as raízes novas começarem a surgir na base do crescimento; assim, a planta se fixa mais depressa e sofre menos com a troca de recipiente."
+  "dica": "Observe a base dos pseudobulbos novos antes de replantar: o melhor momento é quando as pontas das raízes começam a surgir. Como esta cattleya forma caules altos e pesados, fixe bem o rizoma no recipiente para impedir movimentos que danifiquem raízes jovens. Deixe espaço para os próximos crescimentos e mantenha a base dos pseudobulbos acima do substrato. Após o replante, ajuste as regas à atividade das raízes, sem encharcar a mistura."
 };
