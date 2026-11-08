@@ -70,7 +70,16 @@ export const maxillariaBrasiliensis = {
         alerta: "Evitar vaso grande, substrato degradado ou encharcado, rizoma enterrado, divisões frequentes e seca prolongada. Replantar preferencialmente com novas raízes em emissão.",
         notaEvidencia: "MACS 1.1 — revisão documental: Maxillaria brasiliensis (sin. Heterotaxis brasiliensis), epífita compacta de raízes finas, exige umidade moderada, drenagem, ventilação e estabilidade da touceira. Vaso de Barro pequeno e perfurado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 30% macadâmia média + 30% pinus médio + 25% perlita de granulometria compatível com raízes finas + 15% fibra de coco grossa preparada = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/pinus/perlita/carvão pequeno e pinus/perlita/pouco esfagno de fibra longa solto/macadamia. Elas não fundamentam os percentuais visuais; justificativa anterior de equivalência foi corrigida. Monitorar secagem em vaso pequeno de barro, retenção da fibra e integridade de raízes finas. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente"
     },
-    errosComuns: "Manter substrato constantemente encharcado; esperar a mistura virar farelo; usar vaso grande; dividir a touceira em porções pequenas; enterrar o rizoma; cultivar com pouca luz ou ventilação; aplicar excesso de nitrogênio; fertilizar raízes secas; deixar acumular sais; impor seca prolongada.",
+    errosComuns: [
+    "Manter substrato constantemente encharcado.",
+    "Deixar a mistura se decompor até virar farelo.",
+    "Usar vaso grande com secagem lenta.",
+    "Dividir touceiras em partes pequenas.",
+    "Enterrar o rizoma.",
+    "Cultivar com pouca luz e ventilação.",
+    "Exagerar no nitrogênio.",
+    "Impor seca prolongada no crescimento."
+],
     dica: "🏆 Esta Maxillaria costuma responder melhor à estabilidade do que a mudanças frequentes de vaso. Preserve a touceira e replante apenas quando surgirem raízes novas, escolhendo recipiente proporcional ao volume atual. Mantenha o rizoma superficial e use substrato arejado, capaz de receber regas abundantes sem permanecer encharcado. Evite divisões pequenas e vasos grandes demais, que secam lentamente no centro. Observe a firmeza dos pseudobulbos e o crescimento radicular para ajustar a água; uma touceira estabelecida favorece florações regulares.",
     revisaoCientificaIAR: {
         "nome": "Maxillaria brasiliensis",
