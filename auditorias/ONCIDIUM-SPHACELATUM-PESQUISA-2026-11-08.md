@@ -99,3 +99,11 @@ Pesos: habitat natural 30%, temperatura 30%, água/umidade 5%, ventilação 5%, 
 - Merten Orquídeas informa floração **indeterminada**, possível em outros meses: https://www.mertenorquideas.com.br/orquideas/oncidium/oncidium-sphacelatum-com-haste-floral
 
 **Decisão para calendário indicativo brasileiro:** marcar **outubro e novembro** como meses documentados; texto pode mencionar a **primavera** como período frequente em relatos brasileiros, mas não marcar automaticamente setembro/dezembro sem evidência mensal específica. A floração em outras épocas continua possível. **Não há duração específica confirmada para esta espécie nas fontes examinadas.** As fotos do Flickr servem de documentação de data e identificação, **não são autorização de reprodução**.
+
+## Solução para imagens sem alteração estrutural — 08/11/2026
+
+A coleção Smithsonian Gardens lista registros identificados como **Oncidium sphacelatum**, com metadados de uso **CC0**, sem exigência de atribuição autoral; fonte de descoberta: https://collections.si.edu/search/results.htm?fq=common_name%3A%22The+Burnt+Spot+Oncidium%22&q=%22South+America%22 . O registro de objeto de educação Smithsonian também identifica **Oncidium sphacelatum** e uso CC0: https://www.si.edu/object/popcorn-orchid:nmnheducation_11040918 .
+
+**Atenção:** metadados de objeto CC0 não são por si só URL de arquivo de imagem. É necessário recuperar e verificar a mídia associada, garantindo que a licença cubra aquela imagem, antes de inserir em `fotos`. Não inventar URLs nem reaproveitar fotos do híbrido Summer Wind. As fotos de Rhododendrites e David J. Stang no Wikimedia Commons são CC BY-SA 4.0 e exigem crédito/licença: https://commons.wikimedia.org/wiki/File:Oncidium_sphacelatum_(42110).jpg .
+
+**Decisão de implementação:** priorizar imagens Smithsonian efetivamente disponibilizadas em CC0, identificadas e acessíveis; se não houver URL de mídia comprovada, manter a galeria vazia e o rascunho não publicado. Não modificar o renderizador V4.9 para introduzir créditos sem autorização.
