@@ -140,3 +140,10 @@ Juízo técnico **provisório** baseado no perfil da espécie, não em ensaio re
 - Sylvio Rodrigues Pereira documentou **Cattleya amethystoglossa ‘Aurea Morinho’**, exemplar exposto pelo Orquidário Fabiana Lahr (Rio Claro, SP), com floração em **agosto de 2022**, inverno brasileiro. Fonte: https://www.flickr.com/photos/sylvio-orquideas/52314199521/ .
 - Esse registro **confirma agosto** entre os meses indicativos já marcados na ficha; não exige alterar o calendário.
 - A fotografia identifica explicitamente o cultivar, mas **a licença de reutilização não foi confirmada**. Não inserir na galeria até obter autorização ou licença adequada.
+
+## Triagem complementar de imagens — 08/11/2026
+
+- Busca específica por `Cattleya amethystoglossa aurea` em Wikimedia Commons e imagens com licença CC BY: não foi encontrada fotografia simultaneamente identificada como a forma aurea e com licença verificável.
+- A categoria `Cattleya amethystoglossa` do Wikimedia Commons possui imagens da espécie, mas a identificação da forma aurea não está confirmada nas evidências examinadas: https://commons.wikimedia.org/wiki/Category:Cattleya_amethystoglossa
+- **Não confundir** com `Cattleya aurea` ou `Cattleya dowiana var. aurea`, nomes de outra entidade botânica.
+- Decisão: manter `fotos: []` até obtenção de foto específica com direito de uso comprovado; não inserir fotos típicas sob rótulo aurea.
