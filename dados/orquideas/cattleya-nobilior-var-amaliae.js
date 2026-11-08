@@ -28,7 +28,7 @@ export const cattleyaNobiliorVarAmaliae = {
     regiao: "N. Goiás, Tocantins e SO da Bahia",
     habitat: "Cerrado decíduo · árvores baixas.",
     clima: "Quente · muito luminoso · inverno seco.",
-    climaFloracao: "A floração é favorecida por pseudobulbos completamente maduros, luminosidade muito alta e forte redução hídrica no período seco. A planta frequentemente emite crescimento floral especializado e sem folhas a partir da região basal ou rizomatosa. O princípio correto é reproduzir a sazonalidade: crescimento com água e nutrição suficientes, seguido de repouso realmente mais seco, mas sem permitir desidratação severa e prolongada.",
+    climaFloracao: "Prefere clima quente, muita luminosidade e estações bem definidas, com crescimento úmido e inverno mais seco. O litoral pode favorecer a floração se esse ritmo for respeitado; na montanha, proteja do frio intenso. Regue bem enquanto surgem brotos e raízes. Depois da maturação, reduza bastante a água para estimular as flores, sem deixar os pseudobulbos murcharem excessivamente. Não mantenha regas abundantes durante o repouso.",
     iluminacao: {
         sombrite: "30% a 50%; cerca de 40% como referência inicial",
         solDireto: "Permitido com restrição",
