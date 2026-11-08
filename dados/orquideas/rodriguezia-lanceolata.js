@@ -29,7 +29,7 @@ export const rodrigueziaLanceolata = {
     "regiao": "Panamá · Caribe · norte da América do Sul · Brasil",
     "habitat": "Epífita de florestas úmidas, sobre galhos claros; ~650–1.500 m.",
     "clima": "Quente a intermediário, úmido e ventilado.",
-    "climaFloracao": "Pode florescer após a maturação de novos pseudobulbos e, em plantas vigorosas, repetir a floração em mais de uma época do ano. A combinação de meia-sombra clara, raízes ativas, água frequente sem encharcamento e boa circulação de ar favorece hastes longas e floríferas.",
+    "climaFloracao": "Gosta de clima quente a intermediário, umidade regular e boa ventilação. Pode florescer no litoral e na montanha, com proteção contra frio intenso. Mantenha meia-sombra clara e raízes ativas durante o crescimento. Pseudobulbos maduros favorecem hastes longas, e plantas vigorosas podem repetir a floração. Não precisa de repouso seco; evite apenas raízes constantemente encharcadas.",
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
