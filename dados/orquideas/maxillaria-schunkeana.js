@@ -67,14 +67,15 @@ export const maxillariaSchunkeana = {
         alerta: "Evite aquecimento do vaso e excesso de retenção. A espécie prefere sombra clara, não escuridão."
     },
     errosComuns: [
-        "Expor ao sol direto forte.",
-        "Cultivar em sombra profunda sem claridade.",
-        "Usar vaso grande.",
-        "Manter o substrato permanentemente encharcado.",
-        "Deixar a touceira secar por muitos dias.",
-        "Usar mistura fina e compacta.",
-        "Manter ambiente quente e abafado."
-    ],
+    "Expor folhas ao sol direto forte.",
+    "Cultivar em sombra profunda.",
+    "Usar vaso grande com secagem lenta.",
+    "Manter substrato permanentemente encharcado.",
+    "Deixar a touceira secar por muitos dias.",
+    "Usar mistura fina e compactada.",
+    "Cultivar em ambiente quente e abafado.",
+    "Aplicar adubo concentrado nas raízes."
+],
     revisaoCientificaIAR: {
         "nome": "Maxillaria schunkeana Campacci & Kautsky",
         "statusTaxonomico": "Espécie aceita pelo POWO/Kew, publicada em Orquidário 7(4):136 (1993). Não confundir com Schunkea, gênero diferente, nem com Maxillaria jose-schunkei, espécie peruana distinta.",
