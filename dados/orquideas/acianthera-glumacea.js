@@ -71,7 +71,16 @@ export const aciantheraGlumacea = {
         alerta: "Mantenha o rizoma sobre a superfície. Em litoral quente e muito úmido, use vaso pequeno e bem ventilado e reduza o esfagno se a secagem estiver lenta.",
         notaEvidencia: "MACS 1.1: IOSPE documenta hábito epífito sobre casca rugosa com musgo. Orientações brasileiras para o gênero Acianthera e literatura geral de epífitas sustentam qualitativamente Casca de pinus, Carvão vegetal e Esfagno; Casca de arroz carbonizada é inferência horticultural adicional. Composição C/D, percentuais D inferenciais e NÃO HOMOLOGADOS. Mantida receita visual anterior, sem prova de superioridade. Apenas duas alternativas no menu; estrelas D preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-036-ACIANTHERA-GLUMACEA.md.",
     },
-    errosComuns: ["Remover ramicaules antigos ainda verdes que podem reflorir.", "Encharcar o centro de touceiras densas.", "Cultivar em calor noturno abafado.", "Usar substrato decomposto ou compactado.", "Usar vaso excessivamente grande.", "Manter sombra profunda.", "Confundir a preferência por umidade com necessidade de substrato permanentemente saturado."],
+    errosComuns: [
+        "Cortar ramicaules verdes que ainda podem reflorir.",
+        "Manter água parada no centro da touceira.",
+        "Cultivar em noites quentes e abafadas.",
+        "Usar substrato decomposto ou compactado.",
+        "Plantar em vaso muito maior que as raízes.",
+        "Manter sombra profunda durante o crescimento.",
+        "Confundir umidade elevada com encharcamento.",
+        "Deixar raízes delicadas secarem por vários dias."
+],
     revisaoCientificaIAR: {
         "nome": "Acianthera glumacea",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
