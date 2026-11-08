@@ -66,14 +66,15 @@ export const mediocalcarDecoratum = {
         alerta: "Use água de boa qualidade e evite secagem completa. Em clima quente, o desafio principal é manter as raízes frescas e oxigenadas."
     },
     errosComuns: [
-        "Deixar a montagem secar completamente.",
-        "Cultivar em calor abafado.",
-        "Usar vaso profundo.",
-        "Manter musgo compactado e saturado.",
-        "Usar água muito salina ou adubo concentrado.",
-        "Expor ao sol direto.",
-        "Permitir pouca circulação de ar."
-    ],
+    "Deixar a montagem secar completamente.",
+    "Cultivar em calor abafado.",
+    "Usar vaso profundo e pouco ventilado.",
+    "Manter musgo compacto e saturado.",
+    "Usar água muito salina.",
+    "Aplicar fertilizante concentrado.",
+    "Expor folhas ao sol direto.",
+    "Cultivar com pouca circulação de ar."
+],
     revisaoCientificaIAR: {
         "nome": "Mediocalcar decoratum Schuit.",
         "statusTaxonomico": "Espécie aceita pelo POWO/Kew, descrita por André Schuiteman em Blumea 34:167 (1989), com distribuição nativa restrita à Nova Guiné. Não confundir com Mediocalcar pygmaeum, identificação incorreta encontrada ocasionalmente em coleções.",
