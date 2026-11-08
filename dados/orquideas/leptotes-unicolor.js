@@ -24,7 +24,7 @@ export const leptotesUnicolor = {
     regiao: "Brasil · Argentina",
     habitat: "Ramos de árvores · luz filtrada · epífita.",
     clima: "Quente a fresco · muito ventilado.",
-    climaFloracao: "A amplitude indicada para a espécie — de condições quentes a frescas — mostra que não há necessidade de classificá-la rigidamente como planta fria. O ponto mais importante é manter raízes expostas ao ar, boa luminosidade filtrada e secagem rápida. Em clima quente, umidade atmosférica e ventilação devem compensar a evaporação sem manter o suporte permanentemente molhado.",
+    climaFloracao: "Prefere clima quente a intermediário, boa claridade filtrada e raízes muito arejadas. Pode florescer no litoral e na montanha, desde que não enfrente frio intenso ou calor abafado. A montagem deve permitir secagem rápida após as regas, sem deixar a planta desidratar por muitos dias. Crescimentos maduros e ventilação favorecem as flores. Não precisa de repouso seco rigoroso nem de choque térmico.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
