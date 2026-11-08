@@ -66,14 +66,15 @@ export const sophronitisCernua = {
         alerta: "Regue bem pela manhã, mas permita que raízes e suporte sequem ao longo do dia. Em montagem, a mistura pode ser dispensada."
     },
     errosComuns: [
-        "Usar vaso plástico fechado com substrato fino.",
-        "Excesso de esfagno.",
-        "Cultivar em sombra profunda.",
-        "Manter a base da touceira permanentemente molhada.",
-        "Ambiente quente sem circulação de ar.",
-        "Regar tarde da noite.",
-        "Aplicar adubo concentrado."
-    ],
+    "Usar vaso plástico fechado e substrato fino.",
+    "Compactar esfagno sobre as raízes.",
+    "Cultivar em sombra profunda.",
+    "Manter a base da touceira sempre molhada.",
+    "Cultivar em calor abafado.",
+    "Regar tarde da noite.",
+    "Aplicar adubo concentrado.",
+    "Dividir touceiras pequenas."
+],
     revisaoCientificaIAR: {
         "nome": "Cattleya cernua (Lindl.) Van den Berg",
         "statusTaxonomico": "Nome aceito pelo POWO/Kew, combinação validamente publicada em Neodiversity 5:13 (2010). Atenção: a combinação proposta em 2008 é inválida conforme IPNI; não atribuir a autoria da combinação válida a 2008.",
