@@ -25,7 +25,7 @@ export const cattleyaABrazilianDream = {
     regiao: "Sem distribuição natural · ano de registro informado como 2019, ainda não confirmado em fonte primária",
     habitat: "Não ocorre na natureza · ecologia derivada dos parentais.",
     clima: "Quente a intermediário · luminoso e ventilado.",
-    climaFloracao: "A floração deve ser interpretada a partir do ciclo do clone, e não de um calendário rígido. O botão é consequência de pseudobulbos bem formados, luz adequada, reservas suficientes e raízes saudáveis. A influência de C. nobilior justifica maior secagem após a maturação, mas C. loddigesii torna inadequado copiar automaticamente um repouso extremamente seco. O intervalo deve aumentar somente quando a atividade radicular realmente diminuir.",
+    climaFloracao: "Gosta de clima quente a intermediário e bastante claridade, podendo florescer no litoral e na montanha sem frio intenso. Os botões dependem de pseudobulbos maduros, raízes saudáveis e boa ventilação. Regue normalmente durante o crescimento e aumente os intervalos quando a atividade diminuir. Evite tanto a seca extrema quanto o excesso de água nessa fase; acompanhe o ritmo da própria planta.",
     iluminacao: {
         sombrite: "40% a 60%; cerca de 50% em ambientes muito quentes",
         solDireto: "Permitido com restrição",
