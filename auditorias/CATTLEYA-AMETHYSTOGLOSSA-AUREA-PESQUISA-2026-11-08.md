@@ -67,3 +67,24 @@ Não selecionar vaso plástico comum como opção prioritária, nem raízes solt
 - Registro aurea identificado no Flickr (Sylvio Rodrigues Pereira, 26/08/2022) ainda depende de checagem de licença/autorização para incorporar: https://www.flickr.com/photos/sylvio-orquideas/52314199521/ . Não inferir licença pela acessibilidade pública.
 
 **Status:** composição e duas misturas alternativas definidas preliminarmente; nenhuma fotografia da forma aurea com licença reutilizável confirmada. Manter fora do índice público.
+
+## Etapa 4 — auditoria fenológica e distinção de linhagens (2026-11-08)
+
+### Confronto de fontes brasileiras
+- **CNCFlora/JBRJ, avaliação de 2012:** espécie *C. amethystoglossa* registrada em floração de **agosto a novembro**, com outra observação de **outubro–novembro** na Chapada Diamantina. Fonte: https://proflora.jbrj.gov.br/html/Cattleya%20amethystoglossa_2012.html
+- **Bastos (2009), material em cultivo:** floração em **junho** (espécie, sem forma aurea confirmada). https://www.portalplantasdobrasil.com.br/orchidaceae-cattleya-amethystoglossa/
+- **Orquidário Thomes, cruzamento aurea:** informa **inverno**, sem especificar meses. https://www.orquidariothomes.com.br/cattleya-amethystoglossa-aurea-camaleao-x-aurea-mf-x-aurea-maria-luiza/prod-10263564/
+- **Sylvio Rodrigues Pereira, 'Aurea Morinho':** fotografia datada de **26/08/2022** com floração em agosto; cultivar explicitamente identificado. https://www.flickr.com/photos/sylvio-orquideas/52314199521/
+- **Orquídeas dos Frades, cruzamento aurea x coerulea:** exemplares floridos em **julho de 2024**; **híbrido de formas de cor**, não evidência exclusiva de aurea. https://www.orquideasdosfrades.com.br/product-page/cattleya-ametistoglossa-%C3%A1urea-x-coerulea
+
+### Decisão editorial provisória
+- Janela indicativa para ficha brasileira: **junho a novembro**, com destaque **inverno e início da primavera**; junho e setembro–novembro são evidências da espécie, enquanto agosto tem confirmação explícita da forma aurea. Não extrapolar período para todas as linhagens.
+- Texto público proposto: “Costuma florescer no inverno e pode estender a floração à primavera. As hastes trazem várias flores de tonalidade amarela ou creme, com pintas e labelo contrastante, conforme a linhagem. A duração e o perfume ainda exigem confirmação específica para a forma aurea.”
+- **Não marcar duração de flores nem perfume como fato** sem fonte verificável. Não presumir reflorescência na mesma haste.
+- **Fotos:** páginas comerciais e Flickr não autorizam automaticamente reprodução. Só usar mídia com licença compatível ou permissão do titular. Não confundir foto da espécie típica com forma aurea.
+
+### Verificação de alternativas do substrato
+- Principal: 40% pínus + 25% chips de coco lavados + 20% carvão + 15% brita fina lavada = 100%.
+- Alternativa 1: pínus + carvão + brita (não reproduz a receita principal integral).
+- Alternativa 2: chips de coco lavados + pínus + perlita grossa (também não reproduz a principal).
+- Sem percentuais nas alternativas, conforme padrão V4.9. **A formulação continua editorial, não experimental.**
