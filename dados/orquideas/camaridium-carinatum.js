@@ -27,7 +27,7 @@ export const camaridiumCarinatum = {
     regiao: "Bolívia e Brasil",
     habitat: "Florestas úmidas/nebulosas · 100–1.000 m.",
     clima: "Quente a intermediário · úmido e ventilado.",
-    climaFloracao: "Não necessita repouso seco. A espécie pode florir em diferentes épocas quando pseudobulbos maduros, raízes ativas, luz média e hidratação estável coincidem. O rizoma alongado, por vezes pendente, deixa a base dos pseudobulbos exposta; manter essa região livre de substrato e detritos favorece a saída das hastes basais e reduz podridões. No litoral quente, o manejo deve priorizar ventilação e secagem das bainhas, não redução artificial de água.",
+    climaFloracao: "Gosta de clima quente a intermediário, umidade equilibrada e boa ventilação. Pode florescer no litoral e na montanha, desde que fique protegido de frio excessivo. Mantenha luz filtrada e raízes ativas durante o crescimento. As hastes surgem próximas à base dos pseudobulbos, por isso deixe essa região livre e arejada. Não precisa de repouso seco nem de choque térmico.",
     iluminacao: {
         sombrite: "50% a 60%; até 70% em local muito quente",
         solDireto: "Permitido com restrição",
