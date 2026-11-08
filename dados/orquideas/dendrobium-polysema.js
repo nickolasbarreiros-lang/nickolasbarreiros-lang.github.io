@@ -29,7 +29,7 @@ export const dendrobiumPolysema = {
     "regiao": "Papua-Nova Guiné (POWO); Ilhas Salomão e Vanuatu em tratamento histórico mais amplo",
     "habitat": "Matas úmidas e musgosas de altitude.",
     "clima": "Fresco · úmido · muito ventilado.",
-    "climaFloracao": "A floração depende de hastes maduras, umidade constante, raízes saudáveis e temperatura foliar controlada. Não necessita de repouso seco rigoroso. No período mais frio, reduza discretamente a água, mas mantenha umidade do ar elevada. Em clima quente, o principal fator limitante é o superaquecimento das folhas e raízes.",
+    "climaFloracao": "Prefere clima fresco e úmido, com boa ventilação e noites amenas. A montanha oferece condições mais favoráveis para florescer. No litoral quente, o calor acumulado nas folhas e raízes pode dificultar a floração; mantenha a planta no ponto mais fresco do orquidário. Precisa de umidade regular e hastes maduras, sem repouso seco rigoroso. No período mais frio, diminua as regas apenas se a secagem ficar lenta.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Não permitido",
