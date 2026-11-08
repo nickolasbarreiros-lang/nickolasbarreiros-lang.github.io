@@ -28,7 +28,7 @@ export const encycliaGallopavina = {
     regiao: "Sudeste brasileiro",
     habitat: "Mata Atlântica úmida · epífita.",
     clima: "Quente a intermediário · ventilado.",
-    climaFloracao: "POWO associa a espécie ao bioma tropical úmido do Sudeste brasileiro, enquanto referências de cultivo a tratam como planta de luminosidade relativamente alta e crescimento quente. A floração tende a acompanhar a maturação completa dos pseudobulbos e pode ocorrer da primavera ao verão. Uma leve redução das regas após o amadurecimento pode ajudar, mas não deve ser transformada em repouso seco rígido.",
+    climaFloracao: "Prefere clima quente a intermediário, bastante luz filtrada e boa ventilação. O litoral oferece condições favoráveis; na montanha, proteja do frio intenso. A floração costuma acompanhar o amadurecimento dos pseudobulbos. Regue durante o crescimento e espaçe um pouco as regas quando a atividade diminuir, sem deixar a planta passar por seca prolongada. Raízes saudáveis e boa claridade ajudam a produzir hastes.",
         iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
