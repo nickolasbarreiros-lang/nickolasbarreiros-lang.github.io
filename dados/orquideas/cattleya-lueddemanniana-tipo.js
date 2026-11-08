@@ -91,7 +91,16 @@ export const cattleyaLueddemannianaTipo = {
     "alerta": "Mistura ilustrada como proposta técnica; não há ensaio específico apresentado que demonstre superioridade destas proporções para plantas adultas. Observar secagem e manter drenagem.",
     "notaEvidencia": "MACS 1.1: AOS oferece orientação genérica para Cattleyas sobre ventilação, casca e replante na emissão de raízes novas. Fontes comerciais brasileiras Oriental, Santa Clara e Mogi Mirim anteriormente citadas, mas não reconfirmadas individualmente nesta passagem, mencionam pinus, carvão, musgo e pedrisco, sem receita quantitativa para a espécie adulta tipo. A receita institucional atribuída ao Missouri Botanical Garden usa genericamente para Cattleyas 5 partes de casca de abeto média para 1 de carvão horticultural, e a ficha adapta o material para pinus médio/grosso: https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids . Proporção 83,3/16,7 de referência em nível de grupo, adaptada com pinus e NÃO HOMOLOGADA experimentalmente para esta espécie; alternativas qualitativas sem percentuais publicados. Três fontes comerciais herdadas, sem reconfirmação independente nesta revisão e abaixo da meta 25; estrelas não homologadas por ensaio."
 },
-    errosComuns: "Cortar espata seca sem verificar se há botões; deixar água acumulada dentro de espata fechada; manter substrato constantemente molhado; cultivar com pouca luz; usar vaso excessivamente grande; enterrar o rizoma; confundir repouso com seca absoluta; replantar fora da emissão de novas raízes; adubar em excesso.",
+    errosComuns: [
+    "Cortar espata seca sem verificar botões internos.",
+    "Deixar água acumulada dentro da espata.",
+    "Manter o substrato constantemente molhado.",
+    "Cultivar com pouca luminosidade.",
+    "Usar vaso excessivamente grande.",
+    "Enterrar o rizoma.",
+    "Impor seca absoluta no repouso.",
+    "Replantar fora da emissão de raízes novas."
+],
     dica: "🏆 Não descarte a espata desta Cattleya apenas porque ficou amarelada ou aparentemente seca: em alguns casos, botões ainda podem se desenvolver em seu interior. Observe a bainha antes de removê-la e evite água acumulada, especialmente em ambientes quentes e pouco ventilados. Para replantar, espere o início da emissão de raízes novas na base do crescimento recente. Essa combinação de paciência e manejo cuidadoso protege tanto os botões quanto o enraizamento, evitando perdas por intervenções precipitadas.",
     revisaoCientificaIAR: {
         "nome": "Cattleya lueddemanniana",
