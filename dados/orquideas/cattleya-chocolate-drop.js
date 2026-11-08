@@ -124,5 +124,16 @@ export const cattleyaChocolateDrop = {
     "alerta": "Evidência direta: pinus e carvão (4:3 em volume) foram usados em pesquisa com mudas, sem comparação de substratos. A mistura ilustrada de quatro componentes não tem validação específica; observar a secagem.",
     "notaEvidencia": "MACS 1.1 — revisão documental: Cattlianthe Chocolate Drop é híbrido de raízes epífitas, com preferência por luminosidade elevada e secagem entre regas. Vaso plástico vasado como proposta principal, sem ensaio comparativo de suportes; métodos têm estrelas null. Receita visual e textual coincidem: 35% pinus médio + 30% macadâmia média + 20% casca de arroz carbonizada + 15% carvão vegetal médio = 100%. Duas outras misturas qualitativas editoriais distintas, sem percentuais: fibra de coco lavada/pinus/carvão/argila expandida e macadâmia/pinus/carvão/casca de arroz carbonizada. As proporções históricas 40/30/20/10 não são receitas exibidas nem homologadas. Pesquisa brasileira citada na ficha usou pinus e carvão 4:3 com mudas, comparando adubações, NÃO substratos; não extrapolar validação à receita de quatro componentes. Sem homologação quantitativa específica nem consulta individualizada a até 25 produtores brasileiros; percentuais e suportes NÃO HOMOLOGADOS",
     },
+    errosComuns: [
+    "Cultivar em sombra excessiva e reduzir a floração.",
+    "Usar vaso grande que permanece úmido.",
+    "Manter substrato compacto e encharcado.",
+    "Reduzir regas durante a formação dos brotos.",
+    "Exagerar no nitrogênio após amadurecer os pseudobulbos.",
+    "Expor ao sol forte sem adaptação.",
+    "Replantar antes da emissão de raízes novas.",
+    "Dividir touceiras com poucas reservas."
+],
+
     dica: "🏆 Neste híbrido de Cattleya guttata com Guarianthe aurantiaca, a prioridade é amadurecer brotos fortes antes da floração. Ofereça luminosidade intensa, com adaptação gradual ao sol suave, e mantenha ventilação constante. Regue bem quando raízes e pseudobulbos estiverem crescendo, deixando o substrato perder parte da umidade antes de repetir. Evite vasos grandes e excesso de adubo nitrogenado, que podem prejudicar o equilíbrio entre crescimento e flores. Observe o tamanho dos pseudobulbos novos: eles ajudam a avaliar se o manejo está funcionando.",
 };
