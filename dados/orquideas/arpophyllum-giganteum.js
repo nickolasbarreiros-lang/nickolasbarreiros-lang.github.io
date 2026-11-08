@@ -71,7 +71,16 @@ export const arpophyllumGiganteum = {
         ],
         alerta: "Evite compactar o substrato ao redor da base. Inspecione periodicamente a integridade do substrato e replante quando houver degradação, perda de drenagem ou necessidade de espaço; evite divisões e perturbações desnecessárias, mas não mantenha mistura deteriorada."
     },
-    errosComuns: ["Cultivar em sombra excessiva e obter pseudobulbos alongados sem floração.", "Impor seca severa no inverno.", "Usar vaso leve ou instável para touceira grande.", "Manter substrato compacto e permanentemente molhado.", "Dividir touceiras repetidamente antes de acumularem reservas.", "Cultivar no litoral quente sem ventilação noturna suficiente.", "Enterrar demais o rizoma ou impedir sua expansão lateral."],
+    errosComuns: [
+    "Cultivar em sombra excessiva e prejudicar a floração.",
+    "Impor seca severa durante o inverno.",
+    "Usar vaso instável para uma touceira pesada.",
+    "Manter substrato compacto e sempre molhado.",
+    "Dividir touceiras antes de acumularem reservas.",
+    "Cultivar em calor noturno abafado.",
+    "Enterrar o rizoma e impedir sua expansão.",
+    "Expor bruscamente as folhas ao sol forte."
+],
     revisaoCientificaIAR: {
         nome: "Arpophyllum giganteum Hartw. ex Lindl.",
         statusTaxonomico: "Espécie aceita pelo POWO/Kew, publicada em Annals of Natural History 4:384 (1840). POWO reconhece três subespécies: subsp. giganteum, subsp. alpinum e subsp. medium; não tratar todos os nomes históricos como sinônimos da espécie nominal.",
