@@ -27,7 +27,7 @@ export const bulbophyllumFalcatum = {
     regiao: "África Ocidental ao sudoeste do Quênia",
     habitat: "Florestas baixas/submontanas · <1.800 m",
     clima: "Quente a intermediário · úmido",
-    climaFloracao: "No habitat, floresce do inverno à primavera após a maturação dos pseudobulbos. Não necessita repouso seco rígido. Uma leve redução natural da temperatura noturna e da evaporação pode acompanhar a indução floral, mas a planta deve continuar hidratada. Em clima quente, priorize noites ventiladas e evite excesso de água quando a evaporação cair.",
+    climaFloracao: "Gosta de clima quente a intermediário, com umidade constante e boa ventilação. Pode florescer no litoral e na montanha, desde que fique protegido do frio intenso. A formação de pseudobulbos maduros e a luz filtrada ajudam na floração. No período mais fresco, diminua um pouco as regas se o suporte demorar a secar, mas não deixe a planta passar por seca prolongada.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
