@@ -73,7 +73,16 @@ export const cattleyaSchilleriana = {
         "alerta": "Replantar somente quando houver início de raízes novas. Evitar vasos grandes, substrato fino, rizoma enterrado e remoção agressiva de raízes aderidas.",
         "notaEvidencia": "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D). Receita 35% macadâmia + 30% pinus + 20% perlita + 15% carvão = 100%, sem ensaio comparativo dos percentuais. Quatro suportes sem estrelas quantitativas. AOS recomenda replante apenas com novas raízes; não valida experimentalmente o ranking de suportes. Sem levantamento individualizado comprovado com 25 produtores brasileiros."
     },
-    "errosComuns": "Replantar fora do início do enraizamento; descolar raízes aderidas; utilizar vaso grande; deixar a planta frouxa no suporte; enterrar o rizoma; manter substrato constantemente úmido; usar mistura fina ou velha; cultivar em sombra profunda; deixar água presa nos brotos; adubar forte; dividir em poucas frentes; cortar pseudobulbos traseiros firmes; mudar a planta de lugar durante a formação dos botões; confundir pseudobulbo murcho com simples falta de rega sem verificar as raízes.",
+    "errosComuns": [
+    "Replantar fora do início do enraizamento.",
+    "Descolar raízes aderidas sem necessidade.",
+    "Usar vaso grande com secagem lenta.",
+    "Deixar a planta frouxa no suporte.",
+    "Enterrar o rizoma.",
+    "Manter substrato constantemente úmido.",
+    "Cultivar em sombra profunda.",
+    "Dividir touceiras com poucas reservas."
+],
     "dica": "🏆 O replantio desta Cattleya deve ser planejado para o início da emissão de raízes novas. Prepare recipiente e substrato antes de mexer na planta, pois raízes antigas aderidas ao suporte podem sofrer danos difíceis de recuperar. Preserve o máximo possível dessas raízes e fixe o rizoma firmemente, evitando movimentos. Após a troca, mantenha boa ventilação, luz filtrada e regas cuidadosas, sem encharcar. Se a planta estiver saudável e não houver raízes novas, geralmente é melhor adiar a intervenção.",
     revisaoCientificaIAR: {
         "nome": "Cattleya schilleriana Rchb.f.",
