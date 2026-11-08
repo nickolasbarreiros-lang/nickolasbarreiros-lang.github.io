@@ -72,7 +72,16 @@ export const oncidiumPubes = {
         alerta: "Evitar girar o vaso durante a formação da haste, recipientes leves, sombra profunda, substrato velho, rizoma enterrado e replantio fora da emissão de raízes novas.",
         notaEvidencia: "MACS 1.1 — revisão documental: Gomesa pubes (arquivo histórico Oncidium pubes), epífita de pseudobulbos bifoliados e hastes longas, requer raízes aeradas e recipiente estável. Suportes barro 5 estrelas, plástico vasado e cachepô madeira 4, placa/tronco 3; notas não homologadas. Receita visual 35% pinus médio + 30% chips coco + 25% perlita grossa + 10% carvão = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem; as duas alternativas qualitativas são distintas e não equivalem à principal. Validar retenção, secagem e estabilidade física em vaso de barro sob hastes pesadas; meta até 25 produtores brasileiros específicos não atingida. POWO aceita Gomesa pubes (Lindl.) M.W.Chase & N.H.Williams (2009), com Oncidium pubes e Baptistonia pubes como sinônimos homotípicos, e Epidendrum gilvum e Oncidium gilvum como heterotípicos. IOSPE descreve pseudobulbos bifoliados, panícula arqueada ou pendente até 60 cm e flores até 2,5 cm, com registros altitudinais de 400–1.000 m; sua distribuição geográfica é mais ampla que a aceitação restrita de POWO, portanto a ficha segue POWO. Meneguzzo (2020, Phytotaxa) confirma Epidendrum gilvum como sinônimo de Gomesa pubes. Ensaio brasileiro com Oncidium baueri (Assis et al.) compara substratos de coco em outra espécie, sem validar a mistura desta ficha. Nenhuma receita quantitativa brasileira específica de Gomesa pubes foi verificada nesta passagem; meta de 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    "errosComuns": "❌ Girar ou mudar o vaso durante a formação da haste.\n❌ Usar recipiente leve que tombe com a inflorescência.\n❌ Cultivar em sombra profunda.\n❌ Manter substrato velho e compacto.\n❌ Enterrar o rizoma.\n❌ Forçar repouso seco após a maturação.\n❌ Exagerar no nitrogênio quando o pseudobulbo já está maduro.\n❌ Replantar fora da fase de emissão de novas raízes.",
+    "errosComuns": [
+    "Girar o vaso durante a formação da haste.",
+    "Usar recipiente leve para inflorescências altas.",
+    "Cultivar em sombra profunda.",
+    "Manter substrato velho e compacto.",
+    "Enterrar o rizoma.",
+    "Forçar repouso seco após a maturação.",
+    "Exagerar no nitrogênio após amadurecer brotos.",
+    "Replantar fora da emissão de raízes novas."
+],
     "dica": "🏆 Nesta Gomesa de hastes arqueadas, a posição do vaso influencia a apresentação da floração. Reserve espaço lateral ou abaixo da planta e evite girar o recipiente depois que a haste começar a crescer. Ofereça luz filtrada abundante, regas regulares durante a brotação e boa ventilação. Replante preferencialmente quando surgirem raízes novas, preservando as pontas ativas. Não tente endireitar hastes já rígidas: tutores leves, colocados cedo, reduzem o risco de quebra sem prejudicar o desenvolvimento natural.",
     revisaoCientificaIAR: {
         "nome": "Gomesa pubes",
