@@ -70,7 +70,16 @@ export const miltoniaRegnellii = {
         alerta: "Evitar vaso grande, substrato degradado, seca prolongada dos brotos, sombra profunda e sais acumulados. Inspecionar as raízes antes de interpretar pseudobulbos murchos como falta de água.",
         notaEvidencia: "MACS 1.1 — referência quantitativa horticultural específica para Miltonia regnellii: Julio Cesar Zanatta, Jardineiro.net, atualizado em 27/06/2026, recomenda partes iguais de casca de pinus, esfagno e carvão vegetal (https://www.jardineiro.net/plantas/violetinha-das-arvores-miltonia-regnellii.html). Receita visual 1/3 + 1/3 + 1/3 = 1 inteiro (100% em volume), sem arredondar incorretamente 33% × 3 para 100%. A mistura não foi comparada experimentalmente nesta espécie. Yamamoto et al. (2009), DOI 10.5433/1679-0359.2009v30n4Sup1p1035, estudaram mudas do HÍBRIDO Miltonia regnellii × Oncidium concolor, não a espécie pura; seus resultados não homologam a presente receita. POWO aceita Miltonia regnellii e Oncidium regnellii como sinônimo homotípico. Uma recomendação brasileira quantitativa específica identificada nesta passagem, sem atingir a meta de 25 produtores. Estrelas de recipientes não são validadas por ensaio."
     },
-    "errosComuns": "❌ Manter substrato velho, ácido ou compactado.\n❌ Usar vaso grande, que conserva umidade excessiva no centro.\n❌ Deixar o broto novo secar por longos períodos, causando folhas sanfonadas.\n❌ Interpretar pseudobulbo murcho como sede sem verificar raízes mortas.\n❌ Cultivar em sombra profunda, produzindo folhas escuras e poucas hastes.\n❌ Aplicar adubo concentrado ou deixar sais acumularem.\n❌ Replantar fora da fase de raízes novas.\n❌ Deixar água acumulada nas bainhas em noites quentes e abafadas.",
+    "errosComuns": [
+    "Manter substrato velho e compactado.",
+    "Usar vaso grande que conserva umidade excessiva.",
+    "Deixar brotos secarem durante a expansão foliar.",
+    "Confundir raízes mortas com simples falta de água.",
+    "Cultivar em sombra profunda.",
+    "Aplicar adubo concentrado.",
+    "Replantar fora da emissão de raízes novas.",
+    "Deixar água nas bainhas em noites abafadas."
+],
     "dica": "🏆 Nesta Miltonia, a formação de pseudobulbos robustos favorece hastes florais mais vigorosas. Durante o crescimento, ofereça água regular, boa luminosidade filtrada e adubação suave, com raízes sempre ventiladas. Folhas sanfonadas podem registrar falhas de hidratação ou problemas radiculares; examine o substrato antes de aumentar as regas. Replante preferencialmente quando surgirem raízes novas e evite dividir touceiras pequenas. Lave periodicamente o substrato para reduzir sais acumulados, protegendo as pontas radiculares que alimentarão os próximos brotos.",
     revisaoCientificaIAR: {
         "nome": "Miltonia regnellii",
