@@ -24,7 +24,7 @@ export const lockhartiaLunifera = {
     regiao: "Brasil tropical e subtropical",
     habitat: "Epífita em florestas úmidas · galhos ventilados.",
     clima: "Quente a intermediário · úmido e ventilado.",
-    climaFloracao: "A floração ocorre em caules maduros sob luz filtrada clara, umidade regular e boa circulação de ar. IOSPE registra a floração principalmente na primavera e no verão, com flores sucessivas na porção apical dos caules. Não há repouso seco verdadeiro: em períodos mais frios ou de menor crescimento, apenas reduza a frequência de rega conforme a evaporação. Caules verdes devem ser preservados, pois continuam fotossintetizando e podem manter pontos florais ativos.",
+    climaFloracao: "Gosta de clima quente a intermediário, umidade regular e boa ventilação, sendo adequada ao litoral. Na montanha, proteja do frio prolongado. A floração surge em caules maduros e pode continuar com flores sucessivas nas pontas. Mantenha luz filtrada abundante e regas regulares durante o crescimento. Não faça repouso seco e preserve os caules verdes, que ainda podem produzir flores.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
