@@ -1,6 +1,17 @@
 // Ficha refinada, comparada e enriquecida no padrão editorial V4.
 
 export const octomeriaMicrantha = {
+    errosComuns: [
+    "Enterrar a base dos ramicaules.",
+    "Cobrir as flores diminutas com substrato.",
+    "Arrancar bainhas firmes para procurar botões.",
+    "Dividir touceiras em grupos pequenos.",
+    "Deixar a montagem secar por vários dias.",
+    "Compactar esfagno sobre raízes finas.",
+    "Aplicar adubo concentrado.",
+    "Expor a miniatura ao sol direto forte."
+],
+
     dica: "🏆 As flores diminutas desta Octomeria podem passar despercebidas entre as folhas, por isso mantenha a touceira visível e evite cobrir as bases dos caules com substrato. Use montagem pequena e arejada, com umidade regular e luz filtrada. Não arranque bainhas firmes para procurar botões: isso pode ferir os tecidos. Preserve grupos de caules enraizados e evite divisões desnecessárias. Em clima quente, ajuste as regas à secagem do suporte, mantendo ventilação suave e protegendo raízes delicadas.",
     "id": "octomeria-micrantha",
     "nome": "Octomeria micrantha",
