@@ -29,7 +29,7 @@ export const maxillariaCamaridii = {
     "regiao": "América Central · Trinidad · norte e oeste da América do Sul · Brasil (Norte, Nordeste, Centro-Oeste e Sudeste)",
     "habitat": "Epífita de florestas tropicais úmidas, terra firme, várzea, mata ribeirinha, igapó e campinarana · de terras baixas a cerca de 1.200 m; registros mais amplos chegam a ~1.850 m.",
     "clima": "Quente a intermediário · úmido · pouca sazonalidade térmica nas populações de terras baixas.",
-    "climaFloracao": "A espécie ocorre em ampla faixa neotropical e não depende de frio pronunciado para florescer. Registros brasileiros mostram floração no período quente/chuvoso em algumas populações, enquanto referências de cultivo registram florações repetidas ao longo do ano. O fator mais consistente é crescimento maduro com boa luminosidade filtrada, umidade disponível e raízes ativas; não há evidência para impor repouso seco.",
+    "climaFloracao": "Prefere clima quente a intermediário, umidade regular e luz filtrada, sendo adequada ao litoral. Na montanha, pode florescer se protegida do frio prolongado. A floração depende de crescimento maduro e raízes ativas, podendo se repetir quando a planta está vigorosa. Mantenha boa ventilação e regas compatíveis com a secagem do suporte. Não precisa de frio intenso nem de repouso seco.",
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Permitido com restrição",
