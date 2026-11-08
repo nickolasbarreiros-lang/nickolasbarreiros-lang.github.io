@@ -22,7 +22,7 @@ export const oncidiumSphacelatum = {
     "https://upload.wikimedia.org/wikipedia/commons/1/16/Oncidium_sphacelatum_2.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/f/f7/Oncidium_sphacelatum_%2842110%29.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/c/c0/Oncidium_sphacelatum_%2842115%29.jpg",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Oncidium_sphacelatum_IMG_1744.jpg"
+    "https://images.tcdn.com.br/img/img_prod/1106264/oncidium_sphacelatum_com_haste_floral_851_1_029002a0c6cbbc9f313ff963fa6a2f41.jpg"
   ],
   "selosCultivo": {
     "rega": {
@@ -340,10 +340,10 @@ export const oncidiumSphacelatum = {
       "alteracoes": false
     },
     {
-      "autor": "Michael Wolf",
-      "origem": "https://commons.wikimedia.org/wiki/File:Oncidium_sphacelatum_IMG_1744.jpg",
-      "licenca": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "nomeLicenca": "CC BY-SA 3.0",
+      "autor": "Fotografia do catálogo do fornecedor (autoria não identificada)",
+      "origem": "https://images.tcdn.com.br/img/img_prod/1106264/oncidium_sphacelatum_com_haste_floral_851_1_029002a0c6cbbc9f313ff963fa6a2f41.jpg",
+      "licenca": "Direitos reservados — autorização de reprodução não verificada",
+      "nomeLicenca": "Direitos reservados",
       "alteracoes": false
     }
   ]
