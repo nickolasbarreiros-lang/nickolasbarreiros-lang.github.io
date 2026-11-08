@@ -26,7 +26,7 @@ export const bulbophyllumElassonotum = {
     regiao: "Assam · Myanmar · Tailândia · Camboja · Vietnã",
     habitat: "Florestas sazonais e úmidas · 0–1.200 m",
     clima: "Quente a fresco · ventilado",
-    climaFloracao: "Registros horticulturais divergem quanto à estação de floração; por isso, não se deve impor repouso seco ou frio para induzi-la. O desenvolvimento de novos pseudobulbos, a hidratação das raízes e a luminosidade filtrada devem orientar a observação do ciclo individual.",
+    climaFloracao: "Ocorre em florestas de baixa e média altitude, desde próximo ao nível do mar até cerca de 1.200 m. Litoral quente: favorável com luz filtrada, ventilação e umidade regular. Montanha: condicional quando houver frio prolongado. A floração depende de pseudobulbos maduros e raízes saudáveis; a sazonalidade natural pode alterar o ritmo de regas, mas não há exigência comprovada de repouso seco rigoroso nem de choque térmico.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
