@@ -33,7 +33,7 @@ export const macradeniaMultiflora = {
     habitat: "Epífita de ambientes florestais, incluindo matas ciliares e formações úmidas associadas ao Cerrado e florestas tropicais · de terras baixas a cerca de 1.000 m nas referências horticulturais.",
     clima: "Intermediário a quente · úmido · boa circulação de ar.",
 
-    climaFloracao: "Não exige repouso seco pronunciado. IOSPE descreve a espécie como perenifólia, com água e adubação regulares durante todo o ano, e floração do verão ao outono. Em cultivo brasileiro há relatos de floração predominante no verão e possibilidade de repetir a floração quando a planta está bem estabelecida.",
+    climaFloracao: "Gosta de clima quente a intermediário, umidade regular e boa ventilação. Pode florescer no litoral e na montanha, desde que não passe frio intenso. Mantenha luz filtrada, raízes ativas e regas regulares ao longo do ano. Plantas bem estabelecidas podem produzir novas hastes e repetir a floração. Não precisa de repouso seco nem de noites muito frias para formar flores.",
 
     iluminacao: {
         sombrite: "50% a 60%",
