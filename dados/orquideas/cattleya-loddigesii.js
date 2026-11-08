@@ -25,7 +25,7 @@ export const cattleyaLoddigesii = {
     regiao: "Sudeste ao Paraná",
     habitat: "Florestas sazonais · epífita ou rupícola",
     clima: "Quente a intermediário · sazonal",
-    climaFloracao: "A floração depende principalmente da maturação completa de pseudobulbos robustos sob boa luminosidade. No período mais frio ou de menor atividade, a frequência das regas pode ser reduzida, mas sem impor repouso seco rigoroso. Touceiras adultas com várias frentes produzem florações mais volumosas por concentrarem vários pseudobulbos maduros no mesmo ciclo.",
+    climaFloracao: "Prefere clima quente a intermediário e boa luminosidade, podendo florescer no litoral e na montanha, desde que não enfrente frio intenso. A floração vem de pseudobulbos maduros e bem nutridos. Durante a fase mais fresca ou de menor crescimento, aumente moderadamente os intervalos entre regas, sem deixar a planta desidratar. Touceiras adultas costumam produzir florações mais abundantes.",
     iluminacao: {
         sombrite: "40% a 60%; cerca de 50% como referência inicial",
         solDireto: "Permitido com restrição",
