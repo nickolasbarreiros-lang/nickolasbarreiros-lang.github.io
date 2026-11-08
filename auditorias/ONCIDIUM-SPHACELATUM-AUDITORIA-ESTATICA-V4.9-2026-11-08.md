@@ -33,3 +33,22 @@ NC State Extension (https://plants.ces.ncsu.edu/plants/oncidium-sphacelatum/) de
 
 
 Auditoria adicional (08/11): Orquídeas no Apê indica sol suave no início da manhã **ou final da tarde**, com proteção nas horas quentes. Corrigido horário no rascunho JavaScript; os quatro assets de substrato não tiveram existência física verificada, e a galeria continua sem imagens por falta de atribuição. Fonte: https://www.orquideasnoape.com.br/2021/01/orquidea-oncidium-sphacelatum.html
+
+## Conferência da biblioteca de assets — 08/11/2026
+
+Foi lido diretamente `js/biblioteca-cultivo-v4.js` e conferido o uso de `obterAssetCultivoV4` em `ficha.js`. **Todas as oito chaves usadas no rascunho existem no mapeamento oficial:**
+
+| Chave | Arquivo declarado |
+|---|---|
+| vaso-barro | imagens/cultivo-v4/vaso-barro.webp |
+| vaso-plastico-vasado | imagens/cultivo-v4/vaso-plastico-vasado-v2.webp |
+| cesto-madeira | imagens/cultivo-v4/cesto-madeira-v3.webp |
+| placa-tronco | imagens/cultivo-v4/placa-madeira-v3.webp |
+| casca-pinus | imagens/cultivo-v4/casca-pinus.webp |
+| chips-coco | imagens/cultivo-v4/fibra-coco.webp |
+| carvao-vegetal | imagens/cultivo-v4/carvao-vegetal.webp |
+| perlita | imagens/cultivo-v4/perlita.webp |
+
+As oito tentativas de leitura dos arquivos WebP pelo conector GitHub retornaram `UnicodeDecodeError` por se tratar de conteúdo binário. **Isso não é prova de arquivo quebrado**, mas impede validar aparência, integridade e correspondência visual pela leitura textual. Registrar **8/8 chaves mapeadas, 0/8 imagens visualmente inspecionadas**, e não confundir essas métricas. Não houve troca indevida de perlita por argila.
+
+**Conferência de renderização:** `criarSubstratoVisualV4` transforma `config.itens` via `obterAssetCultivoV4` e descarta itens sem `assetInfo.imagem`. Como as quatro chaves de substrato constam da biblioteca, a resolução textual é compatível; resta o teste no navegador. `fotos: []` permanece por ausência de atribuição genérica de licença no componente de galeria.
