@@ -144,7 +144,16 @@ export const bulbophyllumAmbrosia = {
         "notaEvidencia": "MACS 1.1 — revisão documental: Bulbophyllum ambrosia, miniatura epífita/litófita de rizoma rastejante e raízes finas, demanda umidade regular com aeração e rizoma exposto. Suportes placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; notas não homologadas. Receita visual alternativa para recipiente 35% pinus médio + 25% chips coco tratados + 25% perlita de granulometria adequada + 15% esfagno solto = 100%; receitaTexto e itens concordam. Receita percentual visual e textual coincidem; duas alternativas qualitativas distintas são apresentadas sem alegar equivalência ou homologação. Validar retenção de 15% esfagno, granulometria e secagem em clima quente; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     substrato: ["Esfagno de fibra longa solto + perlita de granulometria adequada","Chips de coco médios lavados + perlita de granulometria adequada + carvão vegetal miúdo + pequena fração de esfagno de fibra longa solto"],
-    errosComuns: "• Enterrar o rizoma.\n• Tratar a espécie como exclusivamente fria.\n• Usar substrato fino e compactado.\n• Deixar a planta secar por vários dias.\n• Manter saturação constante em noites quentes.\n• Cultivar em sombra profunda.\n• Adubar em concentração alta.\n• Manter substrato decomposto por tempo excessivo.\n• Confundir umidade ambiental elevada com falta de ventilação.",
+    errosComuns: [
+    "Enterrar o rizoma de crescimento rastejante.",
+    "Impor frio intenso para induzir a floração.",
+    "Usar substrato fino e compactado.",
+    "Deixar raízes secarem por vários dias.",
+    "Manter raízes saturadas em noites quentes.",
+    "Cultivar em sombra profunda.",
+    "Aplicar adubo concentrado nas raízes finas.",
+    "Manter substrato decomposto e sem ventilação."
+],
     dica: "🏆 O diferencial desta miniatura perfumada é dar espaço ao rizoma rastejante sem deixar as raízes secarem por tempo prolongado. Prefira placa ou recipiente raso, com uma pequena reserva de umidade e circulação constante de ar. Posicione os pseudobulbos sobre a superfície, sem enterrá-los, e permita que os novos crescimentos avancem livremente. Mantenha luz filtrada e regas ajustadas à secagem do suporte. Não tente induzir flores com frio intenso ou estiagem forçada: uma touceira estável e madura é mais importante.",
     revisaoCientificaIAR: {
         "nome": "Bulbophyllum ambrosia",
