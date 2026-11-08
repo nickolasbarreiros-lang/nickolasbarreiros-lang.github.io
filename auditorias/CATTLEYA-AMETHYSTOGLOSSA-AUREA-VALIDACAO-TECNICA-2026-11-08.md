@@ -59,3 +59,12 @@ Não marcar a ficha como homologada e não avançar para outra espécie enquanto
 - Orquídeas no Apê (https://www.orquideasnoape.com.br/2021/01/orquidea-cattleya-amethystoglossa.html): floração da espécie predominantemente agosto–outubro no Brasil, com ocorrência eventual em maio.
 - **Divergência a investigar:** calendário atual da forma aurea marca junho–novembro. O registro fotográfico específico de ‘Aurea Morinho’ em agosto confirma agosto, mas não valida isoladamente os meses de junho, julho e novembro. Evitar ampliar ou estreitar o calendário sem evidências suficientes para a forma cultivada.
 - Fontes de pesquisa in vitro (UFPR) não foram utilizadas para definir iluminação de plantas adultas, pois as condições experimentais não são equivalentes às de cultivo.
+
+## Resolução da divergência de floração — 08/11/2026
+
+- Fonte botânica prioritária: Flora do Brasil 2020, monografia de *Cattleya*, JBRJ (https://monografiasfloradobrasil.jbrj.gov.br/cattleya.pdf), que registra floração predominante de agosto a dezembro, com pico em setembro–outubro.
+- Evidência adicional: material examinado em cultivo floresceu em junho (Bastos 2009, referido em https://www.portalplantasdobrasil.com.br/orchidaceae-cattleya-amethystoglossa/).
+- Registro específico de forma aurea: ‘Aurea Morinho’, agosto de 2022, conforme pesquisa anterior.
+- Calendário indicativo corrigido para **junho, agosto, setembro, outubro, novembro, dezembro**. Junho é ocorrência ocasional; julho foi retirado por ausência de confirmação nas fontes examinadas.
+- Os dados sazonais são sobretudo da espécie, portanto não afirmam exclusividade da forma aurea.
+- Atualização pública no commit `a2326984686f1222f9804d27f3c5a122951d2cfd`.
