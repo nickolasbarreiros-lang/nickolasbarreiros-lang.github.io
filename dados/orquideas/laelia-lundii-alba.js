@@ -37,7 +37,7 @@ export const laeliaLundiiAlba = {
     regiao: "Forma clara de C. lundii · espécie nativa do Brasil, Bolívia, Paraguai e Argentina",
     habitat: "Como a espécie · epífita de ambientes tropicais sazonalmente secos; ocorrência rupícola ocasional a confirmar.",
     clima: "Quente a intermediário · bem ventilado.",
-    climaFloracao: "O manejo é o mesmo da espécie: crescimento ativo com água regular, raízes bem oxigenadas e luz alta filtrada, seguido de redução discreta da água quando a atividade diminui. A coloração alba não significa necessidade de sombra profunda. Touceiras adultas acumulam mais reservas e podem produzir várias flores claras simultaneamente.",
+    climaFloracao: "Gosta de clima quente a intermediário, boa ventilação e bastante claridade filtrada. Pode florescer no litoral e na montanha, com proteção contra frio intenso. A coloração branca das flores não significa que precise de sombra forte. Mantenha regas regulares enquanto os pseudobulbos crescem e aumente um pouco os intervalos depois da maturação. Não precisa de repouso seco rigoroso; touceiras adultas tendem a florescer melhor.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
