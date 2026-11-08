@@ -24,3 +24,25 @@ Pesquisa iniciada em 2026-11-08. **Documento de trabalho; não é ficha homologa
 - Formular mistura principal com percentuais que somem 100%, distinguir recomendação editorial de proporção experimental; exatamente duas alternativas sem percentuais.
 - Calcular IDC 3.2 e IAR 2.0 e documentar notas ponderadas, sem expor termos técnicos ao público.
 - Revisar todas as seções da ficha V4.9, testar sintaxe, imagens e integração; só adicionar ao índice após homologação.
+
+## Etapa 2 — imagens e suportes (2026-11-08)
+
+### Fotografias
+- **Candidata comprovadamente rotulada aurea:** Sylvio Rodrigues Pereira, Flickr, *Cattleya amethystoglossa 'Aurea Morinho'*, fotografada em 26/08/2022 em exposição de Juiz de Fora, orquidário Fabiana Lahr: https://www.flickr.com/photos/sylvio-orquideas/52314199521/ . **Uso na ficha depende de autorização/licença e obtenção de URL incorporável**, não presumir licença aberta.
+- A categoria Commons https://commons.wikimedia.org/wiki/Category:Cattleya_amethystoglossa contém fotografias da espécie, **sem identificação comprovada como forma aurea**. Não reutilizar como imagens dessa forma sem evidência de identidade.
+- Referência adicional de floração brasileira: foto de agosto de 2025 https://www.flickr.com/photos/sylvio-orquideas/54738244347 (espécie, não necessariamente aurea).
+
+### Seleção técnica preliminar de suportes (4 de 7)
+1. **Vaso de barro** — principal; boa estabilidade para planta grande e secagem/aeração de raízes espessas.
+2. **Vaso plástico vasado** — alternativa; boa ventilação, monitorar secagem e estabilidade.
+3. **Cachepô de madeira** — alternativa; raízes arejadas, exige rega mais atenta no calor.
+4. **Placa / tronco** — alternativa; compatível com hábito epífito, requer umidade e regas frequentes até enraizamento.
+
+Não selecionar vaso plástico comum como opção prioritária, nem raízes soltas/árvore viva, pois estes não oferecem vantagem clara sobre as quatro opções para cultivo doméstico de planta de grande porte. Fonte específica: Orquidário Thomes aceita barro, plástico, caixetas e placas rígidas com alta luminosidade e boa ventilação: https://www.orquidariothomes.com.br/cattleya-amethystoglossa-aurea-camaleao-x-aurea-mf-x-aurea-maria-luiza/prod-10263564/ . Referência geral de comparação: https://www.orquideasnoape.com.br/2021/01/orquidea-cattleya-amethystoglossa.html
+
+### Floração brasileira
+- Linhagem aurea no Orquidário Thomes: inverno.
+- 'Aurea Morinho' fotografada florida em 26 de agosto de 2022, inverno: https://www.flickr.com/photos/sylvio-orquideas/52314199521/
+- Espécie, sem confirmação da forma aurea: registros fotográficos em agosto de 2025 e 2012; isso reforça inverno, mas não permite fixar um mês único para todos os cultivares.
+
+**Status:** seleção de quatro suportes fundamentada documentalmente; fotos ainda não autorizadas/embutíveis. Não criar ficha pública antes de resolver galeria e concluir índices e receita.
