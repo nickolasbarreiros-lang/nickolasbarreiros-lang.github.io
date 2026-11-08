@@ -73,7 +73,16 @@ export const cyrtopodiumPodophyllum = {
         "alerta": "Aclimatar gradualmente à alta luminosidade. Reduzir regas e suspender adubação quando a folhagem amarelar naturalmente; não manter prato com água.",
         "notaEvidencia": "MACS 1.1: receita de cultivador brasileiro específica com 50% Areia grossa e 50% de Casca de pinus, Carvão vegetal ou Brita, isolados ou combinados. A receita visual de 50% Areia grossa + 25% Casca de pinus + 25% Carvão vegetal tem a fração areia documental B e divisão restante inferida D, NÃO homologada experimentalmente. As duas alternativas de 50/50 são documentais B, também sem ensaio. POWO classifica a espécie como epífita, enquanto literatura brasileira registra hábito terrestre/rupícola em restinga: divergência registrada na matriz. Asset de Areia grossa cadastrado na biblioteca V4. Estrelas D preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-035-CYRTOPODIUM-FLAVUM.md."
     },
-    "errosComuns": "Pouca luz; solo argiloso e compacto; prato com água; regar da mesma forma o ano inteiro; cortar pseudobulbos traseiros firmes; excesso de nitrogênio perto da dormência; confundir queda natural das folhas com doença; replantar durante emissão da haste; aclimatar ao sol de forma abrupta.",
+    "errosComuns": [
+    "Cultivar com pouca luminosidade.",
+    "Usar solo argiloso e compacto.",
+    "Deixar água parada sob o recipiente.",
+    "Regar igualmente durante crescimento e dormência.",
+    "Cortar pseudobulbos traseiros ainda firmes.",
+    "Exagerar no nitrogênio perto da dormência.",
+    "Confundir queda natural das folhas com doença.",
+    "Expor ao sol forte sem aclimatação."
+],
     "dica": "🏆 O diferencial desta espécie de ambientes abertos e sazonais é respeitar a formação e o repouso dos pseudobulbos. Durante o crescimento, ofereça luminosidade elevada, água e nutrição suficientes para produzir reservas robustas. Quando as folhas amarelecerem naturalmente e o crescimento parar, reduza bastante as regas e suspenda a adubação. Não tente compensar falta de luz com fertilizante rico em fósforo. Mantenha o recipiente bem drenado e observe a brotação para retomar gradualmente a hidratação na estação ativa.",
     revisaoCientificaIAR: {
         "nome": "Cyrtopodium flavum",
