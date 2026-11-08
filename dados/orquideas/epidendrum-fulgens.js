@@ -55,7 +55,7 @@ export const epidendrumFulgens = {
   ],
   "mesesFloracaoIndicativos": true,
   "clima": "Quente a intermediário, com alta luminosidade, ventilação e boa drenagem.",
-  "climaFloracao": "Espécie de restingas e afloramentos rochosos, registrada desde dunas próximas ao nível do mar até locais de aproximadamente 460 m. Floresce em populações sujeitas a temperaturas médias anuais bastante distintas, mostrando boa amplitude ecológica. Luz abundante, caules maduros e ventilação favorecem a floração. Não há evidência de exigência de quebra térmica ou repouso seco obrigatório; a espécie ocorre em ambientes costeiros com períodos de chuva e estiagem, mas não se deve impor seca artificial. Frio intenso, sombra persistente e substrato encharcado podem limitar o crescimento e a floração.",
+  "climaFloracao": "Muito adaptado ao litoral, gosta de clima quente a intermediário, sol abundante e excelente drenagem. Também pode florescer na montanha, desde que protegido de frio intenso. Caules maduros e boa luminosidade favorecem a formação das flores. Regue conforme a secagem do substrato, sem deixar as raízes constantemente encharcadas. Não precisa de noites frias nem de repouso seco obrigatório para florir.",
   "iluminacao": {
     "sombrite": "0–30% em plantas aclimatadas; proteção temporária após mudanças de ambiente",
     "solDireto": "Sol pleno",
