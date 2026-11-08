@@ -24,7 +24,12 @@ def main():
   if dup:issues.append(f'{name} duplicadas: {dup}')
  missing=sorted(set(imports)-set(disk));unlisted=sorted(set(disk)-set(imports))
  if missing:issues.append('Arquivos importados AUSENTES: '+', '.join(missing))
- if unlisted:issues.append('Arquivos sem importação: '+', '.join(unlisted))
+ if MANIFEST.exists():
+  reservados=set(json.loads(MANIFEST.read_text(encoding='utf-8')).get('arquivos_fora_catalogo',[]))
+ else:reservados=set()
+ if unlisted and set(unlisted)!=reservados:issues.append('Arquivos sem importação divergentes da reserva declarada: '+', '.join(unlisted))
+ if reservados & set(imports):issues.append('Arquivos reservados importados no catálogo: '+', '.join(sorted(reservados & set(imports))))
+ if reservados-set(disk):issues.append('Arquivos reservados AUSENTES: '+', '.join(sorted(reservados-set(disk))))
  if set(vars)!=set(members):issues.append('Diferença entre variáveis importadas e array: '+str(sorted(set(vars)^set(members))))
  for var,file in pairs:
   f=DIR/file
