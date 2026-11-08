@@ -36,7 +36,7 @@ export const octomeriaMicrantha = {
     "regiao": "Sudeste do Brasil · Paraguai · Argentina (Misiones)",
     "habitat": "Florestas · musgos e líquens.",
     "clima": "Quente a fresco · ventilado.",
-    "climaFloracao": "IOSPE descreve crescimento quente a fresco e ocorrência sobre musgos e líquens em florestas primárias. Portanto, não é adequado tratá-la como estritamente fria. No litoral quente, a melhor estratégia é compensar noites altas com ventilação constante, raízes expostas ao ar e sombra clara. A espécie tolera secagem superficial leve, mas não um repouso seco prolongado.",
+    "climaFloracao": "Prefere clima quente a intermediário, sombra luminosa e boa umidade do ar. Pode florescer no litoral e na montanha, desde que não enfrente calor abafado ou frio intenso. Mantenha as raízes arejadas e permita uma leve secagem superficial do suporte entre regas. Não faça repouso seco prolongado nem provoque mudanças bruscas de temperatura. Crescimentos saudáveis favorecem a formação das pequenas flores.",
     "iluminacao": {
         "sombrite": "60% a 75%",
         "solDireto": "Não permitido",
