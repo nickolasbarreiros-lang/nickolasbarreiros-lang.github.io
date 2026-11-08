@@ -36,15 +36,15 @@ export const cattleyaAmethystoglossaVarAurea = {
   },
   "mesesFloracao": [
     6,
-    7,
     8,
     9,
     10,
-    11
+    11,
+    12
   ],
   "mesesFloracaoIndicativos": true,
   "clima": "Quente a intermediário, com ventilação constante e raízes arejadas.",
-  "climaFloracao": "A floração costuma ocorrer no inverno e pode avançar pela primavera; a época varia entre linhagens e condições de cultivo.",
+  "climaFloracao": "A floração ocorre principalmente de agosto a dezembro, com pico em setembro e outubro. Há registros ocasionais em junho; a época varia conforme a linhagem e o cultivo.",
   "iluminacao": {
     "sombrite": "30–50% como ponto de partida, ajustando ao calor e à aclimatação",
     "solDireto": "Permitido com restrição",
@@ -52,7 +52,7 @@ export const cattleyaAmethystoglossaVarAurea = {
     "observacoes": "Prefere luz alta, com proteção do sol forte nas horas mais quentes. Introduza gradualmente qualquer exposição direta e observe as folhas.",
     "seloLuz": "vermelho"
   },
-  "floracao": "Floresce principalmente no inverno e na primavera, conforme a linhagem. Produz cachos de flores amarelas ou creme, geralmente pintalgadas, com labelo contrastante. As flores podem durar cerca de duas a três semanas. A espécie é perfumada, mas a intensidade do aroma varia entre exemplares.",
+  "floracao": "Floresce sobretudo de agosto a dezembro, com pico em setembro e outubro; há registros ocasionais em junho. Produz cachos de flores amarelas ou creme, geralmente pintalgadas, com labelo contrastante. As flores costumam durar cerca de duas a três semanas. Pode apresentar perfume, de intensidade variável.",
   "adubacao": "Durante o crescimento de raízes e pseudobulbos, adube em dose reduzida. Diminua quando o crescimento desacelerar e evite acúmulo de sais.",
   "rega": "Regue bem no crescimento ativo e espere o substrato perder boa parte da umidade antes da próxima rega. Em períodos frios, aumente o intervalo sem desidratar excessivamente a planta.",
   "suporte": [
