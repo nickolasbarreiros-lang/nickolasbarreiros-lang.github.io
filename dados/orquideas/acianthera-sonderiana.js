@@ -92,5 +92,16 @@ export const aciantheraSonderiana = {
         alerta: "Não compacte o esfagno. Em clima quente, mantenha umidade regular, mas permita boa oxigenação e drenagem; raízes finas sofrem tanto com secagem prolongada quanto com substrato abafado.",
         notaEvidencia: "MACS 1.1 — revisão documental: Acianthera sonderiana é miniatura epífita cespitosa de raízes finas, com necessidade de umidade regular e boa ventilação. Cultivo principal em placa/tronco com mínima lâmina de esfagno solto e rizoma exposto; mistura visual alternativa para vaso pequeno e perfurado: 35% pinus fino/médio + 30% casca de arroz carbonizada + 20% esfagno de fibra longa solto + 15% carvão vegetal pequeno = 100%. Receita textual e itens visuais correspondem. Exatamente duas alternativas qualitativas distintas, sem percentuais; estimativas antigas de 55/25/20 e 45/30/25 não integram as receitas exibidas. Em clima quente monitorar secagem e evitar esfagno compactado. Classificações de suportes são heurísticas, não resultados experimentais. Não foram documentados ensaios quantitativos específicos nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
     },
+    errosComuns: [
+    "Enterrar o rizoma rastejante no substrato.",
+    "Deixar raízes finas secarem por vários dias.",
+    "Compactar esfagno sobre raízes superficiais.",
+    "Cultivar em calor abafado e sem ventilação.",
+    "Expor a miniatura ao sol direto forte.",
+    "Aplicar adubo concentrado nas raízes.",
+    "Usar vaso profundo para uma planta pequena.",
+    "Acumular sais sem lavar o suporte."
+],
+
     dica: "🏆 O diferencial desta miniatura é manter umidade ao redor das raízes finas sem cobrir o rizoma rastejante. Uma placa rugosa com uma película solta de esfagno pode funcionar bem, desde que receba ventilação e regas ajustadas à secagem real. Em ambientes quentes, observe o suporte, pois raízes pequenas perdem água depressa. Evite adubação concentrada e lave periodicamente o suporte para reduzir o acúmulo de sais. A estabilidade do enraizamento costuma ser mais valiosa que mudanças frequentes de vaso ou posição.",
 };
