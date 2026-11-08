@@ -73,7 +73,16 @@ export const renantheraCoccinea = {
         alerta: "Evitar sombra excessiva, vasos pequenos, mistura fina, cortes de raízes aéreas e falta de tutor. Aumentar a exposição ao sol gradualmente; manter água abundante com secagem rápida.",
         notaEvidencia: "MACS 1.1: composição C por convergência de orientações gerais de Vanda e raízes aéreas; percentuais D inferenciais e NÃO HOMOLOGADOS para Renanthera coccinea. Não há receita específica percentual auditável nesta rodada. Apenas pequeno volume para fixação no cesto, sem preencher raízes. Estrelas D preservadas. Nomes canônicos de materiais; preparo separado. Matriz: auditorias/MACS-1.1-MATRIZ-033-RENANTHERA-COCCINEA.md."
     },
-    "errosComuns": "Sombra excessiva; vaso pequeno; substrato fino e retentivo; cortar raízes aéreas; falta de tutor; pouca ventilação; adubo concentrado em raízes secas; replantios frequentes; espaço vertical insuficiente; exposição repentina a sol forte sem aclimatação.",
+    "errosComuns": [
+    "Cultivar em sombra excessiva.",
+    "Usar vaso pequeno para raízes vigorosas.",
+    "Prender raízes aéreas em substrato compacto.",
+    "Cortar raízes aéreas saudáveis.",
+    "Deixar caules altos sem tutoramento.",
+    "Cultivar em ambiente pouco ventilado.",
+    "Aplicar adubo concentrado nas raízes secas.",
+    "Expor ao sol forte sem aclimatação."
+],
     "dica": "🏆 Esta Renanthera de crescimento vertical exige muito mais luminosidade que orquídeas de sombra. Acostume gradualmente a planta ao sol direto, começando pelos horários suaves e ampliando a exposição conforme a resposta das folhas. Cultive com raízes livres ou suporte muito ventilado, oferecendo água abundante durante o crescimento e secagem rápida depois. Reserve espaço para hastes ramificadas e evite podar caules saudáveis. Se a planta cresce sem florescer, avalie primeiro a luz e a maturidade, não imponha seca prolongada.",
     revisaoCientificaIAR: {
         "nome": "Renanthera coccinea",
