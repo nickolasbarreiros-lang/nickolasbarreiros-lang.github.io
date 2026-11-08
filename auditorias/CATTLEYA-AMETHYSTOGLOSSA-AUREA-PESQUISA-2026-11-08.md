@@ -134,3 +134,9 @@ Pesos: habitat 30%, temperatura 30%, água/umidade 5%, ventilação 5%, luminosi
 
 ### Escopo das notas
 Juízo técnico **provisório** baseado no perfil da espécie, não em ensaio regional controlado da forma aurea. Comparação orientativa: ficha *Cattleya schilleriana* do próprio catálogo (IDC 38; IAR litoral 97, montanha 68), **sem copiar notas**. Não inserir nomes de métodos nem explicações de cálculos nos menus públicos.
+
+## Registro brasileiro específico da forma aurea (confirmado em 08/11/2026)
+
+- Sylvio Rodrigues Pereira documentou **Cattleya amethystoglossa ‘Aurea Morinho’**, exemplar exposto pelo Orquidário Fabiana Lahr (Rio Claro, SP), com floração em **agosto de 2022**, inverno brasileiro. Fonte: https://www.flickr.com/photos/sylvio-orquideas/52314199521/ .
+- Esse registro **confirma agosto** entre os meses indicativos já marcados na ficha; não exige alterar o calendário.
+- A fotografia identifica explicitamente o cultivar, mas **a licença de reutilização não foi confirmada**. Não inserir na galeria até obter autorização ou licença adequada.
