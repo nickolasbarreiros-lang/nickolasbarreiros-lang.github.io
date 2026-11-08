@@ -169,11 +169,11 @@ export const cattleyaAmethystoglossaVarAurea = {
     "notaEvidencia": "Percentuais e estrelas dos suportes são propostas técnicas editoriais, não ensaios específicos da forma aurea. Galeria vazia deliberadamente: nenhuma imagem específica com licença de reutilização confirmada. O renderizador ficha.js possui fallback para fotos.length === 0, exibindo 'Imagem ainda não cadastrada', sem exigir alteração estrutural. Atenção: o asset chips-coco está mapeado na biblioteca para fibra-coco.webp; verificar adequação visual antes da publicação. Não publicar antes de resolver imagens e testes."
   },
   "errosComuns": [
-    "Pouca luminosidade prejudica a floração.",
-    "Substrato compactado ou permanentemente úmido danifica raízes.",
-    "Replantar sem início de raízes novas dificulta a recuperação.",
-    "Deixar pseudobulbos altos sem fixação movimenta raízes jovens.",
-    "Expor abruptamente ao sol forte provoca queimaduras."
+    "Pouca luminosidade prejudica a floração",
+    "Substrato compactado ou permanentemente úmido danifica raízes",
+    "Replantar sem início de raízes novas dificulta a recuperação",
+    "Deixar pseudobulbos altos sem fixação movimenta raízes jovens",
+    "Expor abruptamente ao sol forte provoca queimaduras"
   ],
   "revisaoCientificaIAR": {
     "nome": "Cattleya amethystoglossa forma aurea",
