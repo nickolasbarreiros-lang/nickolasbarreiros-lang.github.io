@@ -115,3 +115,13 @@ A coleção Smithsonian Gardens lista registros identificados como **Oncidium sp
 **Limite técnico:** buscas e páginas recuperadas não expuseram um URL direto estável e verificável do arquivo de imagem associado ao registro. Uma tentativa de abrir o objeto Smithsonian Gardens esgotou o tempo de resposta. Portanto **nenhuma URL de imagem foi validada**, e não se deve incluir em `fotos` um link inventado, página HTML ou foto de outro táxon.
 
 **Próxima operação técnica necessária:** inspecionar a seção `Image` / `View manifest` / IIIF do registro de objeto (não do resultado de busca), extrair o endereço da mídia, verificar o carregamento e conferir que a declaração de domínio público cobre a imagem. Alternativa: usar imagem CC BY-SA de Wikimedia somente após aprovação de apresentação de crédito no site, preservando o layout.
+
+## Revisão da viabilidade fotográfica Smithsonian — 08/11/2026
+
+Verificação independente do registro https://www.si.edu/object/popcorn-orchid:nmnheducation_11040918: a página identifica explicitamente *Oncidium sphacelatum* e declara **“This media is in the public domain”**, além de metadados CC0. Fonte alternativa de objeto: https://qrius.si.edu/browse/object/11040918 .
+
+O catálogo Smithsonian Gardens https://gardens.si.edu/collections/explore/object/ofeo-sg_2008-1051A também identifica a espécie e metadados CC0. Contudo, **a extração do URL direto da imagem não foi concluída**: a abertura do registro Gardens devolveu erro 500; o ambiente de execução local não conseguiu resolver o domínio Smithsonian para inspecionar o HTML; a busca textual não apresenta URL de arquivo. Logo, **0 imagens novas incorporadas**.
+
+**Risco editorial adicional:** o espécime do Q?rius é material de educação, possivelmente fotografado sem floração; não se deve escolhê-lo como imagem principal sem verificar visualmente a presença de flores. Um registro CC0 não basta para garantir que a imagem seja uma boa foto da espécie em floração.
+
+**Critério de aceite da galeria:** endereço de imagem HTTPS confirmado; abertura e inspeção visual; identificação *Oncidium sphacelatum*; condições de reutilização específicas da mídia; preferencialmente flores e haste. Sem essas quatro verificações, manter `fotos: []` no rascunho. Nenhuma alteração no renderizador autorizada.
