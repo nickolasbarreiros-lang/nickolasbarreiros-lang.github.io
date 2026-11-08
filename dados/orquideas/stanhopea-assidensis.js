@@ -64,7 +64,16 @@ export const stanhopeaAssidensis = {
         alerta: "Não usar vaso fechado, tela densa nem fundo obstruído. Evitar esfagno compactado, secagem completa no crescimento, sol forte e replantio durante a formação de hastes florais.",
         notaEvidencia: "MACS 1.1 — revisão documental: Stanhopea Assidensis, híbrido primário S. tigrina × S. wardii, hastes florais descendentes; cesto suspenso com fundo livre é requisito funcional para floração. Suportes cachepô madeira 5 estrelas, plástico vasado 4 apenas se fundo amplamente aberto, raízes soltas/cesto aramado 3; notas não homologadas comparativamente. Receita visual 40% chips coco grossos + 30% pinus médio + 20% perlita grossa + 10% esfagno solto = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem; duas alternativas qualitativas distintas são apresentadas separadamente. Verificar se partículas e 10% esfagno não obstruem a passagem das hastes e se mantêm umidade sem compactação. IOSPE atribui registro a Goldschmidt (1922), com parentais S. tigrina × S. wardii; OrchidWeb confirma parentais, data e aroma de baunilha. AOS recomenda, para Stanhopea em geral, cestos com fundo livre e casca de abeto + perlita 3:1 (orientação genérica, NÃO ensaio específico de Assidensis). Produto brasileiro Orquidário Maripá é cruzamento adicional S. nigroviolacea × Assidensis, NÃO Assidensis puro; receita do produto não valida esta grex. Zero produtores brasileiros com receita quantitativa específica da grex pura confirmados nesta passagem; meta de 25 não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    errosComuns: "Usar vaso fechado; bloquear o fundo da cesta; compactar o esfagno; deixar o substrato secar completamente durante o crescimento; manter a planta em ambiente abafado; expor ao sol forte; regar em excesso no inverno; replantar durante a formação de hastes florais.",
+    errosComuns: [
+    "Usar vaso fechado que bloqueia hastes pendentes.",
+    "Bloquear a saída inferior do cesto.",
+    "Compactar esfagno entre as raízes.",
+    "Deixar raízes secarem durante o crescimento.",
+    "Cultivar em ambiente abafado.",
+    "Expor folhas ao sol direto forte.",
+    "Encharcar o cesto no período frio.",
+    "Replantar durante a formação das hastes."
+],
     dica: "🏆 Neste híbrido de Stanhopea, o cesto suspenso é essencial: as hastes florais crescem para baixo e precisam atravessar livremente o substrato. Use fundo bem vazado e deixe espaço desobstruído abaixo da planta, sem pratos ou prateleiras. Durante o crescimento, mantenha umidade regular, raízes ventiladas e luz filtrada abundante. Inspecione a parte inferior quando surgirem botões, mas evite puxar ou redirecionar as hastes. Não replante durante a floração: movimentos podem danificar estruturas florais delicadas.",
     revisaoCientificaIAR: {
         "nome": "Stanhopea Assidensis",
