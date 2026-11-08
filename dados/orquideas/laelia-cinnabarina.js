@@ -27,7 +27,7 @@ export const laeliaCinnabarina = {
     regiao: "Minas Gerais e Rio de Janeiro",
     habitat: "Afloramentos rochosos · ~800–1.500 m.",
     clima: "Intermediário a fresco · alta luz · ventilado.",
-    climaFloracao: "Pseudobulbos maduros, alta luminosidade e boa diferença térmica entre dia e noite favorecem a floração. No litoral, preserve claridade elevada, mas evite que vaso e pedras acumulem calor; reduza a rega apenas conforme a atividade diminui, sem criar seca artificial extrema.",
+    climaFloracao: "Gosta de muita luz, ventilação e noites mais frescas, típicas de ambientes rochosos de altitude. A montanha favorece a floração; no litoral quente, procure um local claro, mas protegido do superaquecimento das raízes. Pseudobulbos maduros e diferença moderada entre dia e noite ajudam a formar flores. Reduza as regas quando o crescimento diminuir, sem deixar a planta passar por seca extrema.",
     iluminacao: {
         sombrite: "30% a 50%; iniciar com 40% a 50% em ambientes quentes",
         solDireto: "Permitido com restrição",
