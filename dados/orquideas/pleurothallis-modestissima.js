@@ -81,7 +81,16 @@ export const pleurothallisModestissima = {
         "alerta": "Use camada rasa de substrato e mantenha o rizoma sobre a superfície. O vaso deve permitir expansão lateral; evite recipientes fundos.",
         "notaEvidencia": "MACS 1.1 — revisão documental: Acianthera modestissima (sin. Pleurothallis modestissima), micro-orquídea epífita de floresta sazonalmente seca, com raízes finas e crescimento rasteiro. Vaso plástico baixo e largo é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e receitaTexto agora coincidem: 35% pinus fino + 30% brita pequena limpa e sem pó + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/casca de arroz carbonizada/carvão e pinus/perlita para miniaturas/pouco esfagno solto. Elas não originam os percentuais visuais. Afirmação anterior de ocorrência saxícola em afloramentos quartzíticos foi retirada por falta de confirmação específica; brita é proposta de drenagem, não evidência de habitat. Monitorar granulometria, retenção do esfagno, secagem e rizoma superficial. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas de suporte omitidas. Classe D — não homologada quantitativamente"
     },
-    "errosComuns": "Tratá-la como espécie obrigatoriamente fria; manter esfagno sempre encharcado; secar completamente por vários dias; vaso grande; pouco ar; excesso de adubo; sol forte sobre o suporte; replantar com frequência; usar água muito salina.",
+    "errosComuns": [
+    "Manter esfagno sempre encharcado.",
+    "Deixar raízes secarem por vários dias.",
+    "Usar vaso grande com secagem lenta.",
+    "Cultivar em ambiente sem ventilação.",
+    "Aplicar adubo concentrado.",
+    "Expor o suporte ao sol forte.",
+    "Replantar com frequência.",
+    "Usar água muito salina."
+],
     "dica": "🏆 Nesta micro-orquídea de ambientes sazonalmente secos, o segredo é combinar regas cuidadosas com raízes permanentemente arejadas. Prefira suporte pequeno e rugoso, em local de luz filtrada e ventilação suave. Durante o crescimento, hidrate conforme a secagem, evitando tanto encharcamento quanto longos períodos de desidratação. Não cubra os caules com esfagno compacto nem faça divisões frequentes. Observe folhas e raízes novas para ajustar a frequência das regas; a sazonalidade deve ser respeitada sem impor seca extrema.",
     revisaoCientificaIAR: {
         "nome": "Acianthera modestissima",
