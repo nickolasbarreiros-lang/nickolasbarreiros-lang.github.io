@@ -147,3 +147,10 @@ Juízo técnico **provisório** baseado no perfil da espécie, não em ensaio re
 - A categoria `Cattleya amethystoglossa` do Wikimedia Commons possui imagens da espécie, mas a identificação da forma aurea não está confirmada nas evidências examinadas: https://commons.wikimedia.org/wiki/Category:Cattleya_amethystoglossa
 - **Não confundir** com `Cattleya aurea` ou `Cattleya dowiana var. aurea`, nomes de outra entidade botânica.
 - Decisão: manter `fotos: []` até obtenção de foto específica com direito de uso comprovado; não inserir fotos típicas sob rótulo aurea.
+
+## Licença confirmada da fotografia ‘Aurea Morinho’ — 08/11/2026
+
+- A página original https://www.flickr.com/photos/sylvio-orquideas/52314199521/ exibe explicitamente **“All rights reserved”** no rodapé de licenciamento da foto.
+- Consequência: **não incorporar** a fotografia de Sylvio Rodrigues Pereira à galeria pública sem autorização expressa do titular. O crédito ao fotógrafo, isoladamente, não substitui a permissão.
+- A imagem é útil como evidência documental da identificação da forma aurea e da floração em agosto de 2022, mas não como asset livre para o site.
+- Manter `fotos: []` até encontrar licença compatível ou receber autorização expressa; não substituir por fotografias de exemplares típicos sem identificação da forma.
