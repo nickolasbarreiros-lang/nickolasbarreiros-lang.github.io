@@ -29,7 +29,7 @@ export const cattleyaWalkeriana = {
     "regiao": "Centro-Oeste e Sudeste",
     "habitat": "Cerrado e matas sazonais · epífita ou rupícola.",
     "clima": "Quente a intermediário · sazonal e ventilado.",
-    "climaFloracao": "A floração depende de pseudobulbos completamente maduros, folhas firmes, raízes preservadas, luz elevada e redução gradual das regas após o crescimento. A espécie não deve ser tratada como permanentemente seca: durante brotação e enraizamento precisa de água abundante e nutrição leve. Quando as pontas radiculares reduzem a atividade e os pseudobulbos estão cheios, aumentam-se os intervalos e suspende-se a adubação forte. Pouca luz, excesso de nitrogênio e raízes danificadas reduzem a formação do broto floral.",
+    "climaFloracao": "Prefere clima quente a intermediário, muita claridade e boa ventilação. Pode florescer no litoral e na montanha, desde que tenha uma fase mais seca após o crescimento. Regue bem enquanto surgem brotos e raízes; depois que os pseudobulbos amadurecerem, aumente os intervalos entre regas. Não deixe a planta desidratar excessivamente. Pouca luz e excesso de adubo nitrogenado podem reduzir a floração.",
     "iluminacao": {
         "sombrite": "30% a 50%; prefira maior proteção em ambientes muito quentes",
         "solDireto": "Permitido com restrição",
