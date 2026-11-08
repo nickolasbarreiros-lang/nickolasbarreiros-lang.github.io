@@ -30,3 +30,11 @@ Pendente: verificar quatro arquivos específicos, identificação, licença, aut
 - Revisão científica das notas IDC/IAR e níveis de evidência separados.
 - Produção do JS da ficha conforme padrão V4.9, integração ao índice e testes de sintaxe/renderização.
 **Não avançar à Cattleya amethystoglossa var. aurea até concluir estas etapas.**
+
+## Auditoria fotográfica — 2026-11-08 (etapa documental)
+- Kew POWO confirma o nome aceito e indica distribuição nativa de Pequenas Antilhas ao norte da América do Sul. https://powo.science.kew.org/taxon/92159-2
+- Galeria Commons da espécie: https://commons.wikimedia.org/wiki/Category:Epidendrum_secundum
+- Quatro candidatos nominais na galeria: `Epidendrum secundum Winaywayna 2.jpg`, `Epidendrum secundum - Peru.jpg`, `Epidendrum secundum (14327938312).jpg`, `Epidendrum secundum (1).jpg`. **Ainda não aprovados**: falta examinar individualmente histórico de identificação, licença, créditos, URL direta e carregamento.
+- **Excluir da seleção:** `Epidendrum secundum.jpg` (600 × 450, autor Dalton Holland Baptista), pois o comentário original de upload identifica `Epidendrum denticulatum`. https://commons.wikimedia.org/wiki/File:Epidendrum_secundum.jpg
+- Imagens de exemplares brasileiros devem receber revisão adicional pela delimitação taxonômica do complexo *E. secundum* / *E. denticulatum*.
+- **Não publicar fotos não verificadas.** A existência da galeria não certifica a identificação de cada imagem.
