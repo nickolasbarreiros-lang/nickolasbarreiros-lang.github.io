@@ -50,7 +50,7 @@ export const cattleyaAmethystoglossaVarAurea = {
     "solDireto": "Permitido com restrição",
     "horario": "Início da manhã ou final da tarde",
     "observacoes": "Prefere luz alta, com proteção do sol forte nas horas mais quentes. Introduza gradualmente qualquer exposição direta e observe as folhas.",
-    "seloLuz": "amarelo"
+    "seloLuz": "vermelho"
   },
   "floracao": "Floresce principalmente no inverno e na primavera, conforme a linhagem. Produz cachos de flores amarelas ou creme, geralmente pintalgadas, com labelo contrastante. As flores podem durar cerca de duas a três semanas. A espécie é perfumada, mas a intensidade do aroma varia entre exemplares.",
   "adubacao": "Durante o crescimento de raízes e pseudobulbos, adube em dose reduzida. Diminua quando o crescimento desacelerar e evite acúmulo de sais.",
