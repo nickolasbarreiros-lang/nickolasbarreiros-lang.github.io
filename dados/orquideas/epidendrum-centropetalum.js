@@ -26,7 +26,7 @@ export const epidendrumCentropetalum = {
     regiao: "Sul do México · América Central até o Panamá",
     habitat: "Epífita de florestas montanas úmidas, geralmente entre 1.200 e 1.500 m.",
     clima: "Intermediário a fresco, úmido e muito ventilado.",
-    climaFloracao: "Floresce melhor com boa luminosidade filtrada, umidade elevada e noites mais frescas. Em clima quente, o ponto crítico é reduzir o superaquecimento noturno e manter forte circulação de ar. A planta não exige seca intensa para florescer, mas aprecia uma leve redução de água quando os caules já estão maduros.",
+    climaFloracao: "Prefere clima intermediário a fresco, com umidade elevada e noites amenas. A montanha favorece a floração; no litoral quente, escolha um local ventilado e protegido do calor noturno. Mantenha luz filtrada abundante e raízes hidratadas enquanto os caules crescem. Depois da maturação, reduza levemente as regas se a secagem ficar mais lenta. Não precisa de frio intenso nem de uma longa seca.",
         iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
