@@ -7,6 +7,7 @@ import { prosthecheaVespa } from "./prosthechea-vespa.js";
 import { isabeliaPulchella } from "./isabelia-pulchella.js";
 import { aciantheraTeres } from "./acianthera-teres.js";
 import { aciantheraAuriculata } from "./acianthera-auriculata.js";
+import { epidendrumFulgens } from "./epidendrum-fulgens.js";
 import { epidendrumHokuleaSuperRed } from "./epidendrum-hokulea-super-red.js";
 import { gomesaCornigera } from "./gomesa-cornigera.js";
 import { masdevalliaInfracta } from "./masdevallia-infracta.js";
@@ -297,6 +298,7 @@ bulbophyllumSyciobulbon,
     prosthecheaFragrans,
     dinemaPolybulbon,
     aciantheraAuriculata,
+    epidendrumFulgens,
     epidendrumHokuleaSuperRed,
     gomesaCornigera,
     masdevalliaInfracta,
