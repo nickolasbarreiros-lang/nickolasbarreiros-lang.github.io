@@ -73,7 +73,16 @@ export const laeliaFournieri = {
         alerta: "Evitar calor abafado, vaso grande ou profundo, pedras superaquecidas, substrato decomposto e repouso seco exagerado. Replantar preferencialmente no início de novas raízes.",
         notaEvidencia: "MACS 1.1: POWO/Kew aceita Cattleya fournieri (sin. Laelia fournieri) como litófita endêmica de Minas Gerais; Flora do Brasil/JBRJ documenta hábito rupícola, especialmente sobre quartzito em campo rupestre, e não publica receita de cultivo. IOSPE descreve planta miniatura de afloramentos rochosos em altitude, sem ensaio de substrato. A mistura atual 40% brita fina/média + 30% perlita grossa + 20% casca de macadâmia + 10% pinus é inferência horticultural (70% mineral e 30% orgânica), NÃO HOMOLOGADA por experimento específico. Estudo sobre brita/turfa em Cattleya forbesii e Laelia purpurata é de OUTRAS espécies e não valida C. fournieri. Nesta passagem não foram identificados produtores brasileiros com receita quantitativa específica; meta de 25 não atingida. Estrelas e preferência por vaso de barro são hipóteses de manejo, não ranking experimental. As duas alternativas não possuem percentuais específicos publicados; a soma de 100% da receita principal não constitui validação científica."
     },
-    errosComuns: "• Cultivar em local quente e abafado.\n• Confundir hábito rupícola com necessidade de seca extrema.\n• Vaso grande, profundo ou com material compactado.\n• Deixar pedra ou vaso superaquecer ao sol.\n• Excesso de matéria orgânica decomposta no calor.\n• Replantar por conveniência quando não há novas raízes, salvo emergência.\n• Adubação concentrada e acúmulo de sais.\n• Repouso seco exagerado, levando rapidamente ao enrugamento dos pseudobulbos.",
+    errosComuns: [
+    "Cultivar em local quente e abafado.",
+    "Confundir hábito rupícola com seca extrema.",
+    "Usar vaso grande e profundo.",
+    "Deixar pedra ou vaso superaquecer ao sol.",
+    "Manter matéria orgânica decomposta no calor.",
+    "Replantar sem emissão de raízes novas.",
+    "Acumular sais de adubo nas raízes.",
+    "Impor repouso seco até enrugar os pseudobulbos."
+],
     dica: "🏆 O pequeno porte desta Cattleya de campos rupestres exige cuidado com o aquecimento do recipiente. Escolha vaso baixo e drenante, com pouco substrato e raízes bem ventiladas, mantendo luz intensa filtrada. Replante apenas quando surgirem raízes novas, para facilitar a fixação e reduzir perdas. Em clima quente, proteja o vaso do sol forte da tarde e observe a secagem com atenção. Não tente compensar temperaturas altas com encharcamento nem com seca prolongada: ambos podem prejudicar raízes delicadas.",
     revisaoCientificaIAR: {
         "nome": "Cattleya fournieri",
