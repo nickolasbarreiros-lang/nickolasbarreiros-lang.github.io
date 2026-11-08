@@ -90,3 +90,12 @@ Soma ponderada: 15×2 + 15×3 + 10×3 + 10×2 + 10×2 + 10×2 + 10×2 + 20×2 = 
 Pesos: habitat natural 30%, temperatura 30%, água/umidade 5%, ventilação 5%, luminosidade 5%, sazonalidade 5%, floração 20% (soma 100%). Notas de compatibilidade 1–5. Litoral quente: todos os sete fatores = 4, soma ponderada = 400; índice = **80/100**, **★★★★☆**. Montanha com noites frescas: habitat 4, temperatura 3, demais fatores 4; soma = 370; índice = **74/100**, **★★★★☆**. A classificação é hipótese de adaptação, não resultado de ensaio regional.
 
 **Ressalva científica:** a tolerância da espécie ao frio varia por procedência/altitude e aclimatação; as notas de temperatura devem ser revisitadas à luz de produtores brasileiros e observações de cultivo. Não herdar os índices 36, 78 e 90 do híbrido Summer Wind.
+
+## Registros brasileiros de floração — evidência específica (08/11/2026)
+
+- Sylvio Rodrigues Pereira, exemplar próprio em Juiz de Fora, MG, **novembro de 2022**, haste de **1,50 m e 76 flores**: https://www.flickr.com/photos/sylvio-orquideas/52507881316/
+- Mesmo cultivador, exemplar próprio, **outubro de 2025**: https://www.flickr.com/photos/sylvio-orquideas/54894599529
+- Orquídeas no Apê (Sergio Oyama Junior), relato de **floração na primavera**: https://www.orquideasnoape.com.br/2021/01/orquidea-oncidium-sphacelatum.html
+- Merten Orquídeas informa floração **indeterminada**, possível em outros meses: https://www.mertenorquideas.com.br/orquideas/oncidium/oncidium-sphacelatum-com-haste-floral
+
+**Decisão para calendário indicativo brasileiro:** marcar **outubro e novembro** como meses documentados; texto pode mencionar a **primavera** como período frequente em relatos brasileiros, mas não marcar automaticamente setembro/dezembro sem evidência mensal específica. A floração em outras épocas continua possível. **Não há duração específica confirmada para esta espécie nas fontes examinadas.** As fotos do Flickr servem de documentação de data e identificação, **não são autorização de reprodução**.
