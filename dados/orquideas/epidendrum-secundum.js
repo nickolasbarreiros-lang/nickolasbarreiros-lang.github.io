@@ -34,6 +34,17 @@ export const epidendrumSecundum = {
  {asset:"carvao-vegetal",nome:"Carvão vegetal granulado",proporcao:"10%",nota:"aeração",finalidade:"Contribui para a estrutura e a drenagem da mistura."}
  ],alerta:"Não utilize terra argilosa ou compactada. Observe a secagem real e evite água acumulada no fundo do vaso."},
  errosComuns:["Usar terra compacta que retém água por muitos dias.","Deixar o vaso permanentemente encharcado.","Cultivar com luminosidade insuficiente para florescer.","Expor repentinamente ao sol forte do meio do dia.","Cortar hastes verdes que ainda podem produzir ramificações florais ou keikis."],
+ revisaoCientificaIAR:{
+  nome:"Epidendrum secundum Jacq.",
+  statusTaxonomico:"Nome aceito em POWO/Kew; a delimitação de exemplares brasileiros requer cautela devido ao complexo de espécies próximas.",
+  sinonimosPrincipais:"Consultar POWO/Kew para a lista de sinônimos; não confundir automaticamente com Epidendrum denticulatum.",
+  morfologiaDimensoes:"Caules eretos em forma de cana, folhas coriáceas, inflorescência terminal com flores geralmente róseas; estudo brasileiro documentou até 130 flores por inflorescência e ramificações secundárias ocasionais em pedúnculos antigos.",
+  habitatAltitudeClima:"Terrestre ou rupícola em áreas abertas e rochosas, ocasionalmente epífita; registros brasileiros incluem solos ácidos em áreas perturbadas.",
+  distribuicaoGeografica:"POWO/Kew delimita a distribuição nativa às Pequenas Antilhas e ao norte da América do Sul; a literatura florística brasileira emprega conceito taxonômico mais amplo.",
+  cultivoPremiacao:"Floração ao longo do ano, com pico entre setembro e janeiro; cada flor permanece aberta cerca de sete dias nas populações estudadas por Pansarin e Amaral (2008).",
+  confianca:"moderada",
+  fontes:["POWO/Kew","World Flora Online","CNCFlora/JBRJ","Pansarin & Amaral (2008), Plant Biology 10:211–219","Pinheiro & Barros (2007), delimitação de E. secundum e E. denticulatum"]
+ },
  indiceDificuldadeCultivo:{versao:"IDC 3.2 — selo por facilidade",escala:"dificuldade",indice:22,classificacao:"Fácil",cultivoEstrelas:5,criterios:{
  temperatura:{notaDificuldade:1,peso:15},rega:{notaDificuldade:1,peso:15},umidade:{notaDificuldade:1,peso:10},ventilacao:{notaDificuldade:1,peso:10},luminosidade:{notaDificuldade:2,peso:10},raizesSubstrato:{notaDificuldade:1,peso:10},sazonalidade:{notaDificuldade:1,peso:10},floracao:{notaDificuldade:1,peso:20}}},
  indiceAdaptacaoRegional:{versao:"IAR 2.0 — revisão científica",escala:"compatibilidade regional",litoralQuente:{indice:82,estrelas:5,fatores:{
