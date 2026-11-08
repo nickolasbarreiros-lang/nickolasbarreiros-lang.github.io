@@ -28,7 +28,7 @@ export const rodricidium = {
     "regiao": "Sem distribuição natural · híbrido Oncidium × Rodriguezia",
     "habitat": "Sem habitat natural; comportamento predominantemente epífito.",
     "clima": "Intermediário a quente; úmido e ventilado.",
-    "climaFloracao": "Pode florescer após a maturação de novos pseudobulbos, frequentemente mais de uma vez ao ano. Alta luminosidade filtrada, raízes saudáveis e secagem rápida favorecem novas hastes. O replante deve coincidir com a emissão de brotos e raízes novas para evitar longa estagnação.",
+    "climaFloracao": "Este híbrido prefere clima quente a intermediário, boa luminosidade filtrada e ventilação. Pode florescer no litoral e na montanha, desde que protegido do frio intenso. Novos pseudobulbos maduros e raízes saudáveis favorecem a formação das hastes, que podem surgir mais de uma vez ao ano. Mantenha regas regulares durante o crescimento e boa drenagem. Não precisa de repouso seco rigoroso.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
