@@ -28,7 +28,7 @@ export const renantheraCoccinea = {
     "regiao": "Sul da China · Myanmar · Laos · Vietnã · Tailândia",
     "habitat": "Rochas abertas e florestas · 100–1.200 m.",
     "clima": "Quente a ameno · muito claro · ventilado.",
-    "climaFloracao": "A espécie ocorre em ampla faixa altitudinal e pode crescer de quente a fresco, mas sua exigência por alta luminosidade é consistente. No litoral quente, o calor por si só raramente é o principal limitante; sombra excessiva, raízes abafadas e falta de ventilação são problemas maiores. Plantas adultas, bem iluminadas e com sistema radicular ativo florescem com mais regularidade.",
+    "climaFloracao": "Gosta de clima quente a intermediário, sol abundante após aclimatação e excelente ventilação. O litoral é favorável à floração; na montanha, proteja de frio prolongado. Plantas adultas precisam de muita luminosidade e raízes ativas para formar hastes florais. Regue bem durante o crescimento, deixando as raízes respirarem entre regas. Não precisa de repouso seco nem de frio intenso; sombra excessiva costuma impedir as flores.",
     "iluminacao": {
         "sombrite": "20% a 40%; reduzir gradualmente conforme a aclimatação",
         "solDireto": "Sol pleno",
