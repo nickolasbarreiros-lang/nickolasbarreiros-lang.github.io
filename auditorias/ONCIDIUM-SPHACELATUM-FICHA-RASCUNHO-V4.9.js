@@ -46,8 +46,8 @@ export const oncidiumSphacelatum = {
   "iluminacao": {
     "sombrite": "Cerca de 50% como referência inicial, ajustando ao calor",
     "solDireto": "Permitido com restrição",
-    "horario": "Somente início da manhã",
-    "observacoes": "Ofereça luminosidade abundante, preferencialmente filtrada, com ventilação constante. Uma tela de cerca de 50% de sombreamento pode servir como ponto inicial, mas o ajuste depende do calor, da posição da planta e da aclimatação. Sol suave no início da manhã pode ser tolerado; evite expor abruptamente folhas cultivadas à sombra ao sol forte. Folhas muito escuras e floração escassa podem indicar pouca luz; amarelecimento excessivo, manchas secas ou folhas muito aquecidas sugerem exposição excessiva. Aumente ou reduza a proteção gradualmente, observando principalmente o crescimento novo e a temperatura das folhas.",
+    "horario": "Início da manhã ou final da tarde",
+    "observacoes": "Ofereça luminosidade abundante, preferencialmente filtrada, com ventilação constante. Uma tela de cerca de 50% de sombreamento pode servir como ponto inicial, mas o ajuste depende do calor, da posição da planta e da aclimatação. Sol suave no início da manhã ou no final da tarde pode ser tolerado; evite expor abruptamente folhas cultivadas à sombra ao sol forte. Folhas muito escuras e floração escassa podem indicar pouca luz; amarelecimento excessivo, manchas secas ou folhas muito aquecidas sugerem exposição excessiva. Aumente ou reduza a proteção gradualmente, observando principalmente o crescimento novo e a temperatura das folhas.",
     "seloLuz": "vermelho"
   },
   "floracao": "Hastes arqueadas e ramificadas, que podem atingir aproximadamente 1,8 m, sustentam numerosas flores amarelas com manchas castanhas, de cerca de 2,5 cm. O perfume costuma ser discreto. Há registros brasileiros em outubro e novembro; outras épocas são possíveis. A duração exata da floração não está bem documentada.",
