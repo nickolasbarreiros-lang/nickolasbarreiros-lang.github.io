@@ -30,3 +30,10 @@
 4. Confirmar luz, rega, descanso, duração de floração e reflorescência com fontes específicas, ou registrar incerteza no relatório sem expor termos internos na ficha pública.
 5. Revisar sintaxe, assets e consistência dos campos com modelo V4.9; somente depois trocar importação e item do índice oficial.
 6. Não alterar estrutura de ficha.js nem outras espécies.
+
+## Retificação documental — 08/11/2026
+- **Calendário:** conferência direta da tabela do Guia de Nativas Ornamentais de Restinga (Instituto Hórus, 2019, p. 13) mostrou pontos nos **12 meses, incluindo agosto**. A anotação anterior que excluía agosto estava errada. Rascunho corrigido para janeiro–dezembro como meses **possíveis**, não floração contínua em cada planta. Fonte: https://institutohorus.org.br/download/artigos/Guia_nativas_ornamentais_restinga_2019.pdf
+- O levantamento taxonômico do Paraná também registra flores/frutos praticamente o ano inteiro: https://www.scielo.br/j/abb/a/xDqBk7KmXYhcgWNsKZw7wBr
+- **Fotografias:** páginas originais no Commons confirmadas para Epidendrum_fulgens_Brazil.jpg (Nave do Conhecimento, CC0 1.0), Epidendrum_fulgens.jpg (fotografia de M. A. P. Accardo Filho, CC BY-SA 3.0) e Epidendrum_fulgens_1.jpg (Marcia Stefani, CC BY 2.0). URLs de galeria usam Special:FilePath; carregamento no site ainda não testado.
+- **Receita de substrato 35/30/25/10:** soma 100%, coerente com solos arenosos, mas proporções editoriais, sem ensaio comparativo ou homologação com 25 produtores.
+- **IDC/IAR:** valores do rascunho são hipóteses editoriais e requerem conferência de cada peso e fator antes da publicação.
