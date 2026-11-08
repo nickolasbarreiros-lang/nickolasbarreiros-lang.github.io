@@ -24,7 +24,7 @@ export const sophronitisCernua = {
     regiao: "Brasil, Paraguai e nordeste da Argentina",
     habitat: "Epífita/litófita · áreas claras e ventiladas · litoral ao interior.",
     clima: "Quente a intermediário · alta ventilação.",
-    climaFloracao: "A espécie responde melhor à combinação de pseudobulbos maduros, luminosidade alta, ventilação constante e alguma diferença térmica entre dia e noite. Populações litorâneas mostram que frio intenso não é requisito universal. No litoral quente, o ponto-chave é manter raízes aeradas e evitar abafamento durante noites quentes.",
+    climaFloracao: "Gosta de clima quente a intermediário, muita claridade e ventilação constante. Pode florescer no litoral e na montanha, com proteção contra temperaturas extremas. Pseudobulbos maduros e raízes bem arejadas favorecem as flores. Uma diferença moderada entre dia e noite pode ajudar, mas frio intenso não é necessário. Regue conforme a secagem do suporte, sem impor repouso seco prolongado.",
     iluminacao: {
         sombrite: "30% a 50%",
         solDireto: "Permitido com restrição",
