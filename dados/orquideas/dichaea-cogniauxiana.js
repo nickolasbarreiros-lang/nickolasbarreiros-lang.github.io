@@ -26,7 +26,7 @@ export const dichaeaCogniauxiana = {
     regiao: "Nordeste, Centro-Oeste, Sudeste e Sul",
     habitat: "Florestas úmidas e sombreadas · epífita ou rupícola.",
     clima: "Úmido · sombreado · intermediário a fresco.",
-    climaFloracao: "Intermediário a fresco, com elevada umidade atmosférica e boa circulação de ar. No litoral quente, proteja principalmente do superaquecimento noturno e do ar parado. Noites mais amenas podem favorecer o vigor, mas não há ensaio específico que demonstre exigência de queda térmica para induzir a floração.",
+    climaFloracao: "Prefere clima intermediário a fresco, com sombra luminosa, umidade elevada e boa ventilação. A montanha costuma favorecer a floração; no litoral quente, procure um local protegido das noites abafadas. Mantenha as raízes hidratadas, sem deixar a planta secar por muito tempo. Noites amenas ajudam no conforto da planta, mas não é necessário provocar choque térmico nem repouso seco para estimular flores.",
         iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não permitido",
