@@ -28,7 +28,7 @@ export const encycliaBracteata = {
     regiao: "Bahia e Sudeste brasileiro",
     habitat: "Mata Atlântica · epífita · ~10–500 m.",
     clima: "Quente a intermediário · ventilado.",
-    climaFloracao: "A espécie vem de baixa altitude e não necessita de frio para florescer. O estímulo mais importante é completar pseudobulbos maduros sob luminosidade elevada filtrada, seguida de leve redução na frequência das regas. IOSPE registra floração na primavera em natureza e do fim do verão ao início do outono em cultivo, mostrando que o calendário varia conforme hemisfério e condições de cultivo.",
+    climaFloracao: "Gosta de clima quente a intermediário, sendo bem adaptada ao litoral. Na montanha, também pode florescer se protegida do frio prolongado. Ofereça muita claridade filtrada e boa ventilação para formar pseudobulbos fortes. Depois da maturação, aumente um pouco o intervalo entre regas. Não precisa de noites frias nem de seca intensa; luz insuficiente costuma ser um obstáculo maior à floração.",
         iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
