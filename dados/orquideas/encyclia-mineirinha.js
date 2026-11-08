@@ -64,7 +64,16 @@ export const encycliaMineirinha = {
         alerta: "Não catalogar como espécie pura: é híbrido de E. patens × E. oliveirana. Evitar sombra excessiva, rizoma enterrado, vaso grande e substrato compacto.",
         notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D). Receita 35% macadâmia + 30% pinus + 20% perlita + 15% carvão = 100%, sem ensaio quantitativo. Quatro suportes sem estrelas comparativas. Orquidário Wolf confirma cruzamento E. patens × E. oliveirana e variação floral, mas não valida percentuais nem hierarquia de suportes. POWO confirma a ecologia dos parentais. Não comprovados registro RHS do nome comercial, premiação AOS específica ou confronto individualizado com 25 produtores brasileiros."
     },
-    errosComuns: "Catalogar como espécie pura; sombra excessiva; vaso grande; substrato compacto; rizoma enterrado; água acumulada no fundo; esfagno denso.",
+    errosComuns: [
+    "Cultivar em sombra excessiva.",
+    "Usar vaso grande com secagem lenta.",
+    "Manter substrato compacto.",
+    "Enterrar o rizoma.",
+    "Deixar água acumulada no fundo do vaso.",
+    "Cobrir raízes com esfagno denso.",
+    "Reduzir regas durante o crescimento ativo.",
+    "Tratar todos os clones do híbrido como idênticos."
+],
     dica: "🏆 Neste híbrido de Encyclia patens com Encyclia oliveirana, priorize aeração das raízes e luminosidade suficiente para amadurecer pseudobulbos firmes. Use vaso proporcional, substrato grosso e rizoma superficial, evitando umidade parada junto às bases. Durante a brotação, regue bem e deixe o material perder parte da umidade antes de repetir. Como cada exemplar pode apresentar diferenças herdadas dos parentais, observe sua resposta antes de impor repouso seco. O vigor das novas frentes é um indicador mais útil que um calendário rígido.",
     revisaoCientificaIAR: {
         nome: "Encyclia 'Mineirinha' (híbrido horticultural)",
