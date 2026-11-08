@@ -73,7 +73,16 @@ export const colmanaraWildcat = {
         "alerta": "Evitar vaso grande e substrato envelhecido. Replantar preferencialmente quando o novo broto começar a emitir raízes curtas, preservando as raízes delicadas.",
         "notaEvidencia": "MACS 1.1: Oncostele Wildcat, antigo Colmanara Wildcat, grex registrado em 1992. AOS recomenda substrato baseado em casca e ventilação para calor; Orquidário Oriental publica para Wildcat Leopard mistura de Casca de pinus, Fibra de coco e Carvão vegetal, sem percentuais. New England Botanic Garden também recomenda mistura drenante, porém de composição distinta. R1 50% Casca de pinus + 30% Fibra de coco + 20% Carvão vegetal: composição B qualitativa específica, percentuais D inferenciais NÃO HOMOLOGADOS. R2/R3 também D. Corrigido asset de Fibra de coco, sem usar Chips de coco. Matriz: auditorias/MACS-1.1-MATRIZ-041-ONCOSTELE-WILDCAT.md."
     },
-    "errosComuns": "Replantar quando as raízes novas já estão longas; vaso grande; enterrar o rizoma; substrato velho e compactado; sombra profunda; excesso de sais; água acumulada no broto; dividir com poucos pseudobulbos; confundir enrugamento por raiz perdida com falta de rega.",
+    "errosComuns": [
+    "Replantar quando raízes novas já estão longas.",
+    "Usar vaso grande que demora a secar.",
+    "Enterrar o rizoma.",
+    "Manter substrato velho e compactado.",
+    "Cultivar em sombra profunda.",
+    "Acumular sais de fertilizante.",
+    "Deixar água parada nos brotos.",
+    "Confundir raízes perdidas com falta de rega."
+],
     "dica": "🏆 Neste híbrido do grupo Oncidium, o momento do replantio influencia diretamente a força da próxima floração. Espere o broto novo começar a emitir raízes curtas e ativas; assim, elas conseguem ocupar rapidamente o substrato fresco. Evite replantar quando as raízes novas já estiverem longas e aderidas, pois quebram facilmente. Use mistura arejada que retenha alguma umidade, sem encharcar. Durante o crescimento, mantenha luz filtrada e regas regulares. Pseudobulbos firmes e raízes saudáveis favorecem novas hastes florais.",
     revisaoCientificaIAR: {
         "nome": "Oncostele Wildcat",
