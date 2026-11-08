@@ -166,12 +166,15 @@ export const cattleyaAmethystoglossaVarAurea = {
     "alerta": "Evite substrato compactado e encharcamento; mantenha a planta firme e o rizoma acima da mistura."
   },
   "errosComuns": [
-    "Pouca luminosidade prejudica a floração",
-    "Substrato compactado ou permanentemente úmido danifica raízes",
-    "Replantar sem início de raízes novas dificulta a recuperação",
-    "Deixar pseudobulbos altos sem fixação movimenta raízes jovens",
-    "Expor abruptamente ao sol forte provoca queimaduras"
-  ],
+    "Cultivar com pouca luz e prejudicar a floração.",
+    "Usar substrato compactado e sempre úmido.",
+    "Replantar sem início de raízes novas.",
+    "Deixar pseudobulbos altos sem fixação.",
+    "Expor folhas ao sol forte sem adaptação.",
+    "Usar vaso instável para a planta alta.",
+    "Dividir a touceira antes de acumular reservas.",
+    "Secar demais durante a formação dos brotos."
+],
   "revisaoCientificaIAR": {
     "nome": "Cattleya amethystoglossa forma aurea",
     "statusTaxonomico": "Cattleya amethystoglossa é espécie aceita; aurea é designação horticultural de cor, não variedade formal confirmada.",
