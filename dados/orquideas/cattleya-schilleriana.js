@@ -27,7 +27,7 @@ export const cattleyaSchilleriana = {
     "regiao": "Leste da Bahia ao Espírito Santo",
     "habitat": "Matas e paredões úmidos · 0–800 m.",
     "clima": "Quente a intermediário · muito ventilado.",
-    "climaFloracao": "A indução floral está associada ao amadurecimento completo do pseudobulbo, à alta luminosidade filtrada, ao bom estado das raízes e a uma leve redução da disponibilidade de água após o término do crescimento. Não se trata de uma dormência seca rígida: no habitat, a planta continua recebendo umidade noturna, orvalho e chuvas ocasionais, mas as raízes secam rapidamente devido à ventilação. A floração é prejudicada quando o pseudobulbo permanece fino por falta de luz, quando o sistema radicular foi perdido por encharcamento ou quando a planta é replantada pouco antes da maturação. Em regiões quentes, a diferença entre dia e noite, a circulação de ar e a secagem radicular são mais importantes que o frio. Uma planta bem estabelecida pode emitir nova frente e florescer novamente, mas isso depende do vigor acumulado e não deve ser forçado com excesso de adubo.",
+    "climaFloracao": "Muito adequada ao clima quente do litoral, prefere bastante claridade e raízes sempre bem ventiladas. Na montanha, pode florescer se protegida de frio prolongado. A floração depende de pseudobulbos maduros e raízes saudáveis. Após o crescimento, espaçe um pouco as regas, permitindo secagem rápida sem desidratação severa. Evite sombra excessiva e substrato constantemente molhado, que prejudicam a formação das flores.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
