@@ -25,7 +25,7 @@ export const maxillariaSubulata = {
     "regiao": "Mata Atlântica · Bahia ao Sul",
     "habitat": "Epífita/rupícola · florestas tropicais úmidas.",
     "clima": "Quente a fresco · úmido e arejado.",
-    "climaFloracao": "IOSPE registra floração na primavera, com hastes curtas e uma única flor de cerca de 2,5 cm. A espécie ocorre em uma ampla faixa latitudinal brasileira e não deve ser tratada como estritamente fria. No litoral quente, boa ventilação, luz filtrada clara e um substrato que seque rapidamente são mais importantes que tentar impor resfriamento artificial ou repouso seco.",
+    "climaFloracao": "Gosta de clima quente a intermediário, luz filtrada abundante e boa ventilação. Pode florescer no litoral e na montanha, com proteção contra temperaturas extremas. A floração depende de crescimentos maduros e raízes saudáveis. Regue regularmente enquanto a planta cresce, deixando o suporte secar adequadamente entre regas. Não precisa de choque térmico nem de repouso seco rigoroso.",
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Não permitido",
