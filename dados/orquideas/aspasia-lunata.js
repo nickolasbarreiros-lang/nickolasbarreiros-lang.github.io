@@ -24,7 +24,7 @@ export const aspasiaLunata = {
     regiao: "Bolívia · Brasil (Centro-Oeste, Sudeste e Sul)",
     habitat: "Florestas tropicais úmidas; epífita sob luz filtrada.",
     clima: "Quente a fresco · úmido e ventilado.",
-    climaFloracao: "A floração é favorecida por pseudobulbos maduros, boa luminosidade filtrada, ventilação constante e crescimento vegetativo vigoroso. Não necessita de repouso seco rigoroso; após a maturação dos pseudobulbos, apenas aumente moderadamente o intervalo entre as regas conforme a evaporação diminuir.",
+    climaFloracao: "Prefere clima intermediário a quente, com umidade e boa ventilação; não há altitude única obrigatória para florescer. Litoral quente: favorável se protegido de abafamento. Montanha: favorável sem frio excessivo. A floração depende de pseudobulbos maduros e luz filtrada suficiente. Após florescer, pode receber breve redução de regas conforme o crescimento desacelera, mas não precisa de seca rigorosa nem de choque térmico.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Permitido com restrição",
