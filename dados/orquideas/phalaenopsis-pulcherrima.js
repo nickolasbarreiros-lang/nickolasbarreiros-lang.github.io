@@ -26,7 +26,7 @@ export const phalaenopsisPulcherrima = {
     regiao: "Assam · Indochina · Hainan · oeste da Malésia",
     habitat: "Litófita ou terrestre em rochas e solos arenosos de regiões tropicais úmidas.",
     clima: "Quente, úmido, claro e ventilado.",
-    climaFloracao: "Gosta de calor e não depende de frio para induzir a floração. Boa luminosidade, raízes ativas e hidratação regular favorecem hastes longas e sucessivas. Em clima quente, encontra condições bastante favoráveis.",
+    climaFloracao: "Gosta de clima quente, bastante claridade e excelente drenagem, sendo muito adequada ao litoral. Na montanha, precisa de proteção contra frio prolongado. Mantenha as raízes ativas e regas regulares durante o crescimento. Boa luminosidade favorece hastes longas, que podem abrir flores sucessivamente. Não precisa de noites frias nem de repouso seco para florescer.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
