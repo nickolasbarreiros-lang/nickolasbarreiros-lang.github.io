@@ -93,7 +93,16 @@ export const cattleyaAclandiaeTipo = {
     "alerta": "Cultivo principal em cesto aberto ou placa/tronco; não cobrir as raízes com mistura compacta.",
     "notaEvidencia": "MACS 1.1: POWO aceita Cattleya aclandiae como epífita. Quatro fontes comerciais brasileiras citadas anteriormente, sem reconfirmação integral nesta revisão: Orquidário 4 Estações (cachepô com pinus ou placa), Orquidário Thomes (suportes ventilados), Orquídeas & Cia (pinus grosso e brita) e Orquidário Matsuoka (toco ou substrato genérico em variedade Nigrescens). Missouri Botanical Garden documenta genericamente 5 partes de casca de abeto média para 1 de carvão horticultural para Cattleyas e outras simpodiais (a troca por pinus grosso é adaptação, não receita literal): https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids . AOS recomenda casca grossa e secagem entre regas. Proporção 83,3/16,7 documentada em nível de grupo com abeto médio, adaptada para pinus grosso nesta ficha e NÃO HOMOLOGADA experimentalmente para esta espécie; alternativas qualitativas sem percentuais publicados. Escores 91/100 e 86/100 não foram validados em ensaio; meta 25 produtores não atingida."
 },
-    errosComuns: "• Vaso grande ou fechado.\n• Esfagno compacto e raízes permanentemente úmidas.\n• Replantar fora do início de emissão de novas raízes.\n• Sombra excessiva.\n• Secar demais durante crescimento ativo.\n• Enterrar o rizoma.\n• Confundir pigmentação natural das folhas com doença.\n• Adubação concentrada.\n• Manter planta fria e molhada durante período de menor atividade.",
+    errosComuns: [
+    "Usar vaso grande e pouco ventilado.",
+    "Compactar esfagno e manter raízes molhadas.",
+    "Replantar fora do início das raízes novas.",
+    "Cultivar em sombra excessiva.",
+    "Deixar raízes secarem demais na brotação.",
+    "Enterrar o rizoma.",
+    "Confundir pigmentação natural com doença.",
+    "Manter a planta fria e molhada no repouso."
+],
     dica: "🏆 O segredo desta Cattleya compacta é evitar danos às raízes antigas, que se prendem firmemente ao suporte. Prefira montagem duradoura em madeira rugosa ou cortiça e não replante por rotina. Se a troca for indispensável, aguarde o início da emissão de raízes novas para facilitar a recuperação. Em clima quente, regue generosamente durante o crescimento, mas permita secagem rápida e boa circulação de ar. Não confunda folhas firmes com necessidade de seca constante: a planta precisa hidratação na fase ativa.",
     revisaoCientificaIAR: {
         "nome": "Cattleya aclandiae",
