@@ -75,7 +75,16 @@ export const rodrigueziaLanceolata = {
         alerta: "Evitar sombra profunda, recipientes grandes, substrato compactado e raízes encharcadas. Regar preferencialmente no início da manhã; replantar quando surgirem novas raízes.",
         notaEvidencia: "MACS 1.1: pinus/perlita documentados em orientação horticultural específica, esfagno/carvão por inferência; composição completa D quanto à especificidade e percentuais D, NÃO HOMOLOGADOS. Montagem em madeira documentada por produtores brasileiros; estrelas de suporte D preservadas. A receita de recipiente não deve ser aplicada à placa/tronco. Matriz: auditorias/MACS-1.1-MATRIZ-030-RODRIGUEZIA-LANCEOLATA.md."
     },
-    "errosComuns": "Sombra excessiva; vaso grande; substrato compactado; raízes constantemente encharcadas; bokashi em contato direto com raízes; molhar flores à noite; cortar hastes antes de secarem; pouca ventilação; replantar sem novas raízes.",
+    "errosComuns": [
+    "Cultivar em sombra excessiva.",
+    "Usar vaso grande com secagem lenta.",
+    "Manter substrato velho e compacto.",
+    "Deixar raízes constantemente encharcadas.",
+    "Encostar bokashi diretamente nas raízes.",
+    "Molhar flores durante a noite.",
+    "Cortar hastes antes de secarem.",
+    "Replantar fora da emissão de raízes novas."
+],
     "dica": "🏆 Nesta Rodriguezia de raízes finas e hastes arqueadas, a montagem ventilada facilita oferecer água frequente sem manter o suporte encharcado. Prefira madeira rugosa ou cesto pequeno suspenso, com sombra clara e boa circulação de ar. Regue pela manhã, ajustando a frequência à secagem real, especialmente em dias quentes. Preserve a touceira e evite deslocá-la quando as inflorescências estiverem se formando. Reserve espaço para os cachos se projetarem livremente, sem encostar em vasos ou prateleiras.",
     revisaoCientificaIAR: {
         "nome": "Rodriguezia lanceolata",
