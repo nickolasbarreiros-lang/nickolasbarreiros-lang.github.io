@@ -29,7 +29,7 @@ export const zygolumLouisendorf = {
     "regiao": "Sem distribuição natural · grex registrado em 2004",
     "habitat": "Sem habitat natural; híbrido cultivado.",
     "clima": "Intermediário a ameno, úmido e ventilado.",
-    "climaFloracao": "A floração é favorecida por brotos vigorosos, noites amenas, substrato continuamente levemente úmido e luz filtrada clara. O híbrido não deve sofrer seca prolongada. Em calor forte, resfriar o sistema radicular e manter ar em movimento é mais importante que aumentar excessivamente a rega.",
+    "climaFloracao": "Prefere clima intermediário a ameno, com noites frescas, luz filtrada abundante e boa ventilação. A montanha favorece a floração; no litoral quente, proteja principalmente as raízes do superaquecimento. Mantenha o substrato levemente úmido e os brotos em crescimento contínuo. Não faça repouso seco. Temperaturas noturnas moderadas e raízes saudáveis ajudam a formar hastes florais.",
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
