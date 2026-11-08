@@ -1,4 +1,4 @@
-// Epidendrum secundum Jacq. — ficha em revisão; fotos 1 e 2 acessíveis, fotos 3 e 4 ainda sem validação de acesso/identidade.
+// Epidendrum secundum Jacq. — ficha em revisão; páginas Commons das quatro fotos identificadas, mas URLs diretas e identidade botânica independente ainda exigem teste.
 export const epidendrumSecundum = {
  id:"epidendrum-secundum", nome:"Epidendrum secundum", genero:"Epidendrum", tipo:"Espécie botânica",
  sinonimo:"", dificuldade:"Fácil",
