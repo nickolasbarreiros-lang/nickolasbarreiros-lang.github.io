@@ -39,7 +39,7 @@ export const anathallisSclerophylla = {
         raridade: 3
     },
     mesesFloracao: [10, 11, 12, 1, 2, 3, 4, 6],
-    climaFloracao: "Ocorre em ambientes florestais de altitudes variadas; a procedência importa mais que uma altitude única. Montanha: geralmente favorável, com umidade e proteção contra frio extremo. Litoral quente: condicional, exigindo sombra luminosa, ventilação e redução do abafamento noturno. Não há comprovação de quebra térmica obrigatória nem de repouso seco; mantenha raízes ativas e umidade equilibrada.",
+    climaFloracao: "Prefere umidade elevada, luz filtrada e noites mais amenas. Floresce com mais facilidade na montanha, mas pode se adaptar ao litoral se ficar longe do calor abafado. A ventilação ajuda a manter as raízes saudáveis sem ressecá-las. Não imponha seca para estimular flores: preserve a umidade durante o crescimento e proteja a planta dos extremos de temperatura.",
     iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não permitido",
