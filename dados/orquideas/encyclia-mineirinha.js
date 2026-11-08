@@ -18,7 +18,7 @@ export const encycliaMineirinha = {
     regiao: "Sem distribuição natural · E. patens × E. oliveirana · parentais brasileiros",
     habitat: "Sem habitat natural · parentais de florestas e ambientes sazonais.",
     clima: "Quente a intermediário · ventilado.",
-    climaFloracao: "A floração depende sobretudo de pseudobulbos bem amadurecidos sob boa luminosidade. Durante a brotação, mantenha água e nutrição regulares; depois da maturação, aumente moderadamente o intervalo entre regas. Como o híbrido combina parentais de ecologias diferentes, não imponha repouso seco rígido.",
+    climaFloracao: "Este híbrido gosta de clima quente a intermediário e pode florescer tanto no litoral quanto na montanha, com proteção contra frio intenso. Precisa de bastante claridade, ventilação e pseudobulbos maduros. Mantenha regas e adubação durante o crescimento; depois, aumente moderadamente os intervalos entre regas. Não é necessário provocar frio ou repouso seco rigoroso para estimular flores.",
         iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
