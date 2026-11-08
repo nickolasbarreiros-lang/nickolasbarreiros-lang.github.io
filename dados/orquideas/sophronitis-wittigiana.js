@@ -72,14 +72,15 @@ export const sophronitisWittigiana = {
         alerta: "Não enterre o rizoma nem compacte a mistura. Em clima quente, priorize suporte fresco e ventilado."
     },
     errosComuns: [
-        "Calor noturno abafado e pouca ventilação.",
-        "Usar vaso grande ou substrato compacto.",
-        "Excesso de esfagno ao redor do rizoma.",
-        "Manter as raízes constantemente molhadas.",
-        "Compensar o calor com sombra profunda.",
-        "Aplicar fertilizante concentrado.",
-        "Replantar ou dividir a touceira com frequência."
-    ],
+    "Cultivar em noites quentes e abafadas.",
+    "Usar vaso grande com substrato compacto.",
+    "Compactar esfagno ao redor do rizoma.",
+    "Manter raízes constantemente encharcadas.",
+    "Compensar calor com sombra profunda.",
+    "Aplicar fertilizante concentrado.",
+    "Replantar a touceira com frequência.",
+    "Deixar a montagem secar por vários dias."
+],
     revisaoCientificaIAR: {
         "nome": "Cattleya wittigiana (Barb.Rodr.) Van den Berg",
         "statusTaxonomico": "Nome aceito pelo POWO/Kew, combinação publicada em Neodiversity 3:12 (2008). O basiônimo Sophronitis wittigiana Barb.Rodr. foi publicado em 1878. O nome histórico Sophronitis é mantido como sinônimo editorial para localização da ficha.",
