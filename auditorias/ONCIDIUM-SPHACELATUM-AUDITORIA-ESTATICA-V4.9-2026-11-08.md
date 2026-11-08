@@ -30,3 +30,6 @@ Arquivo auditado: `auditorias/ONCIDIUM-SPHACELATUM-FICHA-RASCUNHO-V4.9.js`, aind
 
 ## Evidência botânica adicional
 NC State Extension (https://plants.ces.ncsu.edu/plants/oncidium-sphacelatum/) descreve flores levemente perfumadas, hastes até 6 pés, meio à base de casca com boa drenagem, luz indireta intensa e alta umidade. AOS (https://www.aos.org/orchid-care/care-sheets/oncidium-culture-sheet) indica que exigências de luz e rega variam bastante entre espécies de Oncidium. A redação da ficha evita apresentar recomendações genéricas como universais.
+
+
+Auditoria adicional (08/11): Orquídeas no Apê indica sol suave no início da manhã **ou final da tarde**, com proteção nas horas quentes. Corrigido horário no rascunho JavaScript; os quatro assets de substrato não tiveram existência física verificada, e a galeria continua sem imagens por falta de atribuição. Fonte: https://www.orquideasnoape.com.br/2021/01/orquidea-oncidium-sphacelatum.html
