@@ -2,6 +2,17 @@
 // Menu lateral mantido compacto; aprofundamento concentrado nas seções de cultivo.
 
 export const zygopetalumMaculatum = {
+    errosComuns: [
+    "Deixar raízes secarem por vários dias no crescimento.",
+    "Usar solo compacto e pouco drenante.",
+    "Manter substrato constantemente encharcado.",
+    "Expor folhas ao sol direto forte.",
+    "Deixar vaso superaquecer ao sol.",
+    "Cultivar em calor abafado.",
+    "Replantar fora da emissão de raízes novas.",
+    "Deixar água acumulada nos brotos novos."
+],
+
     dica: "🏆 Esta espécie terrestre ou rupícola precisa de raízes hidratadas e ventiladas, especialmente durante a formação de novos pseudobulbos. Use vaso proporcional com mistura orgânica e mineral leve, evitando compactação e água estagnada. Ofereça luz filtrada abundante e proteja o recipiente do calor excessivo. Regue regularmente durante o crescimento, sem deixar a planta secar por longos períodos. Replante quando aparecerem raízes novas e preserve pseudobulbos antigos firmes, que ajudam a sustentar suas flores vistosas e perfumadas.",
     "id": "zygopetalum-maculatum",
     "nome": "Zygopetalum maculatum",
