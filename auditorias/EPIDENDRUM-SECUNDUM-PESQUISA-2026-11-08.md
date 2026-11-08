@@ -38,3 +38,8 @@ Pendente: verificar quatro arquivos específicos, identificação, licença, aut
 - **Excluir da seleção:** `Epidendrum secundum.jpg` (600 × 450, autor Dalton Holland Baptista), pois o comentário original de upload identifica `Epidendrum denticulatum`. https://commons.wikimedia.org/wiki/File:Epidendrum_secundum.jpg
 - Imagens de exemplares brasileiros devem receber revisão adicional pela delimitação taxonômica do complexo *E. secundum* / *E. denticulatum*.
 - **Não publicar fotos não verificadas.** A existência da galeria não certifica a identificação de cada imagem.
+
+## Fotografias — direitos autorais confirmados em 2026-11-08
+1. **Epidendrum secundum Winaywayna 2.jpg** — Marion & Christoph Aistleitner, foto 19/08/2010, Peru; licença **CC0 1.0**. https://commons.wikimedia.org/wiki/File:Epidendrum_secundum_Winaywayna_2.jpg . Licença e autoria confirmadas na página Commons; identidade botânica informada pelo fotógrafo, sem determinação por especialista verificada. URL direta, exibição no site e taxonomia da imagem ainda pendentes.
+2. **Epidendrum secundum - Peru.jpg** — Filipe Fortes, foto 27/11/2007, Peru; licença **CC BY-SA 2.0**, com obrigação de atribuição, link da licença e indicação de alterações; licença de origem Flickr revisada pelo Wikimedia Commons em 2008. https://commons.wikimedia.org/wiki/File:Epidendrum_secundum_-_Peru.jpg . URL direta, exibição e confirmação botânica independente ainda pendentes.
+**Estado:** 2/4 candidatos com autoria e licença documentalmente verificadas; nenhum dos quatro aprovado integralmente. Não confundir aprovação de licença com identificação botânica ou funcionamento de URL.
