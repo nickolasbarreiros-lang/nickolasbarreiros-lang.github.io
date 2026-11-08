@@ -131,7 +131,16 @@ export const bulbophyllumMiniatum = {
         "notaEvidencia": "MACS 1.1 — revisão documental: nome aceito Bulbophyllum saltatorium var. albociliatum (sin. B. miniatum), epífita de rizoma alongado; Flora of Tropical East Africa, sob sinônimo B. distans, descreve pseudobulbos de 2,5–5,5 cm e hastes até 62 cm, flores sucessivas, floresta úmida a cerca de 1.400 m. Placa/tronco 5 estrelas, cachepô madeira e plástico vasado 4, barro 3; indicação de montagem com esfagno atribuída na ficha a B. saltatorium sem confirmação da variedade, portanto extrapolação taxonômica e não ensaio específico. Receita visual 35% pinus médio + 25% chips coco + 25% perlita grossa + 15% esfagno = 100%; receitaTexto e itens concordam. Receita principal textual e visual concordam (35% pinus, 25% chips de coco, 25% perlita, 15% esfagno); duas alternativas qualitativas são distintas e não representam a composição principal. Orquidário Matsuoka (https://orquidariomatsuoka.com.br/produto/bulbophyllum-saltatorium/) recomenda toco de madeira com esfagno ou substrato drenante para B. saltatorium sem identificar variedade; não é evidência específica inequívoca para albociliatum. Nenhum produtor brasileiro com receita quantitativa comprovada para esta variedade; meta de 25 não atingida. Proposta não validada quantitativamente; Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     substrato: ["Chips de coco médios lavados + perlita grossa + carvão vegetal miúdo + esfagno de fibra longa solto","Casca de macadâmia média + casca de pinus média + perlita grossa + esfagno de fibra longa solto"],
-    errosComuns: "• Tratar Bulbophyllum miniatum como espécie atualmente aceita separada.\n• Enterrar o rizoma ou a base dos pseudobulbos.\n• Compactar esfagno.\n• Confundir alta umidade com substrato saturado.\n• Deixar a planta secar completamente por vários dias.\n• Cultivar em sombra profunda e abafada.\n• Aplicar adubo concentrado sobre raízes finas.\n• Forçar repouso seco para induzir floração.",
+    errosComuns: [
+    "Enterrar o rizoma ou a base dos pseudobulbos.",
+    "Compactar esfagno sobre raízes superficiais.",
+    "Manter o substrato constantemente saturado.",
+    "Deixar raízes secarem completamente por dias.",
+    "Cultivar em sombra profunda e ambiente abafado.",
+    "Aplicar adubo concentrado nas raízes finas.",
+    "Forçar repouso seco para induzir flores.",
+    "Usar recipiente estreito para rizoma alongado."
+],
     dica: "🏆 O diferencial desta orquídea de rizoma alongado é planejar o crescimento lateral desde o plantio. Posicione os pseudobulbos antigos próximos à borda de um recipiente raso, deixando espaço à frente dos brotos novos. Não enterre o rizoma: mantenha as raízes hidratadas, mas bem oxigenadas, usando material leve e ventilação constante. Em ambiente quente, ajuste a frequência das regas à secagem do suporte, sem tentar compensar o calor com encharcamento. Uma touceira estável floresce melhor do que uma planta replantada repetidamente.",
     revisaoCientificaIAR: {
         "nome": "Bulbophyllum saltatorium var. albociliatum",
