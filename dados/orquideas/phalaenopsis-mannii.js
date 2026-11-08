@@ -1,6 +1,17 @@
 // Refinamento final — Lote 23.
 
 export const phalaenopsisMannii = {
+    errosComuns: [
+    "Manter raízes em substrato compacto.",
+    "Deixar água acumulada na coroa.",
+    "Expor folhas ao sol direto forte.",
+    "Cultivar em ambiente abafado.",
+    "Usar vaso grande com secagem lenta.",
+    "Cortar hastes verdes que ainda podem florescer.",
+    "Deixar a montagem secar por muitos dias.",
+    "Aplicar adubo concentrado nas raízes."
+],
+
     dica: "🏆 Esta Phalaenopsis de crescimento naturalmente inclinado ou pendente precisa de raízes arejadas e umidade regular, sem substrato compacto. Prefira vaso ventilado ou montagem que permita observar a secagem das raízes, com luz filtrada e proteção contra sol forte. Regue pela manhã e evite água parada na coroa das folhas. Não corte hastes ainda verdes automaticamente após a queda das flores: observe se permanecem ativas antes de removê-las. A estabilidade da planta favorece enraizamento e novas florações.",
     "id": "phalaenopsis-mannii",
     "nome": "Phalaenopsis mannii",
