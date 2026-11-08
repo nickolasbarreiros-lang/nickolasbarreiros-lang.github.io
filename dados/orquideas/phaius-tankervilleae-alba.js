@@ -75,7 +75,16 @@ export const phaiusTankervilleaeAlba = {
         alerta: "Evitar vaso pequeno, substrato compacto, secagem completa durante a expansão das folhas, água parada, sol forte e enterro profundo da base dos brotos.",
         notaEvidencia: "MACS 1.1 — revisão documental: Calanthe tankervilleae forma alba (sin. Phaius tankervilleae), terrestre de grande porte, requer vaso amplo e profundo com drenagem livre, umidade regular durante crescimento e aeração. Vaso plástico amplo e perfurado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 30% fibra de coco grossa preparada + 30% chips de coco pequenos preparados + 20% casca de arroz carbonizada + 20% perlita média/grossa compatível com o vaso = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/fibra de coco/perlita/pouca vermiculita e chips de coco/perlita/casca de arroz carbonizada/pouco esfagno solto. Elas não fundamentam os percentuais visuais; justificativa anterior de equivalência foi corrigida. Monitorar salinidade, compactação, estabilidade do vaso e resposta das raízes. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente"
     },
-    "errosComuns": "Vaso pequeno; substrato pobre ou compactado; deixar secar durante expansão foliar; água parada; sombra excessiva; sol forte; excesso de sais; enterrar profundamente a base dos brotos; cortar folhas ainda verdes; impor repouso seco rígido.",
+    "errosComuns": [
+    "Usar vaso pequeno para raízes vigorosas.",
+    "Plantar em substrato pobre ou compactado.",
+    "Deixar secar durante a expansão das folhas.",
+    "Manter água parada no fundo do recipiente.",
+    "Cultivar em sombra excessiva.",
+    "Expor ao sol forte sem aclimatação.",
+    "Acumular sais de fertilizante.",
+    "Enterrar profundamente a base dos brotos."
+],
     "dica": "🏆 Esta orquídea terrestre de grande porte precisa de espaço para formar folhas largas e pseudobulbos capazes de sustentar hastes florais altas. Use recipiente amplo e estável, com substrato orgânico rico, solto e bem drenado. Durante o crescimento, mantenha umidade regular e nutrição equilibrada, sem deixar água estagnada no fundo. Ofereça luz filtrada abundante e proteja folhas do sol forte. Evite dividir a planta em fragmentos pequenos: touceiras maduras acumulam reservas para florações mais vigorosas.",
     revisaoCientificaIAR: {
         "nome": "Calanthe tankervilleae — forma alba",
