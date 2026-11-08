@@ -71,14 +71,15 @@ export const dendrobiumPolysema = {
         alerta: "A mistura deve permanecer arejada mesmo quando úmida. Reduza o esfagno se o ambiente já tiver alta umidade."
     },
     errosComuns: [
-        "Cultivar em local quente e abafado.",
-        "Deixar o substrato secar completamente por longos períodos.",
-        "Usar vaso grande ou pouco ventilado.",
-        "Manter o substrato constantemente saturado.",
-        "Expor ao sol direto forte.",
-        "Adubar em concentração alta.",
-        "Impor repouso seco total no inverno."
-    ],
+    "Cultivar em local quente e abafado.",
+    "Deixar raízes secarem por longos períodos.",
+    "Usar vaso grande e pouco ventilado.",
+    "Manter substrato constantemente saturado.",
+    "Expor folhas ao sol direto forte.",
+    "Aplicar adubo em concentração alta.",
+    "Impor repouso totalmente seco no inverno.",
+    "Deixar água acumulada entre brotos e folhas."
+],
     revisaoCientificaIAR: {
         "nome": "Dendrobium polysema Schltr.",
         "statusTaxonomico": "Nome aceito pelo POWO/Kew, publicado por Schlechter em 1905. Pertence à seção Latouria. Atenção à divergência de circunscrição geográfica entre a síntese atual POWO e o tratamento morfológico de Cribb (1983).",
