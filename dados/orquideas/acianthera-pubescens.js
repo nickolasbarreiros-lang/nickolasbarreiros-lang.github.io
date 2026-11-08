@@ -71,7 +71,16 @@ export const aciantheraPubescens = {
         alerta: "Em vaso, mantenha o rizoma próximo da superfície e não compacte a mistura. Prefira recipiente pequeno e muito drenado.",
         notaEvidencia: "MACS 1.1 — revisão da ficha: POWO/Kew reconhece Acianthera pubescens (sin. Pleurothallis pubescens) como epífita de floresta tropical úmida. Estudo florístico da UNESP descreve hábito holoepífito, simpodial e reptante, sem pseudobulbos, mas não avalia substratos. Orquidário Aparecida, produtor brasileiro com orientação específica para esta espécie, comercializa plantas montadas em ripinha de cambará e informa umidade/ventilação regulares; é evidência prática para suporte em madeira, NÃO comparação de desempenho. Apenas um produtor com indicação específica foi identificado nesta passagem, abaixo da meta de 25. A receita para vaso 35% pinus fino/médio + 30% casca de arroz carbonizada + 20% carvão pequeno + 15% esfagno solto é hipótese horticultural NÃO HOMOLOGADA: nenhuma fonte consultada testa estes percentuais na espécie. Receita principal mantida como hipótese não homologada, com exatamente duas alternativas qualitativas. Proporções textuais e visuais coincidem e somam 100%; existência dos arquivos de imagem dos assets não verificada nesta alteração.",
     },
-    errosComuns: ["Aplicar o mesmo regime a exemplares de procedências muito diferentes.", "Manter touceira densa molhada e sem ventilação.", "Usar substrato compacto ou decomposto.", "Expor ao sol direto forte.", "Deixar as raízes secarem completamente por períodos longos.", "Acumular sais de fertilizante.", "Fixar uma época única de floração para uma espécie que pode florescer o ano inteiro."],
+    errosComuns: [
+        "Aplicar o mesmo regime a plantas de procedências distintas.",
+        "Manter a touceira molhada e sem ventilação.",
+        "Usar substrato compacto ou decomposto.",
+        "Expor as folhas ao sol direto forte.",
+        "Deixar as raízes secarem por períodos longos.",
+        "Acumular sais de adubo no substrato.",
+        "Forçar repouso seco para induzir a floração.",
+        "Usar vaso grande que permanece úmido por dias."
+],
     revisaoCientificaIAR: {
         "nome": "Acianthera pubescens",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
