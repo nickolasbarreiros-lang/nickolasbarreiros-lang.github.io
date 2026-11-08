@@ -70,7 +70,16 @@ export const leptotesUnicolor = {
         alerta: "Evitar vaso grande, esfagno compactado, rizoma enterrado, sombra excessiva e amarração apertada. Fixar ou replantar preferencialmente durante emissão de raízes novas.",
         notaEvidencia: "MACS 1.1: POWO/Kew reconhece Leptotes unicolor como epífita; AOS recomenda para o gênero Leptotes cultivo em placas pequenas, regas frequentes e secagem radicular entre regas. Três produtores brasileiros com orientação específica foram encontrados: Orquidário 4 Estações prefere placas de madeira; Orquidário Matsuoka indica toco ou substrato genérico e informa envio em toco; Orquidário Hang recomenda meio bem drenado, sem fórmula percentual, e informa envio em leque de madeira. Nenhum publica os percentuais da mistura 35% macadâmia + 30% pinus + 20% perlita + 15% carvão; receita NÃO HOMOLOGADA. As duas alternativas são qualitativas e não possuem percentuais publicados. Estrelas são estimativas; meta de 25 produtores com receitas específicas não atingida. A soma de 100% é aritmética, não homologação científica."
     },
-    errosComuns: "Usar vaso grande ou substrato retentor; cobrir o rizoma; compactar esfagno; cultivar em sombra excessiva; adubar em dosagem alta; molhar ao fim do dia em noites frias; replantar fora da emissão de raízes novas; apertar o rizoma com arame; confundir folhas murchas por perda de raízes com simples falta de água.",
+    errosComuns: [
+    "Usar vaso grande ou substrato retentor.",
+    "Cobrir o rizoma com substrato.",
+    "Compactar esfagno sobre as raízes.",
+    "Cultivar em sombra excessiva.",
+    "Aplicar adubo em dosagem alta.",
+    "Molhar ao fim do dia em noites frias.",
+    "Replantar fora da emissão de raízes novas.",
+    "Apertar o rizoma com arame."
+],
     dica: "🏆 Nesta miniatura de folhas quase cilíndricas, o momento certo de trocar o suporte é o início da emissão de raízes novas. Elas conseguem aderir à madeira ou cortiça antes que a planta perca muita água. Prefira montagem durável e bem ventilada, com luz filtrada abundante e regas ajustadas à secagem. Evite retirar raízes antigas firmes apenas porque parecem secas. Em dias quentes, observe a hidratação das folhas e aumente a frequência das regas sem manter a base encharcada.",
     revisaoCientificaIAR: {
         "nome": "Leptotes unicolor",
