@@ -69,7 +69,16 @@ export const ornithophoraRadicans = {
         alerta: "Evitar adubo concentrado, excesso de fertilizante de liberação lenta, esfagno compactado, pouca ventilação e bloqueio das hastes pendentes. Não cortar raízes finas saudáveis.",
         notaEvidencia: "MACS 1.1: Gomesa radicans (sin. Ornithophora radicans) é epífita e se adapta à montagem em placa/tronco, conforme IOSPE e fontes brasileiras. Para vaso/cachepô, Orquídeas Encanto e Paixão documenta receita específica em partes iguais de Casca de pinus, Carvão vegetal e Esfagno; Nhá Mercedes indica os mesmos ingredientes sem proporções. R1 visual 34/33/33 representa 1:1:1 arredondado, evidência B quantitativa horticultural, NÃO homologação experimental. R2 e R3 são alternativas com percentuais D inferenciais; a composição com Fibra de coco tem respaldo qualitativo no Orquidário Oriental e Orquídeas no Apê. Montagem principal sem percentuais. Assets e nomes canônicos conferidos. Matriz: auditorias/MACS-1.1-MATRIZ-043-GOMESA-RADICANS.md."
     },
-    errosComuns: "Aplicar adubo químico concentrado; usar vaso grande; compactar esfagno; manter a touceira molhada durante toda a noite; cultivar sem circulação de ar; cortar raízes finas saudáveis; deixar o substrato secar completamente por longos períodos; impedir que as hastes pendam livremente; usar Osmocote em excesso ou encostado no rizoma.",
+    errosComuns: [
+    "Aplicar fertilizante concentrado.",
+    "Usar vaso grande com secagem lenta.",
+    "Compactar esfagno sobre raízes finas.",
+    "Manter a touceira molhada toda a noite.",
+    "Cultivar sem circulação de ar.",
+    "Cortar raízes finas saudáveis.",
+    "Deixar a montagem secar por vários dias.",
+    "Impedir o caimento das hastes florais."
+],
     dica: "🏆 Nesta miniatura de hastes arqueadas, raízes delicadas se beneficiam de umidade frequente e circulação constante de ar. Prefira montagem em madeira rugosa ou recipiente muito ventilado, deixando espaço para as inflorescências penderem. Adube em concentração baixa e lave periodicamente o suporte com água limpa para evitar sais acumulados. Em dias quentes, ajuste a frequência das regas à secagem, sem engrossar excessivamente a camada de material retentor. Preserve a touceira: várias frentes maduras ajudam a sustentar uma floração mais abundante.",
     revisaoCientificaIAR: {
         "nome": "Gomesa radicans",
