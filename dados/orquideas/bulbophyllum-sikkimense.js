@@ -21,7 +21,7 @@ export const bulbophyllumSikkimense = {
     regiao: "Nepal oriental ao Bangladesh (conceito aceito); registros históricos em Sikkim",
     habitat: "Contrafortes florestais · 300–500 m.",
     clima: "Quente a intermediário.",
-    climaFloracao: "A altitude baixa a moderada dos exemplares historicamente chamados B. sikkimense mostra que não se trata de orquídea alpina. IOSPE a classifica de quente a intermediária e registra floração na primavera. No litoral quente, o manejo deve priorizar ventilação, maturação dos pseudobulbos e boa luz filtrada; não há justificativa ecológica para frio intenso ou repouso seco severo.",
+    climaFloracao: "Prefere clima quente a intermediário e pode florescer tanto no litoral quanto na montanha, desde que não enfrente frio prolongado. Ofereça luz filtrada, ventilação e umidade regular durante o crescimento. A floração costuma acompanhar a maturação dos pseudobulbos. Não precisa de noites muito frias nem de repouso seco severo; evite principalmente o abafamento e o excesso de água parada.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
