@@ -64,7 +64,16 @@ export const gomesaRecurva = {
         alerta: "Não cultivar em sombra excessiva ou ambiente abafado, nem usar vaso grande ou substrato envelhecido. Evitar seca severa e deixar espaço para as hastes arqueadas.",
         notaEvidencia: "MACS 1.1: Gomesa recurva possui indicação específica de Casca de pinus, Carvão vegetal e Esfagno pelo Orquidário Nhá Mercedes e cultivo em placa/tronco documentado por Orquídeas no Apê. Yassunaka também cita pinus, fibra de coco em cubos, brita e esfagno, sem proporções. Composição B qualitativa específica; percentuais R1/R2/R3 D inferenciais e NÃO HOMOLOGADOS. Duas alternativas distintas no menu; placa/tronco principal sem percentuais. Nomes e assets canônicos conferidos; estrelas D preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-038-GOMESA-RECURVA.md."
     },
-    errosComuns: "Cultivar em sombra excessiva; manter calor noturno abafado e sem vento; usar vaso grande; deixar o substrato velho ou compactado; utilizar esfagno em excesso no clima quente e úmido; impor seca severa; retirar hastes antes de secarem completamente; instalar a planta sem espaço para o desenvolvimento das inflorescências arqueadas.",
+    errosComuns: [
+    "Cultivar em sombra excessiva.",
+    "Manter calor noturno abafado.",
+    "Usar vaso grande com secagem lenta.",
+    "Deixar substrato velho e compactado.",
+    "Exagerar no esfagno em clima úmido.",
+    "Impor seca severa.",
+    "Cortar hastes antes de secarem.",
+    "Impedir espaço para inflorescências arqueadas."
+],
     dica: "🏆 Para valorizar as hastes arqueadas desta espécie, coloque o vaso em posição elevada ou suspensa antes de surgirem os botões. Ofereça luz filtrada abundante, boa ventilação e regas regulares durante o crescimento dos pseudobulbos. Quando amadurecerem, ajuste a frequência à secagem do substrato, sem impor estiagem severa. Em clima quente, aproveite noites naturalmente mais amenas, evitando mudanças bruscas de temperatura. Preserve a touceira: pseudobulbos saudáveis e espaço para as inflorescências favorecem uma floração mais vistosa.",
     revisaoCientificaIAR: {
         "nome": "Gomesa recurva",
