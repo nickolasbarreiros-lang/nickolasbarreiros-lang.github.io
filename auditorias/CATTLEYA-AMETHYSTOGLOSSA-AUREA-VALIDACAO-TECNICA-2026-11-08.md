@@ -44,3 +44,11 @@ Não marcar a ficha como homologada e não avançar para outra espécie enquanto
 - Verificação posterior por GitHub: importação e entrada no array presentes; `fotos: []`; fallback do renderizador confirmado; quatro suportes, duas misturas e receita de 100% mantidos.
 - **Não confundir publicação com homologação integral:** fotos específicas autorizadas, aparência do asset `chips-coco` e teste visual no navegador permanecem pendentes.
 - A tentativa de abrir a URL do GitHub Pages na ferramenta de navegação não retornou página acessível; portanto **não foi possível confirmar a renderização remota**. A verificação atual é estática, com base nos arquivos do repositório.
+
+## Inspeção direta do asset de chips de coco
+
+- Recuperado o conteúdo binário original de `imagens/cultivo-v4/fibra-coco.webp` pelo GitHub e inspecionada a imagem.
+- A fotografia exibe **blocos de casca de coco (chips)** com fibras aderidas, não apenas fibra desfiada.
+- Portanto o uso do identificador `chips-coco` com essa imagem é **visualmente adequado**. A divergência é somente o nome do arquivo compartilhado.
+- **Pendência de adequação visual dos chips de coco resolvida**, sem alterar `js/biblioteca-cultivo-v4.js` e sem impacto nas demais fichas.
+- Permanecem pendentes fotografias identificadas da forma aurea e inspeção visual integral da página renderizada.
