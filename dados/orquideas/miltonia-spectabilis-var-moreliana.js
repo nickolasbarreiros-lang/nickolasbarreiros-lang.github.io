@@ -71,7 +71,16 @@ export const miltoniaSpectabilisVarMoreliana = {
         alerta: "Evitar vasos fundos, substrato compacto, sombra excessiva e adubação concentrada. Deixar espaço para a frente de crescimento e preservar vários pseudobulbos ao dividir a touceira.",
         notaEvidencia: "MACS 1.1 — revisão documental: Miltonia moreliana (arquivo histórico miltonia-spectabilis-var-moreliana), epífita de rizoma expansivo e raízes capilares, pede vaso raso e largo, umidade regular sem saturação. Suportes plástico vasado 5 estrelas, barro e cachepô madeira 4, placa/tronco 3; notas não homologadas. Receita visual 35% pinus médio + 30% chips coco + 25% perlita de granulometria adequada + 10% carvão = 100%; receitaTexto e itens concordam. Receita principal textual e visual coincidem; duas alternativas qualitativas distintas são apresentadas separadamente. Validar retenção e granulometria para raízes capilares em cuia ventilada; meta até 25 produtores brasileiros específicos não atingida. POWO aceita Miltonia moreliana A.Rich. (1848), com Miltonia spectabilis var. moreliana como sinônimo homotípico; não confundir com Miltonia spectabilis, também aceita. IOSPE registra pseudobulbos bifoliados, inflorescência geralmente uniflora e flores de cerca de 5 cm; publicação acadêmica argentina cita flores de 7–9 cm, indicando variação de dimensões. Orquidário 4 Estações recomenda musgo novo em vaso plástico, e Orquidário Thomes menciona substratos variados com boa drenagem, ambos qualitativos. Experimentos brasileiros de substratos com Miltonia clowesii e híbridos de M. regnellii não comprovam a receita desta espécie. Dois produtores brasileiros específicos qualitativos e zero receitas quantitativas confirmadas nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    "errosComuns": "❌ Vaso fundo e substrato compacto: destroem rapidamente as raízes capilares.\n❌ Falta de água no broto: causa folhas sanfonadas.\n❌ Sombra excessiva: reduz ou elimina a floração.\n❌ Fertilizante concentrado: queima pontas radiculares.\n❌ Divisão em brotos isolados: reduz reservas e exige longo período de recuperação.\n❌ Deixar a frente de crescimento sem espaço: faz novos brotos escaparem do recipiente antes de enraizar.",
+    "errosComuns": [
+    "Usar vaso fundo e substrato compacto.",
+    "Deixar faltar água durante a expansão foliar.",
+    "Cultivar em sombra excessiva.",
+    "Aplicar fertilizante concentrado.",
+    "Dividir touceiras em brotos isolados.",
+    "Bloquear a frente de crescimento no vaso.",
+    "Manter raízes encharcadas durante noites quentes.",
+    "Replantar fora da emissão de raízes novas."
+],
     "dica": "🏆 Nesta Miltonia de flores grandes, escolha recipiente mais largo que profundo e deixe espaço à frente do rizoma para novos pseudobulbos. Durante a brotação, mantenha regas regulares, luz filtrada e raízes bem ventiladas. Folhas sanfonadas podem indicar problemas anteriores de hidratação ou enraizamento; examine o substrato antes de aumentar a água. Replante preferencialmente quando surgirem raízes novas e preserve pseudobulbos maduros. Uma touceira estável, com reservas e raízes saudáveis, sustenta melhor suas flores vistosas.",
     revisaoCientificaIAR: {
         "nome": "Miltonia moreliana",
