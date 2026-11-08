@@ -76,15 +76,15 @@ export const promenaeaXanthina = {
         notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D), sem validação quantitativa dos percentuais ou comparação experimental dos suportes. MACS 1.1 — revisão documental: Promenaea xanthina (nome editorial; POWO trata como Promenaea stapelioides subsp. xanthina), miniatura epífita montana com raízes delicadas; requer umidade regular, ventilação e noites amenas. Vaso plástico vasado pequeno é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 45% pinus fino + 40% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/perlita/pinus fino e esfagno de fibra longa solto/perlita. Não fundamentam os percentuais visuais. A montagem com esfagno é método separado. Noites quentes podem limitar vigor e floração mesmo com substrato correto. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente."
     },
     errosComuns: [
-        "Evite sol direto forte nas folhas delicadas.",
-        "Não compacte esfagno ao redor das raízes.",
-        "Não mantenha o substrato encharcado.",
-        "Não deixe secar completamente durante o crescimento.",
-        "Evite calor abafado, sobretudo à noite.",
-        "Não use vaso grande para a pequena touceira.",
-        "Não imponha repouso seco prolongado.",
-        "Evite adubo concentrado nas raízes finas."
-    ],
+    "Expor folhas ao sol direto forte.",
+    "Compactar esfagno sobre as raízes.",
+    "Manter substrato constantemente encharcado.",
+    "Deixar raízes secarem completamente no crescimento.",
+    "Cultivar em noites quentes e abafadas.",
+    "Usar vaso grande para a touceira pequena.",
+    "Impor repouso seco prolongado.",
+    "Aplicar adubo concentrado."
+],
     dica: "🏆 Nesta Promenaea de florestas montanas, o desafio em clima quente é conservar raízes frescas sem encharcar o vaso. Prefira recipiente pequeno, substrato fino e solto, sombra clara e circulação suave de ar. Regue durante o crescimento conforme a secagem, evitando tanto a saturação prolongada quanto a desidratação repetida. Proteja a planta do calor acumulado à noite e do sol direto. Preserve a touceira, pois pseudobulbos maduros ajudam a sustentar as flores relativamente grandes para seu porte.",
     revisaoCientificaIAR: {
         "nome": "Promenaea xanthina (Lindl.) Lindl. — nome editorial",
