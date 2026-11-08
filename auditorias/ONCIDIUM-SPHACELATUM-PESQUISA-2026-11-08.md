@@ -125,3 +125,13 @@ O catálogo Smithsonian Gardens https://gardens.si.edu/collections/explore/objec
 **Risco editorial adicional:** o espécime do Q?rius é material de educação, possivelmente fotografado sem floração; não se deve escolhê-lo como imagem principal sem verificar visualmente a presença de flores. Um registro CC0 não basta para garantir que a imagem seja uma boa foto da espécie em floração.
 
 **Critério de aceite da galeria:** endereço de imagem HTTPS confirmado; abertura e inspeção visual; identificação *Oncidium sphacelatum*; condições de reutilização específicas da mídia; preferencialmente flores e haste. Sem essas quatro verificações, manter `fotos: []` no rascunho. Nenhuma alteração no renderizador autorizada.
+
+## Nova evidência fotográfica e fenológica brasileira — 08/11/2026
+
+**Registro fotográfico brasileiro independente:** Dalton Holland Baptista fotografou *Oncidium sphacelatum* cultivado no estado de São Paulo em **15 de novembro de 2011**. Arquivo identificado e licenciado sob **CC BY-SA 3.0**: https://commons.wikimedia.org/wiki/File:Oncidium_sphacelatum_2.jpg . Esse registro reforça novembro como mês de floração no Brasil, independentemente do relato de 2022 em Juiz de Fora. A página do Commons fornece autor, origem, data e licença, mas a foto **não pode ser reproduzida sem atribuição**.
+
+**Alternativa de ilustração em domínio público:** prancha de *Oncidium sphacelatum* de 1842, Edwards's Botanical Register, autoria Miss Drake / G. Barclay, domínio público: https://commons.wikimedia.org/wiki/File:Oncidium_sphacelatum_-_Edwards_vol_28_(NS_5)_pl_30_(1842).jpg . É uma **ilustração botânica**, não fotografia, portanto não deve ser apresentada como foto da planta viva.
+
+**Outras fotos com créditos necessários:** Rhododendrites, 2016, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Oncidium_sphacelatum_(42110).jpg e https://commons.wikimedia.org/wiki/File:Oncidium_sphacelatum_(42115).jpg .
+
+**Decisão editorial:** manter `fotos: []` enquanto não houver mecanismo autorizado de atribuição no site ou fotografia com licença dispensando crédito e URL direta validada. Não modificar o renderizador sem autorização, nem inserir atribuição escondida em metadados não exibidos.
