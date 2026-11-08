@@ -25,7 +25,7 @@ export const oncidiumTwinkle = {
     "regiao": "Sem distribuição natural · grex registrado em 1958",
     "habitat": "Sem habitat natural · parentais montanos.",
     "clima": "Intermediário · noites amenas.",
-    "climaFloracao": "Floresce melhor quando vários pseudobulbos amadurecem simultaneamente em uma touceira intacta. Noites mais frescas favorecem hastes numerosas, mas o fator decisivo é a continuidade do crescimento: raízes saudáveis, recipiente proporcional, luz filtrada brilhante e ausência de secas prolongadas.",
+    "climaFloracao": "Prefere clima intermediário, com noites amenas, luz filtrada abundante e boa ventilação. A montanha costuma favorecer a floração; no litoral quente, escolha um local fresco, especialmente à noite. Touceiras com vários pseudobulbos maduros produzem mais hastes. Mantenha as raízes saudáveis e regas regulares, sem seca prolongada. Noites um pouco mais frescas ajudam, mas não é necessário provocar frio intenso.",
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
