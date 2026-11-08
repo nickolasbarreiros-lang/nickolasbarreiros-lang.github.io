@@ -29,7 +29,7 @@ export const bifrenariaVerboonenii = {
     regiao: "MG (conceito histórico); Nordeste e Sudeste do Brasil (táxon aceito amplo)",
     habitat: "Rupícola montana, 1.000–1.400 m no conceito histórico; epífita/litófita no táxon aceito amplo",
     clima: "Fresco · montano · inverno mais seco",
-    climaFloracao: "Associada a ambientes rupícolas montanos, aproximadamente entre 1.000 e 1.400 m. Montanha: favorável, com luminosidade elevada e noites amenas. Litoral quente: condicional, sobretudo onde o calor persiste à noite. A floração tende a acompanhar a maturação dos pseudobulbos e a sazonalidade; diminua as regas quando o crescimento desacelerar, sem seca extrema. A amplitude térmica moderada é desejável, mas não há limiar obrigatório demonstrado.",
+    climaFloracao: "Prefere clima ameno de montanha, com noites mais frescas e bastante claridade. No litoral quente, a floração pode ser mais difícil, especialmente onde as noites são abafadas. Deixe os pseudobulbos amadurecerem e reduza as regas na fase de menor crescimento, sem provocar desidratação excessiva. Boa ventilação e diferença moderada entre as temperaturas do dia e da noite favorecem seu desenvolvimento.",
     iluminacao: {
         sombrite: "40% a 50%",
         solDireto: "Permitido com restrição",
