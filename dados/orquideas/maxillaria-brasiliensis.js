@@ -24,7 +24,7 @@ export const maxillariaBrasiliensis = {
     regiao: "Brasil · registros em formações tropicais e subtropicais",
     habitat: "Epífita · florestas úmidas, inclusive matas ciliares.",
     clima: "Quente a fresco · umidade regular e ventilação.",
-    climaFloracao: "IOSPE registra a espécie no Brasil como planta de crescimento quente a fresco e floração no outono do hemisfério sul. A emissão floral depende sobretudo de crescimento maduro, raízes funcionais e boa luminosidade filtrada. Não há indicação de repouso seco rígido: depois da maturação, uma discreta redução de água é suficiente. Touceiras estabelecidas tendem a responder melhor do que divisões pequenas recém-replantadas.",
+    climaFloracao: "Gosta de clima quente a intermediário, luz filtrada e boa ventilação. Pode florescer no litoral e na montanha, desde que protegida de temperaturas extremas. A floração depende de novos crescimentos maduros e raízes saudáveis. Mantenha regas regulares durante a fase ativa e diminua um pouco a frequência quando a planta desacelerar. Não precisa de repouso seco rigoroso; touceiras bem estabelecidas costumam florescer melhor.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
