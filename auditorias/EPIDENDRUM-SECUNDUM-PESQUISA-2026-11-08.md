@@ -58,3 +58,10 @@ Pansarin & Amaral (2008), seção Results, Habitat, phenology and plant features
 - No mesmo estudo, os exemplares de Picinguaba cresciam em **solos ácidos**, enquanto na Serra do Japi eram terrestres ou rupícolas; hábito epífito ocasional. Isso fundamenta avaliar terra vegetal, mas **não valida uma proporção específica nem dispensa drenagem**.
 - Pesquisa florística do Paraná descreve 12–80 flores por inflorescência, confirmando ampla variação; https://www.scielo.br/j/abb/a/xDqBk7KmXYhcgWNsKZw7wBr
 - Texto de floração a implementar: 'Floresce ao longo do ano, com maior intensidade entre setembro e janeiro. As hastes terminais exibem flores róseas ou lilases que se abrem em sequência; cada flor dura cerca de sete dias. Hastes antigas ainda verdes podem, ocasionalmente, emitir novas ramificações florais. O perfume não está bem caracterizado.'
+
+## Auditoria de evidências de substrato — 2026-11-08
+
+- **AOS (American Orchid Society)**, https://www.aos.org/explore/epidendrum : para o grupo de Epidendrum de caules eretos, recomenda mistura de granulometria média para epífitas acrescida de componente com alguma retenção hídrica. Isso sustenta o princípio de drenagem/aeração com reserva moderada de água, **não** uma receita percentual específica.
+- **CNCFlora/JBRJ**, https://proflora.jbrj.gov.br/html/Epidendrum%20secundum_2012.html : documenta hábitos terrestre, rupícola e epífito, com amplitude ecológica e luminosa. Não informa receita quantitativa de cultivo.
+- **Receita atualmente cadastrada**: 40% terra vegetal peneirada + 30% casca de pínus média + 20% areia grossa lavada + 10% carvão vegetal granulado. Os percentuais somam 100%, mas não foi encontrada homologação experimental específica da espécie; manter como **proposta editorial**, sem alegar consenso de produtores brasileiros ou validação científica.
+- **Pendências reais**: confirmar os quatro URLs de imagem com resposta HTTP e inspeção visual; verificar identidade botânica das fotos; confrontar receita e estrelas com fontes específicas de cultivo; testar renderização no navegador. Não integrar ao índice público antes do encerramento.
