@@ -71,7 +71,16 @@ export const aciantheraBragae = {
         alerta: "Em vaso, use recipiente pequeno, raso e muito perfurado. Mantenha o rizoma sobre a superfície e não compacte a mistura. Em ambiente naturalmente muito úmido, reduza ainda mais o esfagno.",
         notaEvidencia: "MACS 1.1 — matriz 110, revisão documental (2026-11-03): Acianthera bragae, miniatura epífita/litófita reptante com raízes finas, umidade frequente, rizoma exposto e boa aeração. Suportes placa/tronco 5 estrelas, árvore viva e cachepô madeira 4, plástico vasado 3; não homologados. Receita visual alternativa para vaso 45% pinus fino/médio + 25% casca arroz carbonizada + 20% carvão pequeno + 10% esfagno solto = 100%; receitaTexto e itens concordam. As duas alternativas são apenas qualitativas, sem percentuais; a receita visual para microvaso não equivale a elas, que permanecem distintas. Comparação documental: A (45/25/20/10, pinus/arroz/carvão/esfagno) privilegia estrutura com reserva hídrica pequena; as alternativas B (pinus/carvão/esfagno) e C (chips de coco lavados/carvão/arroz) são misturas qualitativas, sem percentuais. Não há ensaios comparativos entre elas. Não há medições comparativas de porosidade, secagem, pH ou condutividade, nem percentuais específicos documentados para B e C; não atribuir vantagem numérica. Cenário: microvaso raso e perfurado, rizoma exposto, rega frequente e ventilação; montagem em placa continua principal. A afirmação de comercialização por produtores brasileiros foi retirada por ausência de referências individualizadas. Validar retenção de 10% esfagno, aeração, granulometria e secagem em vaso raso; meta até 25 produtores brasileiros específicos não atingida. Taxonomia confirmada (POWO); ecologia corroborada (POWO e Lankesteriana 17(1), 2017); composição D, percentuais D, suportes/estrelas D. Fonte específica BR Orquídea, sob sinônimo Pleurothallis sarracenia, descreve epífita, sombra 60%, altitude 700–1000 m, temperatura intermediária-fria, sem receita percentual; IOSPE indica montagem e hábito reptante. Diferença térmica entre fontes exige cautela. Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77061695-1 ; https://www.scielo.sa.cr/scielo.php?pid=S1409-38712017000100073&script=sci_arttext ; https://www.br-orquidea.com.br/english/default.asp?ct=1&id=plantas_detalhes2&pd=428 ; https://www.orchids.org/grexes/physosiphon-bragae . Percentuais e estrelas NÃO HOMOLOGADOS.",
     },
-    errosComuns: ["Usar vaso profundo para uma planta de crescimento rastejante.", "Enterrar ou cobrir o rizoma.", "Manter água parada entre folhas e ramicaules.", "Deixar a montagem secar por vários dias no calor.", "Cultivar em sombra profunda e sem circulação de ar.", "Aplicar adubação forte em raízes finas.", "Interpretar a altitude como necessidade de clima frio rígido."],
+    errosComuns: [
+        "Enterrar o rizoma de crescimento rastejante.",
+        "Usar vaso profundo para uma planta reptante.",
+        "Deixar a montagem secar por dias no calor.",
+        "Acumular água entre folhas e ramicaules.",
+        "Manter sombra profunda e pouca ventilação.",
+        "Expor a planta ao sol direto intenso.",
+        "Aplicar adubação forte nas raízes finas.",
+        "Impor frio intenso apenas por registros de altitude."
+],
     revisaoCientificaIAR: {
         "nome": "Acianthera bragae",
         "statusTaxonomico": "Acianthera bragae tratada como espécie aceita na referência taxonômica POWO; correspondência de sinônimos requer conferência nominal individual.",
