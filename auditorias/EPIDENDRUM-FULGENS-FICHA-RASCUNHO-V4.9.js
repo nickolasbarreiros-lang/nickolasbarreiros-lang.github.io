@@ -94,7 +94,7 @@ export const epidendrumFulgens = {
       },
       {
         "nome": "Cachepô de madeira",
-        "asset": "cachepo-madeira",
+        "asset": "cesto-madeira",
         "estrelas": 3,
         "status": "Alternativa",
         "texto": "Pode ser usado com contenção adequada da mistura, mas exige atenção à hidratação e à estabilidade da touceira."
