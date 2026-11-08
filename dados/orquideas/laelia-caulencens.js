@@ -27,7 +27,7 @@ export const laeliaCaulencens = {
     regiao: "Minas Gerais",
     habitat: "Campos rupestres · rochas e areia · ~600–1.200 m.",
     clima: "Quente a fresco · sazonal · alta luz.",
-    climaFloracao: "A floração é favorecida por pseudobulbos bem maduros, alta luminosidade e raízes ativas. Após o crescimento, reduza a frequência das regas conforme a atividade cair, mas sem impor seca severa. Em clima quente, controle principalmente o superaquecimento do recipiente e das raízes durante o dia e o abafamento noturno.",
+    climaFloracao: "Prefere muita claridade, ventilação e raízes bem drenadas, como em seus ambientes rochosos. Pode florescer no litoral e na montanha, mas o calor acumulado nos recipientes pode dificultar o cultivo em regiões quentes. Os pseudobulbos precisam amadurecer com boa luz. Depois do crescimento, reduza um pouco as regas conforme a secagem, sem impor seca severa. Evite principalmente raízes superaquecidas e noites abafadas.",
     iluminacao: {
         sombrite: "30% a 50%; iniciar com 40% a 50% em ambientes quentes",
         solDireto: "Permitido com restrição",
