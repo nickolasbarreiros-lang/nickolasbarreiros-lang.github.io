@@ -30,7 +30,7 @@ export const cattleyaChocolateDrop = {
     "regiao": "Sem distribuição natural · parentais com origem no Brasil e México/América Central",
     "habitat": "Sem habitat natural · cultivo luminoso e ventilado",
     "clima": "Quente a intermediário · alta luz",
-    "climaFloracao": "A floração depende da maturação completa do pseudobulbo, boa exposição luminosa e redução moderada do nitrogênio após o crescimento. Luz alta melhora a compactação dos cachos, a firmeza das hastes e a intensidade das cores. A genética define a tonalidade básica, mas sombra excessiva produz flores menos intensas e crescimento mais alongado. Não exige repouso seco severo; apenas maior intervalo entre regas após a maturação.",
+    "climaFloracao": "Gosta de clima quente a intermediário, muita claridade e boa ventilação. Pode florescer tanto no litoral quanto na montanha, desde que fique protegida do frio intenso. Precisa amadurecer bem os pseudobulbos para formar hastes fortes e cachos vistosos. Após o crescimento, reduza um pouco a adubação e espaçe as regas conforme a secagem. Não exige repouso seco rigoroso nem choque térmico.",
     "iluminacao": {
         "sombrite": "40% a 60%",
         "solDireto": "Permitido com restrição",
