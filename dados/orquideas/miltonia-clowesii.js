@@ -25,7 +25,7 @@ export const miltoniaClowesii = {
     "regiao": "Sudeste brasileiro",
     "habitat": "Mata Atlântica · epífita.",
     "clima": "Intermediário a quente · noites amenas.",
-    "climaFloracao": "A haste surge após a maturação completa do pseudobulbo. Luz filtrada abundante, diferença moderada entre dia e noite e crescimento sem interrupções favorecem a indução. Não exige seca rigorosa. O novo pseudobulbo precisa amadurecer cheio e firme, pois suas reservas sustentam a haste longa e a abertura simultânea de várias flores.",
+    "climaFloracao": "Prefere clima intermediário, com noites um pouco mais amenas e bastante luz filtrada. A montanha costuma favorecer a floração; no litoral quente, procure um local fresco e ventilado. A haste floral aparece depois que o pseudobulbo amadurece completamente. Mantenha regas regulares durante o crescimento e evite seca prolongada. Uma diferença moderada entre dia e noite pode ajudar, mas não é necessário frio intenso.",
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
