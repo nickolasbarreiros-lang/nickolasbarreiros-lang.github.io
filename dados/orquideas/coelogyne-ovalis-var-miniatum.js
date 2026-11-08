@@ -72,7 +72,16 @@ export const coelogyneOvalisVarMiniatum = {
         "alerta": "Não enterrar o rizoma nem compactar o esfagno. O nome ‘Miniatum’ é um rótulo horticultural, não uma variedade botânica formal; confirmar a identificação na próxima floração.",
         "notaEvidencia": "MACS 1.1 — Evidência quantitativa publicada para o GÊNERO, não para esta espécie: AOS Coelogyne Culture Sheet descreve casca de pinus/perlita 3:1 (75/25), https://www.aos.org/orchid-care/care-sheets/coelogyne-culture-sheet. Quatro produtores brasileiros com orientação qualitativa para C. ovalis: Orquidário 4 Estações (pinus em cachepô/placa), Graças Garden (casca, carvão, coco, pedras e esfagno), Orquidário Aparecida (montagem em madeira) e Orquidário Mantovani (opções de recipiente); nenhum publica proporções específicas. POWO reconhece C. ovalis, mas ‘Miniatum’ não é variedade botânica formal confirmada para o exemplar. A receita principal é documentada somente em nível de gênero; não homologada experimentalmente para a espécie. Alternativas qualitativas sem percentuais inventados. Montagem e estrelas não validadas por ensaio comparativo."
     },
-    "errosComuns": "Tratar ‘Miniatum’ como variedade botânica formal; ignorar a necessidade de confirmar a flor; vaso profundo; enterrar o rizoma; calor noturno constante sem ventilação; deixar secar completamente por longos períodos; esfagno compactado; excesso de sais; replantar sem novas raízes.",
+    "errosComuns": [
+    "Enterrar o rizoma rastejante.",
+    "Usar vaso profundo com pouca ventilação.",
+    "Cultivar em calor noturno abafado.",
+    "Deixar raízes secarem por muitos dias.",
+    "Compactar esfagno sobre as raízes.",
+    "Acumular sais de fertilizante.",
+    "Replantar fora da emissão de raízes novas.",
+    "Confundir diferenças de flores com simples variação de cor."
+],
     "dica": "🏆 Nesta Coelogyne de rizoma rastejante, planeje o suporte para acomodar pseudobulbos espaçados sem precisar replantar frequentemente. Prefira recipiente largo e raso, mantendo o rizoma sobre a superfície e as raízes úmidas, porém ventiladas. Como a identificação da variedade pode exigir confirmação pelas flores, fotografe também o labelo, a haste e a disposição dos pseudobulbos na próxima floração. Essa observação ajuda a evitar ajustes de cultivo baseados em um nome incerto. Priorize luz filtrada e estabilidade do enraizamento.",
     revisaoCientificaIAR: {
         "nome": "Coelogyne ovalis ‘Miniatum’",
