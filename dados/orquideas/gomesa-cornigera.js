@@ -31,7 +31,7 @@ export const gomesaCornigera = {
  selosCultivo:{rega:{nivel:"moderada"},climaFloracao:{faixa:"intermediario"}},
  avaliacoes:{cultivo:3,floracao:3,perfume:1,luminosidade:3,agua:3,raridade:3},
  mesesFloracao: [2, 12],
- climaFloracao:"Na região quente (clima de litoral), priorizar sombra luminosa, circulação de ar e raízes arejadas; calor excessivo e noites abafadas podem prejudicar a floração. Na região fria (clima de montanha), as temperaturas amenas e a oscilação térmica tendem a ser mais favoráveis, sem exposição a geadas. Essas avaliações são estimativas de cultivo, não resultados de ensaios comparativos.",
+ climaFloracao:"Gosta de clima úmido, sombra luminosa e temperaturas amenas a quentes. Pode florescer no litoral, desde que fique protegida de noites abafadas, e costuma encontrar condições favoráveis na montanha. Mantenha boa circulação de ar e umidade regular nas raízes. A floração depende de pseudobulbos maduros e crescimento saudável. Não é necessário impor seca prolongada ou frio intenso.",
  iluminacao: {
      sombrite: "60% a 70%",
      solDireto: "Não permitido",
