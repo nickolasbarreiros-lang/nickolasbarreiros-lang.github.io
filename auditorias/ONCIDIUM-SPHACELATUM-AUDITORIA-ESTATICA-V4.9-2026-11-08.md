@@ -52,3 +52,10 @@ Foi lido diretamente `js/biblioteca-cultivo-v4.js` e conferido o uso de `obterAs
 As oito tentativas de leitura dos arquivos WebP pelo conector GitHub retornaram `UnicodeDecodeError` por se tratar de conteúdo binário. **Isso não é prova de arquivo quebrado**, mas impede validar aparência, integridade e correspondência visual pela leitura textual. Registrar **8/8 chaves mapeadas, 0/8 imagens visualmente inspecionadas**, e não confundir essas métricas. Não houve troca indevida de perlita por argila.
 
 **Conferência de renderização:** `criarSubstratoVisualV4` transforma `config.itens` via `obterAssetCultivoV4` e descarta itens sem `assetInfo.imagem`. Como as quatro chaves de substrato constam da biblioteca, a resolução textual é compatível; resta o teste no navegador. `fotos: []` permanece por ausência de atribuição genérica de licença no componente de galeria.
+
+## Conferência incremental — 08/11/2026 (continuação)
+
+- Verificado no repositório que o rascunho de *Oncidium sphacelatum* mantém os campos `dica`, `substratoVisual` e `adaptacaoRegional` usados no modelo publicado *Cattleya amethystoglossa* var. *aurea*.
+- A ausência de `raridadeIndice` no rascunho **não é divergência** em relação ao modelo V4.9 consultado, que também não o possui.
+- Foram tentadas aberturas dos três URLs `Special:FilePath` do Wikimedia Commons; o acesso externo falhou por restrição/erro de conexão neste ambiente, **sem prova de falha do endereço no navegador do usuário**. Não marcar como imagens validadas.
+- Mantida a decisão de não substituir a ficha publicada *Oncidium Summer Wind* até concluir validação visual, botânica e editorial. Sem alterações nos dados públicos nesta etapa.
