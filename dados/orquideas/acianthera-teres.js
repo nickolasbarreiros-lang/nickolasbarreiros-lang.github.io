@@ -16,7 +16,7 @@ export const aciantheraTeres = {
   "regiao": "Sudeste do Brasil, sobretudo afloramentos rochosos e campos rupestres.",
   "habitat": "Cresce principalmente sobre rochas expostas, com raízes presas em fendas e superfícies onde a água escoa rapidamente. Recebe bastante claridade, mas a temperatura das rochas e a umidade variam ao longo do dia.",
   "clima": "Quente a intermediário, com alta circulação de ar e forte variação microclimática sobre rochas.",
-  "climaFloracao": "Para florescer, precisa completar o crescimento dos novos brotos com boa claridade e raízes ativas. Por ser uma espécie associada a ambientes rochosos, beneficia-se de ventilação e secagem rápida, mas isso não significa que deva receber sol forte nas horas quentes. Em clima litorâneo, o principal cuidado é impedir o superaquecimento da planta. Não há comprovação de que noites frias ou repouso seco sejam requisitos para a floração.",
+  "climaFloracao": "Espécie rupícola de ambientes rochosos expostos, cuja floração depende de boa claridade, ventilação e crescimento maduro. Montanha: favorável em local luminoso e protegido de extremos. Litoral quente: possível, mas requer evitar superaquecimento das folhas e raízes. A secagem rápida do suporte não equivale a repouso hídrico obrigatório; não há comprovação de frio noturno específico como gatilho floral.",
   "iluminacao": {
     "sombrite": "50% a 70% como faixa inicial; ajuste conforme o calor e a resposta da planta",
     "solDireto": "Permitido com restrição",
