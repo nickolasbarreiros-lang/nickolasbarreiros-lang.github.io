@@ -73,7 +73,16 @@ export const dendrobiumAggregatum = {
         "alerta": "Só iniciar a redução das regas depois de os pseudobulbos amadurecerem. Evitar chuva contínua e adubação nitrogenada intensa durante o repouso; não desidratar severamente a planta.",
         "notaEvidencia": "MACS 1.1: receita para cesto/vaso 60% pinus + 20% carvão + 20% chips de coco (por volume), documentada para Dendrobium genérico, NÃO especificamente validada para D. lindleyi (percentuais D). A montagem em placa/tronco permanece preferencial e dispensa mistura volumétrica. Estrelas de suporte D, preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-027-DENDROBIUM-LINDLEYI-AGGREGATUM.md."
     },
-    "errosComuns": "Regar e adubar da mesma forma o ano inteiro; iniciar o repouso antes de o pseudobulbo amadurecer; sombra excessiva; esfagno compacto; tentar induzir floração apenas com adubo rico em fósforo; cortar pseudobulbos antigos ainda firmes; dividir touceiras pequenas; deixar chuva constante atingir a planta durante o repouso.",
+    "errosComuns": [
+    "Regar igualmente durante crescimento e repouso.",
+    "Iniciar repouso antes de amadurecer os pseudobulbos.",
+    "Cultivar em sombra excessiva.",
+    "Compactar esfagno sobre as raízes.",
+    "Tentar induzir flores apenas com adubo fosfatado.",
+    "Cortar pseudobulbos antigos ainda firmes.",
+    "Dividir touceiras pequenas.",
+    "Manter chuva constante durante o repouso."
+],
     "dica": "🏆 Para florescer bem, este Dendrobium precisa de pseudobulbos maduros, bastante claridade e um repouso mais fresco e seco. Durante o crescimento, forneça água e adubação regulares. Quando os pseudobulbos amadurecerem, suspenda a adubação, reduza bastante as regas e procure noites mais frescas, sem expor a planta a geadas. Molhe apenas o necessário para evitar enrugamento excessivo. Retome gradualmente a irrigação quando surgirem botões ou novos crescimentos. Calor constante e umidade excessiva no repouso podem impedir a floração.",
     revisaoCientificaIAR: {
         "nome": "Dendrobium lindleyi",
