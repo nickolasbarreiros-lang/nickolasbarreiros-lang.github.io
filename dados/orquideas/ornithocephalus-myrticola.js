@@ -25,7 +25,7 @@ export const ornithocephalusMyrticola = {
     "regiao": "Norte, Centro-Oeste, Sudeste e Sul do Brasil",
     "habitat": "Matas montanas a baixadas e savanas.",
     "clima": "Quente a fresco · boa umidade e ar.",
-    "climaFloracao": "Cresce continuamente quando recebe umidade estável, boa ventilação e temperatura moderada. Não precisa de repouso seco. Plantas bem estabelecidas podem emitir várias hastes, criando pequenas nuvens de flores microscópicas. Calor noturno, ar parado e água retida no centro do leque interrompem rapidamente o crescimento.",
+    "climaFloracao": "Gosta de clima quente a intermediário, umidade regular e excelente ventilação. Pode florescer no litoral e na montanha, desde que protegido de temperaturas extremas. Plantas bem estabelecidas podem produzir várias hastes pequenas. Mantenha luz filtrada e raízes hidratadas, sem deixar água acumulada no centro das folhas. Não precisa de repouso seco. Evite principalmente noites abafadas e ar parado.",
     "iluminacao": {
         "sombrite": "70% a 80%",
         "solDireto": "Não permitido",
