@@ -172,12 +172,15 @@ export const epidendrumFulgens = {
     "alerta": "Use partículas médias a grossas e recipiente com drenagem livre; evite terra fina compactada."
   },
   "errosComuns": [
-    "Manter a planta em sombra excessiva por longos períodos",
-    "Expor abruptamente ao sol intenso sem aclimatação",
-    "Usar terra compactada que acumula água",
-    "Manter o vaso encharcado durante o crescimento lento",
-    "Confundir exemplares semelhantes apenas pela cor das flores"
-  ],
+    "Cultivar em sombra excessiva por muito tempo.",
+    "Expor abruptamente ao sol intenso.",
+    "Usar terra compactada que acumula água.",
+    "Manter raízes encharcadas no crescimento lento.",
+    "Deixar substrato arenoso secar demais na brotação.",
+    "Usar recipiente sem drenagem adequada.",
+    "Cultivar em ambiente abafado e pouco ventilado.",
+    "Confundir adaptação ao sol com tolerância ao superaquecimento."
+],
   "revisaoCientificaIAR": {
     "nome": "Epidendrum fulgens Brongn.",
     "statusTaxonomico": "Espécie aceita pelo POWO/Kew.",
