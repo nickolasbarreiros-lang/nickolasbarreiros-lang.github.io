@@ -29,7 +29,7 @@ export const trichocentrumFuscum = {
     "regiao": "América do Sul tropical, incluindo todas as regiões do Brasil",
     "habitat": "Epífita de florestas tropicais úmidas, Cerrado e restingas florestais.",
     "clima": "Quente a intermediário, ventilado.",
-    "climaFloracao": "A floração é favorecida por alta luminosidade filtrada, folhas maduras, ventilação intensa e raízes que alternam hidratação com secagem rápida. Não necessita de repouso absolutamente seco, mas após maturação e nos meses frios o intervalo entre regas deve aumentar.",
+    "climaFloracao": "Gosta de clima quente a intermediário, bastante luz filtrada e excelente ventilação. Pode florescer no litoral e na montanha, com proteção contra frio intenso. Suas raízes precisam molhar bem e secar rapidamente entre regas. Folhas maduras e boa luminosidade favorecem as hastes. Quando o crescimento diminuir, aumente moderadamente os intervalos entre regas, sem impor seca prolongada.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
