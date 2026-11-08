@@ -126,16 +126,14 @@ export const stelisCfAprica = {
 ], alerta: "Replante antes que a mistura compacte ou permaneça molhada por tempo muito maior que quando nova; preserve a base dos ramicaules arejada.", notaEvidencia: "MACS 1.1 — revisão documental: Stelis cf. aprica, microepífita de raízes finas, identificação ainda prudencial (cf.), umidade frequente sem saturação, alta aeração e sombra luminosa. Vaso plástico pequeno e muito perfurado é suporte principal; placa/tronco e cachepô de madeira são alternativas de cultivo. Receita visual e textual PARA VASO: 35% pinus fino/médio + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 20% esfagno de fibra longa solto = 100% em volume. Exatamente duas outras misturas qualitativas: pinus/carvão/esfagno e chips de coco pequenos preparados/carvão/perlita de granulometria adequada a raízes finas. Alternativas não comprovam percentuais da receita principal. Monitorar retenção do esfagno, secagem do centro do vaso, granulometria e identificação taxonômica. Duas referências de orquidários citadas não constituem levantamento individualizado de até 25 produtores brasileiros. Sem ensaio quantitativo específico; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
-    "Expor ao sol direto forte.",
+    "Expor folhas ao sol direto forte.",
     "Deixar raízes finas secarem por vários dias.",
-    "Compactar esfagno ao redor da base.",
-    "Manter o vaso permanentemente encharcado.",
-    "Cultivar em ambiente quente e abafado.",
+    "Compactar esfagno ao redor dos caules.",
+    "Manter o vaso constantemente encharcado.",
+    "Cultivar em calor abafado.",
     "Aplicar fertilizante concentrado.",
-    "Retirar o “cf.” antes da confirmação taxonômica da planta.",
-    "Usar vaso grande demais para uma touceira pequena, prolongando a secagem do miolo.",
-    "Confundir alta umidade ambiental com necessidade de substrato constantemente saturado.",
-    "Manter sombra excessiva: folhas bonitas sem hastes podem indicar luz insuficiente."
+    "Usar vaso grande para a touceira pequena.",
+    "Cultivar em sombra excessiva e reduzir hastes."
 ],
     revisaoCientificaIAR: {
     "nome": "Stelis cf. aprica",
