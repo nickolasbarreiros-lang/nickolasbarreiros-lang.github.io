@@ -26,7 +26,7 @@ export const laeliaSplendida = {
     regiao: "Colômbia e Equador",
     habitat: "Epífita ou rupícola de ambientes tropicais claros e ventilados.",
     clima: "Quente a intermediário, luminoso e ventilado.",
-    climaFloracao: "A floração depende principalmente de pseudobulbos maduros, boa reserva de energia e luminosidade elevada. Em clima quente, adapta-se bem desde que as raízes tenham excelente aeração e a planta não permaneça constantemente molhada.",
+    climaFloracao: "Gosta de clima quente a intermediário, bastante claridade e excelente ventilação. Pode florescer no litoral e na montanha, desde que protegida do frio intenso. Pseudobulbos maduros e raízes saudáveis favorecem hastes fortes. Regue bem durante o crescimento e permita boa secagem entre regas, especialmente quando a atividade diminuir. Não precisa de noites muito frias nem de seca rigorosa para florescer.",
     iluminacao: {
         sombrite: "30% a 50%",
         solDireto: "Permitido com restrição",
