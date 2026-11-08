@@ -67,14 +67,15 @@ export const dendrobiumLoddigesii = {
         alerta: "No repouso, reduza a água conforme a maturação das hastes e o clima; não transforme o período seco em desidratação extrema."
     },
     errosComuns: [
-        "Cortar hastes antigas ainda vivas.",
-        "Manter o substrato molhado durante o repouso.",
-        "Continuar adubação nitrogenada no inverno.",
-        "Cultivar em sombra.",
-        "Usar vaso grande ou mistura retentiva.",
-        "Impedir o caimento natural das hastes.",
-        "Tentar manter crescimento contínuo o ano inteiro."
-    ],
+    "Cortar hastes antigas ainda vivas.",
+    "Manter substrato molhado durante o repouso.",
+    "Continuar adubação nitrogenada no inverno.",
+    "Cultivar em sombra excessiva.",
+    "Usar vaso grande ou mistura retentiva.",
+    "Impedir o caimento natural das hastes.",
+    "Tentar manter crescimento contínuo o ano inteiro.",
+    "Reduzir regas antes de amadurecer as hastes."
+],
     revisaoCientificaIAR: {
         "nome": "Dendrobium loddigesii Rolfe",
         "statusTaxonomico": "Espécie aceita pelo POWO/Kew, publicada por Rolfe em Gardeners' Chronicle, série 3, volume 2, página 155 (1887). Não confundir com Cattleya loddigesii, espécie distinta e brasileira.",
