@@ -1,5 +1,5 @@
 // RASCUNHO V4.9 — NAO IMPORTAR NO INDEX ATE HOMOLOGACAO FINAL
-// Fotografias: creditos CC BY-SA disponiveis em creditosFotos; URLs Special:FilePath aguardam teste visual.
+// Fotografias: creditos CC BY-SA disponiveis em creditosFotos; 3 URLs diretas de imagens abertas e verificadas visualmente; creditos individuais mantidos.
 export const oncidiumSphacelatum = {
   "id": "oncidium-sphacelatum",
   "nome": "Oncidium sphacelatum",
@@ -20,9 +20,9 @@ export const oncidiumSphacelatum = {
     "Perfume discreto"
   ],
   "fotos": [
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Oncidium_sphacelatum_2.jpg",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Oncidium_sphacelatum_(42110).jpg",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Oncidium_sphacelatum_(42115).jpg"
+    "https://upload.wikimedia.org/wikipedia/commons/1/16/Oncidium_sphacelatum_2.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/f/f7/Oncidium_sphacelatum_%2842110%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/c/c0/Oncidium_sphacelatum_%2842115%29.jpg"
   ],
   "selosCultivo": {
     "rega": {
