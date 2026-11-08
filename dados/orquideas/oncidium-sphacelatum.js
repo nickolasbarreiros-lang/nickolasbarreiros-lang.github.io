@@ -46,7 +46,7 @@ export const oncidiumSphacelatum = {
   ],
   "mesesFloracaoIndicativos": true,
   "clima": "Quente a intermediário, com boa ventilação e umidade ambiente.",
-  "climaFloracao": "Ocorre naturalmente em florestas tropicais, desde baixas altitudes até cerca de 1.000 m, e floresce melhor com luz filtrada intensa, boa ventilação, umidade elevada e pseudobulbos maduros. Prefere calor moderado, com noites um pouco mais frescas. Essa diferença térmica pode favorecer a floração, mas não há comprovação de que precise de quebra térmica obrigatória. Reduza as regas quando o crescimento parar; não é necessário impor seca severa. Pouca luz e raízes encharcadas dificultam a emissão de hastes.",
+  "climaFloracao": "Gosta de clima quente a intermediário, muita luz filtrada e boa ventilação. Pode florescer no litoral e na montanha, desde que protegido do frio intenso. Os pseudobulbos precisam amadurecer com regas regulares e raízes saudáveis. Noites um pouco mais frescas podem favorecer as hastes, mas não são uma exigência rígida. Depois do crescimento, reduza moderadamente as regas, sem provocar seca severa.",
   "iluminacao": {
     "sombrite": "Cerca de 50% como referência inicial, ajustando ao calor",
     "solDireto": "Permitido com restrição",
