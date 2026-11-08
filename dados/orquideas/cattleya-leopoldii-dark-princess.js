@@ -28,7 +28,7 @@ export const cattleyaLeopoldiiDarkPrincess = {
     "regiao": "Mata Atlântica do Sul e Sudeste",
     "habitat": "Florestas costeiras claras · copas ventiladas",
     "clima": "Quente a intermediário · alta luminosidade",
-    "climaFloracao": "A floração é favorecida por pseudobulbos altos e bem amadurecidos, luminosidade muito intensa durante todo o crescimento e leve redução de água e nitrogênio após a maturação. A intensidade do padrão escuro depende principalmente da genética do cultivar, mas boa luz, amplitude térmica e maturação adequada ajudam a expressar melhor a coloração. Sombra excessiva produz pseudobulbos finos, entrenós alongados e inflorescências fracas. A planta não exige repouso seco severo, mas aprecia secagem nítida entre regas.",
+    "climaFloracao": "Gosta de clima quente, muita luminosidade e excelente ventilação, sendo bem adaptada ao litoral. Na montanha, proteja do frio prolongado. Precisa formar pseudobulbos altos e fortes antes de florescer. Após a maturação, deixe as raízes secarem bem entre regas e reduza um pouco o nitrogênio. Noites ligeiramente mais amenas podem ajudar, mas não é necessário provocar frio intenso ou repouso seco severo.",
     "iluminacao": {
         "sombrite": "35% a 50%",
         "solDireto": "Permitido com restrição",
