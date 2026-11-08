@@ -29,7 +29,7 @@ export const spathoglottisPlicata = {
     "regiao": "Sul e Sudeste da Ásia · Malesia · Austrália · ilhas do Pacífico",
     "habitat": "Terrestre · áreas abertas, campos e bordas · ~700–2.000 m em muitos registros.",
     "clima": "Quente a intermediário · alta luminosidade.",
-    "climaFloracao": "A grande distribuição natural explica sua tolerância térmica. Em cultivo quente, floresce melhor com muita luz, água regular e nutrição constante durante o crescimento. Não precisa de frio para florir; noites um pouco mais amenas podem favorecer vigor, mas o fator limitante mais comum é sombra excessiva.",
+    "climaFloracao": "Gosta de clima quente a intermediário, muita luminosidade e regas regulares, sendo bastante adequada ao litoral. Na montanha, proteja de frio intenso. Como é terrestre, precisa de raízes saudáveis e substrato úmido, mas bem drenado. Boa luz e nutrição equilibrada favorecem hastes sucessivas. Não precisa de noites frias nem de repouso seco para florescer; sombra excessiva costuma reduzir a floração.",
     "iluminacao": {
         "sombrite": "30% a 50%; reduzir gradualmente em plantas adaptadas",
         "solDireto": "Sol pleno",
