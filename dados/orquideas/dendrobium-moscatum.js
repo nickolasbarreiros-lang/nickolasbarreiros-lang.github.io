@@ -72,7 +72,16 @@ export const dendrobiumMoscatum = {
         "alerta": "Não restringir o arco das hastes nem usar vaso leve. Evitar encharcamento durante o repouso moderado, iniciado somente após as hastes amadurecerem.",
         "notaEvidencia": "MACS 1.1: composição C por convergência de fontes gerais para Dendrobium; percentuais D, estimados e NÃO HOMOLOGADOS para D. moschatum. Não é receita experimental nem publicada especificamente para esta espécie. Duas alternativas no menu, distintas da principal. Estrelas de suportes D, preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-028-DENDROBIUM-MOSCHATUM.md."
     },
-    "errosComuns": "Instalar em local baixo; impedir o arco natural das hastes; sombra excessiva; encharcar no inverno; cortar hastes antigas; reduzir água antes da maturação; excesso de nitrogênio no final do verão; vaso leve; mudar constantemente de posição; substrato velho.",
+    "errosComuns": [
+    "Instalar a planta sem espaço para hastes arqueadas.",
+    "Impedir o caimento natural das hastes.",
+    "Cultivar em sombra excessiva.",
+    "Encharcar raízes durante o repouso.",
+    "Cortar hastes antigas ainda firmes.",
+    "Reduzir água antes da maturação dos brotos.",
+    "Exagerar no nitrogênio ao final do crescimento.",
+    "Usar recipiente leve e instável."
+],
     "dica": "🏆 Este Dendrobium de hastes grandes precisa amadurecer os caules antes de entrar na fase menos ativa. Durante o alongamento, ofereça luz abundante filtrada, água e adubação regulares, com raízes bem ventiladas. Vasos estáveis podem funcionar, desde que o substrato tenha partículas grossas e drenagem rápida. Quando os caules pararem de crescer e endurecerem, reduza gradualmente as regas. Evite manter o recipiente encharcado durante a fase de descanso. Preserve hastes antigas firmes, importantes como reserva para novos brotos.",
     revisaoCientificaIAR: {
         "nome": "Dendrobium moschatum",
