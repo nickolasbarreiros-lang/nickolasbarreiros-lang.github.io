@@ -74,7 +74,16 @@ export const stanhopeaHernandezii = {
         alerta: "Evitar vaso fechado, fundo bloqueado, secagem completa na brotação e substrato compacto. Não mover, girar ou replantar a cesta durante a emissão das hastes florais.",
         notaEvidencia: "MACS 1.1 — revisão documental: Stanhopea hernandezii, epífita/rupícola com hastes florais descendentes, requer cesta suspensa de fundo realmente desobstruído, umidade regular durante crescimento e ventilação. Cachepô de Madeira suspenso é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 40% chips de coco grossos preparados + 30% pinus médio + 20% perlita grossa compatível com cesto + 10% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/fibra de coco grossa preparada/perlita/carvão e macadâmia/chips de coco grossos preparados/perlita/pouco esfagno solto. Elas não fundamentam os percentuais visuais; justificativa anterior de equivalência foi corrigida. Não compactar nem bloquear a saída das hastes, observar limitações de noites quentes. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas de suporte omitidas. Classe D — não homologada quantitativamente"
     },
-    "errosComuns": "Vaso fechado; fundo bloqueado; seca total na brotação; mover ou girar a cesta com haste emergente; replantar durante floração; molhar flores à noite; sombra profunda; substrato velho e compacto.",
+    "errosComuns": [
+    "Usar vaso fechado que impede a passagem das hastes.",
+    "Bloquear a abertura inferior do cesto.",
+    "Deixar raízes secarem durante a brotação.",
+    "Girar a cesta com hastes em formação.",
+    "Replantar durante a floração.",
+    "Molhar flores durante a noite.",
+    "Cultivar em sombra profunda.",
+    "Manter substrato velho e compactado."
+],
     "dica": "🏆 Esta Stanhopea de flores grandes e perfumadas precisa de cesto suspenso com fundo livre, pois suas inflorescências atravessam o substrato e se desenvolvem para baixo. Reserve bastante espaço abaixo da planta e evite recipientes com telas apertadas. Durante a brotação, ofereça umidade regular, raízes ventiladas e luz filtrada. Quando a haste aparecer, não gire nem replante o cesto: a movimentação pode danificar botões delicados. Mantenha pseudobulbos maduros saudáveis para sustentar a floração intensa, geralmente breve.",
     revisaoCientificaIAR: {
         "nome": "Stanhopea hernandezii",
