@@ -39,7 +39,16 @@ export const cattleyaSchillerianaXCruzeiroDoSul = {
     "rega": "Molhe bem durante a formação dos brotos, mas só repita quando o substrato estiver próximo da secagem. Após a maturação, aumente o intervalo entre regas, sem deixar pseudobulbos murcharem excessivamente. Evite água acumulada nas bainhas, regas noturnas e o uso de cachepôs decorativos fechados. Se a planta murchar com o substrato ainda úmido, verifique imediatamente as raízes.",
     "suporte": "🥇 Vaso de barro pequeno e perfurado: fornece estabilidade e secagem rápida.\n🥈 Cestinho de madeira aberto: ideal para máxima aeração.\n🥉 Placa de madeira ou cortiça: indicada em orquidários úmidos e com rotina de rega frequente.\nO recipiente deve permitir apenas duas ou três novas frentes e o rizoma deve ser fixado sobre a superfície.",
     substrato: ["Casca de pinus média + perlita grossa + carvão vegetal + chips de coco lavados","Casca de macadâmia média + argila expandida + carvão vegetal + casca de pinus grossa"],
-    "errosComuns": "Replantar sem raízes novas; usar vaso grande; manter substrato velho; enterrar o rizoma; regar por calendário; cultivar em sombra; aplicar excesso de nitrogênio; deixar a planta solta; dividir touceira pequena; manter cachepô decorativo com água; cortar raízes aderidas sem necessidade.",
+    "errosComuns": [
+    "Replantar sem início de raízes novas.",
+    "Usar vaso grande com secagem lenta.",
+    "Manter substrato velho e decomposto.",
+    "Enterrar o rizoma.",
+    "Regar por calendário sem verificar a secagem.",
+    "Cultivar em sombra excessiva.",
+    "Deixar a planta solta após o replante.",
+    "Dividir touceira antes de acumular reservas."
+],
     "dica": "🏆 Neste híbrido da aliança Cattleya, o vigor depende de um sistema radicular preservado. Evite replantar por calendário: espere a nova frente começar a emitir raízes curtas e ativas, capazes de colonizar rapidamente o substrato. Use recipiente proporcional e fixe a planta para impedir movimentos que quebrem pontas novas. Durante o crescimento, ofereça luz intensa filtrada, ventilação e regas ajustadas à secagem. Não confunda vigor híbrido com tolerância a raízes abafadas ou danos repetidos por divisões.",
     formasCultivo: {
         perfilVisual: "cattleya",
