@@ -25,7 +25,7 @@ export const aciantheraAveniformis = {
     mesesFloracao: [7, 8, 9],
     mesesFloracaoIndicativos: true,
     clima: "Quente a intermediário, úmido e muito ventilado.",
-    climaFloracao: "A origem em baixa a média elevação, com referência próxima de 400 m, não sustenta tratá-la como espécie obrigatoriamente fria. Para florescer no litoral quente, o objetivo é evitar superaquecimento e abafamento, mas sem impor noites artificialmente frias. Crescimentos maduros, umidade atmosférica estável, raízes ativas e boa circulação de ar são mais relevantes que uma queda térmica extrema.",
+    climaFloracao: "Adaptada a ambientes úmidos de baixa a média altitude, com registro próximo de 400 m. Litoral quente: favorável se houver ventilação, luz filtrada e raízes ativas. Montanha: favorável quando protegida de frio excessivo. Não há exigência comprovada de noites frias ou repouso hídrico para florir; evite tanto o abafamento quanto a desidratação prolongada.",
     iluminacao: {
         sombrite: "70% como referência inicial",
         solDireto: "Não permitido",
