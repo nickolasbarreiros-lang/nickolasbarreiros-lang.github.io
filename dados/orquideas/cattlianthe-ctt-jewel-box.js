@@ -29,7 +29,7 @@ export const cattliantheCttJewelBox = {
     "regiao": "Sem distribuição natural · Guarianthe aurantiaca × Cattleya Anzac",
     "habitat": "Sem habitat natural · cultivo claro e ventilado.",
     "clima": "Quente a intermediário · luz alta.",
-    "climaFloracao": "Floresce melhor quando os pseudobulbos amadurecem completamente sob luminosidade elevada e sem excesso de nitrogênio. A planta pode florescer mais de uma vez ao ano quando produz sucessivas frentes de crescimento. Touceiras adultas acumulam mais reservas e possuem maior número de pseudobulbos aptos a emitir hastes, razão pela qual divisões frequentes reduzem a intensidade da florada. Após a maturação, aumente levemente o intervalo entre regas e reduza adubação nitrogenada, sem impor repouso seco severo.",
+    "climaFloracao": "Gosta de clima quente a intermediário, muita claridade e ventilação. Floresce bem no litoral e também na montanha, desde que protegida do frio intenso. Pseudobulbos maduros e touceiras vigorosas ajudam a produzir mais hastes, às vezes em diferentes épocas do ano. Depois do crescimento, reduza um pouco as regas e o nitrogênio, sem provocar seca severa. Evite divisões frequentes da planta.",
     "iluminacao": {
         "sombrite": "40% a 50%",
         "solDireto": "Permitido com restrição",
