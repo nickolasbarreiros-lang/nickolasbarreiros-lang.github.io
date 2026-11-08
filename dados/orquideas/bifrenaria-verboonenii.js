@@ -77,14 +77,15 @@ export const bifrenariaVerboonenii = {
         alerta: "Evite manter as raízes permanentemente úmidas. Durante o crescimento ativo, regue abundantemente e deixe ocorrer secagem clara antes da próxima rega."
     },
     errosComuns: [
-        "Manter o vaso constantemente úmido.",
-        "Usar mistura fina ou compacta.",
-        "Cultivar em noites muito quentes e abafadas.",
-        "Excesso de sombra.",
-        "Enterrar a base dos pseudobulbos.",
-        "Manter a mesma frequência de rega no inverno.",
-        "Usar vaso maior que o necessário."
-    ],
+    "Manter o vaso constantemente úmido.",
+    "Usar mistura fina ou compactada.",
+    "Cultivar em noites quentes e abafadas.",
+    "Manter sombra excessiva e reduzir a floração.",
+    "Enterrar a base dos pseudobulbos.",
+    "Repetir regas intensas durante o inverno.",
+    "Usar vaso maior que o sistema radicular.",
+    "Replantar sem início de raízes novas."
+],
     revisaoCientificaIAR: {
         "nome": "Bifrenaria verboonenii G.A.Romero & V.P.Castro — nome editorial",
         "statusTaxonomico": "POWO/Kew trata Bifrenaria verboonenii G.A.Romero & V.P.Castro (Harvard Pap. Bot. 5:187, 2000) como sinônimo heterotípico de Bifrenaria tyrianthina (Lodd. ex Loudon) Rchb.f. (1854), espécie aceita. O nome original é mantido apenas como identificação histórica/editorial da ficha; não declarar que é espécie aceita em POWO.",
