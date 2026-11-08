@@ -63,7 +63,16 @@ export const isabeliaVirginalis = {
         alerta: "Não retirar as bainhas fibrosas nem enterrar o rizoma. Evitar esfagno compactado, vaso profundo, sombra excessiva e longos períodos de encharcamento ou seca.",
         notaEvidencia: "MACS 1.1 — revisão documental: Isabelia virginalis, miniatura epífita/rupícola rastejante, rizoma e bainhas fibrosas expostos, raízes superficiais e secagem rápida. Suportes placa/tronco 5 estrelas, cachepô madeira 4, barro e plástico vasado 2; notas horticulturais não homologadas. Montagem principal sem substrato retentivo é coerente com suporte, mas NÃO é a primeira receita qualitativa do campo substrato. Receita visual alternativa para cesto raso: 45% chips coco muito grossos + 35% argila expandida + 20% carvão = 100%; receitaTexto e itens concordam. A receita visual para cesto raso coincide com a descrição textual; as duas alternativas qualitativas são distintas e não equivalem à principal. Verificar se 45% chips coco conserva umidade excessiva e se argila expandida mantém estabilidade para rizoma exposto; meta até 25 produtores brasileiros específicos não atingida. POWO aceita Isabelia virginalis, epífita ou rupícola do Sul e Sudeste do Brasil até Paraguai e Argentina. Flora do Brasil 2020 descreve pseudobulbos com bainhas reticuladas, folhas aciculares e flores branco-creme com labelo branco; estudo brasileiro na Rodriguésia registra flores róseo-claras com labelo alvo. AOS recomenda placas e ramos de madeira, sem ensaio quantitativo. Orquidários Matsuoka e Hang recomendam montagem em madeira, enquanto Aniela cita 70% de sombreamento, sem percentuais de substrato. Três produtores brasileiros qualitativos específicos e zero receitas quantitativas confirmadas nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    errosComuns: "Remover as bainhas fibrosas; enterrar o rizoma; compactar esfagno ao redor da planta; cultivar em sombra profunda; manter a colônia permanentemente molhada; deixar secar por muitos dias; usar vaso grande e profundo; adubar forte; dividir em pedaços pequenos; manter ambiente abafado.",
+    errosComuns: [
+    "Remover as bainhas fibrosas dos pseudobulbos.",
+    "Enterrar o rizoma rastejante.",
+    "Compactar esfagno ao redor da colônia.",
+    "Cultivar em sombra profunda.",
+    "Manter a touceira constantemente molhada.",
+    "Deixar raízes secarem por muitos dias.",
+    "Usar vaso grande e profundo.",
+    "Dividir a colônia em partes pequenas."
+],
     dica: "🏆 O diferencial desta Isabelia é deixar sua colônia rastejante se expandir sem perturbar as fibras que envolvem os pseudobulbos. Escolha uma placa durável, com espaço lateral para novos crescimentos, e evite transferências frequentes. Ofereça boa claridade filtrada, ventilação e ciclos de rega seguidos por secagem adequada, respeitando o ritmo sazonal. Não enterre o rizoma nem cubra a trama fibrosa com substrato compacto. Uma touceira madura, bem aderida ao suporte, tende a responder melhor que pequenas divisões.",
     revisaoCientificaIAR: {
         "nome": "Isabelia virginalis",
