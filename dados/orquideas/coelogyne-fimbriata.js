@@ -29,7 +29,7 @@ export const coelogyneFimbriata = {
     "regiao": "Nepal · sul da China · Indochina",
     "habitat": "Florestas úmidas · troncos e rochas musgosas.",
     "clima": "Intermediário · úmido e ventilado.",
-    "climaFloracao": "A floração ocorre após a maturação dos pseudobulbos e é favorecida por luz filtrada brilhante, umidade regular e leve redução de água no fim do ciclo. Ao contrário de Coelogyne cristata, não exige frio intenso nem seca prolongada. O rizoma precisa avançar livremente e acumular vários pseudobulbos, pois colônias adultas florescem com maior constância que pequenas divisões.",
+    "climaFloracao": "Gosta de clima intermediário, umidade regular e boa ventilação. A montanha costuma favorecer sua floração, mas também pode florescer no litoral se ficar protegida do calor abafado. Ofereça luz filtrada e deixe os pseudobulbos amadurecerem. Na fase menos ativa, diminua um pouco as regas sem secar completamente a planta. Não precisa do inverno rigoroso exigido por algumas outras Coelogynes.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Não permitido",
