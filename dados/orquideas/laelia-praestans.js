@@ -71,7 +71,16 @@ export const laeliaPraestans = {
         alerta: "Evitar sombra excessiva, sol forte sem aclimatação, vaso grande, substrato compactado e excesso de água. Não enterrar o rizoma nem replantar fora da emissão de raízes novas sem necessidade.",
         notaEvidencia: "MACS 1.1 — revisão documental: Cattleya praestans (sin. Laelia praestans), epífita compacta de floresta úmida, raízes ventiladas e umidade regular durante crescimento ativo, sem repouso seco severo. Cachepô de Madeira pequeno e vazado é proposta principal; estrelas dos suportes não atribuídas por ausência de validação quantitativa. Receita visual e textual coincidem: 35% macadâmia média + 30% pinus médio + 20% perlita grossa compatível com recipiente + 15% carvão vegetal médio = 100%. Exatamente duas outras misturas qualitativas distintas: pinus/perlita/carvão/pequena fração de chips de coco grossos preparados e macadâmia/argila expandida/carvão/pinus. Nenhuma fundamenta os percentuais visuais; justificativa anterior de equivalência foi corrigida. Monitorar retenção, secagem, granulometria e aquecimento do recipiente. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas de suporte omitidas. Classe D — não homologada quantitativamente"
     },
-    errosComuns: "Sombra excessiva; sol forte sem aclimatação; substrato compactado; excesso constante de água; deixar secar demais durante crescimento ativo; vaso grande; enterrar o rizoma; replantar fora da emissão de raízes novas; excesso de fertilizante; dividir touceiras pequenas; compensar calor aumentando indiscriminadamente as regas.",
+    errosComuns: [
+    "Cultivar em sombra excessiva.",
+    "Expor ao sol forte sem aclimatação.",
+    "Usar substrato compactado.",
+    "Manter raízes constantemente encharcadas.",
+    "Deixar secar demais durante o crescimento.",
+    "Usar vaso grande com secagem lenta.",
+    "Enterrar o rizoma.",
+    "Replantar fora da emissão de raízes novas."
+],
     dica: "🏆 Nesta Cattleya de flores grandes para o porte da planta, o segredo é manter raízes ativas sem aquecer excessivamente o recipiente. Ofereça luz filtrada abundante, ventilação constante e umidade regular durante o crescimento. Em clima quente, escolha o ponto mais ameno do orquidário e evite sol forte sobre o vaso. Replante quando aparecerem raízes novas, preservando as antigas sempre que possível. Não aumente a água indiscriminadamente se a planta murchar: verifique primeiro se as raízes estão saudáveis.",
     revisaoCientificaIAR: {
         "nome": "Cattleya praestans",
