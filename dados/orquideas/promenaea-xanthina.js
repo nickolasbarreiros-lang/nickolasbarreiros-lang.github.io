@@ -26,7 +26,7 @@ export const promenaeaXanthina = {
     regiao: "Nordeste, Sudeste e Sul do Brasil",
     habitat: "Epífita de florestas montanas úmidas e protegidas, chegando a cerca de 1.700 m.",
     clima: "Intermediário a fresco, úmido e muito ventilado.",
-    climaFloracao: "A floração é favorecida por planta bem estabelecida, noites amenas, umidade ambiental elevada e luz filtrada. Em clima quente, evite sobretudo o superaquecimento noturno. Após a maturação dos pseudobulbos, uma breve redução nas regas pode ajudar, mas sem transformar o período em repouso seco.",
+    climaFloracao: "Gosta de clima intermediário a fresco, umidade elevada e noites amenas. A montanha oferece condições mais favoráveis à floração; no litoral quente, procure um local fresco e muito ventilado. Mantenha luz filtrada e regas regulares durante o crescimento. Depois que os pseudobulbos amadurecerem, reduza levemente a frequência, sem provocar seca prolongada. O calor noturno persistente pode dificultar a formação dos botões.",
     iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não permitido",
