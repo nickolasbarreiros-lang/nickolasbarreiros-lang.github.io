@@ -42,7 +42,7 @@ export const cattleyaAmethystoglossaVarAurea = {
   "mesesFloracao": [6,8,9,10,11,12],
   "mesesFloracaoIndicativos": true,
   "clima": "Quente a intermediário, com ventilação constante e raízes arejadas.",
-  "climaFloracao": "Espécie brasileira de ambientes tropicais luminosos, geralmente de baixas a médias altitudes, que floresce melhor com pseudobulbos maduros, luz intensa filtrada e raízes bem ventiladas. A floração costuma ocorrer de agosto a dezembro, com destaque para setembro e outubro, mas varia conforme a linhagem. Noites um pouco mais frescas e a redução natural das regas após a maturação podem favorecer o ciclo; não há base para exigir quebra térmica artificial ou seca severa. Pouca luz e excesso de umidade prejudicam a formação das flores.",
+  "climaFloracao": "Gosta de clima quente a intermediário, bastante claridade e raízes bem ventiladas. Pode florescer no litoral e na montanha, desde que não passe frio intenso. Pseudobulbos maduros e luz forte filtrada favorecem as flores. Depois do crescimento, aumente um pouco os intervalos entre regas conforme a secagem. Noites mais amenas podem ajudar, mas não é necessário provocar choque térmico ou seca severa.",
   "iluminacao": {
     "sombrite": "30–50% como ponto de partida, ajustando ao calor e à aclimatação",
     "solDireto": "Permitido com restrição",
