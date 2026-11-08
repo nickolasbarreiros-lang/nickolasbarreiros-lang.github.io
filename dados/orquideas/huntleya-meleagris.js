@@ -65,7 +65,16 @@ export const huntleyaMeleagris = {
         alerta: "Não deixar secar completamente, impor repouso seco, expor ao sol direto ou usar água muito salina. Evitar calor abafado, substrato saturado e água parada no centro dos leques à noite.",
         notaEvidencia: "MACS 1.1 — revisão documental: Huntleya meleagris, epífita sem pseudobulbos, raízes sensíveis a seca e saturação, requer umidade uniforme e oxigenação. Suportes plástico vasado 5 estrelas, barro e cachepô madeira 4, placa/tronco 2; notas não homologadas. Receita visual 35% pinus médio + 35% chips coco + 20% perlita grossa + 10% carvão = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem; as duas alternativas qualitativas são distintas e não equivalem à principal. Avaliar retenção de 35% chips coco e secagem em vaso raso sem pseudobulbos; meta até 25 produtores brasileiros específicos não atingida. POWO aceita Huntleya meleagris, com Batemannia meleagris e Zygopetalum meleagris como sinônimos homotípicos, e registra ocorrência brasileira no Nordeste, Sudeste e Sul. OrquidaRIO (2008) observou populações epífitas entre 200 e 600 m, contrariando restrição anterior a 600–1.300 m; relata orientação histórica de Decker (1946) de mistura de folhas semidecompostas e terra vegetal, sem proporções e não adotada como receita atual. Orquidário Paulista recomenda drenagem rápida e ventilação, sem percentuais. Um produtor brasileiro específico qualitativo, uma referência histórica de cultivo e zero receitas quantitativas específicas confirmadas nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    errosComuns: "Deixar secar completamente; cultivar em vaso grande; manter substrato quente e saturado; usar água muito salina; aplicar fertilizante concentrado; expor ao sol direto; cultivar em ambiente abafado; deixar água parada no centro dos leques durante a noite; impor repouso seco no inverno.",
+    errosComuns: [
+    "Deixar raízes secarem completamente.",
+    "Usar vaso grande com secagem lenta.",
+    "Manter substrato quente e saturado.",
+    "Usar água muito salina.",
+    "Aplicar fertilizante concentrado.",
+    "Expor folhas ao sol direto.",
+    "Cultivar em ambiente abafado.",
+    "Deixar água parada entre os leques à noite."
+],
     dica: "🏆 Como esta Huntleya não possui pseudobulbos para armazenar água, o principal cuidado é manter hidratação constante sem sufocar as raízes. Prefira recipiente ventilado e substrato que conserve umidade leve, com regas ajustadas ao calor e à circulação de ar. Evite sol direto e aquecimento excessivo do vaso, especialmente nas horas mais quentes. Não deixe água parada entre as bases das folhas. Folhagem firme e raízes ativas indicam equilíbrio; folhas murchas pedem verificar primeiro o estado das raízes.",
     revisaoCientificaIAR: {
         "nome": "Huntleya meleagris",
