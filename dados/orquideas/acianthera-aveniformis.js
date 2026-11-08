@@ -71,7 +71,16 @@ export const aciantheraAveniformis = {
         alerta: "Observe a estrutura, não apenas o calendário: replante quando o pinus estiver fragmentado, o esfagno compactado, a drenagem ficar visivelmente mais lenta ou a mistura permanecer úmida por muito mais tempo que quando nova. Não enterre o rizoma.",
         notaEvidencia: "MACS 1.1: POWO/Kew aceita Pabstiella aveniformis e trata Acianthera aveniformis como sinônimo; hábito epífito de floresta úmida. IOSPE registra miniatura reptante, mas não prescreve substrato. Milena Orquídeas comercializa a espécie fixada em ripinha de madeira cambará e descreve umidade ambiental alta e ventilação, sem informar receita percentual para cultivo em vaso. A montagem em ripinha/placa tem evidência direta de prática comercial para esta espécie, além de coerência com o hábito epífito; exige regas ajustadas para evitar desidratação. A mistura de vaso 40% pinus + 25% casca de arroz carbonizada + 20% carvão + 15% esfagno é hipótese horticultural NÃO homologada: não há ensaio nem 25 produtores com receita específica documentada. As duas alternativas qualitativas não possuem percentuais documentados. Não alterar estrelas por inferência. Receita visual e itens somam 100%, mas a coerência aritmética NÃO equivale a homologação científica.",
     },
-    errosComuns: ["Tratar a espécie como obrigatoriamente de clima frio.", "Cobrir rizoma e base dos ramicaules com esfagno.", "Deixar as raízes secarem completamente por vários dias.", "Manter substrato permanentemente encharcado.", "Cultivar em ambiente quente e abafado, sem circulação de ar.", "Aplicar fertilizante concentrado em raízes muito finas.", "Expor ao sol direto forte."],
+    errosComuns: [
+        "Cobrir o rizoma rastejante com esfagno compacto.",
+        "Deixar raízes finas secarem por vários dias.",
+        "Manter o substrato continuamente encharcado.",
+        "Cultivar em calor abafado e sem ventilação.",
+        "Expor a miniatura ao sol direto forte.",
+        "Aplicar adubo concentrado nas raízes finas.",
+        "Usar vaso profundo para crescimento rastejante.",
+        "Tratar a espécie como obrigatoriamente de clima frio."
+],
     revisaoCientificaIAR: {
         "nome": "Acianthera aveniformis",
         "statusTaxonomico": "Pabstiella aveniformis é o nome aceito em POWO/Kew; Acianthera aveniformis é sinônimo, mantido como identificador histórico da ficha.",
