@@ -71,7 +71,16 @@ export const aciantheraAuriculata = {
         alerta: "Use vaso pequeno e muito perfurado. Replante quando a drenagem ficar lenta, o pinus se fragmentar ou o esfagno perder estrutura. Não enterre a base dos ramicaules e não compacte o substrato para firmar a planta.",
         notaEvidencia: "MACS 1.1 — revisão documental: Acianthera auriculata, microepífita de raízes finas. Placa / tronco com raízes expostas e mínima camada de esfagno é cultivo principal; vaso pequeno muito perfurado é alternativa. Receita visual e textual opcional PARA VASO coincidem: 40% pinus fino/médio + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 15% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas: chips de coco pequenos preparados/carvão pequeno/casca de arroz carbonizada e pinus fino-médio/perlita adequada a miniaturas/esfagno de fibra longa solto. Alternativas não fundamentam os percentuais visuais. Manter rizoma e base dos ramicaules expostos, rega conforme secagem e ventilação. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS.",
     },
-    errosComuns: ["Confundir ambiente sombreado com sombra profunda.", "Manter a planta constantemente encharcada para compensar o calor.", "Usar vaso grande ou substrato fino que demora muitos dias para secar.", "Deixar uma planta montada secar completamente por vários dias.", "Cultivar em local quente e sem movimento de ar.", "Aplicar fertilizante concentrado em raízes finas.", "Tratar todos os clones como se exigissem exatamente a mesma temperatura por causa de um único registro de altitude."],
+    errosComuns: [
+        "Manter sombra profunda que reduz o vigor da planta.",
+        "Deixar a montagem secar completamente por vários dias.",
+        "Encharcar raízes finas para compensar o calor.",
+        "Usar vaso grande com substrato de secagem lenta.",
+        "Cultivar em calor abafado e sem ventilação.",
+        "Aplicar adubo concentrado nas raízes delicadas.",
+        "Expor as folhas ao sol direto intenso.",
+        "Deixar água acumulada na base dos ramicaules."
+],
     revisaoCientificaIAR: {
         nome: "Acianthera auriculata",
         statusTaxonomico: "Nome aceito pelo POWO/Kew.",
