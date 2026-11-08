@@ -1,7 +1,5 @@
 // RASCUNHO V4.9 — NÃO IMPORTAR NO ÍNDICE ANTES DA AUDITORIA FINAL
-// Índices e percentuais são propostas editoriais; imagens precisam de teste visual no site.
-// RASCUNHO V4.9 — NÃO IMPORTAR NO ÍNDICE ANTES DA AUDITORIA FINAL
-// Quatro fotografias com créditos individuais; ainda falta teste de carregamento visual.
+// Quatro fotografias com créditos individuais. Receita principal baseada em protocolo publicado de cultivo em vaso; validação com produtores ainda pendente.
 export const epidendrumFulgens = {
   "id": "epidendrum-fulgens",
   "nome": "Epidendrum fulgens",
@@ -57,18 +55,18 @@ export const epidendrumFulgens = {
     12
   ],
   "mesesFloracaoIndicativos": true,
-  "clima": "Quente a intermediário, com ventilação abundante e boa drenagem.",
-  "climaFloracao": "Há registros de floração em todos os meses em levantamentos de restinga; a intensidade varia conforme a população e as condições locais.",
+  "clima": "Quente a intermediário, com alta luminosidade, ventilação e boa drenagem.",
+  "climaFloracao": "Espécie de restingas e afloramentos rochosos, registrada desde dunas próximas ao nível do mar até locais de aproximadamente 460 m. Floresce em populações sujeitas a temperaturas médias anuais bastante distintas, mostrando boa amplitude ecológica. Luz abundante, caules maduros e ventilação favorecem a floração. Não há evidência de exigência de quebra térmica ou repouso seco obrigatório; a espécie ocorre em ambientes costeiros com períodos de chuva e estiagem, mas não se deve impor seca artificial. Frio intenso, sombra persistente e substrato encharcado podem limitar o crescimento e a floração.",
   "iluminacao": {
-    "sombrite": "0–30% em plantas aclimatadas; proteção inicial em calor intenso",
+    "sombrite": "0–30% em plantas aclimatadas; proteção temporária após mudanças de ambiente",
     "solDireto": "Sol pleno",
     "horario": "Dia inteiro após aclimatação",
-    "observacoes": "Em restingas a espécie cresce em locais muito ensolarados. Plantas bem enraizadas e aclimatadas podem receber sol direto, com ventilação e regas compatíveis com a secagem. Faça a transição gradualmente, sobretudo após o cultivo à sombra. Folhas queimadas ou aquecimento excessivo exigem proteção temporária; crescimento fraco e poucas flores podem indicar luz insuficiente.",
+    "observacoes": "Nas restingas, a espécie cresce em locais abertos e muito ensolarados; também ocorre em afloramentos rochosos. Plantas bem enraizadas podem receber sol direto após aclimatação gradual, com ventilação e regas ajustadas à secagem. Em vasos, a exposição intensa aumenta a necessidade de acompanhamento da umidade. Folhas com queimaduras, áreas esbranquiçadas ou tecido seco indicam excesso de radiação ou transição abrupta; ofereça proteção temporária e retome a aclimatação gradualmente.",
     "seloLuz": "vermelho"
   },
-  "floracao": "Inflorescências terminais com flores de aproximadamente 1 a 2 cm, amarelas, alaranjadas ou avermelhadas, com labelo trilobado. Levantamentos brasileiros registram floração ao longo do ano, com intensidade variável conforme o ambiente. O perfume não está bem caracterizado; a duração de cada flor e a eventual continuidade da mesma haste ainda carecem de confirmação específica.",
-  "adubacao": "Adube de forma moderada durante o crescimento ativo, em doses reduzidas de fertilizante equilibrado. Diminua quando o crescimento desacelerar e evite excesso de sais.",
-  "rega": "Regue bem durante a emissão de novos caules e raízes e permita que a mistura perca umidade antes da próxima rega. Em períodos mais frios ou de crescimento lento, aumente os intervalos; evite água parada e substrato compactado.",
+  "floracao": "Inflorescências terminais com flores de aproximadamente 1 a 2 cm, em tons de amarelo, laranja e vermelho, com labelo trilobado. A espécie pode apresentar flores ao longo de todo o ano, embora a intensidade varie entre populações e condições locais. O perfume não está bem caracterizado; não há dados consistentes sobre a duração individual das flores ou sobre reflorescência da mesma haste.",
+  "adubacao": "🌿 Orgânica: bokashi em pequena porção na borda do vaso, sem contato com os brotos ou raízes novas.\\n💧 Foliar/mineral: NPK equilibrado, como 20-20-20, em 1/4 a 1/3 da dose indicada pelo fabricante a cada 10–15 dias durante o crescimento ativo.\\n🧪 Liberação lenta: opcional, em pequena quantidade e distribuída longe da base dos caules; reduza quando o crescimento desacelerar.\\n🚿 Lavagem de sais: irrigue periodicamente com água de boa qualidade até escorrer pelos furos, evitando acúmulo de fertilizantes no substrato.",
+  "rega": "💧 Crescimento ativo: regue abundantemente e permita que a água escorra; repita quando a mistura perder boa parte da umidade.\\n🌤️ Calor e sol: em ambiente quente e ventilado, a secagem pode ser rápida; observe a umidade do recipiente e a atividade das raízes para ajustar a frequência.\\n🌧️ Frio e períodos úmidos: aumente os intervalos quando o crescimento desacelerar e evite manter o substrato encharcado. Mesmo sendo resistente à secagem, não deixe a planta desidratar por longos períodos em vaso.",
   "suporte": [
     "Vaso de barro",
     "Vaso plástico vasado",
@@ -78,53 +76,53 @@ export const epidendrumFulgens = {
   "formasCultivo": {
     "perfilVisual": "terrestre-rupicola",
     "destaque": "Vaso de barro",
-    "resumo": "O hábito terrestre de restinga favorece recipiente firme, com mistura mineral-orgânica bem drenante e luminosidade abundante.",
+    "resumo": "O hábito terrestre e rupícola pede recipiente estável e mistura granulada; o vaso permite controlar a umidade sem compactar as raízes.",
     "metodos": [
       {
         "nome": "Vaso de barro",
         "asset": "vaso-barro",
         "estrelas": 5,
         "status": "Ideal",
-        "texto": "Oferece firmeza à touceira e favorece a secagem da mistura arenosa."
+        "texto": "Boa estabilidade para a touceira e secagem mais rápida, especialmente em locais quentes e ventilados."
       },
       {
         "nome": "Vaso plástico vasado",
         "asset": "vaso-plastico-vasado",
         "estrelas": 4,
         "status": "Muito recomendado",
-        "texto": "Funciona com mistura aberta e regas ajustadas à retenção de umidade."
+        "texto": "Funciona bem com mistura grossa e furos desobstruídos; acompanhe a umidade no interior do recipiente."
       },
       {
         "nome": "Cachepô de madeira",
-        "asset": "cesto-madeira",
+        "asset": "cachepo-madeira",
         "estrelas": 3,
         "status": "Alternativa",
-        "texto": "Muito ventilado, mas exige fixação da planta e controle mais frequente da secagem."
+        "texto": "Pode ser usado com contenção adequada da mistura, mas exige atenção à hidratação e à estabilidade da touceira."
       },
       {
         "nome": "Placa / Tronco",
         "asset": "placa-tronco",
         "estrelas": 2,
         "status": "Pouco recomendado",
-        "texto": "Não reproduz bem o hábito terrestre predominante e pode dificultar a sustentação e a hidratação."
+        "texto": "É menos adequado ao hábito terrestre predominante e pode exigir regas muito frequentes e suporte adicional."
       }
     ]
   },
   "substrato": [
-    "Terra vegetal peneirada + areia grossa lavada + casca de pínus média",
-    "Areia grossa lavada + chips de coco lavados + carvão vegetal granulado"
+    "Areia grossa lavada + casca de pínus média + carvão vegetal granulado",
+    "Casca de pínus média + chips de coco lavados + carvão vegetal granulado"
   ],
   "substratoVisual": {
     "titulo": "Substrato ideal",
     "contexto": "",
-    "resumo": "Mistura firme, arenosa e drenante para cultivo em recipiente.",
-    "justificativa": "A fração arenosa aproxima o cultivo do ambiente natural, enquanto terra vegetal peneirada oferece sustentação e umidade moderada. A casca de pínus preserva espaços de ar e o carvão integra a estrutura granulada. Evite partículas finas em excesso.",
-    "receitaTexto": "35% areia grossa lavada + 30% terra vegetal peneirada + 25% casca de pínus média + 10% carvão vegetal granulado.",
+    "resumo": "Mistura granulada, estável e bem drenante para cultivo em recipiente.",
+    "justificativa": "Um estudo de cultivo em ambiente aberto utilizou uma mistura em partes iguais de casca de pínus e carvão, com partículas de 10–15 mm. Essa referência experimental oferece uma base mais consistente para o cultivo em vaso do que tentar reproduzir literalmente a areia da restinga. Ajuste a rega à ventilação, ao calor e ao tamanho do recipiente.",
+    "receitaTexto": "50% casca de pínus média + 50% carvão vegetal granulado.",
     "perfil": [
-      "Raízes terrestres de restinga",
-      "Retenção moderada-baixa",
+      "Raízes terrestres ou rupícolas",
+      "Granulometria média a grossa",
       "Aeração elevada",
-      "Secagem relativamente rápida",
+      "Drenagem rápida",
       "Baixa compactação"
     ],
     "comportamento": [
@@ -135,7 +133,7 @@ export const epidendrumFulgens = {
       },
       {
         "nome": "Aeração",
-        "valor": 4,
+        "valor": 5,
         "icone": "💨"
       },
       {
@@ -145,41 +143,27 @@ export const epidendrumFulgens = {
       },
       {
         "nome": "Compactação",
-        "valor": 2,
+        "valor": 1,
         "icone": "🧱"
       }
     ],
     "itens": [
       {
-        "asset": "areia-grossa",
-        "nome": "Areia grossa lavada",
-        "proporcao": "35%",
-        "nota": "fração mineral",
-        "finalidade": "Reproduz a presença de material arenoso, sem substituir a drenagem do vaso."
-      },
-      {
-        "asset": "terra-vegetal",
-        "nome": "Terra vegetal peneirada",
-        "proporcao": "30%",
-        "nota": "sustentação",
-        "finalidade": "Oferece sustentação e reserva moderada de umidade, sem compactação."
-      },
-      {
         "asset": "casca-pinus",
         "nome": "Casca de pínus média",
-        "proporcao": "25%",
+        "proporcao": "50%",
         "nota": "estrutura",
-        "finalidade": "Ajuda a manter espaços de ar na mistura."
+        "finalidade": "Forma a base orgânica granulada e mantém espaços de ar."
       },
       {
         "asset": "carvao-vegetal",
         "nome": "Carvão vegetal granulado",
-        "proporcao": "10%",
+        "proporcao": "50%",
         "nota": "granulometria",
-        "finalidade": "Compõe a fração granulada sem garantir, isoladamente, maior drenagem."
+        "finalidade": "Compõe a mistura em partes iguais, conforme protocolo de cultivo publicado para a espécie."
       }
     ],
-    "alerta": "Evite terra argilosa, areia fina e recipientes sem escoamento."
+    "alerta": "Use partículas médias a grossas e recipiente com drenagem livre; evite terra fina compactada."
   },
   "errosComuns": [
     "Manter a planta em sombra excessiva por longos períodos",
@@ -190,19 +174,19 @@ export const epidendrumFulgens = {
   ],
   "revisaoCientificaIAR": {
     "nome": "Epidendrum fulgens Brongn.",
-    "statusTaxonomico": "Espécie aceita no POWO/Kew.",
+    "statusTaxonomico": "Espécie aceita pelo POWO/Kew.",
     "sinonimosPrincipais": "Epidendrum mosenii; Epidendrum bradeanum.",
-    "morfologiaDimensoes": "Touceira de caules eretos, até cerca de 90 cm; flores de 1–2 cm em tons amarelos, alaranjados ou vermelhos, com labelo trilobado.",
-    "habitatAltitudeClima": "Terrestre em restinga, solos arenosos e ambientes ensolarados; também há registros em outros habitats.",
-    "distribuicaoGeografica": "Sul e Sudeste do Brasil.",
-    "cultivoPremiacao": "Guia de restinga registra flores em 11 meses, exceto agosto; estudo do Paraná descreve flores e frutos praticamente o ano inteiro.",
+    "morfologiaDimensoes": "Touceiras eretas, com caules que podem aproximar-se de 1 m; flores de cerca de 1–2 cm, amarelas, alaranjadas ou vermelhas, com labelo trilobado.",
+    "habitatAltitudeClima": "Endêmica do Sul e Sudeste do Brasil; frequente em dunas e restingas arenosas e também registrada em afloramentos rochosos. Populações estudadas entre poucos metros e cerca de 293 m; há registro fotográfico documentado a 460 m.",
+    "distribuicaoGeografica": "Brasil: Rio de Janeiro, São Paulo, Paraná, Santa Catarina e Rio Grande do Sul.",
+    "cultivoPremiacao": "Estudo de cultivo em ambiente aberto empregou 30% de sombreamento, rega a cada três dias e mistura em partes iguais de casca de pínus e carvão, partículas de 10–15 mm. A frequência de rega é contextual, não regra universal.",
     "confianca": "moderada",
     "fontes": [
       "POWO/Kew",
-      "Plantas para o Futuro — Região Sul",
-      "UFSC — Guia de plantas ornamentais de restinga",
-      "Acta Botanica Brasilica — Epidendrum no Paraná",
-      "Orquídeas Gaúchas"
+      "Acta Botanica Brasilica — O gênero Epidendrum no Paraná",
+      "Botanical Journal of the Linnean Society — ecótipos de E. fulgens",
+      "Orquídeas Gaúchas",
+      "Revista Pesquisa FAPESP — genoma e adaptação ambiental"
     ]
   },
   "indiceDificuldadeCultivo": {
@@ -319,15 +303,15 @@ export const epidendrumFulgens = {
     }
   },
   "adaptacaoRegional": {
-    "tituloMontanha": "Regiões de montanha e noites frescas",
+    "tituloMontanha": "Regiões de montanha e noites frias",
     "litoral": {
-      "texto": "O calor e a luminosidade abundante favorecem a espécie, desde que haja ventilação, drenagem e adaptação gradual ao sol direto."
+      "texto": "O ambiente quente, a luminosidade e a ventilação favorecem a espécie. Em vasos, acompanhe a secagem, pois o calor e o vento podem exigir regas mais frequentes."
     },
     "montanha": {
-      "texto": "Escolha um local muito luminoso e protegido de frio intenso. Em períodos frios, diminua as regas e evite que o substrato permaneça úmido por muitos dias."
+      "texto": "Pode adaptar-se a locais de clima mais ameno, mas proteja de frio intenso e geadas. Em períodos frios e úmidos, reduza as regas e mantenha a mistura bem drenada; escolha o ponto mais ensolarado e ventilado disponível."
     }
   },
-  "dica": "Por ser uma espécie de ambientes abertos, a luminosidade faz diferença no vigor da touceira. Aumente a exposição ao sol aos poucos, principalmente em plantas recém-adquiridas. Ao replantar, escolha um vaso firme e uma mistura que não compacte, deixando espaço para os próximos caules. Evite dividir touceiras pequenas: plantas bem estabelecidas sustentam melhor as inflorescências.",
+  "dica": "🌞 Acostume a planta ao sol gradualmente: exemplares vindos de estufas sombreadas podem queimar quando transferidos de uma vez para a exposição plena. Use recipiente firme e mistura de partículas médias a grossas, sem compactar a base dos caules. Em vasos, acompanhe a secagem após dias quentes e ventosos. Evite dividir touceiras pequenas, pois conjuntos bem estabelecidos tendem a crescer e florir com mais vigor.",
   "creditosFotos": [
     {
       "autor": "Nave do Conhecimento",
