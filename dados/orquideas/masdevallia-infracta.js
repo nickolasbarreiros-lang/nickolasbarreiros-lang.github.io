@@ -126,16 +126,14 @@ export const masdevalliaInfracta = {
 ], alerta: "Replante antes que a mistura compacte ou permaneça molhada por tempo muito maior que quando nova; preserve a base dos ramicaules arejada.", notaEvidencia: "MACS 1.1 — revisão documental: Masdevallia infracta, epífita de raízes finas, demanda umidade frequente e aeração alta, com risco de calor noturno em clima quente; hastes verdes podem reflorir. Placa / tronco com mínima camada de esfagno é suporte principal. Receita visual opcional PARA VASO PEQUENO MUITO VENTILADO: 35% pinus fino/médio + 25% casca de arroz carbonizada + 20% carvão vegetal pequeno + 20% esfagno de fibra longa solto = 100% em volume. Exatamente duas outras misturas qualitativas: pinus fino/perlita de granulometria adequada/esfagno solto e chips de coco pequenos preparados/carvão pequeno/esfagno solto. Não fundamentam percentuais visuais. Orquidário Aparecida documenta ripinha, não esta formulação percentual. Monitorar retenção do esfagno, temperatura, ventilação e secagem. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     errosComuns: [
-    "Tratar como planta de sol.",
-    "Deixar a montagem secar completamente por vários dias.",
+    "Expor a planta ao sol direto forte.",
+    "Deixar a montagem secar por vários dias.",
     "Manter esfagno compacto e encharcado.",
     "Usar vaso grande com substrato fino.",
-    "Cultivar no litoral quente sem ventilação forte.",
-    "Aplicar fertilizante concentrado em raízes finas.",
-    "Confundir M. infracta com táxons historicamente tratados como subespécies e hoje aceitos separadamente.",
-    "Cortar hastes ainda verdes após a queda da primeira flor.",
-    "Tentar compensar calor com encharcamento permanente em vez de aumentar ventilação.",
-    "Replantar ou dividir uma planta em plena emissão de haste sem necessidade."
+    "Cultivar em calor abafado e sem ventilação.",
+    "Aplicar adubo concentrado nas raízes finas.",
+    "Cortar hastes verdes que podem reflorir.",
+    "Compensar calor com encharcamento permanente."
 ],
     revisaoCientificaIAR: {
     "nome": "Masdevallia infracta Lindl.",
