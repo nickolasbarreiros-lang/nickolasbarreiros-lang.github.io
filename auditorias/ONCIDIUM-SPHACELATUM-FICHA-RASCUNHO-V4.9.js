@@ -26,7 +26,7 @@ export const oncidiumSphacelatum = {
   ],
   "selosCultivo": {
     "rega": {
-      "nivel": "frequente"
+      "nivel": "moderada"
     },
     "climaFloracao": {
       "faixa": "intermediario-quente"
@@ -52,7 +52,7 @@ export const oncidiumSphacelatum = {
     "solDireto": "Permitido com restrição",
     "horario": "Início da manhã ou final da tarde",
     "observacoes": "Ofereça luminosidade abundante, preferencialmente filtrada, com ventilação constante. Uma tela de cerca de 50% de sombreamento pode servir como ponto inicial, mas o ajuste depende do calor, da posição da planta e da aclimatação. Sol suave no início da manhã ou no final da tarde pode ser tolerado; evite expor abruptamente folhas cultivadas à sombra ao sol forte. Folhas muito escuras e floração escassa podem indicar pouca luz; amarelecimento excessivo, manchas secas ou folhas muito aquecidas sugerem exposição excessiva. Aumente ou reduza a proteção gradualmente, observando principalmente o crescimento novo e a temperatura das folhas.",
-    "seloLuz": "vermelho"
+    "seloLuz": "amarelo"
   },
   "floracao": "Hastes arqueadas e ramificadas, que podem atingir aproximadamente 1,8 m, sustentam numerosas flores amarelas com manchas castanhas, de cerca de 2,5 cm. O perfume costuma ser discreto. Há registros brasileiros em outubro e novembro; outras épocas são possíveis. As flores se distribuem pelos ramos da haste, com abertura progressiva; em relatos históricos, a apresentação floral pode durar cerca de três a quatro semanas, variando conforme o cultivo.",
   "adubacao": "Adube moderadamente durante o desenvolvimento dos novos brotos e pseudobulbos, com fertilizante apropriado para orquídeas em dose reduzida. Diminua quando o crescimento desacelerar e evite acúmulo de sais.",
@@ -104,7 +104,7 @@ export const oncidiumSphacelatum = {
   ],
   "substratoVisual": {
     "titulo": "Substrato ideal",
-    "contexto": "Mistura drenante para cultivo em recipiente",
+    "contexto": "",
     "resumo": "Raízes aeradas, retenção moderada e boa estabilidade.",
     "justificativa": "Casca de pínus média sustenta a estrutura da mistura; chips de coco lavados ajudam a moderar a secagem. Carvão granulado e perlita compõem a fração de partículas mais abertas, sem dispensar a avaliação da umidade no centro do recipiente.",
     "receitaTexto": "45% casca de pínus média + 25% chips de coco lavados + 20% carvão vegetal granulado + 10% perlita grossa.",
