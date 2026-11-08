@@ -1,5 +1,4 @@
 // Ficha V4.9 — Epidendrum fulgens
-// Quatro fotografias com créditos individuais. Receita principal baseada em protocolo publicado de cultivo em vaso; validação com produtores ainda pendente.
 export const epidendrumFulgens = {
   "id": "epidendrum-fulgens",
   "nome": "Epidendrum fulgens",
@@ -19,8 +18,8 @@ export const epidendrumFulgens = {
     "Sol abundante após aclimatação"
   ],
   "fotos": [
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Epidendrum_fulgens_Brazil.jpg",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Epidendrum_fulgens.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Epidendrum_fulgens_Brazil.jpg",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Epidendrum_fulgens_1.jpg",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Epidendrum_fulgens_-_Rafael_-_460568742.jpeg"
   ],
@@ -109,21 +108,21 @@ export const epidendrumFulgens = {
     ]
   },
   "substrato": [
-    "Areia grossa lavada + casca de pínus média + carvão vegetal granulado",
-    "Casca de pínus média + chips de coco lavados + carvão vegetal granulado"
+    "Areia grossa lavada + pequena porção de matéria orgânica bem decomposta + carvão vegetal granulado",
+    "Areia grossa lavada + pedrisco de granulometria média + casca de pínus média"
   ],
   "substratoVisual": {
     "titulo": "Substrato ideal",
     "contexto": "",
-    "resumo": "Mistura granulada, estável e bem drenante para cultivo em recipiente.",
-    "justificativa": "Um estudo de cultivo em ambiente aberto utilizou uma mistura em partes iguais de casca de pínus e carvão, com partículas de 10–15 mm. Essa referência experimental oferece uma base mais consistente para o cultivo em vaso do que tentar reproduzir literalmente a areia da restinga. Ajuste a rega à ventilação, ao calor e ao tamanho do recipiente.",
-    "receitaTexto": "50% casca de pínus média + 50% carvão vegetal granulado.",
+    "resumo": "Mistura predominantemente mineral e arenosa, com pequena fração orgânica e boa drenagem, adequada ao hábito terrestre e rupícola em recipiente.",
+    "justificativa": "Na natureza, a espécie cresce principalmente em solos arenosos de restinga, locais ensolarados e também em afloramentos rochosos; pode ocupar pequenas acumulações de matéria orgânica. Por isso, a mistura de casca de pínus e carvão usada em um estudo de cultivo não deve ser tratada como reprodução do substrato natural nem como única receita ideal. Para vasos, priorize uma base mineral arenosa, acrescentando fração orgânica moderada para dar estrutura e alguma retenção, sem compactar. O estudo com casca e carvão demonstra que a espécie também pode ser cultivada nesse meio, sob 30% de sombreamento e rega frequente, mas não compara essa receita com areia de restinga.",
+    "receitaTexto": "60% areia grossa lavada + 20% casca de pínus média + 20% carvão vegetal granulado.",
     "perfil": [
-      "Raízes terrestres ou rupícolas",
-      "Granulometria média a grossa",
-      "Aeração elevada",
-      "Drenagem rápida",
-      "Baixa compactação"
+      "Hábito terrestre e rupícola",
+      "Base mineral arenosa",
+      "Fração orgânica moderada",
+      "Aeração e drenagem elevadas",
+      "Boa resistência à secagem"
     ],
     "comportamento": [
       {
@@ -149,18 +148,25 @@ export const epidendrumFulgens = {
     ],
     "itens": [
       {
+        "asset": "areia-grossa",
+        "nome": "Areia grossa lavada",
+        "proporcao": "60%",
+        "nota": "base mineral",
+        "finalidade": "Aproxima a textura arenosa dos solos de restinga e mantém boa drenagem."
+      },
+      {
         "asset": "casca-pinus",
         "nome": "Casca de pínus média",
-        "proporcao": "50%",
-        "nota": "estrutura",
-        "finalidade": "Forma a base orgânica granulada e mantém espaços de ar."
+        "proporcao": "20%",
+        "nota": "fração orgânica",
+        "finalidade": "Acrescenta estrutura orgânica e alguma retenção sem dominar a mistura."
       },
       {
         "asset": "carvao-vegetal",
         "nome": "Carvão vegetal granulado",
-        "proporcao": "50%",
-        "nota": "granulometria",
-        "finalidade": "Compõe a mistura em partes iguais, conforme protocolo de cultivo publicado para a espécie."
+        "proporcao": "20%",
+        "nota": "aeração",
+        "finalidade": "Ajuda a manter espaços de ar e reduz a compactação da mistura."
       }
     ],
     "alerta": "Use partículas médias a grossas e recipiente com drenagem livre; evite terra fina compactada."
@@ -314,17 +320,17 @@ export const epidendrumFulgens = {
   "dica": "🌞 Acostume a planta ao sol gradualmente: exemplares vindos de estufas sombreadas podem queimar quando transferidos de uma vez para a exposição plena. Use recipiente firme e mistura de partículas médias a grossas, sem compactar a base dos caules. Em vasos, acompanhe a secagem após dias quentes e ventosos. Evite dividir touceiras pequenas, pois conjuntos bem estabelecidos tendem a crescer e florir com mais vigor.",
   "creditosFotos": [
     {
-      "autor": "Nave do Conhecimento",
-      "origem": "https://commons.wikimedia.org/wiki/File:Epidendrum_fulgens_Brazil.jpg",
-      "licenca": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "nomeLicenca": "CC0 1.0",
-      "alteracoes": false
-    },
-    {
       "autor": "M. A. P. Accardo Filho",
       "origem": "https://commons.wikimedia.org/wiki/File:Epidendrum_fulgens.jpg",
       "licenca": "https://creativecommons.org/licenses/by-sa/3.0/",
       "nomeLicenca": "CC BY-SA 3.0",
+      "alteracoes": false
+    },
+    {
+      "autor": "Nave do Conhecimento",
+      "origem": "https://commons.wikimedia.org/wiki/File:Epidendrum_fulgens_Brazil.jpg",
+      "licenca": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "nomeLicenca": "CC0 1.0",
       "alteracoes": false
     },
     {
