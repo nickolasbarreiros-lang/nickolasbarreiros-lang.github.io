@@ -29,3 +29,10 @@
 
 ## Regra de conclusão
 Não marcar a ficha como homologada e não avançar para outra espécie enquanto as pendências acima não estiverem resolvidas. Não alterar layout, biblioteca compartilhada ou dados de outras fichas sem autorização.
+
+## Checagem complementar da galeria e da publicação
+
+- A busca de fotografias abertas no Wikimedia Commons confirmou imagens de *C. amethystoglossa* sob CC BY-SA, mas **não** uma identificação verificável da forma *aurea*. Exemplo de licença e identificação apenas da espécie: https://commons.wikimedia.org/wiki/File:Cattleya_amethystoglossa.jpg .
+- O POWO/Kew reconhece a espécie e sua distribuição de Pernambuco ao Espírito Santo, mas não estabelece a forma horticultural *aurea* como táxon aceito: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:621995-1/general-information .
+- Checagem repetida dos dados: campos em arrays, 4 suportes, 2 alternativas, 100% de componentes e cálculos de 42/93/67 estão consistentes. A galeria continua com **zero fotos**, impedindo homologação editorial.
+- Próxima ação decisiva: obter fotografias próprias da forma *aurea* ou autorização explícita de titular identificado; não substituir por fotos genéricas da espécie. A biblioteca global de substratos permanece inalterada.
