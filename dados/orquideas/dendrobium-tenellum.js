@@ -29,7 +29,7 @@ export const dendrobiumTenellum = {
     "regiao": "Java · 1.500–2.200 m",
     "habitat": "Florestas montanas úmidas a sazonais.",
     "clima": "Fresco a frio · noites amenas.",
-    "climaFloracao": "A indução floral é favorecida por hastes maduras, luz filtrada forte, noites mais frescas e redução de água e adubação no inverno. A planta não precisa de seca absoluta. Durante o descanso, mantenha umidade ambiental e intervenha apenas se as hastes começarem a enrugar excessivamente.",
+    "climaFloracao": "Prefere clima fresco, com noites amenas e bastante luz filtrada. A montanha costuma favorecer a floração; no litoral quente, pode ter dificuldade se as noites permanecerem abafadas. Espere as hastes amadurecerem e reduza as regas e a adubação durante o inverno. Mantenha umidade no ambiente e não deixe as hastes enrugarem excessivamente. Não é necessário um repouso completamente seco.",
         "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Permitido com restrição",
