@@ -41,7 +41,7 @@ export const aciantheraSonderiana = {
     },
     mesesFloracao: [2, 3, 4, 5],
     clima: "Intermediário a fresco, úmido e bem ventilado; evitar calor abafado prolongado.",
-    climaFloracao: "Associada a florestas úmidas, inclusive montanas, mas também cultivada sob temperaturas de quentes a frescas. Montanha: favorável, com proteção contra frio excessivo. Litoral quente: condicional, com sombra luminosa, umidade constante e ventilação. Não há evidência suficiente para exigir uma quebra térmica determinada ou repouso seco. Evite desidratar suas raízes finas durante a formação das flores.",
+    climaFloracao: "Gosta de clima úmido e temperaturas amenas, com boa ventilação. A montanha oferece condições favoráveis à floração; no litoral, procure o local mais fresco e protegido do calor noturno. Mantenha luz filtrada e umidade regular, principalmente enquanto surgem novos crescimentos. Não precisa de repouso seco nem de uma queda brusca de temperatura para florescer.",
     iluminacao: {
         sombrite: "60% a 70%; em locais muito quentes, comece próximo de 70%",
         solDireto: "Não permitido",
