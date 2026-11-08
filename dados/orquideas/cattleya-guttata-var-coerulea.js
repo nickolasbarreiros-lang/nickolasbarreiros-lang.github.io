@@ -121,7 +121,16 @@ export const cattleyaGuttataVarCoerulea = {
     "alerta": "Proporções heurísticas (35/25/25/15), não validadas experimentalmente para Cattleya guttata; observar secagem, fixação da touceira e estabilidade do vaso.",
     "notaEvidencia": "MACS 1.1 — revisão documental: Cattleya guttata f. coerulea (designação horticultural; C. guttata var. caerulea L.C.Menezes é sinônimo heterotípico da espécie em POWO), bifoliada epífita de grande porte; priorizar estabilidade da touceira, drenagem e ventilação. Suportes: vaso barro indicado (heurística 82/100), cachepô madeira 79/100, plástico vasado 78/100 mencionado no resumo, e os métodos agora especificam VASO PLÁSTICO VASADO; estrelas dos métodos são null, portanto não inferir estrelas ou equiparar recipientes. Receita visual 35% macadâmia + 25% pinus + 25% brita fina + 15% carvão = 100%; receitaTexto e itens concordam. Receita principal visual e textual concordam; mantidas somente duas alternativas qualitativas distintas, sem atribuir-lhes os percentuais da principal. Justificativa reconhece percentuais heurísticos não validados; Orquidário Oriental descreve substrato de brita, fibra de coco e pinus para a forma alba, sem proporções; Orquidário 4 Estações indica pinus e cachepô para C. guttata, também sem percentuais. Estudos brasileiros de substrato em C. intermedia e C. loddigesii são de outras espécies e de plântulas, não validam esta mistura para C. guttata adulta. Duas orientações brasileiras qualitativas, zero receitas percentuais específicas verificadas nesta passagem. Validar peso de 25% brita, estabilidade, granulometria e secagem; meta até 25 produtores brasileiros específicos não atingida. Percentuais, notas e estrelas NÃO HOMOLOGADOS."
 },
-    errosComuns: "• Planta balançando após o replantio, rompendo pontas radiculares novas.\n• Vaso leve que tomba com o peso dos pseudobulbos.\n• Sombra excessiva e crescimento estiolado.\n• Vaso enorme com núcleo constantemente úmido.\n• Substrato velho e decomposto.\n• Secar demais durante a formação de novos pseudobulbos.\n• Dividir clones valiosos em pedaços muito pequenos.\n• Replantar quando não há novas raízes em início de crescimento.\n• Adubação excessiva ou uso de fósforo muito concentrado.",
+    errosComuns: [
+    "Deixar a planta balançar e romper raízes novas.",
+    "Usar vaso leve que tomba com pseudobulbos altos.",
+    "Cultivar em sombra excessiva.",
+    "Usar vaso grande com centro sempre úmido.",
+    "Manter substrato velho e decomposto.",
+    "Secar demais durante a formação dos brotos.",
+    "Dividir a touceira em partes pequenas.",
+    "Replantar fora da emissão de raízes novas."
+],
     dica: "🏆 Nesta Cattleya de grande porte, estabilizar a planta é essencial para preservar raízes novas. Os pseudobulbos altos funcionam como alavancas: vento e movimentos do vaso podem romper pontas radiculares ainda frágeis. Após o replantio, fixe o rizoma com amarrações macias, sem apertar os tecidos, e instale o recipiente em local protegido de tombamentos. Replante quando surgirem raízes novas e evite divisões pequenas. Touceiras robustas sustentam melhor o crescimento e oferecem maior potencial para hastes com várias flores.",
     revisaoCientificaIAR: {
         "nome": "Cattleya guttata f. coerulea",
