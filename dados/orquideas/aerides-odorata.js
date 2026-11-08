@@ -25,7 +25,7 @@ export const aeridesOdorata = {
     regiao: "Himalaia · sul da China · Sudeste Asiático · Malesia",
     habitat: "Epífita de florestas tropicais úmidas, com raízes expostas.",
     clima: "Quente a intermediário, úmido e muito ventilado.",
-    climaFloracao: "Orquídea tropical de clima quente a intermediário, com melhor potencial de floração em plantas adultas, bem iluminadas e com raízes vigorosas. Litoral quente: favorável, desde que haja ventilação e umidade sem encharcamento. Montanha: condicional, com proteção contra frio prolongado. Não exige frio intenso nem repouso seco comprovado para florir; mantenha boa luminosidade e respeite o ritmo de crescimento.",
+    climaFloracao: "Prefere clima quente e úmido, sendo muito adequada ao litoral bem ventilado. Na montanha, também pode florescer se ficar protegida do frio prolongado. Precisa de boa luminosidade, raízes vigorosas e crescimento completo para formar suas hastes florais. Regue bem durante a fase ativa, deixando as raízes respirarem. Não precisa de frio intenso nem de repouso seco rigoroso.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
