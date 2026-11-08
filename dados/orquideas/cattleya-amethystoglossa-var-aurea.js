@@ -166,7 +166,7 @@ export const cattleyaAmethystoglossaVarAurea = {
       }
     ],
     "alerta": "Evite substrato compactado e encharcamento; mantenha a planta firme e o rizoma acima da mistura.",
-    "notaEvidencia": "Percentuais e estrelas dos suportes são propostas técnicas editoriais, não ensaios específicos da forma aurea. Galeria vazia deliberadamente: nenhuma imagem específica com licença de reutilização confirmada. Não publicar antes de resolver imagens e testes."
+    "notaEvidencia": "Percentuais e estrelas dos suportes são propostas técnicas editoriais, não ensaios específicos da forma aurea. Galeria vazia deliberadamente: nenhuma imagem específica com licença de reutilização confirmada. O renderizador ficha.js possui fallback para fotos.length === 0, exibindo 'Imagem ainda não cadastrada', sem exigir alteração estrutural. Atenção: o asset chips-coco está mapeado na biblioteca para fibra-coco.webp; verificar adequação visual antes da publicação. Não publicar antes de resolver imagens e testes."
   },
   "errosComuns": [
     "Pouca luminosidade prejudica a floração.",
