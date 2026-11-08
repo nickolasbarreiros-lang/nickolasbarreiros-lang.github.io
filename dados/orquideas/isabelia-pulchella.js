@@ -16,7 +16,7 @@ export const isabeliaPulchella = {
   "regiao": "Florestas do Sul e Sudeste do Brasil.",
   "habitat": "Vive sobre árvores em ambientes úmidos, espalhando seus pequenos pseudobulbos pela superfície da casca. As raízes são delicadas e se beneficiam de umidade regular, sem ficar abafadas.",
   "clima": "Intermediário a ameno; pode crescer em ambientes mais quentes, mas noites frescas favorecem as condições de floração.",
-  "climaFloracao": "Prefere condições intermediárias a amenas, especialmente durante a noite. A planta pode continuar crescendo em clima quente, mas isso não garante floração regular quando as noites permanecem abafadas. A formação de vários pseudobulbos maduros, a luz filtrada e a ventilação favorecem seu desempenho. Noites naturalmente mais frescas podem ajudar, embora não exista uma queda térmica obrigatória bem estabelecida para a espécie. Não provoque seca intensa para tentar estimular flores.",
+  "climaFloracao": "Prefere clima intermediário a ameno, com noites frescas, luz filtrada e boa ventilação. A montanha costuma favorecer a floração; no litoral quente, pode crescer sem florescer regularmente se as noites forem abafadas. Mantenha umidade equilibrada nas raízes e permita que a touceira forme vários pseudobulbos maduros. Não precisa de seca intensa nem de uma queda brusca de temperatura para produzir flores.",
   "iluminacao": {
       "sombrite": "60% a 80%; cerca de 70% como referência",
       "solDireto": "Não permitido",
