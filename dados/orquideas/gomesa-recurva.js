@@ -19,7 +19,7 @@ export const gomesaRecurva = {
     regiao: "ES ao Sul do Brasil · Paraguai · Argentina (Misiones)",
     habitat: "Florestas sazonais · epífita/terrestre · 50–1.400 m.",
     clima: "Intermediário a fresco · sazonal.",
-    climaFloracao: "A amplitude de 50–1.400 m mostra que a espécie não deve ser tratada como estritamente fria. No litoral quente, a floração tende a melhorar no ponto mais fresco e ventilado do cultivo, com luz alta filtrada e redução moderada das regas depois da maturação dos pseudobulbos — sem seca severa.",
+    climaFloracao: "Prefere clima intermediário a ameno, com boa luminosidade filtrada e ventilação. A montanha costuma favorecer a floração; no litoral quente, procure o ponto mais fresco do orquidário. Regue normalmente enquanto os pseudobulbos crescem. Depois que amadurecerem, aumente moderadamente os intervalos entre regas, sem deixar a planta desidratar. Não precisa de frio intenso nem de repouso seco severo.",
     iluminacao: {
         sombrite: "Cerca de 50%; até 60% em locais muito quentes",
         solDireto: "Permitido com restrição",
