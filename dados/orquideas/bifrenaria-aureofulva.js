@@ -24,7 +24,7 @@ export const bifrenariaAureofulva = {
     regiao: "Leste e Sul do Brasil · Mata Atlântica",
     habitat: "Florestas úmidas · epífita · ~200–1.500 m.",
     clima: "Quente a fresco · úmido e ventilado.",
-    climaFloracao: "A floração é favorecida pela maturação completa dos pseudobulbos, boa luminosidade filtrada e noites mais amenas. Após o amadurecimento do crescimento, reduza moderadamente as regas acompanhando a menor atividade da planta, sem impor seca absoluta.",
+    climaFloracao: "Espécie de florestas úmidas, com registros aproximados de 300–1.800 m. Montanha: favorável em clima intermediário e ventilado. Litoral quente: condicional, exigindo proteção contra noites abafadas. Boa luz filtrada e pseudobulbos maduros favorecem a floração. Reduza moderadamente as regas quando o crescimento desacelerar, sem impor seca absoluta. Não há demonstração de quebra térmica obrigatória.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
