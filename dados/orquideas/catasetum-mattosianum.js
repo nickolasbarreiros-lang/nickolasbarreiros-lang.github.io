@@ -135,7 +135,16 @@ export const catasetumMattosianum = {
         "notaEvidencia": "MACS 1.1 — revisão documental: Catasetum mattosianum, epífita caducifólia de ciclo sazonal; regas intensas apenas após enraizamento ativo e redução forte na dormência. Suportes vaso plástico vasado 5 estrelas, cachepô madeira e placa/tronco 4, barro 3; avaliações horticulturais sem validação comparativa. Receita visual 35% chips coco + 30% pinus médio + 20% perlita grossa + 15% casca de arroz carbonizada = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% chips de coco, 30% pinus, 20% perlita, 15% casca de arroz carbonizada). As duas alternativas qualitativas são composições distintas, não equivalentes à principal. A justificativa reconhece hipótese não testada na espécie, baseada em orientação geral do gênero; retenção e secagem sazonal da composição exigem validação. POWO confirma ocorrência nativa da Bahia ao Espírito Santo e habitat epífito úmido. Plano de Ação de Conservação da Biodiversidade Terrestre da Bacia do Rio Doce registra Mata Atlântica, florestas ombrófilas e restingas e situação de ameaça EN no Brasil, CR no Espírito Santo conforme listas nele citadas. Orquidário Durval Ferreira publica manejo geral do gênero (esfagno, substrato úmido no crescimento e secagem na dormência), sem receita específica para mattosianum. Não foram confirmados produtores brasileiros com receita quantitativa desta espécie; meta até 25 não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
     },
     substrato: ["Esfagno de fibra longa solto + perlita grossa + carvão vegetal","Argila expandida + perlita grossa + chips de coco médios lavados + pequena fração de esfagno solto"],
-    errosComuns: "• Encharcar o broto antes de as raízes novas estarem funcionais.\n• Replantar quando as raízes novas já estão longas e frágeis.\n• Economizar água durante o crescimento vigoroso.\n• Continuar regando normalmente após a queda das folhas.\n• Adubar durante dormência.\n• Remover pseudobulbos traseiros saudáveis, que funcionam como reserva.\n• Usar substrato velho e compacto.\n• Tentar forçar flores femininas com excesso de sol.",
+    errosComuns: [
+    "Encharcar o broto antes de formar raízes funcionais.",
+    "Replantar com raízes novas já longas e frágeis.",
+    "Reduzir água durante o crescimento vigoroso.",
+    "Continuar regas normais após a queda das folhas.",
+    "Adubar durante a dormência.",
+    "Remover pseudobulbos traseiros saudáveis.",
+    "Usar substrato velho e compacto.",
+    "Forçar flores femininas com sol excessivo."
+],
     dica: "🏆 Nesta espécie caducifólia, respeitar a dormência é essencial. Após a queda das folhas e a interrupção do crescimento, suspenda a adubação e reduza drasticamente as regas, observando os pseudobulbos. Quando surgir um novo broto, não retome imediatamente a irrigação abundante: espere que as raízes novas estejam bem desenvolvidas, geralmente com cerca de oito a doze centímetros. Depois, aumente gradualmente água e nutrição durante o crescimento vigoroso. Evite encharcar brotos sem raízes funcionais e preserve pseudobulbos antigos saudáveis.",
     revisaoCientificaIAR: {
         "nome": "Catasetum mattosianum",
