@@ -29,7 +29,7 @@ export const coelogyneCristata = {
     "regiao": "Nepal · Índia · Tibete · Bangladesh",
     "habitat": "Montanhas úmidas · inverno frio e seco.",
     "clima": "Fresco a frio · noites frias essenciais.",
-    "climaFloracao": "A indução floral depende da combinação de noites frias, luz mais intensa e redução progressiva de água após a maturação dos pseudobulbos. A seca isolada, sem frio, geralmente não produz botões. No outono, reduza gradualmente as regas; no inverno, mantenha quase seca e suspenda a adubação. Irrigue apenas o suficiente para impedir desidratação extrema. Quando os botões se tornam evidentes, retome a água com cautela, evitando encharcar raízes ainda frias.",
+    "climaFloracao": "Prefere clima frio a ameno de montanha, com noites frias e inverno mais seco. No litoral quente, a floração costuma ser muito difícil sem resfriamento adequado. Após a maturação dos pseudobulbos, aumente a luz e reduza bastante as regas durante o inverno, mantendo apenas água suficiente para evitar murcha excessiva. A combinação de frio e repouso é importante para formar botões; retome as regas gradualmente quando surgirem.",
     "iluminacao": {
         "sombrite": "Cerca de 50% no verão; mais claridade no inverno, sem sol forte",
         "solDireto": "Permitido com restrição",
