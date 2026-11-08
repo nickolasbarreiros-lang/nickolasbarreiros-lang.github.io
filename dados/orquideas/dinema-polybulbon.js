@@ -30,14 +30,15 @@ export const dinemaPolybulbon = {
   "suporte": "Por formar crescimento rastejante com pseudobulbos sucessivos, prefira placa ou tronco com espaço livre para expansão lateral. Prenda segmentos antigos, deixando os brotos novos descobertos para que enraízem na superfície. Cesto raso é opção quando a secagem da placa é rápida demais; em vaso baixo, não cubra o rizoma com partículas finas. Árvore viva pode funcionar em casca rugosa e local úmido, desde que a planta não seja deslocada após aderir. Evite esfagno compacto e permanentemente molhado sobre os brotos.",
   "substrato": ["Casca de pinus pequena + carvão vegetal pequeno + pequena fração de esfagno de fibra longa solto","Casca de arroz carbonizada + esfagno de fibra longa solto + casca de pinus pequena"],
   "errosComuns": [
-    "Escolher um suporte pequeno, sem espaço para a touceira se espalhar.",
-    "Enterrar o rizoma e os pseudobulbos no substrato.",
-    "Manter esfagno compacto e molhado sobre os brotos.",
-    "Deixar a montagem secar completamente por períodos prolongados.",
-    "Dividir repetidamente uma touceira ainda pequena.",
-    "Expor as raízes superficiais ao sol direto forte.",
-    "Usar adubo concentrado em uma placa de pouco volume."
-  ],
+    "Usar suporte pequeno sem espaço para expansão.",
+    "Enterrar o rizoma e os pseudobulbos.",
+    "Manter esfagno compacto sobre os brotos.",
+    "Deixar a montagem secar por muitos dias.",
+    "Dividir repetidamente touceiras pequenas.",
+    "Expor raízes superficiais ao sol forte.",
+    "Aplicar adubo concentrado em placa pequena.",
+    "Deixar brotos novos crescerem contra a borda."
+],
   "dica": "🏆 O diferencial desta miniatura é permitir que seus numerosos pseudobulbos avancem sobre uma superfície livre. Prefira placa larga ou recipiente raso, posicionando os crescimentos antigos próximos à borda. Não enterre o rizoma: raízes novas precisam aderir ao suporte e receber umidade sem abafamento. Em clima quente, monitore a secagem da montagem, mas evite esfagno compactado. Preserve touceiras maduras e não divida a planta a cada brotação; vários pseudobulbos saudáveis ajudam a sustentar florações mais abundantes.",
   "revisaoCientificaIAR": {
     "distribuicaoFonteConferidaV410": "https://commons.wikimedia.org/wiki/Dinema_polybulbon",
