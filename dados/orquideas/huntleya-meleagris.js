@@ -19,7 +19,7 @@ export const huntleyaMeleagris = {
     regiao: "Trinidad · norte e centro da América do Sul (incl. Brasil)",
     habitat: "Florestas tropicais úmidas · epífita · altitude variável, inclusive 200–600 m em registros brasileiros.",
     clima: "Intermediário · úmido e muito ventilado.",
-    climaFloracao: "Registros brasileiros entre 200 e 600 m e referências de outras populações entre 600 e 1.300 m mostram amplitude ecológica; a espécie tolera condições de frescas a relativamente quentes, mas não significa que suporte calor noturno abafado. No litoral, o desafio é reproduzir o frescor e a umidade do interior da floresta sem manter as raízes sem oxigênio. Crescimento contínuo e água de baixa salinidade favorecem o vigor; não há ensaio específico demonstrando que noites mais amenas sejam necessárias à indução floral. Não possui repouso seco.",
+    climaFloracao: "Prefere clima intermediário e muito úmido, com sombra luminosa e excelente ventilação. A montanha costuma favorecer a floração; no litoral, pode florescer se ficar protegida do calor noturno abafado. Como não possui pseudobulbos para armazenar água, precisa de umidade regular nas raízes durante todo o ano. Não faça repouso seco nem provoque frio intenso. Água de boa qualidade ajuda a manter a planta vigorosa.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
