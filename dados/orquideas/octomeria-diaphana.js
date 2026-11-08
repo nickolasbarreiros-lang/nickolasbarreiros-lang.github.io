@@ -24,7 +24,7 @@ export const octomeriaDiaphana = {
     "regiao": "Sul e Sudeste do Brasil",
     "habitat": "Matas úmidas · troncos musgosos.",
     "clima": "Quente a fresco · úmido.",
-    "climaFloracao": "IOSPE descreve a espécie como de crescimento quente a fresco em florestas primárias úmidas, sobre troncos e ramos cobertos de musgo. Isso explica por que, no litoral quente, ela responde melhor quando recebe sombra clara, alta umidade atmosférica e forte ventilação, especialmente à noite. Não precisa de repouso seco; basta permitir leve secagem superficial do suporte entre regas.",
+    "climaFloracao": "Gosta de clima quente a intermediário, sombra luminosa, umidade elevada e ventilação constante. Pode florescer no litoral e na montanha, com proteção contra calor abafado e frio intenso. Mantenha as raízes hidratadas, permitindo apenas uma leve secagem superficial entre regas. Não precisa de repouso seco nem de choque térmico. Em regiões quentes, o movimento do ar ajuda a manter a planta saudável e apta a florescer.",
     "iluminacao": {
         "sombrite": "60% a 75%",
         "solDireto": "Não permitido",
