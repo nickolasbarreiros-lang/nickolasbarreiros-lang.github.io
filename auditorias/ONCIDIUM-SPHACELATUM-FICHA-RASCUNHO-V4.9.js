@@ -106,7 +106,7 @@ export const oncidiumSphacelatum = {
     "titulo": "Substrato ideal",
     "contexto": "Mistura drenante para cultivo em recipiente",
     "resumo": "Raízes aeradas, retenção moderada e boa estabilidade.",
-    "justificativa": "Casca estruturada permite passagem de ar; chips de coco lavados moderam a secagem, enquanto carvão e perlita mantêm a mistura porosa. Ajuste a rega à secagem do centro do recipiente.",
+    "justificativa": "Casca de pínus média sustenta a estrutura da mistura; chips de coco lavados ajudam a moderar a secagem. Carvão granulado e perlita compõem a fração de partículas mais abertas, sem dispensar a avaliação da umidade no centro do recipiente.",
     "receitaTexto": "45% casca de pínus média + 25% chips de coco lavados + 20% carvão vegetal granulado + 10% perlita grossa.",
     "perfil": [
       "Raízes finas a médias",
@@ -157,7 +157,7 @@ export const oncidiumSphacelatum = {
         "nome": "Carvão vegetal granulado",
         "proporcao": "20%",
         "nota": "aeração",
-        "finalidade": "Mantém a mistura solta e drenante."
+        "finalidade": "Integra a fração granulada da mistura, sem substituir a drenagem do recipiente."
       },
       {
         "asset": "perlita",
