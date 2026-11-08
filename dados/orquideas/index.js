@@ -1,3 +1,4 @@
+import { cattleyaAmethystoglossaVarAurea } from "./cattleya-amethystoglossa-var-aurea.js";
 import { epidendrumSecundum } from "./epidendrum-secundum.js";
 import { dinemaPolybulbon } from "./dinema-polybulbon.js";
 import { prosthecheaFragrans } from "./prosthechea-fragrans.js";
@@ -304,4 +305,5 @@ bulbophyllumSyciobulbon,
     pinaliaElata,
     stelisCfAprica,
     epidendrumSecundum,
+    cattleyaAmethystoglossaVarAurea,
 ];
