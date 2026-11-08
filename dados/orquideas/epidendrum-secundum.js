@@ -2,7 +2,7 @@
 export const epidendrumSecundum = {
  id:"epidendrum-secundum", nome:"Epidendrum secundum", genero:"Epidendrum", tipo:"Espécie botânica",
  sinonimo:"", dificuldade:"Fácil",
- origem:"América tropical", regiao:"Pequenas Antilhas e norte da América do Sul; registros brasileiros requerem atenção à delimitação com espécies próximas.",
+ origem:"América tropical", regiao:"Brasil, Caribe e outras regiões tropicais da América do Sul.",
  habitat:"Terrestre ou rupícola, em áreas abertas e afloramentos rochosos; também há registros de hábito epífito.",
  descricao:"Epidendrum secundum é uma orquídea de crescimento ereto, com caules semelhantes a pequenas canas e folhas distribuídas ao longo das hastes. Na extremidade surgem inflorescências com diversas flores geralmente róseas ou lilases, marcadas pelo labelo recortado e detalhes amarelados. Em ambientes favoráveis, a planta forma touceiras vistosas e pode alcançar porte elevado. Ocorre em áreas tropicais, inclusive sobre solos rasos e superfícies rochosas, o que explica sua versatilidade no cultivo. Algumas hastes podem produzir brotações conhecidas como keikis. Seu labelo possui um calo central carnoso e recortado, característica útil para distingui-la de espécies semelhantes, como Epidendrum denticulatum.",
  caracteristicas:["Crescimento ereto","Terrestre ou rupícola","Flores róseas a lilases","Inflorescência terminal","Pode formar keikis"],
