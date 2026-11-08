@@ -65,36 +65,36 @@ export const oncidiumSphacelatum = {
   ],
   "formasCultivo": {
     "perfilVisual": "oncidium",
-    "destaque": "Vaso de barro",
-    "resumo": "Touceira vigorosa, raízes que precisam de aeração e hastes grandes; use suporte firme e ajuste a secagem.",
+    "destaque": "Cachepô de madeira",
+    "resumo": "Prefere raízes muito ventiladas; cachepô vazado ou suporte de madeira favorece esse hábito, desde que a hidratação acompanhe a secagem.",
     "metodos": [
       {
         "nome": "Vaso de barro",
         "asset": "vaso-barro",
-        "estrelas": 5,
-        "status": "Ideal",
-        "texto": "Oferece estabilidade para a touceira e favorece secagem e aeração das raízes."
+        "estrelas": 4,
+        "status": "Muito recomendado",
+        "texto": "Boa opção em recipiente quando a mistura é aberta, estável e seca adequadamente."
       },
       {
         "nome": "Vaso plástico vasado",
         "asset": "vaso-plastico-vasado",
-        "estrelas": 5,
-        "status": "Ideal",
-        "texto": "Combina ventilação e retenção moderada; fixe a planta para evitar movimentos."
+        "estrelas": 4,
+        "status": "Muito recomendado",
+        "texto": "Alternativa prática para controlar a secagem; fixe a planta e mantenha os furos desobstruídos."
       },
       {
         "nome": "Cachepô de madeira",
         "asset": "cesto-madeira",
-        "estrelas": 4,
-        "status": "Muito recomendado",
-        "texto": "Favorece raízes arejadas, mas pode exigir regas mais frequentes."
+        "estrelas": 5,
+        "status": "Ideal",
+        "texto": "Favorece raízes expostas ao ar, respeitando o hábito epífito; pode exigir regas mais frequentes."
       },
       {
         "nome": "Placa / Tronco",
         "asset": "placa-tronco",
-        "estrelas": 3,
-        "status": "Alternativa",
-        "texto": "Compatível com o hábito epífito, mas requer atenção à hidratação e ao porte."
+        "estrelas": 5,
+        "status": "Ideal",
+        "texto": "Respeita o hábito epífito e favorece aeração; escolha placa grande e ajuste a hidratação ao calor."
       }
     ]
   },
