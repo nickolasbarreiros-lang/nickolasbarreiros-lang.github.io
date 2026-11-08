@@ -25,7 +25,7 @@ export const aciantheraGlumacea = {
     mesesFloracao: [7, 8, 9, 10, 11, 12, 1],
     mesesFloracaoIndicativos: true,
     clima: "Intermediário a fresco, úmido e muito ventilado.",
-    climaFloracao: "Ocorre em diferentes formações florestais brasileiras, inclusive em áreas de menor altitude; portanto, não deve ser considerada exclusivamente de montanha. Montanha: favorável. Litoral quente: possível, com boa ventilação e luz adequada, evitando calor excessivo e abafamento. Não há comprovação de quebra térmica obrigatória ou repouso seco. Mantenha regas regulares e permita boa aeração das raízes.",
+    climaFloracao: "Prefere clima intermediário a ameno, com boa umidade e circulação de ar. A montanha costuma favorecer sua floração, mas o litoral também pode funcionar quando a planta recebe luz filtrada e proteção contra calor abafado. Mantenha as raízes hidratadas e os novos crescimentos saudáveis. Noites um pouco mais frescas ajudam no conforto da planta, sem necessidade de impor frio ou seca.",
     iluminacao: {
         sombrite: "60% a 70%; em locais muito quentes, comece próximo de 70%",
         solDireto: "Permitido com restrição",
