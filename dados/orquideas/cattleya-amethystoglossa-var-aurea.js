@@ -1,4 +1,4 @@
-// FICHA V4.9 — publicação provisória autorizada sem fotografias; galeria pendente de imagens verificadas.
+// FICHA V4.9 — quatro fotografias fornecidas pelo proprietário, provenientes de orquidários amigos; identificação de coloração aurea confirmada pelo proprietário.
 export const cattleyaAmethystoglossaVarAurea = {
   "id": "cattleya-amethystoglossa-var-aurea",
   "nome": "Cattleya amethystoglossa forma aurea",
@@ -17,7 +17,12 @@ export const cattleyaAmethystoglossaVarAurea = {
     "Raízes grossas e arejadas",
     "Necessita suporte firme"
   ],
-  "fotos": [],
+  "fotos": [
+    "https://acdn-us.mitiendanube.com/stores/659/711/products/1000477845-dc7d7d7b53a052249917884634471051-640-0.webp",
+    "https://acdn-us.mitiendanube.com/stores/005/944/878/products/cattleya-amethystoglossa-camaleao-x-self-68b0a119629bcd0a3317424720003251-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/598/107/products/img_6057-a0425477be1875c86917788411180940-1024-1024.webp",
+    "https://acdn-us.mitiendanube.com/stores/271/166/products/whatsapp-image-2026-03-20-at-08-47-47-2667d00d8b05b6a93917740073311061-480-0.webp"
+],
   "selosCultivo": {
     "rega": {
       "nivel": "moderada"
