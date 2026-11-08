@@ -16,7 +16,7 @@ export const stelisCiliaris = {
   "regiao": "Florestas tropicais desde o sul do México até partes da América do Sul.",
   "habitat": "Ocorre sobre árvores em florestas úmidas, onde recebe luz filtrada e o ar circula entre as folhas. Suas raízes finas precisam de umidade frequente, mas não de um suporte encharcado.",
   "clima": "Quente a intermediário conforme procedência e altitude; umidade atmosférica elevada e circulação contínua.",
-  "climaFloracao": "A emissão de hastes é favorecida por uma planta bem estabelecida, raízes ativas, luz filtrada e umidade atmosférica constante. Há registros da espécie em ambientes tropicais relativamente quentes, portanto não é correto exigir frio intenso para florescer. Em locais de noites muito quentes, mantenha ventilação e evite o abafamento; a resposta pode variar conforme a procedência. Não há evidência de que repouso seco ou choque térmico sejam necessários.",
+  "climaFloracao": "Prefere clima quente a intermediário, umidade frequente e boa circulação de ar. Pode florescer no litoral e na montanha, conforme a procedência, desde que protegida de temperaturas extremas. Mantenha sombra luminosa e raízes finas hidratadas, sem encharcar o suporte. Não precisa de repouso seco nem de choque térmico. Em noites quentes, a ventilação ajuda a preservar o vigor e a floração.",
   "iluminacao": {
       "sombrite": "70% a 80%",
       "solDireto": "Não permitido",
