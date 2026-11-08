@@ -28,7 +28,7 @@ export const coelogyneOvalisVarMiniatum = {
     "regiao": "Nepal · NE da Índia · sul da China · Indochina",
     "habitat": "Florestas montanas · árvores/rochas · 600–2.100 m.",
     "clima": "Intermediário a fresco · úmido e ventilado.",
-    "climaFloracao": "A espécie ocupa uma faixa altitudinal muito ampla, portanto não deve ser resumida simplesmente como ‘fria’. Em cultivo no litoral quente, o fator limitante tende a ser o excesso de calor noturno associado a pouca ventilação. Crescimento contínuo, raízes ativas, boa umidade do ar e noites tão amenas quanto possível favorecem a maturação dos pseudobulbos. A identificação ‘Miniatum’ deve ser confirmada pelas flores antes de transformar qualquer calendário em regra fixa.",
+    "climaFloracao": "Prefere clima intermediário a fresco, com umidade regular e noites amenas. A montanha costuma favorecer sua floração; no litoral quente, procure um local bem ventilado e protegido do calor noturno. Pseudobulbos maduros, raízes ativas e luz filtrada ajudam a formar as flores. Não precisa de seca rigorosa nem de frio intenso. Observe o ciclo da planta, pois a época da florada pode variar.",
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Permitido com restrição",
