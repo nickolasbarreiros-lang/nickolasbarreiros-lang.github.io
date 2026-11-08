@@ -92,7 +92,16 @@ export const cattleyaLoddigesii = {
     "alerta": "Mistura 1:1 apoiada por ensaio com plântulas, não validada para plantas adultas. Observar secagem e manter drenagem; não extrapolar a dose de extrato pirolenhoso do estudo de Schnitzer et al. como recomendação geral.",
     "notaEvidencia": "MACS 1.1 — receita principal corrigida com evidência experimental direta: Sorace (2008), dissertação UEL, 8 tratamentos, 12 repetições, 17 meses, em plântulas de Cattleya loddigesii, encontrou bons resultados com pinus isolado e pinus + casca de arroz carbonizada (1:1 v/v). Receita visual e textual agora 50% pinus + 50% arroz carbonizado = 100%. Schnitzer et al. (2015), Revista Ceres, usaram fibra de coco + pinus + arroz carbonizado (1:1:1) como substrato-base de experimento sobre extrato pirolenhoso; esse estudo NÃO comparou a mistura-base com outros substratos. Não extrapolar resultados de plântulas para adultas nem considerar os percentuais homologados para todo ambiente. Fontes: https://repositorio.uel.br/handle/123456789/10648 ; https://ojs.ceres.ufv.br/ceres/article/view/4222 . Produtores brasileiros com receita quantitativa específica verificada: zero; meta de 25 não atingida. Estrelas dos suportes permanecem nulas, sem ranking experimental."
 },
-    errosComuns: "Cultivar sob sombra excessiva; secar demais durante crescimento ativo; manter substrato velho, compactado ou constantemente molhado; usar vaso muito grande; enterrar o rizoma; replantar sem novas raízes em emissão; quebrar raízes novas durante o replante; dividir touceiras pequenas; aplicar fertilizante em excesso.",
+    errosComuns: [
+    "Cultivar em sombra excessiva.",
+    "Secar demais durante o crescimento ativo.",
+    "Manter substrato velho ou constantemente molhado.",
+    "Usar vaso muito grande.",
+    "Enterrar o rizoma.",
+    "Replantar antes da emissão de raízes novas.",
+    "Quebrar raízes novas durante o replante.",
+    "Dividir touceiras com poucas reservas."
+],
     dica: "🏆 Nesta Cattleya bifoliada, o replantio deve acompanhar a emissão de raízes novas, não uma data fixa no calendário. Prepare o vaso antes de remover a planta e posicione a frente ativa com espaço para crescer. Evite divisões desnecessárias: uma touceira com vários pseudobulbos maduros dispõe de mais reservas e pode sustentar florações simultâneas. Durante o crescimento, regue bem e permita boa aeração das raízes. Depois que os brotos amadurecerem, ajuste as regas à secagem do substrato.",
     revisaoCientificaIAR: {
         "nome": "Cattleya loddigesii",
