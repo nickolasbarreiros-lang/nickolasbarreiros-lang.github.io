@@ -71,7 +71,16 @@ export const miltoniaClowesii = {
         alerta: "Evitar vaso grande, substrato velho ou compacto, secagem na expansão foliar, sombra excessiva e água parada nas bainhas durante noites abafadas. Replantar no início de novas raízes.",
         notaEvidencia: "MACS 1.1: receita visual T2 de Schnitzer et al. (2010), Acta Scientiarum Agronomy, DOI 10.4025/actasciagron.v32i1.714: 25% Casca de pinus, 25% Fibra de coco, 25% Casca de arroz carbonizada, 25% Carvão vegetal, em mudas produzidas in vitro, avaliadas aos sete meses. Evidência A experimental específica PARA MUDAS, não homologação para adultos. Alternativas T1 e T5 em partes iguais também foram ensaiadas em mudas. T3 e T4 incluíram carvão tratado com extrato pirolenhoso e não são equivalentes a carvão comum. Nomes canônicos e assets próprios conferidos. Matriz: auditorias/MACS-1.1-MATRIZ-037-MILTONIA-CLOWESII.md."
     },
-    "errosComuns": "❌ Substrato velho ou compactado: elimina rapidamente as raízes finas.\n❌ Vaso grande: mantém o centro saturado e favorece podridão.\n❌ Secagem durante expansão foliar: produz folhas sanfonadas permanentes.\n❌ Sombra excessiva: enfraquece o pseudobulbo e reduz hastes.\n❌ Calor abafado e água nas bainhas à noite: favorecem fungos e podridão dos brotos.\n❌ Replantio fora da emissão de raízes: pode comprometer o pseudobulbo e a floração seguinte.",
+    "errosComuns": [
+    "Manter substrato velho e compactado.",
+    "Usar vaso grande que retém água.",
+    "Deixar secar durante a expansão das folhas.",
+    "Cultivar em sombra excessiva.",
+    "Manter calor abafado e água nas bainhas.",
+    "Replantar fora da emissão de raízes novas.",
+    "Aplicar adubo concentrado nas raízes.",
+    "Dividir touceiras com poucas reservas."
+],
     "dica": "🏆 O vigor da próxima haste desta Miltonia depende da qualidade do pseudobulbo formado agora. Durante a brotação, mantenha umidade regular, luz filtrada abundante, ventilação e nutrição diluída. Se as folhas novas ficarem sanfonadas, verifique raízes e secagem do substrato antes de simplesmente aumentar as regas. Evite replantes fora da emissão de raízes novas, pois a recuperação pode atrasar o crescimento. Preserve pseudobulbos antigos saudáveis e mantenha a touceira estável para acumular reservas.",
     revisaoCientificaIAR: {
         "nome": "Miltonia clowesii",
