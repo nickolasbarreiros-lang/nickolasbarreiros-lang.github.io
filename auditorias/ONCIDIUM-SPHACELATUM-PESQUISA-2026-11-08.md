@@ -46,3 +46,15 @@ Merten Orquídeas assinala explicitamente a espécie como **“Perfumada”** na
 ## Evidência e prudência para substrato
 
 Merten lista casca de madeira, carvão, chips de coco, pedrinhas e esfagno sem receita percentual. AOS (https://www.aos.org/orchid-care/care-sheets/oncidium-culture-sheet) recomenda raízes arejadas, umidade equilibrada no crescimento e replante na emissão de novas raízes. Qualquer fórmula percentual para esta espécie será **proposta horticultural justificada**, não receita testada nem homologada por 25 produtores; os pesos e estrelas precisam ser fundamentados antes da publicação.
+
+## Auditoria do renderizador e critérios de cultivo — 08/11/2026
+
+- **Inspeção direta de `ficha.js`**: `criarGaleria(fotos)` recebe um vetor de **strings URL**, usa as quatro primeiras e **não exibe créditos de fotos de forma genérica**. Há apenas uma exceção fixa para `pholidota-chinensis`. Assim, **não é adequado publicar fotos CC BY-SA sem acrescentar atribuição específica**, o que demandaria alteração estrutural no renderizador. Aguardar autorização para essa alteração ou usar fotos com licença que não exija crédito, se identificadas.
+- **Identificação**: POWO confirma *Oncidium sphacelatum* Lindl. como espécie aceita, nativa do México à América Central e sudeste da Venezuela, epífita tropical.
+- **Rega e substrato**: a American Orchid Society recomenda, para Oncidium, regar conforme secagem interna do vaso, manter raízes aeradas e replantar quando brotam raízes novas. A extensão universitária NC State recomenda para *O. sphacelatum* casca de granulometria média a grossa, bem drenada, umidade e ventilação. Fontes: https://www.aos.org/orchid-care/care-sheets/oncidium-culture-sheet e https://plants.ces.ncsu.edu/plants/oncidium-sphacelatum/
+- **Floração**: Smithsonian documenta fevereiro–julho no hemisfério norte, pico maio; **não é calendário brasileiro**. https://gardens.si.edu/collections/explore/object/ofeo-sg_2008-1051A
+- **Ponto de atenção**: ficha Summer Wind contém `substratoVisual.notaEvidencia` com texto metodológico interno e `adaptacaoRegional.litoral.texto` com cidade/estado; **não transferir esses campos à nova ficha**.
+
+### Decisão de implementação
+
+Manter a galeria nova vazia até viabilizar atribuição adequada, e não reaproveitar fotografias do híbrido. Produzir dados botânicos completos antes da troca pública; não alterar a estrutura V4.9 sem autorização.
