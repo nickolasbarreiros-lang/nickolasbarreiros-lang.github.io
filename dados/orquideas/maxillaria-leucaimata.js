@@ -70,7 +70,16 @@ export const maxillariaLeucaimata = {
         alerta: "Evitar vaso grande, rizoma enterrado, substrato degradado ou saturado e seca prolongada. Observar o tempo real de secagem e replantar no início do enraizamento.",
         notaEvidencia: "MACS 1.1 — revisão documental: POWO aceita Maxillaria leucaimata Barb.Rodr. como epífita pseudobulbosa nativa da Guiana Francesa ao Brasil e lista M. leucaimata var. angustilabia como único sinônimo; WFO/Flora do Brasil também registra hábito rupícola. BR Orquídea comercializa a espécie e indica 50% de sombra, altitude 100–900 m e hábito epífita/rupícola, sem receita percentual. AOS fornece apenas orientação geral para Maxillaria. Receita 35% perlita + 30% brita + 25% macadâmia + 10% pinus e estrelas NÃO HOMOLOGADAS: não há comparação específica de desempenho ou validação dos percentuais; meta de até 25 produtores não atingida. Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:643560-1 ; https://www.worldfloraonline.org/taxon/wfo-0000238554 ; https://www.br-orquidea.com.br/espanol/default.asp?ct=1&id=plantas_detalhes2&pd=195 ; https://www.aos.org/explore/maxillaria ."
     },
-    errosComuns: "Usar vaso grande; enterrar o rizoma ou base dos brotos; manter substrato velho, triturado ou permanentemente saturado; cultivar em sombra profunda; impor seca prolongada; adubar em concentração alta; não fazer lavagem periódica; replantar fora do início do enraizamento.",
+    errosComuns: [
+    "Usar vaso grande com secagem lenta.",
+    "Enterrar o rizoma e a base dos brotos.",
+    "Manter substrato velho e saturado.",
+    "Cultivar em sombra profunda.",
+    "Impor seca prolongada.",
+    "Aplicar adubo concentrado.",
+    "Deixar sais acumularem nas raízes.",
+    "Replantar fora do início do enraizamento."
+],
     dica: "🏆 O segredo desta Maxillaria é observar quanto tempo o substrato leva para perder a umidade após cada rega. Molhe bem durante o crescimento, mas mantenha raízes ventiladas e material que não permaneça saturado por vários dias. Se a secagem estiver lenta, ajuste a granulometria, o tamanho do vaso ou a circulação de ar antes de reduzir drasticamente a água. Preserve o rizoma superficial e evite cobrir as bases dos pseudobulbos, de onde surgem as hastes florais.",
     revisaoCientificaIAR: {
         "nome": "Maxillaria leucaimata",
