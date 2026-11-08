@@ -25,7 +25,7 @@ export const aciantheraBragae = {
     mesesFloracao: [8, 10, 11, 12, 1],
     mesesFloracaoIndicativos: true,
     clima: "Quente a intermediário, úmido, sombreado e ventilado.",
-    climaFloracao: "A faixa altitudinal aproximada de 700–1.000 m indica noites naturalmente mais amenas que as do litoral, mas a espécie é descrita em referência de cultivo como de crescimento quente. Portanto, não exige frio intenso. No litoral quente, priorize redução do calor acumulado noturno, sombra luminosa e ventilação contínua, sobretudo durante a maturação dos novos crescimentos.",
+    climaFloracao: "Prefere florestas úmidas e sombreadas, com registros entre 700 e 1.000 m. Montanha: favorável em ambiente úmido e protegido. Litoral quente: condicional, sobretudo quando as noites são abafadas; ofereça sombra luminosa e ventilação. Não há exigência demonstrada de queda térmica acentuada ou repouso seco. Mantenha as raízes regularmente úmidas, sem encharcamento.",
     iluminacao: {
         sombrite: "70% como referência no litoral quente",
         solDireto: "Não permitido",
