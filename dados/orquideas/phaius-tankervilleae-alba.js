@@ -29,7 +29,7 @@ export const phaiusTankervilleaeAlba = {
     "regiao": "Ásia oriental e Sudeste Asiático · Pacífico",
     "habitat": "Baixadas úmidas e matas · até ~1.300 m.",
     "clima": "Quente a ameno · úmido · meia-sombra.",
-    "climaFloracao": "A floração depende principalmente de pseudobulbos maduros e bem abastecidos após um longo período de crescimento ativo. Durante a formação de folhas e pseudobulbos, água e nutrição não devem faltar. Com a maturação, reduza apenas moderadamente adubo e rega conforme a evaporação cair; não imponha repouso seco severo. Em clima quente, a espécie costuma vegetar muito bem, desde que o substrato permaneça úmido sem ficar compacto ou anaeróbico.",
+    "climaFloracao": "Gosta de clima quente a intermediário, meia-sombra e substrato úmido, porém arejado. Pode florescer no litoral e na montanha, com proteção contra frio intenso. Regue e adube bem enquanto folhas e pseudobulbos crescem, pois a floração depende dessas reservas. Depois da maturação, reduza moderadamente as regas se o crescimento desacelerar. Não precisa de repouso seco severo para produzir hastes.",
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
