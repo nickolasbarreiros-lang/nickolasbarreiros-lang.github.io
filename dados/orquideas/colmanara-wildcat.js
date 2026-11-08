@@ -28,7 +28,7 @@ export const colmanaraWildcat = {
     "regiao": "Sem ocorrência natural",
     "habitat": "Cultivo em vaso/cesto · raízes finas e aeradas.",
     "clima": "Intermediário a quente · noites amenas favorecem flores.",
-    "climaFloracao": "A genética do grex reúne espécies de ambientes montanos e intermediários, mas o híbrido é geralmente mais tolerante que muitos de seus ancestrais. No litoral quente, não é necessário tentar reproduzir clima frio: o objetivo prático é evitar noites permanentemente abafadas, manter ventilação e permitir pequena amplitude térmica quando possível. Pseudobulbos maduros e raízes preservadas são mais importantes que um calendário rígido.",
+    "climaFloracao": "Gosta de clima intermediário, com dias agradáveis e noites um pouco mais frescas. A montanha costuma facilitar a floração; no litoral, pode florescer se ficar longe do calor abafado. Mantenha luz filtrada abundante, boa ventilação e regas regulares durante o crescimento. Depois que os pseudobulbos amadurecerem, ajuste a água à secagem do substrato. Não é necessário provocar frio intenso ou repouso seco.",
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Não permitido",
