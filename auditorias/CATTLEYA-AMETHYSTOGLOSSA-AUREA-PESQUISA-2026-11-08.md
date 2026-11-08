@@ -119,3 +119,18 @@ Não selecionar vaso plástico comum como opção prioritária, nem raízes solt
 - **Distinção taxonômica obrigatória:** `Cattleya aurea` pode se referir a outra espécie, não à forma aurea de *C. amethystoglossa*. Não usar resultados dessa expressão isolada como substitutos.
 - Fotografia 'Aurea Morinho' no Flickr segue como candidata apenas após licença ou autorização: https://www.flickr.com/photos/sylvio-orquideas/52314199521/
 - **Decisão editorial:** não inventar URLs diretas, não incorporar fotos comerciais sem autorização e não classificar imagens da espécie típica como forma aurea. Próxima etapa de trabalho que independe da galeria: calcular e justificar IDC 3.2 e IAR 2.0, preparar textos e dados da ficha em rascunho não publicado. A liberação pública depende da galeria corretamente licenciada.
+
+## Etapa 7 — índices propostos (2026-11-08)
+
+### IDC 3.2 — dificuldade
+Pesos: temperatura 15%, rega 15%, umidade 10%, ventilação 10%, luminosidade 10%, raízes/substrato 10%, sazonalidade 10%, floração 20%.
+Notas de dificuldade (1–5), na mesma ordem: **2, 2, 2, 2, 2, 3, 2, 2**.
+Soma ponderada = 2,10/5; índice **42/100**, faixa **36–50 = 3 estrelas (moderada)**. Raízes/substrato recebe 3 pelo porte elevado e sensibilidade a substrato encharcado, exigindo recipiente estável e bem ventilado.
+
+### IAR 2.0 — adaptação regional
+Pesos: habitat 30%, temperatura 30%, água/umidade 5%, ventilação 5%, luminosidade 5%, sazonalidade 5%, floração 20%.
+- **Litoral quente:** notas **5, 5, 4, 5, 4, 4, 4**; soma 4,65/5 = **93/100**, 5 estrelas. Calor favorece o crescimento, mas requer ventilação e rega ajustada ao substrato.
+- **Montanha fria:** notas **3, 3, 4, 4, 4, 3, 4**; soma 3,35/5 = **67/100**, 4 estrelas. Frio e períodos chuvosos reduzem a margem de segurança para raízes e brotações; proteger de frio intenso e umidade persistente.
+
+### Escopo das notas
+Juízo técnico **provisório** baseado no perfil da espécie, não em ensaio regional controlado da forma aurea. Comparação orientativa: ficha *Cattleya schilleriana* do próprio catálogo (IDC 38; IAR litoral 97, montanha 68), **sem copiar notas**. Não inserir nomes de métodos nem explicações de cálculos nos menus públicos.
