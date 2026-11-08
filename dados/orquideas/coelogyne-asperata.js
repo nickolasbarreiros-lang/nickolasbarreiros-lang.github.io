@@ -75,7 +75,16 @@ export const coelogyneAsperata = {
         "alerta": "Não impor repouso seco severo, não dividir frequentemente e não deixar a planta secar durante crescimento ativo. Manter espaço para o avanço do rizoma e o caimento das hastes.",
         "notaEvidencia": "MACS 1.1 — revisão documental: POWO/Kew aceita Coelogyne asperata e Pleione asperata como sinônimo; Flora Malesiana registra rizoma rastejante, pseudobulbos separados e inflorescências com 6–35 flores. É epífita tropical de grande porte. A recomendação de vaso largo e estável ou cachepô amplo decorre da arquitetura da planta; não representa ensaio comparativo. Receita atual 35% chips de coco médios + 30% pinus médio + 25% perlita grossa + 10% esfagno solto = 100%. Recomendações gerais de cultivo do gênero Coelogyne não comprovam esta formulação específica. Nenhum produtor brasileiro com receita percentual específica da espécie confirmado nesta passagem; meta até 25 não atingida. Percentuais e estrelas NÃO HOMOLOGADOS; preservar os demais campos."
     },
-    "errosComuns": "Tratar como Coelogyne himalaica; impor seca severa; expor a frio abaixo de 14 °C; usar vaso pequeno; dividir com frequência; deixar secar durante crescimento; usar substrato compactado; cultivar sob sol direto forte; limitar o caimento das hastes; manter recipiente instável diante do peso da touceira.",
+    "errosComuns": [
+    "Impor seca severa durante o crescimento.",
+    "Expor a frio intenso prolongado.",
+    "Usar vaso pequeno para touceira grande.",
+    "Dividir touceiras com frequência.",
+    "Deixar raízes secarem durante a brotação.",
+    "Manter substrato compactado.",
+    "Expor folhas ao sol direto forte.",
+    "Bloquear o caimento natural das hastes."
+],
     "dica": "🏆 Esta Coelogyne desenvolve pseudobulbos grandes e um rizoma que precisa de espaço para avançar. Escolha desde cedo um recipiente largo, firme e bem drenado, evitando replantios frequentes de uma touceira pesada. Durante o crescimento, mantenha calor, umidade regular e ventilação para formar brotos robustos. Não enterre o rizoma nem deixe água acumulada na base dos pseudobulbos. Reserve espaço também para as inflorescências, que podem se alongar bastante. A estabilidade do conjunto favorece enraizamento e futuras florações.",
     revisaoCientificaIAR: {
         "nome": "Coelogyne asperata",
