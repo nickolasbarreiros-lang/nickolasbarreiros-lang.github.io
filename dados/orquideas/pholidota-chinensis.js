@@ -11,7 +11,7 @@ export const pholidotaChinensis = {
     },
     fotos:["https://inaturalist-open-data.s3.amazonaws.com/photos/262546179/original.jpeg", "https://www.fascinationoforchids.com/species/Blog/22-06%20Jun/Scott/Pholidota-chinensis-2.jpg", "https://fangblatt.de/cdn/shop/files/20200508_114446_1280x1280_410d952c-6f3f-4066-8bea-3ead5e363993_grande.jpg?v=1709897785", "https://commons.wikimedia.org/wiki/Special:FilePath/Pholidota_chinensis_-_Flickr_003_(1).jpg"],mesesFloracao:[4,5,6,7],
     clima:"Intermediário a fresco · úmido · ventilado",
-    climaFloracao:"A espécie ocupa faixa altitudinal muito ampla, mas a Flora of China a registra principalmente entre 900 e 2.100 m e estudos de gradiente também a encontram por volta de 1.000–1.200 m. Isso indica que o litoral quente não é impossível, porém reduz a margem de erro. Para florescer em regiões litorâneas quentes, procure noites o mais frescas possível, alta ventilação, sombra luminosa e raízes que não aqueçam dentro de mistura compacta.",
+    climaFloracao:"Prefere clima intermediário a fresco, com noites amenas, umidade elevada e boa ventilação. A montanha oferece condições mais favoráveis; no litoral quente, pode ter dificuldade se as noites permanecerem abafadas. Mantenha sombra luminosa e raízes hidratadas, sem deixar o substrato compacto ou encharcado. Não provoque seca severa. O amadurecimento dos pseudobulbos e temperaturas moderadas favorecem a floração.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
