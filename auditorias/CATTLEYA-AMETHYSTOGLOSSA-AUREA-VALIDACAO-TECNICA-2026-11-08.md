@@ -36,3 +36,11 @@ Não marcar a ficha como homologada e não avançar para outra espécie enquanto
 - O POWO/Kew reconhece a espécie e sua distribuição de Pernambuco ao Espírito Santo, mas não estabelece a forma horticultural *aurea* como táxon aceito: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:621995-1/general-information .
 - Checagem repetida dos dados: campos em arrays, 4 suportes, 2 alternativas, 100% de componentes e cálculos de 42/93/67 estão consistentes. A galeria continua com **zero fotos**, impedindo homologação editorial.
 - Próxima ação decisiva: obter fotografias próprias da forma *aurea* ou autorização explícita de titular identificado; não substituir por fotos genéricas da espécie. A biblioteca global de substratos permanece inalterada.
+
+## Atualização após autorização de publicação provisória
+
+- A ficha foi **integrada ao índice oficial** por autorização do usuário, no commit `57a7857c4741759746fdabf9ad64c92e19b2ede3`. O antigo bloqueio de publicação do relatório acima fica superado **somente quanto à publicação sem fotos**.
+- O arquivo de dados foi atualizado no commit `3c86cb8cfaca7b29932852bf9bd870332dadd388` para registrar a condição provisória.
+- Verificação posterior por GitHub: importação e entrada no array presentes; `fotos: []`; fallback do renderizador confirmado; quatro suportes, duas misturas e receita de 100% mantidos.
+- **Não confundir publicação com homologação integral:** fotos específicas autorizadas, aparência do asset `chips-coco` e teste visual no navegador permanecem pendentes.
+- A tentativa de abrir a URL do GitHub Pages na ferramenta de navegação não retornou página acessível; portanto **não foi possível confirmar a renderização remota**. A verificação atual é estática, com base nos arquivos do repositório.
