@@ -111,3 +111,11 @@ Não selecionar vaso plástico comum como opção prioritária, nem raízes solt
 “Floresce principalmente no inverno e na primavera, com variações conforme a linhagem. Produz cachos de flores amarelas ou creme, geralmente pintalgadas, com labelo contrastante. As flores podem durar cerca de duas a três semanas. A espécie é perfumada, mas a intensidade do aroma pode variar entre exemplares.”
 
 **Atenção:** duração e perfume são extrapolações da espécie, não observações confirmadas de um clone aurea. O texto é rascunho, não publicação.
+
+## Etapa 6 — busca independente de imagens com licença aberta (2026-11-08)
+
+- Consulta externa por arquivos rotulados especificamente `Cattleya amethystoglossa aurea` no Wikimedia Commons e por imagens Flickr com indicação explícita de licença Creative Commons: **nenhuma imagem inequivocamente aurea e com licença reutilizável foi confirmada nos resultados**.
+- A categoria Commons de *Cattleya amethystoglossa* contém 28 arquivos, mas isso **não confirma a forma de cor** de nenhum deles: https://commons.wikimedia.org/wiki/Category:Cattleya_amethystoglossa
+- **Distinção taxonômica obrigatória:** `Cattleya aurea` pode se referir a outra espécie, não à forma aurea de *C. amethystoglossa*. Não usar resultados dessa expressão isolada como substitutos.
+- Fotografia 'Aurea Morinho' no Flickr segue como candidata apenas após licença ou autorização: https://www.flickr.com/photos/sylvio-orquideas/52314199521/
+- **Decisão editorial:** não inventar URLs diretas, não incorporar fotos comerciais sem autorização e não classificar imagens da espécie típica como forma aurea. Próxima etapa de trabalho que independe da galeria: calcular e justificar IDC 3.2 e IAR 2.0, preparar textos e dados da ficha em rascunho não publicado. A liberação pública depende da galeria corretamente licenciada.
