@@ -113,7 +113,16 @@ export const bcTurandotXBlcOrangeShowXBlcChunyeah = {
         "alerta": "MACS 1.1: referência quantitativa genérica do Missouri Botanical Garden, cinco partes de casca de abeto média para uma de carvão horticultural (83,3/16,7). A receita com pinus média é adaptação não ensaiada, sem homologação específica deste híbrido. AOS recomenda aeração e secagem entre regas para Cattleyas adultas. Nenhuma proporção foi homologada experimentalmente para este cruzamento. Ajustar a granulometria ao volume radicular e não enterrar o rizoma. Fonte: https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/repotting-cattleya-and-other-sympodial-orchids"
     },
     substrato: ["Casca de pinus grossa + carvão vegetal + brita fina","Casca de pinus grossa + casca de macadâmia grossa + perlita grossa"],
-    errosComuns: "Cultivar em sombra excessiva; Usar vasos muito grandes ou substratos finos e compactados; Manter as raízes constantemente encharcadas; Deixar água acumulada no miolo dos brotos e bainhas durante a noite; Exagerar na adubação nitrogenada após o amadurecimento dos pseudobulbos; Dividir a touceira com menos de três a quatro pseudobulbos por corte.",
+    errosComuns: [
+    "Cultivar em sombra excessiva e formar brotos fracos.",
+    "Usar vasos grandes que demoram a secar.",
+    "Manter raízes constantemente encharcadas.",
+    "Acumular água nas bainhas durante a noite.",
+    "Exagerar no nitrogênio após maturar os pseudobulbos.",
+    "Dividir touceiras com poucas reservas.",
+    "Reduzir a rega enquanto brotos ainda crescem.",
+    "Replantar antes da emissão de raízes novas."
+],
     dica: "🏆 Neste híbrido da aliança Cattleya, priorize a formação de pseudobulbos robustos: eles sustentam a floração seguinte. Ofereça luz intensa filtrada, com adaptação gradual ao sol fraco da manhã, e ventilação constante. Regue bem durante a emissão de raízes e brotos, deixando o substrato perder parte da umidade antes da próxima rega. Evite vasos grandes, que demoram a secar. Observe o crescimento novo: pseudobulbos menores que os anteriores podem indicar luz insuficiente, raízes comprometidas ou manejo irregular.",
     revisaoCientificaIAR: {
         "nome": "Brassocattleya Turandot × (Rhyncholaeliocattleya Orange Show × Rlc. Chunyeah)",
