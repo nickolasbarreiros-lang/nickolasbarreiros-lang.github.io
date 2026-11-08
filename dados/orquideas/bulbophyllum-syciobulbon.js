@@ -27,7 +27,7 @@ export const bulbophyllumSyciobulbon = {
     regiao: "Myanmar e Tailândia; registros históricos na Malásia",
     habitat: "Floresta tropical úmida montana · ~1.400 m.",
     clima: "Fresco a intermediário · úmido e ventilado.",
-    climaFloracao: "A espécie está associada a condições montanas frescas. Em cultivo, a emissão floral depende sobretudo de pseudobulbos maduros, raízes funcionais, umidade atmosférica alta, ventilação e noites amenas. Não há base segura para impor um repouso seco rígido ou um calendário universal. Em clima quente, o fator limitante tende a ser o calor noturno contínuo; por isso, deve ocupar o ponto mais fresco do orquidário, sem reduzir a ventilação para tentar elevar a umidade.",
+    climaFloracao: "Prefere clima ameno e úmido, como o de ambientes montanos próximos de 1.400 m. A montanha oferece melhores condições de floração. No litoral quente, o desafio são as noites abafadas; mantenha a planta no ponto mais fresco e ventilado do orquidário. Luz filtrada, raízes saudáveis e pseudobulbos maduros favorecem as flores. Não imponha repouso seco, pois a planta precisa de umidade regular.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
