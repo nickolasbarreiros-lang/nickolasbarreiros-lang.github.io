@@ -26,7 +26,7 @@ export const cattleyaAclandiaeTipo = {
     regiao: "Bahia · endêmica",
     habitat: "Áreas costeiras sazonais · 100–400 m.",
     clima: "Quente · luminoso, ventilado e sazonalmente seco.",
-    climaFloracao: "IOSPE relata floração no verão e outono e também observa que um inverno mais seco pode anteceder floração na primavera/início do verão conforme o ciclo de crescimento. Em vez de escolher uma única janela rígida, a ficha deve refletir essa variabilidade. O estímulo principal é a maturação de crescimento forte sob muita luz, seguida por período relativamente mais seco, sem desidratação severa. No litoral quente, a espécie está termicamente bem adaptada; o risco maior é abafamento radicular.",
+    climaFloracao: "Prefere clima quente, muita claridade e excelente ventilação, sendo bem adaptada ao litoral. Na montanha, proteja-a de frio prolongado. A floração é favorecida por pseudobulbos maduros e por um período relativamente mais seco depois do crescimento. Reduza as regas nessa fase, sem deixar os pseudobulbos murcharem. Pouca luz e raízes constantemente molhadas podem impedir a formação de flores.",
     iluminacao: {
         sombrite: "30% a 50%; comece com 40% a 50% em ambientes muito quentes",
         solDireto: "Permitido com restrição",
