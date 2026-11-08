@@ -24,7 +24,7 @@ export const blcChiaLin = {
     regiao: "Sem distribuição natural · grex registrado em 1989",
     habitat: "Sem habitat natural · Aliança Cattleya",
     clima: "Quente–intermediário · luminoso · ventilado",
-    climaFloracao: "A próxima floração é construída durante a formação do novo pseudobulbo. Enquanto brotos e raízes estiverem ativos, forneça água, nutrição leve e boa luminosidade. Depois que a folha estiver firme e o pseudobulbo maduro, reduza naturalmente a adubação e mantenha luz alta filtrada. Não é necessário forçar a floração com seca artificial ou grandes doses de fósforo; genética, maturação, luz e saúde radicular têm papel mais importante.",
+    climaFloracao: "Híbrido da aliança Cattleya, sem altitude natural definida, de clima quente a intermediário. Litoral: favorável com luz filtrada intensa e ventilação. Montanha: favorável se protegido de frio prolongado. Floresce a partir de pseudobulbos bem maduros; noites um pouco mais frescas podem ajudar, sem necessidade de choque térmico imposto. Mantenha regas durante o crescimento e reduza-as conforme a secagem depois da maturação, sem repouso seco forçado.",
     iluminacao: {
         sombrite: "50% a 60%; comece próximo de 50% se o local não for excessivamente quente",
         solDireto: "Permitido com restrição",
