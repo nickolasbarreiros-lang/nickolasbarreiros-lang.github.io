@@ -24,7 +24,7 @@ export const notyliaPubescens = {
     "regiao": "Nordeste, Centro-Oeste, Sudeste e Sul do Brasil",
     "habitat": "Florestas tropicais · epífita.",
     "clima": "Quente a ameno · úmido.",
-    "climaFloracao": "A produção de cachos depende mais da maturação do crescimento, luminosidade filtrada e estabilidade hídrica do que de frio intenso. A espécie é registrada em diferentes ambientes brasileiros, inclusive florestas ombrófilas e ribeirinhas. Durante a emissão das hastes, evite secas prolongadas e água parada na base da folha. Ventilação é especialmente importante em noites quentes, quando botões e flores ficam mais sujeitos a fungos.",
+    "climaFloracao": "Prefere clima quente a intermediário, umidade regular e luz filtrada. Pode florescer no litoral e na montanha, desde que protegida de frio intenso. Mantenha os novos crescimentos saudáveis e boa circulação de ar, especialmente durante a formação dos cachos. Não precisa de noites frias nem de repouso seco para produzir flores. Evite deixar água acumulada entre as folhas e secar demais as raízes.",
     "iluminacao": {
         "sombrite": "60% a 75%",
         "solDireto": "Não permitido",
