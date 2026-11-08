@@ -25,7 +25,7 @@ export const miltoniaCandida = {
     "regiao": "Sudeste brasileiro",
     "habitat": "Mata Atlântica · epífita · ~500–800 m.",
     "clima": "Intermediário a quente · ventilado.",
-    "climaFloracao": "Floresce após o pseudobulbo completar a maturação. Luz filtrada forte e maturação vigorosa favorecem o desenvolvimento; não há ensaio específico comprovando necessidade de noites frias para indução. Não é necessário impor seca severa. O pseudobulbo precisa amadurecer cheio, pois armazena água e carboidratos para sustentar as três a sete flores por inflorescência descritas no IOSPE.",
+    "climaFloracao": "Gosta de clima intermediário a quente, luz filtrada abundante e boa ventilação. Pode florescer no litoral e na montanha, desde que não enfrente calor abafado ou frio intenso. A haste surge depois que o pseudobulbo amadurece e acumula reservas. Mantenha água regular durante o crescimento e ajuste as regas à secagem do substrato. Não precisa de repouso seco severo nem de choque térmico.",
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
