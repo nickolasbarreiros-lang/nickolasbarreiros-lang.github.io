@@ -25,7 +25,7 @@ export const laeliaPraestans = {
     regiao: "Espírito Santo e Minas Gerais",
     habitat: "Mata Atlântica úmida · epífita · 700–900 m.",
     clima: "Quente a intermediário · úmido e ventilado.",
-    climaFloracao: "A floração depende de pseudobulbos bem amadurecidos, luz moderada a alta e raízes saudáveis. Como cresce em floresta úmida de altitude moderada, não necessita de repouso seco forte; após a maturação, basta reduzir discretamente a frequência das regas. Em clima quente, noites abafadas e substrato continuamente molhado são mais problemáticos que a falta de frio intenso, por isso ventilação e raízes oxigenadas são prioridades.",
+    climaFloracao: "Prefere clima quente a intermediário, com noites amenas, umidade equilibrada e boa ventilação. A montanha costuma favorecer a floração; no litoral, pode florescer se ficar protegida do calor abafado. Ofereça boa luminosidade filtrada e deixe os pseudobulbos amadurecerem. Depois do crescimento, reduza um pouco as regas conforme a secagem, sem impor repouso seco. Raízes saudáveis são essenciais para formar flores.",
     iluminacao: {
         sombrite: "40% a 60%; cerca de 50% como referência inicial",
         solDireto: "Permitido com restrição",
