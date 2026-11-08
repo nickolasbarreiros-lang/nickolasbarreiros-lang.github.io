@@ -30,14 +30,15 @@ export const prosthecheaVespa = {
   "suporte": "Use suporte que comporte pseudobulbos sucessivos e permita replantio apenas quando raízes novas começarem a surgir. O vaso de barro com mistura grossa oferece estabilidade para brotos eretos e secagem previsível; cesto de madeira melhora ventilação, mas demanda acompanhamento hídrico. Placa de madeira é viável com rega mais regular e fixação firme da base. Árvore viva funciona melhor onde a planta receba luz filtrada e chuva sem ficar exposta ao sol forte. Não enterre a base dos pseudobulbos nem divida touceiras pequenas.",
   "substrato": ["Casca de pinus média + brita fina lavada e sem pó + carvão vegetal médio","Casca de macadâmia média + carvão vegetal médio + perlita grossa"],
   "errosComuns": [
-    "Replantar fora da fase de emissão de raízes novas.",
-    "Enterrar a base dos pseudobulbos na mistura.",
-    "Usar recipiente grande, que permanece úmido por tempo excessivo.",
-    "Deixar brotos jovens desidratarem durante o crescimento.",
-    "Manter a planta em sombra profunda, reduzindo o vigor dos novos pseudobulbos.",
-    "Dividir uma touceira pequena antes de ela ganhar força.",
-    "Impor repouso seco severo sem observar o ciclo de crescimento."
-  ],
+    "Replantar fora da emissão de raízes novas.",
+    "Enterrar a base dos pseudobulbos.",
+    "Usar vaso grande que seca lentamente.",
+    "Deixar brotos jovens desidratarem.",
+    "Cultivar em sombra profunda.",
+    "Dividir touceiras ainda pequenas.",
+    "Impor repouso seco severo.",
+    "Manter substrato velho e compactado."
+],
   "dica": "🏆 Nesta Prosthechea, programe o replante para quando novas raízes começarem a surgir, pois elas fixam a planta rapidamente no substrato renovado. Escolha vaso proporcional e material grosso, mantendo as bases dos pseudobulbos descobertas. Ofereça luminosidade filtrada abundante e ventilação durante o crescimento, com regas generosas seguidas de drenagem rápida. Não divida touceiras pequenas apenas após a floração: pseudobulbos antigos ainda sustentam os brotos novos. Se o vaso secar lentamente, corrija a aeração antes de reduzir drasticamente as regas.",
   "revisaoCientificaIAR": {
     "nome": "Prosthechea vespa",
