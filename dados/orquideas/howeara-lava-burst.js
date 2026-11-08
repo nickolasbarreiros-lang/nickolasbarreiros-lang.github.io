@@ -19,7 +19,7 @@ export const howearaLavaBurst = {
     regiao: "Ancestrais tropicais americanos",
     habitat: "Sem habitat natural · herança epífita.",
     clima: "Intermediário a quente · úmido e ventilado.",
-    climaFloracao: "Como híbrido, não existe uma altitude natural única para converter em regra. O melhor guia é o comportamento de seus ancestrais: raízes finas, pseudobulbos pequenos e crescimento relativamente contínuo. No litoral quente, floresce melhor quando o vaso permanece fresco e aerado, sem seca prolongada nem calor abafado. Não precisa de repouso seco para induzir flores; precisa completar novos pseudobulbos saudáveis.",
+    climaFloracao: "Este híbrido gosta de clima quente a intermediário, luz filtrada e boa ventilação. Pode florescer no litoral e na montanha, desde que protegido do frio intenso. Seus pequenos pseudobulbos e raízes finas precisam de umidade regular, sem encharcamento. A floração acompanha o amadurecimento dos novos crescimentos. Não provoque seca prolongada nem frio intenso para estimular flores.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
