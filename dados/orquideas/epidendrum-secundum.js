@@ -16,7 +16,7 @@ export const epidendrumSecundum = {
  floracao:"Floresce ao longo do ano, com maior intensidade entre setembro e janeiro. As hastes terminais exibem flores róseas ou lilases que se abrem em sequência; cada flor dura cerca de sete dias. Hastes antigas ainda verdes podem, ocasionalmente, emitir novas ramificações florais. O perfume não está bem caracterizado.",
  adubacao:"Durante o crescimento ativo, aplique adubo equilibrado em dose reduzida, seguindo a resposta da planta e evitando acúmulo de sais. Diminua a frequência quando o crescimento desacelerar.",
  rega:"Regue bem e espere o substrato perder parte da umidade antes de repetir. Em vasos com terra vegetal, verifique a secagem no interior do recipiente; nunca mantenha o conjunto encharcado.",
- suporte:["Vaso de barro","Vaso plástico vasado","Cultivo em canteiro elevado e drenado"],
+ suporte:["Vaso de barro","Vaso plástico vasado","Vaso plástico","Cachepô de madeira"],
  formasCultivo:{perfilVisual:"terrestre-rupicola",destaque:"Vaso de barro",resumo:"Planta ereta, de raízes que precisam de firmeza, drenagem e oxigenação. O vaso de barro é uma opção prática para estabilizar as hastes e reduzir o risco de umidade estagnada.",metodos:[
  {nome:"Vaso de barro",asset:"vaso-barro",estrelas:5,status:"Ideal",texto:"Oferece estabilidade para caules altos e favorece a secagem gradual do substrato; utilize mistura solta e furos livres."},
  {nome:"Vaso plástico vasado",asset:"vaso-plastico-vasado",estrelas:4,status:"Muito recomendado",texto:"Permite boa ventilação radicular, mas exige atenção à secagem e à estabilidade das hastes."},
