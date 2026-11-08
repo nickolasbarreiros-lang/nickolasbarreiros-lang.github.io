@@ -27,7 +27,7 @@ export const laeliaFournieri = {
     regiao: "Minas Gerais",
     habitat: "Campos rupestres · rochas · ~1.100–1.800 m.",
     clima: "Fresco a intermediário · alta luz · ventilado.",
-    climaFloracao: "A floração depende de crescimento compacto, muita luz e raízes ativas sob temperaturas moderadas. O calor noturno persistente pode reduzir vigor e indução floral; no litoral, priorize o ponto mais fresco e ventilado do orquidário em vez de compensar o calor com seca severa.",
+    climaFloracao: "Prefere clima ameno de montanha, muita claridade e excelente ventilação. No litoral quente, a floração pode ser difícil quando as noites permanecem abafadas, mesmo que a planta continue crescendo. Mantenha as raízes bem drenadas e evite que vasos ou pedras acumulem calor. Pseudobulbos compactos e maduros favorecem as flores. Não tente compensar o excesso de calor com seca prolongada.",
     iluminacao: {
         sombrite: "30% a 50%; cerca de 50% nos períodos mais quentes",
         solDireto: "Permitido com restrição",
