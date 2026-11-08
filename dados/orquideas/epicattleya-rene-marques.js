@@ -69,7 +69,16 @@ export const epicattleyaReneMarques = {
         alerta: "Não enterrar o rizoma, usar vaso desproporcional nem manter substrato encharcado. Garantir espaço vertical e tutoramento quando necessário; evitar sombra excessiva.",
         notaEvidencia: "MACS 1.1 — revisão documental: grex horticultural Epicattleya René Marqués, registrado em 1979, cruzamento Epidendrum pseudepidendrum x Cattleya Claesiana; genealogia não valida substratos. Ficha recomenda vaso de barro 5 estrelas, plástico vasado e cachepô madeira 4, placa/tronco 2. Receita 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão vegetal = 100%. AOS recomenda para Cattleya recipientes drenantes e substrato epífito aberto; é extrapolação parental, não experimento com o grex. Três produtores brasileiros identificados com orientações específicas: Orquídeas & Cia recomenda pinus com um pouco de esfagno; Orquidário Mogi Mirim cita pinus, carvão e esfagno; Merten Orquídeas enumera materiais possíveis, sem receita. Nenhum dos três publica percentuais da mistura 35/30/20/15; meta até 25 produtores com receita quantitativa não atingida. Percentuais e estrelas NÃO HOMOLOGADOS. Fontes gerais: https://www.aos.org/orchid-care/care-sheets/cattleya-culture-sheet ; https://www.orchids.org/grexes/epicattleya-rene-marques ; https://www.orquideacia.com.br/epicattleya-rene-marques ; https://www.orquidariomogimirim.com.br/epicattleya-rene-marques ; https://www.mertenorquideas.com.br/epicattleya-rene-marques-adulta ."
     },
-    errosComuns: "Enterrar o rizoma; cultivar sob sombra excessiva; usar vasos grandes demais; manter o substrato continuamente encharcado; exagerar no nitrogênio após a maturação; tentar compensar pouca luz com adubos concentrados de fósforo ou potássio; replantar fora da emissão de raízes novas; deixar hastes altas sem tutoramento quando necessário.",
+    errosComuns: [
+    "Enterrar o rizoma.",
+    "Cultivar em sombra excessiva.",
+    "Usar vaso grande com secagem lenta.",
+    "Manter substrato constantemente encharcado.",
+    "Exagerar no nitrogênio após a maturação.",
+    "Tentar compensar pouca luz com adubo forte.",
+    "Replantar fora da emissão de raízes novas.",
+    "Deixar hastes altas sem sustentação."
+],
     dica: "🏆 O porte alto deste híbrido exige espaço vertical e boa fixação desde o início do crescimento. Posicione o vaso em local firme, com luminosidade intensa filtrada e ventilação constante, e use tutor quando necessário para impedir tombamentos. As flores surgem no alto dos caules maduros; portanto, evite podar hastes saudáveis apenas para reduzir o tamanho. Durante a brotação, regue e adube moderadamente, permitindo secagem parcial do substrato. Uma planta bem estabelecida e com caules robustos tem maior potencial de floração.",
     revisaoCientificaIAR: {
         "nome": "Epicattleya René Marqués",
