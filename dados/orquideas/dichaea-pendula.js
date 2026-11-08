@@ -73,7 +73,16 @@ export const dichaeaPendula = {
         alerta: "Evitar secagem completa, sol direto forte, calor noturno abafado e água parada nas axilas. Regar de modo a hidratar as raízes sem prolongar o molhamento das folhas.",
         notaEvidencia: "MACS 1.1 — revisão documental: Dichaea pendula, epífita pendente sem pseudobulbos, exige umidade frequente, aeração e proteção contra secas prolongadas. Suportes placa/tronco e cachepô madeira 5 estrelas, plástico vasado 4, barro 3; estimativas sem validação específica. Receita visual para recipiente 40% chips coco pequenos + 35% pinus fino/médio + 25% perlita grossa = 100%; receitaTexto e itens concordam. Receita principal textual e visual coincidem; duas alternativas qualitativas distintas, sendo a segunda uma inferência horticultural explicitamente identificada. Montagem principal em placa com fina camada de esfagno difere da receita visual para cesto/vaso. Avaliar retenção e secagem para espécie sem pseudobulbos; meta até 25 produtores brasileiros específicos não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    errosComuns: "Deixar secar completamente; cultivar em calor noturno abafado; baixa umidade do ar; água parada nas axilas; sol direto forte; esfagno velho e compacto; vaso profundo; excesso de adubo; regas noturnas frequentes; falta de espaço para as hastes pendentes.",
+    errosComuns: [
+    "Deixar as raízes secarem completamente.",
+    "Cultivar em calor noturno abafado.",
+    "Manter umidade do ar muito baixa.",
+    "Deixar água parada nas axilas das folhas.",
+    "Expor folhas ao sol direto forte.",
+    "Usar esfagno velho e compactado.",
+    "Aplicar adubo concentrado nas raízes finas.",
+    "Impedir o caimento natural dos caules."
+],
     dica: "🏆 Nesta Dichaea de hastes pendentes e sem pseudobulbos, o segredo é hidratar continuamente as raízes sem deixá-las abafadas. Prefira suporte que permita aos caules crescerem para baixo, com pequena quantidade de material retentor e ventilação suave. Em dias quentes, observe a secagem e ajuste as regas antes que a planta perca firmeza. Evite recipientes compactos e água acumulada nas bainhas das folhas. A combinação de umidade regular e circulação de ar protege os tecidos delicados e favorece novas brotações.",
     revisaoCientificaIAR: {
         "nome": "Dichaea pendula",
