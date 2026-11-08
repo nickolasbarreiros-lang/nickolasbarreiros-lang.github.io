@@ -25,7 +25,7 @@ export const maxillariaPicta = {
     "regiao": "Sul e Sudeste do Brasil · Paraguai · nordeste da Argentina",
     "habitat": "Epífita/rupícola · matas sazonais e úmidas.",
     "clima": "Quente a fresco · noites amenas favorecem.",
-    "climaFloracao": "IOSPE registra floração no inverno e na primavera, em hastes basais de uma única flor com cerca de 5 cm. O gatilho mais coerente é a combinação de pseudobulbo maduro, boa luz filtrada e queda sazonal moderada das temperaturas noturnas. No litoral quente, não tente compensar a falta de noites amenas com seca forte: preserve raízes ativas, aumente apenas discretamente o intervalo entre regas após a maturação e mantenha ventilação contínua.",
+    "climaFloracao": "Prefere clima intermediário a ameno, com boa luminosidade filtrada e noites mais frescas. A montanha costuma favorecer a floração; no litoral, escolha um local ventilado e protegido do calor noturno. Pseudobulbos maduros e uma redução moderada das temperaturas podem estimular os botões. Espaçe levemente as regas após o crescimento, mas não provoque seca intensa para compensar a falta de noites amenas.",
     "iluminacao": {
         "sombrite": "50% a 60%",
         "solDireto": "Não permitido",
