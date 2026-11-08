@@ -38,7 +38,7 @@ export const pabstiellaTrifida = {
     "regiao": "Leste e Sul do Brasil",
     "habitat": "Matas úmidas e sombreadas · altitudes variáveis, inclusive abaixo de 1.000 m.",
     "clima": "Intermediário a fresco · úmido.",
-    "climaFloracao": "Noites amenas, alta umidade atmosférica e ventilação contínua favorecem maturação dos ramicaules e floração. Não necessita de repouso seco. Em noites persistentemente quentes, a respiração aumenta, as reservas diminuem e as raízes perdem vigor, mesmo quando o suporte parece úmido.",
+    "climaFloracao": "Prefere clima intermediário a fresco, sombra luminosa, umidade elevada e ventilação constante. A montanha favorece a floração; no litoral quente, procure um local protegido das noites abafadas. Como tem pouca reserva de água, precisa de raízes hidratadas durante todo o ano. Não faça repouso seco. Temperaturas noturnas amenas e crescimento saudável ajudam na formação das flores.",
     "iluminacao": {
         "sombrite": "70% a 80%",
         "solDireto": "Não permitido",
