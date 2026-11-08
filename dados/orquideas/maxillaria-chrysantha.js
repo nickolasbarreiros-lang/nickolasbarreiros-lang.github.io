@@ -24,7 +24,7 @@ export const maxillariaChrysantha = {
     regiao: "Sul e Sudeste do Brasil · nordeste da Argentina",
     habitat: "Epífita de ambientes florestais, incluindo áreas montanas; registros em torno de 1.400 m.",
     clima: "Intermediário a fresco · noites amenas.",
-    climaFloracao: "IOSPE registra a espécie em torno de 1.400 m, com crescimento fresco e floração no inverno brasileiro. A maturação dos pseudobulbos sob boa luz filtrada, seguida por noites mais amenas, favorece a emissão floral. Isso não significa exigir frio extremo nem seca severa: a planta continua precisando de raízes hidratadas e oxigenadas, apenas com menor frequência de rega quando a evaporação cai.",
+    climaFloracao: "Prefere clima intermediário a fresco, com noites amenas, luz filtrada e boa ventilação. A montanha favorece a floração; no litoral quente, procure um local fresco, especialmente à noite. Os pseudobulbos precisam amadurecer antes da emissão das flores. Mantenha as raízes hidratadas e reduza um pouco as regas quando a evaporação diminuir. Não precisa de frio extremo nem de repouso seco rigoroso.",
     iluminacao: {
         sombrite: "60%; até 70% em ambientes muito quentes",
         solDireto: "Permitido com restrição",
