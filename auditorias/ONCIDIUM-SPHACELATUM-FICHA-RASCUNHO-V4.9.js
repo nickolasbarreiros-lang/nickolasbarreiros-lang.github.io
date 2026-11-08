@@ -1,5 +1,5 @@
 // RASCUNHO V4.9 — NAO IMPORTAR NO INDEX ATE HOMOLOGACAO FINAL
-// Fotografias: aguardam mecanismo de atribuicao CC BY-SA ou outras imagens autorizadas.
+// Fotografias: creditos CC BY-SA disponiveis em creditosFotos; URLs Special:FilePath aguardam teste visual.
 export const oncidiumSphacelatum = {
   "id": "oncidium-sphacelatum",
   "nome": "Oncidium sphacelatum",
@@ -19,7 +19,11 @@ export const oncidiumSphacelatum = {
     "Flores amarelas pintalgadas de castanho",
     "Perfume discreto"
   ],
-  "fotos": [],
+  "fotos": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Oncidium_sphacelatum_2.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Oncidium_sphacelatum_(42110).jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Oncidium_sphacelatum_(42115).jpg"
+  ],
   "selosCultivo": {
     "rega": {
       "nivel": "frequente"
@@ -312,5 +316,28 @@ export const oncidiumSphacelatum = {
       "texto": "Mantenha luz abundante e proteja de frio intenso e umidade prolongada no substrato durante períodos frios."
     }
   },
-  "dica": "Ao perceber novos brotos, observe também o surgimento das pontas das raízes: esse é o momento mais favorável para trocar o recipiente ou dividir a touceira. Escolha um suporte firme, com espaço para os próximos pseudobulbos, pois as hastes podem ficar muito longas e pesadas. Evite divisões pequenas e não deixe a planta balançar após o replante. Durante o crescimento, regue bem, mas confira a secagem interna antes de repetir a rega."
+  "dica": "Ao perceber novos brotos, observe também o surgimento das pontas das raízes: esse é o momento mais favorável para trocar o recipiente ou dividir a touceira. Escolha um suporte firme, com espaço para os próximos pseudobulbos, pois as hastes podem ficar muito longas e pesadas. Evite divisões pequenas e não deixe a planta balançar após o replante. Durante o crescimento, regue bem, mas confira a secagem interna antes de repetir a rega.",
+  "creditosFotos": [
+    {
+      "autor": "Dalton Holland Baptista",
+      "origem": "https://commons.wikimedia.org/wiki/File:Oncidium_sphacelatum_2.jpg",
+      "licenca": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "nomeLicenca": "CC BY-SA 3.0",
+      "alteracoes": false
+    },
+    {
+      "autor": "Rhododendrites",
+      "origem": "https://commons.wikimedia.org/wiki/File:Oncidium_sphacelatum_(42110).jpg",
+      "licenca": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "nomeLicenca": "CC BY-SA 4.0",
+      "alteracoes": false
+    },
+    {
+      "autor": "Rhododendrites",
+      "origem": "https://commons.wikimedia.org/wiki/File:Oncidium_sphacelatum_(42115).jpg",
+      "licenca": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "nomeLicenca": "CC BY-SA 4.0",
+      "alteracoes": false
+    }
+  ]
 };
