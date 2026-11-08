@@ -29,7 +29,7 @@ export const epidendrumSecundum = {
  {asset:"casca-pinus",nome:"Casca de pínus média",proporcao:"30%",nota:"estrutura",finalidade:"Ajuda a manter espaços de ar entre as partículas."},
  {asset:"areia-grossa",nome:"Areia grossa lavada",proporcao:"20%",nota:"drenagem",finalidade:"Acrescenta fração mineral; use areia grossa lavada e evite partículas finas que obstruam os espaços de ar."},
  {asset:"carvao-vegetal",nome:"Carvão vegetal granulado",proporcao:"10%",nota:"aeração",finalidade:"Contribui para a estrutura e a drenagem da mistura."}
- ],alerta:"Não utilize terra argilosa ou compactada. Observe a secagem real e evite água acumulada no fundo do vaso."},
+ ],alerta:"Não utilize terra argilosa ou compactada. Observe a secagem real e evite água acumulada no fundo do vaso.",notaEvidencia:"Revisão documental: seleção de suportes coerente com AOS e San Diego County Orchid Society; classificação 5/4/3/3 é editorial, sem ensaio comparativo específico. Receita 40/30/20/10 é proposta de cultivo, sem validação experimental para a espécie. Galeria e renderização ainda exigem teste funcional."},
  errosComuns:["Usar terra compacta que retém água por muitos dias.","Deixar o vaso permanentemente encharcado.","Cultivar com luminosidade insuficiente para florescer.","Expor repentinamente ao sol forte do meio do dia.","Cortar hastes verdes que ainda podem produzir ramificações florais ou keikis."],
  revisaoCientificaIAR:{
   nome:"Epidendrum secundum Jacq.",
