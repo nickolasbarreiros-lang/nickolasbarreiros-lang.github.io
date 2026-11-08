@@ -24,7 +24,7 @@ export const arpophyllumGiganteum = {
         avaliacoes: { cultivo: 4, floracao: 4, perfume: 1, luminosidade: 4, agua: 4, raridade: 3 },
     mesesFloracao: [8, 9, 10, 11],
     clima: "Quente a fresco, com preferência por noites amenas e boa amplitude térmica.",
-    climaFloracao: "Encontrada em florestas de encosta e regiões montanas, com registros aproximadamente entre 800 e 1.930 m. Montanha: favorável, sobretudo com noites amenas. Litoral quente: condicional, com muita claridade filtrada, ventilação e noites menos quentes. Oscilações moderadas de temperatura podem favorecer a floração, mas não justificam impor frio intenso. Reduza as regas no período mais frio conforme a secagem, sem repouso completamente seco; touceiras maduras florescem melhor.",
+    climaFloracao: "Floresce melhor com dias claros, noites amenas e pseudobulbos bem desenvolvidos. A montanha costuma oferecer condições favoráveis; no litoral, pode florir em local ventilado e protegido do calor noturno excessivo. Mantenha boa luminosidade filtrada e água suficiente durante o crescimento. Quando a atividade diminuir, espaçe um pouco as regas, sem deixar a planta desidratar.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Não permitido",
