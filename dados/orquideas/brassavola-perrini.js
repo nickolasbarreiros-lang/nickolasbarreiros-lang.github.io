@@ -24,7 +24,7 @@ export const brassavolaPerrini = {
     regiao: "Bolívia · Paraguai · Brasil · NE Argentina",
     habitat: "Epífita/litófita · formas históricas até ~2.580 m",
     clima: "Intermediário–fresco se de altitude · muita luz",
-    climaFloracao: "Sob o nome Brassavola perrinii há registros históricos montanos, mas o táxon é atualmente incluído em Brassavola tuberculata, de ambientes tropicais também quentes. Litoral: potencialmente favorável com luz intensa e ventilação. Montanha: favorável quando protegida de frio extremo. Floresce melhor com crescimento maduro e boa claridade. Uma fase sazonal ligeiramente mais seca pode ajudar; não há base para exigir frio intenso ou quebra térmica fixa em todos os exemplares.",
+    climaFloracao: "Gosta de muita claridade, boa ventilação e raízes que não permaneçam encharcadas. Pode florescer no litoral quente e na montanha, desde que receba luz suficiente e proteção contra temperaturas extremas. O amadurecimento dos novos crescimentos ajuda a estimular as flores. Na fase menos ativa, espaçe um pouco as regas, sem deixar a planta desidratar. Não precisa de frio intenso.",
     iluminacao: {
         sombrite: "30% a 40%",
         solDireto: "Permitido com restrição",
