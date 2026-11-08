@@ -181,7 +181,7 @@ export const cattleyaAmethystoglossaVarAurea = {
     "morfologiaDimensoes": "Cattleya bifoliada de grande porte, flores numerosas e pintalgadas; forma aurea de coloração amarela ou creme.",
     "habitatAltitudeClima": "Principalmente epífita em ambiente quente a intermediário, com alta luminosidade e ventilação.",
     "distribuicaoGeografica": "Brasil, de Pernambuco ao Espírito Santo, conforme POWO/Kew.",
-    "cultivoPremiacao": "Floração indicativa de junho a novembro; evidências específicas da forma aurea destacam inverno e agosto.",
+    "cultivoPremiacao": "Floração indicativa de agosto a dezembro, com registro ocasional em junho; o exemplar 'Aurea Morinho' documenta agosto no Brasil.",
     "confianca": "moderada",
     "auditoriaIndices": "IDC 42/100 = soma ponderada 210/100 em escala 1–5; IAR litoral 93/100 = 465/100; montanha 67/100 = 335/100. Pesos de cada conjunto somam 100%; notas são juízos editoriais.",
     "fontes": [
