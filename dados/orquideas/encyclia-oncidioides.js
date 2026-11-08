@@ -19,7 +19,7 @@ export const encycliaOncidioides = {
     regiao: "Brasil e outros pontos da América tropical",
     habitat: "Areia branca e afloramentos · 0–750 m.",
     clima: "Quente a intermediário · sazonal.",
-    climaFloracao: "A espécie floresce melhor depois de formar pseudobulbos fortes sob luz alta. Regue e adube com regularidade enquanto houver brotos e raízes ativos; ao amadurecer o crescimento, aumente moderadamente a secagem entre regas. A faixa natural de baixa altitude mostra que frio não é requisito para florescer.",
+    climaFloracao: "Gosta de clima quente a intermediário, muita claridade e raízes que sequem bem entre regas. O litoral é favorável à floração; na montanha, proteja do frio prolongado. Durante o crescimento, ofereça água e nutrição para formar pseudobulbos fortes. Depois da maturação, aumente um pouco os intervalos entre regas. Não precisa de frio intenso nem de uma seca prolongada para florescer.",
         iluminacao: {
         sombrite: "40% a 50% como referência inicial; ajustar após aclimatação",
         solDireto: "Permitido com restrição",
