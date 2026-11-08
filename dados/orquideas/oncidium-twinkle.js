@@ -71,7 +71,16 @@ export const oncidiumTwinkle = {
         alerta: "Evitar vasos grandes, substrato degradado, sombra excessiva, adubação concentrada e secagem completa durante o crescimento. Preservar vários pseudobulbos ao dividir.",
         notaEvidencia: "MACS 1.1 — formulação quantitativa recomendada por convergência (composição C; percentuais C inferenciais por volume), NÃO validada experimentalmente nem receita percentual publicada especificamente para este híbrido. RHS e New England Botanic Garden documentam casca/esfagno; AOS fundamenta umidade para raízes finas. Estrelas dos suportes ainda não homologadas (D). No litoral quente, monitorar secagem e calor noturno. Matriz: auditorias/MACS-1.1-MATRIZ-025-ONCIDIUM-TWINKLE.md."
     },
-    "errosComuns": "Usar vaso grande; manter substrato velho; dividir em 1–2 pseudobulbos; cultivar em sombra excessiva; adubar forte; deixar secar completamente no crescimento; molhar brotos no fim do dia; confundir vaso proporcional com raiz comprimida.",
+    "errosComuns": [
+    "Usar vaso grande com secagem lenta.",
+    "Manter substrato velho e decomposto.",
+    "Dividir touceiras em um ou dois pseudobulbos.",
+    "Cultivar em sombra excessiva.",
+    "Aplicar adubo concentrado.",
+    "Deixar raízes secarem totalmente no crescimento.",
+    "Deixar água acumulada nos brotos à noite.",
+    "Enterrar o rizoma."
+],
     "dica": "🏆 No Oncidium Twinkle, um vaso proporcional é mais importante que manter as raízes apertadas. Escolha substrato fino, porém arejado, que permita regas regulares sem permanecer saturado. Preserve a touceira para favorecer várias hastes perfumadas ao mesmo tempo. Replante quando o material começar a degradar ou quando novas raízes estiverem surgindo, evitando perturbar botões em formação. Em dias quentes, ofereça luz filtrada, ventilação e atenção à secagem, pois raízes delicadas sofrem tanto com excesso quanto com falta de água.",
     revisaoCientificaIAR: {
         "nome": "Oncidium Twinkle",
