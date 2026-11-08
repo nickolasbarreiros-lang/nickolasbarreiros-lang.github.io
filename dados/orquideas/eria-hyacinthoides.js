@@ -136,7 +136,16 @@ export const eriaHyacinthoides = {
         "notaEvidencia": "MACS 1.1: ingredientes B qualitativa específica em dois produtores brasileiros (pinus, carvão, esfagno, macadâmia); perlita C em fonte secundária específica. Percentuais D inferenciais e NÃO HOMOLOGADOS; não são receitas publicadas nem ensaiadas para a espécie. Exatamente duas alternativas no menu. Estrelas de suporte D preservadas. Matriz: auditorias/MACS-1.1-MATRIZ-032-BRYOBIUM-HYACINTHOIDES.md."
     },
     substrato: ["Casca de pinus média + carvão vegetal pequeno + esfagno de fibra longa solto + perlita grossa","Casca de pinus média + esfagno de fibra longa solto + carvão vegetal pequeno + casca de macadâmia média"],
-    errosComuns: "Manter a planta identificada apenas sob o gênero desatualizado Eria nos registros da coleção; Permitir secura prolongada do substrato; Cultivar em ambientes com pouca ventilação; Exagerar na dosagem dos adubos e causar queima das raízes por sais; Dividir touceiras pequenas antes de a planta estar bem estabelecida.",
+    errosComuns: [
+    "Deixar o substrato secar por tempo prolongado.",
+    "Cultivar em ambiente abafado e sem ventilação.",
+    "Aplicar adubo concentrado nas raízes finas.",
+    "Dividir touceiras antes de amadurecerem.",
+    "Usar vaso grande com substrato sempre molhado.",
+    "Expor folhas ao sol direto intenso.",
+    "Deixar água acumulada entre os brotos.",
+    "Replantar fora da emissão de raízes novas."
+],
     dica: "🏆 O diferencial desta espécie, atualmente tratada como Bryobium hyacinthoides, é preservar uma touceira madura para sustentar várias hastes florais. Evite divisões frequentes e escolha recipiente proporcional, com substrato arejado que retenha umidade moderada. Durante o crescimento, regue regularmente e mantenha ventilação para proteger as raízes finas. Como ocorre em florestas úmidas de altitude variável, proteja a planta do superaquecimento e do sol forte. Uma touceira estável e bem enraizada costuma responder melhor que fragmentos recém-separados.",
     revisaoCientificaIAR: {
         "nome": "Bryobium hyacinthoides",
