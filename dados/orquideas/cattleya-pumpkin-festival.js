@@ -67,14 +67,15 @@ export const cattleyaPumpkinFestival = {
         notaEvidencia: "HOMOLOGAÇÃO DOCUMENTAL CONCLUÍDA — MACS 1.1 PROVISÓRIA (Classe D); nenhum ensaio comparativo dos percentuais ou suportes foi demonstrado. RHS registra o grex em 1978 como Naomi Kerns × Waianae Sunset; estudo UNESP sobre GA3 não valida substratos. MACS 1.1 — Classe D, NÃO HOMOLOGADA quantitativamente. Mistura principal 45% pinus + 25% carvão + 20% brita fina lavada + 10% casca de macadâmia = 100%. Duas alternativas qualitativas sem percentuais. Referências existentes de produtores e estudo com este híbrido não constituem comparação experimental das proporções ou suportes; estrelas dos suportes omitidas. IDC 3.2 e IAR 2.0 mantidos."
     },
     errosComuns: [
-        "Usar vaso grande.",
-        "Manter o substrato sempre úmido.",
-        "Pouca luminosidade.",
-        "Excesso de material fino ou esfagno.",
-        "Enterrar o rizoma.",
-        "Regar antes de a mistura perder boa parte da umidade.",
-        "Replantar fora do início de novas raízes."
-    ],
+    "Usar vaso grande que demora a secar.",
+    "Manter o substrato sempre úmido.",
+    "Cultivar com pouca luz e reduzir a floração.",
+    "Exagerar no esfagno ou material fino.",
+    "Enterrar o rizoma.",
+    "Regar antes de a mistura perder umidade.",
+    "Replantar fora do início de raízes novas.",
+    "Aumentar o sol bruscamente para intensificar a cor."
+],
     revisaoCientificaIAR: {
         "nome": "Cattleya Pumpkin Festival — grex horticultural registrado",
         "statusTaxonomico": "Grex híbrido registrado no International Orchid Register da RHS em 01/12/1978 por W. Collier (originador e registrante). Cruzamento registrado: Cattleya Naomi Kerns (parental de sementes) × Cattleya Waianae Sunset (parental de pólen). Não é espécie botânica e não tem nome aceito em POWO como táxon silvestre.",
