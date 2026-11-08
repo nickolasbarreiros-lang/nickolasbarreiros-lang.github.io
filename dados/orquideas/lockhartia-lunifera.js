@@ -69,7 +69,16 @@ export const lockhartiaLunifera = {
         alerta: "Evitar seca prolongada, raízes saturadas, sombra excessiva e água parada entre as bainhas à noite. Não cortar caules ainda verdes após a floração.",
         notaEvidencia: "MACS 1.1: POWO/Kew aceita Lockhartia lunifera como epífita brasileira. Estudo florístico em Hoehnea registra plantas próximas a cursos de água. AOS recomenda para o GÊNERO placas pequenas, umidade frequente e secagem radicular, sem testar mistura desta espécie. Orquidário Maripá cita cascas, carvão, madeira e esfagno sem proporções; a referência anterior ao Orquidário Paulista não foi reconfirmada individualmente nesta passagem. Relato brasileiro Orquídeas Encanto e Paixão publica especificamente partes iguais de pinus, carvão e esfagno para vaso/caixeta rasa: https://orquideasjph.wordpress.com/2020/02/23/lockhartia-lunifera-2/ . Receita 1:1:1 é referência quantitativa de cultivador, NÃO HOMOLOGAÇÃO experimental. Duas alternativas qualitativas sem percentuais. Um orquidário com orientação qualitativa, um catálogo comercial e um relato quantitativo de cultivador foram identificados; a referência ao Orquidário Paulista permanece não reconfirmada, abaixo da meta de 25; estrelas heurísticas."
     },
-    errosComuns: "Cortar caules verdes após a floração; cultivar em sombra excessiva; deixar água retida nas bainhas durante a noite; impor seca prolongada; manter raízes continuamente saturadas; usar vaso profundo; aplicar adubo concentrado; permitir acúmulo de sais; cultivar em ambiente abafado.",
+    errosComuns: [
+    "Cortar caules verdes após a floração.",
+    "Cultivar em sombra excessiva.",
+    "Deixar água nas bainhas durante a noite.",
+    "Impor seca prolongada.",
+    "Manter raízes continuamente saturadas.",
+    "Usar vaso profundo.",
+    "Aplicar adubo concentrado.",
+    "Cultivar em ambiente abafado."
+],
     dica: "🏆 Os caules desta Lockhartia são revestidos por folhas sobrepostas que podem reter água entre suas bases. Prefira montagem inclinada ou pendente, permitindo escoamento rápido após as regas e exposição livre das flores. Preserve caules verdes, mesmo quando parecem envelhecidos, e mantenha umidade regular nas raízes com ventilação contínua. Em clima quente, evite sol forte e não compense a secagem rápida com substrato compacto. A posição do suporte ajuda a reduzir água parada na folhagem sem provocar desidratação.",
     revisaoCientificaIAR: {
         "nome": "Lockhartia lunifera",
