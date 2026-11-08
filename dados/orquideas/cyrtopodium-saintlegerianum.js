@@ -28,7 +28,7 @@ export const cyrtopodiumSaintlegerianum = {
     "regiao": "Brasil · Paraguai · norte da Argentina",
     "habitat": "Áreas sazonais · palmeiras/troncos · muita luz.",
     "clima": "Quente sazonal · inverno mais seco.",
-    "climaFloracao": "POWO registra a espécie em bioma tropical sazonalmente seco, enquanto observações de campo e IOSPE destacam seu comportamento epífito sobre palmeiras no Brasil central. Em cultivo, essas informações convergem para o mesmo manejo: crescimento quente e bem irrigado quando brotos e folhas estão ativos, seguido de redução hídrica após a maturação. No litoral quente, noites frias intensas não são requisito; luz forte, ventilação e uma estação de repouso perceptível são muito mais importantes.",
+    "climaFloracao": "Prefere clima quente, muita claridade e ventilação, sendo bem adaptado ao litoral. Na montanha, precisa de proteção contra frio prolongado. Regue bem durante a formação dos brotos e pseudobulbos. Depois que o crescimento terminar, reduza as regas para acompanhar a estação mais seca. Essa mudança de ritmo favorece a floração, sem necessidade de noites muito frias ou desidratação excessiva.",
     "iluminacao": {
         "sombrite": "30% a 50% como proteção inicial; ajustar conforme a aclimatação",
         "solDireto": "Sol pleno",
