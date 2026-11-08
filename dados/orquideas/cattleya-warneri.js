@@ -28,7 +28,7 @@ export const cattleyaWarneri = {
     "regiao": "Leste do Brasil · Nordeste e Sudeste",
     "habitat": "Mata Atlântica · epífita · ~100–800 m.",
     "clima": "Quente a intermediário · noites mais amenas.",
-    "climaFloracao": "Depois que o pseudobulbo termina o crescimento e forma a espata, a planta pode permanecer semanas ou meses em aparente repouso enquanto acumula reservas. Luz alta no inverno, substrato arejado e regas mais espaçadas são importantes, sem impor seca absoluta. Quando as temperaturas aumentam na primavera, os botões podem se desenvolver dentro de uma espata externamente seca. Excesso de água, pouca luz, pseudobulbos finos e excesso de nitrogênio reduzem a qualidade da florada.",
+    "climaFloracao": "Prefere clima quente a intermediário, com noites um pouco mais amenas e muita claridade. Pode florescer no litoral e na montanha, desde que não passe frio intenso. Após a maturação dos pseudobulbos, espaçe as regas e mantenha boa luminosidade durante a fase menos ativa. Os botões podem aparecer dentro de espatas aparentemente secas. Não é necessário deixar a planta completamente sem água.",
     "iluminacao": {
         "sombrite": "40% a 50%",
         "solDireto": "Permitido com restrição",
