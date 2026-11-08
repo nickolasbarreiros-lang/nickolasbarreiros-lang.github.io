@@ -29,7 +29,7 @@ export const stanhopeaGuttulata = {
     "regiao": "Sudeste do Brasil",
     "habitat": "Floresta tropical úmida; epífita.",
     "clima": "Úmido, sombreado e ventilado.",
-    "climaFloracao": "Pseudobulbos bem formados, umidade regular e espaço físico para a haste geotrópica favorecem a floração; a exigência de queda térmica não foi demonstrada para esta espécie. Não necessita de repouso seco severo. Após a maturação, reduza apenas discretamente a água. Touceiras grandes e centralizadas no cesto tendem a produzir hastes mais vigorosas e com trajeto mais previsível.",
+    "climaFloracao": "Gosta de clima intermediário, umidade regular e sombra luminosa. Pode florescer no litoral e na montanha, desde que protegida de calor abafado e frio intenso. Pseudobulbos maduros e raízes saudáveis favorecem a floração. Não precisa de repouso seco rigoroso nem de frio intenso. Use cesto aberto e mantenha espaço livre abaixo dele, pois as hastes crescem para baixo.",
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Permitido com restrição",
