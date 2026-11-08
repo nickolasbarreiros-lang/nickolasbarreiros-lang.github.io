@@ -18,7 +18,7 @@ export const isabeliaVirginalis = {
     regiao: "Sul e Sudeste do Brasil · Paraguai · Argentina (Misiones)",
     habitat: "Epífita ou rupícola · ambientes sazonais claros.",
     clima: "Intermediário · ventilado, com secagem rápida.",
-    climaFloracao: "A espécie ocorre tanto sobre árvores quanto sobre rochas e aparece associada a ambientes tropicais sazonalmente secos, mas isso não significa repouso árido. Seu crescimento rastejante e as raízes pequenas funcionam melhor com ciclos rápidos de molhamento e secagem. No litoral quente, o excesso de esfagno e a pouca ventilação são mais perigosos do que a temperatura em si. No período mais frio, basta aumentar naturalmente o intervalo das regas conforme a evaporação.",
+    climaFloracao: "Gosta de clima intermediário, bastante claridade filtrada e raízes que sequem rapidamente após as regas. Pode florescer no litoral e na montanha, desde que não enfrente frio intenso ou abafamento constante. Os pequenos pseudobulbos precisam amadurecer em um ambiente bem ventilado. Quando o crescimento diminuir, espaçe um pouco as regas conforme a secagem. Não é necessário impor uma longa seca para estimular flores.",
     iluminacao: {
         sombrite: "40% a 60%",
         solDireto: "Não permitido",
