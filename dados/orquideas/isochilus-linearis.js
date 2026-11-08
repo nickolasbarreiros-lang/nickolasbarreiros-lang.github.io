@@ -64,7 +64,16 @@ export const isochilusLinearis = {
         alerta: "Evitar seca prolongada, vaso grande e profundo, sombra excessiva, calor abafado e substrato compactado. Preservar touceiras saudáveis.",
         notaEvidencia: "MACS 1.1 — revisão documental: Isochilus linearis, epífita/rupícola de caules finos sem pseudobulbos, ampla variação de procedências e altitudes; requer umidade regular e aeração, evitando secagem prolongada e calor abafado. Cachepô de Madeira bem vazado é suporte principal; estrelas dos suportes omitidas por ausência de validação quantitativa. Receita visual e textual coincidem: 45% pinus fino + 35% perlita de granulometria adequada a raízes finas + 20% esfagno de fibra longa solto = 100%. Exatamente duas outras misturas qualitativas distintas: chips de coco pequenos preparados/perlita/pinus fino e esfagno de fibra longa solto/perlita. Elas não fundamentam os percentuais visuais; removida alegação incorreta de duas granulometrias de perlita e de montagem como receita principal. Monitorar secagem, retenção do esfagno e procedência altitudinal. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais NÃO HOMOLOGADOS; estrelas dos suportes omitidas. Classe D — não homologada quantitativamente"
     },
-    errosComuns: "Impor seca prolongada; cultivar em sombra excessiva; usar vaso profundo e grande; manter substrato velho ou compactado; aplicar adubo concentrado; cultivar em local abafado; deixar a touceira superaquecer; confundir umidade regular com encharcamento; dividir frequentemente uma colônia saudável.",
+    errosComuns: [
+    "Impor seca prolongada aos caules finos.",
+    "Cultivar em sombra excessiva.",
+    "Usar vaso grande e profundo.",
+    "Manter substrato velho e compactado.",
+    "Aplicar adubo concentrado.",
+    "Cultivar em local quente e abafado.",
+    "Deixar a touceira superaquecer.",
+    "Dividir frequentemente uma colônia saudável."
+],
     dica: "🏆 Como esta espécie forma caules finos sem pseudobulbos volumosos, a perda de firmeza pode indicar falta de água antes que o problema seja evidente nas raízes. Mantenha umidade regular em substrato leve, com boa ventilação e sem encharcamento. Em locais quentes, proteja a touceira do sol forte e procure noites mais amenas. Evite dividir hastes saudáveis com frequência: grupos maiores conservam melhor a umidade ao redor e podem sustentar mais inflorescências terminais quando os caules amadurecem.",
     revisaoCientificaIAR: {
         "nome": "Isochilus linearis",
