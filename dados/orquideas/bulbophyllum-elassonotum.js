@@ -143,7 +143,16 @@ export const bulbophyllumElassonotum = {
         "notaEvidencia": "MACS 1.1 — revisão documental: Bulbophyllum elassonotum, miniatura epífita de rizoma rastejante e inflorescências pendentes. Cachepô madeira 5 estrelas, vaso plástico vasado e placa/tronco 4, barro 3: inferência horticultural, sem ensaio comparativo específico. Receita visual 35% pinus médio + 25% chips de coco médios lavados + 25% perlita grossa + 15% esfagno solto = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% pinus, 25% chips de coco, 25% perlita, 15% esfagno); as duas alternativas qualitativas são diferentes e não devem ser confundidas com a receita principal. POWO confirma nome aceito e distribuição Assam–Indochina. Orquidário Mogi Mirim (https://www.orquidariomogimirim.com.br/bulbophyllum-elassonotum) recomenda casca de pinus fina, carvão e boa proporção de esfagno; Orquidário Aparecida (https://orquidarioaparecida.com.br/produtos/bulbophyllum-elassonotum/) documenta cultivo em ripinha de madeira, sem receita volumétrica; Orquidário Thomes (https://www.orquidariothomes.com.br/bulbophyllum-elassonotum-/prod-10064048/) cita recipientes variados e boa aeração. Três fontes brasileiras específicas qualitativas, nenhuma receita percentual verificada; a receita visual com coco/perlita não foi testada nessas fontes. Meta de até 25 produtores não atingida. Percentuais e estrelas NÃO HOMOLOGADOS. Duas alternativas mantidas; chips de coco médios lavados designa o material padronizado; verificar salinidade do lote quando necessário."
     },
     substrato: ["Chips de coco médios lavados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto","Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de esfagno solto"],
-    errosComuns: "• Enterrar o rizoma.\n• Tratar toda procedência como espécie fria.\n• Compactar esfagno.\n• Usar vaso profundo com baixa aeração.\n• Deixar raízes secarem por vários dias.\n• Manter calor, umidade e ar parado ao mesmo tempo.\n• Cultivar em sombra profunda.\n• Forçar repouso seco por causa de habitats sazonais.\n• Adubação concentrada em raízes finas.",
+    errosComuns: [
+    "Enterrar o rizoma e os pseudobulbos.",
+    "Compactar esfagno sobre raízes delicadas.",
+    "Usar vaso profundo e pouco ventilado.",
+    "Deixar raízes secarem por vários dias.",
+    "Combinar calor, umidade e ar parado.",
+    "Cultivar em sombra profunda.",
+    "Forçar repouso seco prolongado.",
+    "Bloquear o espaço das hastes pendentes."
+],
     dica: "🏆 Nesta espécie de inflorescências arqueadas ou pendentes, escolha o suporte pensando também no espaço necessário para as hastes florais. Um recipiente raso ou montagem permite ao rizoma rastejar sem enterrar os pseudobulbos. Mantenha umidade regular e boa ventilação, evitando tanto substrato compacto quanto secagem prolongada. Em locais quentes, proteja o suporte do sol que aquece demais as raízes. Não imponha um repouso seco rígido: acompanhe o ritmo dos brotos e ajuste as regas à atividade da planta.",
     revisaoCientificaIAR: {
         "nome": "Bulbophyllum elassonotum",
