@@ -75,7 +75,16 @@ export const cattliantheCttJewelBox = {
         "alerta": "Não enterre o rizoma, evite vaso grande e substitua o substrato quando degradado. Preserve touceiras estabelecidas para favorecer florações abundantes.",
         "notaEvidencia": "MACS 1.1 — revisão documental: Cattlianthe Jewel Box, híbrido hortícola Guarianthe aurantiaca × Cattleya Anzac, sem habitat natural próprio. Suportes vaso de barro e plástico vasado 5 estrelas, cachepô madeira 4, placa/tronco 3: julgamento horticultural, não comparação experimental. Receita visual 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% macadâmia, 30% pinus, 20% perlita, 15% carvão). As duas alternativas qualitativas não reproduzem essa composição, e são apresentadas separadamente. OrchidRoots e ORCHIDS.ORG registram Stewart Inc. (1962), Guarianthe aurantiaca × Cattleya Anzac, e nome antigo Sophrolaeliocattleya Jewel Box. Manual da ESALQ/USP recomenda aeração, drenagem e materiais como pinus e carvão para orquídeas epífitas, mas NÃO testa esta grex nem a mistura 35/30/20/15. Não foi encontrada receita quantitativa brasileira específica para Jewel Box; as proporções permanecem hipóteses. Meta de até 25 produtores brasileiros com recomendações específicas não atingida; percentuais e estrelas NÃO HOMOLOGADOS."
     },
-    "errosComuns": "Cultivar sob sombra excessiva; dividir a touceira com frequência; usar vaso grande; deixar o substrato degradar; enterrar o rizoma; excesso de nitrogênio; somar várias fontes de adubo em dose completa; acumular água nas bainhas e espatas; replantar sem raízes novas; manter a planta frouxa no vaso.",
+    "errosComuns": [
+    "Cultivar em sombra excessiva.",
+    "Dividir a touceira com frequência.",
+    "Usar vaso grande com secagem lenta.",
+    "Manter substrato velho e decomposto.",
+    "Enterrar o rizoma.",
+    "Exagerar no nitrogênio após amadurecer brotos.",
+    "Somar fertilizantes em doses completas.",
+    "Deixar água acumulada nas bainhas e espatas."
+],
     "dica": "🏆 O diferencial deste híbrido é aproveitar a capacidade de formar touceiras com várias frentes floríferas. Evite dividir plantas saudáveis apenas para reduzir o tamanho: cada pseudobulbo maduro contribui com reservas e pode sustentar uma haste. Ofereça luz intensa filtrada, ventilação constante e regas regulares durante o crescimento, deixando o substrato perder parte da umidade entre elas. Prefira vaso proporcional e boa fixação das raízes. Uma touceira bem estabelecida costuma produzir apresentações florais mais expressivas que divisões pequenas.",
     revisaoCientificaIAR: {
         "nome": "Cattlianthe Jewel Box",
