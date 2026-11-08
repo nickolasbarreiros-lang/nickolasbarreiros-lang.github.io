@@ -26,7 +26,7 @@ export const dendrobiumLoddigesii = {
     "regiao": "Sul da China · Indochina",
     "habitat": "Florestas musgosas · 1.000–1.500 m.",
     "clima": "Fresco a intermediário · sazonal.",
-    "climaFloracao": "A haste deve completar totalmente o alongamento e endurecer antes do repouso. Depois, alta luminosidade, noites mais amenas, redução da água e suspensão do nitrogênio induzem os botões. Hastes ainda verdes ou em crescimento raramente florescem bem no ciclo seguinte.",
+    "climaFloracao": "Prefere clima intermediário a fresco, com noites amenas e boa luminosidade. A montanha favorece a floração; no litoral quente, procure um local ventilado e mais fresco. Deixe as hastes amadurecerem completamente antes de reduzir regas e adubação. Um inverno relativamente seco ajuda a estimular os botões, mas não deixe as hastes murcharem demais. Reduzir a água enquanto ainda crescem pode prejudicar a florada.",
     "iluminacao": {
         "sombrite": "40% a 50%",
         "solDireto": "Permitido com restrição",
