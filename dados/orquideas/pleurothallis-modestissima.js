@@ -29,7 +29,7 @@ export const pleurothallisModestissima = {
     "regiao": "Sudeste brasileiro · Minas Gerais",
     "habitat": "Epífita · floresta tropical sazonalmente seca.",
     "clima": "Intermediário a quente · ventilado · sazonal.",
-    "climaFloracao": "A informação ecológica mais segura é sua associação a ambientes sazonalmente secos de Minas Gerais. Portanto, não deve ser cultivada como uma Pleurothallidinae permanentemente encharcada. Em clima quente, mantenha umidade ambiental, sombra clara e ventilação, permitindo que o suporte perca parte da água entre regas. Uma redução moderada na fase menos ativa é mais coerente do que um repouso frio ou seco rígido.",
+    "climaFloracao": "Prefere clima intermediário a quente, sombra luminosa e boa ventilação. Pode florescer no litoral e na montanha, desde que não enfrente temperaturas extremas. Mantenha umidade no ambiente, mas permita que o suporte perca parte da água entre regas. Na fase menos ativa, aumente moderadamente os intervalos, sem deixar a planta desidratar. Não precisa de frio intenso nem de repouso seco rigoroso.",
     "iluminacao": {
         "sombrite": "65% a 80%",
         "solDireto": "Não permitido",
