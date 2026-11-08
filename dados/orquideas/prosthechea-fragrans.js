@@ -16,7 +16,7 @@ export const prosthecheaFragrans = {
   "regiao": "América tropical; identificação de exemplares brasileiros requer comparação com Prosthechea aemula.",
   "habitat": "Vive principalmente sobre árvores em florestas tropicais, com raízes expostas à circulação de ar e à umidade ambiental. Prefere superfícies que não permaneçam encharcadas.",
   "clima": "Quente a intermediário conforme procedência; evitar superaquecimento de vasos.",
-  "climaFloracao": "Pseudobulbos maduros, boa luz filtrada e raízes ventiladas favorecem a formação de flores. A planta é cultivada em condições quentes a intermediárias, mas o calor excessivo dentro do vaso pode comprometer o vigor. Durante a brotação, mantenha regas e nutrição regulares; depois, acompanhe o ritmo natural da planta. Não há exigência bem demonstrada de choque térmico ou repouso seco rigoroso. A identificação correta da planta também importa, pois espécies próximas são confundidas no comércio.",
+  "climaFloracao": "Prefere clima quente a intermediário, luz filtrada abundante e boa ventilação. Pode florescer no litoral e na montanha, desde que protegida de temperaturas extremas. Regue durante a formação dos novos pseudobulbos e permita boa secagem entre regas. Crescimentos maduros e raízes saudáveis favorecem as flores perfumadas. Não precisa de choque térmico nem de repouso seco rigoroso.",
   "iluminacao": {
       "sombrite": "50% a 70%",
       "solDireto": "Permitido com restrição",
