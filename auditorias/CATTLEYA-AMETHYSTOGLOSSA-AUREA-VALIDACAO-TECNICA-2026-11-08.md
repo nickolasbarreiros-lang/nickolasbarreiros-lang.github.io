@@ -52,3 +52,10 @@ Não marcar a ficha como homologada e não avançar para outra espécie enquanto
 - Portanto o uso do identificador `chips-coco` com essa imagem é **visualmente adequado**. A divergência é somente o nome do arquivo compartilhado.
 - **Pendência de adequação visual dos chips de coco resolvida**, sem alterar `js/biblioteca-cultivo-v4.js` e sem impacto nas demais fichas.
 - Permanecem pendentes fotografias identificadas da forma aurea e inspeção visual integral da página renderizada.
+
+## Confronto externo de luz e floração — 08/11/2026
+
+- RHS (https://www.rhs.org.uk/plants/20247/cattleya-amethystoglossa/details): `C. amethystoglossa` necessita luz forte com proteção do sol direto intenso ao meio-dia; mistura de casca grossa com perlita/chips de coco e boa drenagem. Compatível com o selo ALTA e a recomendação de luz da ficha.
+- Orquídeas no Apê (https://www.orquideasnoape.com.br/2021/01/orquidea-cattleya-amethystoglossa.html): floração da espécie predominantemente agosto–outubro no Brasil, com ocorrência eventual em maio.
+- **Divergência a investigar:** calendário atual da forma aurea marca junho–novembro. O registro fotográfico específico de ‘Aurea Morinho’ em agosto confirma agosto, mas não valida isoladamente os meses de junho, julho e novembro. Evitar ampliar ou estreitar o calendário sem evidências suficientes para a forma cultivada.
+- Fontes de pesquisa in vitro (UFPR) não foram utilizadas para definir iluminação de plantas adultas, pois as condições experimentais não são equivalentes às de cultivo.
