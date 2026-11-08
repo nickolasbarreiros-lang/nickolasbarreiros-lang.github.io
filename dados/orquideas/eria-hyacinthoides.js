@@ -19,7 +19,7 @@ export const eriaHyacinthoides = {
     regiao: "Tailândia à Malesia ocidental e meridional",
     habitat: "Florestas úmidas · epífita/rupícola · 500–1.700 m.",
     clima: "Quente a fresco · úmido e ventilado.",
-    climaFloracao: "A faixa altitudinal ampla explica sua tolerância de quente a fresco. No litoral, mantenha sombra clara, umidade atmosférica e movimento de ar, evitando aquecimento abafado. Não necessita repouso seco; apenas reduza a frequência de rega quando a evaporação cair.",
+    climaFloracao: "Prefere clima quente a intermediário, com umidade elevada, luz filtrada e boa ventilação. Pode florescer no litoral e na montanha, desde que não enfrente calor abafado ou frio intenso. Mantenha as raízes saudáveis e os novos crescimentos bem hidratados. Na fase mais fresca, reduza um pouco as regas se o suporte demorar a secar. Não precisa de repouso seco para produzir flores.",
         iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
