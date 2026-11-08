@@ -24,7 +24,7 @@ export const aciantheraPubescens = {
         avaliacoes: { cultivo: 4, floracao: 4, perfume: 2, luminosidade: 2, agua: 4, raridade: 3 },
     mesesFloracao: [12, 1, 2, 3, 6],
     clima: "Quente a fresco conforme procedência; preferencialmente úmido e ventilado.",
-    climaFloracao: "A faixa de aproximadamente 500–1.900 m explica por que fontes podem classificar a espécie de forma diferente. Em vez de impor uma categoria única, trate a procedência como fator principal: clones de menor altitude tendem a tolerar melhor o litoral quente, enquanto materiais montanos podem perder vigor quando as noites permanecem quentes por longos períodos. Em todos os casos, circulação de ar e raízes oxigenadas reduzem o estresse térmico.",
+    climaFloracao: "Ocorre em ampla faixa altitudinal, aproximadamente de 500 a 1.900 m, e a procedência pode influenciar a resposta ao calor. Montanha: geralmente favorável. Litoral quente: condicional, sobretudo para plantas de origem montana; priorize noites menos abafadas e ventilação. Não há repouso seco ou queda térmica específica comprovados como requisitos florais. Preserve a umidade sem sufocar as raízes.",
     iluminacao: {
         sombrite: "60% a 70% como faixa inicial",
         solDireto: "Não permitido",
