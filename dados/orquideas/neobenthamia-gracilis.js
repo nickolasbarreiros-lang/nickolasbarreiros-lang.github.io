@@ -25,7 +25,7 @@ export const neobenthamiaGracilis = {
     "regiao": "Leste da Tanzânia",
     "habitat": "Faces rochosas expostas e saliências com musgo · cerca de 450–1.800 m segundo Flora of Tropical East Africa.",
     "clima": "Quente a ameno · alta luz.",
-    "climaFloracao": "A floração aparece em caules plenamente maduros e é favorecida por alta luminosidade, crescimento vigoroso e boa nutrição. IOSPE registra floração do inverno à primavera no habitat, mas o calendário pode deslocar-se em cultivo. A espécie não precisa de seca severa: uma redução discreta da água após a maturação é suficiente, sempre mantendo raízes vivas e arejadas. Touceiras grandes, com vários caules maduros, tendem a produzir cabeças florais mais cheias.",
+    "climaFloracao": "Gosta de clima quente a ameno, muita claridade e excelente ventilação. Pode florescer no litoral e na montanha, desde que protegida de frio intenso. A floração depende de caules plenamente maduros, raízes saudáveis e crescimento vigoroso. Regue bem na fase ativa e diminua um pouco a frequência depois da maturação, sem provocar seca severa. Touceiras grandes costumam produzir inflorescências mais cheias.",
     "iluminacao": {
         "sombrite": "30% a 50%",
         "solDireto": "Permitido com restrição",
