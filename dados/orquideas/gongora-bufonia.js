@@ -19,7 +19,7 @@ export const gongoraBufonia = {
     regiao: "Leste do Brasil · Mata Atlântica",
     habitat: "Florestas úmidas · sobretudo baixas altitudes.",
     clima: "Quente a intermediário · úmido e ventilado.",
-    climaFloracao: "A espécie cresce melhor com água e nutrição regulares enquanto os novos brotos e pseudobulbos estão se formando. A combinação de baixa altitude, floresta úmida e inflorescência longa indica que calor não é problema por si só; o verdadeiro risco no litoral é o abafamento acompanhado de substrato saturado. Depois que o pseudobulbo amadurece, mantenha a umidade, mas reduza apenas o excesso de água em períodos mais frios e nublados. Não existe repouso seco rígido.",
+    climaFloracao: "Gosta de clima quente a intermediário, umidade elevada e boa ventilação, sendo adequada ao litoral. Na montanha, proteja do frio prolongado. Regue bem durante a formação dos pseudobulbos e mantenha umidade equilibrada depois da maturação. Não precisa de repouso seco para florescer. Deixe espaço livre abaixo da planta, pois suas hastes florais são longas e pendentes.",
     iluminacao: {
         sombrite: "60% a 70%",
         solDireto: "Não permitido",
