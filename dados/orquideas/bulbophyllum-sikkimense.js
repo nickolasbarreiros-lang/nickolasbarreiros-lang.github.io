@@ -131,7 +131,16 @@ export const bulbophyllumSikkimense = {
         "notaEvidencia": "MACS 1.1 — revisão documental: nome aceito adotado na ficha Bulbophyllum roxburghii (sin. B. sikkimense), miniatura epífita de rizoma rasteiro, exigindo umidade regular e boa drenagem. Vaso plástico vasado 5 estrelas, cachepô e placa/tronco 4, barro 3: hipótese horticultural sem comparação quantitativa. Receita visual 35% pinus médio + 25% chips de coco + 25% perlita grossa + 15% esfagno = 100%; receitaTexto e itens concordam. A receita principal textual e visual coincidem (35% pinus, 25% chips de coco, 25% perlita, 15% esfagno). Duas alternativas qualitativas independentes são apresentadas, sem equivalência quantitativa com a receita principal. POWO confirma nome aceito B. roxburghii e distribuição Nepal oriental a Bangladesh. IOSPE mantém a descrição histórica de B. sikkimense (300–500 m, umbela de 10–12 flores de cerca de 2 cm), reconhecendo diferenças visuais em relação a B. roxburghii. Orquidário Maripá (https://www.orquidariomaripa.com.br/produtos/orquidea-bulbophyllum-sikkimense-planta-adulta/) recomenda cascas, carvão, pedaços de madeira e musgo, com 50–60% de sombreamento, sem proporções. Uma fonte brasileira comercial qualitativa específica, zero receitas quantitativas de produtores verificadas; não há homologação da mistura 35/25/25/15; meta de até 25 produtores brasileiros não atingida. Percentuais e estrelas NÃO HOMOLOGADOS."
     },
     substrato: ["Casca de macadâmia média + casca de pinus média + perlita grossa + pequena fração de esfagno solto","Chips de coco médios lavados + perlita grossa + carvão vegetal miúdo + pequena fração de esfagno solto"],
-    errosComuns: "• Apresentar B. sikkimense como nome atualmente aceito.\n• Ignorar que Kew o inclui em B. roxburghii.\n• Tratar a planta como alpina por causa do nome Sikkim.\n• Impor repouso seco severo.\n• Manter sombra profunda.\n• Compactar o substrato.\n• Usar recipiente estreito.\n• Aplicar adubo concentrado.",
+    errosComuns: [
+    "Impor frio intenso para estimular a floração.",
+    "Forçar repouso seco severo.",
+    "Cultivar em sombra profunda.",
+    "Compactar o substrato sobre as raízes.",
+    "Usar recipiente estreito para o rizoma.",
+    "Aplicar adubo concentrado.",
+    "Enterrar a base dos pseudobulbos.",
+    "Deixar a montagem secar por vários dias."
+],
     dica: "🏆 Embora o nome lembre regiões montanhosas, esta planta também ocorre em ambientes relativamente quentes. Por isso, não tente estimular a floração com frio artificial. O principal cuidado é manter o rizoma rastejante sobre um suporte raso e arejado, com umidade regular e luz filtrada. Deixe espaço para os novos pseudobulbos e evite enterrar suas bases. Em clima quente, ventilação constante e regas ajustadas à secagem real ajudam mais do que mudanças bruscas de temperatura ou períodos de seca prolongada.",
     revisaoCientificaIAR: {
         "nome": "Bulbophyllum roxburghii",
