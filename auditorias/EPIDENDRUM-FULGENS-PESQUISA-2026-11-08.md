@@ -48,3 +48,12 @@
 - IAR 2.0 permanece preliminar: litoral 80/100 e montanha 63/100; notas são julgamentos comparativos de compatibilidade regional, não ensaios de cultivo em ambas as regiões.
 - Galeria: quatro fotos e quatro créditos individuais. Licenças confirmadas nas páginas do Commons: Nave do Conhecimento CC0 1.0; M. A. P. Accardo Filho CC BY-SA 3.0; Marcia Stefani CC BY 2.0; Rafael CC BY-SA 4.0. Ainda falta teste de renderização no navegador do site.
 - Estado: rascunho atualizado; não substituir o *Epidendrum Hokulea ‘Super Red’* até terminar revisão visual, integridade dos campos e conferência final da ficha.
+
+## Auditoria incremental da ficha V4.9 — 08/11/2026
+- Corrigida a receita de recipiente para **50% casca de pínus média + 50% carvão vegetal granulado**, baseada no protocolo experimental publicado (vasos plásticos, 30% de sombreamento, irrigação a cada três dias; mistura 1:1 com partículas de 10–15 mm). Não tratar frequência de três dias como calendário universal.
+- Mantidos dois substratos alternativos sem percentuais; quatro métodos de cultivo, priorizando vaso de barro para touceira terrestre/rupícola; cachepô e placa/tronco ficam como opções menos adequadas.
+- Revisados textos de rega, adubação, luminosidade, clima para floração, adaptação regional e Dica de Ouro (65 palavras). Adubação e rega agora usam quebras de linha reais, não caracteres literais `\\n`.
+- Corrigido o asset de cachepô para o identificador existente na biblioteca (`cesto-madeira`), preservando o rótulo editorial “Cachepô de madeira”.
+- Validação estrutural: 12 meses possíveis, 4 fotos/4 créditos, 4 métodos, 2 misturas alternativas, receita principal soma 100%, pesos IDC e IAR somam 100%. IDC 18/100; IAR litoral 80/100 e montanha 63/100, todos os valores regionais ainda provisórios.
+- As quatro páginas do Wikimedia Commons foram conferidas para autoria/licença. O teste visual de carregamento no site ainda não foi executado.
+- A ficha segue em rascunho e não foi importada no índice. O *Epidendrum Hokulea ‘Super Red’* permanece publicado até concluir a auditoria final e os testes.
