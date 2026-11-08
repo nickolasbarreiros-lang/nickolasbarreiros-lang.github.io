@@ -30,14 +30,15 @@ export const aciantheraTeres = {
   "suporte": "Montagem principal em placa de madeira: mantenha a base descoberta, amarre sem comprimir os ramicaules e acompanhe a secagem rápida das raízes. Como a espécie é predominantemente rupícola, a placa é uma adaptação prática, não uma reprodução do habitat. Em vaso baixo de barro, use mistura mineral muito aberta e proteja a brita do superaquecimento. Cesto de madeira exige regas mais frequentes; árvore viva exige casca rugosa, posição clara e fixação estável. A decisão entre os quatro suportes depende sobretudo da temperatura radicular e da frequência real de rega.",
   substrato: ["Brita fina lavada e sem pó + carvão vegetal pequeno + perlita grossa","Brita fina lavada e sem pó + casca de pinus média + carvão vegetal pequeno"],
   "errosComuns": [
-    "Deixar a planta sob sol forte sem aclimatação, superaquecendo as folhas e o suporte.",
-    "Usar substrato fino ou vaso profundo, mantendo as raízes abafadas.",
-    "Confundir folhas grossas com capacidade de suportar seca prolongada.",
-    "Cultivar em sombra excessiva, prejudicando o vigor e a floração.",
-    "Fixar a touceira com amarração apertada, machucando os brotos.",
-    "Regar sempre pelo calendário, sem observar a secagem das raízes.",
-    "Aplicar adubo concentrado em uma montagem pequena e de secagem rápida."
-  ],
+    "Cultivar em sombra profunda e reduzir a floração.",
+    "Manter raízes rupícolas permanentemente encharcadas.",
+    "Usar substrato fino que impede drenagem rápida.",
+    "Deixar as raízes secarem por tempo excessivo.",
+    "Expor raízes ao calor intenso de superfícies superaquecidas.",
+    "Cultivar em local abafado e sem circulação de ar.",
+    "Aplicar adubo concentrado nas raízes.",
+    "Confundir folhas carnosas com tolerância à seca prolongada."
+],
   "dica": "🏆 Nesta espécie de folhas espessas, o segredo não é provocar seca prolongada, mas impedir que o suporte superaqueça. Em cultivo sobre madeira ou pedra, toque a superfície nas horas quentes: se estiver muito quente, aumente a proteção contra o sol forte. Ofereça boa claridade, ventilação e regas quando as raízes estiverem se aproximando da secagem. As folhas carnosas ajudam a suportar oscilações, mas não justificam abandonar a hidratação. Brotações firmes e raízes ativas indicam melhor equilíbrio que um calendário rígido.",
   "revisaoCientificaIAR": {
     "nome": "Acianthera teres",
