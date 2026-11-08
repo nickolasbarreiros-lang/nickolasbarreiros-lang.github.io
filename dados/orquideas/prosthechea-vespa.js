@@ -16,7 +16,7 @@ export const prosthecheaVespa = {
   "regiao": "Áreas do Sudeste brasileiro, conforme o conceito taxonômico adotado pelo Kew.",
   "habitat": "Pode crescer sobre árvores ou rochas em ambientes tropicais. Seus pseudobulbos armazenam água, enquanto as raízes se desenvolvem melhor em locais bem arejados e com boa drenagem.",
   "clima": "Quente a intermediário; boa possibilidade de crescimento em clima quente com luminosidade e ventilação adequadas.",
-  "climaFloracao": "A floração depende principalmente de pseudobulbos novos bem desenvolvidos, luminosidade filtrada relativamente alta e raízes saudáveis. A espécie pode florescer em condições quentes, desde que haja boa ventilação e o vaso não permaneça abafado. Mantenha água e nutrição durante o crescimento e diminua excessos quando os pseudobulbos amadurecerem. Não há fundamento para exigir frio intenso ou um período prolongado de seca como gatilho obrigatório.",
+  "climaFloracao": "Gosta de clima quente a intermediário, bastante luz filtrada e raízes bem ventiladas. Pode florescer no litoral e na montanha, com proteção contra frio intenso. Os novos pseudobulbos precisam amadurecer com regas e nutrição adequadas. Depois, reduza apenas os excessos de água conforme a atividade diminuir. Não precisa de noites frias nem de seca prolongada para produzir flores.",
   "iluminacao": {
       "sombrite": "50% a 60%",
       "solDireto": "Permitido com restrição",
