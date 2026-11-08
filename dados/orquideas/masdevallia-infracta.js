@@ -35,7 +35,7 @@ export const masdevalliaInfracta = {
 },
     mesesFloracao: [5, 6, 10, 11, 12],
     clima: "Intermediário a fresco, úmido e muito ventilado; tolera calor melhor que muitas Masdevallia quando há circulação de ar.",
-    climaFloracao: "Masdevallia infracta é mais tolerante a condições intermediárias que várias espécies clássicas de altitude, mas sua fisiologia continua sendo a de uma Pleurothallidinae sem pseudobulbos: calor prolongado aumenta rapidamente a perda de água e o risco de colapso radicular. A Orchid Society of Great Britain inclui M. infracta entre as Masdevallia de floresta nublada de condição intermediária. No litoral quente, o manejo deve reduzir a temperatura efetiva das raízes por sombreamento, evaporação e circulação de ar, sobretudo durante a tarde e à noite. Não é necessário provocar repouso seco. Crescimento contínuo, folhas firmes e raízes ativas são melhores indicadores de capacidade de floração do que uma queda térmica artificial.",
+    climaFloracao: "Prefere clima intermediário a fresco, com muita umidade e excelente ventilação. A montanha favorece a floração; no litoral quente, pode florescer se as raízes ficarem protegidas do superaquecimento e as noites não forem abafadas. Como não possui pseudobulbos, precisa de hidratação regular durante todo o ano. Não provoque seca para estimular flores. Folhas firmes e raízes saudáveis indicam boas condições de cultivo.",
     iluminacao: {
         sombrite: "70% a 80%",
         solDireto: "Não permitido",
