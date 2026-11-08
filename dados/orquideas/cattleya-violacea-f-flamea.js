@@ -41,7 +41,16 @@ export const cattleyaViolaceaFFlamea = {
     "suporte": "🥇 Cestinho de madeira aberto: permite irrigação frequente com máxima aeração.\n🥈 Vaso de barro muito perfurado: mantém estabilidade e boa troca gasosa.\n🥉 Placa de madeira ou tronco: indicada apenas quando a umidade do ar permanece alta e existe rotina de rega frequente.\nUse suporte dimensionado para alguns anos, pois a espécie não aprecia perturbações repetidas.",
     "substrato": ["Casca de pinus média + Fibra de coco lavada + Carvão vegetal médio + Casca de arroz carbonizada","Casca de macadâmia média + Casca de pinus média + Fibra de coco lavada + Carvão vegetal médio"],
 
-    "errosComuns": "Expor a frio prolongado; impor repouso seco; deixar raízes secas por vários dias; manter substrato saturado; usar pouca ventilação; cultivar em sombra profunda; deixar água no rizoma; regar à noite; usar substrato fino; aplicar excesso de adubo; replantar sem raízes novas; confundir alta umidade do ar com encharcamento.",
+    "errosComuns": [
+    "Expor a frio prolongado.",
+    "Impor repouso seco severo.",
+    "Deixar raízes secas por vários dias no crescimento.",
+    "Manter substrato permanentemente saturado.",
+    "Cultivar em sombra profunda.",
+    "Manter umidade elevada sem ventilação.",
+    "Deixar água acumulada no rizoma.",
+    "Replantar fora da emissão de raízes novas."
+],
     "dica": "🏆 Esta Cattleya de florestas tropicais quentes não deve receber o mesmo repouso seco aplicado a espécies de ambientes mais sazonais. Mantenha calor, boa umidade atmosférica e circulação de ar, com regas frequentes durante o crescimento e secagem adequada das raízes entre elas. Prefira cesto ventilado ou vaso com drenagem eficiente. Evite noites frias e substrato constantemente encharcado. A coloração flamea é característica genética do exemplar: o manejo correto favorece vigor e floração, mas não cria o padrão floral.",
     formasCultivo: {
         perfilVisual: "cattleya",
