@@ -74,7 +74,16 @@ export const cattleyaWalkeriana = {
         "alerta": "Em placa, dispense substrato volumétrico. Não enterre o rizoma, não use vaso profundo e evite umidade contínua durante o repouso.",
         "notaEvidencia": "MACS 1.1: POWO/Kew aceita Cattleya walkeriana como epífita ou litófita. ESALQ/USP recomenda suportes de madeira para a espécie. Estudo experimental do IFPB comparou esfagno, casca de neem e fibra de coco sobre discos de madeira, com melhor crescimento em esfagno nas condições do estudo; NÃO avaliou a mistura para vaso. Jardineiro.net publica para a espécie partes iguais de pinus, carvão e brita: https://www.jardineiro.net/plantas/cattleya-walkeriana-gardner-1843.html ; é divulgação especializada, NÃO orquidário ou homologação experimental. Orquidário Santa Clara cita pinus, carvão e pedrisco sem percentuais. Receita 1:1:1 é específica em orientação publicada, porém NÃO HOMOLOGADA experimentalmente. Um orquidário específico identificado, abaixo da meta 25. Alternativas qualitativas sem percentuais publicados; estrelas estimativas."
     },
-    "errosComuns": "Pouca luz; regar por calendário; manter substrato úmido; usar vaso profundo ou grande; empregar material fino; enterrar o rizoma; confundir repouso com abandono total; replantar fora da emissão de raízes; deixar a planta frouxa; molhar o broto floral; excesso de nitrogênio; dividir a touceira em poucas frentes.",
+    "errosComuns": [
+    "Cultivar com pouca luz e prejudicar a floração.",
+    "Regar por calendário sem verificar a secagem.",
+    "Manter substrato constantemente úmido.",
+    "Usar vaso grande e profundo.",
+    "Enterrar o rizoma.",
+    "Confundir repouso com abandono das regas.",
+    "Replantar fora da emissão de raízes novas.",
+    "Exagerar no nitrogênio após a maturação."
+],
     "dica": "🏆 Para esta Cattleya de ambientes sazonais, a luminosidade adequada e a maturação dos pseudobulbos importam mais que adubação intensa. Durante a emissão de raízes novas, ofereça água regular e boa ventilação. Depois que os brotos amadurecerem, reduza gradualmente as regas, sem provocar desidratação extrema. Prefira suporte ou recipiente de secagem rápida e proteja a planta de chuvas persistentes na fase menos ativa. Observe raízes e pseudobulbos antes de regar: um calendário rígido não substitui esses sinais.",
     revisaoCientificaIAR: {
         "nome": "Cattleya walkeriana",
