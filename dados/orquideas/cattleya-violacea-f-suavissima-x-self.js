@@ -41,7 +41,16 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
     "suporte": "🥇 Cestinho aberto de madeira: facilita lavagem, ventilação e crescimento das raízes.\n🥈 Vaso de barro furado: boa estabilidade e secagem equilibrada.\n🥉 Placa de madeira em orquidário de umidade alta.\nO suporte deve permitir passagem abundante de água durante o flushing e não concentrar sais.",
     "substrato": ["Casca de pinus média + Fibra de coco lavada + Carvão vegetal médio + Casca de arroz carbonizada","Casca de macadâmia média + Casca de pinus média + Fibra de coco lavada + Carvão vegetal médio"],
 
-    "errosComuns": "Temperaturas prolongadas abaixo de 15 °C; seca severa; água salina; fertilizante concentrado; excesso de Osmocote; falta de flushing; raízes abafadas; pouca luz; substrato degradado; água no rizoma; replantar fora do novo enraizamento; assumir que todas as mudas self serão idênticas à planta-mãe.",
+    "errosComuns": [
+    "Expor a temperaturas prolongadas abaixo de 15 °C.",
+    "Impor seca severa durante o crescimento.",
+    "Usar água salina ou acumular sais no substrato.",
+    "Aplicar fertilizante concentrado.",
+    "Somar adubos de liberação lenta sem ajustar doses.",
+    "Manter raízes abafadas em substrato degradado.",
+    "Cultivar com pouca luminosidade.",
+    "Esperar que todas as mudas self sejam idênticas."
+],
     "dica": "🏆 Nesta progênie de Cattleya violacea, preserve raízes ativas e evite o repouso seco típico de espécies de regiões sazonais. Mantenha calor, umidade atmosférica e ventilação, com regas frequentes durante o crescimento e secagem adequada entre elas. Use água de baixa salinidade e adubação diluída, lavando periodicamente o substrato para evitar acúmulo de sais. Como as plantas resultam de autofecundação, podem apresentar diferenças de vigor e floração. Ajuste o manejo à resposta do exemplar, não apenas ao nome do cruzamento.",
     formasCultivo: {
         "perfilVisual": "cattleya",
