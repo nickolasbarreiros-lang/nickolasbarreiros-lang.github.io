@@ -41,7 +41,7 @@ export const zygopetalumMaculatum = {
     "regiao": "Peru · Bolívia · Brasil",
     "habitat": "Áreas úmidas; terrestre ou rupícola.",
     "clima": "Intermediário a fresco e ventilado.",
-    "climaFloracao": "A floração depende de noites mais frescas, pseudobulbos bem desenvolvidos e raízes sem superaquecimento. Em regiões quentes, reduzir a temperatura do vaso e melhorar a circulação de ar costuma ser mais efetivo do que simplesmente aumentar a rega. Não necessita de repouso seco severo.",
+    "climaFloracao": "Gosta de clima intermediário a fresco, com noites amenas e excelente ventilação. A montanha oferece condições mais favoráveis; no litoral quente, o calor noturno pode dificultar a floração. Mantenha luz filtrada abundante, raízes frescas e pseudobulbos bem desenvolvidos. Regue regularmente sem encharcar e não provoque seca severa. Resfriar o ambiente das raízes é mais útil do que aumentar excessivamente as regas.",
     "iluminacao": {
         "sombrite": "50% a 70%",
         "solDireto": "Permitido com restrição",
