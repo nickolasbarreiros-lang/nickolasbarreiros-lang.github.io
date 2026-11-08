@@ -29,7 +29,7 @@ export const speckliniaGrobyi = {
     "regiao": "México · América Central · América do Sul tropical",
     "habitat": "Epífita · florestas diversas · ~60–3.200 m.",
     "clima": "Ampla faixa térmica · prefere umidade e ventilação.",
-    "climaFloracao": "A ampla distribuição e os diferentes habitats registrados indicam diversidade ecológica; não se deve assumir que todos os exemplares tolerem a mesma faixa térmica. Em cultivo, plantas de procedência desconhecida respondem melhor a condições intermediárias, sem extremos, com raízes arejadas e umidade frequente. Pode florescer em diferentes épocas do ano conforme o crescimento.",
+    "climaFloracao": "Adapta-se a diferentes altitudes, mas a resposta ao calor varia conforme a procedência. Pode florescer no litoral e na montanha quando recebe sombra luminosa, umidade frequente e excelente ventilação. Mantenha as raízes arejadas e evite tanto a seca prolongada quanto o encharcamento. Não precisa de repouso seco nem de choque térmico. Crescimento contínuo favorece flores em diferentes épocas.",
     "iluminacao": {
         "sombrite": "60% a 70%",
         "solDireto": "Não permitido",
