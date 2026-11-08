@@ -33,7 +33,7 @@ export const polystachyaConcreta = {
     habitat: "Principalmente epífita de florestas úmidas, incluindo mata de restinga, mata ciliar, floresta ombrófila, floresta estacional e ambientes parcialmente antropizados; ocasionalmente terrícola ou rupícola · de terras baixas até cerca de 1.600–1.650 m.",
     clima: "Quente a intermediário · ampla tolerância térmica · umidade regular com boa circulação de ar.",
 
-    climaFloracao: "Não apresenta exigência conhecida de repouso seco pronunciado. No Sudeste brasileiro, novos pseudobulbos começam a se desenvolver no início da primavera e logo produzem a inflorescência terminal. Registros brasileiros mostram floração em diferentes meses conforme a região, enquanto IOSPE indica primavera e verão em cultivo; a ampla distribuição sugere resposta mais ligada à maturação do novo crescimento do que a uma janela climática única.",
+    climaFloracao: "Gosta de clima quente a intermediário, umidade regular e boa ventilação. Pode florescer no litoral e na montanha, com proteção contra temperaturas extremas. As hastes surgem com os novos crescimentos, por isso mantenha raízes saudáveis e regas adequadas durante a brotação. Boa luz filtrada ajuda a formar flores. Não precisa de noites frias nem de repouso seco rigoroso; a época da floração pode variar conforme o clima.",
 
     iluminacao: {
         sombrite: "60% a 70%",
