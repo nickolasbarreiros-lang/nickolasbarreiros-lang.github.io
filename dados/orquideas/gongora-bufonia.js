@@ -66,5 +66,16 @@ export const gongoraBufonia = {
         alerta: "Não bloquear o fundo do cesto, apoiar a planta onde as hastes não possam descer ou usar vaso fechado. Evitar sol forte, seca completa e calor abafado.",
         notaEvidencia: "MACS 1.1 — revisão documental: Gongora bufonia é epífita de ambiente úmido com inflorescências descendentes; priorizar cachepô de madeira suspenso, aberto no fundo e nas laterais. Receita visual e textual coincidem: 35% fibra de coco lavada + 30% pinus médio + 20% casca de arroz carbonizada + 15% esfagno de fibra longa solto = 100%. Duas alternativas qualitativas editoriais, sem percentuais, com macadâmia/esfagno ou pinus/carvão, distintas da principal; antigas proporções 40/30/20/10 constam somente do histórico da matriz, sem validação experimental. Retenção e aeração devem ser ajustadas à secagem e o fundo jamais pode obstruir as hastes. Estrelas dos suportes são heurísticas. Não há homologação quantitativa específica nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
     },
+    errosComuns: [
+    "Usar vaso que bloqueia as hastes pendentes.",
+    "Deixar raízes secarem por vários dias.",
+    "Manter substrato constantemente encharcado.",
+    "Cultivar em sombra profunda.",
+    "Expor folhas ao sol direto forte.",
+    "Deixar pseudobulbos abafados por substrato compacto.",
+    "Movimentar a planta durante a formação das hastes.",
+    "Dividir touceiras com poucas reservas."
+],
+
     dica: "🏆 O segredo desta Gongora é deixar espaço livre abaixo da planta para suas longas inflorescências pendentes. Prefira cesto suspenso ou recipiente elevado, verificando se as hastes poderão atravessar a borda sem dobrar ou quebrar. Mantenha raízes úmidas e bem ventiladas, com luz filtrada e regas regulares durante o crescimento. Não deixe o substrato compactar nem acumular água junto aos pseudobulbos. Evite movimentar a planta quando os botões estiverem se formando, pois as hastes são delicadas.",
 };
