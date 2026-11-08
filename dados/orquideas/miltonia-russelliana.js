@@ -26,7 +26,7 @@ export const miltoniaRusselliana = {
     regiao: "Sudeste e Sul do Brasil",
     habitat: "Epífita de florestas úmidas e áreas ripárias, em ambiente ventilado.",
     clima: "Intermediário a ameno, úmido e ventilado.",
-    climaFloracao: "A espécie floresce principalmente no outono e inverno. Em clima quente, noites um pouco mais frescas ajudam bastante, mas o fator decisivo é manter raízes ativas, boa ventilação e luminosidade suficiente sem superaquecer as folhas.",
+    climaFloracao: "Gosta de clima intermediário a ameno, com umidade regular e noites mais frescas. A montanha costuma favorecer a floração; no litoral quente, escolha um local ventilado e protegido do calor noturno. Ofereça boa luminosidade filtrada e mantenha as raízes ativas durante o crescimento. Não precisa de seca rigorosa. Noites amenas ajudam a estimular a floração, especialmente no período mais fresco do ano.",
     iluminacao: {
         sombrite: "50% a 60%",
         solDireto: "Permitido com restrição",
