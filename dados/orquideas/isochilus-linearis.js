@@ -19,7 +19,7 @@ export const isochilusLinearis = {
     regiao: "Caribe · América Central · América do Sul",
     habitat: "Florestas tropicais úmidas · hábito principalmente epífito ou rupícola · 300–3.900 m.",
     clima: "Intermediário a quente · ampla tolerância.",
-    climaFloracao: "A faixa altitudinal documentada é excepcionalmente ampla, de cerca de 300 a 3.900 m, mas muitas coletas concentram-se aproximadamente entre 600 e 1.200 m. Por isso não é correto classificar toda a espécie como fria ou quente. Em clima quente, trabalhe com o comportamento intermediário: luz filtrada, boa ventilação e umidade regular, especialmente porque os caules não possuem grande reserva de água. Não necessita repouso seco.",
+    climaFloracao: "Adapta-se a diferentes altitudes, mas prefere umidade regular, luz filtrada e boa ventilação. Pode florescer no litoral e na montanha, conforme a procedência da planta; em regiões quentes, evite principalmente noites abafadas. Seus caules têm pouca reserva de água, por isso não devem passar por seca prolongada. Mantenha os novos crescimentos saudáveis e maduros, sem provocar choque térmico para estimular flores.",
     iluminacao: {
         sombrite: "50% a 70%",
         solDireto: "Permitido com restrição",
