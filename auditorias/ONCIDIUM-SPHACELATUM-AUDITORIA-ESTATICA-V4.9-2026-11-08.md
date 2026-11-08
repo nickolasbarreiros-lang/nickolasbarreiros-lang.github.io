@@ -59,3 +59,15 @@ As oito tentativas de leitura dos arquivos WebP pelo conector GitHub retornaram 
 - A ausência de `raridadeIndice` no rascunho **não é divergência** em relação ao modelo V4.9 consultado, que também não o possui.
 - Foram tentadas aberturas dos três URLs `Special:FilePath` do Wikimedia Commons; o acesso externo falhou por restrição/erro de conexão neste ambiente, **sem prova de falha do endereço no navegador do usuário**. Não marcar como imagens validadas.
 - Mantida a decisão de não substituir a ficha publicada *Oncidium Summer Wind* até concluir validação visual, botânica e editorial. Sem alterações nos dados públicos nesta etapa.
+
+## Auditoria de fundamentação IDC 3.2 / IAR 2.0 — 08/11/2026
+
+**Fontes verificadas:** NC State Extension, ficha específica da espécie https://plants.ces.ncsu.edu/plants/oncidium-sphacelatum/ ; American Orchid Society, ficha de cultivo do gênero https://www.aos.org/orchid-care/care-sheets/oncidium-culture-sheet ; Smithsonian Gardens, ficha geral https://gardens.si.edu/collections/plants/orchids/orchid-care-sheets/oncidium/ . Priorizar a fonte específica da espécie quando houver diferença de generalizações sobre o gênero.
+
+**IDC:** pesos 15+15+10+10+10+10+10+20 = 100. Notas 2,3,3,2,2,2,2,2 resultam em soma ponderada 225 e índice normalizado (225−100)/4 = 31,25, arredondado para 31. Conforme faixa vigente 26–35, 4 estrelas. Aritmética consistente. Notas representam **julgamento editorial fundamentado**: temperatura (2) pela ampla adaptação tropical; rega (3) pelo ajuste sazonal e drenagem; umidade (3) porque NC State recomenda >60%; ventilação (2) porque a espécie requer boa circulação; luminosidade (2) pela luz indireta intensa; raízes/substrato (2) pela mistura grossa drenante; sazonalidade (2) pela tolerância a secagem no repouso; floração (2) pela abundância em planta madura e necessidade de luz adequada. Nenhum desses valores é medição experimental direta.
+
+**IAR:** pesos 30+30+5+5+5+5+20 = 100. Litoral: todos os fatores 4/5, índice 80/100. Montanha: temperatura 3/5 e demais 4/5, índice 74/100. Aritmética consistente; a penalidade térmica de 6 pontos na montanha é hipótese editorial, **não** validação por ensaio regional. As duas classificações de quatro estrelas permanecem **provisórias** até homologação dos critérios e evidências de cultivo locais.
+
+**Ressalvas técnicas:** a NC State descreve umidade >60% para esta espécie; as recomendações de 30–60% da AOS dizem respeito ao gênero amplo, portanto não devem reduzir a necessidade de umidade específica sem evidência. A NC State informa tolerância à seca durante dormência; isso não autoriza recomendar seca prolongada em planta com brotação ativa. A receita percentual 45/25/20/10 é proposta horticultural, não receita cientificamente validada para a espécie por 25 produtores. Manter exatamente duas misturas qualitativas alternativas sem percentuais. Não exibir siglas, notas, metodologia ou ressalvas no texto público.
+
+**Estado:** fundamentação e contas conferidas; não homologar como validação experimental; ficha pública não substituída nesta etapa.
