@@ -137,7 +137,16 @@ export const bulbophyllumSyciobulbon = {
         "notaEvidencia": "MACS 1.1 — revisão documental: nome exibido Bulbophyllum sicyobulbon; grafia histórica syciobulbon mantida no identificador e arquivo por compatibilidade. Epífita montana com rizoma muito espaçado, raízes que requerem aeração, umidade moderada e noites frescas. Vaso plástico vasado amplo e raso é proposta provisória; cachepô amplo ou placa longa podem favorecer expansão lateral. Estrelas dos suportes permanecem sem atribuição por ausência de avaliação individual fundamentada. Receita visual e textual coincidem: 40% pinus médio + 20% chips coco médios preparados + 25% perlita de granulometria compatível com raízes finas + 15% esfagno de fibra longa solto = 100%. Duas alternativas qualitativas sem percentuais; somente a receita principal é quantificada. Sem demonstração de superioridade. Monitorar temperatura noturna, retenção, secagem e avanço lateral do rizoma. Não há ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS ERRATA MACS 1.1 (2026-11-04): duas alternativas sem percentuais; somente a receita principal totaliza 100%. Material não deve ser trocado por falta de asset. Revalidação Chromium corretiva aprovada na execução 41836190344; alterações posteriores exigem nova validação."
     },
     substrato: ["Esfagno de fibra longa solto + perlita de granulometria compatível com raízes finas","Casca de macadâmia média + casca de pinus média + perlita de granulometria compatível com raízes finas + pequena fração de esfagno de fibra longa solto"],
-    errosComuns: "• Usar vaso pequeno e obrigar replantes frequentes.\n• Enterrar o rizoma ou os pseudobulbos.\n• Confundir alta umidade com ar parado.\n• Manter esfagno compactado e saturado.\n• Deixar a planta secar completamente por longos períodos.\n• Cultivar sob sol direto forte.\n• Adubar em concentração alta.\n• Tentar compensar calor noturno excessivo com encharcamento.",
+    errosComuns: [
+    "Usar vaso pequeno que exige replantes frequentes.",
+    "Enterrar o rizoma ou os pseudobulbos.",
+    "Manter umidade elevada sem ventilação.",
+    "Compactar esfagno e deixá-lo saturado.",
+    "Deixar raízes secarem por longos períodos.",
+    "Expor folhas ao sol direto forte.",
+    "Aplicar adubo em concentração alta.",
+    "Compensar calor noturno com encharcamento."
+],
     dica: "🏆 Planeje o suporte antes de plantar: os pseudobulbos desta espécie ficam espaçados ao longo de um rizoma rastejante. Uma placa comprida ou cesto largo permite que a planta avance sem exigir replantios frequentes. Fixe o rizoma superficialmente e deixe espaço na direção dos novos brotos. Mantenha umidade junto às raízes, mas não use material que permaneça encharcado durante a noite. Em ambientes quentes, escolha um ponto fresco e ventilado, protegido do sol que aquece demais a madeira ou o recipiente.",
     revisaoCientificaIAR: {
         "nome": "Bulbophyllum sicyobulbon",
