@@ -29,7 +29,7 @@ export const oncidiumPumilum = {
     "regiao": "Brasil ao NE da Argentina",
     "habitat": "Savanas e matas abertas · ~200–1.000 m.",
     "clima": "Quente a intermediário · luminoso.",
-    "climaFloracao": "A floração é favorecida por touceiras maduras, muita luz filtrada e boa ventilação. Após a maturação dos novos crescimentos, reduza moderadamente a água sem impor seca severa. Plantas não divididas e com várias frentes costumam produzir maior número de hastes simultaneamente.",
+    "climaFloracao": "Prefere clima quente a intermediário, muita claridade filtrada e boa ventilação. O litoral oferece condições favoráveis; na montanha, proteja do frio prolongado. Touceiras adultas, com vários crescimentos maduros, costumam produzir mais hastes. Regue normalmente na fase ativa e aumente um pouco os intervalos quando o crescimento diminuir. Não precisa de seca rigorosa nem de noites frias para florescer.",
     "iluminacao": {
         "sombrite": "40% a 50%",
         "solDireto": "Permitido com restrição",
