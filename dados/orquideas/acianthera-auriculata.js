@@ -25,7 +25,7 @@ export const aciantheraAuriculata = {
     mesesFloracao: [9, 11, 12, 1, 2],
     mesesFloracaoIndicativos: true,
     clima: "Intermediário, úmido a moderadamente úmido e muito ventilado.",
-    climaFloracao: "Prefere clima intermediário e noites amenas; há registros em torno de 1.169–1.400 m, mas a altitude não é uma exigência fixa. Montanha: favorável. Litoral quente: condicional, com sombra luminosa e ventilação para reduzir o calor noturno. Não há demonstração de que precise de frio intenso ou repouso seco. Mantenha umidade regular e observe a maturação dos novos crescimentos.",
+    climaFloracao: "Prefere clima ameno e úmido, com noites mais frescas e boa ventilação. Floresce com mais facilidade na montanha, mas também pode florir no litoral, desde que fique protegida do calor excessivo, principalmente à noite. Aprecia luminosidade filtrada e umidade regular nas raízes. Não precisa de frio intenso nem de um período de seca para florescer.",
     iluminacao: {
         sombrite: "70% como referência inicial",
         solDireto: "Não permitido",
