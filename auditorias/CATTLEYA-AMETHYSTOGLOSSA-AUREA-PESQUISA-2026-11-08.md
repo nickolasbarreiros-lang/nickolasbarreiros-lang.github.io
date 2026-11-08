@@ -88,3 +88,26 @@ Não selecionar vaso plástico comum como opção prioritária, nem raízes solt
 - Alternativa 1: pínus + carvão + brita (não reproduz a receita principal integral).
 - Alternativa 2: chips de coco lavados + pínus + perlita grossa (também não reproduz a principal).
 - Sem percentuais nas alternativas, conforme padrão V4.9. **A formulação continua editorial, não experimental.**
+
+## Etapa 5 — perfume, duração e direitos de fotografia (2026-11-08)
+
+### Evidência de perfume
+- RHS descreve *C. amethystoglossa* como espécie de flores perfumadas, sem qualificar o aroma: https://www.rhs.org.uk/plants/20247/cattleya-amethystoglossa/details
+- IOSPE registra fragrância para a espécie, sem dados específicos da forma aurea: https://iospe.ja.bz/cattamethystoglossa.htm
+- Tropical Orchids Portugal descreve perfume suave e adocicado para a espécie: https://tropicalorchidsportugal.com/cattleya-amethystoglossa/
+- **Conclusão:** perfume documentado para a espécie; não afirmar intensidade/descritor invariáveis na forma aurea.
+
+### Duração da floração
+- Descrição na fotografia do JBRJ/Wikimedia cita média de 15 dias: https://commons.wikimedia.org/wiki/File:Cattleya_amethystoglossa_jbrj.jpg
+- Orquídeas Encanto e Paixão (2016) cita cerca de três semanas: https://orquideasjph.wordpress.com/2016/10/19/cattleya-amethystoglossa/
+- **Conclusão:** faixa editorial aproximada de duas a três semanas para a espécie, não medida específica para a forma aurea; pode variar por clone e clima.
+
+### Galeria: verificação de licença
+- A fotografia da forma 'Aurea Morinho' tem identificação e data documentadas, mas a página consultada não demonstrou licença de reutilização aberta: https://www.flickr.com/photos/sylvio-orquideas/52314199521/
+- Fotografias da espécie típica com licença CC BY/CC BY-SA no Commons **não comprovam a forma aurea**: https://commons.wikimedia.org/wiki/Category:Cattleya_amethystoglossa
+- **Decisão:** não incorporar a foto de Flickr ao site sem licença/consentimento e não rotular fotografias comuns como aurea. Buscar foto autorizada da forma ou autorização do titular.
+
+### Texto editorial provisório
+“Floresce principalmente no inverno e na primavera, com variações conforme a linhagem. Produz cachos de flores amarelas ou creme, geralmente pintalgadas, com labelo contrastante. As flores podem durar cerca de duas a três semanas. A espécie é perfumada, mas a intensidade do aroma pode variar entre exemplares.”
+
+**Atenção:** duração e perfume são extrapolações da espécie, não observações confirmadas de um clone aurea. O texto é rascunho, não publicação.
