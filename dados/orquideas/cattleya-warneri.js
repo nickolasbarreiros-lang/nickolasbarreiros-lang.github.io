@@ -74,7 +74,16 @@ export const cattleyaWarneri = {
         "alerta": "Evite vasos grandes, mistura compactada e excesso de água durante a maturação. Não corte a espata apenas porque ficou seca: a floração pode ocorrer posteriormente.",
         "notaEvidencia": "MACS 1.1 — revisão documental: Cattleya warneri, epífita unifoliada de grande porte, requer suporte estável, aeração e secagem após maturação. Vaso de barro e cachepô madeira 5 estrelas, placa/tronco 4, plástico vasado 3: inferência horticultural, sem comparação quantitativa. Receita visual 35% macadâmia média + 30% pinus médio + 20% perlita grossa + 15% carvão = 100%. A receita principal textual e visual concordam (35% macadâmia, 30% pinus, 20% perlita, 15% carvão). Argila expandida e pinus grosso integram apenas a primeira alternativa qualitativa. POWO confirma distribuição nativa no Nordeste e Sudeste brasileiros. Pesquisa de Lone et al. (2008, DOI 10.4025/actasciagron.v30i4.5299) avaliou Cattleya intermedia na aclimatação; Schnitzer et al. (2010, DOI 10.4025/actasciagron.v32i1.714) avaliaram C. intermedia e Miltonia clowesii. Nenhum dos estudos testou C. warneri, macadâmia ou a mistura 35/30/20/15; não são homologação da receita. Meta de até 25 recomendações específicas de produtores brasileiros não atingida nesta passagem. Percentuais e estrelas NÃO HOMOLOGADOS; demais campos preservados."
     },
-    "errosComuns": "Cortar a espata seca; abrir a espata para procurar botões; pouca luz; molhar repetidamente a espata; excesso de água no inverno; vaso grande; substrato compactado; replantar sem raízes novas; excesso de nitrogênio; girar a planta durante a formação da haste; dividir em poucas frentes.",
+    "errosComuns": [
+    "Cortar espata seca sem verificar os botões.",
+    "Abrir a espata para procurar flores.",
+    "Cultivar com pouca luminosidade.",
+    "Deixar água acumulada dentro da espata.",
+    "Manter regas excessivas no inverno.",
+    "Usar vaso grande com substrato compacto.",
+    "Replantar sem início de raízes novas.",
+    "Dividir touceiras com poucas reservas."
+],
     "dica": "🏆 Nesta Cattleya, uma espata aparentemente seca não significa necessariamente que a floração terminou. A bainha pode permanecer castanha enquanto os botões ainda se desenvolvem; por isso, não a corte nem a abra sem necessidade. Evite água acumulada na espata e mantenha boa ventilação. Durante a fase de crescimento reduzido, ajuste as regas sem desidratar os pseudobulbos. A paciência é especialmente importante: manipular a bainha para procurar botões pode danificar uma floração que ainda está se formando.",
     revisaoCientificaIAR: {
         "nome": "Cattleya warneri",
