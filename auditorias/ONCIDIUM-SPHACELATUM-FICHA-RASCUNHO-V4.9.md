@@ -22,7 +22,7 @@ Principalmente epífita em florestas tropicais, ocasionalmente rupícola, com ra
 Regue abundantemente durante o desenvolvimento de brotos e raízes, deixando a mistura drenar e perder boa parte da umidade antes de repetir. Em crescimento lento ou frio, aumente os intervalos; em períodos quentes, confira o centro do vaso, não apenas a superfície. Não deixe água acumulada no recipiente.
 
 ## Floração
-Produz inflorescências longas, arqueadas e ramificadas, com dezenas de flores amarelas marcadas de castanho, em torno de 2,5 cm, geralmente com perfume discreto. A época de floração pode variar conforme clima e cultivo; não há meses brasileiros específicos suficientemente confirmados nesta auditoria. A duração exata da floração da espécie permanece sem comprovação específica: não apresentar prazo como fato.
+Produz inflorescências longas, arqueadas e ramificadas, com dezenas de flores amarelas marcadas de castanho, em torno de 2,5 cm, geralmente com perfume discreto. Há registros brasileiros de floração em outubro e novembro, durante a primavera; outras épocas são possíveis conforme o clima e o cultivo. A duração exata da floração desta espécie ainda não foi confirmada nas fontes examinadas.
 
 ## Formas de cultivo — avaliações propostas
 - Vaso de barro: 5 estrelas
