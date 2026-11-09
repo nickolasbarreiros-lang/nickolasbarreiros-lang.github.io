@@ -81,5 +81,9 @@ export const octomeriaMicrantha = {
         ],
         alerta: "Evitar divisão em poucas hastes, substrato encharcado, vaso fundo, adubo concentrado e seca prolongada. Não mudar o suporte após a fixação das raízes.",
         notaEvidencia: "MACS 1.1 — revisão documental: Octomeria micrantha, miniatura epífita cespitosa de raízes finas; cultivo principal em placa/tronco com fina lâmina de esfagno solto e sem massa volumosa. Receita visual alternativa para cuia/cesto: 40% fibra de coco lavada + 30% pinus fino + 30% casca de arroz carbonizada = 100%; receitaTexto e itens concordam. As duas outras misturas são alternativas editoriais qualitativas distintas, sem percentuais; as proporções 50/50 e 55/25/20 constam apenas do histórico comparativo da matriz e não integram a ficha. Monitorar retenção e secagem em recipiente raso. Estrelas dos suportes são heurísticas e não homologadas. POWO/Kew e a monografia de Octomeria no Paraná confirmam taxonomia e hábito epífito, não as receitas. Levantamento documental não encontrou receitas volumétricas específicas nem ensaio comparativo; não foi possível cumprir a meta de 25 produtores brasileiros. Resultado da avaliação quantitativa: REPROVADO POR INSUFICIÊNCIA DE EVIDÊNCIAS; percentuais e estrelas NÃO HOMOLOGADOS",
+    },
+    selosCultivo: {
+        rega: { nivel: "frequente" },
+        climaFloracao: { faixa: "intermediario" }
     }
 };
