@@ -188,7 +188,7 @@ export const aciantheraTeres = {
   ],
   "selosCultivo": {
     "rega": {
-      "nivel": "moderada"
+      "nivel": "moderada",
       "evitarEncharcamento": true
     },
     "climaFloracao": {
