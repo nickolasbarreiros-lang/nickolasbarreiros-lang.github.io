@@ -83,5 +83,9 @@ export const pabstiellaTrifida = {
         ],
         alerta: "O substrato não compensa calor excessivo: manter a planta longe do telhado quente, em sombra clara e ventilação. Evitar esfagno compactado, sais, adubação forte e divisão de touceiras pequenas.",
         notaEvidencia: "MACS 1.1 — revisão documental: Pabstiella trifida é miniatura epífita sem pseudobulbos e de raízes capilares, associada a umidade elevada e noites relativamente frescas. Suporte principal placa/tronco com fina lâmina de esfagno solto. Receita visual alternativa para recipiente minúsculo e muito perfurado: 40% fibra de coco lavada + 30% pinus fino + 30% casca de arroz carbonizada = 100%; receitaTexto e itens concordam. Duas alternativas editoriais qualitativas, sem percentuais, distintas da receita principal; as antigas proporções 50/30/20 e 45/30/25 são apenas hipóteses históricas da matriz e não foram validadas. Temperatura e umidade do microclima são limitações independentes da mistura. Estrelas dos suportes são heurísticas. Sem ensaio quantitativo específico nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
+    },
+    selosCultivo: {
+        rega: { nivel: "muito-frequente" },
+        climaFloracao: { faixa: "ameno" }
     }
 };
