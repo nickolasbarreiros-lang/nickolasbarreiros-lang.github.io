@@ -223,7 +223,7 @@ export const ludisiaDiscolor = {
     },
     mesesFloracao: [6, 7, 8, 9],
     "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "uniforme" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "intermediario" }
     },
         avaliacoes: {
