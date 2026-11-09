@@ -166,7 +166,7 @@ export const maxillariaCamaridii = {
     },
     "mesesFloracao": [12, 1, 2, 3, 4],
     "selosCultivo": {
-        "rega": { "nivel": "frequente", "regime": "ano-todo" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente", "quedaTermica": false }
     },
     "avaliacoes": {
