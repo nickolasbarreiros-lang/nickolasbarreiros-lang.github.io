@@ -130,4 +130,9 @@ export const blcChiaLin = {
 ],
 
     dica: "🏆 Para obter flores grandes neste híbrido da aliança Cattleya, cuide primeiro da qualidade do crescimento novo. Mantenha luz forte filtrada, boa ventilação e regas abundantes quando raízes e brotos estiverem ativos, permitindo secagem parcial entre elas. Evite excesso de nitrogênio e vasos desproporcionais, que favorecem crescimento desequilibrado ou umidade persistente. Não force repouso seco sem observar a resposta do clone. Pseudobulbos firmes, folhas saudáveis e raízes novas indicam condições mais promissoras para a próxima floração.",
+    selosCultivo: {
+        rega: { nivel: "moderada" },
+        climaFloracao: { faixa: "quente" }
+    },
+
 };
