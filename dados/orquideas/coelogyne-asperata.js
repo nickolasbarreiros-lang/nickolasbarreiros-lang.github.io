@@ -228,7 +228,7 @@ export const coelogyneAsperata = {
     },
     "mesesFloracao": [12, 1, 2],
     "selosCultivo": {
-        "rega": { "nivel": "sazonal", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "frequente" },
         "climaFloracao": { "faixa": "quente" }
     },
         "avaliacoes": {
