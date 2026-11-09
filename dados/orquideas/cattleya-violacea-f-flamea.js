@@ -79,4 +79,9 @@ export const cattleyaViolaceaFFlamea = {
         alerta: "Não manter encharcado e não impor repouso seco severo. Fixe o rizoma acima da mistura.",
         notaEvidencia: "MACS 1.1 — revisão documental: Cattleya violacea f. flamea é padrão de coloração horticultural da espécie, não táxon formal distinto. Epífita tropical de clima quente e úmido, sem repouso seco severo. Cachepô de Madeira aberto é proposta principal; estrelas de suportes são heurísticas. Receita visual e textual coincidem: 35% pinus médio + 25% macadâmia média + 20% carvão vegetal médio + 20% fibra de coco lavada = 100%. Duas outras misturas qualitativas distintas, sem percentuais: pinus/fibra de coco lavada/carvão/casca de arroz carbonizada e macadâmia/pinus/fibra de coco lavada/carvão. Percentuais históricos 40/30/20/10 não integram as alternativas exibidas nem foram homologados. Monitorar secagem, retenção, salinidade e ventilação. Não há ensaio quantitativo específico para forma flamea nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
     }
+    selosCultivo: {
+        rega: { nivel: "frequente" },
+        climaFloracao: { faixa: "quente" }
+    },
+
 };
