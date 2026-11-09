@@ -86,4 +86,9 @@ export const cattleyaNobiliorVarAmaliae = {
 ],
 
     dica: "🏆 O diferencial desta Cattleya de ambientes sazonalmente secos é respeitar a alternância entre crescimento e maturação. Durante a emissão de raízes e brotos, ofereça água suficiente e boa ventilação. Quando o crescimento terminar, reduza gradualmente a frequência das regas, observando a firmeza dos pseudobulbos, sem provocar desidratação extrema. Prefira suporte ou recipiente que seque rapidamente e mantenha luminosidade elevada, com adaptação ao sol suave. Excesso de umidade persistente na fase de repouso pode comprometer raízes e floração.",
+    selosCultivo: {
+        rega: { nivel: "sazonal", regime: "repouso-seco" },
+        climaFloracao: { faixa: "quente" }
+    },
+
 };
