@@ -29,7 +29,7 @@ export const oncidiumSphacelatum = {
       "nivel": "moderada"
     },
     "climaFloracao": {
-      "faixa": "intermediario-quente"
+      "faixa": "quente"
     }
   },
   "avaliacoes": {
