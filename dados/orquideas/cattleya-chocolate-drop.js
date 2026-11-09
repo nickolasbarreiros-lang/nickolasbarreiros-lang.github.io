@@ -136,4 +136,9 @@ export const cattleyaChocolateDrop = {
 ],
 
     dica: "🏆 Neste híbrido de Cattleya guttata com Guarianthe aurantiaca, a prioridade é amadurecer brotos fortes antes da floração. Ofereça luminosidade intensa, com adaptação gradual ao sol suave, e mantenha ventilação constante. Regue bem quando raízes e pseudobulbos estiverem crescendo, deixando o substrato perder parte da umidade antes de repetir. Evite vasos grandes e excesso de adubo nitrogenado, que podem prejudicar o equilíbrio entre crescimento e flores. Observe o tamanho dos pseudobulbos novos: eles ajudam a avaliar se o manejo está funcionando.",
+    selosCultivo: {
+        rega: { nivel: "moderada" },
+        climaFloracao: { faixa: "quente" }
+    },
+
 };
