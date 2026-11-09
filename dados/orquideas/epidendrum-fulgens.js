@@ -28,7 +28,7 @@ export const epidendrumFulgens = {
       "nivel": "moderada"
     },
     "climaFloracao": {
-      "faixa": "intermediario-quente"
+      "faixa": "quente"
     }
   },
   "avaliacoes": {
