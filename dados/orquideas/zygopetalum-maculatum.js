@@ -86,5 +86,9 @@ export const zygopetalumMaculatum = {
         ],
         alerta: "Evitar vaso preto exposto ao sol, calor acumulado, substrato encharcado, água parada nos brotos novos e secagem completa por vários dias. A receita não substitui a necessidade de noites mais frescas para floração consistente.",
         notaEvidencia: "MACS 1.1 — revisão documental: Zygopetalum maculatum é terrestre/rupícola, com raízes sensíveis ao calor, umidade regular e preferência por noites frescas. Vaso de Barro perfurado é proposta principal, estrelas dos suportes sem atribuição por ausência de classificação técnica individual fundamentada. Receita visual e textual coincidem: 40% chips coco médios preparados + 35% pinus fino/médio + 25% casca de arroz carbonizada compatível com recipiente = 100%. Duas alternativas qualitativas sem percentuais; somente a receita principal é quantificada. Nenhuma dessas alternativas valida os percentuais visuais. As receitas editoriais anteriores foram padronizadas para componentes disponíveis na biblioteca visual. Monitorar retenção, secagem, temperatura radicular e condições noturnas; substrato sozinho não substitui noites frescas. Sem homologação quantitativa específica nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS ERRATA MACS 1.1 (2026-11-04): duas misturas alternativas sem percentuais; somente a principal totaliza 100%. Materiais escolhidos por adequação horticultural, não por disponibilidade de assets. Revisão corretiva validada em Chromium na execução 41836168004; alterações posteriores exigem nova validação.",
+    },
+    selosCultivo: {
+        rega: { nivel: "frequente" },
+        climaFloracao: { faixa: "ameno" }
     }
 };
