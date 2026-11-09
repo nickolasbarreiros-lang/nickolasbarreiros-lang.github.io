@@ -83,5 +83,9 @@ export const laeliaLundiiAlba = {
         ],
         alerta: "Evitar sombra excessiva, sol forte direto, vaso grande, esfagno compactado, raízes constantemente molhadas e divisões frequentes de touceiras pequenas.",
         notaEvidencia: "MACS 1.1 — revisão documental: Cattleya lundii f. alba (nome histórico Laelia lundii f. alba), miniatura epífita de touceira compacta; principal suporte placa/tronco, raízes arejadas e secagem entre regas. Receita visual alternativa para recipiente pequeno: 35% macadâmia média + 30% pinus médio + 20% casca de arroz carbonizada + 15% carvão vegetal médio = 100%; receitaTexto e itens concordam. Duas alternativas editoriais qualitativas distintas, sem percentuais; antigas proporções 45/25/20/10 e 40/30/20/10 constam somente do histórico da matriz, sem validação experimental. Assets de macadâmia, pinus, casca de arroz carbonizada e carvão cadastrados na biblioteca de cultivo. Estrelas dos suportes são heurísticas, não ensaios. Não há homologação quantitativa específica nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
+    },
+    selosCultivo: {
+        rega: { nivel: "frequente" },
+        climaFloracao: { faixa: "quente" }
     }
 };
