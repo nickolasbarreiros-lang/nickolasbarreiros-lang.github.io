@@ -7,7 +7,7 @@ export const pholidotaChinensis = {
     avaliacoes: { cultivo: 3, floracao: 4, perfume: 4, luminosidade: 2, agua: 4, raridade: 3 },
     selosCultivo: {
         rega: { nivel: "frequente" },
-        climaFloracao: { faixa: "intermediario-fresco" }
+        climaFloracao: { faixa: "ameno" }
     },
     fotos:["https://inaturalist-open-data.s3.amazonaws.com/photos/262546179/original.jpeg", "https://www.fascinationoforchids.com/species/Blog/22-06%20Jun/Scott/Pholidota-chinensis-2.jpg", "https://fangblatt.de/cdn/shop/files/20200508_114446_1280x1280_410d952c-6f3f-4066-8bea-3ead5e363993_grande.jpg?v=1709897785", "https://commons.wikimedia.org/wiki/Special:FilePath/Pholidota_chinensis_-_Flickr_003_(1).jpg"],mesesFloracao:[4,5,6,7],
     clima:"Intermediário a fresco · úmido · ventilado",
