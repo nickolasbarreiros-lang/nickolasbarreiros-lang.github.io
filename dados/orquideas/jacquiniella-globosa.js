@@ -223,7 +223,7 @@ export const jacquiniellaGlobosa = {
     mesesFloracao: [1, 2, 8, 9, 11, 12],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
-        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+        "climaFloracao": { "faixa": "ameno" }
     },
         avaliacoes: {
         cultivo: 2,
