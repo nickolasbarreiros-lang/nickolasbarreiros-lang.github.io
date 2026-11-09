@@ -227,7 +227,7 @@ export const dichaeaPendula = {
     mesesFloracao: [1, 4, 11, 12],
     "selosCultivo": {
         "rega": { "nivel": "muito-frequente" },
-        "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
+        "climaFloracao": { "faixa": "ameno" }
     },
         avaliacoes: {
         cultivo: 3,
