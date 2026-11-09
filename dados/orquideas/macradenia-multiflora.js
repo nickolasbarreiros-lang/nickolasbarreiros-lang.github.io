@@ -187,7 +187,7 @@ export const macradeniaMultiflora = {
     mesesFloracao: [3, 4, 5, 6, 11, 12],
 
     selosCultivo: {
-        rega: { nivel: "frequente", regime: "ano-todo" },
+        rega: { nivel: "frequente" },
         climaFloracao: { faixa: "intermediario", quedaTermica: false }
     },
 
