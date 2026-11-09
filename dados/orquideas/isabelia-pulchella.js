@@ -186,8 +186,7 @@ export const isabeliaPulchella = {
   "mesesFloracao": [5, 6, 7, 8],
   "selosCultivo": {
     "rega": {
-      "nivel": "frequente",
-      "regime": "ano-todo",
+      "nivel": "frequente"
       "evitarEncharcamento": true
     },
     "climaFloracao": {
