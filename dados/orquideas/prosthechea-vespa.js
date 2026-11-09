@@ -189,7 +189,6 @@ export const prosthecheaVespa = {
   "selosCultivo": {
     "rega": {
       "nivel": "moderada",
-      "regime": "ano-todo",
       "evitarEncharcamento": true
     },
     "climaFloracao": {
