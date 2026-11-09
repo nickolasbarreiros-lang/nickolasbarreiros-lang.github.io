@@ -183,7 +183,6 @@ export const stelisCiliaris = {
   "selosCultivo": {
     "rega": {
       "nivel": "frequente",
-      "regime": "ano-todo",
       "evitarEncharcamento": true
     },
     "climaFloracao": {
