@@ -85,4 +85,8 @@ export const cattleyaWalkerianaFAlbaGnomusXFAlbaSuprema = {
 ],
 
     dica: "🏆 Neste cruzamento entre duas Cattleyas walkerianas albas, a prioridade é formar pseudobulbos maduros sem manter as raízes permanentemente úmidas. Ofereça luz intensa, com adaptação ao sol suave, ventilação constante e regas regulares quando surgirem raízes novas. Na fase de crescimento reduzido, diminua a frequência conforme a secagem do suporte. Não tente induzir flores com desidratação severa. Como cada muda pode expressar vigor diferente, acompanhe o desenvolvimento individual antes de alterar a adubação ou o regime de água.",
+    selosCultivo: {
+        rega: { nivel: "sazonal", regime: "reduzir-repouso" },
+        climaFloracao: { faixa: "quente" }
+    }
 };
