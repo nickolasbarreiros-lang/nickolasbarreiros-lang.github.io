@@ -78,4 +78,8 @@ export const gongoraBufonia = {
 ],
 
     dica: "🏆 O segredo desta Gongora é deixar espaço livre abaixo da planta para suas longas inflorescências pendentes. Prefira cesto suspenso ou recipiente elevado, verificando se as hastes poderão atravessar a borda sem dobrar ou quebrar. Mantenha raízes úmidas e bem ventiladas, com luz filtrada e regas regulares durante o crescimento. Não deixe o substrato compactar nem acumular água junto aos pseudobulbos. Evite movimentar a planta quando os botões estiverem se formando, pois as hastes são delicadas.",
+    selosCultivo: {
+        rega: { nivel: "frequente" },
+        climaFloracao: { faixa: "intermediario" }
+    }
 };
