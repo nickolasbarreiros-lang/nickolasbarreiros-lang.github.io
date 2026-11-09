@@ -131,4 +131,9 @@ export const cattleyaABrazilianDream = {
 ],
 
     dica: "🏆 Neste híbrido de Cattleya nobilior com Cattleya loddigesii, observe o ritmo dos brotos antes de definir as regas. Durante o crescimento e a emissão de raízes, ofereça água abundante, luz forte filtrada e excelente ventilação. Quando os pseudobulbos amadurecerem, reduza gradualmente a frequência conforme a secagem do substrato, sem impor uma dormência rígida. Prefira recipiente proporcional, que não retenha umidade por muitos dias. O objetivo é formar brotos firmes e maduros, respeitando a resposta do exemplar às condições do cultivo.",
+    selosCultivo: {
+        rega: { nivel: "moderada" },
+        climaFloracao: { faixa: "quente" }
+    },
+
 };
