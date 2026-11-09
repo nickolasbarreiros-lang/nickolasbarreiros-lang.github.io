@@ -225,7 +225,7 @@ export const miltoniaClowesii = {
     "mesesFloracao": [2, 3],
     "selosCultivo": {
         "rega": { "nivel": "frequente" },
-        "climaFloracao": { "faixa": "quente" }
+        "climaFloracao": { "faixa": "intermediario" }
     },
         "avaliacoes": {
         "cultivo": 3,
