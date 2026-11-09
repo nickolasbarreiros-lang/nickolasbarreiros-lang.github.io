@@ -187,7 +187,6 @@ export const prosthecheaFragrans = {
   "selosCultivo": {
     "rega": {
       "nivel": "moderada",
-      "regime": "ano-todo",
       "evitarEncharcamento": true
     },
     "climaFloracao": {
