@@ -189,7 +189,7 @@ export const polystachyaConcreta = {
 
     selosCultivo: {
         rega: { nivel: "moderada", regime: "ano-todo" },
-        climaFloracao: { faixa: "amplo", quedaTermica: false }
+        climaFloracao: { faixa: "quente", quedaTermica: false }
     },
 
     avaliacoes: {
