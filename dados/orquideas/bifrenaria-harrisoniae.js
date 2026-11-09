@@ -93,7 +93,7 @@ export const bifrenariaHarrisoniae = {
         luminosidade: 4,
         agua: 3,
         raridade: 3
-    }
+    },
     selosCultivo: {
         rega: { nivel: "moderada", regime: "reduzir-inverno" },
         climaFloracao: { faixa: "intermediario" }
