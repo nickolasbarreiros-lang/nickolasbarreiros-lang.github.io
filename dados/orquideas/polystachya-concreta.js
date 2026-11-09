@@ -188,7 +188,7 @@ export const polystachyaConcreta = {
     mesesFloracao: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
 
     selosCultivo: {
-        rega: { nivel: "moderada", regime: "ano-todo" },
+        rega: { nivel: "moderada" },
         climaFloracao: { faixa: "quente", quedaTermica: false }
     },
 
