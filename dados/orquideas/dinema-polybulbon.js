@@ -192,8 +192,7 @@ export const dinemaPolybulbon = {
   ],
   "selosCultivo": {
     "rega": {
-      "nivel": "frequente",
-      "regime": "ano-todo",
+      "nivel": "frequente"
       "evitarEncharcamento": true
     },
     "climaFloracao": {
