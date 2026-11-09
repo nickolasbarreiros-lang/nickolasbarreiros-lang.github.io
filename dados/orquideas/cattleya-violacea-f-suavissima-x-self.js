@@ -131,4 +131,9 @@ export const cattleyaViolaceaFSuavissimaXSelf = {
         "alerta": "Lave periodicamente para reduzir sais; evite encharcar e não enterre o rizoma.",
         "notaEvidencia": "MACS 1.1 — revisão documental: Cattleya violacea f. suavissima × self é progênie por autofecundação de seleção de cor, não híbrido interespecífico; cultivo quente e úmido, raízes epífitas sensíveis a sais e seca prolongada. Cachepô de Madeira como suporte principal proposto; estrelas são heurísticas, não ensaios comparativos. Receita visual e textual coincidem: 35% pinus médio + 25% macadâmia média + 20% carvão vegetal médio + 20% fibra de coco lavada = 100%. Duas outras misturas editoriais qualitativas distintas, sem percentuais: pinus/fibra de coco lavada/carvão/casca de arroz carbonizada e macadâmia/pinus/fibra de coco lavada/carvão. Proporções históricas 40/30/20/10 não integram as alternativas publicadas nem foram homologadas. A referência anterior a cultivo em cestos/placas não valida proporções para esta progênie. Monitorar retenção, secagem, salinidade e diferenças entre seedlings. Não há homologação quantitativa específica nem consulta individualizada a até 25 produtores brasileiros; percentuais e estrelas NÃO HOMOLOGADOS",
     }
+    selosCultivo: {
+        rega: { nivel: "frequente" },
+        climaFloracao: { faixa: "quente" }
+    },
+
 };
