@@ -231,7 +231,7 @@ export const coelogyneFlaccida = {
         12
     ],
     "selosCultivo": {
-        "rega": { "nivel": "moderada", "regime": "reduzir-repouso" },
+        "rega": { "nivel": "moderada", "regime": "reduzir-inverno" },
         "climaFloracao": { "faixa": "ameno", "quedaTermica": true }
     },
         "avaliacoes": {
