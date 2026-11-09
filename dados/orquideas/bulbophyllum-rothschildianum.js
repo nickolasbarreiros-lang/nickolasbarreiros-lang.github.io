@@ -280,7 +280,7 @@ export const bulbophyllumRothschildianum = {
     mesesFloracao: [3, 4, 5, 6, 7, 8, 9, 10, 11],
     "selosCultivo": {
         "rega": { "nivel": "muito-frequente" },
-        "climaFloracao": { "faixa": "quente", "floraNoCalor": true }
+        "climaFloracao": { "faixa": "intermediario" }
     },
         avaliacoes: { cultivo: 3, floracao: 4, perfume: 3, luminosidade: 3, agua: 4, raridade: 4 }
 };
