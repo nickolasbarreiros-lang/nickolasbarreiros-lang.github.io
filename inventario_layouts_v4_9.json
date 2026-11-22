@@ -1,11 +1,11 @@
 {
   "versao_referencia": "V4.9",
-  "data_auditoria": "2026-11-02",
+  "data_auditoria": "2026-11-22",
   "metodo": "Auditoria direta dos arquivos JS: presença das propriedades formasCultivo e substratoVisual. index.js é arquivo técnico, não ficha. Marcação estrutural não certifica renderização, imagens/assets ou MACS 1.0. Não modifica fichas.",
-  "total_arquivos": 150,
+  "total_arquivos": 156,
   "resumo": {
-    "ambos_layouts_marcados": 149,
-    "pendentes_de_verificacao": 0,
+    "ambos_layouts_marcados": 154,
+    "pendentes_de_verificacao": 1,
     "arquivo_tecnico_excluido": 1
   },
   "fichas": [
@@ -276,6 +276,15 @@
       "versao_referencia": "V4.9"
     },
     {
+      "arquivo": "dados/orquideas/cattleya-amethystoglossa-var-aurea.js",
+      "especie": "Cattleya amethystoglossa forma aurea",
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-22",
+      "versao_referencia": "V4.9"
+    },
+    {
       "arquivo": "dados/orquideas/cattleya-chocolate-drop.js",
       "especie": "cattleya-chocolate-drop",
       "layout_cultivo_ideal": true,
@@ -348,8 +357,8 @@
       "versao_referencia": "V4.9"
     },
     {
-      "arquivo": "dados/orquideas/cattleya-schilleriana.js",
-      "especie": "cattleya-schilleriana",
+      "arquivo": "dados/orquideas/cattleya-schilleriana-x-cruzeiro-do-sul.js",
+      "especie": "cattleya-schilleriana-x-cruzeiro-do-sul",
       "layout_cultivo_ideal": true,
       "layout_substrato_ideal": true,
       "novo_layout": true,
@@ -357,8 +366,8 @@
       "versao_referencia": "V4.9"
     },
     {
-      "arquivo": "dados/orquideas/cattleya-schilleriana-x-cruzeiro-do-sul.js",
-      "especie": "cattleya-schilleriana-x-cruzeiro-do-sul",
+      "arquivo": "dados/orquideas/cattleya-schilleriana.js",
+      "especie": "cattleya-schilleriana",
       "layout_cultivo_ideal": true,
       "layout_substrato_ideal": true,
       "novo_layout": true,
@@ -384,8 +393,8 @@
       "versao_referencia": "V4.9"
     },
     {
-      "arquivo": "dados/orquideas/cattleya-walkeriana.js",
-      "especie": "cattleya-walkeriana",
+      "arquivo": "dados/orquideas/cattleya-walkeriana-f-alba-gnomus-x-f-alba-suprema.js",
+      "especie": "Cattleya walkeriana (f. alba ",
       "layout_cultivo_ideal": true,
       "layout_substrato_ideal": true,
       "novo_layout": true,
@@ -393,8 +402,8 @@
       "versao_referencia": "V4.9"
     },
     {
-      "arquivo": "dados/orquideas/cattleya-walkeriana-f-alba-gnomus-x-f-alba-suprema.js",
-      "especie": "Cattleya walkeriana (f. alba ",
+      "arquivo": "dados/orquideas/cattleya-walkeriana.js",
+      "especie": "cattleya-walkeriana",
       "layout_cultivo_ideal": true,
       "layout_substrato_ideal": true,
       "novo_layout": true,
@@ -654,12 +663,30 @@
       "versao_referencia": "V4.9"
     },
     {
+      "arquivo": "dados/orquideas/epidendrum-fulgens.js",
+      "especie": "Epidendrum fulgens",
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-22",
+      "versao_referencia": "V4.9"
+    },
+    {
       "arquivo": "dados/orquideas/epidendrum-hokulea-super-red.js",
       "especie": "Epidendrum Hokulea ‘Super Red’",
       "layout_cultivo_ideal": true,
       "layout_substrato_ideal": true,
       "novo_layout": true,
       "origem_marcacao": "auditoria_estrutural_anterior",
+      "versao_referencia": "V4.9"
+    },
+    {
+      "arquivo": "dados/orquideas/epidendrum-secundum.js",
+      "especie": "Epidendrum secundum",
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-22",
       "versao_referencia": "V4.9"
     },
     {
@@ -798,8 +825,8 @@
       "versao_referencia": "V4.9"
     },
     {
-      "arquivo": "dados/orquideas/laelia-lundii.js",
-      "especie": "Cattleya lundii",
+      "arquivo": "dados/orquideas/laelia-lundii-alba.js",
+      "especie": "Cattleya lundii f. alba",
       "layout_cultivo_ideal": true,
       "layout_substrato_ideal": true,
       "novo_layout": true,
@@ -807,8 +834,8 @@
       "versao_referencia": "V4.9"
     },
     {
-      "arquivo": "dados/orquideas/laelia-lundii-alba.js",
-      "especie": "Cattleya lundii f. alba",
+      "arquivo": "dados/orquideas/laelia-lundii.js",
+      "especie": "Cattleya lundii",
       "layout_cultivo_ideal": true,
       "layout_substrato_ideal": true,
       "novo_layout": true,
@@ -912,6 +939,15 @@
       "layout_substrato_ideal": true,
       "novo_layout": true,
       "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
+    },
+    {
+      "arquivo": "dados/orquideas/maxillaria-johannis.js",
+      "especie": "Maxillaria johannis",
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-22",
       "versao_referencia": "V4.9"
     },
     {
@@ -1074,6 +1110,15 @@
       "layout_substrato_ideal": true,
       "novo_layout": true,
       "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
+      "versao_referencia": "V4.9"
+    },
+    {
+      "arquivo": "dados/orquideas/oncidium-sphacelatum.js",
+      "especie": "Oncidium sphacelatum",
+      "layout_cultivo_ideal": true,
+      "layout_substrato_ideal": true,
+      "novo_layout": true,
+      "origem_marcacao": "auditoria_estrutural_direta_2026-11-22",
       "versao_referencia": "V4.9"
     },
     {
