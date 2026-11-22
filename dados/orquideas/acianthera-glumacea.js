@@ -9,7 +9,7 @@ export const aciantheraGlumacea = {
     origem: "Brasil",
     regiao: "Mata Atlântica serrana do Sudeste e Sul do Brasil",
     habitat: "Epífita de floresta primária úmida.",
-    descricao: "Uma pequena orquídea brasileira que compensa o porte discreto com florações muito charmosas. A Acianthera glumacea forma touceiras compactas de folhas firmes e pode produzir mais de uma haste floral ao mesmo tempo, cada uma carregando várias flores amareladas de aproximadamente 1,9 cm, registradas também como perfumadas. Um detalhe especialmente interessante é sua capacidade de voltar a florescer a partir de crescimentos antigos durante vários anos. Por isso, ramicaules ainda verdes merecem ser preservados mesmo depois da floração: eles continuam fazendo parte do potencial ornamental da planta.",
+    descricao: "Uma pequena orquídea brasileira que compensa o porte discreto com florações muito charmosas. A Acianthera glumacea forma touceiras compactas de folhas firmes e pode produzir mais de uma haste floral ao mesmo tempo, cada uma carregando várias flores amareladas de aproximadamente 1,9 cm, registradas também como perfumadas. Um detalhe especialmente interessante é sua capacidade de voltar a florescer a partir de crescimentos antigos durante vários anos. Por isso, ramicaules ainda verdes merecem ser preservados mesmo depois da floração: eles continuam fazendo parte do potencial ornamental da planta. Na natureza, cresce sobre árvores de florestas úmidas.",
     caracteristicas: ["Touceira cespitosa", "~1.300 m", "Flores ~1,9 cm", "4–9 flores por racemo", "Perfume presente", "Ramicaules podem reflorir", "Clima fresco"],
     fotos: [
         "imagens/Acianthera glumacea/Acianthera glumacea1.jpeg",
