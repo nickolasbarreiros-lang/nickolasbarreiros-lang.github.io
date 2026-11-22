@@ -1,4 +1,4 @@
-// Ficha V4.9 — Maxillaria johannis; rascunho, pendências documentais e direitos de imagem.
+// Ficha V4.9 — Maxillaria johannis; rascunho com ressalvas documentais.
 export const maxillariaJohannis = {
   "id": "maxillaria-johannis",
   "nome": "Maxillaria johannis",
@@ -9,12 +9,12 @@ export const maxillariaJohannis = {
   "origem": "Brasil",
   "regiao": "Sul e Sudeste do Brasil",
   "habitat": "Epífita de florestas tropicais úmidas, com rizoma rastejante aderido ao suporte.",
-  "descricao": "Maxillaria johannis é uma orquídea brasileira de crescimento rastejante, que se espalha pelo suporte por meio de um rizoma. Possui pseudobulbos conspícuos, lisos e levemente achatados, normalmente com duas folhas oblongas no ápice. Cada pseudobulbo pode produzir várias inflorescências curtas, que mantêm as flores próximas à folhagem. As flores amarelas medem aproximadamente dois centímetros e apresentam labelo também amarelo. Na natureza, cresce sobre árvores em florestas úmidas, protegida da radiação solar intensa. Em cultivo, beneficia-se de um suporte amplo, boa ventilação, luz filtrada e umidade regular, sem saturação prolongada do substrato. O rizoma deve permanecer livre para avançar.",
+  "descricao": "Maxillaria johannis é uma orquídea brasileira epífita de florestas tropicais úmidas, com crescimento simpodial ao longo de um rizoma conspícuo. Os pseudobulbos ficam distribuídos pelo suporte, de modo que a planta precisa de espaço lateral para se desenvolver. Suas pequenas flores, com cerca de dois centímetros, aparecem em pedúnculos curtos próximos à parte vegetativa. É uma espécie que merece atenção especial à umidade junto das raízes, sem prejudicar a circulação de ar. Em cultivo, a luz filtrada e a mistura aberta ajudam a manter o crescimento saudável. Prefira um suporte que permita a expansão gradual do rizoma, sem enterrá-lo.",
   "caracteristicas": [
-    "Epífita de rizoma rastejante",
-    "Pseudobulbos com duas folhas",
-    "Flores amarelas de cerca de 2 cm",
-    "Várias inflorescências por pseudobulbo",
+    "Epífita brasileira",
+    "Rizoma conspícuo",
+    "Flores de cerca de 2 cm",
+    "Pedúnculos curtos",
     "Meia-sombra"
   ],
   "fotos": [
@@ -50,7 +50,7 @@ export const maxillariaJohannis = {
     "observacoes": "Prefira luz filtrada e ventilação constante. O hábito florestal recomenda proteção contra sol forte, principalmente no litoral. Observe o crescimento novo: folhas queimadas ou muito aquecidas pedem proteção adicional; crescimento fraco e escuro pode indicar luz insuficiente.",
     "seloLuz": "laranja"
   },
-  "floracao": "Produz várias inflorescências curtas por pseudobulbo, com flores amarelas de aproximadamente 2 cm e labelo amarelo. A época de floração, o perfume, a duração individual e a abertura simultânea ou sequencial ainda não estão suficientemente documentados. Não há confirmação de reflorescência da mesma haste.",
+  "floracao": "As flores medem aproximadamente 2 cm e surgem em pedúnculos curtos. A época de floração, o perfume e a duração individual ainda não estão suficientemente documentados. Não há confirmação de reflorescência da mesma haste.",
   "adubacao": "🌿 Orgânica: opcional, pequena porção de bokashi na borda do recipiente, longe do rizoma.\n💧 Foliar/mineral: NPK equilibrado a 1/4 da dose do rótulo a cada 10–15 dias no crescimento ativo.\n🧪 Osmocote: opcional, em pequena quantidade, sem contato direto com brotos e raízes.\n🚿 Flushing: lave o substrato mensalmente com água de boa qualidade para remover sais.",
   "rega": "💧 Crescimento ativo: regue bem quando a mistura começar a perder umidade, sem deixar água acumulada.\n🌤️ Calor: acompanhe diariamente a secagem e proteja o rizoma da desidratação prolongada.\n🌧️ Frio: espaçe as regas conforme a secagem, sem impor repouso seco.",
   "suporte": [
@@ -171,15 +171,18 @@ export const maxillariaJohannis = {
     "nome": "Maxillaria johannis Pabst",
     "statusTaxonomico": "Aceito por Kew",
     "sinonimosPrincipais": "Camaridium robustum; Maxillariella robusta",
-    "morfologiaDimensoes": "Rizoma rastejante, pseudobulbos bilfoliados, várias inflorescências curtas, flores amarelas de cerca de 2 cm.",
+    "morfologiaDimensoes": "Rizoma conspícuo, pedúnculos curtos e flores de aproximadamente 2 cm; demais atributos requerem confirmação.",
     "habitatAltitudeClima": "Florestas tropicais úmidas; altitude específica não confirmada.",
     "distribuicaoGeografica": "Sul e Sudeste do Brasil",
-    "cultivoPremiacao": "Recomendações provisórias por ecologia e hábito; calendário não confirmado; sem amostra MACS de 25 produtores.",
+    "cultivoPremiacao": "Seidel e IOSPE identificam a espécie, mas não fornecem época de floração. Maxillaria robusta Barb.Rodr. é táxon distinto; não utilizar registros comerciais sob esse nome para definir calendário. Singer & Koehler (2004) registram flores sem recompensa floral, o que não implica ausência de perfume. Recomendações de cultivo provisórias; amostra MACS incompleta.",
     "confianca": "baixa a moderada",
     "fontes": [
       "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155113-2",
       "https://www.worldfloraonline.org/taxon/wfo-0000238519",
-      "https://www.orchidspecies.com/maxjohannis.htm"
+      "https://www.orchidspecies.com/maxjohannis.htm",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4242263/",
+      "https://www.aos.org/explore/maxillaria",
+      "https://seidel.com.br/produto/maxillaria-johannis/"
     ]
   },
   "indiceDificuldadeCultivo": {
