@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "catalogo": "Orquidário Digital",
-  "quantidade_esperada": 151,
+  "quantidade_esperada": 152,
   "arquivos_esperados": [
     "acianthera-auriculata.js",
     "acianthera-aveniformis.js",
@@ -104,6 +104,7 @@
     "maxillaria-brasiliensis.js",
     "maxillaria-camaridii.js",
     "maxillaria-chrysantha.js",
+    "maxillaria-johannis.js",
     "maxillaria-leucaimata.js",
     "maxillaria-picta.js",
     "maxillaria-pumila-ex-minuta.js",
