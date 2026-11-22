@@ -16,7 +16,7 @@ export const maxillariaJohannis = {
     "https://seidel.com.br/wp-content/uploads/2024/09/Maxillaria-johannis.jpg",
     "https://www.orchidspecies.com/orphotdir/maxjohannis.jpg",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGL8rtMb42YCpr4cNhaU6f8KwcjwiQRB-f7CFQEhXR1g&s=10",
-    "https://cdn.awsli.com.br/600x700/2446/2446161/produto/287494433/5487317643efdba1634c762b49b49b58-m77noj5pem.jpg"
+    "https://fm-digital-assets.fieldmuseum.org/1496/844/ORCH_Maxillariella_robusta_bra_PLei195.jpg"
   ],
   "creditosFotos": [
     {
@@ -35,9 +35,11 @@ export const maxillariaJohannis = {
       "nomeLicenca": "Licença não confirmada"
     },
     {
-      "autor": "Orquidário 4 Estações — autoria individual não confirmada",
-      "origem": "https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad",
-      "nomeLicenca": "Licença não confirmada"
+      "autor": "Paula M. Leitman",
+      "origem": "https://plantidtools.fieldmuseum.org/pt/nlp/catalogue/3678972",
+      "licenca": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "nomeLicenca": "CC BY-NC 4.0",
+      "alteracoes": false
     }
   ],
   "descricao": "Maxillaria johannis é uma orquídea brasileira de porte pequeno, encontrada em florestas tropicais úmidas, onde cresce sobre árvores. Seus pseudobulbos armazenam água e sustentam folhas persistentes, enquanto o crescimento vegetativo permite a formação de touceiras. As pequenas flores, de aproximadamente 1,5 a 2 cm, apresentam tonalidades claras, entre creme e amarelo, e podem surgir em conjunto na base da planta. O perfume ainda não está bem documentado. Seu ambiente natural favorece o cultivo sob luz filtrada, com umidade regular e circulação de ar. As raízes precisam de espaço e de uma mistura drenante, sem secas prolongadas ou saturação constante.",
@@ -161,7 +163,7 @@ export const maxillariaJohannis = {
       }
     ],
     "alerta": "Não enterre o rizoma nem mantenha a mistura saturada.",
-    "notaEvidencia": "Proposta técnica, não ensaio específico. Meta de 25 produtores não atingida; uma fonte comercial específica confirma drenagem, sombra e floração de verão. Direitos das fotos pendentes. Fontes: https://powo.science.kew.org/taxon/155113-2 ; https://www.orchidspecies.com/maxjohannis.htm ; https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad."
+    "notaEvidencia": "Proposta técnica, não ensaio específico. Meta de 25 produtores não atingida; uma fonte comercial específica confirma drenagem, sombra e floração de verão. Direitos das três primeiras fotos pendentes; quarta foto CC BY-NC 4.0, uso exclusivamente não comercial. Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155113-2 ; https://www.orchidspecies.com/maxjohannis.htm ; https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad."
   },
   "errosComuns": [
     "Enterrar o rizoma.",
@@ -319,9 +321,11 @@ export const maxillariaJohannis = {
     "sinonimosPrincipais": "Camaridium robustum; Maxillariella robusta",
     "confianca": "moderada",
     "fontes": [
-      "https://powo.science.kew.org/taxon/155113-2",
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155113-2",
       "https://www.orchidspecies.com/maxjohannis.htm",
-      "https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad"
+      "https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad",
+      "https://www.worldfloraonline.org/taxon/wfo-0000238519",
+      "https://plantidtools.fieldmuseum.org/pt/nlp/catalogue/3678972"
     ]
   }
 };
