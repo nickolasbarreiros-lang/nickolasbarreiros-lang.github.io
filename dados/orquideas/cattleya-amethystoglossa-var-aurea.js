@@ -61,11 +61,11 @@ export const cattleyaAmethystoglossaVarAurea = {
   ],
   "formasCultivo": {
     "perfilVisual": "epifita",
-    "destaque": "Vaso de barro",
+    "destaque": "Vaso de Barro",
     "resumo": "Planta bifoliada de grande porte, com raízes que exigem aeração e firmeza. O barro favorece a estabilidade e a secagem do substrato.",
     "metodos": [
       {
-        "nome": "Vaso de barro",
+        "nome": "Vaso de Barro",
         "asset": "vaso-barro",
         "estrelas": 5,
         "status": "Ideal",
@@ -79,14 +79,14 @@ export const cattleyaAmethystoglossaVarAurea = {
         "texto": "Ventila as raízes; monitore a umidade e use tutor se necessário."
       },
       {
-        "nome": "Cachepô de madeira",
+        "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
         "estrelas": 4,
         "status": "Muito recomendado",
         "texto": "Mantém raízes arejadas, mas pode exigir regas mais frequentes no calor."
       },
       {
-        "nome": "Placa / Tronco",
+        "nome": "Placa / tronco",
         "asset": "placa-tronco",
         "estrelas": 3,
         "status": "Alternativa",
