@@ -23,7 +23,7 @@ export const coelogyneOvalisVarMiniatum = {
         "imagens/coelogyne-ovalis-miniatum/coelogyne-ovalis-miniatum-3.webp",
         "imagens/coelogyne-ovalis-miniatum/coelogyne-ovalis-miniatum-4.jpeg"
     ],
-    "descricao": "Uma Coelogyne pequena e elegante, de crescimento rastejante, que vai avançando pelo suporte à medida que forma novos pseudobulbos. Quando corresponde à verdadeira Coelogyne ovalis, produz flores perfumadas de cerca de 3–4 cm, geralmente em tons amarelo-esverdeados a castanhos, com um labelo bem marcado. O nome ovalis faz referência ao formato ovalado da parte central do labelo. O rótulo ‘Miniatum’ usado nesta planta é horticultural e não representa uma variedade botânica reconhecida; por isso, a próxima floração é a melhor oportunidade para confirmar definitivamente sua identidade.",
+    "descricao": "Uma Coelogyne pequena e elegante, de crescimento rastejante, que vai avançando pelo suporte à medida que forma novos pseudobulbos. Quando corresponde à verdadeira Coelogyne ovalis, produz flores de cerca de 4–5 cm, com perfume discreto ou imperceptível, geralmente em tons amarelo-esverdeados a castanhos, com um labelo bem marcado. O nome ovalis faz referência ao formato ovalado da parte central do labelo. O rótulo ‘Miniatum’ usado nesta planta é horticultural e não representa uma variedade botânica reconhecida; por isso, a próxima floração é a melhor oportunidade para confirmar definitivamente sua identidade. A espécie ocorre em florestas montanas, sobre árvores e rochas, entre cerca de 600 e 2.100 m.",
     "origem": "Himalaia e Sudeste Asiático",
     "regiao": "Nepal · NE da Índia · sul da China · Indochina",
     "habitat": "Florestas montanas · árvores/rochas · 600–2.100 m.",
