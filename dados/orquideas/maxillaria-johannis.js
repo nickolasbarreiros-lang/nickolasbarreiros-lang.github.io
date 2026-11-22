@@ -7,9 +7,10 @@ export const maxillariaJohannis = {
   "tipo": "Espécie botânica",
   "dificuldade": "Moderada",
   "caracteristicas": [
-    "Epífita brasileira de flores pequenas",
-    "Pseudobulbos e rizoma superficial",
-    "Flores com cerca de 2 cm",
+    "Epífita de rizoma rastejante e aderente ao suporte",
+    "Pseudobulbos elipsoides com duas folhas oblongas",
+    "Várias inflorescências curtas por pseudobulbo",
+    "Flores amarelas de cerca de 2 cm, com labelo trilobado",
     "Sem recompensa floral aparente"
   ],
   "fotos": [
@@ -42,7 +43,7 @@ export const maxillariaJohannis = {
       "alteracoes": false
     }
   ],
-  "descricao": "Maxillaria johannis é uma pequena orquídea brasileira encontrada em florestas úmidas, inclusive matas de montanha, onde cresce sobre árvores. Seus pseudobulbos armazenam água e sustentam a folhagem, enquanto o rizoma permite a expansão da planta sobre o suporte. As flores medem cerca de 2 cm e apresentam tonalidades claras, entre creme e amarelo, nas imagens disponíveis. Uma curiosidade é que suas flores não oferecem recompensa floral aparente aos visitantes, como néctar ou secreções nutritivas. O perfume não está confirmado. No cultivo, favoreça luz filtrada, umidade regular e circulação de ar, mantendo o rizoma livre e as raízes hidratadas sem encharcamento.",
+  "descricao": "Maxillaria johannis é uma pequena orquídea brasileira de florestas úmidas, inclusive montanas, onde cresce sobre árvores. Seu rizoma rastejante acompanha a superfície do suporte, formando pseudobulbos elipsoides, ligeiramente achatados, com duas folhas oblongas de pontas arredondadas ou discretamente recortadas. Cada pseudobulbo pode produzir várias inflorescências mais curtas que as folhas. As flores amarelas, de aproximadamente 2 cm, apresentam labelo trilobado e pétalas menores que as sépalas. Não oferecem recompensa floral aparente, embora o perfume permaneça desconhecido. No cultivo, favoreça luz filtrada, umidade regular e ventilação, deixando espaço para o rizoma avançar e as raízes se fixarem sem encharcamento.",
   "origem": "Brasil",
   "regiao": "Sul e Sudeste do Brasil",
   "habitat": "Florestas tropicais úmidas, incluindo matas de montanha · epífita. Faixa altitudinal específica não confirmada.",
@@ -55,7 +56,7 @@ export const maxillariaJohannis = {
     "observacoes": "Cultive em meia-sombra, com luz filtrada. Os percentuais são referências práticas, não limites medidos para a espécie. Em ambiente quente, aumente a proteção conforme o aquecimento das folhas. Aclimate gradualmente antes de oferecer sol suave no início da manhã. Queimaduras indicam excesso de exposição; brotação fraca pode indicar luz insuficiente.",
     "seloLuz": "laranja"
   },
-  "floracao": "As flores medem cerca de 2 cm, com tonalidades creme a amareladas nas imagens disponíveis. Não apresentam recompensa floral aparente, como néctar ou secreções; isso não significa ausência de perfume. Há relato comercial de floração no verão e duração ornamental de cerca de 15 dias, ainda sem confirmação independente. Dezembro a fevereiro são meses indicativos. Perfume, duração individual, sequência de abertura e reflorescência da haste não confirmados.",
+  "floracao": "Cada pseudobulbo pode emitir várias inflorescências mais curtas que as folhas. As flores amarelas, sem ornamentação evidente, medem cerca de 2 cm e possuem pétalas menores que as sépalas e labelo amarelo trilobado. Não apresentam recompensa floral aparente, como néctar ou secreções; isso não significa ausência de perfume. Há relato comercial de floração no verão e duração ornamental de cerca de 15 dias, ainda sem confirmação independente. Dezembro a fevereiro são meses indicativos. Perfume, duração individual, sequência de abertura e reflorescência da haste não confirmados.",
   "mesesFloracao": [
     12,
     1,
@@ -163,7 +164,7 @@ export const maxillariaJohannis = {
       }
     ],
     "alerta": "Não enterre o rizoma nem mantenha a mistura saturada.",
-    "notaEvidencia": "Proposta técnica, não ensaio específico. Meta de 25 produtores não atingida; uma fonte comercial específica confirma drenagem, sombra e floração de verão. Direitos das três primeiras fotos pendentes; quarta foto CC BY-NC 4.0, uso exclusivamente não comercial. Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155113-2 ; https://www.orchidspecies.com/maxjohannis.htm ; https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad. Referências gerais de suporte à mistura, não específicas da espécie: https://www.esalq.usp.br/biblioteca/sites/default/files/publicacoes-a-venda/pdf/SPR_Orquideas.pdf ; https://www.sosa.org.br/dicas-de-cultivo/ ; https://www.sistemafaep.org.br/wp-content/uploads/2026/01/PR.0397-Cultivo-de-Orquideas_web.pdf. O produtor consultado classifica o cultivo como fácil; IDC 40 é estimativa conservadora do projeto, não resultado de ensaio. Revisão dos três PDFs de 22/11/2026: IOSPE confirma 2 cm e meia-sombra; Singer & Koehler (2004) confirma ausência de recompensa aparente. Medidas vegetativas, autoria Schlechter e combinação Camaridium johannis do Gemini não corroboradas; percentuais de sombra e manejo de esfagno são estimativas práticas. Receita e índices mantidos por falta de evidência comparativa."
+    "notaEvidencia": "Proposta técnica, não ensaio específico. Meta de 25 produtores não atingida; uma fonte comercial específica confirma drenagem, sombra e floração de verão. Direitos das três primeiras fotos pendentes; quarta foto CC BY-NC 4.0, uso exclusivamente não comercial. Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155113-2 ; https://www.orchidspecies.com/maxjohannis.htm ; https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad. Referências gerais de suporte à mistura, não específicas da espécie: https://www.esalq.usp.br/biblioteca/sites/default/files/publicacoes-a-venda/pdf/SPR_Orquideas.pdf ; https://www.sosa.org.br/dicas-de-cultivo/ ; https://www.sistemafaep.org.br/wp-content/uploads/2026/01/PR.0397-Cultivo-de-Orquideas_web.pdf. O produtor consultado classifica o cultivo como fácil; IDC 40 é estimativa conservadora do projeto, não resultado de ensaio. Revisão dos três PDFs de 22/11/2026: IOSPE confirma 2 cm e meia-sombra; Singer & Koehler (2004) confirma ausência de recompensa aparente. Medidas vegetativas, autoria Schlechter e combinação Camaridium johannis do Gemini não corroboradas; percentuais de sombra e manejo de esfagno são estimativas práticas. Receita e índices mantidos por falta de evidência comparativa. Descrição morfológica da WFO consultada: confirma hábito rastejante, duas folhas e várias inflorescências por pseudobulbo; não sustenta o hábito escandente descrito no PDF Gemini."
   },
   "errosComuns": [
     "Enterrar o rizoma.",
@@ -330,6 +331,7 @@ export const maxillariaJohannis = {
       "https://pmc.ncbi.nlm.nih.gov/articles/PMC4242263/"
     ],
     "habitatAltitudeClima": "Epífita de floresta tropical úmida; ocorrência documentada em floresta montana da Mata Atlântica (Marcusso et al., 2022, voucher TBF 1078 ESA). Limites altitudinais e térmicos específicos não estabelecidos.",
-    "polinização": "Singer & Koehler (2004), tabela 1, voucher 8452 (SP): aliança M. uncata, polinário tipo 1 av/st, sem recompensa floral aparente. Não demonstra ausência de perfume nem identifica polinizador específico."
+    "polinização": "Singer & Koehler (2004), tabela 1, voucher 8452 (SP): aliança M. uncata, polinário tipo 1 av/st, sem recompensa floral aparente. Não demonstra ausência de perfume nem identifica polinizador específico.",
+    "morfologia": "World Flora Online, descrição morfológica local: rizoma rastejante aderente ao substrato, pseudobulbos lisos elipsoides ligeiramente comprimidos, duas folhas oblongas, várias inflorescências por pseudobulbo, flores amarelas sem ornamentação, labelo trilobado."
   }
 };
