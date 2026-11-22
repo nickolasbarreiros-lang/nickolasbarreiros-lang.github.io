@@ -25,7 +25,7 @@ export const maxillariaJohannis = {
       "nomeLicenca": "Licença não confirmada"
     },
     {
-      "autor": "Dalton Holland Baptista / Dan Souza — atribuição individual a confirmar",
+      "autor": "Dan Souza (Orchidstudium); cortesia de Dalton Holland Baptista",
       "origem": "https://www.orchidspecies.com/maxjohannis.htm",
       "nomeLicenca": "Licença não confirmada"
     },
@@ -45,7 +45,7 @@ export const maxillariaJohannis = {
   "descricao": "Maxillaria johannis é uma orquídea brasileira de porte pequeno, encontrada em florestas tropicais úmidas, onde cresce sobre árvores. Seus pseudobulbos armazenam água e sustentam folhas persistentes, enquanto o crescimento vegetativo permite a formação de touceiras. As pequenas flores, de aproximadamente 1,5 a 2 cm, apresentam tonalidades claras, entre creme e amarelo, e podem surgir em conjunto na base da planta. O perfume ainda não está bem documentado. Seu ambiente natural favorece o cultivo sob luz filtrada, com umidade regular e circulação de ar. As raízes precisam de espaço e de uma mistura drenante, sem secas prolongadas ou saturação constante.",
   "origem": "Brasil",
   "regiao": "Sul e Sudeste do Brasil",
-  "habitat": "Florestas tropicais úmidas · epífita. Faixa altitudinal específica não confirmada.",
+  "habitat": "Florestas tropicais úmidas, incluindo matas de montanha · epífita. Faixa altitudinal específica não confirmada.",
   "clima": "Tropical a intermediário, úmido e ventilado.",
   "climaFloracao": "O verão é uma referência para a floração. Mantenha crescimento vigoroso, umidade regular e luz filtrada. No litoral, proteja do calor excessivo; na montanha, ajuste a rega durante noites frias. Como referência de cultivo, procure dias entre 20 e 28 °C e noites entre 14 e 20 °C, sem impor choque térmico ou repouso seco, cuja necessidade não está comprovada.",
   "iluminacao": {
@@ -239,7 +239,7 @@ export const maxillariaJohannis = {
       "texto": "Proteja do calor intenso com sombra filtrada, ventilação e regas ajustadas à secagem."
     },
     "montanhaFrio": {
-      "texto": "Mantenha luz filtrada e reduza as regas em períodos frios e nublados, sem desidratar a planta."
+      "texto": "Há ocorrência natural em floresta de montanha. Mantenha luz filtrada e reduza as regas em períodos frios e nublados, sem desidratar a planta. Proteja de temperaturas extremas."
     }
   },
   "indiceAdaptacaoRegional": {
@@ -317,7 +317,7 @@ export const maxillariaJohannis = {
   },
   "revisaoCientificaIAR": {
     "nome": "Maxillaria johannis",
-    "statusTaxonomico": "Nome aceito em POWO.",
+    "statusTaxonomico": "Maxillaria johannis Pabst (1959), aceita em POWO e WFO; Camaridium robustum Barb.Rodr. e Maxillariella robusta (Barb.Rodr.) M.A.Blanco & Carnevali são sinônimos homotípicos.",
     "sinonimosPrincipais": "Camaridium robustum; Maxillariella robusta",
     "confianca": "moderada",
     "fontes": [
@@ -325,7 +325,9 @@ export const maxillariaJohannis = {
       "https://www.orchidspecies.com/maxjohannis.htm",
       "https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad",
       "https://www.worldfloraonline.org/taxon/wfo-0000238519",
-      "https://plantidtools.fieldmuseum.org/pt/nlp/catalogue/3678972"
-    ]
+      "https://plantidtools.fieldmuseum.org/pt/nlp/catalogue/3678972",
+      "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/rebio-de-augusto-ruschi/arquivos/pdfs/Marcussoetal.2022_epiphytesAugustoRuschiBiol.Reserve_compressed.pdf"
+    ],
+    "habitatAltitudeClima": "Epífita de floresta tropical úmida; ocorrência documentada em floresta montana da Mata Atlântica (Marcusso et al., 2022, voucher TBF 1078 ESA). Limites altitudinais e térmicos específicos não estabelecidos."
   }
 };
