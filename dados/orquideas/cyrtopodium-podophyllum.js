@@ -23,7 +23,7 @@ export const cyrtopodiumPodophyllum = {
         "imagens/Cyrtopodium podophyllum/Cyrtopodium podophyllum3.jpg",
         "imagens/Cyrtopodium podophyllum/Cyrtopodium podophyllum4.jpg"
     ],
-    "descricao": "Uma orquídea brasileira de presença marcante! Cyrtopodium flavum forma grandes pseudobulbos, perde as folhas naturalmente ao final do ciclo e, quando bem estabelecido, produz hastes ramificadas que podem chegar perto de 1,5 metro. Suas numerosas flores amarelas, perfumadas e duráveis medem em torno de 2,5–4 cm. É especialmente interessante por ocorrer desde ambientes costeiros arenosos e restingas próximas ao nível do mar até áreas mais elevadas, mostrando uma amplitude ecológica muito maior do que a ideia de uma planta exclusivamente de clima fresco.",
+    "descricao": "Uma orquídea brasileira de presença marcante! Cyrtopodium flavum forma grandes pseudobulbos, perde as folhas naturalmente ao final do ciclo e, quando bem estabelecido, produz hastes ramificadas que podem chegar perto de 1,5 metro. Suas numerosas flores amarelas, perfumadas e duráveis medem em torno de 2,5–4 cm. É especialmente interessante por ocorrer desde ambientes costeiros arenosos e restingas próximas ao nível do mar até áreas mais elevadas, mostrando uma amplitude ecológica muito maior do que a ideia de uma planta exclusivamente de clima fresco. No cultivo, respeite a perda sazonal das folhas e ajuste a rega ao crescimento.",
     "origem": "América do Sul",
     "regiao": "Brasil (NE, Sudeste e Sul) · leste da Bolívia",
     "habitat": "Restingas, areia e rochas · nível do mar a ~1.100 m.",
