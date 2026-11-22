@@ -103,7 +103,7 @@ export const cattleyaAclandiaeTipo = {
     "Confundir pigmentação natural com doença.",
     "Manter a planta fria e molhada no repouso."
 ],
-    dica: "🏆 O segredo desta Cattleya compacta é evitar danos às raízes antigas, que se prendem firmemente ao suporte. Prefira montagem duradoura em madeira rugosa ou cortiça e não replante por rotina. Se a troca for indispensável, aguarde o início da emissão de raízes novas para facilitar a recuperação. Em clima quente, regue generosamente durante o crescimento, mas permita secagem rápida e boa circulação de ar. Não confunda folhas firmes com necessidade de seca constante: a planta precisa hidratação na fase ativa.",
+    dica: "🏆 O segredo desta Cattleya compacta é evitar danos às raízes antigas, que se prendem firmemente ao suporte. Prefira montagem duradoura em madeira rugosa ou cortiça e não replante por rotina. Se precisar trocar, aguarde o início da emissão de raízes novas para facilitar a recuperação. Em clima quente, regue generosamente durante o crescimento, mas permita secagem rápida e boa circulação de ar. Não confunda folhas firmes com necessidade de seca constante: a planta precisa hidratação na fase ativa.",
     revisaoCientificaIAR: {
         "nome": "Cattleya aclandiae",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
