@@ -135,7 +135,7 @@ export const bulbophyllumRothschildianum = {
     "Enterrar a base dos pseudobulbos.",
     "Impedir a abertura das flores pendentes."
 ],
-    dica: "🏆 O segredo desta espécie está em oferecer espaço para suas flores alongadas. Escolha um cesto largo ou suporte que permita às inflorescências se abrir sem encostar em paredes, folhas ou bordas do vaso. Mantenha o rizoma superficial, com umidade regular e boa ventilação, evitando substrato compacto. A luminosidade deve ser filtrada e suficiente para sustentar pseudobulbos vigorosos. Em períodos quentes, priorize circulação de ar e proteção contra o aquecimento das raízes, em vez de provocar resfriamentos bruscos ou estiagens forçadas.",
+    dica: "🏆 O segredo é oferecer espaço para suas flores alongadas. Escolha um cesto largo ou suporte que permita às inflorescências se abrir sem encostar em paredes, folhas ou bordas do vaso. Mantenha o rizoma superficial, com umidade regular e boa ventilação, evitando substrato compacto. A luminosidade deve ser filtrada e suficiente para sustentar pseudobulbos vigorosos. Em períodos quentes, priorize circulação de ar e proteção contra o aquecimento das raízes, em vez de provocar resfriamentos bruscos ou estiagens forçadas.",
     revisaoCientificaIAR: {
         nome: "Bulbophyllum rothschildianum (O'Brien) J.J.Sm.",
         statusTaxonomico: "Espécie aceita pelo POWO/Kew; combinação publicada por J.J.Sm. em 1912, com basiônimo Cirrhopetalum rothschildianum O'Brien (1895).",
