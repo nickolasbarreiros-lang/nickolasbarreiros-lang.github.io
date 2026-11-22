@@ -1,4 +1,4 @@
-// V4.9 — ficha preliminar; homologação documental e imagens pendentes.
+// V4.9 — revisão complementar; homologação quantitativa e direitos de imagens pendentes.
 export const maxillariaJohannis = {
   "id": "maxillaria-johannis",
   "nome": "Maxillaria johannis",
@@ -7,10 +7,10 @@ export const maxillariaJohannis = {
   "tipo": "Espécie botânica",
   "dificuldade": "Moderada",
   "caracteristicas": [
-    "Epífita brasileira",
-    "Pseudobulbos e crescimento horizontal",
-    "Flores pequenas, creme a amareladas",
-    "Folhagem persistente"
+    "Epífita brasileira de flores pequenas",
+    "Pseudobulbos e rizoma superficial",
+    "Flores com cerca de 2 cm",
+    "Sem recompensa floral aparente"
   ],
   "fotos": [
     "https://seidel.com.br/wp-content/uploads/2024/09/Maxillaria-johannis.jpg",
@@ -42,28 +42,28 @@ export const maxillariaJohannis = {
       "alteracoes": false
     }
   ],
-  "descricao": "Maxillaria johannis é uma orquídea brasileira de porte pequeno, com exemplares adultos de cerca de 10 cm, encontrada em florestas tropicais úmidas, onde cresce sobre árvores. Seus pseudobulbos armazenam água e sustentam folhas persistentes, enquanto o crescimento vegetativo permite a formação de touceiras. As pequenas flores, de aproximadamente 1,5 a 2 cm, apresentam tonalidades claras, entre creme e amarelo, e podem surgir em conjunto na base da planta. O perfume ainda não está bem documentado. Seu ambiente natural favorece o cultivo sob luz filtrada, com umidade regular e circulação de ar. As raízes precisam de espaço e de uma mistura drenante, sem secas prolongadas ou saturação constante.",
+  "descricao": "Maxillaria johannis é uma pequena orquídea brasileira encontrada em florestas úmidas, inclusive matas de montanha, onde cresce sobre árvores. Seus pseudobulbos armazenam água e sustentam a folhagem, enquanto o rizoma permite a expansão da planta sobre o suporte. As flores medem cerca de 2 cm e apresentam tonalidades claras, entre creme e amarelo, nas imagens disponíveis. Uma curiosidade é que suas flores não oferecem recompensa floral aparente aos visitantes, como néctar ou secreções nutritivas. O perfume não está confirmado. No cultivo, favoreça luz filtrada, umidade regular e circulação de ar, mantendo o rizoma livre e as raízes hidratadas sem encharcamento.",
   "origem": "Brasil",
   "regiao": "Sul e Sudeste do Brasil",
   "habitat": "Florestas tropicais úmidas, incluindo matas de montanha · epífita. Faixa altitudinal específica não confirmada.",
   "clima": "Tropical a intermediário, úmido e ventilado.",
-  "climaFloracao": "O verão é uma referência para a floração. Mantenha crescimento vigoroso, umidade regular e luz filtrada. No litoral, proteja do calor excessivo; na montanha, ajuste a rega durante noites frias. Como referência de cultivo, procure dias entre 20 e 28 °C e noites entre 14 e 20 °C, sem impor choque térmico ou repouso seco, cuja necessidade não está comprovada.",
+  "climaFloracao": "O verão é uma referência para a floração. Mantenha crescimento vigoroso, umidade regular e luz filtrada. No litoral, proteja do calor excessivo; na montanha, ajuste a rega durante noites frias. Como referência de cultivo, procure dias entre 20 e 28 °C e noites entre 14 e 20 °C, sem impor choque térmico ou repouso seco, cuja necessidade não está comprovada. Uma diferença moderada entre dia e noite pode ser testada, sem tratá-la como condição obrigatória.",
   "iluminacao": {
-    "sombrite": "70% a 80% como referência inicial",
+    "sombrite": "60% a 70% (referência inicial); 70% a 80% no calor intenso",
     "solDireto": "Permitido com restrição",
     "horario": "Somente início da manhã",
-    "observacoes": "Prefere luz filtrada. Em ambiente quente, comece com 70% a 80% de sombra, ajustando gradualmente. Sol suave no início da manhã somente após aclimatação. Folhas queimadas indicam necessidade de proteção; crescimento fraco e escuro pode indicar luz insuficiente.",
+    "observacoes": "Cultive em meia-sombra, com luz filtrada. Os percentuais são referências práticas, não limites medidos para a espécie. Em ambiente quente, aumente a proteção conforme o aquecimento das folhas. Aclimate gradualmente antes de oferecer sol suave no início da manhã. Queimaduras indicam excesso de exposição; brotação fraca pode indicar luz insuficiente.",
     "seloLuz": "laranja"
   },
-  "floracao": "Há relato de floração no verão, com duração ornamental média de 15 dias. As flores pequenas, de 1,5 a 2 cm, são claras e podem aparecer agrupadas na base. Dezembro a fevereiro são meses indicativos, não registros mensais confirmados. Perfume, duração individual e reflorescência da haste não confirmados.",
+  "floracao": "As flores medem cerca de 2 cm, com tonalidades creme a amareladas nas imagens disponíveis. Não apresentam recompensa floral aparente, como néctar ou secreções; isso não significa ausência de perfume. Há relato comercial de floração no verão e duração ornamental de cerca de 15 dias, ainda sem confirmação independente. Dezembro a fevereiro são meses indicativos. Perfume, duração individual, sequência de abertura e reflorescência da haste não confirmados.",
   "mesesFloracao": [
     12,
     1,
     2
   ],
   "mesesFloracaoIndicativos": true,
-  "rega": "Regue bem durante o crescimento e deixe a água livre escorrer. Repita quando o substrato estiver próximo de secar, sem desidratar os pseudobulbos. No calor, acompanhe a secagem diariamente; no frio, amplie o intervalo. Não imponha repouso seco.",
-  "adubacao": "🌿 Orgânica: pequena porção de bokashi em porta-adubo, longe dos brotos.\n💧 Foliar/radicular: NPK equilibrado a 1/4 da dose do rótulo a cada 10 a 15 dias no crescimento.\n🧪 Liberação lenta: opcional, dose mínima do fabricante, longe das raízes novas.\n🚿 Lavagem de sais: mensalmente, regue abundantemente com água pura.",
+  "rega": "Durante o crescimento, molhe bem as raízes e deixe a água escorrer. Repita após secagem superficial da mistura, antes de desidratar os pseudobulbos. Em placa, confira a hidratação com maior frequência. No calor, acompanhe a secagem diariamente; no frio, amplie os intervalos conforme a evaporação. Mantenha umidade ambiental e ventilação, sem impor repouso seco.",
+  "adubacao": "🌿 Orgânica: pequena porção de bokashi em porta-adubo, longe dos brotos.\n💧 Foliar/radicular: NPK equilibrado a 1/4 da dose do rótulo a cada 10 a 15 dias no crescimento.\n🧪 Liberação lenta: evite em placas ou recipientes muito pequenos, onde os sais podem se concentrar; em vaso, somente dose conservadora e longe das raízes novas.\n🚿 Lavagem de sais: mensalmente, regue abundantemente com água pura.",
   "suporte": "Cachepô de madeira raso ou vaso plástico vasado largo; placa em ambiente úmido e vaso de barro raso como alternativas.",
   "substrato": [
     "Casca de pinus + esfagno + carvão vegetal",
@@ -93,7 +93,7 @@ export const maxillariaJohannis = {
         "asset": "placa-tronco",
         "estrelas": 4,
         "status": "Alternativa",
-        "texto": "Adequado se a umidade e a frequência de rega forem suficientes."
+        "texto": "Em ambiente úmido, fixe o rizoma sobre madeira rugosa, com uma camada fina e solta de esfagno junto às raízes se a secagem for rápida; não cubra os brotos."
       },
       {
         "nome": "Vaso de Barro",
@@ -106,9 +106,9 @@ export const maxillariaJohannis = {
   },
   "substratoVisual": {
     "titulo": "Substrato ideal",
-    "contexto": "Mistura aberta para epífita de crescimento horizontal",
+    "contexto": "Mistura aberta para epífita de rizoma superficial",
     "resumo": "Mistura orgânica drenante com retenção moderada.",
-    "justificativa": "A casca mantém a estrutura, os chips de coco conservam umidade e o carvão ajuda a manter espaços de ar. Use granulometria fina a média sem compactar a mistura e ajuste a rega à secagem real. A proporção sugerida é um ponto de partida, ainda não comparado experimentalmente para esta espécie.",
+    "justificativa": "A casca mantém a estrutura, os chips de coco conservam umidade e o carvão ajuda a manter espaços de ar. Use granulometria fina a média sem compactar a mistura e ajuste a rega à secagem real. A proporção sugerida é um ponto de partida, ainda não comparado experimentalmente para esta espécie. Em recipientes muito ventilados ou ambientes secos, uma pequena camada solta de esfagno pode ajudar a reduzir a desidratação; não compacte.",
     "receitaTexto": "50% casca de pinus + 30% chips de coco + 20% carvão vegetal.",
     "perfil": [
       "Epífita",
@@ -163,7 +163,7 @@ export const maxillariaJohannis = {
       }
     ],
     "alerta": "Não enterre o rizoma nem mantenha a mistura saturada.",
-    "notaEvidencia": "Proposta técnica, não ensaio específico. Meta de 25 produtores não atingida; uma fonte comercial específica confirma drenagem, sombra e floração de verão. Direitos das três primeiras fotos pendentes; quarta foto CC BY-NC 4.0, uso exclusivamente não comercial. Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155113-2 ; https://www.orchidspecies.com/maxjohannis.htm ; https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad. Referências gerais de suporte à mistura, não específicas da espécie: https://www.esalq.usp.br/biblioteca/sites/default/files/publicacoes-a-venda/pdf/SPR_Orquideas.pdf ; https://www.sosa.org.br/dicas-de-cultivo/ ; https://www.sistemafaep.org.br/wp-content/uploads/2026/01/PR.0397-Cultivo-de-Orquideas_web.pdf. O produtor consultado classifica o cultivo como fácil; IDC 40 é estimativa conservadora do projeto, não resultado de ensaio."
+    "notaEvidencia": "Proposta técnica, não ensaio específico. Meta de 25 produtores não atingida; uma fonte comercial específica confirma drenagem, sombra e floração de verão. Direitos das três primeiras fotos pendentes; quarta foto CC BY-NC 4.0, uso exclusivamente não comercial. Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155113-2 ; https://www.orchidspecies.com/maxjohannis.htm ; https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad. Referências gerais de suporte à mistura, não específicas da espécie: https://www.esalq.usp.br/biblioteca/sites/default/files/publicacoes-a-venda/pdf/SPR_Orquideas.pdf ; https://www.sosa.org.br/dicas-de-cultivo/ ; https://www.sistemafaep.org.br/wp-content/uploads/2026/01/PR.0397-Cultivo-de-Orquideas_web.pdf. O produtor consultado classifica o cultivo como fácil; IDC 40 é estimativa conservadora do projeto, não resultado de ensaio. Revisão dos três PDFs de 22/11/2026: IOSPE confirma 2 cm e meia-sombra; Singer & Koehler (2004) confirma ausência de recompensa aparente. Medidas vegetativas, autoria Schlechter e combinação Camaridium johannis do Gemini não corroboradas; percentuais de sombra e manejo de esfagno são estimativas práticas. Receita e índices mantidos por falta de evidência comparativa."
   },
   "errosComuns": [
     "Enterrar o rizoma.",
@@ -175,7 +175,7 @@ export const maxillariaJohannis = {
     "Aplicar adubo concentrado.",
     "Replantar fora do início do enraizamento."
   ],
-  "dica": "🏆 Observe a direção dos novos brotos antes de escolher o recipiente. Deixe espaço livre à frente do crescimento e mantenha o rizoma na superfície, sem apertar a mistura ao redor dos pseudobulbos. Quando as raízes novas começarem a surgir, aproveite para ajustar o suporte, se necessário. Em dias quentes, acompanhe a secagem do substrato e regue conforme sua condição real, evitando tanto o encharcamento quanto a desidratação prolongada.",
+  "dica": "🏆 Observe a direção dos novos brotos e deixe espaço livre para o rizoma avançar. Se cultivar em placa, uma camada fina e solta de esfagno junto às raízes ajuda quando a secagem é rápida, sem cobrir os brotos. Regue conforme a umidade real do suporte e evite replantios desnecessários. Anote as datas de floração, a temperatura e a duração das flores: esses registros ajudam a ajustar o manejo desta espécie pouco documentada.",
   "selosCultivo": {
     "rega": {
       "nivel": "frequente"
@@ -326,8 +326,10 @@ export const maxillariaJohannis = {
       "https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad",
       "https://www.worldfloraonline.org/taxon/wfo-0000238519",
       "https://plantidtools.fieldmuseum.org/pt/nlp/catalogue/3678972",
-      "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/rebio-de-augusto-ruschi/arquivos/pdfs/Marcussoetal.2022_epiphytesAugustoRuschiBiol.Reserve_compressed.pdf"
+      "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/rebio-de-augusto-ruschi/arquivos/pdfs/Marcussoetal.2022_epiphytesAugustoRuschiBiol.Reserve_compressed.pdf",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4242263/"
     ],
-    "habitatAltitudeClima": "Epífita de floresta tropical úmida; ocorrência documentada em floresta montana da Mata Atlântica (Marcusso et al., 2022, voucher TBF 1078 ESA). Limites altitudinais e térmicos específicos não estabelecidos."
+    "habitatAltitudeClima": "Epífita de floresta tropical úmida; ocorrência documentada em floresta montana da Mata Atlântica (Marcusso et al., 2022, voucher TBF 1078 ESA). Limites altitudinais e térmicos específicos não estabelecidos.",
+    "polinização": "Singer & Koehler (2004), tabela 1, voucher 8452 (SP): aliança M. uncata, polinário tipo 1 av/st, sem recompensa floral aparente. Não demonstra ausência de perfume nem identifica polinizador específico."
   }
 };
