@@ -46,7 +46,7 @@ export const maxillariaJohannis = {
   "descricao": "Maxillaria johannis é uma pequena orquídea brasileira de florestas úmidas, inclusive montanas, onde cresce sobre árvores. Seu rizoma rastejante acompanha a superfície do suporte, formando pseudobulbos elipsoides, ligeiramente achatados, com duas folhas oblongas de pontas arredondadas ou discretamente recortadas. Cada pseudobulbo pode produzir várias inflorescências mais curtas que as folhas. As flores amarelas, de aproximadamente 2 cm, apresentam labelo trilobado e pétalas menores que as sépalas. Não oferecem recompensa floral aparente, embora o perfume permaneça desconhecido. No cultivo, favoreça luz filtrada, umidade regular e ventilação, deixando espaço para o rizoma avançar e as raízes se fixarem sem encharcamento.",
   "origem": "Brasil",
   "regiao": "Sul e Sudeste do Brasil",
-  "habitat": "Florestas tropicais úmidas, incluindo matas de montanha · epífita. Faixa altitudinal específica não confirmada.",
+  "habitat": "Florestas tropicais úmidas, incluindo matas montanas da Mata Atlântica · epífita sobre árvores. Faixa altitudinal específica ainda não estabelecida.",
   "clima": "Tropical a intermediário, úmido e ventilado.",
   "climaFloracao": "O verão é uma referência para a floração. Mantenha crescimento vigoroso, umidade regular e luz filtrada. No litoral, proteja do calor excessivo; na montanha, ajuste a rega durante noites frias. Como referência de cultivo, procure dias entre 20 e 28 °C e noites entre 14 e 20 °C, sem impor choque térmico ou repouso seco, cuja necessidade não está comprovada. Uma diferença moderada entre dia e noite pode ser testada, sem tratá-la como condição obrigatória.",
   "iluminacao": {
@@ -240,7 +240,7 @@ export const maxillariaJohannis = {
       "texto": "Proteja do calor intenso com sombra filtrada, ventilação e regas ajustadas à secagem."
     },
     "montanhaFrio": {
-      "texto": "Há ocorrência natural em floresta de montanha. Mantenha luz filtrada e reduza as regas em períodos frios e nublados, sem desidratar a planta. Proteja de temperaturas extremas."
+      "texto": "A ocorrência em florestas montanas favorece o cultivo em ambiente ameno, mas não comprova resistência a frio intenso. Mantenha luz filtrada, circulação de ar e ajuste a rega à secagem mais lenta em períodos frios e nublados. Evite geada e saturação das raízes."
     }
   },
   "indiceAdaptacaoRegional": {
@@ -318,7 +318,7 @@ export const maxillariaJohannis = {
   },
   "revisaoCientificaIAR": {
     "nome": "Maxillaria johannis",
-    "statusTaxonomico": "Maxillaria johannis Pabst (1959), aceita em POWO e WFO; Camaridium robustum Barb.Rodr. e Maxillariella robusta (Barb.Rodr.) M.A.Blanco & Carnevali são sinônimos homotípicos.",
+    "statusTaxonomico": "Maxillaria johannis Pabst (1959), aceita em POWO e WFO; Camaridium robustum Barb.Rodr. e Maxillariella robusta (Barb.Rodr.) M.A.Blanco & Carnevali são sinônimos homotípicos. IPNI registra Camaridium robustum em 1882, com material-tipo do Rio de Janeiro.",
     "sinonimosPrincipais": "Camaridium robustum; Maxillariella robusta",
     "confianca": "moderada",
     "fontes": [
@@ -328,9 +328,12 @@ export const maxillariaJohannis = {
       "https://www.worldfloraonline.org/taxon/wfo-0000238519",
       "https://plantidtools.fieldmuseum.org/pt/nlp/catalogue/3678972",
       "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/rebio-de-augusto-ruschi/arquivos/pdfs/Marcussoetal.2022_epiphytesAugustoRuschiBiol.Reserve_compressed.pdf",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4242263/"
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4242263/",
+      "https://www.ipni.org/n/43721-2",
+      "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-dos-orgaos/arquivos/anexos-pm-parnaso.pdf",
+      "https://static.ndmais.com.br/2025/10/lista_de_especies_de_vetais_catarinenses-2.pdf"
     ],
-    "habitatAltitudeClima": "Epífita de floresta tropical úmida; ocorrência documentada em floresta montana da Mata Atlântica (Marcusso et al., 2022, voucher TBF 1078 ESA). Limites altitudinais e térmicos específicos não estabelecidos.",
+    "habitatAltitudeClima": "Epífita de floresta tropical úmida; ocorrência documentada em floresta montana da Mata Atlântica (Marcusso et al., 2022, voucher TBF 1078 ESA). Limites altitudinais e térmicos específicos não estabelecidos. Registros adicionais: lista florística catarinense, Sellowia 56/63 (2011), p. 175; plano de manejo do Parque Nacional da Serra dos Órgãos, registro Herbário RB. Presença em área montanhosa não estabelece altitude exata nem tolerância térmica.",
     "polinização": "Singer & Koehler (2004), tabela 1, voucher 8452 (SP): aliança M. uncata, polinário tipo 1 av/st, sem recompensa floral aparente. Não demonstra ausência de perfume nem identifica polinizador específico.",
     "morfologia": "World Flora Online, descrição morfológica local: rizoma rastejante aderente ao substrato, pseudobulbos lisos elipsoides ligeiramente comprimidos, duas folhas oblongas, várias inflorescências por pseudobulbo, flores amarelas sem ornamentação, labelo trilobado."
   }
