@@ -19,7 +19,7 @@ export const brassavolaPerrini = {
         "imagens/Brassavola perrinii/Brassavola perrinii3.webp",
         "imagens/Brassavola perrinii/Brassavola perrinii4.webp",
     ],
-    descricao: "Uma Brassavola elegante e perfumada, facilmente reconhecida pelas folhas finas e cilíndricas e pelas flores estreladas, com segmentos claros e um amplo labelo branco. O perfume se intensifica à noite, característica típica de muitas Brassavola e uma das grandes atrações dessa planta. O nome Brassavola perrinii ainda é muito encontrado em coleções, embora atualmente seja incluído em Brassavola tuberculata. Plantas identificadas historicamente como “perrinii” também foram registradas em ambientes montanos bastante elevados, por isso sua procedência pode influenciar a tolerância ao calor e a necessidade de noites mais amenas.",
+    descricao: "Uma Brassavola elegante e perfumada, facilmente reconhecida pelas folhas finas e cilíndricas e pelas flores estreladas, com segmentos claros e um amplo labelo branco. O perfume se intensifica à noite, característica típica de muitas Brassavola e uma das grandes atrações dessa planta. O nome Brassavola perrinii ainda é muito encontrado em coleções, embora atualmente seja incluído em Brassavola tuberculata. Plantas identificadas historicamente como “perrinii” também foram registradas em ambientes montanos bastante elevados, por isso sua procedência pode influenciar a tolerância ao calor e a necessidade de noites mais amenas. As hastes curtas geralmente carregam uma a seis flores.",
     origem: "América do Sul",
     regiao: "Bolívia · Paraguai · Brasil · NE Argentina",
     habitat: "Epífita/litófita · formas históricas até ~2.580 m",
