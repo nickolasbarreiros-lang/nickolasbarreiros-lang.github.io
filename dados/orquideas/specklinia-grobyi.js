@@ -83,7 +83,7 @@ export const speckliniaGrobyi = {
     "Usar água muito salina.",
     "Dividir a touceira repetidamente."
 ],
-    "dica": "🏆 Esta micro-orquídea sem pseudobulbos volumosos precisa de hidratação frequente, mas suas raízes delicadas não toleram abafamento. Prefira placa pequena e rugosa, com camada muito fina de esfagno solto e luz filtrada. Regue conforme a secagem, permitindo que a superfície respire entre hidratações. Evite divisões pequenas e mudanças frequentes de suporte. As flores podem abrir em conjunto ao longo de hastes delicadas; por isso, não corte inflorescências verdes enquanto houver botões. Preserve a estabilidade da touceira e evite manipular os racemos.",
+    "dica": "🏆 Esta micro-orquídea sem pseudobulbos precisa de hidratação frequente, mas suas raízes delicadas não toleram abafamento. Prefira placa pequena e rugosa, com camada muito fina de esfagno solto e luz filtrada. Regue conforme a secagem, permitindo que a superfície respire entre hidratações. Evite divisões pequenas e mudanças frequentes de suporte. As flores podem abrir em conjunto ao longo de hastes delicadas; por isso, não corte inflorescências verdes enquanto houver botões. Preserve a estabilidade da touceira e evite manipular os racemos.",
     revisaoCientificaIAR: {
         "nome": "Specklinia grobyi",
         "statusTaxonomico": "Espécie/nome infraespecífico tratado como aceito na revisão taxonômica de referência.",
