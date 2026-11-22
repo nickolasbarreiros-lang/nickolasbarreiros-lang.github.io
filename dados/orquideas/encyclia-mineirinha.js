@@ -74,7 +74,7 @@ export const encycliaMineirinha = {
     "Reduzir regas durante o crescimento ativo.",
     "Tratar todos os clones do híbrido como idênticos."
 ],
-    dica: "🏆 Neste híbrido de Encyclia patens com Encyclia oliveirana, priorize aeração das raízes e luminosidade suficiente para amadurecer pseudobulbos firmes. Use vaso proporcional, substrato grosso e rizoma superficial, evitando umidade parada junto às bases. Durante a brotação, regue bem e deixe o material perder parte da umidade antes de repetir. Como cada exemplar pode apresentar diferenças herdadas dos parentais, observe sua resposta antes de impor repouso seco. O vigor das novas frentes é um indicador mais útil que um calendário rígido.",
+    dica: "🏆 Neste híbrido de Encyclia patens com Encyclia oliveirana, priorize aeração das raízes e luminosidade suficiente para amadurecer pseudobulbos firmes. Use vaso proporcional, substrato grosso e rizoma superficial, evitando umidade parada junto às bases. Durante a brotação, regue bem e deixe o material perder parte da umidade antes de repetir. Como os exemplares podem variar conforme os parentais, observe sua resposta antes de impor repouso seco. O vigor das novas frentes é um indicador mais útil que um calendário rígido.",
     revisaoCientificaIAR: {
         nome: "Encyclia 'Mineirinha' (híbrido horticultural)",
         statusTaxonomico: "Nome comercial/horticultural de cruzamento primário Encyclia patens × Encyclia oliveirana, conforme descrição do produtor brasileiro Orquidário Wolf. Não é espécie aceita no POWO; tampouco foi comprovado registro formal do nome 'Mineirinha' como grex no RHS International Orchid Register. Não confundir com híbridos naturais de Encyclia aceitos taxonomicamente.",
