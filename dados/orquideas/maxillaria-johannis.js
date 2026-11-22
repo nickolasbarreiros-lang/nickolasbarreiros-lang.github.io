@@ -7,7 +7,7 @@ export const maxillariaJohannis = {
   "tipo": "Espécie botânica",
   "dificuldade": "Moderada",
   "caracteristicas": [
-    "Epífita de rizoma rastejante e aderente ao suporte",
+    "Epífita com crescimento escandente observado em cultivo",
     "Pseudobulbos elipsoides com duas folhas oblongas",
     "Várias inflorescências curtas por pseudobulbo",
     "Flores amarelas de cerca de 2 cm, com labelo trilobado",
@@ -43,7 +43,7 @@ export const maxillariaJohannis = {
       "alteracoes": false
     }
   ],
-  "descricao": "Maxillaria johannis é uma pequena orquídea brasileira de florestas úmidas, inclusive montanas, onde cresce sobre árvores. Seu rizoma rastejante acompanha a superfície do suporte, formando pseudobulbos elipsoides, ligeiramente achatados, com duas folhas oblongas de pontas arredondadas ou discretamente recortadas. Cada pseudobulbo pode produzir várias inflorescências mais curtas que as folhas. As flores amarelas, de aproximadamente 2 cm, apresentam labelo trilobado e pétalas menores que as sépalas. Não oferecem recompensa floral aparente, embora o perfume permaneça desconhecido. No cultivo, favoreça luz filtrada, umidade regular e ventilação, deixando espaço para o rizoma avançar e as raízes se fixarem sem encharcamento.",
+  "descricao": "Maxillaria johannis é uma pequena orquídea brasileira de florestas úmidas, inclusive montanas, onde cresce sobre árvores. Seu crescimento pode ser escandente, avançando ao longo do suporte e formando pseudobulbos elipsoides, ligeiramente achatados, com duas folhas oblongas de pontas arredondadas ou discretamente recortadas. Cada pseudobulbo pode produzir várias inflorescências mais curtas que as folhas. As flores amarelas, de aproximadamente 2 cm, apresentam labelo trilobado e pétalas menores que as sépalas. Não oferecem recompensa floral aparente, embora o perfume permaneça desconhecido. No cultivo, favoreça luz filtrada, umidade regular e ventilação, deixando espaço para o rizoma avançar e as raízes se fixarem sem encharcamento.",
   "origem": "Brasil",
   "regiao": "Sul e Sudeste do Brasil",
   "habitat": "Florestas tropicais úmidas, incluindo matas montanas da Mata Atlântica · epífita sobre árvores. Faixa altitudinal específica ainda não estabelecida.",
@@ -65,36 +65,36 @@ export const maxillariaJohannis = {
   "mesesFloracaoIndicativos": true,
   "rega": "Durante o crescimento, molhe bem as raízes e deixe a água escorrer. Repita após secagem superficial da mistura, antes de desidratar os pseudobulbos. Em placa, confira a hidratação com maior frequência. No calor, acompanhe a secagem diariamente; no frio, amplie os intervalos conforme a evaporação. Mantenha umidade ambiental e ventilação, sem impor repouso seco.",
   "adubacao": "🌿 Orgânica: pequena porção de bokashi em porta-adubo, longe dos brotos.\n💧 Foliar/radicular: NPK equilibrado a 1/4 da dose do rótulo a cada 10 a 15 dias no crescimento.\n🧪 Liberação lenta: evite em placas ou recipientes muito pequenos, onde os sais podem se concentrar; em vaso, somente dose conservadora e longe das raízes novas.\n🚿 Lavagem de sais: mensalmente, regue abundantemente com água pura.",
-  "suporte": "Cachepô de madeira raso ou vaso plástico vasado largo; placa em ambiente úmido e vaso de barro raso como alternativas.",
+  "suporte": "Placa ou tronco vertical, com espaço para crescimento ascendente; cachepô de madeira e vasos ventilados são alternativas.",
   "substrato": [
     "Casca de pinus + esfagno + carvão vegetal",
     "Chips de coco + perlita grossa + casca de pinus"
   ],
   "formasCultivo": {
     "perfilVisual": "epifita-rizomatosa",
-    "destaque": "Cachepô de Madeira",
-    "resumo": "Recipiente raso e ventilado, com espaço para novos crescimentos.",
+    "destaque": "Placa / tronco",
+    "resumo": "Montagem vertical com espaço para os novos crescimentos e hidratação regular.",
     "metodos": [
+      {
+        "nome": "Placa / tronco",
+        "asset": "placa-tronco",
+        "estrelas": 5,
+        "status": "Mais recomendado na ficha",
+        "texto": "Permite acomodar o crescimento ascendente observado em cultivo. Fixe a base sem apertar os brotos e use esfagno solto se necessário."
+      },
       {
         "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
-        "estrelas": 5,
-        "status": "Mais recomendado na ficha",
-        "texto": "Permite expansão horizontal e ventilação, com substrato que preserve umidade."
+        "estrelas": 4,
+        "status": "Alternativa",
+        "texto": "Permite acomodar a base e oferecer suporte vertical para novos crescimentos."
       },
       {
         "nome": "Vaso plástico vasado",
         "asset": "vaso-plastico-vasado",
-        "estrelas": 5,
-        "status": "Alternativa excelente",
-        "texto": "Escolha modelo largo e raso para equilibrar água e aeração."
-      },
-      {
-        "nome": "Placa / tronco",
-        "asset": "placa-tronco",
         "estrelas": 4,
         "status": "Alternativa",
-        "texto": "Em ambiente úmido, fixe o rizoma sobre madeira rugosa, com uma camada fina e solta de esfagno junto às raízes se a secagem for rápida; não cubra os brotos."
+        "texto": "Use recipiente ventilado com suporte para os crescimentos ascendentes."
       },
       {
         "nome": "Vaso de Barro",
@@ -107,7 +107,7 @@ export const maxillariaJohannis = {
   },
   "substratoVisual": {
     "titulo": "Substrato ideal",
-    "contexto": "Mistura aberta para epífita de rizoma superficial",
+    "contexto": "Mistura aberta para cultivo em recipiente; em placa, esfagno solto apenas se necessário",
     "resumo": "Mistura orgânica drenante com retenção moderada.",
     "justificativa": "A casca mantém a estrutura, os chips de coco conservam umidade e o carvão ajuda a manter espaços de ar. Use granulometria fina a média sem compactar a mistura e ajuste a rega à secagem real. A proporção sugerida é um ponto de partida, ainda não comparado experimentalmente para esta espécie. Em recipientes muito ventilados ou ambientes secos, uma pequena camada solta de esfagno pode ajudar a reduzir a desidratação; não compacte.",
     "receitaTexto": "50% casca de pinus + 30% chips de coco + 20% carvão vegetal.",
@@ -164,7 +164,7 @@ export const maxillariaJohannis = {
       }
     ],
     "alerta": "Não enterre o rizoma nem mantenha a mistura saturada.",
-    "notaEvidencia": "Proposta técnica, não ensaio específico. Meta de 25 produtores não atingida; uma fonte comercial específica confirma drenagem, sombra e floração de verão. Direitos das três primeiras fotos pendentes; quarta foto CC BY-NC 4.0, uso exclusivamente não comercial. Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155113-2 ; https://www.orchidspecies.com/maxjohannis.htm ; https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad. Referências gerais de suporte à mistura, não específicas da espécie: https://www.esalq.usp.br/biblioteca/sites/default/files/publicacoes-a-venda/pdf/SPR_Orquideas.pdf ; https://www.sosa.org.br/dicas-de-cultivo/ ; https://www.sistemafaep.org.br/wp-content/uploads/2026/01/PR.0397-Cultivo-de-Orquideas_web.pdf. O produtor consultado classifica o cultivo como fácil; IDC 40 é estimativa conservadora do projeto, não resultado de ensaio. Revisão dos três PDFs de 22/11/2026: IOSPE confirma 2 cm e meia-sombra; Singer & Koehler (2004) confirma ausência de recompensa aparente. Medidas vegetativas, autoria Schlechter e combinação Camaridium johannis do Gemini não corroboradas; percentuais de sombra e manejo de esfagno são estimativas práticas. Receita e índices mantidos por falta de evidência comparativa. Descrição morfológica da WFO consultada: confirma hábito rastejante, duas folhas e várias inflorescências por pseudobulbo; não sustenta o hábito escandente descrito no PDF Gemini."
+    "notaEvidencia": "Proposta técnica, não ensaio específico. Meta de 25 produtores não atingida; uma fonte comercial específica confirma drenagem, sombra e floração de verão. Direitos das três primeiras fotos pendentes; quarta foto CC BY-NC 4.0, uso exclusivamente não comercial. Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155113-2 ; https://www.orchidspecies.com/maxjohannis.htm ; https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad. Referências gerais de suporte à mistura, não específicas da espécie: https://www.esalq.usp.br/biblioteca/sites/default/files/publicacoes-a-venda/pdf/SPR_Orquideas.pdf ; https://www.sosa.org.br/dicas-de-cultivo/ ; https://www.sistemafaep.org.br/wp-content/uploads/2026/01/PR.0397-Cultivo-de-Orquideas_web.pdf. O produtor consultado classifica o cultivo como fácil; IDC 40 é estimativa conservadora do projeto, não resultado de ensaio. Revisão dos três PDFs de 22/11/2026: IOSPE confirma 2 cm e meia-sombra; Singer & Koehler (2004) confirma ausência de recompensa aparente. Medidas vegetativas, autoria Schlechter e combinação Camaridium johannis do Gemini não corroboradas; percentuais de sombra e manejo de esfagno são estimativas práticas. Receita e índices mantidos por falta de evidência comparativa. Descrição morfológica da WFO consultada: confirma hábito rastejante, duas folhas e várias inflorescências por pseudobulbo; não sustenta o hábito escandente descrito no PDF Gemini. Revisão visual: exemplar fotografado com eixo ascendente; prioridade de montagem vertical é recomendação prática, não comparação experimental."
   },
   "errosComuns": [
     "Enterrar o rizoma.",
@@ -176,7 +176,7 @@ export const maxillariaJohannis = {
     "Aplicar adubo concentrado.",
     "Replantar fora do início do enraizamento."
   ],
-  "dica": "🏆 Observe a direção dos novos brotos e deixe espaço livre para o rizoma avançar. Se cultivar em placa, uma camada fina e solta de esfagno junto às raízes ajuda quando a secagem é rápida, sem cobrir os brotos. Regue conforme a umidade real do suporte e evite replantios desnecessários. Anote as datas de floração, a temperatura e a duração das flores: esses registros ajudam a ajustar o manejo desta espécie pouco documentada.",
+  "dica": "🏆 Observe a direção dos novos brotos e deixe espaço livre acima da planta para os novos crescimentos. Se cultivar em placa, uma camada fina e solta de esfagno junto às raízes ajuda quando a secagem é rápida, sem cobrir os brotos. Regue conforme a umidade real do suporte e evite replantios desnecessários. Anote as datas de floração, a temperatura e a duração das flores: esses registros ajudam a ajustar o manejo desta espécie pouco documentada.",
   "selosCultivo": {
     "rega": {
       "nivel": "frequente"
@@ -335,6 +335,6 @@ export const maxillariaJohannis = {
     ],
     "habitatAltitudeClima": "Epífita de floresta tropical úmida; ocorrência documentada em floresta montana da Mata Atlântica (Marcusso et al., 2022, voucher TBF 1078 ESA). Limites altitudinais e térmicos específicos não estabelecidos. Registros adicionais: lista florística catarinense, Sellowia 56/63 (2011), p. 175; plano de manejo do Parque Nacional da Serra dos Órgãos, registro Herbário RB. Presença em área montanhosa não estabelece altitude exata nem tolerância térmica.",
     "polinização": "Singer & Koehler (2004), tabela 1, voucher 8452 (SP): aliança M. uncata, polinário tipo 1 av/st, sem recompensa floral aparente. Não demonstra ausência de perfume nem identifica polinizador específico.",
-    "morfologia": "World Flora Online, descrição morfológica local: rizoma rastejante aderente ao substrato, pseudobulbos lisos elipsoides ligeiramente comprimidos, duas folhas oblongas, várias inflorescências por pseudobulbo, flores amarelas sem ornamentação, labelo trilobado."
+    "morfologia": "World Flora Online, descrição morfológica local: rizoma rastejante aderente ao substrato, pseudobulbos lisos elipsoides ligeiramente comprimidos, duas folhas oblongas, várias inflorescências por pseudobulbo, flores amarelas sem ornamentação, labelo trilobado. A fotografia comercial fornecida pelo usuário mostra crescimento ascendente escandente; a descrição de rizoma rastejante não implica orientação horizontal obrigatória. Identidade da foto segue atribuída pelo fornecedor."
   }
 };
