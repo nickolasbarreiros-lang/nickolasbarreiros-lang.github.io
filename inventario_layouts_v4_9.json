@@ -1,11 +1,11 @@
 {
   "versao_referencia": "V4.9",
   "data_auditoria": "2026-11-22",
-  "metodo": "Auditoria direta dos arquivos JS: presença das propriedades formasCultivo e substratoVisual. index.js é arquivo técnico, não ficha. Marcação estrutural não certifica renderização, imagens/assets ou MACS 1.0. Não modifica fichas.",
-  "total_arquivos": 156,
+  "metodo": "Auditoria direta dos arquivos JS: presença das propriedades formasCultivo e substratoVisual. index.js é arquivo técnico, não ficha. Marcação estrutural não certifica renderização, imagens/assets ou MACS 1.0. Não modifica fichas. Inventário restrito às fichas importadas pelo índice oficial; arquivos fora do catálogo permanecem no repositório.",
+  "total_arquivos": 153,
   "resumo": {
-    "ambos_layouts_marcados": 154,
-    "pendentes_de_verificacao": 1,
+    "ambos_layouts_marcados": 152,
+    "pendentes_de_verificacao": 0,
     "arquivo_tecnico_excluido": 1
   },
   "fichas": [
@@ -672,15 +672,6 @@
       "versao_referencia": "V4.9"
     },
     {
-      "arquivo": "dados/orquideas/epidendrum-hokulea-super-red.js",
-      "especie": "Epidendrum Hokulea ‘Super Red’",
-      "layout_cultivo_ideal": true,
-      "layout_substrato_ideal": true,
-      "novo_layout": true,
-      "origem_marcacao": "auditoria_estrutural_anterior",
-      "versao_referencia": "V4.9"
-    },
-    {
       "arquivo": "dados/orquideas/epidendrum-secundum.js",
       "especie": "Epidendrum secundum",
       "layout_cultivo_ideal": true,
@@ -742,15 +733,6 @@
       "novo_layout": true,
       "origem_marcacao": "auditoria_estrutural_direta_2026-11-02",
       "versao_referencia": "V4.9"
-    },
-    {
-      "arquivo": "dados/orquideas/index.js",
-      "especie": "index",
-      "layout_cultivo_ideal": null,
-      "layout_substrato_ideal": null,
-      "novo_layout": null,
-      "origem_marcacao": "nao_verificado",
-      "versao_referencia": null
     },
     {
       "arquivo": "dados/orquideas/isabelia-pulchella.js",
@@ -1119,15 +1101,6 @@
       "layout_substrato_ideal": true,
       "novo_layout": true,
       "origem_marcacao": "auditoria_estrutural_direta_2026-11-22",
-      "versao_referencia": "V4.9"
-    },
-    {
-      "arquivo": "dados/orquideas/oncidium-summer-wind.js",
-      "especie": "Oncidium Summer Wind",
-      "layout_cultivo_ideal": true,
-      "layout_substrato_ideal": true,
-      "novo_layout": true,
-      "origem_marcacao": "auditoria_estrutural_anterior",
       "versao_referencia": "V4.9"
     },
     {
