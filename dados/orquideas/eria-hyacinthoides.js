@@ -14,7 +14,7 @@ export const eriaHyacinthoides = {
         "imagens/Bryobium hyacinthoides/Bryobium hyacinthoides3.jpg",
         "imagens/Bryobium hyacinthoides/Bryobium hyacinthoides4.jpg"
     ],
-    descricao: "Uma pequena asiática que compensa o tamanho das flores com quantidade! Bryobium hyacinthoides forma pseudobulbos agrupados e folhas estreitas próximas ao ápice, de onde surgem hastes eretas de até cerca de 25 cm com aproximadamente 20–40 flores. Cada flor pode chegar perto de 2 cm e as inflorescências têm aspecto levemente felpudo. Vive em florestas úmidas do Sudeste Asiático, entre cerca de 500 e 1.700 m, por isso aprecia umidade atmosférica alta e boa circulação de ar, mas não raízes permanentemente encharcadas.",
+    descricao: "Uma pequena asiática que compensa o tamanho das flores com quantidade! Bryobium hyacinthoides forma pseudobulbos agrupados e folhas estreitas próximas ao ápice, de onde surgem hastes eretas de até cerca de 25 cm com aproximadamente 20–40 flores. Cada flor pode chegar perto de 2 cm e as inflorescências têm aspecto levemente felpudo. Vive em florestas úmidas do Sudeste Asiático, entre cerca de 500 e 1.700 m, por isso aprecia umidade atmosférica alta e boa circulação de ar, mas não raízes permanentemente encharcadas. As flores são brancas a creme, com perfume de intensidade e caráter variáveis.",
     origem: "Sudeste Asiático",
     regiao: "Tailândia à Malesia ocidental e meridional",
     habitat: "Florestas úmidas · epífita/rupícola · 500–1.700 m.",
