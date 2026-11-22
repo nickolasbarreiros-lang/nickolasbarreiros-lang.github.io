@@ -11,7 +11,7 @@ export const aciantheraTeres = {
     "https://acdn-us.mitiendanube.com/stores/002/752/705/products/20230828_1611351-f2aca0a1c9f86a160a16932770008071-1024-1024.webp",
     "https://i.ytimg.com/vi/_ZDPqOCOaHI/sddefault.jpg"
   ],
-  "descricao": "Uma brasileira de visual inconfundível! A Acianthera teres tem folhas estreitas, grossinhas e quase cilíndricas, que dão à touceira um aspecto diferente das orquídeas de folhas largas. Suas flores pequenas e discretas aparecem junto à folhagem e revelam detalhes delicados quando observadas de perto. Na natureza, destaca-se pela presença em afloramentos rochosos do Sudeste brasileiro, onde encontra muita claridade e excelente drenagem. É uma espécie que chama a atenção menos pelo tamanho das flores e mais pela forma singular da planta e pelo ambiente em que vive.",
+  "descricao": "Uma brasileira de visual inconfundível! A Acianthera teres tem folhas estreitas, grossinhas e quase cilíndricas, que dão à touceira um aspecto diferente das orquídeas de folhas largas. Suas flores pequenas e discretas aparecem junto à folhagem e revelam detalhes delicados quando observadas de perto. Na natureza, destaca-se pela presença em afloramentos rochosos do Sudeste brasileiro, onde encontra muita claridade e excelente drenagem. É uma espécie que chama a atenção menos pelo tamanho das flores e mais pela forma singular da planta e pelo ambiente em que vive. No cultivo, reproduza a drenagem rápida sem prolongar a desidratação.",
   "origem": "Brasil — Sudeste",
   "regiao": "Sudeste do Brasil, sobretudo afloramentos rochosos e campos rupestres.",
   "habitat": "Cresce principalmente sobre rochas expostas, com raízes presas em fendas e superfícies onde a água escoa rapidamente. Recebe bastante claridade, mas a temperatura das rochas e a umidade variam ao longo do dia.",
@@ -39,7 +39,7 @@ export const aciantheraTeres = {
     "Aplicar adubo concentrado nas raízes.",
     "Confundir folhas carnosas com tolerância à seca prolongada."
 ],
-  "dica": "🏆 Nesta espécie de folhas espessas, o segredo não é provocar seca prolongada, mas impedir que o suporte superaqueça. Em cultivo sobre madeira ou pedra, toque a superfície nas horas quentes: se estiver muito quente, aumente a proteção contra o sol forte. Ofereça boa claridade, ventilação e regas quando as raízes estiverem se aproximando da secagem. As folhas carnosas ajudam a suportar oscilações, mas não justificam abandonar a hidratação. Brotações firmes e raízes ativas indicam melhor equilíbrio que um calendário rígido.",
+  "dica": "🏆 Nesta espécie de folhas espessas, o segredo não é provocar seca prolongada, mas impedir que o suporte superaqueça. Sobre madeira ou pedra, toque a superfície nas horas quentes: se estiver muito quente, aumente a proteção contra o sol forte. Ofereça boa claridade, ventilação e regas quando as raízes estiverem se aproximando da secagem. As folhas carnosas ajudam a suportar oscilações, mas não justificam abandonar a hidratação. Brotações firmes e raízes ativas indicam melhor equilíbrio que um calendário rígido.",
   "revisaoCientificaIAR": {
     "nome": "Acianthera teres",
     "statusTaxonomico": "Nome aceito por Plants of the World Online (Kew); a identidade de exemplares comerciais ainda depende de confirmação.",
