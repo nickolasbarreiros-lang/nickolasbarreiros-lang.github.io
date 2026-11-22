@@ -20,7 +20,7 @@ export const miltoniaClowesii = {
         "imagens/Miltonia clowesii/Miltonia clowesii3.jpg",
         "imagens/Miltonia clowesii/Miltonia clowesii4.jpg"
     ],
-    "descricao": "Uma Miltonia brasileira de aparência marcante, com flores amarelas fortemente pintadas de castanho e um labelo claro com tons violáceos. As hastes altas e arqueadas se elevam acima da folhagem e dão à planta um aspecto muito ornamental quando vários botões abrem em sequência. Nativa do Sudeste do Brasil, é mais tolerante ao calor que as Miltoniopsis andinas, mas responde melhor quando recebe boa ventilação, raízes frescas e uma pequena queda de temperatura à noite.",
+    "descricao": "Uma Miltonia brasileira de aparência marcante, com flores amarelas fortemente pintadas de castanho e um labelo claro com tons violáceos. As hastes altas e arqueadas se elevam acima da folhagem e dão à planta um aspecto muito ornamental quando vários botões abrem em sequência. Nativa do Sudeste do Brasil, é mais tolerante ao calor que as Miltoniopsis andinas, mas responde melhor quando recebe boa ventilação, raízes frescas e uma pequena queda de temperatura à noite. As inflorescências podem alcançar cerca de 60 cm e carregar sete a dez flores de aproximadamente 5 a 7,5 cm.",
     "origem": "Brasil",
     "regiao": "Sudeste brasileiro",
     "habitat": "Mata Atlântica · epífita.",
