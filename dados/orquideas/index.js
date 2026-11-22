@@ -1,3 +1,4 @@
+import { maxillariaJohannis } from "./maxillaria-johannis.js";
 import { cattleyaAmethystoglossaVarAurea } from "./cattleya-amethystoglossa-var-aurea.js";
 import { epidendrumSecundum } from "./epidendrum-secundum.js";
 import { dinemaPolybulbon } from "./dinema-polybulbon.js";
@@ -155,6 +156,7 @@ import { dendrobiumSpectabile } from "./dendrobium-spectabile.js";
 import { aeridesOdorata } from "./aerides-odorata.js";
 import { anathallisSclerophylla } from "./anathallis-sclerophylla.js";
 export const orquideas = [
+    maxillariaJohannis,
     anathallisSclerophylla,
     aeridesOdorata,
     epidendrumCentropetalum,
