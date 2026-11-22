@@ -42,7 +42,7 @@ export const maxillariaJohannis = {
       "alteracoes": false
     }
   ],
-  "descricao": "Maxillaria johannis é uma orquídea brasileira de porte pequeno, encontrada em florestas tropicais úmidas, onde cresce sobre árvores. Seus pseudobulbos armazenam água e sustentam folhas persistentes, enquanto o crescimento vegetativo permite a formação de touceiras. As pequenas flores, de aproximadamente 1,5 a 2 cm, apresentam tonalidades claras, entre creme e amarelo, e podem surgir em conjunto na base da planta. O perfume ainda não está bem documentado. Seu ambiente natural favorece o cultivo sob luz filtrada, com umidade regular e circulação de ar. As raízes precisam de espaço e de uma mistura drenante, sem secas prolongadas ou saturação constante.",
+  "descricao": "Maxillaria johannis é uma orquídea brasileira de porte pequeno, com exemplares adultos de cerca de 10 cm, encontrada em florestas tropicais úmidas, onde cresce sobre árvores. Seus pseudobulbos armazenam água e sustentam folhas persistentes, enquanto o crescimento vegetativo permite a formação de touceiras. As pequenas flores, de aproximadamente 1,5 a 2 cm, apresentam tonalidades claras, entre creme e amarelo, e podem surgir em conjunto na base da planta. O perfume ainda não está bem documentado. Seu ambiente natural favorece o cultivo sob luz filtrada, com umidade regular e circulação de ar. As raízes precisam de espaço e de uma mistura drenante, sem secas prolongadas ou saturação constante.",
   "origem": "Brasil",
   "regiao": "Sul e Sudeste do Brasil",
   "habitat": "Florestas tropicais úmidas, incluindo matas de montanha · epífita. Faixa altitudinal específica não confirmada.",
@@ -108,7 +108,7 @@ export const maxillariaJohannis = {
     "titulo": "Substrato ideal",
     "contexto": "Mistura aberta para epífita de crescimento horizontal",
     "resumo": "Mistura orgânica drenante com retenção moderada.",
-    "justificativa": "A casca mantém a estrutura, os chips de coco conservam umidade e o carvão ajuda a manter espaços de ar. Use granulometria fina a média sem compactar a mistura e ajuste a rega à secagem real.",
+    "justificativa": "A casca mantém a estrutura, os chips de coco conservam umidade e o carvão ajuda a manter espaços de ar. Use granulometria fina a média sem compactar a mistura e ajuste a rega à secagem real. A proporção sugerida é um ponto de partida, ainda não comparado experimentalmente para esta espécie.",
     "receitaTexto": "50% casca de pinus + 30% chips de coco + 20% carvão vegetal.",
     "perfil": [
       "Epífita",
@@ -163,7 +163,7 @@ export const maxillariaJohannis = {
       }
     ],
     "alerta": "Não enterre o rizoma nem mantenha a mistura saturada.",
-    "notaEvidencia": "Proposta técnica, não ensaio específico. Meta de 25 produtores não atingida; uma fonte comercial específica confirma drenagem, sombra e floração de verão. Direitos das três primeiras fotos pendentes; quarta foto CC BY-NC 4.0, uso exclusivamente não comercial. Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155113-2 ; https://www.orchidspecies.com/maxjohannis.htm ; https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad."
+    "notaEvidencia": "Proposta técnica, não ensaio específico. Meta de 25 produtores não atingida; uma fonte comercial específica confirma drenagem, sombra e floração de verão. Direitos das três primeiras fotos pendentes; quarta foto CC BY-NC 4.0, uso exclusivamente não comercial. Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155113-2 ; https://www.orchidspecies.com/maxjohannis.htm ; https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad. Referências gerais de suporte à mistura, não específicas da espécie: https://www.esalq.usp.br/biblioteca/sites/default/files/publicacoes-a-venda/pdf/SPR_Orquideas.pdf ; https://www.sosa.org.br/dicas-de-cultivo/ ; https://www.sistemafaep.org.br/wp-content/uploads/2026/01/PR.0397-Cultivo-de-Orquideas_web.pdf. O produtor consultado classifica o cultivo como fácil; IDC 40 é estimativa conservadora do projeto, não resultado de ensaio."
   },
   "errosComuns": [
     "Enterrar o rizoma.",
