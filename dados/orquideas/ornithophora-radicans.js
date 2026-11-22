@@ -19,7 +19,7 @@ export const ornithophoraRadicans = {
         "imagens/Ornithophora radicans/Ornithophora radicans3.webp",
         "imagens/Ornithophora radicans/Ornithophora radicans4.jpeg"
     ],
-    descricao: "Uma miniatura brasileira de visual delicado e movimento pendente. A Gomesa radicans forma touceiras com pseudobulbos pequenos e folhas finas, quase como capim, de onde surgem hastes arqueadas de cerca de 18 cm com pequenas flores perfumadas de 5 mm a 1 cm. O aroma pode lembrar mel. É típica do Sul e Sudeste do Brasil, inclusive áreas próximas ao litoral, em torno de 400 m, o que explica sua boa tolerância ao calor quando recebe sombra moderada, umidade regular e principalmente bastante circulação de ar.",
+    descricao: "Uma miniatura brasileira de visual delicado e movimento pendente. A Gomesa radicans forma touceiras com pseudobulbos pequenos e folhas finas, quase como capim, de onde surgem hastes arqueadas de cerca de 18 cm com pequenas flores perfumadas de 5 mm a 1 cm. O aroma pode lembrar mel. É típica do Sul e Sudeste do Brasil, inclusive áreas próximas ao litoral, em torno de 400 m, o que explica sua boa tolerância ao calor quando recebe sombra moderada, umidade regular e principalmente bastante circulação de ar. As hastes carregam geralmente cinco a doze flores de labelo claro.",
     origem: "Brasil",
     regiao: "Sul e Sudeste do Brasil",
     habitat: "Mata Atlântica costeira · ~400 m.",
