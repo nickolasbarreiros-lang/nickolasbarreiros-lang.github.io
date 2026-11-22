@@ -65,11 +65,11 @@ export const oncidiumSphacelatum = {
   ],
   "formasCultivo": {
     "perfilVisual": "oncidium",
-    "destaque": "Cachepô de madeira",
+    "destaque": "Cachepô de Madeira",
     "resumo": "Prefere raízes muito ventiladas; cachepô vazado ou suporte de madeira favorece esse hábito, desde que a hidratação acompanhe a secagem.",
     "metodos": [
       {
-        "nome": "Vaso de barro",
+        "nome": "Vaso de Barro",
         "asset": "vaso-barro",
         "estrelas": 4,
         "status": "Muito recomendado",
@@ -83,14 +83,14 @@ export const oncidiumSphacelatum = {
         "texto": "Alternativa prática para controlar a secagem; fixe a planta e mantenha os furos desobstruídos."
       },
       {
-        "nome": "Cachepô de madeira",
+        "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
         "estrelas": 5,
         "status": "Ideal",
         "texto": "Favorece raízes expostas ao ar, respeitando o hábito epífito; pode exigir regas mais frequentes."
       },
       {
-        "nome": "Placa / Tronco",
+        "nome": "Placa / tronco",
         "asset": "placa-tronco",
         "estrelas": 5,
         "status": "Ideal",
