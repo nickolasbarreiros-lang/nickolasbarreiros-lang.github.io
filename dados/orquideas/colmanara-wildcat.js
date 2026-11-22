@@ -23,7 +23,7 @@ export const colmanaraWildcat = {
         "imagens/Oncostele Wildcat/Oncostele Wildcat3.jpg",
         "imagens/Oncostele Wildcat/Oncostele Wildcat4.jpg"
     ],
-    "descricao": "Um dos híbridos pintalgados mais populares do grupo Oncidium! Oncostele Wildcat chama atenção pelas hastes altas, frequentemente ramificadas, carregadas de flores cerosas em combinações de amarelo, vinho, vermelho e castanho. É um grex bastante variável, por isso cultivares diferentes podem apresentar desenhos, cores e tamanhos distintos. Registrado em 1992 a partir de Oncostele Rustic Bridge × Oncidium Crowborough, tornou-se conhecido durante muitos anos pelo antigo nome Colmanara Wildcat.",
+    "descricao": "Um dos híbridos pintalgados mais populares do grupo Oncidium! Oncostele Wildcat chama atenção pelas hastes altas, frequentemente ramificadas, carregadas de flores cerosas em combinações de amarelo, vinho, vermelho e castanho. É um grex bastante variável, por isso cultivares diferentes podem apresentar desenhos, cores e tamanhos distintos. Registrado em 1992 a partir de Oncostele Rustic Bridge × Oncidium Crowborough, tornou-se conhecido durante muitos anos pelo antigo nome Colmanara Wildcat. As flores podem alcançar cerca de 5 cm e apresentam perfume variável. Por ser um híbrido horticultural, não possui habitat natural próprio. Cultive com raízes aeradas.",
     "origem": "Híbrido horticultural",
     "regiao": "Sem ocorrência natural",
     "habitat": "Cultivo em vaso/cesto · raízes finas e aeradas.",
