@@ -74,11 +74,11 @@ export const epidendrumFulgens = {
   ],
   "formasCultivo": {
     "perfilVisual": "terrestre-rupicola",
-    "destaque": "Vaso de barro",
+    "destaque": "Vaso de Barro",
     "resumo": "O hábito terrestre e rupícola pede recipiente estável e mistura granulada; o vaso permite controlar a umidade sem compactar as raízes.",
     "metodos": [
       {
-        "nome": "Vaso de barro",
+        "nome": "Vaso de Barro",
         "asset": "vaso-barro",
         "estrelas": 5,
         "status": "Ideal",
@@ -92,14 +92,14 @@ export const epidendrumFulgens = {
         "texto": "Funciona bem com mistura grossa e furos desobstruídos; acompanhe a umidade no interior do recipiente."
       },
       {
-        "nome": "Cachepô de madeira",
+        "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
         "estrelas": 3,
         "status": "Alternativa",
         "texto": "Pode ser usado com contenção adequada da mistura, mas exige atenção à hidratação e à estabilidade da touceira."
       },
       {
-        "nome": "Placa / Tronco",
+        "nome": "Placa / tronco",
         "asset": "placa-tronco",
         "estrelas": 2,
         "status": "Pouco recomendado",
