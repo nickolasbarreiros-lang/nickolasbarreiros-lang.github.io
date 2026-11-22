@@ -24,7 +24,7 @@ export const oncidiumPumilum = {
         "imagens/Trichocentrum pumilum/Trichocentrum pumilum3.webp",
         "imagens/Trichocentrum pumilum/Trichocentrum pumilum4.jpg"
     ],
-    "descricao": "Uma miniatura que floresce como se fosse uma planta grande! O Trichocentrum pumilum forma touceiras compactas, com pseudobulbos discretos e folhas firmes, e quando amadurece lança hastes ramificadas cobertas por dezenas de pequenas flores amarelas de cerca de 5–8 mm. É uma espécie sul-americana muito adaptável, encontrada tanto em regiões quentes de baixa altitude quanto em ambientes montanos mais amenos. Em cultivo, responde melhor com bastante claridade filtrada, ventilação constante e raízes que recebam água com regularidade, mas sequem rapidamente entre as regas.",
+    "descricao": "Uma miniatura que floresce como se fosse uma planta grande! O Trichocentrum pumilum forma touceiras compactas, com pseudobulbos discretos e folhas firmes, e quando amadurece lança hastes ramificadas cobertas por dezenas de pequenas flores amarelas de cerca de 4–6 mm. É uma espécie sul-americana muito adaptável, encontrada tanto em regiões quentes de baixa altitude quanto em ambientes montanos mais amenos. Em cultivo, responde melhor com bastante claridade filtrada, ventilação constante e raízes que recebam água com regularidade, mas sequem rapidamente entre as regas. As flores apresentam pequenas manchas castanhas e perfume adocicado que lembra mel.",
     "origem": "América do Sul",
     "regiao": "Brasil ao NE da Argentina",
     "habitat": "Savanas e matas abertas · ~200–1.000 m.",
