@@ -8,10 +8,10 @@ export const maxillariaJohannis = {
   "dificuldade": "Moderada",
   "caracteristicas": [
     "Epífita com crescimento escandente observado em cultivo",
-    "Pseudobulbos elipsoides com duas folhas oblongas",
+    "Pseudobulbos ovoides de até cerca de 10 cm em cultivo",
     "Várias inflorescências curtas por pseudobulbo",
     "Flores amarelas de cerca de 2 cm, com labelo trilobado",
-    "Sem recompensa floral aparente"
+    "Porte médio, com conjunto vegetativo próximo de 40 cm em cultivo"
   ],
   "fotos": [
     "https://seidel.com.br/wp-content/uploads/2024/09/Maxillaria-johannis.jpg",
@@ -43,7 +43,7 @@ export const maxillariaJohannis = {
       "alteracoes": false
     }
   ],
-  "descricao": "Maxillaria johannis é uma pequena orquídea brasileira de florestas úmidas, inclusive montanas, onde cresce sobre árvores. Seu crescimento pode ser escandente, avançando ao longo do suporte e formando pseudobulbos elipsoides, ligeiramente achatados, com duas folhas oblongas de pontas arredondadas ou discretamente recortadas. Cada pseudobulbo pode produzir várias inflorescências mais curtas que as folhas. As flores amarelas, de aproximadamente 2 cm, apresentam labelo trilobado e pétalas menores que as sépalas. Não oferecem recompensa floral aparente, embora o perfume permaneça desconhecido. No cultivo, favoreça luz filtrada, umidade regular e ventilação, deixando espaço para o rizoma avançar e as raízes se fixarem sem encharcamento.",
+  "descricao": "Maxillaria johannis é uma orquídea epífita brasileira de florestas úmidas, inclusive montanas, com crescimento escandente e porte médio em cultivo. Seus pseudobulbos ovoides podem alcançar cerca de 10 cm, enquanto os crescimentos folhosos alongados podem levar o conjunto vegetativo a aproximadamente 40 cm, conforme observações de cultivo. As folhas são alongadas e as pequenas flores surgem lateralmente, junto às axilas foliares. Amarelas, com aproximadamente 2 cm, apresentam labelo trilobado e pétalas menores que as sépalas. O perfume permanece desconhecido. No cultivo, favoreça luz filtrada, umidade regular e ventilação, oferecendo espaço vertical para os novos crescimentos e a fixação das raízes.",
   "origem": "Brasil",
   "regiao": "Sul e Sudeste do Brasil",
   "habitat": "Florestas tropicais úmidas, incluindo matas montanas da Mata Atlântica · epífita sobre árvores. Faixa altitudinal específica ainda não estabelecida.",
@@ -164,7 +164,7 @@ export const maxillariaJohannis = {
       }
     ],
     "alerta": "Não enterre o rizoma nem mantenha a mistura saturada.",
-    "notaEvidencia": "Proposta técnica, não ensaio específico. Meta de 25 produtores não atingida; uma fonte comercial específica confirma drenagem, sombra e floração de verão. Direitos das três primeiras fotos pendentes; quarta foto CC BY-NC 4.0, uso exclusivamente não comercial. Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155113-2 ; https://www.orchidspecies.com/maxjohannis.htm ; https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad. Referências gerais de suporte à mistura, não específicas da espécie: https://www.esalq.usp.br/biblioteca/sites/default/files/publicacoes-a-venda/pdf/SPR_Orquideas.pdf ; https://www.sosa.org.br/dicas-de-cultivo/ ; https://www.sistemafaep.org.br/wp-content/uploads/2026/01/PR.0397-Cultivo-de-Orquideas_web.pdf. O produtor consultado classifica o cultivo como fácil; IDC 40 é estimativa conservadora do projeto, não resultado de ensaio. Revisão dos três PDFs de 22/11/2026: IOSPE confirma 2 cm e meia-sombra; Singer & Koehler (2004) confirma ausência de recompensa aparente. Medidas vegetativas, autoria Schlechter e combinação Camaridium johannis do Gemini não corroboradas; percentuais de sombra e manejo de esfagno são estimativas práticas. Receita e índices mantidos por falta de evidência comparativa. Descrição morfológica da WFO consultada: confirma hábito rastejante, duas folhas e várias inflorescências por pseudobulbo; não sustenta o hábito escandente descrito no PDF Gemini. Revisão visual: exemplar fotografado com eixo ascendente; prioridade de montagem vertical é recomendação prática, não comparação experimental."
+    "notaEvidencia": "Proposta técnica, não ensaio específico. Meta de 25 produtores não atingida; uma fonte comercial específica confirma drenagem, sombra e floração de verão. Direitos das três primeiras fotos pendentes; quarta foto CC BY-NC 4.0, uso exclusivamente não comercial. Fontes: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155113-2 ; https://www.orchidspecies.com/maxjohannis.htm ; https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad. Referências gerais de suporte à mistura, não específicas da espécie: https://www.esalq.usp.br/biblioteca/sites/default/files/publicacoes-a-venda/pdf/SPR_Orquideas.pdf ; https://www.sosa.org.br/dicas-de-cultivo/ ; https://www.sistemafaep.org.br/wp-content/uploads/2026/01/PR.0397-Cultivo-de-Orquideas_web.pdf. O produtor consultado classifica o cultivo como fácil; IDC 40 é estimativa conservadora do projeto, não resultado de ensaio. Revisão dos três PDFs de 22/11/2026: IOSPE confirma 2 cm e meia-sombra; Singer & Koehler (2004) confirma ausência de recompensa aparente. Medidas vegetativas, autoria Schlechter e combinação Camaridium johannis do Gemini não corroboradas; percentuais de sombra e manejo de esfagno são estimativas práticas. Receita e índices mantidos por falta de evidência comparativa. Descrição morfológica da WFO consultada: confirma hábito rastejante, duas folhas e várias inflorescências por pseudobulbo; a direção do crescimento não é necessariamente horizontal. Revisão visual: exemplar fotografado com eixo ascendente; prioridade de montagem vertical é recomendação prática, não comparação experimental."
   },
   "errosComuns": [
     "Enterrar o rizoma.",
@@ -335,6 +335,6 @@ export const maxillariaJohannis = {
     ],
     "habitatAltitudeClima": "Epífita de floresta tropical úmida; ocorrência documentada em floresta montana da Mata Atlântica (Marcusso et al., 2022, voucher TBF 1078 ESA). Limites altitudinais e térmicos específicos não estabelecidos. Registros adicionais: lista florística catarinense, Sellowia 56/63 (2011), p. 175; plano de manejo do Parque Nacional da Serra dos Órgãos, registro Herbário RB. Presença em área montanhosa não estabelece altitude exata nem tolerância térmica.",
     "polinização": "Singer & Koehler (2004), tabela 1, voucher 8452 (SP): aliança M. uncata, polinário tipo 1 av/st, sem recompensa floral aparente. Não demonstra ausência de perfume nem identifica polinizador específico.",
-    "morfologia": "World Flora Online, descrição morfológica local: rizoma rastejante aderente ao substrato, pseudobulbos lisos elipsoides ligeiramente comprimidos, duas folhas oblongas, várias inflorescências por pseudobulbo, flores amarelas sem ornamentação, labelo trilobado. A fotografia comercial fornecida pelo usuário mostra crescimento ascendente escandente; a descrição de rizoma rastejante não implica orientação horizontal obrigatória. Identidade da foto segue atribuída pelo fornecedor."
+    "morfologia": "World Flora Online, descrição morfológica local: rizoma rastejante aderente ao substrato, pseudobulbos lisos elipsoides ligeiramente comprimidos, duas folhas oblongas, várias inflorescências por pseudobulbo, flores amarelas sem ornamentação, labelo trilobado. A fotografia comercial fornecida pelo usuário mostra crescimento ascendente escandente; a descrição de rizoma rastejante não implica orientação horizontal obrigatória. Identidade da foto segue atribuída pelo fornecedor. Medidas aproximadas de 10 cm para pseudobulbo e 40 cm para conjunto vegetativo informadas pelo usuário em 23/11/2026; não constituem limites botânicos comprovados."
   }
 };
