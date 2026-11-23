@@ -192,7 +192,7 @@ export const maxillariaJohannis = {
     "perfume": null,
     "luminosidade": 3,
     "agua": 4,
-    "raridade": null
+    "raridade": 3
   },
   "indiceDificuldadeCultivo": {
     "versao": "IDC 3.2 — selo por facilidade",
@@ -336,5 +336,55 @@ export const maxillariaJohannis = {
     "habitatAltitudeClima": "Epífita de floresta tropical úmida; ocorrência documentada em floresta montana da Mata Atlântica (Marcusso et al., 2022, voucher TBF 1078 ESA). Limites altitudinais e térmicos específicos não estabelecidos. Registros adicionais: lista florística catarinense, Sellowia 56/63 (2011), p. 175; plano de manejo do Parque Nacional da Serra dos Órgãos, registro Herbário RB. Presença em área montanhosa não estabelece altitude exata nem tolerância térmica.",
     "polinização": "Singer & Koehler (2004), tabela 1, voucher 8452 (SP): aliança M. uncata, polinário tipo 1 av/st, sem recompensa floral aparente. Não demonstra ausência de perfume nem identifica polinizador específico.",
     "morfologia": "World Flora Online, descrição morfológica local: rizoma rastejante aderente ao substrato, pseudobulbos lisos elipsoides ligeiramente comprimidos, duas folhas oblongas, várias inflorescências por pseudobulbo, flores amarelas sem ornamentação, labelo trilobado. A fotografia comercial fornecida pelo usuário mostra crescimento ascendente escandente; a descrição de rizoma rastejante não implica orientação horizontal obrigatória. Identidade da foto segue atribuída pelo fornecedor. Medidas aproximadas de 10 cm para pseudobulbo e 40 cm para conjunto vegetativo informadas pelo usuário em 23/11/2026; não constituem limites botânicos comprovados."
+  },
+  "indiceRaridadeRelativa": {
+    "versao": "IRR 1.0",
+    "indice": 50,
+    "estrelas": 3,
+    "classificacao": "Pouco comum",
+    "cobertura": 85,
+    "status": "Preliminar",
+    "criterios": {
+      "disponibilidadeComercial": {
+        "peso": 35,
+        "nota": 4
+      },
+      "distribuicaoGeografica": {
+        "peso": 20,
+        "nota": 2
+      },
+      "abundanciaNatural": {
+        "peso": 15,
+        "nota": null
+      },
+      "conservacao": {
+        "peso": 15,
+        "nota": 1
+      },
+      "escassezInformacoes": {
+        "peso": 15,
+        "nota": 4
+      }
+    },
+    "justificativas": {
+      "disponibilidadeComercial": "Poucas referências comerciais identificadas; disponibilidade atual e amostra de 25 produtores ainda não verificadas.",
+      "distribuicaoGeografica": "Sul e Sudeste brasileiros, conforme referências taxonômicas registradas.",
+      "abundanciaNatural": "Sem dados suficientes.",
+      "conservacao": "Nota provisória baseada em referência regional LC relatada anteriormente, pendente de verificação.",
+      "escassezInformacoes": "Informações específicas de cultivo e dimensões vegetativas limitadas."
+    },
+    "fontes": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155113-2",
+      "https://www.orchidspecies.com/maxjohannis.htm",
+      "https://www.orquidario4e.com.br/orquidea-maxillaria-robusta-ad",
+      "https://www.worldfloraonline.org/taxon/wfo-0000238519",
+      "https://plantidtools.fieldmuseum.org/pt/nlp/catalogue/3678972",
+      "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/rebio-de-augusto-ruschi/arquivos/pdfs/Marcussoetal.2022_epiphytesAugustoRuschiBiol.Reserve_compressed.pdf",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4242263/",
+      "https://www.ipni.org/n/43721-2",
+      "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-dos-orgaos/arquivos/anexos-pm-parnaso.pdf",
+      "https://static.ndmais.com.br/2025/10/lista_de_especies_de_vetais_catarinenses-2.pdf"
+    ],
+    "documentacao": "documentacao/IRR-1.0-INDICE-RARIDADE-RELATIVA.md"
   }
 };
