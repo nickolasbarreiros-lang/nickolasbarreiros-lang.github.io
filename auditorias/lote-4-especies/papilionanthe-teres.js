@@ -1,4 +1,4 @@
-// Rascunho parcial V4.9 — não importar no catálogo ativo.
+// Rascunho V4.9 — não importar automaticamente.
 export const papilionantheTeres = {
   "id": "papilionanthe-teres",
   "nome": "Papilionanthe teres",
@@ -8,7 +8,11 @@ export const papilionantheTeres = {
   "origem": "Ásia tropical",
   "habitat": "Epífita monopodial ascendente, folhas cilíndricas e raízes aéreas.",
   "iluminacao": {
-    "observacoes": "Alta; aclimatar ao sol direto."
+    "observacoes": "Alta; aclimatar ao sol direto.",
+    "sombrite": "0–30%",
+    "seloLuz": "vermelho",
+    "solDireto": "Com aclimatação",
+    "horario": "Início da manhã"
   },
   "rega": "Regar raízes expostas conforme secagem; sem repouso seco rigoroso.",
   "floracao": "Primavera a verão; calendário brasileiro não confirmado.",
@@ -18,17 +22,23 @@ export const papilionantheTeres = {
     "itens": [
       {
         "asset": "casca-pinus",
-        "proporcao": "40%"
+        "proporcao": "40%",
+        "nome": "Casca de pinus"
       },
       {
         "asset": "carvao-vegetal",
-        "proporcao": "35%"
+        "proporcao": "35%",
+        "nome": "Carvão vegetal"
       },
       {
         "asset": "brita",
-        "proporcao": "25%"
+        "proporcao": "25%",
+        "nome": "Brita"
       }
-    ]
+    ],
+    "titulo": "Substrato ideal",
+    "contexto": "Substrato indicado para plantio em recipiente",
+    "notaEvidencia": "Proporções técnicas preliminares; pesquisa MACS incompleta."
   },
   "indicesPreliminares": {
     "nome": "Papilionanthe teres",
@@ -83,5 +93,202 @@ export const papilionantheTeres = {
       "indice": 17.857142857142854
     }
   },
-  "status": "Rascunho não integrado; completar campos V4.9, verificar fontes, fotografias e MACS antes de publicar."
+  "status": "Rascunho ampliado; descrição, erros, dica, fotografias, evidências e validação visual ainda pendentes.",
+  "dificuldade": "Muito fácil",
+  "caracteristicas": [
+    "Epífita monopodial ascendente, folhas cilíndricas e raízes aéreas."
+  ],
+  "descricao": "Epífita monopodial ascendente, folhas cilíndricas e raízes aéreas. Primavera a verão; calendário brasileiro não confirmado. Ofereça suporte vertical firme, luz intensa após aclimatação e hidratação das raízes aéreas. Não imponha seca prolongada.",
+  "climaFloracao": "Ofereça suporte vertical firme, luz intensa após aclimatação e hidratação das raízes aéreas. Não imponha seca prolongada.",
+  "mesesFloracao": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "mesesFloracaoIndicativos": true,
+  "adubacao": "Orgânica: pequena porção de bokashi longe dos brotos. Mineral: NPK equilibrado a 1/4 da dose do rótulo durante crescimento. Liberação lenta: opcional em recipiente, conforme rótulo. Lavagem de sais: mensalmente.",
+  "suporte": "Placa / tronco",
+  "substrato": [
+    "Casca de pinus + carvão vegetal + argila expandida",
+    "Chips de coco grossos + carvão vegetal + casca de pinus"
+  ],
+  "formasCultivo": {
+    "destaque": "Placa / tronco",
+    "resumo": "Ofereça suporte vertical firme, luz intensa após aclimatação e hidratação das raízes aéreas. Não imponha seca prolongada.",
+    "metodos": [
+      {
+        "nome": "Placa / tronco",
+        "asset": "placa-tronco",
+        "estrelas": 5,
+        "status": "Mais recomendado na ficha",
+        "texto": "Ofereça suporte vertical firme, luz intensa após aclimatação e hidratação das raízes aéreas. Não imponha seca prolongada."
+      },
+      {
+        "nome": "Cachepô de Madeira",
+        "asset": "cesto-madeira",
+        "estrelas": 4,
+        "status": "Alternativa",
+        "texto": "Ajuste a fixação e a rega ao crescimento e à secagem do suporte."
+      },
+      {
+        "nome": "Vaso plástico vasado",
+        "asset": "vaso-plastico-vasado-v2",
+        "estrelas": 4,
+        "status": "Alternativa",
+        "texto": "Ajuste a fixação e a rega ao crescimento e à secagem do suporte."
+      },
+      {
+        "nome": "Vaso de Barro",
+        "asset": "vaso-barro",
+        "estrelas": 4,
+        "status": "Alternativa",
+        "texto": "Ajuste a fixação e a rega ao crescimento e à secagem do suporte."
+      }
+    ]
+  },
+  "avaliacoes": {
+    "cultivo": 5,
+    "raridade": 1,
+    "perfume": null
+  },
+  "indiceDificuldadeCultivo": {
+    "versao": "IDC 3.2",
+    "indice": 22.5,
+    "cultivoEstrelas": 5,
+    "criterios": {
+      "temperatura": {
+        "notaDificuldade": 2,
+        "peso": 15
+      },
+      "rega": {
+        "notaDificuldade": 2,
+        "peso": 15
+      },
+      "umidade": {
+        "notaDificuldade": 2,
+        "peso": 10
+      },
+      "ventilacao": {
+        "notaDificuldade": 1,
+        "peso": 10
+      },
+      "luminosidade": {
+        "notaDificuldade": 2,
+        "peso": 10
+      },
+      "raizesSubstrato": {
+        "notaDificuldade": 1,
+        "peso": 10
+      },
+      "sazonalidade": {
+        "notaDificuldade": 1,
+        "peso": 10
+      },
+      "floracao": {
+        "notaDificuldade": 3,
+        "peso": 20
+      }
+    }
+  },
+  "indiceAdaptacaoRegional": {
+    "versao": "IAR 2.0",
+    "litoralQuente": {
+      "indice": 89,
+      "estrelas": 5,
+      "fatores": {
+        "habitatNatural": {
+          "nota": 5,
+          "peso": 30
+        },
+        "temperatura": {
+          "nota": 4,
+          "peso": 30
+        },
+        "aguaUmidade": {
+          "nota": 4,
+          "peso": 5
+        },
+        "ventilacao": {
+          "nota": 5,
+          "peso": 5
+        },
+        "luminosidade": {
+          "nota": 5,
+          "peso": 5
+        },
+        "sazonalidade": {
+          "nota": 5,
+          "peso": 5
+        },
+        "floracao": {
+          "nota": 4,
+          "peso": 20
+        }
+      }
+    },
+    "montanhaFrio": {
+      "indice": 77,
+      "estrelas": 4,
+      "fatores": {
+        "habitatNatural": {
+          "nota": 4,
+          "peso": 30
+        },
+        "temperatura": {
+          "nota": 4,
+          "peso": 30
+        },
+        "aguaUmidade": {
+          "nota": 4,
+          "peso": 5
+        },
+        "ventilacao": {
+          "nota": 5,
+          "peso": 5
+        },
+        "luminosidade": {
+          "nota": 4,
+          "peso": 5
+        },
+        "sazonalidade": {
+          "nota": 4,
+          "peso": 5
+        },
+        "floracao": {
+          "nota": 3,
+          "peso": 20
+        }
+      }
+    }
+  },
+  "indiceRaridadeRelativa": {
+    "versao": "IRR 1.0",
+    "indice": 17.857142857142854,
+    "estrelas": 1,
+    "cobertura": 70,
+    "status": "Preliminar",
+    "criterios": {
+      "disponibilidadeComercial": {
+        "nota": 2,
+        "peso": 35
+      },
+      "distribuicaoGeografica": {
+        "nota": 1,
+        "peso": 20
+      },
+      "abundanciaNatural": {
+        "nota": null,
+        "peso": 15
+      },
+      "conservacao": {
+        "nota": null,
+        "peso": 15
+      },
+      "escassezInformacoes": {
+        "nota": 2,
+        "peso": 15
+      }
+    }
+  }
 };
