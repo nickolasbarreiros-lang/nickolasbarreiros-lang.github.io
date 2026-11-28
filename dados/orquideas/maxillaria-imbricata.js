@@ -15,7 +15,7 @@ export const maxillariaImbricata = {
     "horario": "Início da manhã"
   },
   "rega": "Hidrate completamente as raízes e deixe o excesso escorrer. Em placa, acompanhe diariamente a velocidade de secagem no calor; se a madeira secar depressa demais, ajuste a frequência ou use uma pequena reserva de esfagno solto. Em recipiente, examine a umidade interna antes de regar novamente, evitando saturação prolongada. No frio, espaçe as regas conforme a evaporação. Pseudobulbos progressivamente enrugados podem indicar falta de água ou raízes danificadas, portanto confira ambas as condições. Não imponha um período de seca prolongada, pois não existe evidência suficiente de que ele seja necessário para esta espécie.",
-  "floracao": "As flores individuais, com aproximadamente 3 cm, surgem em hastes curtas próximas à base dos pseudobulbos. O crescimento alongado permite que diferentes segmentos maduros participem da floração. Há indicação de ocorrência em diferentes épocas do ano, mas faltam registros suficientes para estabelecer um calendário brasileiro confiável, a intensidade do perfume, a duração individual ou a frequência anual.",
+  "floracao": "A floração apresenta registro histórico brasileiro em dezembro, no início do verão, embora possa ocorrer em praticamente qualquer época do ano. As flores creme a amarelo-claro, com cerca de 3 cm, surgem individualmente em numerosas hastes basais curtas, distribuídas pelos segmentos maduros. Não há confirmação de um pico anual, intensidade de perfume, duração individual das flores ou reflorescência na mesma haste.",
   "fotos": [],
   "creditosFotos": [],
   "substratoVisual": {
@@ -95,7 +95,9 @@ export const maxillariaImbricata = {
   ],
   "descricao": "Maxillaria imbricata é uma orquídea sul-americana de arquitetura vegetativa peculiar, caracterizada pelos crescimentos pendentes e pseudobulbos sobrepostos. Essa disposição confere à planta um aspecto ornamental mesmo quando está sem flores. As folhas alongadas acompanham os segmentos vegetativos, enquanto as flores claras ou amareladas aparecem individualmente em hastes próximas aos pseudobulbos. Seu hábito epífito sugere a importância de raízes bem ventiladas e de um suporte que permita a expansão natural dos crescimentos. Em cultivo, convém oferecer luminosidade filtrada e hidratação regular, observando a resposta individual da planta. A documentação disponível sobre suas exigências específicas e a duração das flores ainda é limitada.",
   "climaFloracao": "Priorize a continuidade do crescimento, maturação dos pseudobulbos e umidade regular, com luz filtrada e ventilação. Dias de 23–30 °C e noites de 17–23 °C constituem uma referência inicial de manejo, não uma faixa experimental de indução floral. No litoral, evite calor abafado e raízes saturadas; na montanha, proteja de frio prolongado. Não há confirmação de altitude obrigatória, queda térmica mínima ou repouso seco necessário para a floração.",
-  "mesesFloracao": [],
+  "mesesFloracao": [
+    12
+  ],
   "mesesFloracaoIndicativos": true,
   "adubacao": "🌿 Orgânica: use pequena quantidade de bokashi em porta-adubo, afastado das raízes e dos brotos, somente durante crescimento ativo. Em montagem sem substrato, prefira adubação mineral diluída.\n💧 Foliar/radicular: utilize fertilizante equilibrado a 1/4 da dose do rótulo a cada 15 dias durante crescimento, sobre raízes previamente hidratadas. Reduza quando o crescimento desacelerar.\n🧪 Liberação lenta: opcional em recipiente, respeitando dose e duração do fabricante; mantenha os grânulos afastados da base e considere a liberação mais rápida no calor.\n🚿 Lavagem de sais: regue abundantemente com água limpa a cada 15–30 dias, deixando drenar completamente. Suspenda a adubação se houver raízes danificadas até recuperar o crescimento.",
   "suporte": "Placa / tronco",
@@ -322,11 +324,14 @@ export const maxillariaImbricata = {
       "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155104-2/general-information",
       "https://commons.wikimedia.org/wiki/Camaridium_hoehnei",
       "https://www.ipni.org/n/43697-2",
-      "https://www.ipni.org/n/310603-2"
+      "https://www.ipni.org/n/310603-2",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e1/Genera_et_species_orchidearum_novarum_%28I%29.pdf",
+      "https://orchidspecies.com/maximbricata.htm"
     ],
     "habitatAltitudeClima": "IOSPE registra 100–1000 m, florestas tropicais úmidas nebulares; Kew confirma bioma tropical úmido. Distribuição geográfica diverge entre fontes; priorizar Kew para taxonomia.",
     "morfologia": "UFC: pseudobulbos fusiformes imbricados 3,5 × 0,8–1 cm; folha coriácea 10–18,3 × 1,1–1,3 cm. IOSPE: flor de cerca de 3 cm, haste uniflora de até 3,75 cm.",
-    "alertaTaxonomico": "Camaridium imbricatum (Barb.Rodr.) Hoehne, 1947, é homônimo posterior ilegítimo e não deve ser confundido com Camaridium imbricatum Schltr., 1918, de Costa Rica."
+    "alertaTaxonomico": "Camaridium imbricatum (Barb.Rodr.) Hoehne, 1947, é homônimo posterior ilegítimo e não deve ser confundido com Camaridium imbricatum Schltr., 1918, de Costa Rica.",
+    "fenologia": "Barbosa Rodrigues (1877), Genera et Species Orchidearum Novarum I, pp. 120–121: floração em dezembro em Petrópolis. IOSPE: possibilidade de floração em praticamente qualquer época. Dezembro é registro documentado, não pico comprovado nem ensaio de cultivo."
   },
   "regiao": "América do Sul tropical; ocorrência no Brasil e Bolívia documentada nas referências consultadas.",
   "clima": "Tropical úmido, quente",
