@@ -9867,3 +9867,15 @@ main.container{
 .selo-luz-azul + .selo-luz-rotulo{color:#205db3}
 .selo-luz-amarelo + .selo-luz-rotulo{color:#c05600}
 .selo-luz-vermelho + .selo-luz-rotulo{color:#b42318}
+
+
+/* V4.9: quatro ingredientes em grade simétrica, sem alterar outras receitas. */
+.receita-substrato-v4.receita-quatro-v49 {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;max-width:520px;margin-inline:auto}
+.receita-quatro-v49 > .ingrediente-substrato-v4 {width:100%;min-width:0;grid-column:auto}
+.receita-quatro-v49 > .sinal-mais-substrato-v4 {display:none}
+.selo-luz-amarelo {background:#ffead2;color:#a64c00}
+@media print {
+ .secao-cultivo-v2,.erros-comuns-v2,.adaptacao-regional-v2 {break-inside:auto;page-break-inside:auto}
+ .ingrediente-substrato-v4,.finalidade-item-substrato-v4,.receita-quatro-v49 {break-inside:avoid}
+ .pagina-ficha .botao-topo {display:none!important}
+}
