@@ -34,8 +34,8 @@ export const maxillariaImbricata = {
       "nomeLicenca": "Não confirmada"
     },
     {
-      "autor": "Não identificado — fonte Ecuagenera",
-      "origem": "https://ecuagenera.com/cdn/shop/files/Maxillaria_imbricata.jpg?v=1751273710",
+      "autor": "Ecuagenera (fonte comercial; fotógrafo não confirmado)",
+      "origem": "https://ecuagenera.com/pt/products/maxillaria-imbricata",
       "nomeLicenca": "Não confirmada"
     },
     {
