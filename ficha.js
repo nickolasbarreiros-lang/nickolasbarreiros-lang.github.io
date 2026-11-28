@@ -580,7 +580,7 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                 <span class="contexto-substrato-v4">SUBSTRATO INDICADO PARA PLANTIO EM RECIPIENTE</span>
             </div>
 
-            ${config.semSubstrato ? `<div class="sem-substrato-v41"><strong>0% substrato convencional</strong><span>${config.semSubstrato}</span></div>` : `<div class="receita-substrato-v4">
+            ${config.semSubstrato ? `<div class="sem-substrato-v41"><strong>0% substrato convencional</strong><span>${config.semSubstrato}</span></div>` : `<div class="receita-substrato-v4 ${itensValidos.length === 4 ? "receita-quatro-v49" : ""}">
                 ${itensValidos.map((item, indice) => `
                     ${indice > 0 ? `<span class="sinal-mais-substrato-v4" aria-hidden="true">+</span>` : ""}
                     <article class="ingrediente-substrato-v4">
