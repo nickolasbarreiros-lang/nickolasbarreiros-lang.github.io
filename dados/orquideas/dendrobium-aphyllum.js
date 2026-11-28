@@ -62,26 +62,26 @@ export const dendrobiumAphyllum = {
         "finalidade": "Use casca média, firme e sem excesso de partículas finas. Ela sustenta as raízes e retém parte da água durante o crescimento; substitua quando começar a se decompor e atrasar a drenagem."
       },
       {
-        "asset": "carvao-vegetal",
-        "nome": "Carvão vegetal",
-        "proporcao": "25%",
-        "nota": "aeração",
-        "finalidade": "O carvão mantém espaços entre os componentes orgânicos e ajuda a preservar a estrutura da mistura. Lave antes de usar e evite acúmulo de sais com regas completas."
-      },
-      {
         "asset": "brita",
         "nome": "Brita",
-        "proporcao": "15%",
+        "proporcao": "20%",
         "nota": "drenagem",
         "finalidade": "A brita lavada, de tamanho compatível com o recipiente, acrescenta estabilidade e reduz a fração orgânica da mistura. Evite partículas finas que preencham os espaços de ar."
+      },
+      {
+        "nome": "Chips de coco",
+        "nota": "umidade",
+        "finalidade": "Use chips grossos lavados e preparados, distribuídos entre a casca e a brita. Acompanhe a umidade interna durante o crescimento e reduza a rega no repouso.",
+        "asset": "chips-coco",
+        "proporcao": "20%"
       }
     ],
     "titulo": "Substrato ideal",
     "contexto": "Substrato indicado para plantio em recipiente",
-    "notaEvidencia": "Kew e RHS recomendam cesto suspenso e mistura aberta; três produtores brasileiros consultados nesta rodada. Percentuais estimados; meta de 25 não atingida.",
+    "notaEvidencia": "Receita provisória; fonte especializada https://www.rhs.org.uk/plants/5436/dendrobium-aphyllum/details; percentuais complementares estimados; auditoria comercial incompleta.",
     "resumo": "Mistura aberta para recipiente suspenso.",
-    "justificativa": "A mistura para recipiente deve conciliar a hidratação das raízes durante o crescimento com secagem mais rápida no repouso. A casca de pinus média fornece apoio e reserva moderada de água; o carvão preserva espaços de ar e a brita acrescenta estrutura mineral sem absorver muita água. Use recipiente pequeno e vazado, mantendo a base das canas exposta. A proporção é uma referência prática, ajustável ao clima e à frequência de rega.",
-    "receitaTexto": "60% casca de pinus + 25% carvão vegetal + 15% brita.",
+    "justificativa": "A casca média sustenta as raízes e constitui a base da mistura. A brita lavada fornece estrutura mineral e os chips de coco grossos, lavados e preparados, oferecem reserva hídrica durante a emissão de brotos. A combinação segue a orientação qualitativa de usar casca, material mineral e coco, com proporções volumétricas estimadas. Utilize recipiente pequeno e suspenso, reduzindo as regas no repouso conforme a secagem.",
+    "receitaTexto": "60% casca de pinus + 20% brita + 20% chips de coco.",
     "perfil": [
       "Epífita",
       "Canas pendentes",
@@ -110,7 +110,7 @@ export const dendrobiumAphyllum = {
         "icone": "🧱"
       }
     ],
-    "alerta": "Evite substrato saturado durante o repouso."
+    "alerta": "Evite saturação durante o repouso."
   },
   "dificuldade": "Fácil",
   "caracteristicas": [
@@ -130,8 +130,8 @@ export const dendrobiumAphyllum = {
   "adubacao": "🌿 Orgânica: durante o crescimento, use pequena porção de bokashi em porta-adubo, afastada dos brotos e raízes. Retire ao iniciar o repouso.\n💧 Foliar/radicular: aplique NPK equilibrado a 1/4 da dose do rótulo a cada 7–15 dias durante o crescimento ativo, sobre raízes previamente hidratadas. Suspenda quando as canas amadurecerem e iniciarem o repouso.\n🧪 Liberação lenta: opcional em recipiente, em quantidade conservadora conforme o rótulo e a duração do produto. Evite aplicações que continuem liberando nutrientes durante o repouso.\n🚿 Lavagem de sais: durante o crescimento, passe água limpa abundantemente pelo suporte a cada 15–30 dias, deixando drenar por completo.",
   "suporte": "Cachepô de Madeira",
   "substrato": [
-    "Casca de pinus + carvão vegetal + chips de coco",
-    "Chips de coco + carvão vegetal + argila expandida"
+    "Casca de pinus + carvão vegetal + esfagno",
+    "Casca de pinus + carvão vegetal + argila expandida"
   ],
   "formasCultivo": {
     "destaque": "Cachepô de Madeira",
