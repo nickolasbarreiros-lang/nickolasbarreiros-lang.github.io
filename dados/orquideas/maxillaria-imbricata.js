@@ -258,7 +258,7 @@ export const maxillariaImbricata = {
   },
   "indiceRaridadeRelativa": {
     "versao": "IRR 1.0",
-    "indice": 46.42857142857143,
+    "indice": 46.43,
     "estrelas": 3,
     "cobertura": 35,
     "status": "Preliminar — baixa cobertura",
