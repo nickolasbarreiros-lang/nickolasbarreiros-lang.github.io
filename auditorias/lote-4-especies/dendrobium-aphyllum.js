@@ -86,19 +86,19 @@ export const dendrobiumAphyllum = {
         1,
         1,
         null,
-        null,
+        1,
         1
       ],
-      "cobertura": 70,
+      "cobertura": 85,
       "indice": 0
     }
   },
-  "status": "Rascunho ampliado; descrição, erros, dica, fotografias, evidências e validação visual ainda pendentes.",
+  "status": "Textos editoriais ampliados; fotografias, MACS e revisão científica pendentes.",
   "dificuldade": "Fácil",
   "caracteristicas": [
     "Epífita simpodial com caules pendentes e folhas caducas."
   ],
-  "descricao": "Epífita simpodial com caules pendentes e folhas caducas. Flores nos nós dos caules maduros sem folhas; primavera indicativa. Reduza a rega após maturação dos caules e queda das folhas; retome gradualmente com o crescimento. Preserve caules antigos.",
+  "descricao": "Dendrobium aphyllum, tradicionalmente comercializado como Dendrobium pierardii, é uma orquídea asiática conhecida pelos longos caules pendentes que podem alcançar dois metros. Durante o crescimento, desenvolve folhas distribuídas ao longo dos caules, que normalmente caem na fase de repouso. As flores rosadas ou lilases, com labelo claro e perfume agradável, surgem lateralmente nos caules maduros, formando uma delicada cascata ornamental. Na natureza, ocupa árvores e também paredões calcários em florestas sujeitas à sazonalidade. O cultivo em recipientes suspensos favorece sua arquitetura. A alternância entre crescimento úmido e repouso mais seco, sem desidratação extrema, ajuda a preparar a planta para florescer.",
   "climaFloracao": "Reduza a rega após maturação dos caules e queda das folhas; retome gradualmente com o crescimento. Preserve caules antigos.",
   "mesesFloracao": [
     9,
@@ -265,7 +265,7 @@ export const dendrobiumAphyllum = {
     "versao": "IRR 1.0",
     "indice": 0,
     "estrelas": 1,
-    "cobertura": 70,
+    "cobertura": 85,
     "status": "Preliminar",
     "criterios": {
       "disponibilidadeComercial": {
@@ -281,7 +281,7 @@ export const dendrobiumAphyllum = {
         "peso": 15
       },
       "conservacao": {
-        "nota": null,
+        "nota": 1,
         "peso": 15
       },
       "escassezInformacoes": {
@@ -289,5 +289,23 @@ export const dendrobiumAphyllum = {
         "peso": 15
       }
     }
+  },
+  "dica": "Observe a maturação dos caules, e não apenas o calendário, para decidir quando reduzir a rega. Durante o crescimento, ofereça água e nutrientes regularmente. Depois da queda natural das folhas, suspenda a adubação e reduza a hidratação, evitando que os caules murchem excessivamente. Preserve as hastes antigas, pois armazenam reservas e podem produzir flores. Um cachepô suspenso permite apreciar a cascata floral sem dobrar os caules.",
+  "errosComuns": [
+    "Cortar caules sem folhas",
+    "Regar excessivamente no repouso",
+    "Adubar durante o repouso",
+    "Desidratar caules em excesso",
+    "Restringir caules pendentes",
+    "Manter em sombra profunda",
+    "Usar mistura compacta",
+    "Expor a geadas"
+  ],
+  "revisaoCientificaIAR": {
+    "fontes": [
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:626817-1/general-information",
+      "https://staugorchidsociety.org/PDF/DendrobiumCulture.pdf"
+    ],
+    "confianca": "preliminar"
   }
 };
