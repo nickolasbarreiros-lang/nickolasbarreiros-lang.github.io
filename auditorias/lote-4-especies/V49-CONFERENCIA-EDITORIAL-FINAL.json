@@ -1,0 +1,53 @@
+{
+  "rows": [
+    {
+      "id": "papilionanthe-teres",
+      "descricao": 98,
+      "dica": 66,
+      "erros": 8,
+      "metodos": 4,
+      "fotos": 4,
+      "galeriaPendente": null,
+      "rega": 97,
+      "climaFloracao": 75,
+      "adubacao": 106
+    },
+    {
+      "id": "dendrobium-aphyllum",
+      "descricao": 99,
+      "dica": 66,
+      "erros": 8,
+      "metodos": 4,
+      "fotos": 4,
+      "galeriaPendente": null,
+      "rega": 100,
+      "climaFloracao": 79,
+      "adubacao": 101
+    },
+    {
+      "id": "miltonia-flavescens",
+      "descricao": 97,
+      "dica": 63,
+      "erros": 8,
+      "metodos": 4,
+      "fotos": 4,
+      "galeriaPendente": null,
+      "rega": 91,
+      "climaFloracao": 72,
+      "adubacao": 106
+    },
+    {
+      "id": "maxillaria-imbricata",
+      "descricao": 101,
+      "dica": 71,
+      "erros": 8,
+      "metodos": 4,
+      "fotos": 4,
+      "galeriaPendente": true,
+      "rega": 93,
+      "climaFloracao": 68,
+      "adubacao": 106
+    }
+  ],
+  "nota": "Contagem simples por espaços nos campos, não valida qualidade ou imagens. Site indisponível via ferramenta de consulta; aprovação visual pendente."
+}
