@@ -145,7 +145,7 @@ export const bibliotecaCultivoV4 = {
     },
     "chips-coco": {
         nome: "Chips de coco",
-        imagem: "imagens/cultivo-v4/fibra-coco.webp"
+        imagem: "imagens/cultivo-v4/chips-coco.svg"
     },
     "fibra-coco": {
         nome: "Fibra de coco",
