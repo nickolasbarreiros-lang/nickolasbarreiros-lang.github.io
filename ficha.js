@@ -500,7 +500,7 @@ function criarFormasCultivoV4(config, perfilRadicular = []) {
                 ${alternativas.length ? `<aside class="alternativas-forma-v41"><h5>Outras formas de cultivo</h5><div class="lista-alternativas-forma-v41">${alternativas.map((metodo) => {
                     const nome = (metodo.nome || "").toLowerCase();
                     const icone = nome.includes("vaso") && (nome.includes("vasado") || nome.includes("perfurado"))
-                        ? `<img class="icone-img-cultivo-v421" src="imagens/ui/vaso-plastico-vasado.webp" alt="">`
+                        ? `<img class="icone-img-cultivo-v421" src="imagens/cultivo-v4/vaso-plastico-vasado-v2.webp" alt="">`
                         : nome.includes("árvore") || nome.includes("arvore") ? "🌳"
                         : (metodo.asset === "cesto-madeira" || nome.includes("cesto") || nome.includes("cachepô") || nome.includes("cachepo")) ? `<img class="icone-img-cultivo-v421" src="imagens/ui/cesto-madeira-orquideas.webp" alt="">`
                         : nome.includes("barro") ? `<img class="icone-img-cultivo-v421" src="imagens/ui/vaso-barro-orquideas-v438.webp" alt="">`
