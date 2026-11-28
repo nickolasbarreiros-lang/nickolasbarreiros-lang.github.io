@@ -15,7 +15,7 @@ export const maxillariaImbricata = {
     "horario": "Início da manhã"
   },
   "rega": "Hidratação regular e ventilação; evitar seca prolongada.",
-  "floracao": "Pode florescer em diferentes épocas; perfume e duração não confirmados.",
+  "floracao": "Flores individuais de aproximadamente 3 cm em hastes basais curtas, com até 3,75 cm. Pode florescer em diferentes épocas do ano. Perfume, duração e pico mensal no Brasil não confirmados.",
   "fotos": [],
   "creditosFotos": [],
   "substratoVisual": {
@@ -289,6 +289,19 @@ export const maxillariaImbricata = {
         "nota": 4,
         "peso": 15
       }
+    },
+    "fontes": [
+      "https://www.orchidspecies.com/maximbricata.htm",
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155104-2",
+      "https://repositorio.ufc.br/bitstream/riufc/76253/5/2024_dis_dcfarias.pdf",
+      "https://www.ipni.org/n/155104-2"
+    ],
+    "justificativas": {
+      "disponibilidadeComercial": "Não confirmada",
+      "distribuicaoGeografica": "Ampla distribuição sul-americana segundo POWO",
+      "abundanciaNatural": "Sem dados",
+      "conservacao": "Predição de baixo risco no Kew não equivale a avaliação IUCN",
+      "escassezInformacoes": "Dados botânicos disponíveis; cultivo específico pouco documentado"
     }
   },
   "dica": "Instale a planta em uma placa suspensa ou outro suporte que permita aos crescimentos se alongarem sem obstáculos. Evite dobrar os rizomas ou cobrir os pseudobulbos com substrato. Em ambientes quentes, acompanhe diariamente a velocidade de secagem e ajuste a rega à umidade real das raízes. Registre a época de abertura das flores, a temperatura e sua duração, pois essas observações ajudam a aperfeiçoar o cultivo de uma espécie pouco documentada.",
@@ -303,7 +316,32 @@ export const maxillariaImbricata = {
     "Cortar crescimentos saudáveis"
   ],
   "revisaoCientificaIAR": {
-    "fontes": [],
-    "confianca": "preliminar"
-  }
+    "nome": "Maxillaria imbricata Barb.Rodr.",
+    "statusTaxonomico": "Aceito no POWO",
+    "confianca": "Preliminar para cultivo; taxonomia documentada",
+    "fontes": [
+      "https://www.orchidspecies.com/maximbricata.htm",
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155104-2",
+      "https://repositorio.ufc.br/bitstream/riufc/76253/5/2024_dis_dcfarias.pdf",
+      "https://www.ipni.org/n/155104-2"
+    ],
+    "habitatAltitudeClima": "IOSPE: florestas tropicais úmidas, 100–1000 m, crescimento quente. POWO inclui Colômbia e Equador; IOSPE questiona identificações desses países.",
+    "morfologia": "UFC: pseudobulbos fusiformes imbricados 3,5 × 0,8–1 cm; folha coriácea 10–18,3 × 1,1–1,3 cm. IOSPE: flor de cerca de 3 cm, haste uniflora de até 3,75 cm."
+  },
+  "regiao": "América do Sul tropical; ocorrência no Brasil e Bolívia documentada nas referências consultadas.",
+  "candidatasFotograficas": [
+    {
+      "origem": "https://www.orchidspecies.com/maximbricata.htm",
+      "autores": [
+        "S L X Tobias",
+        "Agnieszka Esseling"
+      ],
+      "licenca": "Não confirmada"
+    },
+    {
+      "origem": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155104-2/images",
+      "quantidade": 10,
+      "licenca": "Verificar individualmente"
+    }
+  ]
 };
