@@ -5,7 +5,7 @@ export const maxillariaImbricata = {
   "genero": "Maxillaria",
   "sinonimo": "Camaridium hoehnei; Chelyella imbricata; Camaridium carinatum; Maxillaria carinata; Maxillaria iguapensis",
   "tipo": "Espécie botânica",
-  "origem": "América do Sul tropical",
+  "origem": "América do Sul tropical, incluindo o Brasil",
   "habitat": "Epífita de florestas tropicais úmidas, incluindo florestas nebulares entre 100 e 1.000 metros de altitude, conforme registros horticulturais. Apresenta rizoma alongado, pseudobulbos achatados e folhas basais sobrepostas. Cresce sobre árvores, em condições de umidade regular e ventilação; a faixa altitudinal registrada não constitui uma exigência rígida de cultivo.",
   "iluminacao": {
     "observacoes": "Comece com claridade filtrada e circulação de ar, evitando exposição direta intensa enquanto a planta se adapta. Se houver sol suave no início da manhã, observe a resposta antes de aumentar a exposição. Crescimento pouco vigoroso associado a folhas muito escuras pode indicar iluminação insuficiente; manchas secas nas áreas expostas pedem investigação do calor e da luz. O sombreamento indicado é uma referência inicial de cultivo, pois não há medição específica suficiente para definir um limite rígido.",
