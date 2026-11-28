@@ -27,7 +27,7 @@
     "https://orquidariosantaclara.com.br/orquideas-diversas/2957-miltonia-flavescens-no-sancao-haste-floral-saldao.html",
     "https://www.orquidariomaripa.com.br/produtos/orquidea-miltonia-flavescens-orquidea-do-amor-pre-adulta/"
   ],
-  "limites": "Notas físicas e adequação inferidas; cobertura não é confiança. Evidência comercial não pontuada; meta não cumprida. Sem homologação. Miltonia: evidência comercial parcialmente pontuada nesta rodada; não equivale a ensaio comparativo.",
+  "limites": "Notas físicas e adequação inferidas; cobertura não é confiança. Evidência comercial não pontuada; meta não cumprida. Sem homologação. Miltonia: evidência comercial parcialmente pontuada nesta rodada; não equivale a ensaio comparativo. Evidência comercial parcial incorporada dos registros anteriores; sem nova verificação independente; notas provisórias.",
   "data": [
     {
       "id": "papilionanthe-teres",
@@ -55,13 +55,13 @@
             5,
             5,
             null,
-            null,
+            3,
             5,
             5
           ],
-          "cobertura": 75,
-          "indice": 100,
-          "justificativa": "fragmentos abertos; pouca reserva hídrica; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+          "cobertura": 85,
+          "indice": 95.3,
+          "justificativa": "fragmentos abertos; pouca reserva hídrica; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio. Mogi Mirim: carvão para sustentação (registro da rodada anterior, não reconfirmado nesta etapa)."
         },
         {
           "material": "casca-macadamia",
@@ -175,13 +175,13 @@
             5,
             5,
             null,
-            null,
+            2,
             5,
             4
           ],
-          "cobertura": 75,
-          "indice": 92,
-          "justificativa": "peso e baixa reserva de água; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+          "cobertura": 85,
+          "indice": 85.9,
+          "justificativa": "peso e baixa reserva de água; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio. Mogi Mirim: pedrisco, equivalência funcional indireta (registro da rodada anterior, não reconfirmado nesta etapa)."
         },
         {
           "material": "argila-expandida",
@@ -271,13 +271,13 @@
             5,
             4,
             3,
-            null,
+            4,
             3,
             5
           ],
-          "cobertura": 90,
-          "indice": 86.7,
-          "justificativa": "estrutura de casca; degrada com tempo; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+          "cobertura": 100,
+          "indice": 86,
+          "justificativa": "estrutura de casca; degrada com tempo; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio. Santa Clara e Bona Flora: pinus (registro da rodada anterior, não reconfirmado nesta etapa)."
         },
         {
           "material": "carvao-vegetal",
@@ -286,13 +286,13 @@
             4,
             5,
             null,
-            null,
+            3,
             5,
             4
           ],
-          "cobertura": 75,
-          "indice": 86.7,
-          "justificativa": "fragmentos abertos; pouca reserva hídrica; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+          "cobertura": 85,
+          "indice": 83.5,
+          "justificativa": "fragmentos abertos; pouca reserva hídrica; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio. Santa Clara: carvão (registro da rodada anterior, não reconfirmado nesta etapa)."
         },
         {
           "material": "casca-macadamia",
@@ -406,13 +406,13 @@
             4,
             5,
             2,
-            null,
+            2,
             5,
             4
           ],
-          "cobertura": 90,
-          "indice": 78.9,
-          "justificativa": "peso e baixa reserva de água; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+          "cobertura": 100,
+          "indice": 75,
+          "justificativa": "peso e baixa reserva de água; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio. Santa Clara: pedrisco no fundo, não mistura homogênea (registro da rodada anterior, não reconfirmado nesta etapa)."
         },
         {
           "material": "argila-expandida",
