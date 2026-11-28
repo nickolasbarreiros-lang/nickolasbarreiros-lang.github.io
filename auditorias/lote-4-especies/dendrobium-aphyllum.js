@@ -1,4 +1,4 @@
-// Rascunho V4.9 — não importar automaticamente.
+// Rascunho V4.9 — revisão pendente.
 export const dendrobiumAphyllum = {
   "id": "dendrobium-aphyllum",
   "nome": "Dendrobium aphyllum",
@@ -8,37 +8,109 @@ export const dendrobiumAphyllum = {
   "origem": "Ásia tropical",
   "habitat": "Epífita simpodial com caules pendentes e folhas caducas.",
   "iluminacao": {
-    "observacoes": "Moderada; sombrite 50–65% como referência.",
-    "sombrite": "50–65%",
+    "observacoes": "Luz filtrada intensa; aumente gradualmente durante o repouso, evitando queimaduras.",
+    "sombrite": "50–60% no litoral; 40–50% na montanha, conforme exposição",
     "seloLuz": "laranja",
-    "solDireto": "Com aclimatação",
-    "horario": "Início da manhã"
+    "solDireto": "Sol suave após aclimatação",
+    "horario": "Antes das 9h ou fim da tarde"
   },
-  "rega": "Regar durante crescimento; reduzir após maturação e queda das folhas.",
-  "floracao": "Flores nos nós dos caules maduros sem folhas; primavera indicativa.",
-  "fotos": [],
-  "creditosFotos": [],
+  "rega": "Regue abundantemente durante o crescimento, permitindo secagem parcial. Reduza após maturação das canas e queda das folhas; retome gradualmente quando houver novos brotos e raízes.",
+  "floracao": "Flores rosadas a lilases, geralmente 1–3 por nó das canas maduras sem folhas, cerca de 4–5 cm. Primavera indicativa no Brasil; perfume relatado, duração e pico mensal não confirmados.",
+  "fotos": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Dendrobium%20aphyllum%20(Roxb.)%20C.E.C.Fisch%20-%20Brazil%20-%202024.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Dendrobium%20aphyllum.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Dendrobium%20aphyllum%20photo.jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Dendrobium%20aphyllum%203.jpg?width=960"
+  ],
+  "creditosFotos": [
+    {
+      "autor": "RedrumCarol",
+      "origem": "https://commons.wikimedia.org/wiki/File:Dendrobium_aphyllum_(Roxb.)_C.E.C.Fisch_-_Brazil_-_2024.jpg",
+      "licenca": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "nomeLicenca": "CC BY-SA 4.0",
+      "alteracoes": false
+    },
+    {
+      "autor": "অজয় দাস (AjayDas)",
+      "origem": "https://commons.wikimedia.org/wiki/File:Dendrobium_aphyllum.jpg",
+      "licenca": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "nomeLicenca": "CC BY-SA 4.0",
+      "alteracoes": false
+    },
+    {
+      "autor": "JyotiPN",
+      "origem": "https://commons.wikimedia.org/wiki/File:Dendrobium_aphyllum_photo.jpg",
+      "licenca": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "nomeLicenca": "CC BY-SA 4.0",
+      "alteracoes": false
+    },
+    {
+      "autor": "MebubuB",
+      "origem": "https://commons.wikimedia.org/wiki/File:Dendrobium_aphyllum_3.jpg",
+      "licenca": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "nomeLicenca": "CC BY-SA 4.0",
+      "alteracoes": false
+    }
+  ],
   "substratoVisual": {
     "itens": [
       {
         "asset": "casca-pinus",
+        "nome": "Casca de pinus",
         "proporcao": "60%",
-        "nome": "Casca de pinus"
+        "nota": "estrutura",
+        "finalidade": "Favorece espaços de ar."
       },
       {
         "asset": "carvao-vegetal",
+        "nome": "Carvão vegetal",
         "proporcao": "25%",
-        "nome": "Carvão vegetal"
+        "nota": "aeração",
+        "finalidade": "Mantém mistura aberta."
       },
       {
         "asset": "brita",
+        "nome": "Brita",
         "proporcao": "15%",
-        "nome": "Brita"
+        "nota": "drenagem",
+        "finalidade": "Estabiliza o recipiente."
       }
     ],
     "titulo": "Substrato ideal",
     "contexto": "Substrato indicado para plantio em recipiente",
-    "notaEvidencia": "Proporções técnicas preliminares; pesquisa MACS incompleta."
+    "notaEvidencia": "Receita técnica preliminar; meta MACS não atingida.",
+    "resumo": "Mistura aberta para recipiente suspenso.",
+    "justificativa": "Casca média mantém estrutura; carvão e brita favorecem aeração e drenagem. Ajuste a rega à estação.",
+    "receitaTexto": "60% casca de pinus + 25% carvão vegetal + 15% brita.",
+    "perfil": [
+      "Epífita",
+      "Canas pendentes",
+      "Secagem entre regas",
+      "Repouso sazonal"
+    ],
+    "comportamento": [
+      {
+        "nome": "Retenção",
+        "valor": 3,
+        "icone": "💧"
+      },
+      {
+        "nome": "Aeração",
+        "valor": 5,
+        "icone": "💨"
+      },
+      {
+        "nome": "Secagem",
+        "valor": 4,
+        "icone": "⚡"
+      },
+      {
+        "nome": "Compactação",
+        "valor": 2,
+        "icone": "🧱"
+      }
+    ],
+    "alerta": "Evite substrato saturado durante o repouso."
   },
   "indicesPreliminares": {
     "nome": "Dendrobium aphyllum",
@@ -93,20 +165,20 @@ export const dendrobiumAphyllum = {
       "indice": 0
     }
   },
-  "status": "Textos editoriais ampliados; fotografias, MACS e revisão científica pendentes.",
+  "status": "Galeria de quatro arquivos licenciados e campos técnicos ampliados; teste visual e homologação pendentes.",
   "dificuldade": "Fácil",
   "caracteristicas": [
     "Epífita simpodial com caules pendentes e folhas caducas."
   ],
   "descricao": "Dendrobium aphyllum, tradicionalmente comercializado como Dendrobium pierardii, é uma orquídea asiática conhecida pelos longos caules pendentes que podem alcançar dois metros. Durante o crescimento, desenvolve folhas distribuídas ao longo dos caules, que normalmente caem na fase de repouso. As flores rosadas ou lilases, com labelo claro e perfume agradável, surgem lateralmente nos caules maduros, formando uma delicada cascata ornamental. Na natureza, ocupa árvores e também paredões calcários em florestas sujeitas à sazonalidade. O cultivo em recipientes suspensos favorece sua arquitetura. A alternância entre crescimento úmido e repouso mais seco, sem desidratação extrema, ajuda a preparar a planta para florescer.",
-  "climaFloracao": "Reduza a rega após maturação dos caules e queda das folhas; retome gradualmente com o crescimento. Preserve caules antigos.",
+  "climaFloracao": "Após maturação das canas, reduza gradualmente a rega e suspenda a adubação. Noites amenas favorecem a indução floral; como referência prática, 12–18 °C durante o repouso, sem geada. No litoral quente, maximize a ventilação e evite manter as raízes constantemente molhadas. Não deixe as canas murcharem excessivamente.",
   "mesesFloracao": [
     9,
     10,
     11
   ],
   "mesesFloracaoIndicativos": true,
-  "adubacao": "Orgânica: pequena porção de bokashi longe dos brotos. Mineral: NPK equilibrado a 1/4 da dose do rótulo durante crescimento. Liberação lenta: opcional em recipiente, conforme rótulo. Lavagem de sais: mensalmente.",
+  "adubacao": "🌿 Orgânica: pequena porção de bokashi em porta-adubo durante crescimento.\n💧 Foliar/radicular: NPK equilibrado a 1/4 da dose do rótulo a cada 7–15 dias durante crescimento.\n🧪 Liberação lenta: opcional em recipiente; evitar durante repouso.\n🚿 Lavagem de sais: a cada 15–30 dias durante crescimento.",
   "suporte": "Cachepô de Madeira",
   "substrato": [
     "Casca de pinus + carvão vegetal + chips de coco",
@@ -144,7 +216,8 @@ export const dendrobiumAphyllum = {
         "status": "Alternativa",
         "texto": "Ajuste a fixação e a rega ao crescimento e à secagem do suporte."
       }
-    ]
+    ],
+    "perfilVisual": "epifita-pendente"
   },
   "avaliacoes": {
     "cultivo": 4,
@@ -307,5 +380,24 @@ export const dendrobiumAphyllum = {
       "https://staugorchidsociety.org/PDF/DendrobiumCulture.pdf"
     ],
     "confianca": "preliminar"
+  },
+  "regiao": "Sul e sudeste da Ásia",
+  "clima": "Tropical sazonal a intermediário",
+  "adaptacaoRegional": {
+    "litoralQuente": {
+      "texto": "Cultivo possível; noites quentes podem dificultar a indução floral."
+    },
+    "montanhaFrio": {
+      "texto": "Noites amenas e estação seca favorecem o repouso, sem exposição a geadas."
+    }
+  },
+  "selosCultivo": {
+    "rega": {
+      "nivel": "sazonal"
+    },
+    "climaFloracao": {
+      "faixa": "ameno",
+      "floraNoCalor": false
+    }
   }
 };
