@@ -1,0 +1,137 @@
+{
+  "status": "conferência estática; sem homologação científica ou teste visual",
+  "fontesReabertas": [
+    "https://www.rhs.org.uk/plants/5436/dendrobium-aphyllum/details",
+    "https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet"
+  ],
+  "rows": [
+    {
+      "id": "papilionanthe-teres",
+      "total": 100,
+      "componentes": [
+        [
+          "casca-pinus",
+          40
+        ],
+        [
+          "carvao-vegetal",
+          35
+        ],
+        [
+          "brita",
+          25
+        ]
+      ],
+      "alternativas": [
+        "Casca de pinus + carvão vegetal + argila expandida",
+        "Chips de coco grossos + carvão vegetal + casca de pinus"
+      ],
+      "indicadores": [
+        1.8,
+        4.6,
+        4.6,
+        1.4
+      ],
+      "coincidem": true,
+      "fotos": 4,
+      "creditos": 4
+    },
+    {
+      "id": "dendrobium-aphyllum",
+      "total": 100,
+      "componentes": [
+        [
+          "casca-pinus",
+          60
+        ],
+        [
+          "brita",
+          20
+        ],
+        [
+          "chips-coco",
+          20
+        ]
+      ],
+      "alternativas": [
+        "Casca de pinus + carvão vegetal + esfagno",
+        "Casca de pinus + carvão vegetal + argila expandida"
+      ],
+      "indicadores": [
+        2.8,
+        4.2,
+        4,
+        1.8
+      ],
+      "coincidem": true,
+      "fotos": 4,
+      "creditos": 4
+    },
+    {
+      "id": "miltonia-flavescens",
+      "total": 100,
+      "componentes": [
+        [
+          "casca-pinus",
+          70
+        ],
+        [
+          "carvao-vegetal",
+          15
+        ],
+        [
+          "perlita",
+          15
+        ]
+      ],
+      "alternativas": [
+        "Casca de pinus + fibra de coco",
+        "Casca de pinus + carvão vegetal"
+      ],
+      "indicadores": [
+        2.55,
+        4.3,
+        4.15,
+        1.7
+      ],
+      "coincidem": true,
+      "fotos": 4,
+      "creditos": 4
+    },
+    {
+      "id": "maxillaria-imbricata",
+      "total": 100,
+      "componentes": [
+        [
+          "casca-pinus",
+          50
+        ],
+        [
+          "chips-coco",
+          20
+        ],
+        [
+          "carvao-vegetal",
+          20
+        ],
+        [
+          "perlita",
+          10
+        ]
+      ],
+      "alternativas": [
+        "Casca de pinus + carvão vegetal + esfagno",
+        "Casca de pinus + pedra-pomes + chips de coco"
+      ],
+      "indicadores": [
+        2.7,
+        4.3,
+        4,
+        1.7
+      ],
+      "coincidem": true,
+      "fotos": 4,
+      "creditos": 4
+    }
+  ]
+}
