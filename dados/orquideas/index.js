@@ -1,3 +1,4 @@
+import { maxillariaImbricata } from "./maxillaria-imbricata.js";
 import { miltoniaFlavescens } from "./miltonia-flavescens.js";
 import { dendrobiumAphyllum } from "./dendrobium-aphyllum.js";
 import { papilionantheTeres } from "./papilionanthe-teres.js";
@@ -314,4 +315,5 @@ bulbophyllumSyciobulbon,
     papilionantheTeres,
     dendrobiumAphyllum,
     miltoniaFlavescens,
+    maxillariaImbricata,
 ];
