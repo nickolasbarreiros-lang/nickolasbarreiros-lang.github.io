@@ -1,20 +1,20 @@
-// Rascunho V4.9 — não importar automaticamente.
+// Rascunho V4.9 — galeria pendente.
 export const maxillariaImbricata = {
   "id": "maxillaria-imbricata",
   "nome": "Maxillaria imbricata",
   "genero": "Maxillaria",
-  "sinonimo": "Chelyella imbricata",
+  "sinonimo": "Camaridium hoehnei; Chelyella imbricata; Camaridium carinatum; Maxillaria carinata",
   "tipo": "Espécie botânica",
   "origem": "América do Sul tropical",
   "habitat": "Epífita com rizomas pendentes e pseudobulbos sobrepostos.",
   "iluminacao": {
-    "observacoes": "Moderada; sombrite 60–70% como referência.",
-    "sombrite": "60–70%",
+    "observacoes": "Luz filtrada; monitore queimaduras e crescimento fraco.",
+    "sombrite": "60–70% no litoral; 50–60% na montanha, como referência",
     "seloLuz": "laranja",
-    "solDireto": "Com aclimatação",
+    "solDireto": "Somente suave após aclimatação",
     "horario": "Início da manhã"
   },
-  "rega": "Hidratação regular e ventilação; evitar seca prolongada.",
+  "rega": "Molhe as raízes abundantemente e repita após secagem parcial. Em placa, confira diariamente no calor; reduza a frequência no frio. Não imponha seca prolongada.",
   "floracao": "Flores individuais de aproximadamente 3 cm em hastes basais curtas, com até 3,75 cm. Pode florescer em diferentes épocas do ano. Perfume, duração e pico mensal no Brasil não confirmados.",
   "fotos": [],
   "creditosFotos": [],
@@ -22,28 +22,68 @@ export const maxillariaImbricata = {
     "itens": [
       {
         "asset": "casca-pinus",
+        "nome": "Casca de pinus",
         "proporcao": "40%",
-        "nome": "Casca de pinus"
+        "nota": "estrutura",
+        "finalidade": "Favorece estrutura da mistura."
       },
       {
         "asset": "chips-coco",
+        "nome": "Chips de coco",
         "proporcao": "30%",
-        "nome": "Chips de coco"
+        "nota": "umidade",
+        "finalidade": "Favorece umidade da mistura."
       },
       {
         "asset": "carvao-vegetal",
+        "nome": "Carvão vegetal",
         "proporcao": "20%",
-        "nome": "Carvão vegetal"
+        "nota": "aeração",
+        "finalidade": "Favorece aeração da mistura."
       },
       {
         "asset": "esfagno",
+        "nome": "Esfagno",
         "proporcao": "10%",
-        "nome": "Esfagno"
+        "nota": "retenção",
+        "finalidade": "Favorece retenção da mistura."
       }
     ],
     "titulo": "Substrato ideal",
     "contexto": "Substrato indicado para plantio em recipiente",
-    "notaEvidencia": "Proporções técnicas preliminares; pesquisa MACS incompleta."
+    "notaEvidencia": "Estimativa baseada no habitat epifítico úmido; não há validação experimental nem amostra MACS suficiente.",
+    "resumo": "Mistura aberta com retenção moderada a alta.",
+    "justificativa": "Casca e carvão preservam aeração; coco e esfagno conservam umidade. Ajuste conforme secagem real.",
+    "receitaTexto": "40% casca de pinus + 30% chips de coco + 20% carvão vegetal + 10% esfagno.",
+    "perfil": [
+      "Epífita",
+      "Rizoma alongado",
+      "Umidade regular",
+      "Boa aeração"
+    ],
+    "comportamento": [
+      {
+        "nome": "Retenção",
+        "valor": 4,
+        "icone": "💧"
+      },
+      {
+        "nome": "Aeração",
+        "valor": 4,
+        "icone": "💨"
+      },
+      {
+        "nome": "Secagem",
+        "valor": 3,
+        "icone": "⚡"
+      },
+      {
+        "nome": "Compactação",
+        "valor": 2,
+        "icone": "🧱"
+      }
+    ],
+    "alerta": "Não enterre o rizoma nem compacte o esfagno."
   },
   "indicesPreliminares": {
     "nome": "Maxillaria imbricata",
@@ -98,16 +138,20 @@ export const maxillariaImbricata = {
       "indice": 46.42857142857143
     }
   },
-  "status": "Textos editoriais ampliados; fotografias, MACS e revisão científica pendentes.",
+  "status": "Campos técnicos ampliados; fotografias de uso autorizado ainda não localizadas. Não publicar automaticamente.",
   "dificuldade": "Muito fácil",
   "caracteristicas": [
-    "Epífita com rizomas pendentes e pseudobulbos sobrepostos."
+    "Epífita simpodial",
+    "Rizoma alongado",
+    "Pseudobulbos achatados",
+    "Uma folha apical por pseudobulbo",
+    "Flores solitárias de cerca de 3 cm"
   ],
   "descricao": "Maxillaria imbricata é uma orquídea sul-americana de arquitetura vegetativa peculiar, caracterizada pelos crescimentos pendentes e pseudobulbos sobrepostos. Essa disposição confere à planta um aspecto ornamental mesmo quando está sem flores. As folhas alongadas acompanham os segmentos vegetativos, enquanto as flores claras ou amareladas aparecem individualmente em hastes próximas aos pseudobulbos. Seu hábito epífito sugere a importância de raízes bem ventiladas e de um suporte que permita a expansão natural dos crescimentos. Em cultivo, convém oferecer luminosidade filtrada e hidratação regular, observando a resposta individual da planta. A documentação disponível sobre suas exigências específicas e a duração das flores ainda é limitada.",
-  "climaFloracao": "Deixe espaço para o crescimento pendente, mantendo umidade regular e boa ventilação.",
+  "climaFloracao": "Favoreça crescimento maduro, luz filtrada e umidade regular. Como referência prática, dias de 23–30 °C e noites de 17–23 °C; não há comprovação de quebra térmica ou repouso seco obrigatório. Na montanha, proteja do frio prolongado.",
   "mesesFloracao": [],
   "mesesFloracaoIndicativos": true,
-  "adubacao": "Orgânica: pequena porção de bokashi longe dos brotos. Mineral: NPK equilibrado a 1/4 da dose do rótulo durante crescimento. Liberação lenta: opcional em recipiente, conforme rótulo. Lavagem de sais: mensalmente.",
+  "adubacao": "🌿 Orgânica: pequena porção de bokashi em porta-adubo, longe dos brotos.\n💧 Foliar/radicular: fertilizante equilibrado a 1/4 da dose do rótulo a cada 15 dias durante crescimento.\n🧪 Liberação lenta: opcional em recipiente, conforme rótulo.\n🚿 Lavagem de sais: a cada 15–30 dias.",
   "suporte": "Placa / tronco",
   "substrato": [
     "Fibra de coco + carvão vegetal + esfagno",
@@ -122,30 +166,31 @@ export const maxillariaImbricata = {
         "asset": "placa-tronco",
         "estrelas": 5,
         "status": "Mais recomendado na ficha",
-        "texto": "Deixe espaço para o crescimento pendente, mantendo umidade regular e boa ventilação."
+        "texto": "Fixe o rizoma superficialmente em placa com espaço para expansão."
       },
       {
         "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
         "estrelas": 4,
         "status": "Alternativa",
-        "texto": "Ajuste a fixação e a rega ao crescimento e à secagem do suporte."
+        "texto": "Cesto aberto acomoda crescimento pendente."
       },
       {
         "nome": "Vaso plástico vasado",
         "asset": "vaso-plastico-vasado-v2",
         "estrelas": 4,
         "status": "Alternativa",
-        "texto": "Ajuste a fixação e a rega ao crescimento e à secagem do suporte."
+        "texto": "Vaso vasado com substrato aberto e rizoma superficial."
       },
       {
         "nome": "Vaso de Barro",
         "asset": "vaso-barro",
         "estrelas": 4,
         "status": "Alternativa",
-        "texto": "Ajuste a fixação e a rega ao crescimento e à secagem do suporte."
+        "texto": "Vaso de barro raso com atenção à secagem."
       }
-    ]
+    ],
+    "perfilVisual": "epifita-rizomatosa"
   },
   "avaliacoes": {
     "cultivo": 5,
@@ -323,7 +368,8 @@ export const maxillariaImbricata = {
       "https://www.orchidspecies.com/maximbricata.htm",
       "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155104-2",
       "https://repositorio.ufc.br/bitstream/riufc/76253/5/2024_dis_dcfarias.pdf",
-      "https://www.ipni.org/n/155104-2"
+      "https://www.ipni.org/n/155104-2",
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155104-2/general-information"
     ],
     "habitatAltitudeClima": "IOSPE: florestas tropicais úmidas, 100–1000 m, crescimento quente. POWO inclui Colômbia e Equador; IOSPE questiona identificações desses países.",
     "morfologia": "UFC: pseudobulbos fusiformes imbricados 3,5 × 0,8–1 cm; folha coriácea 10–18,3 × 1,1–1,3 cm. IOSPE: flor de cerca de 3 cm, haste uniflora de até 3,75 cm."
@@ -343,5 +389,23 @@ export const maxillariaImbricata = {
       "quantidade": 10,
       "licenca": "Verificar individualmente"
     }
-  ]
+  ],
+  "clima": "Tropical úmido, quente",
+  "adaptacaoRegional": {
+    "litoralQuente": {
+      "texto": "Ambiente quente e úmido favorece o cultivo, com ventilação e luz filtrada."
+    },
+    "montanhaFrio": {
+      "texto": "Proteja de frio prolongado; ajuste regas à secagem."
+    }
+  },
+  "selosCultivo": {
+    "rega": {
+      "nivel": "frequente"
+    },
+    "climaFloracao": {
+      "faixa": "quente",
+      "floraNoCalor": true
+    }
+  }
 };
