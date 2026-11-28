@@ -15,7 +15,7 @@ export const maxillariaImbricata = {
     "horario": "Início da manhã"
   },
   "rega": "Hidrate completamente as raízes e deixe o excesso escorrer. Em placa, acompanhe diariamente a velocidade de secagem no calor; se a madeira secar depressa demais, ajuste a frequência ou use uma pequena reserva de esfagno solto. Em recipiente, examine a umidade interna antes de regar novamente, evitando saturação prolongada. No frio, espaçe as regas conforme a evaporação. Pseudobulbos progressivamente enrugados podem indicar falta de água ou raízes danificadas, portanto confira ambas as condições. Não imponha um período de seca prolongada, pois não existe evidência suficiente de que ele seja necessário para esta espécie.",
-  "floracao": "Pode florescer em diferentes estações, com registros brasileiros em julho e dezembro, sem pico anual comprovado. As flores creme a amarelas, de aproximadamente 3 cm, apresentam labelo trilobado e surgem individualmente em hastes basais de cerca de 4–5 cm. Há relato científico de néctar e odor desagradável, cuja intensidade não foi quantificada; a delimitação taxonômica desse relato exige cautela. Duração floral e reflorescência na mesma haste permanecem desconhecidas.",
+  "floracao": "Pode florescer em diferentes estações, com registros brasileiros em março, julho e dezembro e registro equatoriano em outubro, sob um sinônimo taxonômico. Não há pico anual comprovado. As flores creme a amarelas, de aproximadamente 3 cm, apresentam labelo trilobado e surgem individualmente em hastes basais de cerca de 4–5 cm. Há relato de néctar e odor desagradável, de intensidade não quantificada. Duração floral e reflorescência na mesma haste permanecem desconhecidas.",
   "fotos": [
     "https://www.orchidspecies.com/orphotdir/maxiimbricata.jpg",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB0r_zfutIlVE2QEO76k7wSnP3fwb7lepMN2tsHHtRC-0aAYax_Wx0B8o2&s=10",
@@ -122,7 +122,9 @@ export const maxillariaImbricata = {
   "descricao": "Maxillaria imbricata é uma orquídea sul-americana de arquitetura vegetativa peculiar, caracterizada pelos crescimentos pendentes e pseudobulbos sobrepostos. Essa disposição confere à planta um aspecto ornamental mesmo quando está sem flores. As folhas alongadas acompanham os segmentos vegetativos, enquanto as flores claras ou amareladas aparecem individualmente em hastes próximas aos pseudobulbos. Seu hábito epífito sugere a importância de raízes bem ventiladas e de um suporte que permita a expansão natural dos crescimentos. Em cultivo, convém oferecer luminosidade filtrada e hidratação regular, observando a resposta individual da planta. A documentação disponível sobre suas exigências específicas e a duração das flores ainda é limitada.",
   "climaFloracao": "Priorize a continuidade do crescimento, maturação dos pseudobulbos e umidade regular, com luz filtrada e ventilação. Dias de 23–30 °C e noites de 17–23 °C constituem uma referência inicial de manejo, não uma faixa experimental de indução floral. No litoral, evite calor abafado e raízes saturadas; na montanha, proteja de frio prolongado. Não há confirmação de altitude obrigatória, queda térmica mínima ou repouso seco necessário para a floração.",
   "mesesFloracao": [
+    3,
     7,
+    10,
     12
   ],
   "mesesFloracaoIndicativos": true,
@@ -356,12 +358,13 @@ export const maxillariaImbricata = {
       "https://orchidspecies.com/maximbricata.htm",
       "https://www.researchgate.net/publication/232675147_On_Maxillaria_bomboizensis_and_Camaridium_carinatum_Orchidaceae",
       "https://www.academia.edu/28204838/Molecular_phylogenetics_of_Maxillaria_and_related_genera_Orchidaceae_Cymbidieae_based_on_combined_molecular_data_sets",
-      "https://www.portaldoorquidofilo.com/mes-de-floracao"
+      "https://www.portaldoorquidofilo.com/mes-de-floracao",
+      "https://doi.org/10.3100/1043-4534-13.2.241"
     ],
     "habitatAltitudeClima": "IOSPE registra 100–1000 m, florestas tropicais úmidas nebulares; Kew confirma bioma tropical úmido. Distribuição geográfica diverge entre fontes; priorizar Kew para taxonomia.",
     "morfologia": "UFC: pseudobulbos fusiformes imbricados 3,5 × 0,8–1 cm; folha coriácea 10–18,3 × 1,1–1,3 cm. IOSPE: flor de cerca de 3 cm, haste uniflora de até 3,75 cm.",
     "alertaTaxonomico": "Camaridium imbricatum (Barb.Rodr.) Hoehne, 1947, é homônimo posterior ilegítimo e não deve ser confundido com Camaridium imbricatum Schltr., 1918, de Costa Rica.",
-    "fenologia": "UFC 2024 pp. 74–75: Lima-Verde 3498 (EAC), 08.VII.2008, flores e frutos; coleta 08.X.2008 sem indicação floral. Barbosa Rodrigues 1877: dezembro, Petrópolis, corroborado Blanco 2008. IOSPE indica quatro estações. Abril Instagram não confirmado; excluir fevereiro colombiano por divergência taxonômica.",
+    "fenologia": "UFC 2024 pp. 74–75: Lima-Verde 3498 (EAC), 08.VII.2008, flores e frutos; coleta 08.X.2008 sem indicação floral. Barbosa Rodrigues 1877: dezembro, Petrópolis, corroborado Blanco 2008. IOSPE indica quatro estações. Abril Instagram não confirmado; excluir fevereiro colombiano por divergência taxonômica. Revisão bibliográfica anterior: Blanco (2008), DOI 10.3100/1043-4534-13.2.241, registra março no Brasil sob M. carinata e outubro no Equador sob M. bomboizensis. Outubro é indicativo para cultivo brasileiro; abril permanece não confirmado. Texto integral não reconferido nesta edição.",
     "auditoriaGaleria": "Quatro links fornecidos pelo usuário; identidade, licença individual e carregamento ainda pendentes. IOSPE alerta que registros do Equador podem representar M. ferruginea. Galeria provisória."
   },
   "regiao": "América do Sul tropical; ocorrência no Brasil e Bolívia documentada nas referências consultadas.",
