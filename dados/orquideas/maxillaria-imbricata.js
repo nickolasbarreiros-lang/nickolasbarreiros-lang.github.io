@@ -6,7 +6,7 @@ export const maxillariaImbricata = {
   "sinonimo": "Camaridium hoehnei; Chelyella imbricata; Camaridium carinatum; Maxillaria carinata; Maxillaria iguapensis",
   "tipo": "Espécie botânica",
   "origem": "América do Sul tropical",
-  "habitat": "Epífita de ambientes florestais tropicais úmidos, com crescimento rizomatoso alongado e pseudobulbos próximos ou sobrepostos. A arquitetura favorece a ocupação de superfícies de árvores. A faixa altitudinal e as condições microclimáticas específicas ainda não estão suficientemente documentadas para estabelecer limites precisos de cultivo.",
+  "habitat": "Epífita de florestas tropicais úmidas, incluindo florestas nebulares entre 100 e 1.000 metros de altitude, conforme registros horticulturais. Apresenta rizoma alongado, pseudobulbos achatados e folhas basais sobrepostas. Cresce sobre árvores, em condições de umidade regular e ventilação; a faixa altitudinal registrada não constitui uma exigência rígida de cultivo.",
   "iluminacao": {
     "observacoes": "Comece com claridade filtrada e circulação de ar, evitando exposição direta intensa enquanto a planta se adapta. Se houver sol suave no início da manhã, observe a resposta antes de aumentar a exposição. Crescimento pouco vigoroso associado a folhas muito escuras pode indicar iluminação insuficiente; manchas secas nas áreas expostas pedem investigação do calor e da luz. O sombreamento indicado é uma referência inicial de cultivo, pois não há medição específica suficiente para definir um limite rígido.",
     "sombrite": "60–70% no litoral; 50–60% na montanha, como referência",
@@ -324,7 +324,7 @@ export const maxillariaImbricata = {
       "https://www.ipni.org/n/43697-2",
       "https://www.ipni.org/n/310603-2"
     ],
-    "habitatAltitudeClima": "IOSPE: florestas tropicais úmidas, 100–1000 m, crescimento quente. POWO inclui Colômbia e Equador; IOSPE questiona identificações desses países.",
+    "habitatAltitudeClima": "IOSPE registra 100–1000 m, florestas tropicais úmidas nebulares; Kew confirma bioma tropical úmido. Distribuição geográfica diverge entre fontes; priorizar Kew para taxonomia.",
     "morfologia": "UFC: pseudobulbos fusiformes imbricados 3,5 × 0,8–1 cm; folha coriácea 10–18,3 × 1,1–1,3 cm. IOSPE: flor de cerca de 3 cm, haste uniflora de até 3,75 cm.",
     "alertaTaxonomico": "Camaridium imbricatum (Barb.Rodr.) Hoehne, 1947, é homônimo posterior ilegítimo e não deve ser confundido com Camaridium imbricatum Schltr., 1918, de Costa Rica."
   },
