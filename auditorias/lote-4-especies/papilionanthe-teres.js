@@ -17,7 +17,10 @@ export const papilionantheTeres = {
   "rega": "Molhe abundantemente as raízes aéreas pela manhã e repita se secarem rapidamente em dias quentes. Em recipiente, aguarde secagem parcial da mistura. Reduza a frequência no frio, sem impor repouso seco prolongado.",
   "floracao": "Floração indicativa na primavera e verão; pico mensal brasileiro não estabelecido. Inflorescências axilares com poucas flores rosadas. Número, tamanho, perfume, duração individual e total e reflorescência da haste variam ou carecem de confirmação independente.",
   "fotos": [
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Stellenbosch%20University%20Botanical%20Garden%20-%20Vanda%20teres.jpg"
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Stellenbosch%20University%20Botanical%20Garden%20-%20Vanda%20teres.jpg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Plant%20Orchid%20Papilionanthe%20teres%20IMG%208643%2004.jpg?width=1280",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Plant%20Orchid%20Papilionanthe%20teres%20IMG%208643%2008.jpg?width=1280",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Plant%20Orchid%20Papilionanthe%20teres%20IMG%208643%2002.jpg?width=1280"
   ],
   "creditosFotos": [
     {
@@ -25,6 +28,27 @@ export const papilionantheTeres = {
       "origem": "https://commons.wikimedia.org/wiki/File:Stellenbosch_University_Botanical_Garden_-_Vanda_teres.jpg",
       "licenca": "https://creativecommons.org/licenses/by-sa/3.0/",
       "nomeLicenca": "CC BY-SA 3.0",
+      "alteracoes": false
+    },
+    {
+      "autor": "Rohit Naniwadekar",
+      "origem": "https://commons.wikimedia.org/wiki/File:Plant_Orchid_Papilionanthe_teres_IMG_8643_04.jpg",
+      "licenca": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "nomeLicenca": "CC BY-SA 4.0",
+      "alteracoes": false
+    },
+    {
+      "autor": "Rohit Naniwadekar",
+      "origem": "https://commons.wikimedia.org/wiki/File:Plant_Orchid_Papilionanthe_teres_IMG_8643_08.jpg",
+      "licenca": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "nomeLicenca": "CC BY-SA 4.0",
+      "alteracoes": false
+    },
+    {
+      "autor": "Rohit Naniwadekar",
+      "origem": "https://commons.wikimedia.org/wiki/File:Plant_Orchid_Papilionanthe_teres_IMG_8643_02.jpg",
+      "licenca": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "nomeLicenca": "CC BY-SA 4.0",
       "alteracoes": false
     }
   ],
@@ -135,7 +159,7 @@ export const papilionantheTeres = {
       "indice": 17.857142857142854
     }
   },
-  "status": "Revisão técnica ampliada; uma foto com licença documentada, carregamento não testado, três fotos pendentes; índices e MACS não homologados.",
+  "status": "Quatro fotografias com licenças documentadas; inspeção visual e carregamento pendentes. MACS e índices ainda preliminares.",
   "dificuldade": "Muito fácil",
   "caracteristicas": [
     "Epífita monopodial ascendente, folhas cilíndricas e raízes aéreas."
