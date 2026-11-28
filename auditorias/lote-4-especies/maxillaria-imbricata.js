@@ -98,12 +98,12 @@ export const maxillariaImbricata = {
       "indice": 46.42857142857143
     }
   },
-  "status": "Rascunho ampliado; descrição, erros, dica, fotografias, evidências e validação visual ainda pendentes.",
+  "status": "Textos editoriais ampliados; fotografias, MACS e revisão científica pendentes.",
   "dificuldade": "Muito fácil",
   "caracteristicas": [
     "Epífita com rizomas pendentes e pseudobulbos sobrepostos."
   ],
-  "descricao": "Epífita com rizomas pendentes e pseudobulbos sobrepostos. Pode florescer em diferentes épocas; perfume e duração não confirmados. Deixe espaço para o crescimento pendente, mantendo umidade regular e boa ventilação.",
+  "descricao": "Maxillaria imbricata é uma orquídea sul-americana de arquitetura vegetativa peculiar, caracterizada pelos crescimentos pendentes e pseudobulbos sobrepostos. Essa disposição confere à planta um aspecto ornamental mesmo quando está sem flores. As folhas alongadas acompanham os segmentos vegetativos, enquanto as flores claras ou amareladas aparecem individualmente em hastes próximas aos pseudobulbos. Seu hábito epífito sugere a importância de raízes bem ventiladas e de um suporte que permita a expansão natural dos crescimentos. Em cultivo, convém oferecer luminosidade filtrada e hidratação regular, observando a resposta individual da planta. A documentação disponível sobre suas exigências específicas e a duração das flores ainda é limitada.",
   "climaFloracao": "Deixe espaço para o crescimento pendente, mantendo umidade regular e boa ventilação.",
   "mesesFloracao": [],
   "mesesFloracaoIndicativos": true,
@@ -290,5 +290,20 @@ export const maxillariaImbricata = {
         "peso": 15
       }
     }
+  },
+  "dica": "Instale a planta em uma placa suspensa ou outro suporte que permita aos crescimentos se alongarem sem obstáculos. Evite dobrar os rizomas ou cobrir os pseudobulbos com substrato. Em ambientes quentes, acompanhe diariamente a velocidade de secagem e ajuste a rega à umidade real das raízes. Registre a época de abertura das flores, a temperatura e sua duração, pois essas observações ajudam a aperfeiçoar o cultivo de uma espécie pouco documentada.",
+  "errosComuns": [
+    "Enterrar pseudobulbos",
+    "Dobrar rizomas pendentes",
+    "Usar recipiente que bloqueie crescimento",
+    "Expor ao sol intenso",
+    "Impor seca prolongada",
+    "Compactar esfagno",
+    "Manter raízes saturadas",
+    "Cortar crescimentos saudáveis"
+  ],
+  "revisaoCientificaIAR": {
+    "fontes": [],
+    "confianca": "preliminar"
   }
 };
