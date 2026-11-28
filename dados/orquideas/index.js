@@ -1,3 +1,4 @@
+import { dendrobiumAphyllum } from "./dendrobium-aphyllum.js";
 import { papilionantheTeres } from "./papilionanthe-teres.js";
 import { maxillariaJohannis } from "./maxillaria-johannis.js";
 import { cattleyaAmethystoglossaVarAurea } from "./cattleya-amethystoglossa-var-aurea.js";
@@ -310,4 +311,5 @@ bulbophyllumSyciobulbon,
     epidendrumSecundum,
     cattleyaAmethystoglossaVarAurea,
     papilionantheTeres,
+    dendrobiumAphyllum,
 ];
