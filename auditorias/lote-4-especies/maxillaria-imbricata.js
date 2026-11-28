@@ -3,7 +3,7 @@ export const maxillariaImbricata = {
   "id": "maxillaria-imbricata",
   "nome": "Maxillaria imbricata",
   "genero": "Maxillaria",
-  "sinonimo": "Camaridium hoehnei; Chelyella imbricata; Camaridium carinatum; Maxillaria carinata",
+  "sinonimo": "Camaridium hoehnei; Chelyella imbricata; Camaridium carinatum; Maxillaria carinata; Maxillaria iguapensis",
   "tipo": "Espécie botânica",
   "origem": "América do Sul tropical",
   "habitat": "Epífita com rizomas pendentes e pseudobulbos sobrepostos.",
@@ -312,7 +312,7 @@ export const maxillariaImbricata = {
     "indice": 46.42857142857143,
     "estrelas": 3,
     "cobertura": 35,
-    "status": "Preliminar",
+    "status": "Preliminar — baixa cobertura",
     "criterios": {
       "disponibilidadeComercial": {
         "nota": null,
@@ -347,7 +347,8 @@ export const maxillariaImbricata = {
       "abundanciaNatural": "Sem dados",
       "conservacao": "Predição de baixo risco no Kew não equivale a avaliação IUCN",
       "escassezInformacoes": "Dados botânicos disponíveis; cultivo específico pouco documentado"
-    }
+    },
+    "documentacao": "documentacao/IRR-1.0-INDICE-RARIDADE-RELATIVA.md"
   },
   "dica": "Instale a planta em uma placa suspensa ou outro suporte que permita aos crescimentos se alongarem sem obstáculos. Evite dobrar os rizomas ou cobrir os pseudobulbos com substrato. Em ambientes quentes, acompanhe diariamente a velocidade de secagem e ajuste a rega à umidade real das raízes. Registre a época de abertura das flores, a temperatura e sua duração, pois essas observações ajudam a aperfeiçoar o cultivo de uma espécie pouco documentada.",
   "errosComuns": [
@@ -369,10 +370,14 @@ export const maxillariaImbricata = {
       "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155104-2",
       "https://repositorio.ufc.br/bitstream/riufc/76253/5/2024_dis_dcfarias.pdf",
       "https://www.ipni.org/n/155104-2",
-      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155104-2/general-information"
+      "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155104-2/general-information",
+      "https://commons.wikimedia.org/wiki/Camaridium_hoehnei",
+      "https://www.ipni.org/n/43697-2",
+      "https://www.ipni.org/n/310603-2"
     ],
     "habitatAltitudeClima": "IOSPE: florestas tropicais úmidas, 100–1000 m, crescimento quente. POWO inclui Colômbia e Equador; IOSPE questiona identificações desses países.",
-    "morfologia": "UFC: pseudobulbos fusiformes imbricados 3,5 × 0,8–1 cm; folha coriácea 10–18,3 × 1,1–1,3 cm. IOSPE: flor de cerca de 3 cm, haste uniflora de até 3,75 cm."
+    "morfologia": "UFC: pseudobulbos fusiformes imbricados 3,5 × 0,8–1 cm; folha coriácea 10–18,3 × 1,1–1,3 cm. IOSPE: flor de cerca de 3 cm, haste uniflora de até 3,75 cm.",
+    "alertaTaxonomico": "Camaridium imbricatum (Barb.Rodr.) Hoehne, 1947, é homônimo posterior ilegítimo e não deve ser confundido com Camaridium imbricatum Schltr., 1918, de Costa Rica."
   },
   "regiao": "América do Sul tropical; ocorrência no Brasil e Bolívia documentada nas referências consultadas.",
   "candidatasFotograficas": [
@@ -388,6 +393,11 @@ export const maxillariaImbricata = {
       "origem": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:155104-2/images",
       "quantidade": 10,
       "licenca": "Verificar individualmente"
+    },
+    {
+      "origem": "https://commons.wikimedia.org/wiki/Camaridium_hoehnei",
+      "tipo": "Ilustração botânica histórica, Flora Brasiliensis vol. 3 parte 6, prancha 3 figura II",
+      "licenca": "Confirmar arquivo individual; não contabilizar como fotografia"
     }
   ],
   "clima": "Tropical úmido, quente",
