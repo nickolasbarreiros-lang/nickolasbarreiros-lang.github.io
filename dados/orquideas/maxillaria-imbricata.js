@@ -49,14 +49,14 @@ export const maxillariaImbricata = {
       {
         "asset": "casca-pinus",
         "nome": "Casca de pinus",
-        "proporcao": "40%",
+        "proporcao": "50%",
         "nota": "estrutura",
         "finalidade": "Use casca firme de tamanho compatível com as raízes, sem excesso de pó. Ela sustenta a planta e conserva espaços de ar; renove quando começar a se fragmentar."
       },
       {
         "asset": "chips-coco",
         "nome": "Chips de coco",
-        "proporcao": "30%",
+        "proporcao": "20%",
         "nota": "umidade",
         "finalidade": "Chips de coco lavados e preparados ajudam a manter umidade entre as regas. Evite material muito fino e confira se o interior da mistura não permanece saturado."
       },
@@ -68,19 +68,19 @@ export const maxillariaImbricata = {
         "finalidade": "Pedaços lavados de carvão mantêm a estrutura aberta entre os materiais orgânicos. Escolha granulometria compatível com o vaso e faça lavagens periódicas para reduzir sais."
       },
       {
-        "asset": "esfagno",
-        "nome": "Esfagno",
+        "asset": "perlita",
+        "nome": "Perlita",
         "proporcao": "10%",
-        "nota": "retenção",
-        "finalidade": "O esfagno de fibra longa, distribuído de forma solta, retarda a secagem em ambientes secos. Não o compacte ao redor do rizoma nem cubra a base dos brotos."
+        "nota": "aeração",
+        "finalidade": "Use perlita hortícola sem pó, em tamanho compatível com a casca, distribuída pela mistura para preservar poros e evitar excesso de retenção junto às raízes."
       }
     ],
     "titulo": "Substrato ideal",
     "contexto": "Substrato indicado para plantio em recipiente",
-    "notaEvidencia": "Estimativa baseada no habitat epifítico úmido; não há validação experimental nem amostra MACS suficiente.",
-    "resumo": "Mistura aberta com retenção moderada a alta.",
-    "justificativa": "A mistura para recipiente procura reproduzir uma zona radicular úmida e ventilada. A casca oferece apoio, o carvão mantém espaços abertos e os chips de coco preparados prolongam a hidratação. O esfagno solto complementa essa reserva sem envolver os pseudobulbos. Como a exigência hídrica específica não foi quantificada, acompanhe o crescimento das raízes e a secagem do centro do vaso. Em montagem, utilize somente a reserva de umidade necessária.",
-    "receitaTexto": "40% casca de pinus + 30% chips de coco + 20% carvão vegetal + 10% esfagno.",
+    "notaEvidencia": "Receita provisória inferida; AOS Repotting e Mounting; sem ensaio específico ou amostra comercial suficiente.; indicadores hídricos qualitativos, não medidos.",
+    "resumo": "Mistura aberta com retenção moderada.",
+    "justificativa": "Para cultivo em recipiente raso, a casca de pinus pequena a média sustenta as raízes, enquanto chips de coco lavados fornecem reserva hídrica moderada. Carvão e perlita preservam espaços de ar. A retirada do esfagno reduz o risco de saturação em ambiente úmido, sem exigir seca prolongada. A proposta é inferida do hábito epifítico e de orientações gerais de cultivo, não de ensaios específicos. Em placa, utilize apenas a reserva hídrica necessária.",
+    "receitaTexto": "50% casca de pinus + 20% chips de coco + 20% carvão vegetal + 10% perlita.",
     "perfil": [
       "Epífita",
       "Rizoma alongado",
@@ -90,7 +90,7 @@ export const maxillariaImbricata = {
     "comportamento": [
       {
         "nome": "Retenção",
-        "valor": 4,
+        "valor": 3,
         "icone": "💧"
       },
       {
@@ -100,7 +100,7 @@ export const maxillariaImbricata = {
       },
       {
         "nome": "Secagem",
-        "valor": 3,
+        "valor": 4,
         "icone": "⚡"
       },
       {
@@ -109,7 +109,7 @@ export const maxillariaImbricata = {
         "icone": "🧱"
       }
     ],
-    "alerta": "Não enterre o rizoma nem compacte o esfagno."
+    "alerta": "Não enterre o rizoma nem compacte a mistura."
   },
   "dificuldade": "Muito fácil",
   "caracteristicas": [
@@ -131,8 +131,8 @@ export const maxillariaImbricata = {
   "adubacao": "🌿 Orgânica: use pequena quantidade de bokashi em porta-adubo, afastado das raízes e dos brotos, somente durante crescimento ativo. Em montagem sem substrato, prefira adubação mineral diluída.\n💧 Foliar/radicular: utilize fertilizante equilibrado a 1/4 da dose do rótulo a cada 15 dias durante crescimento, sobre raízes previamente hidratadas. Reduza quando o crescimento desacelerar.\n🧪 Liberação lenta: opcional em recipiente, respeitando dose e duração do fabricante; mantenha os grânulos afastados da base e considere a liberação mais rápida no calor.\n🚿 Lavagem de sais: regue abundantemente com água limpa a cada 15–30 dias, deixando drenar completamente. Suspenda a adubação se houver raízes danificadas até recuperar o crescimento.",
   "suporte": "Placa / tronco",
   "substrato": [
-    "Fibra de coco + carvão vegetal + esfagno",
-    "Casca de pinus + argila expandida + chips de coco"
+    "Casca de pinus + carvão vegetal + esfagno",
+    "Casca de pinus + pedra-pomes + chips de coco"
   ],
   "formasCultivo": {
     "destaque": "Placa / tronco",
