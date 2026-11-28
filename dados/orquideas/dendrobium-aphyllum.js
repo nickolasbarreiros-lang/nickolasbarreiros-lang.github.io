@@ -78,7 +78,7 @@ export const dendrobiumAphyllum = {
     ],
     "titulo": "Substrato ideal",
     "contexto": "Substrato indicado para plantio em recipiente",
-    "notaEvidencia": "Receita provisória; fonte especializada https://www.rhs.org.uk/plants/5436/dendrobium-aphyllum/details; percentuais complementares estimados; auditoria comercial incompleta.",
+    "notaEvidencia": "Receita provisória; fonte especializada https://www.rhs.org.uk/plants/5436/dendrobium-aphyllum/details; percentuais complementares estimados; auditoria comercial incompleta.; indicadores hídricos qualitativos, não medidos.",
     "resumo": "Mistura aberta para recipiente suspenso.",
     "justificativa": "A casca média sustenta as raízes e constitui a base da mistura. A brita lavada fornece estrutura mineral e os chips de coco grossos, lavados e preparados, oferecem reserva hídrica durante a emissão de brotos. A combinação segue a orientação qualitativa de usar casca, material mineral e coco, com proporções volumétricas estimadas. Utilize recipiente pequeno e suspenso, reduzindo as regas no repouso conforme a secagem.",
     "receitaTexto": "60% casca de pinus + 20% brita + 20% chips de coco.",
@@ -96,7 +96,7 @@ export const dendrobiumAphyllum = {
       },
       {
         "nome": "Aeração",
-        "valor": 5,
+        "valor": 4,
         "icone": "💨"
       },
       {
