@@ -1,0 +1,5 @@
+# Parecer consolidado — MACS 1.2
+
+Status editorial: receitas publicadas como recomendações técnicas provisórias, sem homologação científica. Papilionanthe teres: apoio comercial qualitativo para carvão e pedrisco; cultivo montado preferencial. Dendrobium aphyllum: apoio especializado qualitativo para casca, mineral e coco; evidência comercial parcial. Miltonia flavescens: estudos de aclimatização e uso em cultivo, orientação de gênero; não demonstram superioridade da receita adulta. Maxillaria imbricata: inferência ecológica e física; evidência específica insuficiente.
+
+Meta de 25 fornecedores por espécie não comprovada; ausência de informação não equivale a nota zero. Não alterar índices climáticos. Percentuais e coeficientes não calibrados. Testes matemáticos anteriores aprovados; auditoria visual automatizada configurada, resultado não confirmado. Fontes comerciais reaproveitadas dos relatórios anteriores, não reabertas nesta rodada. Encerramento científico não autorizado pelas evidências. Próxima revisão deve verificar fontes e resultados do workflow, sem repetir alterações arbitrárias nas receitas.
