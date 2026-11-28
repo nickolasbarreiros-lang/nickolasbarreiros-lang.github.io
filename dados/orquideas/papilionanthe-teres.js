@@ -299,7 +299,7 @@ export const papilionantheTeres = {
   },
   "indiceRaridadeRelativa": {
     "versao": "IRR 1.0",
-    "indice": 17.857142857142854,
+    "indice": 17.86,
     "estrelas": 1,
     "cobertura": 70,
     "status": "Preliminar",
