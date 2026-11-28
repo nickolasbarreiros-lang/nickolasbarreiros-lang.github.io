@@ -16,8 +16,34 @@ export const maxillariaImbricata = {
   },
   "rega": "Hidrate completamente as raízes e deixe o excesso escorrer. Em placa, acompanhe diariamente a velocidade de secagem no calor; se a madeira secar depressa demais, ajuste a frequência ou use uma pequena reserva de esfagno solto. Em recipiente, examine a umidade interna antes de regar novamente, evitando saturação prolongada. No frio, espaçe as regas conforme a evaporação. Pseudobulbos progressivamente enrugados podem indicar falta de água ou raízes danificadas, portanto confira ambas as condições. Não imponha um período de seca prolongada, pois não existe evidência suficiente de que ele seja necessário para esta espécie.",
   "floracao": "Pode florescer em diferentes estações, com registros brasileiros em julho e dezembro, sem pico anual comprovado. As flores creme a amarelas, de aproximadamente 3 cm, apresentam labelo trilobado e surgem individualmente em hastes basais de cerca de 4–5 cm. Há relato científico de néctar e odor desagradável, cuja intensidade não foi quantificada; a delimitação taxonômica desse relato exige cautela. Duração floral e reflorescência na mesma haste permanecem desconhecidas.",
-  "fotos": [],
-  "creditosFotos": [],
+  "fotos": [
+    "https://www.orchidspecies.com/orphotdir/maxiimbricata.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB0r_zfutIlVE2QEO76k7wSnP3fwb7lepMN2tsHHtRC-0aAYax_Wx0B8o2&s=10",
+    "https://ecuagenera.com/cdn/shop/files/Maxillaria_imbricata.jpg?v=1751273710",
+    "https://orchidroots.com/static/utils/images/species/spc_000041397_000122627.jpg"
+  ],
+  "creditosFotos": [
+    {
+      "autor": "S. L. X. Tobias (atribuição a conferir)",
+      "origem": "https://www.orchidspecies.com/maximbricata.htm",
+      "nomeLicenca": "Não confirmada"
+    },
+    {
+      "autor": "Não identificado",
+      "origem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB0r_zfutIlVE2QEO76k7wSnP3fwb7lepMN2tsHHtRC-0aAYax_Wx0B8o2&s=10",
+      "nomeLicenca": "Não confirmada"
+    },
+    {
+      "autor": "Não identificado — fonte Ecuagenera",
+      "origem": "https://ecuagenera.com/cdn/shop/files/Maxillaria_imbricata.jpg?v=1751273710",
+      "nomeLicenca": "Não confirmada"
+    },
+    {
+      "autor": "Não identificado — fonte OrchidRoots",
+      "origem": "https://orchidroots.com/static/utils/images/species/spc_000041397_000122627.jpg",
+      "nomeLicenca": "Não confirmada"
+    }
+  ],
   "substratoVisual": {
     "itens": [
       {
@@ -335,7 +361,8 @@ export const maxillariaImbricata = {
     "habitatAltitudeClima": "IOSPE registra 100–1000 m, florestas tropicais úmidas nebulares; Kew confirma bioma tropical úmido. Distribuição geográfica diverge entre fontes; priorizar Kew para taxonomia.",
     "morfologia": "UFC: pseudobulbos fusiformes imbricados 3,5 × 0,8–1 cm; folha coriácea 10–18,3 × 1,1–1,3 cm. IOSPE: flor de cerca de 3 cm, haste uniflora de até 3,75 cm.",
     "alertaTaxonomico": "Camaridium imbricatum (Barb.Rodr.) Hoehne, 1947, é homônimo posterior ilegítimo e não deve ser confundido com Camaridium imbricatum Schltr., 1918, de Costa Rica.",
-    "fenologia": "UFC 2024 pp. 74–75: Lima-Verde 3498 (EAC), 08.VII.2008, flores e frutos; coleta 08.X.2008 sem indicação floral. Barbosa Rodrigues 1877: dezembro, Petrópolis, corroborado Blanco 2008. IOSPE indica quatro estações. Abril Instagram não confirmado; excluir fevereiro colombiano por divergência taxonômica."
+    "fenologia": "UFC 2024 pp. 74–75: Lima-Verde 3498 (EAC), 08.VII.2008, flores e frutos; coleta 08.X.2008 sem indicação floral. Barbosa Rodrigues 1877: dezembro, Petrópolis, corroborado Blanco 2008. IOSPE indica quatro estações. Abril Instagram não confirmado; excluir fevereiro colombiano por divergência taxonômica.",
+    "auditoriaGaleria": "Quatro links fornecidos pelo usuário; identidade, licença individual e carregamento ainda pendentes. IOSPE alerta que registros do Equador podem representar M. ferruginea. Galeria provisória."
   },
   "regiao": "América do Sul tropical; ocorrência no Brasil e Bolívia documentada nas referências consultadas.",
   "clima": "Tropical úmido, quente",
