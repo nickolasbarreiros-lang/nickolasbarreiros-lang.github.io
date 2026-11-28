@@ -98,12 +98,12 @@ export const miltoniaFlavescens = {
       "indice": 12.5
     }
   },
-  "status": "Rascunho ampliado; descrição, erros, dica, fotografias, evidências e validação visual ainda pendentes.",
+  "status": "Textos editoriais ampliados; fotografias, MACS e revisão científica pendentes.",
   "dificuldade": "Muito fácil",
   "caracteristicas": [
     "Epífita simpodial com pseudobulbos achatados e flores estreladas."
   ],
-  "descricao": "Epífita simpodial com pseudobulbos achatados e flores estreladas. Primavera e verão; flores perfumadas. Mantenha hidratação regular, luminosidade filtrada e ventilação; não imponha repouso seco.",
+  "descricao": "Miltonia flavescens é uma orquídea sul-americana que se destaca pelas inflorescências longas, carregadas de flores estreladas em tons de amarelo claro ou bege. O labelo branco apresenta marcas castanhas próximas à base, criando contraste com as pétalas e sépalas estreitas. Seus pseudobulbos achatados, geralmente verde-amarelados, apresentam duas folhas apicais. A espécie ocorre em diferentes formações vegetais brasileiras, incluindo florestas estacionais e ciliares, demonstrando ampla distribuição natural. Em cultivo, pode formar touceiras ornamentais quando dispõe de espaço para o avanço do rizoma. Prefere luminosidade filtrada e raízes ventiladas, com hidratação regular e intervalos de secagem ajustados ao ambiente.",
   "climaFloracao": "Mantenha hidratação regular, luminosidade filtrada e ventilação; não imponha repouso seco.",
   "mesesFloracao": [
     12,
@@ -294,5 +294,23 @@ export const miltoniaFlavescens = {
         "peso": 15
       }
     }
+  },
+  "dica": "Escolha uma placa alongada ou recipiente raso, deixando espaço livre na direção em que o rizoma está avançando. Durante o crescimento, acompanhe a hidratação das folhas novas e dos pseudobulbos. Folhas enrugadas em sanfona podem indicar irregularidade hídrica. Evite compensar esse problema mantendo o substrato permanentemente encharcado. Regue abundantemente, permita drenagem completa e lave periodicamente os sais acumulados, especialmente quando utilizar adubação mineral.",
+  "errosComuns": [
+    "Enterrar o rizoma",
+    "Usar vaso profundo e estreito",
+    "Expor folhas ao sol intenso",
+    "Deixar raízes secas por muito tempo",
+    "Manter substrato saturado",
+    "Acumular sais de adubação",
+    "Dividir touceiras excessivamente",
+    "Impor repouso seco rigoroso"
+  ],
+  "revisaoCientificaIAR": {
+    "fontes": [
+      "https://monografiasfloradobrasil.jbrj.gov.br/miltonia.pdf",
+      "https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet"
+    ],
+    "confianca": "preliminar"
   }
 };
