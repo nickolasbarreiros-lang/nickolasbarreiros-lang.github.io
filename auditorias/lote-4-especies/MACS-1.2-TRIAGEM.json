@@ -1,0 +1,953 @@
+{
+  "weights": [
+    25,
+    20,
+    20,
+    15,
+    10,
+    5,
+    5
+  ],
+  "criterios": [
+    "raizes",
+    "agua",
+    "ar",
+    "evidencia",
+    "comercial",
+    "durabilidade",
+    "suporte"
+  ],
+  "sources": [
+    "https://www.aos.org/orchid-care/beginners-series--part-2-media-mania-revisited",
+    "https://www.aos.org/orchid-care/what-is-the-best-potting-media",
+    "https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet",
+    "https://www.rhs.org.uk/plants/5436/dendrobium-aphyllum/details"
+  ],
+  "limites": "Notas físicas e adequação inferidas; cobertura não é confiança. Evidência comercial não pontuada; meta não cumprida. Sem homologação.",
+  "data": [
+    {
+      "id": "papilionanthe-teres",
+      "status": "triagem técnica provisória",
+      "materiais": [
+        {
+          "material": "casca-pinus",
+          "notas": [
+            5,
+            5,
+            4,
+            null,
+            null,
+            3,
+            5
+          ],
+          "cobertura": 75,
+          "indice": 92,
+          "justificativa": "estrutura de casca; degrada com tempo; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "carvao-vegetal",
+          "notas": [
+            5,
+            5,
+            5,
+            null,
+            null,
+            5,
+            5
+          ],
+          "cobertura": 75,
+          "indice": 100,
+          "justificativa": "fragmentos abertos; pouca reserva hídrica; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "casca-macadamia",
+          "notas": [
+            4,
+            5,
+            5,
+            null,
+            null,
+            4,
+            4
+          ],
+          "cobertura": 75,
+          "indice": 90.7,
+          "justificativa": "casca rígida; evidência específica ausente; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "esfagno",
+          "notas": [
+            1,
+            1,
+            2,
+            null,
+            null,
+            2,
+            1
+          ],
+          "cobertura": 75,
+          "indice": 26.7,
+          "justificativa": "reserva hídrica alta; risco de saturação; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "chips-coco",
+          "notas": [
+            3,
+            3,
+            4,
+            null,
+            null,
+            3,
+            3
+          ],
+          "cobertura": 75,
+          "indice": 65.3,
+          "justificativa": "reserva moderada se lavado e grosso; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "fibra-coco",
+          "notas": [
+            2,
+            2,
+            3,
+            null,
+            null,
+            2,
+            2
+          ],
+          "cobertura": 75,
+          "indice": 45.3,
+          "justificativa": "risco de compactação conforme fibra; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "casca-arroz-carbonizada",
+          "notas": [
+            2,
+            2,
+            4,
+            null,
+            null,
+            3,
+            2
+          ],
+          "cobertura": 75,
+          "indice": 52,
+          "justificativa": "partículas leves; granulometria condiciona poros; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "terra-vegetal",
+          "notas": [
+            0,
+            0,
+            1,
+            null,
+            null,
+            2,
+            0
+          ],
+          "cobertura": 75,
+          "indice": 8,
+          "justificativa": "solo fino reduz aeração epífita; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "composto-organico",
+          "notas": [
+            0,
+            0,
+            1,
+            null,
+            null,
+            1,
+            0
+          ],
+          "cobertura": 75,
+          "indice": 6.7,
+          "justificativa": "decomposição e risco de fechamento; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "brita",
+          "notas": [
+            4,
+            5,
+            5,
+            null,
+            null,
+            5,
+            4
+          ],
+          "cobertura": 75,
+          "indice": 92,
+          "justificativa": "peso e baixa reserva de água; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "argila-expandida",
+          "notas": [
+            5,
+            5,
+            5,
+            null,
+            null,
+            5,
+            5
+          ],
+          "cobertura": 75,
+          "indice": 100,
+          "justificativa": "poros e estabilidade; tamanho importa; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "pedra-pomes",
+          "notas": [
+            5,
+            5,
+            5,
+            null,
+            null,
+            5,
+            5
+          ],
+          "cobertura": 75,
+          "indice": 100,
+          "justificativa": "mineral poroso estável; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "perlita",
+          "notas": [
+            3,
+            4,
+            5,
+            null,
+            null,
+            5,
+            3
+          ],
+          "cobertura": 75,
+          "indice": 78.7,
+          "justificativa": "leve e aerador; tamanho importa; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "vermiculita",
+          "notas": [
+            1,
+            1,
+            2,
+            null,
+            null,
+            3,
+            1
+          ],
+          "cobertura": 75,
+          "indice": 28,
+          "justificativa": "retém água e pode fechar poros; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "areia-grossa",
+          "notas": [
+            1,
+            2,
+            2,
+            null,
+            null,
+            5,
+            1
+          ],
+          "cobertura": 75,
+          "indice": 36,
+          "justificativa": "peso e preenchimento de vazios; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        }
+      ]
+    },
+    {
+      "id": "dendrobium-aphyllum",
+      "status": "triagem técnica provisória",
+      "materiais": [
+        {
+          "material": "casca-pinus",
+          "notas": [
+            5,
+            5,
+            4,
+            3,
+            null,
+            3,
+            5
+          ],
+          "cobertura": 90,
+          "indice": 86.7,
+          "justificativa": "estrutura de casca; degrada com tempo; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "carvao-vegetal",
+          "notas": [
+            4,
+            4,
+            5,
+            null,
+            null,
+            5,
+            4
+          ],
+          "cobertura": 75,
+          "indice": 86.7,
+          "justificativa": "fragmentos abertos; pouca reserva hídrica; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "casca-macadamia",
+          "notas": [
+            4,
+            4,
+            5,
+            null,
+            null,
+            4,
+            4
+          ],
+          "cobertura": 75,
+          "indice": 85.3,
+          "justificativa": "casca rígida; evidência específica ausente; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "esfagno",
+          "notas": [
+            3,
+            3,
+            2,
+            3,
+            null,
+            2,
+            3
+          ],
+          "cobertura": 90,
+          "indice": 54.4,
+          "justificativa": "reserva hídrica alta; risco de saturação; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "chips-coco",
+          "notas": [
+            4,
+            4,
+            4,
+            null,
+            null,
+            3,
+            4
+          ],
+          "cobertura": 75,
+          "indice": 78.7,
+          "justificativa": "reserva moderada se lavado e grosso; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "fibra-coco",
+          "notas": [
+            3,
+            3,
+            3,
+            3,
+            null,
+            2,
+            3
+          ],
+          "cobertura": 90,
+          "indice": 58.9,
+          "justificativa": "risco de compactação conforme fibra; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "casca-arroz-carbonizada",
+          "notas": [
+            3,
+            3,
+            4,
+            null,
+            null,
+            3,
+            3
+          ],
+          "cobertura": 75,
+          "indice": 65.3,
+          "justificativa": "partículas leves; granulometria condiciona poros; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "terra-vegetal",
+          "notas": [
+            0,
+            0,
+            1,
+            null,
+            null,
+            2,
+            0
+          ],
+          "cobertura": 75,
+          "indice": 8,
+          "justificativa": "solo fino reduz aeração epífita; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "composto-organico",
+          "notas": [
+            0,
+            0,
+            1,
+            null,
+            null,
+            1,
+            0
+          ],
+          "cobertura": 75,
+          "indice": 6.7,
+          "justificativa": "decomposição e risco de fechamento; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "brita",
+          "notas": [
+            4,
+            4,
+            5,
+            2,
+            null,
+            5,
+            4
+          ],
+          "cobertura": 90,
+          "indice": 78.9,
+          "justificativa": "peso e baixa reserva de água; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "argila-expandida",
+          "notas": [
+            4,
+            4,
+            5,
+            null,
+            null,
+            5,
+            4
+          ],
+          "cobertura": 75,
+          "indice": 86.7,
+          "justificativa": "poros e estabilidade; tamanho importa; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "pedra-pomes",
+          "notas": [
+            4,
+            4,
+            5,
+            null,
+            null,
+            5,
+            4
+          ],
+          "cobertura": 75,
+          "indice": 86.7,
+          "justificativa": "mineral poroso estável; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "perlita",
+          "notas": [
+            4,
+            4,
+            5,
+            null,
+            null,
+            5,
+            4
+          ],
+          "cobertura": 75,
+          "indice": 86.7,
+          "justificativa": "leve e aerador; tamanho importa; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "vermiculita",
+          "notas": [
+            2,
+            2,
+            2,
+            null,
+            null,
+            3,
+            2
+          ],
+          "cobertura": 75,
+          "indice": 41.3,
+          "justificativa": "retém água e pode fechar poros; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "areia-grossa",
+          "notas": [
+            2,
+            2,
+            2,
+            null,
+            null,
+            5,
+            2
+          ],
+          "cobertura": 75,
+          "indice": 44,
+          "justificativa": "peso e preenchimento de vazios; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        }
+      ]
+    },
+    {
+      "id": "miltonia-flavescens",
+      "status": "triagem técnica provisória",
+      "materiais": [
+        {
+          "material": "casca-pinus",
+          "notas": [
+            5,
+            5,
+            4,
+            2,
+            null,
+            3,
+            5
+          ],
+          "cobertura": 90,
+          "indice": 83.3,
+          "justificativa": "estrutura de casca; degrada com tempo; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "carvao-vegetal",
+          "notas": [
+            4,
+            4,
+            5,
+            2,
+            null,
+            5,
+            4
+          ],
+          "cobertura": 90,
+          "indice": 78.9,
+          "justificativa": "fragmentos abertos; pouca reserva hídrica; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "casca-macadamia",
+          "notas": [
+            3,
+            3,
+            5,
+            null,
+            null,
+            4,
+            3
+          ],
+          "cobertura": 75,
+          "indice": 72,
+          "justificativa": "casca rígida; evidência específica ausente; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "esfagno",
+          "notas": [
+            3,
+            3,
+            2,
+            2,
+            null,
+            2,
+            3
+          ],
+          "cobertura": 90,
+          "indice": 51.1,
+          "justificativa": "reserva hídrica alta; risco de saturação; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "chips-coco",
+          "notas": [
+            4,
+            4,
+            4,
+            null,
+            null,
+            3,
+            4
+          ],
+          "cobertura": 75,
+          "indice": 78.7,
+          "justificativa": "reserva moderada se lavado e grosso; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "fibra-coco",
+          "notas": [
+            3,
+            3,
+            3,
+            null,
+            null,
+            2,
+            3
+          ],
+          "cobertura": 75,
+          "indice": 58.7,
+          "justificativa": "risco de compactação conforme fibra; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "casca-arroz-carbonizada",
+          "notas": [
+            4,
+            4,
+            4,
+            null,
+            null,
+            3,
+            4
+          ],
+          "cobertura": 75,
+          "indice": 78.7,
+          "justificativa": "partículas leves; granulometria condiciona poros; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "terra-vegetal",
+          "notas": [
+            0,
+            0,
+            1,
+            null,
+            null,
+            2,
+            0
+          ],
+          "cobertura": 75,
+          "indice": 8,
+          "justificativa": "solo fino reduz aeração epífita; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "composto-organico",
+          "notas": [
+            1,
+            1,
+            1,
+            null,
+            null,
+            1,
+            1
+          ],
+          "cobertura": 75,
+          "indice": 20,
+          "justificativa": "decomposição e risco de fechamento; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "brita",
+          "notas": [
+            2,
+            2,
+            5,
+            null,
+            null,
+            5,
+            2
+          ],
+          "cobertura": 75,
+          "indice": 60,
+          "justificativa": "peso e baixa reserva de água; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "argila-expandida",
+          "notas": [
+            3,
+            3,
+            5,
+            null,
+            null,
+            5,
+            3
+          ],
+          "cobertura": 75,
+          "indice": 73.3,
+          "justificativa": "poros e estabilidade; tamanho importa; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "pedra-pomes",
+          "notas": [
+            4,
+            4,
+            5,
+            null,
+            null,
+            5,
+            4
+          ],
+          "cobertura": 75,
+          "indice": 86.7,
+          "justificativa": "mineral poroso estável; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "perlita",
+          "notas": [
+            5,
+            5,
+            5,
+            2,
+            null,
+            5,
+            5
+          ],
+          "cobertura": 90,
+          "indice": 90,
+          "justificativa": "leve e aerador; tamanho importa; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "vermiculita",
+          "notas": [
+            2,
+            2,
+            2,
+            null,
+            null,
+            3,
+            2
+          ],
+          "cobertura": 75,
+          "indice": 41.3,
+          "justificativa": "retém água e pode fechar poros; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "areia-grossa",
+          "notas": [
+            2,
+            2,
+            2,
+            null,
+            null,
+            5,
+            2
+          ],
+          "cobertura": 75,
+          "indice": 44,
+          "justificativa": "peso e preenchimento de vazios; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        }
+      ]
+    },
+    {
+      "id": "maxillaria-imbricata",
+      "status": "triagem técnica provisória",
+      "materiais": [
+        {
+          "material": "casca-pinus",
+          "notas": [
+            5,
+            5,
+            4,
+            null,
+            null,
+            3,
+            5
+          ],
+          "cobertura": 75,
+          "indice": 92,
+          "justificativa": "estrutura de casca; degrada com tempo; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "carvao-vegetal",
+          "notas": [
+            4,
+            4,
+            5,
+            null,
+            null,
+            5,
+            4
+          ],
+          "cobertura": 75,
+          "indice": 86.7,
+          "justificativa": "fragmentos abertos; pouca reserva hídrica; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "casca-macadamia",
+          "notas": [
+            3,
+            3,
+            5,
+            null,
+            null,
+            4,
+            3
+          ],
+          "cobertura": 75,
+          "indice": 72,
+          "justificativa": "casca rígida; evidência específica ausente; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "esfagno",
+          "notas": [
+            3,
+            3,
+            2,
+            null,
+            null,
+            2,
+            3
+          ],
+          "cobertura": 75,
+          "indice": 53.3,
+          "justificativa": "reserva hídrica alta; risco de saturação; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "chips-coco",
+          "notas": [
+            4,
+            4,
+            4,
+            null,
+            null,
+            3,
+            4
+          ],
+          "cobertura": 75,
+          "indice": 78.7,
+          "justificativa": "reserva moderada se lavado e grosso; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "fibra-coco",
+          "notas": [
+            3,
+            3,
+            3,
+            null,
+            null,
+            2,
+            3
+          ],
+          "cobertura": 75,
+          "indice": 58.7,
+          "justificativa": "risco de compactação conforme fibra; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "casca-arroz-carbonizada",
+          "notas": [
+            3,
+            3,
+            4,
+            null,
+            null,
+            3,
+            3
+          ],
+          "cobertura": 75,
+          "indice": 65.3,
+          "justificativa": "partículas leves; granulometria condiciona poros; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "terra-vegetal",
+          "notas": [
+            0,
+            0,
+            1,
+            null,
+            null,
+            2,
+            0
+          ],
+          "cobertura": 75,
+          "indice": 8,
+          "justificativa": "solo fino reduz aeração epífita; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "composto-organico",
+          "notas": [
+            0,
+            0,
+            1,
+            null,
+            null,
+            1,
+            0
+          ],
+          "cobertura": 75,
+          "indice": 6.7,
+          "justificativa": "decomposição e risco de fechamento; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "brita",
+          "notas": [
+            2,
+            2,
+            5,
+            null,
+            null,
+            5,
+            2
+          ],
+          "cobertura": 75,
+          "indice": 60,
+          "justificativa": "peso e baixa reserva de água; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "argila-expandida",
+          "notas": [
+            3,
+            3,
+            5,
+            null,
+            null,
+            5,
+            3
+          ],
+          "cobertura": 75,
+          "indice": 73.3,
+          "justificativa": "poros e estabilidade; tamanho importa; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "pedra-pomes",
+          "notas": [
+            4,
+            4,
+            5,
+            null,
+            null,
+            5,
+            4
+          ],
+          "cobertura": 75,
+          "indice": 86.7,
+          "justificativa": "mineral poroso estável; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "perlita",
+          "notas": [
+            4,
+            4,
+            5,
+            null,
+            null,
+            5,
+            4
+          ],
+          "cobertura": 75,
+          "indice": 86.7,
+          "justificativa": "leve e aerador; tamanho importa; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "vermiculita",
+          "notas": [
+            2,
+            2,
+            2,
+            null,
+            null,
+            3,
+            2
+          ],
+          "cobertura": 75,
+          "indice": 41.3,
+          "justificativa": "retém água e pode fechar poros; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        },
+        {
+          "material": "areia-grossa",
+          "notas": [
+            2,
+            2,
+            2,
+            null,
+            null,
+            5,
+            2
+          ],
+          "cobertura": 75,
+          "indice": 44,
+          "justificativa": "peso e preenchimento de vazios; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+        }
+      ]
+    }
+  ]
+}
