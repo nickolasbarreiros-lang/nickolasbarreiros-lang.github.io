@@ -1,3 +1,4 @@
+import { miltoniaFlavescens } from "./miltonia-flavescens.js";
 import { dendrobiumAphyllum } from "./dendrobium-aphyllum.js";
 import { papilionantheTeres } from "./papilionanthe-teres.js";
 import { maxillariaJohannis } from "./maxillaria-johannis.js";
@@ -312,4 +313,5 @@ bulbophyllumSyciobulbon,
     cattleyaAmethystoglossaVarAurea,
     papilionantheTeres,
     dendrobiumAphyllum,
+    miltoniaFlavescens,
 ];
