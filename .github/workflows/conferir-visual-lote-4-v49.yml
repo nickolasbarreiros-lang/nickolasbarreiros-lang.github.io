@@ -3,6 +3,9 @@ on:
   push:
     paths:
       - '.github/workflows/conferir-visual-lote-4-v49.yml'
+      - 'ficha.js'
+      - 'js/macs-comportamento-v1.js'
+      - 'dados/orquideas/**'
   workflow_dispatch:
 jobs:
   conferir:
@@ -35,11 +38,12 @@ jobs:
                   await page.goto('http://127.0.0.1:8765/orquidea.html?id='+id,{waitUntil:'domcontentloaded',timeout:30000});
                   await page.locator('.substrato-visual-v4').waitFor({timeout:20000});
                   result.alternativas=await page.locator('.substratos-recomendados-v4 li').count();
+                  result.indicadores=await page.locator('.indicador-mistura-v423 .bolhas-indicador-v423').evaluateAll(es=>es.map(e=>e.querySelectorAll('i.ativo').length));
                   result.galeriaVazia=await page.locator('.galeria-v2-sem-foto').count();
                   await page.evaluate(async()=>{for(const i of document.images)i.loading='eager';await Promise.race([Promise.allSettled([...document.images].map(i=>i.decode())),new Promise(r=>setTimeout(r,15000))]);});
                   result.imagensFalhas=await page.locator('img').evaluateAll(imgs=>imgs.filter(i=>!i.complete||!i.naturalWidth).map(i=>i.src));
                   await page.screenshot({path:'auditoria-visual/'+id+'-'+mode+'.png',fullPage:true,timeout:20000});
-                  result.ok=result.alternativas===2 && result.galeriaVazia===(id==='maxillaria-imbricata'?1:0)&&!errors.length&&!result.imagensFalhas.length;
+                  result.ok=JSON.stringify(result.indicadores)===JSON.stringify(id==='papilionanthe-teres'?[2,5,5,1]:[3,4,4,2]) && result.alternativas===2 && result.galeriaVazia===0&&!errors.length&&!result.imagensFalhas.length;
                 }catch(e){result.falha=e.message;result.ok=false;}
                 report.push(result);await page.close();
               }
