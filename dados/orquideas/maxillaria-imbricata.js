@@ -15,7 +15,7 @@ export const maxillariaImbricata = {
     "horario": "Início da manhã"
   },
   "rega": "Hidrate completamente as raízes e deixe o excesso escorrer. Em placa, acompanhe diariamente a velocidade de secagem no calor; se a madeira secar depressa demais, ajuste a frequência ou use uma pequena reserva de esfagno solto. Em recipiente, examine a umidade interna antes de regar novamente, evitando saturação prolongada. No frio, espaçe as regas conforme a evaporação. Pseudobulbos progressivamente enrugados podem indicar falta de água ou raízes danificadas, portanto confira ambas as condições. Não imponha um período de seca prolongada, pois não existe evidência suficiente de que ele seja necessário para esta espécie.",
-  "floracao": "A floração apresenta registro histórico brasileiro em dezembro, no início do verão, embora possa ocorrer em praticamente qualquer época do ano. As flores creme a amarelo-claro, com cerca de 3 cm, surgem individualmente em numerosas hastes basais curtas, distribuídas pelos segmentos maduros. Não há confirmação de um pico anual, intensidade de perfume, duração individual das flores ou reflorescência na mesma haste.",
+  "floracao": "Pode florescer em diferentes estações, com registros brasileiros em julho e dezembro, sem pico anual comprovado. As flores creme a amarelas, de aproximadamente 3 cm, apresentam labelo trilobado e surgem individualmente em hastes basais de cerca de 4–5 cm. Há relato científico de néctar e odor desagradável, cuja intensidade não foi quantificada; a delimitação taxonômica desse relato exige cautela. Duração floral e reflorescência na mesma haste permanecem desconhecidas.",
   "fotos": [],
   "creditosFotos": [],
   "substratoVisual": {
@@ -96,6 +96,7 @@ export const maxillariaImbricata = {
   "descricao": "Maxillaria imbricata é uma orquídea sul-americana de arquitetura vegetativa peculiar, caracterizada pelos crescimentos pendentes e pseudobulbos sobrepostos. Essa disposição confere à planta um aspecto ornamental mesmo quando está sem flores. As folhas alongadas acompanham os segmentos vegetativos, enquanto as flores claras ou amareladas aparecem individualmente em hastes próximas aos pseudobulbos. Seu hábito epífito sugere a importância de raízes bem ventiladas e de um suporte que permita a expansão natural dos crescimentos. Em cultivo, convém oferecer luminosidade filtrada e hidratação regular, observando a resposta individual da planta. A documentação disponível sobre suas exigências específicas e a duração das flores ainda é limitada.",
   "climaFloracao": "Priorize a continuidade do crescimento, maturação dos pseudobulbos e umidade regular, com luz filtrada e ventilação. Dias de 23–30 °C e noites de 17–23 °C constituem uma referência inicial de manejo, não uma faixa experimental de indução floral. No litoral, evite calor abafado e raízes saturadas; na montanha, proteja de frio prolongado. Não há confirmação de altitude obrigatória, queda térmica mínima ou repouso seco necessário para a floração.",
   "mesesFloracao": [
+    7,
     12
   ],
   "mesesFloracaoIndicativos": true,
@@ -326,12 +327,15 @@ export const maxillariaImbricata = {
       "https://www.ipni.org/n/43697-2",
       "https://www.ipni.org/n/310603-2",
       "https://upload.wikimedia.org/wikipedia/commons/e/e1/Genera_et_species_orchidearum_novarum_%28I%29.pdf",
-      "https://orchidspecies.com/maximbricata.htm"
+      "https://orchidspecies.com/maximbricata.htm",
+      "https://www.researchgate.net/publication/232675147_On_Maxillaria_bomboizensis_and_Camaridium_carinatum_Orchidaceae",
+      "https://www.academia.edu/28204838/Molecular_phylogenetics_of_Maxillaria_and_related_genera_Orchidaceae_Cymbidieae_based_on_combined_molecular_data_sets",
+      "https://www.portaldoorquidofilo.com/mes-de-floracao"
     ],
     "habitatAltitudeClima": "IOSPE registra 100–1000 m, florestas tropicais úmidas nebulares; Kew confirma bioma tropical úmido. Distribuição geográfica diverge entre fontes; priorizar Kew para taxonomia.",
     "morfologia": "UFC: pseudobulbos fusiformes imbricados 3,5 × 0,8–1 cm; folha coriácea 10–18,3 × 1,1–1,3 cm. IOSPE: flor de cerca de 3 cm, haste uniflora de até 3,75 cm.",
     "alertaTaxonomico": "Camaridium imbricatum (Barb.Rodr.) Hoehne, 1947, é homônimo posterior ilegítimo e não deve ser confundido com Camaridium imbricatum Schltr., 1918, de Costa Rica.",
-    "fenologia": "Barbosa Rodrigues (1877), Genera et Species Orchidearum Novarum I, pp. 120–121: floração em dezembro em Petrópolis. IOSPE: possibilidade de floração em praticamente qualquer época. Dezembro é registro documentado, não pico comprovado nem ensaio de cultivo."
+    "fenologia": "UFC 2024 pp. 74–75: Lima-Verde 3498 (EAC), 08.VII.2008, flores e frutos; coleta 08.X.2008 sem indicação floral. Barbosa Rodrigues 1877: dezembro, Petrópolis, corroborado Blanco 2008. IOSPE indica quatro estações. Abril Instagram não confirmado; excluir fevereiro colombiano por divergência taxonômica."
   },
   "regiao": "América do Sul tropical; ocorrência no Brasil e Bolívia documentada nas referências consultadas.",
   "clima": "Tropical úmido, quente",
