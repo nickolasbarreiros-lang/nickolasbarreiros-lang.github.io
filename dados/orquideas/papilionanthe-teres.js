@@ -78,9 +78,9 @@ export const papilionantheTeres = {
     ],
     "titulo": "Substrato ideal",
     "contexto": "Substrato indicado para plantio em recipiente",
-    "notaEvidencia": "Quatro produtores específicos consultados nesta rodada: 4 Estações, Santa Clara, Maripá e Mogi Mirim. Convergência para suporte vertical e raízes livres; pínus/carvão e pedrisco como opções. AOS recomenda mistura grossa. Meta 25 não atingida; percentuais técnicos não experimentais.",
+    "notaEvidencia": "Quatro produtores específicos consultados nesta rodada: 4 Estações, Santa Clara, Maripá e Mogi Mirim. Convergência para suporte vertical e raízes livres; pínus/carvão e pedrisco como opções. AOS recomenda mistura grossa. Meta 25 não atingida; percentuais técnicos não experimentais.; receita mantida por estabilidade do tutor; AOS orienta mistura grossa conforme rega, sem proporções específicas.; indicadores hídricos qualitativos, não medidos.",
     "resumo": "Mistura grosseira, aberta e de secagem rápida.",
-    "justificativa": "As raízes grossas e aéreas precisam alternar hidratação e contato com o ar. A mistura para recipiente serve principalmente de apoio, não de substituto para as raízes livres. Pinus grosso mantém estrutura, carvão amplia os espaços entre partículas e brita dá estabilidade ao tutor. Evite preencher os vazios com material fino. Ajuste a rega à exposição solar e ao vento, mantendo o caule acima do substrato.",
+    "justificativa": "As raízes grossas e aéreas precisam alternar hidratação e contato com o ar. A mistura para recipiente serve principalmente de apoio, não de substituto para as raízes livres. Pinus grosso mantém estrutura, carvão amplia os espaços entre partículas e brita dá estabilidade ao tutor. Evite preencher os vazios com material fino. Ajuste a rega à exposição solar e ao vento, mantendo o caule acima do substrato. A brita é opcional quando o tutor já está firmemente fixado; argila expandida pode substituir parte mineral em recipientes leves. O cultivo montado dispensa esta receita.",
     "receitaTexto": "40% casca de pinus + 35% carvão vegetal + 25% brita.",
     "perfil": [
       "Epífita monopodial",
