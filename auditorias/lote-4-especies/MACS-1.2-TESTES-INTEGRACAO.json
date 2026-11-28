@@ -1,0 +1,101 @@
+{
+  "rows": [
+    {
+      "id": "papilionanthe-teres",
+      "labels": [
+        "Retenção",
+        "Aeração",
+        "Secagem",
+        "Compactação"
+      ],
+      "calculated": [
+        1.8,
+        4.6,
+        4.6,
+        1.4
+      ],
+      "stored": [
+        2,
+        5,
+        5,
+        1
+      ]
+    },
+    {
+      "id": "dendrobium-aphyllum",
+      "labels": [
+        "Retenção",
+        "Aeração",
+        "Secagem",
+        "Compactação"
+      ],
+      "calculated": [
+        2.8,
+        4.2,
+        4,
+        1.8
+      ],
+      "stored": [
+        3,
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "miltonia-flavescens",
+      "labels": [
+        "Retenção",
+        "Aeração",
+        "Secagem",
+        "Compactação"
+      ],
+      "calculated": [
+        2.55,
+        4.3,
+        4.15,
+        1.7
+      ],
+      "stored": [
+        3,
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "maxillaria-imbricata",
+      "labels": [
+        "Retenção",
+        "Aeração",
+        "Secagem",
+        "Compactação"
+      ],
+      "calculated": [
+        2.7,
+        4.3,
+        4,
+        1.7
+      ],
+      "stored": [
+        3,
+        4,
+        4,
+        2
+      ]
+    }
+  ],
+  "invalidCases": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "scope": [
+    "papilionanthe-teres",
+    "dendrobium-aphyllum",
+    "miltonia-flavescens",
+    "maxillaria-imbricata"
+  ],
+  "limites": "Módulo executado em JS; renderização e publicação não testadas. Fallback preserva dados legados."
+}
