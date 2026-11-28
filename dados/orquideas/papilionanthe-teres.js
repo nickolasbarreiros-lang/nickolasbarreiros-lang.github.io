@@ -6,16 +6,16 @@ export const papilionantheTeres = {
   "sinonimo": "Vanda teres; Dendrobium teres",
   "tipo": "Espécie botânica",
   "origem": "Ásia tropical",
-  "habitat": "Epífita de ambientes tropicais úmidos, com crescimento ascendente.",
+  "habitat": "Ocorre sobre troncos em florestas abertas e bordas de mata asiáticas, também em vegetação arbustiva e sobre rochas. Há registros entre 200 e 2.400 m no Butão e entre 500 e 900 m na China. A exposição e a disponibilidade de água variam com a altitude e a estação.",
   "iluminacao": {
-    "observacoes": "Prefira luz intensa; três produtores recomendam sol pleno e outro relata sombreamento de 50–60%. Aclimate progressivamente e observe queimaduras e aquecimento.",
+    "observacoes": "As folhas cilíndricas toleram exposição elevada, mas uma planta criada à sombra pode queimar ao mudar de local. Comece com sol suave pela manhã e aumente a exposição em etapas, observando a temperatura do caule e das folhas. Plantas aclimatadas podem receber várias horas de sol, desde que tenham hidratação e circulação de ar. Crescimento fino e ausência persistente de flores sugerem investigar falta de luz; manchas secas nas faces expostas indicam possível excesso.",
     "sombrite": "0–30% para plantas aclimatadas; até 50–60% em condições de calor intenso ou durante adaptação",
     "seloLuz": "vermelho",
     "solDireto": "Permitido após aclimatação",
     "horario": "Começar antes das 9h; ampliar progressivamente"
   },
-  "rega": "Molhe abundantemente as raízes aéreas pela manhã e repita se secarem rapidamente em dias quentes. Em recipiente, aguarde secagem parcial da mistura. Reduza a frequência no frio, sem impor repouso seco prolongado.",
-  "floracao": "Inflorescências axilares com poucas flores vistosas rosadas a lilases. Floração indicativa do final do inverno ao verão. Perfume relatado; duração individual e total, pico mensal e reflorescência da haste não confirmados.",
+  "rega": "Molhe completamente as raízes aéreas pela manhã, permitindo que o excesso escorra. Em montagem exposta ao vento, confira novamente a hidratação durante dias quentes; uma segunda rega pode ser útil se as raízes secarem rapidamente. Em recipiente, examine a mistura antes de repetir, pois a superfície pode secar antes do interior. No frio ou em tempo nublado, espaçe as regas conforme a evaporação. Raízes ativas e folhas cilíndricas firmes ajudam a avaliar o equilíbrio, enquanto enrugamento persistente pede investigação da hidratação e da saúde radicular. Não mantenha a base saturada nem imponha seca prolongada para estimular flores.",
+  "floracao": "As flores abertas e vistosas, geralmente rosadas ou lilases com labelo mais intenso, surgem em inflorescências laterais ao longo do caule maduro. A primavera e o verão são referências de cultivo, podendo ocorrer antecipação no fim do inverno. Há relatos de perfume, mas intensidade, duração individual e eventual repetição de floração na mesma haste não estão suficientemente estabelecidas.",
   "fotos": [
     "https://commons.wikimedia.org/wiki/Special:FilePath/Stellenbosch%20University%20Botanical%20Garden%20-%20Vanda%20teres.jpg",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Plant%20Orchid%20Papilionanthe%20teres%20IMG%208643%2004.jpg?width=1280",
@@ -59,28 +59,28 @@ export const papilionantheTeres = {
         "proporcao": "40%",
         "nome": "Casca de pinus",
         "nota": "estrutura",
-        "finalidade": "Mantém espaços de ar."
+        "finalidade": "Prefira fragmentos grossos e firmes, que ofereçam ancoragem e pequena reserva hídrica. Renove quando a casca se desfizer e começar a reduzir a circulação de ar."
       },
       {
         "asset": "carvao-vegetal",
         "proporcao": "35%",
         "nome": "Carvão vegetal",
         "nota": "aeração",
-        "finalidade": "Favorece drenagem."
+        "finalidade": "Use pedaços lavados de tamanho semelhante ao pinus. O carvão ajuda a manter a estrutura aberta; não substitui a lavagem periódica dos sais acumulados."
       },
       {
         "asset": "brita",
         "proporcao": "25%",
         "nome": "Brita",
         "nota": "estabilidade",
-        "finalidade": "Estabiliza o recipiente."
+        "finalidade": "Brita lavada e sem pó acrescenta peso ao recipiente, útil para uma planta alta. Não use pedrisco fino que preencha os espaços entre as raízes."
       }
     ],
     "titulo": "Substrato ideal",
     "contexto": "Substrato indicado para plantio em recipiente",
     "notaEvidencia": "Quatro produtores específicos consultados nesta rodada: 4 Estações, Santa Clara, Maripá e Mogi Mirim. Convergência para suporte vertical e raízes livres; pínus/carvão e pedrisco como opções. AOS recomenda mistura grossa. Meta 25 não atingida; percentuais técnicos não experimentais.",
     "resumo": "Mistura grosseira, aberta e de secagem rápida.",
-    "justificativa": "Raízes aéreas exigem oxigenação. Casca grossa e carvão preservam espaços de ar; brita favorece estabilidade do recipiente. Percentuais são proposta prática, não resultado experimental.",
+    "justificativa": "As raízes grossas e aéreas precisam alternar hidratação e contato com o ar. A mistura para recipiente serve principalmente de apoio, não de substituto para as raízes livres. Pinus grosso mantém estrutura, carvão amplia os espaços entre partículas e brita dá estabilidade ao tutor. Evite preencher os vazios com material fino. Ajuste a rega à exposição solar e ao vento, mantendo o caule acima do substrato.",
     "receitaTexto": "40% casca de pinus + 35% carvão vegetal + 25% brita.",
     "perfil": [
       "Epífita monopodial",
@@ -121,7 +121,7 @@ export const papilionantheTeres = {
     "Porte grande"
   ],
   "descricao": "Papilionanthe teres, conhecida também como Vanda teres, é uma orquídea asiática de crescimento monopodial, com caules longos e ramificados que podem alcançar grande porte. As folhas cilíndricas distinguem sua aparência das vandas de folhas achatadas. As raízes aéreas fixam a planta aos suportes e absorvem água durante as regas. Produz inflorescências axilares com poucas flores vistosas, geralmente rosadas, de tamanho variável e perfume relatado. Na natureza, ocorre em ambientes tropicais com elevada disponibilidade de luz. Em cultivo, beneficia-se de suportes verticais firmes, boa circulação de ar e hidratação frequente. A tolerância ao calor pode variar conforme a procedência.",
-  "climaFloracao": "Ofereça luminosidade elevada e crescimento vigoroso. Plantas de origem himalaia podem preferir noites amenas; não há quebra térmica ou seca obrigatória comprovada. Em litoral quente, monitore calor noturno e hidratação. Na montanha, proteja de geadas. Como referência inicial, teste dias de 24–30 °C e noites de 16–22 °C, ajustando à resposta da planta.",
+  "climaFloracao": "A luminosidade elevada e a maturidade do caule são prioridades para florescer. Procedências de altitude podem responder melhor a noites amenas, mas a espécie ocupa ambientes variados. Dias de 24–30 °C e noites de 16–22 °C são referências práticas, não limites comprovados. No litoral, controle o calor acumulado e mantenha raízes hidratadas; na montanha, aproveite a claridade e proteja de geadas. Não há fundamento suficiente para exigir uma quebra térmica fixa ou repouso seco rigoroso.",
   "mesesFloracao": [
     8,
     9,
@@ -132,7 +132,7 @@ export const papilionantheTeres = {
     2
   ],
   "mesesFloracaoIndicativos": true,
-  "adubacao": "🌿 Orgânica: pequena porção de bokashi em porta-adubo apenas se houver recipiente, longe das raízes. \n💧 Foliar/radicular: fertilizante equilibrado a 1/4 da dose do rótulo a cada 7–15 dias durante crescimento.\n🧪 Liberação lenta: opcional em recipiente, conforme rótulo; evitar contato direto com raízes.\n🚿 Lavagem de sais: regar abundantemente com água pura a cada 15–30 dias.",
+  "adubacao": "🌿 Orgânica: use pequena quantidade de bokashi em porta-adubo, afastado das raízes e dos brotos, somente durante crescimento ativo. Em montagem sem substrato, prefira adubação mineral diluída.\n💧 Foliar/radicular: utilize fertilizante equilibrado a 1/4 da dose do rótulo a cada 7–15 dias durante crescimento, sobre raízes previamente hidratadas. Reduza quando o crescimento desacelerar.\n🧪 Liberação lenta: opcional em recipiente, respeitando dose e duração do fabricante; mantenha os grânulos afastados da base e considere a liberação mais rápida no calor.\n🚿 Lavagem de sais: regue abundantemente com água limpa a cada 15–30 dias, deixando drenar completamente. Suspenda a adubação se houver raízes danificadas até recuperar o crescimento.",
   "suporte": "Placa / tronco",
   "substrato": [
     "Casca de pinus + carvão vegetal + argila expandida",
@@ -140,35 +140,35 @@ export const papilionantheTeres = {
   ],
   "formasCultivo": {
     "destaque": "Placa / tronco",
-    "resumo": "Ofereça suporte vertical firme, luz intensa após aclimatação e hidratação das raízes aéreas. Não imponha seca prolongada.",
+    "resumo": "O caule ascendente e as raízes aéreas pedem apoio vertical resistente, com espaço para expansão. A montagem permite aproveitar luminosidade elevada sem aprisionar água junto à base. Em locais secos, um recipiente aberto pode oferecer reserva hídrica complementar sem substituir a ventilação.",
     "metodos": [
       {
         "nome": "Placa / tronco",
         "asset": "placa-tronco",
         "estrelas": 5,
-        "status": "Mais recomendado na ficha",
-        "texto": "Ofereça suporte vertical firme, luz intensa após aclimatação e hidratação das raízes aéreas. Não imponha seca prolongada."
+        "status": "Ideal",
+        "texto": "Prenda o caule a um tronco firme com amarrações que não estrangulem o crescimento. Deixe as raízes aderirem naturalmente e mantenha o ápice livre. A montagem facilita a hidratação direta e a secagem rápida, mas exige regas mais frequentes quando o ar está quente e seco."
       },
       {
         "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
         "estrelas": 4,
-        "status": "Alternativa",
-        "texto": "Use cesto aberto com tutor firme, deixando raízes livres."
+        "status": "Muito recomendado",
+        "texto": "Use cachepô aberto com tutor vertical bem fixado. As raízes podem atravessar as laterais sem restrição; coloque pouca mistura grossa apenas junto à base se a secagem for excessivamente rápida."
       },
       {
         "nome": "Vaso plástico vasado",
         "asset": "vaso-plastico-vasado-v2",
         "estrelas": 4,
-        "status": "Alternativa",
-        "texto": "Use mistura grossa e tutor vertical, sem enterrar o caule."
+        "status": "Muito recomendado",
+        "texto": "Prefira recipiente perfurado com tutor independente e componentes grossos. A reserva de umidade ajuda plantas jovens, mas o caule deve ficar acima da mistura e as raízes aéreas não devem ser forçadas para dentro."
       },
       {
         "nome": "Vaso de Barro",
         "asset": "vaso-barro",
         "estrelas": 4,
-        "status": "Alternativa",
-        "texto": "Recipiente pesado ajuda a estabilizar o tutor; preserve a drenagem."
+        "status": "Muito recomendado",
+        "texto": "O peso do barro ajuda a estabilizar plantas altas e tutores. Escolha vaso com boa drenagem e evite excesso de substrato; observe a evaporação rápida em dias quentes e a secagem mais lenta em períodos chuvosos."
       }
     ],
     "perfilVisual": "epifita-monopodial"
@@ -360,7 +360,8 @@ export const papilionantheTeres = {
       "https://www.orquidario4e.com.br/orquidea-papilionanthe-teres-40cm",
       "https://orquidariosantaclara.com.br/home/725-vanda-teres-ad.html",
       "https://www.orquidariomaripa.com.br/produtos/corte-de-orquidea-papilionanthe-teres/",
-      "https://www.orquidariomogimirim.com.br/papilionanthe-teres"
+      "https://www.orquidariomogimirim.com.br/papilionanthe-teres",
+      "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30249-1/general-information"
     ],
     "confianca": "Moderada para manejo geral; baixa para limites térmicos e calendário brasileiro.",
     "nome": "Papilionanthe teres (Roxb.) Schltr., 1915",
@@ -380,10 +381,10 @@ export const papilionantheTeres = {
   },
   "adaptacaoRegional": {
     "litoralQuente": {
-      "texto": "Boa perspectiva com luz intensa, ventilação e hidratação; procedências de altitude podem ter dificuldade com noites quentes."
+      "texto": "O litoral oferece calor favorável ao crescimento, especialmente em local com luz intensa e circulação de ar. A maior atenção deve recair sobre o aquecimento das raízes e a desidratação pelo vento. Aclimate ao sol gradualmente e mantenha hidratação regular; procedências de altitude podem responder menos bem a noites constantemente quentes."
     },
     "montanhaFrio": {
-      "texto": "Noites amenas podem favorecer procedências himalaias; evitar geada e frio prolongado."
+      "texto": "Noites amenas podem beneficiar plantas de procedência montana, desde que os dias ofereçam luz suficiente. Proteja de geadas, ventos frios e chuva persistente em períodos de baixa temperatura. Diminua a rega quando a montagem secar lentamente, sem deixar as raízes desidratarem por vários dias."
     }
   }
 };
