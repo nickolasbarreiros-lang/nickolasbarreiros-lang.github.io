@@ -6,7 +6,7 @@ export const dendrobiumAphyllum = {
   "sinonimo": "Dendrobium pierardii",
   "tipo": "Espécie botânica",
   "origem": "Ásia tropical",
-  "habitat": "Florestas sazonais e falésias calcárias, 100–1600 m; epífita ou litófita.",
+  "habitat": "Ocorre em florestas sazonais do sul e sudeste da Ásia, entre 100 e 1.600 metros de altitude, crescendo sobre árvores ou falésias calcárias. A alternância entre períodos úmidos e mais secos acompanha o desenvolvimento das canas pendentes e a perda sazonal das folhas.",
   "iluminacao": {
     "observacoes": "Ofereça luz filtrada abundante durante o crescimento, aumentando a exposição gradualmente quando as canas amadurecerem. O sol fraco da manhã pode ser aproveitado por plantas aclimatadas; evite o sol forte do meio-dia, sobretudo no litoral quente. Folhas muito escuras e canas alongadas e frágeis sugerem iluminação insuficiente. Manchas secas nas faces expostas indicam possível queimadura. Ajuste o sombrite conforme a intensidade real do local, a ventilação e a temperatura das folhas.",
     "sombrite": "50–60% no litoral; 40–50% na montanha, conforme exposição",
@@ -141,28 +141,28 @@ export const dendrobiumAphyllum = {
         "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
         "estrelas": 5,
-        "status": "Mais recomendado na ficha",
+        "status": "Ideal",
         "texto": "O cachepô suspenso acomoda as canas sem dobrá-las e permite a circulação de ar pelas laterais. Use mistura de granulometria média, sem preencher todos os espaços. Durante o crescimento, acompanhe a secagem do centro; no repouso, a drenagem rápida ajuda a evitar raízes continuamente molhadas."
       },
       {
         "nome": "Placa / tronco",
         "asset": "placa-tronco",
         "estrelas": 4,
-        "status": "Alternativa",
+        "status": "Muito recomendado",
         "texto": "Fixe a base em madeira firme, deixando as canas crescerem livremente para baixo. A montagem seca mais depressa que um recipiente e exige atenção às regas durante a emissão de brotos e raízes, sobretudo em dias quentes e secos."
       },
       {
         "nome": "Vaso plástico vasado",
         "asset": "vaso-plastico-vasado-v2",
         "estrelas": 4,
-        "status": "Alternativa",
+        "status": "Muito recomendado",
         "texto": "Escolha recipiente pequeno, bem perfurado e suspenso. A reserva hídrica é maior que em placa, o que ajuda no crescimento ativo, mas exige reduzir a frequência de rega quando as canas amadurecem. Não enterre a base dos brotos."
       },
       {
         "nome": "Vaso de Barro",
         "asset": "vaso-barro",
         "estrelas": 4,
-        "status": "Alternativa",
+        "status": "Muito recomendado",
         "texto": "O barro poroso favorece a evaporação e oferece estabilidade à planta adulta. Prefira vaso raso, suspenso com segurança, e mistura aberta. Em ambiente frio e chuvoso, confira a umidade interna antes de regar novamente."
       }
     ],
