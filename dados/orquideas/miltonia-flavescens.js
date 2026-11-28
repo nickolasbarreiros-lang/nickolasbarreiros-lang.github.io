@@ -77,8 +77,8 @@ export const miltoniaFlavescens = {
     ],
     "titulo": "Substrato ideal",
     "contexto": "Substrato indicado para plantio em recipiente",
-    "notaEvidencia": "Receita provisória; fonte especializada https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet; percentuais complementares estimados; auditoria comercial incompleta.",
-    "resumo": "Mistura aberta com retenção moderada.",
+    "notaEvidencia": "Receita provisória; fonte especializada https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet; percentuais complementares estimados; auditoria comercial incompleta.; indicadores hídricos qualitativos, não medidos.",
+    "resumo": "Mistura de casca com boa aeração e retenção moderada.",
     "justificativa": "A casca fina a média oferece suporte às raízes relativamente finas, enquanto carvão e perlita mantêm espaços de ar e favorecem a drenagem. A proporção de casca acompanha uma recomendação especializada para o gênero, não um ensaio específico desta espécie. A divisão dos demais materiais é estimada. Use recipiente raso, evite pó e permita aproximação da secagem entre regas, sem desidratação prolongada durante o crescimento.",
     "receitaTexto": "70% casca de pinus + 15% carvão vegetal + 15% perlita.",
     "perfil": [
@@ -95,7 +95,7 @@ export const miltoniaFlavescens = {
       },
       {
         "nome": "Aeração",
-        "valor": 5,
+        "valor": 4,
         "icone": "💨"
       },
       {
