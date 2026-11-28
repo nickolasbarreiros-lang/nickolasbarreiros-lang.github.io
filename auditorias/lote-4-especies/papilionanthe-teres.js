@@ -93,12 +93,12 @@ export const papilionantheTeres = {
       "indice": 17.857142857142854
     }
   },
-  "status": "Rascunho ampliado; descrição, erros, dica, fotografias, evidências e validação visual ainda pendentes.",
+  "status": "Textos editoriais ampliados; fotografias, MACS e revisão científica pendentes.",
   "dificuldade": "Muito fácil",
   "caracteristicas": [
     "Epífita monopodial ascendente, folhas cilíndricas e raízes aéreas."
   ],
-  "descricao": "Epífita monopodial ascendente, folhas cilíndricas e raízes aéreas. Primavera a verão; calendário brasileiro não confirmado. Ofereça suporte vertical firme, luz intensa após aclimatação e hidratação das raízes aéreas. Não imponha seca prolongada.",
+  "descricao": "Papilionanthe teres, conhecida também como Vanda teres, é uma orquídea asiática de crescimento monopodial, com caules longos e ramificados que podem alcançar grande porte. As folhas cilíndricas distinguem sua aparência das vandas de folhas achatadas. As raízes aéreas fixam a planta aos suportes e absorvem água durante as regas. Produz inflorescências axilares com três a seis flores vistosas e perfumadas, geralmente rosadas, de sete a dez centímetros. Na natureza, ocorre em ambientes tropicais com elevada disponibilidade de luz. Em cultivo, beneficia-se de suportes verticais firmes, boa circulação de ar e hidratação frequente. A tolerância ao calor pode variar conforme a procedência.",
   "climaFloracao": "Ofereça suporte vertical firme, luz intensa após aclimatação e hidratação das raízes aéreas. Não imponha seca prolongada.",
   "mesesFloracao": [
     8,
@@ -290,5 +290,24 @@ export const papilionantheTeres = {
         "peso": 15
       }
     }
+  },
+  "dica": "Instale a planta junto a um suporte vertical resistente, deixando espaço para os caules e as raízes aéreas. Aumente a exposição solar progressivamente, acompanhando o aquecimento das folhas e a velocidade de secagem. Em dias quentes, molhe bem as raízes pela manhã e repita somente se necessário. Caso a planta cresça vigorosamente sem florescer, avalie a luminosidade e a temperatura noturna antes de aumentar a adubação.",
+  "errosComuns": [
+    "Manter em sombra profunda",
+    "Expor ao sol sem aclimatação",
+    "Enterrar o caule",
+    "Usar suporte instável",
+    "Deixar raízes secas por dias",
+    "Encharcar a base",
+    "Cortar raízes aéreas saudáveis",
+    "Ignorar diferenças de procedência"
+  ],
+  "revisaoCientificaIAR": {
+    "fontes": [
+      "https://www.orchidspecies.com/papiteres.htm",
+      "https://powo.science.kew.org/taxon/649872-1",
+      "https://www.aos.org/explore/papilionanthe"
+    ],
+    "confianca": "preliminar"
   }
 };
