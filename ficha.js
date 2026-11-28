@@ -5,7 +5,7 @@ import { obterAssetCultivoV4 } from "./js/biblioteca-cultivo-v4.js";
 const fichasComMisturaCalculada = new Set(["papilionanthe-teres","dendrobium-aphyllum","miltonia-flavescens","maxillaria-imbricata"]);
 function substratoComIndicadoresCalculados(orquidea) {
  const config = orquidea.substratoVisual;
- if (!config || config.semSubstrato || !fichasComMisturaCalculada.has(orquidea.id) || config.comportamento?.length !== 4) return config;
+ if (!config || config.semSubstrato || !(fichasComMisturaCalculada.has(orquidea.id) || config.modeloComportamento === 'MACS-1.2') || config.comportamento?.length !== 4) return config;
  try {
   const valores = calcularMistura(config.itens);
   return {...config, comportamento: config.comportamento.map((item,i)=>({...item,valor:Math.round(valores[i])}))};
