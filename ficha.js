@@ -627,7 +627,7 @@ function criarSubstratoVisualV4(config, recomendados = []) {
                         ${itensValidos.filter((item) => item.finalidade).length === 5 ? `
                             <div class="complemento-cinco-substratos-v4">
                                 ${config.alerta ? `<div class="alerta-substrato-v4">${config.alerta}</div>` : ""}
-                                <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres, evite compactar o substrato e não enterre o rizoma. Ajuste a rega à secagem real da mistura.</div>
+                                <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres, evite compactar o substrato e mantenha a base vegetativa na posição adequada à espécie. Ajuste a rega à secagem real da mistura.</div>
                             </div>
                         ` : ""}
                     </div>
@@ -656,7 +656,7 @@ function criarSubstratoVisualV4(config, recomendados = []) {
 
             ${itensValidos.filter((item) => item.finalidade).length !== 5 ? `
                 ${config.alerta ? `<div class="alerta-substrato-v4">${config.alerta}</div>` : ""}
-                <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres, evite compactar o substrato e não enterre o rizoma. Ajuste a rega à secagem real da mistura.</div>
+                <div class="dreno-vaso-substrato-v4"><strong>🪨 Não se Esqueça:</strong> Em vasos, mantenha os furos de drenagem livres, evite compactar o substrato e mantenha a base vegetativa na posição adequada à espécie. Ajuste a rega à secagem real da mistura.</div>
             ` : ""}
 
             ${misturasRecomendadas.length ? `
@@ -871,7 +871,7 @@ function criarCardIluminacao(iluminacao) {
         amarelo: { classe: "selo-luz-amarelo", icone: "◐", rotulo: "MODERADA" },
         azul: { classe: "selo-luz-azul", icone: "☁", rotulo: "BAIXA" }
     };
-    const seloSelecionado = classesSeloLuz[String(iluminacao.seloLuz || "").toLowerCase()];
+    const seloSelecionado = classesSeloLuz[String(iluminacao.seloLuz || "").trim().toLowerCase().replace(/^laranja$/, "amarelo")];
     const seloLuz = seloSelecionado
         ? `<span class="selo-luz-iconico ${seloSelecionado.classe}" aria-label="Luminosidade ${seloSelecionado.rotulo.toLowerCase()}" title="Luminosidade ${seloSelecionado.rotulo.toLowerCase()}">${seloSelecionado.icone}</span><span class="selo-luz-rotulo">${seloSelecionado.rotulo}</span>`
         : "";
