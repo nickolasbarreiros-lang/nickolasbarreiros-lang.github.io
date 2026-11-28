@@ -1,4 +1,6 @@
 export const bibliotecaCultivoV4 = {
+    "brita": { nome: "Brita", imagem: "imagens/cultivo-v4/brita-v2.webp" },
+    "vaso-plastico-vasado-v2": { nome: "Vaso plástico vasado", imagem: "imagens/cultivo-v4/vaso-plastico-vasado-v2.webp" },
   "vermiculita": { nome: "Vermiculita", imagem: "imagens/cultivo-v4/vermiculita.svg" },
   "areia-grossa": { nome: "Areia grossa", imagem: "imagens/cultivo-v4/areia-grossa.svg" },
   "terra-vegetal": { nome: "Terra vegetal", imagem: "imagens/cultivo-v4/terra-vegetal.svg" },
