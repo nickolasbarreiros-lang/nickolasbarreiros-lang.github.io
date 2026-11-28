@@ -3,21 +3,31 @@ export const papilionantheTeres = {
   "id": "papilionanthe-teres",
   "nome": "Papilionanthe teres",
   "genero": "Papilionanthe",
-  "sinonimo": "Vanda teres",
+  "sinonimo": "Vanda teres; Dendrobium teres",
   "tipo": "Espécie botânica",
   "origem": "Ásia tropical",
-  "habitat": "Epífita monopodial ascendente, folhas cilíndricas e raízes aéreas.",
+  "habitat": "Epífita de ambientes tropicais úmidos, com crescimento ascendente.",
   "iluminacao": {
-    "observacoes": "Alta; aclimatar ao sol direto.",
-    "sombrite": "0–30%",
+    "observacoes": "Luz muito intensa favorece o desenvolvimento. Aumente a exposição ao longo de semanas, monitorando queimaduras e desidratação. Sombra excessiva pode prejudicar a floração.",
+    "sombrite": "0–30% após aclimatação; aumentar se houver superaquecimento",
     "seloLuz": "vermelho",
-    "solDireto": "Com aclimatação",
-    "horario": "Início da manhã"
+    "solDireto": "Permitido após aclimatação",
+    "horario": "Começar antes das 9h; ampliar progressivamente"
   },
-  "rega": "Regar raízes expostas conforme secagem; sem repouso seco rigoroso.",
-  "floracao": "Primavera a verão; calendário brasileiro não confirmado.",
-  "fotos": [],
-  "creditosFotos": [],
+  "rega": "Molhe abundantemente as raízes aéreas pela manhã e repita se secarem rapidamente em dias quentes. Em recipiente, aguarde secagem parcial da mistura. Reduza a frequência no frio, sem impor repouso seco prolongado.",
+  "floracao": "Floração indicativa na primavera e verão; pico mensal brasileiro não estabelecido. Inflorescências axilares com poucas flores rosadas. Número, tamanho, perfume, duração individual e total e reflorescência da haste variam ou carecem de confirmação independente.",
+  "fotos": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Stellenbosch%20University%20Botanical%20Garden%20-%20Vanda%20teres.jpg"
+  ],
+  "creditosFotos": [
+    {
+      "autor": "Martin F. Smit",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stellenbosch_University_Botanical_Garden_-_Vanda_teres.jpg",
+      "licenca": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "nomeLicenca": "CC BY-SA 3.0",
+      "alteracoes": false
+    }
+  ],
   "substratoVisual": {
     "itens": [
       {
@@ -38,7 +48,39 @@ export const papilionantheTeres = {
     ],
     "titulo": "Substrato ideal",
     "contexto": "Substrato indicado para plantio em recipiente",
-    "notaEvidencia": "Proporções técnicas preliminares; pesquisa MACS incompleta."
+    "notaEvidencia": "AOS recomenda mistura epífita grosseira para cultivo externo; percentuais são estimativas. Meta MACS ainda não atingida.",
+    "resumo": "Mistura grosseira, aberta e de secagem rápida.",
+    "justificativa": "Raízes aéreas exigem oxigenação. Casca grossa e carvão preservam espaços de ar; brita favorece estabilidade do recipiente. Percentuais são proposta prática, não resultado experimental.",
+    "receitaTexto": "40% casca de pinus + 35% carvão vegetal + 25% brita.",
+    "perfil": [
+      "Epífita monopodial",
+      "Raízes aéreas",
+      "Alta aeração",
+      "Secagem rápida"
+    ],
+    "comportamento": [
+      {
+        "nome": "Retenção",
+        "valor": 2,
+        "icone": "💧"
+      },
+      {
+        "nome": "Aeração",
+        "valor": 5,
+        "icone": "💨"
+      },
+      {
+        "nome": "Secagem",
+        "valor": 5,
+        "icone": "⚡"
+      },
+      {
+        "nome": "Compactação",
+        "valor": 1,
+        "icone": "🧱"
+      }
+    ],
+    "alerta": "Não enterrar o caule ou compactar a mistura."
   },
   "indicesPreliminares": {
     "nome": "Papilionanthe teres",
@@ -93,21 +135,23 @@ export const papilionantheTeres = {
       "indice": 17.857142857142854
     }
   },
-  "status": "Textos editoriais ampliados; fotografias, MACS e revisão científica pendentes.",
+  "status": "Revisão técnica ampliada; uma foto com licença documentada, carregamento não testado, três fotos pendentes; índices e MACS não homologados.",
   "dificuldade": "Muito fácil",
   "caracteristicas": [
     "Epífita monopodial ascendente, folhas cilíndricas e raízes aéreas."
   ],
   "descricao": "Papilionanthe teres, conhecida também como Vanda teres, é uma orquídea asiática de crescimento monopodial, com caules longos e ramificados que podem alcançar grande porte. As folhas cilíndricas distinguem sua aparência das vandas de folhas achatadas. As raízes aéreas fixam a planta aos suportes e absorvem água durante as regas. Produz inflorescências axilares com três a seis flores vistosas e perfumadas, geralmente rosadas, de sete a dez centímetros. Na natureza, ocorre em ambientes tropicais com elevada disponibilidade de luz. Em cultivo, beneficia-se de suportes verticais firmes, boa circulação de ar e hidratação frequente. A tolerância ao calor pode variar conforme a procedência.",
-  "climaFloracao": "Ofereça suporte vertical firme, luz intensa após aclimatação e hidratação das raízes aéreas. Não imponha seca prolongada.",
+  "climaFloracao": "Ofereça luminosidade elevada e crescimento vigoroso. Plantas de origem himalaia podem preferir noites amenas; não há quebra térmica ou seca obrigatória comprovada. Em litoral quente, monitore calor noturno e hidratação. Na montanha, proteja de geadas. Como referência inicial, teste dias de 24–30 °C e noites de 16–22 °C, ajustando à resposta da planta.",
   "mesesFloracao": [
-    8,
     9,
     10,
-    11
+    11,
+    12,
+    1,
+    2
   ],
   "mesesFloracaoIndicativos": true,
-  "adubacao": "Orgânica: pequena porção de bokashi longe dos brotos. Mineral: NPK equilibrado a 1/4 da dose do rótulo durante crescimento. Liberação lenta: opcional em recipiente, conforme rótulo. Lavagem de sais: mensalmente.",
+  "adubacao": "🌿 Orgânica: pequena porção de bokashi em porta-adubo apenas se houver recipiente, longe das raízes. \n💧 Foliar/radicular: fertilizante equilibrado a 1/4 da dose do rótulo a cada 7–15 dias durante crescimento.\n🧪 Liberação lenta: opcional em recipiente, conforme rótulo; evitar contato direto com raízes.\n🚿 Lavagem de sais: regar abundantemente com água pura a cada 15–30 dias.",
   "suporte": "Placa / tronco",
   "substrato": [
     "Casca de pinus + carvão vegetal + argila expandida",
@@ -145,7 +189,8 @@ export const papilionantheTeres = {
         "status": "Alternativa",
         "texto": "Ajuste a fixação e a rega ao crescimento e à secagem do suporte."
       }
-    ]
+    ],
+    "perfilVisual": "epifita-monopodial"
   },
   "avaliacoes": {
     "cultivo": 5,
@@ -308,6 +353,28 @@ export const papilionantheTeres = {
       "https://powo.science.kew.org/taxon/649872-1",
       "https://www.aos.org/explore/papilionanthe"
     ],
-    "confianca": "preliminar"
+    "confianca": "Moderada para manejo geral; baixa para limites térmicos e calendário brasileiro.",
+    "nome": "Papilionanthe teres (Roxb.) Schltr., 1915",
+    "statusTaxonomico": "Aceito no POWO",
+    "habitatAltitudeClima": "POWO: bioma tropical úmido. AOS: luz plena, rega frequente e preferência intermediária a intermediária-fria para espécies himalaias como P. teres."
+  },
+  "regiao": "Nepal, Índia, Bangladesh, sul da China e Indochina",
+  "clima": "Tropical a intermediário, conforme procedência.",
+  "selosCultivo": {
+    "rega": {
+      "nivel": "frequente"
+    },
+    "climaFloracao": {
+      "faixa": "quente",
+      "floraNoCalor": true
+    }
+  },
+  "adaptacaoRegional": {
+    "litoralQuente": {
+      "texto": "Boa perspectiva com luz intensa, ventilação e hidratação; procedências de altitude podem ter dificuldade com noites quentes."
+    },
+    "montanhaFrio": {
+      "texto": "Noites amenas podem favorecer procedências himalaias; evitar geada e frio prolongado."
+    }
   }
 };
