@@ -6,16 +6,16 @@ export const maxillariaImbricata = {
   "sinonimo": "Camaridium hoehnei; Chelyella imbricata; Camaridium carinatum; Maxillaria carinata; Maxillaria iguapensis",
   "tipo": "Espécie botânica",
   "origem": "América do Sul tropical",
-  "habitat": "Epífita com rizomas pendentes e pseudobulbos sobrepostos.",
+  "habitat": "Epífita de ambientes florestais tropicais úmidos, com crescimento rizomatoso alongado e pseudobulbos próximos ou sobrepostos. A arquitetura favorece a ocupação de superfícies de árvores. A faixa altitudinal e as condições microclimáticas específicas ainda não estão suficientemente documentadas para estabelecer limites precisos de cultivo.",
   "iluminacao": {
-    "observacoes": "Luz filtrada; monitore queimaduras e crescimento fraco.",
+    "observacoes": "Comece com claridade filtrada e circulação de ar, evitando exposição direta intensa enquanto a planta se adapta. Se houver sol suave no início da manhã, observe a resposta antes de aumentar a exposição. Crescimento pouco vigoroso associado a folhas muito escuras pode indicar iluminação insuficiente; manchas secas nas áreas expostas pedem investigação do calor e da luz. O sombreamento indicado é uma referência inicial de cultivo, pois não há medição específica suficiente para definir um limite rígido.",
     "sombrite": "60–70% no litoral; 50–60% na montanha, como referência",
     "seloLuz": "laranja",
     "solDireto": "Somente suave após aclimatação",
     "horario": "Início da manhã"
   },
-  "rega": "Molhe as raízes abundantemente e repita após secagem parcial. Em placa, confira diariamente no calor; reduza a frequência no frio. Não imponha seca prolongada.",
-  "floracao": "Flores individuais de aproximadamente 3 cm em hastes basais curtas, com até 3,75 cm. Pode florescer em diferentes épocas do ano. Perfume, duração e pico mensal no Brasil não confirmados.",
+  "rega": "Hidrate completamente as raízes e deixe o excesso escorrer. Em placa, acompanhe diariamente a velocidade de secagem no calor; se a madeira secar depressa demais, ajuste a frequência ou use uma pequena reserva de esfagno solto. Em recipiente, examine a umidade interna antes de regar novamente, evitando saturação prolongada. No frio, espaçe as regas conforme a evaporação. Pseudobulbos progressivamente enrugados podem indicar falta de água ou raízes danificadas, portanto confira ambas as condições. Não imponha um período de seca prolongada, pois não existe evidência suficiente de que ele seja necessário para esta espécie.",
+  "floracao": "As flores individuais, com aproximadamente 3 cm, surgem em hastes curtas próximas à base dos pseudobulbos. O crescimento alongado permite que diferentes segmentos maduros participem da floração. Há indicação de ocorrência em diferentes épocas do ano, mas faltam registros suficientes para estabelecer um calendário brasileiro confiável, a intensidade do perfume, a duração individual ou a frequência anual.",
   "fotos": [],
   "creditosFotos": [],
   "substratoVisual": {
@@ -25,35 +25,35 @@ export const maxillariaImbricata = {
         "nome": "Casca de pinus",
         "proporcao": "40%",
         "nota": "estrutura",
-        "finalidade": "Favorece estrutura da mistura."
+        "finalidade": "Use casca firme de tamanho compatível com as raízes, sem excesso de pó. Ela sustenta a planta e conserva espaços de ar; renove quando começar a se fragmentar."
       },
       {
         "asset": "chips-coco",
         "nome": "Chips de coco",
         "proporcao": "30%",
         "nota": "umidade",
-        "finalidade": "Favorece umidade da mistura."
+        "finalidade": "Chips de coco lavados e preparados ajudam a manter umidade entre as regas. Evite material muito fino e confira se o interior da mistura não permanece saturado."
       },
       {
         "asset": "carvao-vegetal",
         "nome": "Carvão vegetal",
         "proporcao": "20%",
         "nota": "aeração",
-        "finalidade": "Favorece aeração da mistura."
+        "finalidade": "Pedaços lavados de carvão mantêm a estrutura aberta entre os materiais orgânicos. Escolha granulometria compatível com o vaso e faça lavagens periódicas para reduzir sais."
       },
       {
         "asset": "esfagno",
         "nome": "Esfagno",
         "proporcao": "10%",
         "nota": "retenção",
-        "finalidade": "Favorece retenção da mistura."
+        "finalidade": "O esfagno de fibra longa, distribuído de forma solta, retarda a secagem em ambientes secos. Não o compacte ao redor do rizoma nem cubra a base dos brotos."
       }
     ],
     "titulo": "Substrato ideal",
     "contexto": "Substrato indicado para plantio em recipiente",
     "notaEvidencia": "Estimativa baseada no habitat epifítico úmido; não há validação experimental nem amostra MACS suficiente.",
     "resumo": "Mistura aberta com retenção moderada a alta.",
-    "justificativa": "Casca e carvão preservam aeração; coco e esfagno conservam umidade. Ajuste conforme secagem real.",
+    "justificativa": "A mistura para recipiente procura reproduzir uma zona radicular úmida e ventilada. A casca oferece apoio, o carvão mantém espaços abertos e os chips de coco preparados prolongam a hidratação. O esfagno solto complementa essa reserva sem envolver os pseudobulbos. Como a exigência hídrica específica não foi quantificada, acompanhe o crescimento das raízes e a secagem do centro do vaso. Em montagem, utilize somente a reserva de umidade necessária.",
     "receitaTexto": "40% casca de pinus + 30% chips de coco + 20% carvão vegetal + 10% esfagno.",
     "perfil": [
       "Epífita",
@@ -94,10 +94,10 @@ export const maxillariaImbricata = {
     "Flores solitárias de cerca de 3 cm"
   ],
   "descricao": "Maxillaria imbricata é uma orquídea sul-americana de arquitetura vegetativa peculiar, caracterizada pelos crescimentos pendentes e pseudobulbos sobrepostos. Essa disposição confere à planta um aspecto ornamental mesmo quando está sem flores. As folhas alongadas acompanham os segmentos vegetativos, enquanto as flores claras ou amareladas aparecem individualmente em hastes próximas aos pseudobulbos. Seu hábito epífito sugere a importância de raízes bem ventiladas e de um suporte que permita a expansão natural dos crescimentos. Em cultivo, convém oferecer luminosidade filtrada e hidratação regular, observando a resposta individual da planta. A documentação disponível sobre suas exigências específicas e a duração das flores ainda é limitada.",
-  "climaFloracao": "Favoreça crescimento maduro, luz filtrada e umidade regular. Como referência prática, dias de 23–30 °C e noites de 17–23 °C; não há comprovação de quebra térmica ou repouso seco obrigatório. Na montanha, proteja do frio prolongado.",
+  "climaFloracao": "Priorize a continuidade do crescimento, maturação dos pseudobulbos e umidade regular, com luz filtrada e ventilação. Dias de 23–30 °C e noites de 17–23 °C constituem uma referência inicial de manejo, não uma faixa experimental de indução floral. No litoral, evite calor abafado e raízes saturadas; na montanha, proteja de frio prolongado. Não há confirmação de altitude obrigatória, queda térmica mínima ou repouso seco necessário para a floração.",
   "mesesFloracao": [],
   "mesesFloracaoIndicativos": true,
-  "adubacao": "🌿 Orgânica: pequena porção de bokashi em porta-adubo, longe dos brotos.\n💧 Foliar/radicular: fertilizante equilibrado a 1/4 da dose do rótulo a cada 15 dias durante crescimento.\n🧪 Liberação lenta: opcional em recipiente, conforme rótulo.\n🚿 Lavagem de sais: a cada 15–30 dias.",
+  "adubacao": "🌿 Orgânica: use pequena quantidade de bokashi em porta-adubo, afastado das raízes e dos brotos, somente durante crescimento ativo. Em montagem sem substrato, prefira adubação mineral diluída.\n💧 Foliar/radicular: utilize fertilizante equilibrado a 1/4 da dose do rótulo a cada 15 dias durante crescimento, sobre raízes previamente hidratadas. Reduza quando o crescimento desacelerar.\n🧪 Liberação lenta: opcional em recipiente, respeitando dose e duração do fabricante; mantenha os grânulos afastados da base e considere a liberação mais rápida no calor.\n🚿 Lavagem de sais: regue abundantemente com água limpa a cada 15–30 dias, deixando drenar completamente. Suspenda a adubação se houver raízes danificadas até recuperar o crescimento.",
   "suporte": "Placa / tronco",
   "substrato": [
     "Fibra de coco + carvão vegetal + esfagno",
@@ -105,35 +105,35 @@ export const maxillariaImbricata = {
   ],
   "formasCultivo": {
     "destaque": "Placa / tronco",
-    "resumo": "Deixe espaço para o crescimento pendente, mantendo umidade regular e boa ventilação.",
+    "resumo": "O crescimento alongado requer uma superfície que permita a expansão dos novos segmentos sem enterrar o rizoma. A montagem em madeira facilita acompanhar raízes e brotos. Um cesto ou vaso raso pode ser mais conveniente quando a umidade ambiental não sustenta a hidratação entre regas.",
     "metodos": [
       {
         "nome": "Placa / tronco",
         "asset": "placa-tronco",
         "estrelas": 5,
-        "status": "Mais recomendado na ficha",
-        "texto": "Fixe o rizoma superficialmente em placa com espaço para expansão."
+        "status": "Ideal",
+        "texto": "Fixe os segmentos antigos superficialmente em madeira firme, deixando a frente de crescimento livre. Em ambiente seco, uma pequena reserva de esfagno solto junto às raízes pode retardar a desidratação. Evite cobrir os pseudobulbos ou apertar os novos brotos com amarrações."
       },
       {
         "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
         "estrelas": 4,
-        "status": "Alternativa",
-        "texto": "Cesto aberto acomoda crescimento pendente."
+        "status": "Muito recomendado",
+        "texto": "O cesto aberto permite que os segmentos ultrapassem as bordas e recebam ventilação. Use pouca mistura porosa onde houver raízes, evitando preencher todo o recipiente apenas para acomodar o comprimento da planta."
       },
       {
         "nome": "Vaso plástico vasado",
         "asset": "vaso-plastico-vasado-v2",
         "estrelas": 4,
-        "status": "Alternativa",
-        "texto": "Vaso vasado com substrato aberto e rizoma superficial."
+        "status": "Muito recomendado",
+        "texto": "Escolha vaso raso e perfurado, deixando a frente do rizoma voltada para o espaço livre. A reserva de água facilita o manejo em clima seco, mas não deve manter a base saturada."
       },
       {
         "nome": "Vaso de Barro",
         "asset": "vaso-barro",
         "estrelas": 4,
-        "status": "Alternativa",
-        "texto": "Vaso de barro raso com atenção à secagem."
+        "status": "Muito recomendado",
+        "texto": "O barro poroso ajuda a controlar a retenção em locais úmidos. Use recipiente largo e raso, permitindo que o rizoma ultrapasse a borda naturalmente; acompanhe a secagem em dias de vento."
       }
     ],
     "perfilVisual": "epifita-rizomatosa"
@@ -332,10 +332,10 @@ export const maxillariaImbricata = {
   "clima": "Tropical úmido, quente",
   "adaptacaoRegional": {
     "litoralQuente": {
-      "texto": "Ambiente quente e úmido favorece o cultivo, com ventilação e luz filtrada."
+      "texto": "Ambientes quentes e úmidos são compatíveis com o hábito epifítico conhecido, desde que exista circulação de ar. Mantenha luz filtrada e acompanhe a hidratação dos segmentos em crescimento. O maior cuidado é evitar a combinação de calor, mistura saturada e pouca ventilação; a facilidade de floração local ainda precisa de confirmação."
     },
     "montanhaFrio": {
-      "texto": "Proteja de frio prolongado; ajuste regas à secagem."
+      "texto": "Em regiões de noites frescas, utilize local protegido do frio persistente e de geadas. Como a secagem pode ser lenta no inverno, mantenha a montagem ventilada e ajuste a água pela umidade real. Não há evidência suficiente para afirmar que a altitude seja indispensável à floração."
     }
   },
   "selosCultivo": {
