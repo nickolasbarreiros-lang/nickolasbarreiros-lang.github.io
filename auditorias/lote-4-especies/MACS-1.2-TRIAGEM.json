@@ -21,9 +21,13 @@
     "https://www.aos.org/orchid-care/beginners-series--part-2-media-mania-revisited",
     "https://www.aos.org/orchid-care/what-is-the-best-potting-media",
     "https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet",
-    "https://www.rhs.org.uk/plants/5436/dendrobium-aphyllum/details"
+    "https://www.rhs.org.uk/plants/5436/dendrobium-aphyllum/details",
+    "https://repositorio.unesp.br/entities/publication/4f0b4842-9b7a-42fe-9530-aa9d66fb91ab",
+    "https://repositorio.usp.br/directbitstream/7295849c-2a2b-4528-b202-21b2d3dcddce/3262577-Phenotypic_characterization_of_the_intergeneric_hybrid_Miltonia_flavescens_x_Brassia_verrucosa_%28Orchidaceae%29.pdf",
+    "https://orquidariosantaclara.com.br/orquideas-diversas/2957-miltonia-flavescens-no-sancao-haste-floral-saldao.html",
+    "https://www.orquidariomaripa.com.br/produtos/orquidea-miltonia-flavescens-orquidea-do-amor-pre-adulta/"
   ],
-  "limites": "Notas físicas e adequação inferidas; cobertura não é confiança. Evidência comercial não pontuada; meta não cumprida. Sem homologação.",
+  "limites": "Notas físicas e adequação inferidas; cobertura não é confiança. Evidência comercial não pontuada; meta não cumprida. Sem homologação. Miltonia: evidência comercial parcialmente pontuada nesta rodada; não equivale a ensaio comparativo.",
   "data": [
     {
       "id": "papilionanthe-teres",
@@ -497,14 +501,14 @@
             5,
             5,
             4,
-            2,
-            null,
+            4,
+            4,
             3,
             5
           ],
-          "cobertura": 90,
-          "indice": 83.3,
-          "justificativa": "estrutura de casca; degrada com tempo; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+          "cobertura": 100,
+          "indice": 89,
+          "justificativa": "estrutura de casca; degrada com tempo; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio. Uso em plantas parentais e variedade em estudo de floração; dois fornecedores recomendam cascas."
         },
         {
           "material": "carvao-vegetal",
@@ -512,14 +516,14 @@
             4,
             4,
             5,
-            2,
-            null,
+            3,
+            4,
             5,
             4
           ],
-          "cobertura": 90,
-          "indice": 78.9,
-          "justificativa": "fragmentos abertos; pouca reserva hídrica; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+          "cobertura": 100,
+          "indice": 82,
+          "justificativa": "fragmentos abertos; pouca reserva hídrica; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio. Uso em parentais e dois fornecedores."
         },
         {
           "material": "casca-macadamia",
@@ -543,13 +547,13 @@
             3,
             2,
             2,
-            null,
+            2,
             2,
             3
           ],
-          "cobertura": 90,
-          "indice": 51.1,
-          "justificativa": "reserva hídrica alta; risco de saturação; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+          "cobertura": 100,
+          "indice": 50,
+          "justificativa": "reserva hídrica alta; risco de saturação; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio. Musgo genérico em dois fornecedores; identidade esfagno não confirmada, evidência comercial indireta."
         },
         {
           "material": "chips-coco",
@@ -572,14 +576,14 @@
             3,
             3,
             3,
-            null,
+            3,
             null,
             2,
             3
           ],
-          "cobertura": 75,
-          "indice": 58.7,
-          "justificativa": "risco de compactação conforme fibra; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio."
+          "cobertura": 90,
+          "indice": 58.9,
+          "justificativa": "risco de compactação conforme fibra; compatibilidade radicular, hídrica e suporte são estimativas para recipiente da espécie, não ensaio. Estudo da variedade em floração e aclimatização; sem fornecedor explícito nesta rodada."
         },
         {
           "material": "casca-arroz-carbonizada",
