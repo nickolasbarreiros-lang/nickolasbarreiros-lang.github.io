@@ -6,16 +6,16 @@ export const miltoniaFlavescens = {
   "sinonimo": "Cyrtochilum flavescens; Oncidium flavescens; Irenea flavescens; Miltonia stellata",
   "tipo": "Espécie botânica",
   "origem": "Brasil, Paraguai e Argentina",
-  "habitat": "Epífita simpodial com pseudobulbos achatados e flores estreladas.",
+  "habitat": "Epífita de ampla distribuição sul-americana, também registrada como litófita. Ocupa florestas estacionais, matas ciliares e ambientes da Mata Atlântica, inclusive formações relativamente secas. Ocorre em diferentes altitudes; há referência horticultural em torno de 800 m, sem que essa elevação represente uma exigência exclusiva.",
   "iluminacao": {
-    "observacoes": "Luz filtrada intensa; monitore queimaduras, aquecimento e crescimento fraco.",
+    "observacoes": "Ofereça claridade filtrada, protegendo as folhas do sol forte, sobretudo durante as horas mais quentes. Plantas aclimatadas podem aproveitar luz suave no início da manhã, mas o aquecimento das folhas deve ser observado. Folhas muito escuras associadas a brotos fracos sugerem revisar a iluminação; manchas secas e amarelecimento repentino podem indicar excesso. No inverno, ajuste a proteção conforme a redução natural da intensidade solar, sem transferir bruscamente a planta para exposição intensa.",
     "sombrite": "50–60% no litoral; 40–50% na montanha como referência",
     "seloLuz": "laranja",
     "solDireto": "Sol suave após aclimatação",
     "horario": "Antes das 9h ou ao fim da tarde"
   },
-  "rega": "Regue abundantemente durante crescimento e deixe a mistura secar parcialmente antes de repetir. Em placa, acompanhe diariamente a secagem no calor. Reduza a frequência em dias frios, sem impor seca prolongada.",
-  "floracao": "Flores estreladas amarelas com labelo claro e marcas escuras, perfumadas. Floração indicativa na primavera e verão; dezembro a fevereiro como referência inicial. Duração individual, pico mensal e reflorescência da haste não confirmados.",
+  "rega": "Regue completamente durante a emissão de raízes e pseudobulbos, deixando a água sair livremente. Em placa, confira a hidratação diariamente no calor; em vaso, espere a mistura aproximar-se da secagem sem prolongar a desidratação durante o crescimento. Brotos com folhas pregueadas podem indicar irregularidade hídrica ou raízes comprometidas, por isso confira o sistema radicular antes de aumentar a rega. No inverno, reduza a frequência conforme a evaporação real, principalmente em recipientes que permanecem úmidos por mais tempo. A adaptação natural a ambientes sazonais não exige interromper completamente a água em cultivo.",
+  "floracao": "As hastes simples surgem junto à base dos pseudobulbos, eretas ou arqueadas, e podem carregar várias flores abertas simultaneamente. As sépalas e pétalas estreitas, amarelas a bege, contrastam com o labelo branco marcado de castanho avermelhado. Há relatos de flores perfumadas de até cerca de 7,5 cm. A primavera e o verão são referências; duração individual e pico mensal local permanecem variáveis.",
   "fotos": [
     "https://commons.wikimedia.org/wiki/Special:FilePath/Orchidaceae%20Miltonia%20flavescens%201.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Miltonia%20flavescens%20Lindl..jpg?width=960",
@@ -59,35 +59,35 @@ export const miltoniaFlavescens = {
         "nome": "Casca de pinus",
         "proporcao": "45%",
         "nota": "estrutura",
-        "finalidade": "Contribui para estrutura da mistura."
+        "finalidade": "Escolha casca de granulometria pequena a média, sem pó, para apoiar raízes finas. Substitua quando a decomposição diminuir os espaços de ar e retardar a drenagem."
       },
       {
         "asset": "carvao-vegetal",
         "nome": "Carvão vegetal",
         "proporcao": "25%",
         "nota": "aeração",
-        "finalidade": "Contribui para aeração da mistura."
+        "finalidade": "Fragmentos lavados de carvão ajudam a preservar a porosidade entre a casca e os materiais mais retentivos. Evite partículas pulverizadas e lave a mistura periodicamente."
       },
       {
         "asset": "chips-coco",
         "nome": "Chips de coco",
         "proporcao": "20%",
         "nota": "umidade",
-        "finalidade": "Contribui para umidade da mistura."
+        "finalidade": "Chips lavados e preparados oferecem reserva hídrica sem a compactação da fibra fina. Observe a secagem no interior do vaso, sobretudo durante períodos frios e chuvosos."
       },
       {
         "asset": "esfagno",
         "nome": "Esfagno",
         "proporcao": "10%",
         "nota": "retenção",
-        "finalidade": "Contribui para retenção da mistura."
+        "finalidade": "Use fibra longa solta em pequena proporção para moderar a perda de umidade. Não forme uma camada compacta ao redor do rizoma ou dos brotos novos."
       }
     ],
     "titulo": "Substrato ideal",
     "contexto": "Substrato indicado para plantio em recipiente",
     "notaEvidencia": "Receita estimada; amostra MACS incompleta.",
     "resumo": "Mistura aberta com retenção moderada.",
-    "justificativa": "Casca e carvão preservam espaços de ar; chips de coco e esfagno solto ajudam a conservar umidade. Proporções práticas, não experimentais.",
+    "justificativa": "O rizoma superficial e as raízes relativamente finas pedem umidade regular, mas não suportam mistura fechada por longos períodos. Pinus e carvão formam a estrutura porosa; chips de coco preparados e esfagno solto prolongam a hidratação entre regas. A receita destina-se a recipientes rasos, não a preencher uma placa. Em clima chuvoso, reduza a retenção se o centro permanecer molhado; em ambiente seco, acompanhe o vigor dos brotos.",
     "receitaTexto": "45% casca de pinus + 25% carvão vegetal + 20% chips de coco + 10% esfagno.",
     "perfil": [
       "Epífita",
@@ -127,14 +127,17 @@ export const miltoniaFlavescens = {
     "Flores estreladas amarelas e perfumadas"
   ],
   "descricao": "Miltonia flavescens é uma orquídea sul-americana que se destaca pelas inflorescências longas, carregadas de flores estreladas em tons de amarelo claro ou bege. O labelo branco apresenta marcas castanhas próximas à base, criando contraste com as pétalas e sépalas estreitas. Seus pseudobulbos achatados, geralmente verde-amarelados, apresentam duas folhas apicais. A espécie ocorre em diferentes formações vegetais brasileiras, incluindo florestas estacionais e ciliares, demonstrando ampla distribuição natural. Em cultivo, pode formar touceiras ornamentais quando dispõe de espaço para o avanço do rizoma. Prefere luminosidade filtrada e raízes ventiladas, com hidratação regular e intervalos de secagem ajustados ao ambiente.",
-  "climaFloracao": "Favoreça a maturação dos pseudobulbos, luminosidade filtrada intensa e hidratação regular. Como referência prática, dias de 22–30 °C e noites de 15–22 °C. Não há comprovação de necessidade de repouso seco rigoroso. No litoral, evite superaquecimento; na montanha, reduza regas conforme a secagem.",
+  "climaFloracao": "A maturação dos pseudobulbos e a iluminação adequada favorecem a formação de hastes. Dias de 22–30 °C e noites de 15–22 °C são referências iniciais de manejo, não exigências rígidas. Sua distribuição inclui ambientes sazonais e diferentes altitudes, o que favorece certa flexibilidade climática. No litoral, proteja as folhas do calor excessivo; na montanha, reduza a rega quando a secagem desacelerar. Não imponha repouso seco rigoroso nem frio intenso para induzir flores.",
   "mesesFloracao": [
+    9,
+    10,
+    11,
     12,
     1,
     2
   ],
   "mesesFloracaoIndicativos": true,
-  "adubacao": "🌿 Orgânica: pequena porção de bokashi em porta-adubo, longe dos brotos.\n💧 Foliar/radicular: fertilizante equilibrado a 1/4 da dose do rótulo a cada 7–15 dias no crescimento.\n🧪 Liberação lenta: opcional em recipiente, conforme rótulo, longe das raízes.\n🚿 Lavagem de sais: a cada 15–30 dias.",
+  "adubacao": "🌿 Orgânica: use pequena quantidade de bokashi em porta-adubo, afastado das raízes e dos brotos, somente durante crescimento ativo. Em montagem sem substrato, prefira adubação mineral diluída.\n💧 Foliar/radicular: utilize fertilizante equilibrado a 1/4 da dose do rótulo a cada 7–15 dias durante crescimento, sobre raízes previamente hidratadas. Reduza quando o crescimento desacelerar.\n🧪 Liberação lenta: opcional em recipiente, respeitando dose e duração do fabricante; mantenha os grânulos afastados da base e considere a liberação mais rápida no calor.\n🚿 Lavagem de sais: regue abundantemente com água limpa a cada 15–30 dias, deixando drenar completamente. Suspenda a adubação se houver raízes danificadas até recuperar o crescimento.",
   "suporte": "Placa / tronco",
   "substrato": [
     "Casca de pinus + carvão vegetal + fibra de coco",
@@ -142,35 +145,35 @@ export const miltoniaFlavescens = {
   ],
   "formasCultivo": {
     "destaque": "Placa / tronco",
-    "resumo": "Mantenha hidratação regular, luminosidade filtrada e ventilação; não imponha repouso seco.",
+    "resumo": "O rizoma alongado e os pseudobulbos achatados pedem espaço lateral para novos brotos. A montagem em madeira favorece essa expansão e mantém as raízes oxigenadas. Onde o ar seca rapidamente, um recipiente raso e aberto facilita conservar umidade sem encharcar a base.",
     "metodos": [
       {
         "nome": "Placa / tronco",
         "asset": "placa-tronco",
         "estrelas": 5,
-        "status": "Mais recomendado na ficha",
-        "texto": "Fixe o rizoma superficialmente, deixando espaço para expansão lateral."
+        "status": "Ideal",
+        "texto": "Fixe os pseudobulbos antigos junto à madeira, deixando a frente de crescimento livre. Uma fina camada de esfagno solto pode ajudar na adaptação em ambiente seco. A placa facilita o avanço do rizoma, mas requer atenção diária à hidratação durante o crescimento."
       },
       {
         "nome": "Cachepô de Madeira",
         "asset": "cesto-madeira",
         "estrelas": 4,
-        "status": "Alternativa",
-        "texto": "Cesto ventilado favorece a expansão da touceira."
+        "status": "Muito recomendado",
+        "texto": "Escolha cachepô largo, com espaço à frente dos brotos. As laterais abertas favorecem a ventilação, enquanto uma pequena reserva de mistura no centro reduz a desidratação em períodos quentes e secos."
       },
       {
         "nome": "Vaso plástico vasado",
         "asset": "vaso-plastico-vasado-v2",
         "estrelas": 4,
-        "status": "Alternativa",
-        "texto": "Vaso vasado com mistura aberta e espaço para novos brotos."
+        "status": "Muito recomendado",
+        "texto": "Use vaso raso, largo e perfurado, posicionando a parte antiga próxima à borda. A umidade mais estável favorece raízes em crescimento, desde que o rizoma permaneça exposto e a drenagem seja rápida."
       },
       {
         "nome": "Vaso de Barro",
         "asset": "vaso-barro",
         "estrelas": 4,
-        "status": "Alternativa",
-        "texto": "Vaso de barro raso e largo, acompanhando a secagem."
+        "status": "Muito recomendado",
+        "texto": "O barro poroso é útil em ambientes úmidos por favorecer a evaporação. Prefira formato largo e pouco profundo para acomodar o rizoma; em tempo seco, verifique se as raízes não desidratam rapidamente."
       }
     ],
     "perfilVisual": "epifita-rizomatosa"
@@ -178,7 +181,7 @@ export const miltoniaFlavescens = {
   "avaliacoes": {
     "cultivo": 5,
     "raridade": 1,
-    "perfume": null,
+    "perfume": 3,
     "floracao": 3,
     "luminosidade": 3,
     "agua": 4
@@ -341,7 +344,10 @@ export const miltoniaFlavescens = {
   "revisaoCientificaIAR": {
     "fontes": [
       "https://monografiasfloradobrasil.jbrj.gov.br/miltonia.pdf",
-      "https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet"
+      "https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet",
+      "https://monografiasfloradobrasil.jbrj.gov.br/miltonia.pdf",
+      "https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet",
+      "https://orchidspecies.com/miltoniaflavascens.htm"
     ],
     "confianca": "preliminar"
   },
@@ -349,10 +355,10 @@ export const miltoniaFlavescens = {
   "clima": "Tropical a intermediário",
   "adaptacaoRegional": {
     "litoralQuente": {
-      "texto": "Boa perspectiva com ventilação, hidratação regular e proteção do sol forte."
+      "texto": "A espécie possui boa perspectiva em regiões quentes, desde que a luminosidade seja filtrada e as raízes recebam água regularmente. Use placa se puder acompanhar a secagem ou recipiente raso e aerado quando a evaporação for intensa. Evite o sol forte sobre as folhas e o abafamento noturno."
     },
     "montanhaFrio": {
-      "texto": "Noites amenas podem favorecer o desenvolvimento; evitar geadas e saturação das raízes."
+      "texto": "Noites amenas e boa luminosidade favorecem o crescimento e a maturação dos pseudobulbos. Durante períodos frios e chuvosos, reduza a frequência de rega conforme a secagem real, mantendo ventilação. Proteja de geadas e evite que o rizoma fique permanentemente molhado."
     }
   },
   "selosCultivo": {
