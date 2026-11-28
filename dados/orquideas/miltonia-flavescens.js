@@ -56,38 +56,31 @@ export const miltoniaFlavescens = {
       {
         "asset": "casca-pinus",
         "nome": "Casca de pinus",
-        "proporcao": "45%",
+        "proporcao": "70%",
         "nota": "estrutura",
         "finalidade": "Escolha casca de granulometria pequena a média, sem pó, para apoiar raízes finas. Substitua quando a decomposição diminuir os espaços de ar e retardar a drenagem."
       },
       {
         "asset": "carvao-vegetal",
         "nome": "Carvão vegetal",
-        "proporcao": "25%",
+        "proporcao": "15%",
         "nota": "aeração",
         "finalidade": "Fragmentos lavados de carvão ajudam a preservar a porosidade entre a casca e os materiais mais retentivos. Evite partículas pulverizadas e lave a mistura periodicamente."
       },
       {
-        "asset": "chips-coco",
-        "nome": "Chips de coco",
-        "proporcao": "20%",
-        "nota": "umidade",
-        "finalidade": "Chips lavados e preparados oferecem reserva hídrica sem a compactação da fibra fina. Observe a secagem no interior do vaso, sobretudo durante períodos frios e chuvosos."
-      },
-      {
-        "asset": "esfagno",
-        "nome": "Esfagno",
-        "proporcao": "10%",
-        "nota": "retenção",
-        "finalidade": "Use fibra longa solta em pequena proporção para moderar a perda de umidade. Não forme uma camada compacta ao redor do rizoma ou dos brotos novos."
+        "nome": "Perlita",
+        "nota": "aeração",
+        "finalidade": "Use perlita hortícola de granulometria compatível com a casca, sem pó. Ela oferece porosidade com baixo peso e ajuda a preservar a drenagem em recipiente raso.",
+        "asset": "perlita",
+        "proporcao": "15%"
       }
     ],
     "titulo": "Substrato ideal",
     "contexto": "Substrato indicado para plantio em recipiente",
-    "notaEvidencia": "Receita estimada; amostra MACS incompleta.",
+    "notaEvidencia": "Receita provisória; fonte especializada https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet; percentuais complementares estimados; auditoria comercial incompleta.",
     "resumo": "Mistura aberta com retenção moderada.",
-    "justificativa": "O rizoma superficial e as raízes relativamente finas pedem umidade regular, mas não suportam mistura fechada por longos períodos. Pinus e carvão formam a estrutura porosa; chips de coco preparados e esfagno solto prolongam a hidratação entre regas. A receita destina-se a recipientes rasos, não a preencher uma placa. Em clima chuvoso, reduza a retenção se o centro permanecer molhado; em ambiente seco, acompanhe o vigor dos brotos.",
-    "receitaTexto": "45% casca de pinus + 25% carvão vegetal + 20% chips de coco + 10% esfagno.",
+    "justificativa": "A casca fina a média oferece suporte às raízes relativamente finas, enquanto carvão e perlita mantêm espaços de ar e favorecem a drenagem. A proporção de casca acompanha uma recomendação especializada para o gênero, não um ensaio específico desta espécie. A divisão dos demais materiais é estimada. Use recipiente raso, evite pó e permita aproximação da secagem entre regas, sem desidratação prolongada durante o crescimento.",
+    "receitaTexto": "70% casca de pinus + 15% carvão vegetal + 15% perlita.",
     "perfil": [
       "Epífita",
       "Rizoma superficial",
@@ -116,7 +109,7 @@ export const miltoniaFlavescens = {
         "icone": "🧱"
       }
     ],
-    "alerta": "Não enterre o rizoma nem compacte o esfagno."
+    "alerta": "Não enterre o rizoma nem utilize partículas pulverizadas."
   },
   "dificuldade": "Muito fácil",
   "caracteristicas": [
@@ -139,8 +132,8 @@ export const miltoniaFlavescens = {
   "adubacao": "🌿 Orgânica: use pequena quantidade de bokashi em porta-adubo, afastado das raízes e dos brotos, somente durante crescimento ativo. Em montagem sem substrato, prefira adubação mineral diluída.\n💧 Foliar/radicular: utilize fertilizante equilibrado a 1/4 da dose do rótulo a cada 7–15 dias durante crescimento, sobre raízes previamente hidratadas. Reduza quando o crescimento desacelerar.\n🧪 Liberação lenta: opcional em recipiente, respeitando dose e duração do fabricante; mantenha os grânulos afastados da base e considere a liberação mais rápida no calor.\n🚿 Lavagem de sais: regue abundantemente com água limpa a cada 15–30 dias, deixando drenar completamente. Suspenda a adubação se houver raízes danificadas até recuperar o crescimento.",
   "suporte": "Placa / tronco",
   "substrato": [
-    "Casca de pinus + carvão vegetal + fibra de coco",
-    "Chips de coco + argila expandida + casca de madeira"
+    "Casca de pinus + carvão vegetal + chips de coco",
+    "Casca de pinus + pedra-pomes + esfagno"
   ],
   "formasCultivo": {
     "destaque": "Placa / tronco",
