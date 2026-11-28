@@ -77,7 +77,7 @@ export const miltoniaFlavescens = {
     ],
     "titulo": "Substrato ideal",
     "contexto": "Substrato indicado para plantio em recipiente",
-    "notaEvidencia": "Receita provisória; fonte especializada https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet; percentuais complementares estimados; auditoria comercial incompleta.; indicadores hídricos qualitativos, não medidos. Stefanello et al. (2009), https://periodicos.unicesumar.edu.br/index.php/rama/article/download/1180/853/3505: pinus e fibra de coco úteis na aclimatização de plântulas; não valida receita adulta.",
+    "notaEvidencia": "Receita provisória; fonte especializada https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet; percentuais complementares estimados; auditoria comercial incompleta.; indicadores hídricos qualitativos, não medidos. Stefanello et al. (2009), https://periodicos.unicesumar.edu.br/index.php/rama/article/download/1180/853/3505: pinus e fibra de coco úteis na aclimatização de plântulas; não valida receita adulta. Estudos de cultivo em variedade stellata (pinus/fibra 1:1) e parentais de hibridação (pinus/carvão 1:1) sustentam as alternativas, sem provar superioridade. Dois fornecedores recomendam cascas e carvão.",
     "resumo": "Mistura de casca com boa aeração e retenção moderada.",
     "justificativa": "A casca fina a média oferece suporte às raízes relativamente finas, enquanto carvão e perlita mantêm espaços de ar e favorecem a drenagem. A proporção de casca acompanha uma recomendação especializada para o gênero, não um ensaio específico desta espécie. A divisão dos demais materiais é estimada. Use recipiente raso, evite pó e permita aproximação da secagem entre regas, sem desidratação prolongada durante o crescimento.",
     "receitaTexto": "70% casca de pinus + 15% carvão vegetal + 15% perlita.",
@@ -132,8 +132,8 @@ export const miltoniaFlavescens = {
   "adubacao": "🌿 Orgânica: use pequena quantidade de bokashi em porta-adubo, afastado das raízes e dos brotos, somente durante crescimento ativo. Em montagem sem substrato, prefira adubação mineral diluída.\n💧 Foliar/radicular: utilize fertilizante equilibrado a 1/4 da dose do rótulo a cada 7–15 dias durante crescimento, sobre raízes previamente hidratadas. Reduza quando o crescimento desacelerar.\n🧪 Liberação lenta: opcional em recipiente, respeitando dose e duração do fabricante; mantenha os grânulos afastados da base e considere a liberação mais rápida no calor.\n🚿 Lavagem de sais: regue abundantemente com água limpa a cada 15–30 dias, deixando drenar completamente. Suspenda a adubação se houver raízes danificadas até recuperar o crescimento.",
   "suporte": "Placa / tronco",
   "substrato": [
-    "Casca de pinus + carvão vegetal + fibra de coco",
-    "Casca de pinus + pedra-pomes + esfagno"
+    "Casca de pinus + fibra de coco",
+    "Casca de pinus + carvão vegetal"
   ],
   "formasCultivo": {
     "destaque": "Placa / tronco",
@@ -340,7 +340,11 @@ export const miltoniaFlavescens = {
       "https://monografiasfloradobrasil.jbrj.gov.br/miltonia.pdf",
       "https://www.aos.org/orchid-care/care-sheets/miltonia-culture-sheet",
       "https://orchidspecies.com/miltoniaflavascens.htm",
-      "https://periodicos.unicesumar.edu.br/index.php/rama/article/download/1180/853/3505"
+      "https://periodicos.unicesumar.edu.br/index.php/rama/article/download/1180/853/3505",
+      "https://repositorio.unesp.br/entities/publication/4f0b4842-9b7a-42fe-9530-aa9d66fb91ab",
+      "https://repositorio.usp.br/directbitstream/7295849c-2a2b-4528-b202-21b2d3dcddce/3262577-Phenotypic_characterization_of_the_intergeneric_hybrid_Miltonia_flavescens_x_Brassia_verrucosa_%28Orchidaceae%29.pdf",
+      "https://orquidariosantaclara.com.br/orquideas-diversas/2957-miltonia-flavescens-no-sancao-haste-floral-saldao.html",
+      "https://www.orquidariomaripa.com.br/produtos/orquidea-miltonia-flavescens-orquidea-do-amor-pre-adulta/"
     ],
     "confianca": "preliminar"
   },
