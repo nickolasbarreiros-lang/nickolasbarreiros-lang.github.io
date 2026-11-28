@@ -1,3 +1,4 @@
+import { papilionantheTeres } from "./papilionanthe-teres.js";
 import { maxillariaJohannis } from "./maxillaria-johannis.js";
 import { cattleyaAmethystoglossaVarAurea } from "./cattleya-amethystoglossa-var-aurea.js";
 import { epidendrumSecundum } from "./epidendrum-secundum.js";
@@ -308,4 +309,5 @@ bulbophyllumSyciobulbon,
     stelisCfAprica,
     epidendrumSecundum,
     cattleyaAmethystoglossaVarAurea,
+    papilionantheTeres,
 ];
