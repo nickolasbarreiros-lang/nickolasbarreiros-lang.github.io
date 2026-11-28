@@ -17,22 +17,22 @@ export const miltoniaFlavescens = {
   "rega": "Regue completamente durante a emissão de raízes e pseudobulbos, deixando a água sair livremente. Em placa, confira a hidratação diariamente no calor; em vaso, espere a mistura aproximar-se da secagem sem prolongar a desidratação durante o crescimento. Brotos com folhas pregueadas podem indicar irregularidade hídrica ou raízes comprometidas, por isso confira o sistema radicular antes de aumentar a rega. No inverno, reduza a frequência conforme a evaporação real, principalmente em recipientes que permanecem úmidos por mais tempo. A adaptação natural a ambientes sazonais não exige interromper completamente a água em cultivo.",
   "floracao": "As hastes simples surgem junto à base dos pseudobulbos, eretas ou arqueadas, e podem carregar várias flores abertas simultaneamente. As sépalas e pétalas estreitas, amarelas a bege, contrastam com o labelo branco marcado de castanho avermelhado. Há relatos de flores perfumadas de até cerca de 7,5 cm. A primavera e o verão são referências; duração individual e pico mensal local permanecem variáveis.",
   "fotos": [
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Orchidaceae%20Miltonia%20flavescens%201.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Miltonia%20flavescens%20Lindl..jpg?width=960",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Orchidaceae%20Miltonia%20flavescens%201.jpg?width=960",
     "https://commons.wikimedia.org/wiki/Special:FilePath/Miltonia%20flavescens3.jpg?width=960",
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Milt%C3%B4nia%20flavescens%20em%20cultivo%20dom%C3%A9stico%2C%20na%20fase%20de%20pr%C3%A9%20flora%C3%A7%C3%A3o.jpg?width=960"
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Miltonia_flavescens_Orchi_010-1.jpg"
   ],
   "creditosFotos": [
     {
-      "autor": "NasserHalaweh",
-      "origem": "https://commons.wikimedia.org/wiki/File:Orchidaceae_Miltonia_flavescens_1.jpg",
+      "autor": "Robinberry52",
+      "origem": "https://commons.wikimedia.org/wiki/File:Miltonia_flavescens_Lindl..jpg",
       "licenca": "https://creativecommons.org/licenses/by-sa/4.0/",
       "nomeLicenca": "CC BY-SA 4.0",
       "alteracoes": false
     },
     {
-      "autor": "Robinberry52",
-      "origem": "https://commons.wikimedia.org/wiki/File:Miltonia_flavescens_Lindl..jpg",
+      "autor": "NasserHalaweh",
+      "origem": "https://commons.wikimedia.org/wiki/File:Orchidaceae_Miltonia_flavescens_1.jpg",
       "licenca": "https://creativecommons.org/licenses/by-sa/4.0/",
       "nomeLicenca": "CC BY-SA 4.0",
       "alteracoes": false
@@ -45,11 +45,10 @@ export const miltoniaFlavescens = {
       "alteracoes": false
     },
     {
-      "autor": "Aureonatal",
-      "origem": "https://commons.wikimedia.org/wiki/File:Milt%C3%B4nia_flavescens_em_cultivo_dom%C3%A9stico%2C_na_fase_de_pr%C3%A9_flora%C3%A7%C3%A3o.jpg",
-      "licenca": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "nomeLicenca": "CC0 1.0",
-      "alteracoes": false
+      "autor": "Orchi",
+      "origem": "https://commons.wikimedia.org/wiki/File:Miltonia_flavescens_Orchi_010-1.jpg",
+      "licenca": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "nomeLicenca": "CC BY-SA 3.0"
     }
   ],
   "substratoVisual": {
