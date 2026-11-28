@@ -1,0 +1,64 @@
+{
+  "escopo": "Verificação estática de chaves, não teste de navegador",
+  "galeriaVazia": "criarGaleria retorna mensagem quando fotos.length === 0",
+  "fichas": [
+    {
+      "n": "papilionanthe-teres",
+      "assets": [
+        "placa-tronco",
+        "cesto-madeira",
+        "vaso-plastico-vasado-v2",
+        "vaso-barro",
+        "casca-pinus",
+        "carvao-vegetal",
+        "brita"
+      ],
+      "missing": []
+    },
+    {
+      "n": "dendrobium-aphyllum",
+      "assets": [
+        "cesto-madeira",
+        "placa-tronco",
+        "vaso-plastico-vasado-v2",
+        "vaso-barro",
+        "casca-pinus",
+        "carvao-vegetal",
+        "brita"
+      ],
+      "missing": []
+    },
+    {
+      "n": "miltonia-flavescens",
+      "assets": [
+        "placa-tronco",
+        "cesto-madeira",
+        "vaso-plastico-vasado-v2",
+        "vaso-barro",
+        "casca-pinus",
+        "carvao-vegetal",
+        "chips-coco",
+        "esfagno"
+      ],
+      "missing": []
+    },
+    {
+      "n": "maxillaria-imbricata",
+      "assets": [
+        "placa-tronco",
+        "cesto-madeira",
+        "vaso-plastico-vasado-v2",
+        "vaso-barro",
+        "casca-pinus",
+        "chips-coco",
+        "carvao-vegetal",
+        "esfagno"
+      ],
+      "missing": []
+    }
+  ],
+  "pendencias": [
+    "Verificar imagem chips-coco, atualmente mapeada para fibra-coco",
+    "Teste de navegador e carregamento de imagens"
+  ]
+}
