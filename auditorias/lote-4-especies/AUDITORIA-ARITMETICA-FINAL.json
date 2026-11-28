@@ -1,0 +1,94 @@
+{
+  "escopo": "Aritmética e estrutura; não homologa notas científicas, licenças ou renderização.",
+  "site": "Tentativa de acesso sem sucesso",
+  "fichas": [
+    {
+      "n": "papilionanthe-teres",
+      "idc": 22.5,
+      "litoral": 76,
+      "montanha": 80,
+      "irr": 17.86,
+      "cobertura": 70,
+      "changes": [
+        {
+          "campo": "indice",
+          "antes": 17.857142857142854,
+          "depois": 17.86
+        }
+      ],
+      "fotos": 4,
+      "descricao": 98,
+      "dica": 66,
+      "erros": 8,
+      "suportes": 4,
+      "alternativas": 2,
+      "substrato": 100,
+      "commit": {
+        "result": {
+          "commit_sha": "c012931b752600f9955e1f2fe8a663b7f40452c9",
+          "content_sha": "7478c3b4f8b92eda772a8bbd197ab481806494cc"
+        }
+      }
+    },
+    {
+      "n": "dendrobium-aphyllum",
+      "idc": 33.75,
+      "litoral": 70,
+      "montanha": 92,
+      "irr": 0,
+      "cobertura": 100,
+      "changes": [],
+      "fotos": 4,
+      "descricao": 99,
+      "dica": 66,
+      "erros": 8,
+      "suportes": 4,
+      "alternativas": 2,
+      "substrato": 100
+    },
+    {
+      "n": "miltonia-flavescens",
+      "idc": 16.25,
+      "litoral": 88,
+      "montanha": 95,
+      "irr": 12.5,
+      "cobertura": 70,
+      "changes": [],
+      "fotos": 4,
+      "descricao": 97,
+      "dica": 63,
+      "erros": 8,
+      "suportes": 4,
+      "alternativas": 2,
+      "substrato": 100
+    },
+    {
+      "n": "maxillaria-imbricata",
+      "idc": 23.75,
+      "litoral": 93,
+      "montanha": 75,
+      "irr": 46.43,
+      "cobertura": 35,
+      "changes": [
+        {
+          "campo": "indice",
+          "antes": 46.42857142857143,
+          "depois": 46.43
+        }
+      ],
+      "fotos": 0,
+      "descricao": 101,
+      "dica": 71,
+      "erros": 8,
+      "suportes": 4,
+      "alternativas": 2,
+      "substrato": 100,
+      "commit": {
+        "result": {
+          "commit_sha": "36738f219d02d50d1a6a4c82fb81f68e45f74ce7",
+          "content_sha": "7651d7ae7a1ae0559cd74ffd43ea330426369e6f"
+        }
+      }
+    }
+  ]
+}
