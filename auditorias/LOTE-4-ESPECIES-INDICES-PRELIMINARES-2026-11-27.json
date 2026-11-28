@@ -1,0 +1,251 @@
+{
+  "status": "Preliminar — não publicar automaticamente",
+  "metodologia": {
+    "idc": [
+      15,
+      15,
+      10,
+      10,
+      10,
+      10,
+      10,
+      20
+    ],
+    "iar": [
+      30,
+      30,
+      5,
+      5,
+      5,
+      5,
+      20
+    ],
+    "irr": [
+      35,
+      20,
+      15,
+      15,
+      15
+    ]
+  },
+  "observacoes": [
+    "Notas herdadas dos rascunhos; não são homologação científica.",
+    "IAR: conversão provisória 6 menos nota de dificuldade; requer avaliação independente.",
+    "Conservação sem confirmação independente recebe null.",
+    "Fotografias e MACS pendentes; nenhuma alteração no catálogo ativo."
+  ],
+  "especies": [
+    {
+      "nome": "Papilionanthe teres",
+      "idc": {
+        "notas": [
+          2,
+          2,
+          2,
+          1,
+          2,
+          1,
+          1,
+          3
+        ],
+        "indice": 22.5
+      },
+      "iar": {
+        "litoral": {
+          "notas": [
+            5,
+            4,
+            4,
+            5,
+            5,
+            5,
+            4
+          ],
+          "indice": 89
+        },
+        "montanha": {
+          "notas": [
+            4,
+            4,
+            4,
+            5,
+            4,
+            4,
+            3
+          ],
+          "indice": 77
+        }
+      },
+      "irr": {
+        "notas": [
+          2,
+          1,
+          null,
+          null,
+          2
+        ],
+        "cobertura": 70,
+        "indice": 17.857142857142854
+      }
+    },
+    {
+      "nome": "Dendrobium aphyllum",
+      "idc": {
+        "notas": [
+          2,
+          3,
+          2,
+          1,
+          2,
+          2,
+          3,
+          3
+        ],
+        "indice": 33.75
+      },
+      "iar": {
+        "litoral": {
+          "notas": [
+            4,
+            3,
+            4,
+            5,
+            4,
+            3,
+            3
+          ],
+          "indice": 70
+        },
+        "montanha": {
+          "notas": [
+            4,
+            5,
+            4,
+            5,
+            4,
+            5,
+            5
+          ],
+          "indice": 92
+        }
+      },
+      "irr": {
+        "notas": [
+          1,
+          1,
+          null,
+          null,
+          1
+        ],
+        "cobertura": 70,
+        "indice": 0
+      }
+    },
+    {
+      "nome": "Miltonia flavescens",
+      "idc": {
+        "notas": [
+          1,
+          2,
+          2,
+          1,
+          2,
+          2,
+          1,
+          2
+        ],
+        "indice": 16.25
+      },
+      "iar": {
+        "litoral": {
+          "notas": [
+            5,
+            4,
+            4,
+            5,
+            4,
+            5,
+            4
+          ],
+          "indice": 88
+        },
+        "montanha": {
+          "notas": [
+            5,
+            5,
+            4,
+            5,
+            5,
+            5,
+            4
+          ],
+          "indice": 95
+        }
+      },
+      "irr": {
+        "notas": [
+          1,
+          2,
+          null,
+          null,
+          2
+        ],
+        "cobertura": 70,
+        "indice": 12.5
+      }
+    },
+    {
+      "nome": "Maxillaria imbricata",
+      "idc": {
+        "notas": [
+          1,
+          2,
+          3,
+          2,
+          2,
+          3,
+          1,
+          2
+        ],
+        "indice": 23.75
+      },
+      "iar": {
+        "litoral": {
+          "notas": [
+            5,
+            5,
+            4,
+            4,
+            4,
+            5,
+            4
+          ],
+          "indice": 93
+        },
+        "montanha": {
+          "notas": [
+            4,
+            3,
+            4,
+            5,
+            4,
+            4,
+            4
+          ],
+          "indice": 75
+        }
+      },
+      "irr": {
+        "notas": [
+          null,
+          2,
+          null,
+          null,
+          4
+        ],
+        "cobertura": 35,
+        "indice": 46.42857142857143
+      }
+    }
+  ]
+}
