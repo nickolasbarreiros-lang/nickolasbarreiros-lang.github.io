@@ -1,6 +1,17 @@
 import { calcularMistura } from "./js/macs-comportamento-v1.js";
 import { orquideas } from "./dados/orquideas/index.js?v=luz-20261106";
 import { obterAssetCultivoV4 } from "./js/biblioteca-cultivo-v4.js";
+// Aplicação restrita ao lote auditado; fichas legadas preservam seus valores.
+const fichasComMisturaCalculada = new Set(["papilionanthe-teres","dendrobium-aphyllum","miltonia-flavescens","maxillaria-imbricata"]);
+function substratoComIndicadoresCalculados(orquidea) {
+ const config = orquidea.substratoVisual;
+ if (!config || config.semSubstrato || !fichasComMisturaCalculada.has(orquidea.id) || config.comportamento?.length !== 4) return config;
+ try {
+  const valores = calcularMistura(config.itens);
+  return {...config, comportamento: config.comportamento.map((item,i)=>({...item,valor:Math.round(valores[i])}))};
+ } catch (erro) { console.warn("Receita inválida:",orquidea.id,erro); return config; }
+}
+
 
 /* =========================================================
    CONFIGURAÇÃO INICIAL
@@ -1948,13 +1959,3 @@ if (!orquidea) {
     }
 }
 
-// Aplicação restrita ao lote auditado; fichas legadas preservam seus valores.
-const fichasComMisturaCalculada = new Set(["papilionanthe-teres","dendrobium-aphyllum","miltonia-flavescens","maxillaria-imbricata"]);
-function substratoComIndicadoresCalculados(orquidea) {
- const config = orquidea.substratoVisual;
- if (!config || config.semSubstrato || !fichasComMisturaCalculada.has(orquidea.id) || config.comportamento?.length !== 4) return config;
- try {
-  const valores = calcularMistura(config.itens);
-  return {...config, comportamento: config.comportamento.map((item,i)=>({...item,valor:Math.round(valores[i])}))};
- } catch (erro) { console.warn("Receita inválida:",orquidea.id,erro); return config; }
-}
