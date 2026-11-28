@@ -1,0 +1,58 @@
+name: Auditoria visual lote 4 V4.9
+on:
+  push:
+    paths:
+      - '.github/workflows/conferir-visual-lote-4-v49.yml'
+  workflow_dispatch:
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save playwright
+      - run: npx playwright install --with-deps chromium
+      - name: Testar quatro fichas
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/orquidario-server.log 2>&1 &
+          mkdir -p auditoria-visual
+          node <<'JS'
+          const {chromium}=require('playwright');
+          const fs=require('fs');
+          (async()=>{
+            const browser=await chromium.launch({headless:true});
+            const report=[];
+            for(const id of ['papilionanthe-teres','dendrobium-aphyllum','miltonia-flavescens','maxillaria-imbricata']){
+              for(const [mode,width,height] of [['desktop',1365,900],['mobile',390,844]]){
+                const page=await browser.newPage({viewport:{width,height}});
+                const errors=[];
+                page.on('pageerror',e=>errors.push(e.message));
+                const result={id,mode,errors};
+                try{
+                  await page.goto('http://127.0.0.1:8765/orquidea.html?id='+id,{waitUntil:'domcontentloaded',timeout:30000});
+                  await page.locator('.substrato-visual-v4').waitFor({timeout:20000});
+                  result.alternativas=await page.locator('.substratos-recomendados-v4 li').count();
+                  result.galeriaVazia=await page.locator('.galeria-v2-sem-foto').count();
+                  await page.evaluate(async()=>{for(const i of document.images)i.loading='eager';await Promise.race([Promise.allSettled([...document.images].map(i=>i.decode())),new Promise(r=>setTimeout(r,15000))]);});
+                  result.imagensFalhas=await page.locator('img').evaluateAll(imgs=>imgs.filter(i=>!i.complete||!i.naturalWidth).map(i=>i.src));
+                  await page.screenshot({path:'auditoria-visual/'+id+'-'+mode+'.png',fullPage:true,timeout:20000});
+                  result.ok=result.alternativas===2 && result.galeriaVazia===(id==='maxillaria-imbricata'?1:0)&&!errors.length&&!result.imagensFalhas.length;
+                }catch(e){result.falha=e.message;result.ok=false;}
+                report.push(result);await page.close();
+              }
+            }
+            await browser.close();
+            fs.writeFileSync('auditoria-visual/relatorio.json',JSON.stringify(report,null,2));
+            console.log(JSON.stringify(report,null,2));
+            if(report.some(r=>!r.ok))process.exitCode=1;
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lote-4-v49-inspecao
+          path: auditoria-visual/
+          if-no-files-found: warn
